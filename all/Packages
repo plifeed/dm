@@ -743,8 +743,8 @@ Version: 1.53-20261007-git69+6ea9af10+6ea9af1ff9-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 61405f9637b2618dc1b99bf6ff3bc905
-SHA256sum: abc6078f2fe5bc4c78a6c5c104df1b292b25e5224f1897fee57c7aba9579d29d
+MD5Sum: ebac80d6a762c2aa8351d6b14a5633c3
+SHA256sum: 05b56eb9e0529678700a08fe8688d4a04d361a133059b7f21ca7a10cadec9e1d
 Size: 630
 Filename: enigma2-plugin-extensions-estalker-dbg_1.53-20261007-git69+6ea9af10+6ea9af1ff9-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
@@ -760,8 +760,8 @@ Recommends: enigma2-plugin-extensions-estalker (= 1.53-20261007-git69+6ea9af10+6
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 01dbdb7cf659272f2ea1516950006ae4
-SHA256sum: 1c5e859fe4624cdcb225b6dc205c79c6f002c3d03f1a77df052b0613832d41f8
+MD5Sum: bca6271bf3942192e5ff1fbd41d8a3a7
+SHA256sum: 16dec4f8618d46e1ee12e5ef27efdb6d0dcc65aae79b74b4179e0ec6d32595b8
 Size: 728
 Filename: enigma2-plugin-extensions-estalker-dev_1.53-20261007-git69+6ea9af10+6ea9af1ff9-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
@@ -776,9 +776,9 @@ Version: 1.53-20261007-git69+6ea9af10+6ea9af1ff9-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 491ae1226ab814a488132b0b6c11abd1
-SHA256sum: 3f44e1c254737d96a399395321d076090dbd8ee4c5b8069b7246550bde134426
-Size: 105562
+MD5Sum: 7519a0bb56d67713b9f057283b773e05
+SHA256sum: fa4870835235cbe8ae3256c9f6f8f47cad7bdd99dd73c3ebc64b4bf81478dc30
+Size: 105552
 Filename: enigma2-plugin-extensions-estalker-src_1.53-20261007-git69+6ea9af10+6ea9af1ff9-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
@@ -793,9 +793,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 28d65f130694cb2c4f535f3f8922f40b
-SHA256sum: 2dbc5040dc1b364eccb14d5aecc08e5b668ca46abf382dbf1f4dc80eb257b5cc
-Size: 3399616
+MD5Sum: 5408e019d9ae95e959c28909c1ed296d
+SHA256sum: d00069ead07416df7e635497e7dc8e9b9de8f5a1b651319562f2544123e1bb2c
+Size: 3399496
 Filename: enigma2-plugin-extensions-estalker_1.53-20261007-git69+6ea9af10+6ea9af1ff9-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
@@ -1126,14 +1126,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dbg
-Version: 5.67-20261014-git639+e518c090+e518c09003-r1
+Version: 5.68-20261017-git641+c6a20f70+c6a20f770a-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 816546085f0fccaea95a062a20022445
-SHA256sum: e0122e9cdac36b4aa356febe732783d96e6b37d8a0a904db6c2ab9d8c113ec73
-Size: 638
-Filename: enigma2-plugin-extensions-xstreamity-dbg_5.67-20261014-git639+e518c090+e518c09003-r1_all.ipk
+MD5Sum: 7e5f1b128730c7aa009bb6e14f350bbe
+SHA256sum: fec9cde968c72cf280ac96810de7c2d894848313ae193cd1faadbdee64ac2189
+Size: 636
+Filename: enigma2-plugin-extensions-xstreamity-dbg_5.68-20261017-git641+c6a20f70+c6a20f770a-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-xstreamity
@@ -1142,15 +1142,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dev
-Version: 5.67-20261014-git639+e518c090+e518c09003-r1
-Recommends: enigma2-plugin-extensions-xstreamity (= 5.67-20261014-git639+e518c090+e518c09003-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 5.68-20261017-git641+c6a20f70+c6a20f770a-r1
+Recommends: enigma2-plugin-extensions-xstreamity (= 5.68-20261017-git641+c6a20f70+c6a20f770a-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: e46905f3db7491c0d5e327d238bdb4f8
-SHA256sum: c916a87a5af4db15b12a10b71e4fa031797a4f314799c0b4d8327762adb43484
+MD5Sum: b3f251d503f66c8e8f377c9d0a734d7f
+SHA256sum: 20589d69e8cf59be454d73ac699078003ecf5604a3e592f05aabc05cce8670f0
 Size: 708
-Filename: enigma2-plugin-extensions-xstreamity-dev_5.67-20261014-git639+e518c090+e518c09003-r1_all.ipk
+Filename: enigma2-plugin-extensions-xstreamity-dev_5.68-20261017-git641+c6a20f70+c6a20f770a-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
 OE: enigma2-plugin-extensions-xstreamity
@@ -1159,14 +1159,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-src
-Version: 5.67-20261014-git639+e518c090+e518c09003-r1
+Version: 5.68-20261017-git641+c6a20f70+c6a20f770a-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 639c2b5e34a8050533d31213d16ae43a
-SHA256sum: e2821575224157058a2b314ce0c8b5996f8b3ab82052ac34c0f480150baea120
-Size: 122524
-Filename: enigma2-plugin-extensions-xstreamity-src_5.67-20261014-git639+e518c090+e518c09003-r1_all.ipk
+MD5Sum: ab8334b265062185ad0697898aa1a366
+SHA256sum: 7ba4fbf3879603c1d6fdc52d11b4efb8a59dd173acb592dbfd54a238b21b67c9
+Size: 122580
+Filename: enigma2-plugin-extensions-xstreamity-src_5.68-20261017-git641+c6a20f70+c6a20f770a-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
 OE: enigma2-plugin-extensions-xstreamity
@@ -1175,15 +1175,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity
-Version: 5.67-20261014-git639+e518c090+e518c09003-r1
+Version: 5.68-20261017-git641+c6a20f70+c6a20f770a-r1
 Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: fe7e5ab1887ca3167a4f7d1d028c8a7b
-SHA256sum: 44e3c57306553461e7a0443ace1286555ce700023903dfffea5bcb543ad17092
-Size: 8846936
-Filename: enigma2-plugin-extensions-xstreamity_5.67-20261014-git639+e518c090+e518c09003-r1_all.ipk
+MD5Sum: b8334faedbc6db75370c0c3951d07b4b
+SHA256sum: acbce0fb0d5c11dd3d44a2bc9411348c7eed191c6e8d5312f553a94a91e17e98
+Size: 8846838
+Filename: enigma2-plugin-extensions-xstreamity_5.68-20261017-git641+c6a20f70+c6a20f770a-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
 OE: enigma2-plugin-extensions-xstreamity
@@ -3156,6 +3156,71 @@ OE: enigma2-plugin-settings-morph883-motor
 License: LicenseRef-LICENSE-CLOSED
 Priority: optional
 
+Package: enigma2-plugin-skincomponents-kiddac-shared-skin-dbg
+Version: 1.15-git8+25a8e440+25a8e44ffb-r0
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 6d8de7f0a2ad67c90cacb5698e45b483
+SHA256sum: d7e5948870a541597772b6d2a6a52e752448159980e6cb315c7e26397bcc2bff
+Size: 626
+Filename: enigma2-plugin-skincomponents-kiddac-shared-skin-dbg_1.15-git8+25a8e440+25a8e44ffb-r0_all.ipk
+Source: enigma2-plugin-skincomponents-kiddac-shared-skin.bb
+Description: enigma2-plugin-skincomponents-kiddac-shared-skin version git-r0 - Debugging files
+OE: enigma2-plugin-skincomponents-kiddac-shared-skin
+HomePage: https://github.com/kiddac/shared-skin-components
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-kiddac-shared-skin-dev
+Version: 1.15-git8+25a8e440+25a8e44ffb-r0
+Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin (= 1.15-git8+25a8e440+25a8e44ffb-r0)
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 550d01b6ca95dd3377d39bcdd77f69d7
+SHA256sum: c2daba6fec0c7a493602b5ccb6b798564d91e2b065f9d0aab8584bd63a143ae0
+Size: 662
+Filename: enigma2-plugin-skincomponents-kiddac-shared-skin-dev_1.15-git8+25a8e440+25a8e44ffb-r0_all.ipk
+Source: enigma2-plugin-skincomponents-kiddac-shared-skin.bb
+Description: enigma2-plugin-skincomponents-kiddac-shared-skin version git-r0 - Development files
+OE: enigma2-plugin-skincomponents-kiddac-shared-skin
+HomePage: https://github.com/kiddac/shared-skin-components
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-kiddac-shared-skin-src
+Version: 1.15-git8+25a8e440+25a8e44ffb-r0
+Section: devel
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 41eec6174a752f9cfa252d79d9cdb62a
+SHA256sum: 6f3f45c9a98435e12f13acf23aec64682b696a84269680ea464844d659829caf
+Size: 10650
+Filename: enigma2-plugin-skincomponents-kiddac-shared-skin-src_1.15-git8+25a8e440+25a8e44ffb-r0_all.ipk
+Source: enigma2-plugin-skincomponents-kiddac-shared-skin.bb
+Description: enigma2-plugin-skincomponents-kiddac-shared-skin version git-r0 - Source files
+OE: enigma2-plugin-skincomponents-kiddac-shared-skin
+HomePage: https://github.com/kiddac/shared-skin-components
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-kiddac-shared-skin
+Version: 1.15-git8+25a8e440+25a8e44ffb-r0
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 484e79f48f6654c1a988d533e83873ca
+SHA256sum: 0f229fc38e094b169c0a2965e488edab54b0230e9f8857e317b42729c0e3c199
+Size: 24728
+Filename: enigma2-plugin-skincomponents-kiddac-shared-skin_1.15-git8+25a8e440+25a8e44ffb-r0_all.ipk
+Source: enigma2-plugin-skincomponents-kiddac-shared-skin.bb
+Description: enigma2-plugin-skincomponents-kiddac-shared-skin version git-r0
+OE: enigma2-plugin-skincomponents-kiddac-shared-skin
+HomePage: https://github.com/kiddac/shared-skin-components
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-skins-e2darkos-dbg
 Version: 1.0+git302+4493c9a0+4493c9a023-r0
 Section: devel
@@ -3201,6 +3266,147 @@ Source: enigma2-plugin-skins-e2darkos.bb
 Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0
 OE: enigma2-plugin-skins-e2darkos
 License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-kiddac-1080-onyx-dbg
+Version: 2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0
+Section: devel
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: 7580adc8f4b2dfd9c24b941fd419314b
+SHA256sum: c66bbbb9a5f142abe6244b128150ab9c2c65657a6f93d10b976a3e0e9bac30c9
+Size: 600
+Filename: enigma2-plugin-skins-kiddac-1080-onyx-dbg_2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0_all.ipk
+Source: enigma2-plugin-skins-kiddac-1080-onyx.bb
+Description: enigma2-plugin-skins-kiddac-1080-onyx version git-r0 - Debugging files
+OE: enigma2-plugin-skins-kiddac-1080-onyx
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-kiddac-1080-onyx-dev
+Version: 2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0
+Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-kiddac-1080-onyx (= 2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0)
+Section: devel
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: 28688026cceeb7ac56ad08d556fc0ef9
+SHA256sum: 170ca20936264e7970b36c131bead5a57fa4d0a7d13e8c0f61ae1a32a386cb24
+Size: 652
+Filename: enigma2-plugin-skins-kiddac-1080-onyx-dev_2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0_all.ipk
+Source: enigma2-plugin-skins-kiddac-1080-onyx.bb
+Description: enigma2-plugin-skins-kiddac-1080-onyx version git-r0 - Development files
+OE: enigma2-plugin-skins-kiddac-1080-onyx
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-kiddac-1080-onyx
+Version: 2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0
+Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
+Section: base
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: 851926d2914a48102c0a47fbb165d9b6
+SHA256sum: b7cc1c1beef8cefdf0101ffe392469a653d66ab117a219517043ef3066cf2586
+Size: 4792550
+Filename: enigma2-plugin-skins-kiddac-1080-onyx_2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0_all.ipk
+Source: enigma2-plugin-skins-kiddac-1080-onyx.bb
+Description: enigma2-plugin-skins-kiddac-1080-onyx version git-r0
+OE: enigma2-plugin-skins-kiddac-1080-onyx
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-kiddac-1080-slyk-q-dbg
+Version: 1.56.20260928-git26+582e8fa0+582e8fab56-r0
+Section: devel
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: a490302d82d74b1d5fcdcd40b9b35941
+SHA256sum: 805165d9f4c4f32ddff6b3ad450d521a8628fee068361c0a39f1060dbc4a1342
+Size: 594
+Filename: enigma2-plugin-skins-kiddac-1080-slyk-q-dbg_1.56.20260928-git26+582e8fa0+582e8fab56-r0_all.ipk
+Source: enigma2-plugin-skins-kiddac-1080-slyk-q.bb
+Description: enigma2-plugin-skins-kiddac-1080-slyk-q version git-r0 - Debugging files
+OE: enigma2-plugin-skins-kiddac-1080-slyk-q
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-kiddac-1080-slyk-q-dev
+Version: 1.56.20260928-git26+582e8fa0+582e8fab56-r0
+Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-kiddac-1080-slyk-q (= 1.56.20260928-git26+582e8fa0+582e8fab56-r0)
+Section: devel
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: d255b150909be82b3c8d33c5795b3d80
+SHA256sum: bb55d727cd55cb03a7fe218b1ab1551a72ca9e6e37d44afd6cde980b5e96c3b0
+Size: 650
+Filename: enigma2-plugin-skins-kiddac-1080-slyk-q-dev_1.56.20260928-git26+582e8fa0+582e8fab56-r0_all.ipk
+Source: enigma2-plugin-skins-kiddac-1080-slyk-q.bb
+Description: enigma2-plugin-skins-kiddac-1080-slyk-q version git-r0 - Development files
+OE: enigma2-plugin-skins-kiddac-1080-slyk-q
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-kiddac-1080-slyk-q
+Version: 1.56.20260928-git26+582e8fa0+582e8fab56-r0
+Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
+Section: base
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: f3397b6a5e65d77919f0a9f2f41ec9ed
+SHA256sum: 017e50e8c240df8da1ffb7999b6f13567f1318e9c973a4f8fe4a3da1f9f6db1c
+Size: 2811228
+Filename: enigma2-plugin-skins-kiddac-1080-slyk-q_1.56.20260928-git26+582e8fa0+582e8fab56-r0_all.ipk
+Source: enigma2-plugin-skins-kiddac-1080-slyk-q.bb
+Description: enigma2-plugin-skins-kiddac-1080-slyk-q version git-r0
+OE: enigma2-plugin-skins-kiddac-1080-slyk-q
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-kiddac-1080-slyk-r19-dbg
+Version: 2.35_20260928-git24+a008a340+a008a34cc5-r0
+Section: devel
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: 78733504d49527d2f8ced97622a953df
+SHA256sum: fb737bd4e13c713b53d00d3c93fecb4d5145b93a5d18946a55e7b257e7202853
+Size: 602
+Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19-dbg_2.35_20260928-git24+a008a340+a008a34cc5-r0_all.ipk
+Source: enigma2-plugin-skins-kiddac-1080-slyk-r19.bb
+Description: enigma2-plugin-skins-kiddac-1080-slyk-r19 version git-r0 - Debugging files
+OE: enigma2-plugin-skins-kiddac-1080-slyk-r19
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-kiddac-1080-slyk-r19-dev
+Version: 2.35_20260928-git24+a008a340+a008a34cc5-r0
+Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19 (= 2.35_20260928-git24+a008a340+a008a34cc5-r0)
+Section: devel
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: 7d0b404bb16b0275d548c0872b41672a
+SHA256sum: a3cedf65414f64faf71ba1a9ac7505c1224070d4c4ad7b44c5647788cfbcb954
+Size: 656
+Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19-dev_2.35_20260928-git24+a008a340+a008a34cc5-r0_all.ipk
+Source: enigma2-plugin-skins-kiddac-1080-slyk-r19.bb
+Description: enigma2-plugin-skins-kiddac-1080-slyk-r19 version git-r0 - Development files
+OE: enigma2-plugin-skins-kiddac-1080-slyk-r19
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-kiddac-1080-slyk-r19
+Version: 2.35_20260928-git24+a008a340+a008a34cc5-r0
+Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
+Section: base
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: d74d06732424d55f670a4c6715dec8db
+SHA256sum: 16a119ae94b23b3493f30ed03f53ae26ae82e9331ea7540b526557d168a6ed9e
+Size: 2591096
+Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19_2.35_20260928-git24+a008a340+a008a34cc5-r0_all.ipk
+Source: enigma2-plugin-skins-kiddac-1080-slyk-r19.bb
+Description: enigma2-plugin-skins-kiddac-1080-slyk-r19 version git-r0
+OE: enigma2-plugin-skins-kiddac-1080-slyk-r19
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-magic

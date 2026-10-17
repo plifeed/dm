@@ -49,6 +49,40 @@ Size: 12071182
 Filename: enigma2-plugin-extensions-mediastream_20260607-python3.14-r0_cortexa15hf-neon-vfpv4.ipk
 Description: MediaStream Plugin
 
+Package: enigma2-plugin-extensions-myhybridiptv
+Version: 3.0-r1
+Description: MyHybridIPTV Player plugin for Enigma2
+ Enigma2 plugin supporting Stalker, Xtream, and M3U playlist streaming
+Section: base
+Priority: optional
+Maintainer: openATV
+License: CLOSED
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-myhybridiptv
+Homepage: https://github.com/opendreambox/opendreambox
+Depends: libc6 (>= 2.44), python3-core
+Source: enigma2-plugin-extensions-myhybridiptv_2.0.bb
+MD5Sum: fca3a975112c9a06a7fbcd7c29b96e8c
+SHA256sum: e0d0d72d2d90360cb5bcd5a0b61e813d30ac01090f8d84e54052bf9e862c7977
+Size: 20083188
+Filename: enigma2-plugin-extensions-myhybridiptv_3.0-r1_cortexa15hf-neon-vfpv4_py3.14.ipk
+
+Package: enigma2-plugin-extensions-wireguard-vpn
+Version: 16.2
+Section: enigma2
+Priority: optional
+Architecture: all
+Maintainer: madhouse
+Depends: wireguard-tools, wireguard-tools-bash-completion, kernel-module-wireguard, openresolv, alsa-utils-aplay, iptables, python3-pillow
+Source: https://github.com/m4dhouse
+OE: Enigma2 Plugin
+License: open
+MD5Sum: 5dd87ec40f3c8357542f68d4f82941dd
+SHA256sum: 4cc19e7e68dc1432993f0e570dc91755af2dbebca5e3e4b445053639d980013b
+Size: 3087682
+Filename: enigma2-plugin-extensions-wireguard-vpn_16.2_all.ipk
+Description: Protect your device with Wireguard
+
 Package: enigma2-plugin-skins-madmax-impossible
 Version: 3.4
 Section: base
@@ -65,6 +99,22 @@ SHA256sum: 4e169680e8c5e0a58335b873c1df6bbf3ce347d589e545da734be74dfbaa8a32
 Size: 6265110
 Filename: enigma2-plugin-skins-madmax-impossible_3.4_all.ipk
 Description: Skin - MadMax Impossible FHD
+
+Package: enigma2-plugin-skins-kiddac-1080-vskin
+Version: 2.27.20260928
+Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
+Section: base
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: 962047549ac4aae68ccff3a837b6f81e
+SHA256sum: fe6c8d819cbe9728425efc8814ce0346a362daf6234ee12c3930da05d4b14b9a
+Size: 1115630
+Filename: enigma2-plugin-skins-vskin-1080_2.27.20260928_all.ipk
+Source: enigma2-plugin-skins-kiddac-1080-vskin.bb
+Description: enigma2-plugin-skins-kiddac-1080-vskin version git-r0
+OE: enigma2-plugin-skins-kiddac-1080-vskin
+License: GPL-2.0-or-later
+Priority: optional
 
 Package: nodejs
 Version: 24.20.0-r0
