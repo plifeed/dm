@@ -494,6 +494,53 @@ OE: enigma2-plugin-drivers-s2-usb-dvbsky-s960
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-acherence-dbg
+Version: 1.4-git123+4becaa70+4becaa7a6e-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: fdd53992c2b9e4a74f03408af6fae19d
+SHA256sum: 84457e6f06769d66f59c96dcb1e18328bfe06ff8d107595a3e9d368b09738fa0
+Size: 578
+Filename: enigma2-plugin-extensions-acherence-dbg_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
+Source: enigma2-plugin-extensions-acherence.bb
+Description: OpenScript for Enigma2 - Debugging files
+OE: enigma2-plugin-extensions-acherence
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-acherence-dev
+Version: 1.4-git123+4becaa70+4becaa7a6e-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-acherence (= 1.4-git123+4becaa70+4becaa7a6e-r0), python3-core-dev
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 65e4f81af9f9c9244c915d7fb9161e30
+SHA256sum: 2c57075e42f1e9b5cdf6a0ea6d8dbc39727018d9276dafc89998ab1272e66cb4
+Size: 630
+Filename: enigma2-plugin-extensions-acherence-dev_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
+Source: enigma2-plugin-extensions-acherence.bb
+Description: OpenScript for Enigma2 - Development files
+OE: enigma2-plugin-extensions-acherence
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-acherence
+Version: 1.4-git123+4becaa70+4becaa7a6e-r0
+Depends: enigma2, python3-core
+Section: base
+Architecture: all
+Maintainer: Lululla
+MD5Sum: fe93d6dc9f554e8c794d5efa0145907b
+SHA256sum: f6927d9645d20bc7d8f0230704a3e44b30325685f1c264a009d32348e5827f6b
+Size: 163234
+Filename: enigma2-plugin-extensions-acherence_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
+Source: enigma2-plugin-extensions-acherence.bb
+Description: OpenScript for Enigma2
+OE: enigma2-plugin-extensions-acherence
+License: GPL-2.0-or-later
+Priority: required
+
 Package: enigma2-plugin-extensions-autobackup-dbg
 Version: 2.0+git303+2cb8d430+2cb8d4393b-r2
 Section: devel
@@ -919,6 +966,52 @@ HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-linuxsatpanel-dbg
+Version: 3.0.6-git506+f1f58c10+f1f58c13ef-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 6bbd10fc71e51c17d99b85004c5b3df6
+SHA256sum: 2255e44723d644b91e66ea28d92f2a0a25d3f57c54c2d17c5fa93182ec2a06d0
+Size: 584
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.6-git506+f1f58c10+f1f58c13ef-r0_all.ipk
+Source: enigma2-plugin-extensions-linuxsatpanel.bb
+Description: linuxsat Panel Addon - Debugging files
+OE: enigma2-plugin-extensions-linuxsatpanel
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-linuxsatpanel-dev
+Version: 3.0.6-git506+f1f58c10+f1f58c13ef-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.6-git506+f1f58c10+f1f58c13ef-r0)
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 7422652d431d9293b387c469eebec391
+SHA256sum: 90a5a6550441deea4624baa7244badda8c50137f19ed2b0f1fa12e479753be6f
+Size: 620
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.6-git506+f1f58c10+f1f58c13ef-r0_all.ipk
+Source: enigma2-plugin-extensions-linuxsatpanel.bb
+Description: linuxsat Panel Addon - Development files
+OE: enigma2-plugin-extensions-linuxsatpanel
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-linuxsatpanel
+Version: 3.0.6-git506+f1f58c10+f1f58c13ef-r0
+Section: base
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 4f9dd14712a090b0f94f3efb2fe7bf7f
+SHA256sum: 96be1fd7a73679b74924622644d59a617deba7e521bac34e98b9d41b8aff855c
+Size: 15106778
+Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.6-git506+f1f58c10+f1f58c13ef-r0_all.ipk
+Source: enigma2-plugin-extensions-linuxsatpanel.bb
+Description: linuxsat Panel Addon
+OE: enigma2-plugin-extensions-linuxsatpanel
+License: GPL-2.0-or-later
+Priority: required
+
 Package: enigma2-plugin-extensions-plutotv-dbg
 Version: 1.1+git123+44da6540+44da654055-r0
 Section: devel
@@ -967,64 +1060,188 @@ OE: enigma2-plugin-extensions-plutotv
 License: GPL-2.0-only
 Priority: optional
 
-Package: enigma2-plugin-extensions-vavoo-dbg
-Version: 1.0+git1181+71cb6640+71cb664bb6-r0
+Package: enigma2-plugin-extensions-tvgarden-dbg
+Version: 3.0-git227+b41a07f0+b41a07fe5d-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 5a24051603d8b8e4986479b0405ee594
-SHA256sum: 297ea3da69dede1fc77ad948c0666b1a144da20756cb0925176c425c00b1934f
-Size: 568
-Filename: enigma2-plugin-extensions-vavoo-dbg_1.0+git1181+71cb6640+71cb664bb6-r0_all.ipk
+MD5Sum: f4f7017d23e8dcd4120622bb63e33953
+SHA256sum: 9abaf87038555d65f08376fe486cee58ab6982a9b41bc8138e2dad53a4a1167f
+Size: 582
+Filename: enigma2-plugin-extensions-tvgarden-dbg_3.0-git227+b41a07f0+b41a07fe5d-r0_all.ipk
+Source: enigma2-plugin-extensions-tvgarden.bb
+Description: TV Garden Plugin for Enigma2 - Debugging files
+OE: enigma2-plugin-extensions-tvgarden
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-tvgarden-dev
+Version: 3.0-git227+b41a07f0+b41a07fe5d-r0
+Recommends: ca-certificates-dev, enigma2-dev, enigma2-plugin-extensions-tvgarden (= 3.0-git227+b41a07f0+b41a07fe5d-r0), python3-core-dev, python3-yt-dlp-dev
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 8de4691fcd15fa11f33cde18afbe6502
+SHA256sum: ac9ff157a395f7eb956dd33371db9f8bbc6a61582b888e9576cdfe3054a577c0
+Size: 656
+Filename: enigma2-plugin-extensions-tvgarden-dev_3.0-git227+b41a07f0+b41a07fe5d-r0_all.ipk
+Source: enigma2-plugin-extensions-tvgarden.bb
+Description: TV Garden Plugin for Enigma2 - Development files
+OE: enigma2-plugin-extensions-tvgarden
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-tvgarden-src
+Version: 3.0-git227+b41a07f0+b41a07fe5d-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: d869fca665ffbc470fef727e86783fca
+SHA256sum: c1c585b2980ebd2e1f622eb07e28a15750a9a41c94278e874b79377735403580
+Size: 82580
+Filename: enigma2-plugin-extensions-tvgarden-src_3.0-git227+b41a07f0+b41a07fe5d-r0_all.ipk
+Source: enigma2-plugin-extensions-tvgarden.bb
+Description: TV Garden Plugin for Enigma2 - Source files
+OE: enigma2-plugin-extensions-tvgarden
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-tvgarden
+Version: 3.0-git227+b41a07f0+b41a07fe5d-r0
+Depends: ca-certificates, enigma2, python3-core, python3-yt-dlp
+Section: base
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 3b29bee5e44d1606acaf0814ae8f4eaf
+SHA256sum: 633cec76b4c362452bd633d8cfec4da2cb053c1df1571b33f6474f82920fefd7
+Size: 1070180
+Filename: enigma2-plugin-extensions-tvgarden_3.0-git227+b41a07f0+b41a07fe5d-r0_all.ipk
+Source: enigma2-plugin-extensions-tvgarden.bb
+Description: TV Garden Plugin for Enigma2
+OE: enigma2-plugin-extensions-tvgarden
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-tvmanager-dbg
+Version: 3.4-git432+f4f2c8d0+f4f2c8d02e-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 11179ceaff6e56c6fd1e7d187bde1ec8
+SHA256sum: 105934e067a8f2b7389ed9e2ba4383d09e58a119f9f5cef79471eefbf9e9fb08
+Size: 592
+Filename: enigma2-plugin-extensions-tvmanager-dbg_3.4-git432+f4f2c8d0+f4f2c8d02e-r0_all.ipk
+Source: enigma2-plugin-extensions-tvmanager.bb
+Description: tvManager (Softcam Manager) Enigma2 Plugin - Debugging files
+OE: enigma2-plugin-extensions-tvmanager
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-tvmanager-dev
+Version: 3.4-git432+f4f2c8d0+f4f2c8d02e-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-tvmanager (= 3.4-git432+f4f2c8d0+f4f2c8d02e-r0), python3-core-dev
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 2f66f64822adc97aa75ec9620e2ba556
+SHA256sum: 783e266dd0f30ceb30af6f05f3d4b0ad9fba0823d0a169d7507466fbe840909c
+Size: 644
+Filename: enigma2-plugin-extensions-tvmanager-dev_3.4-git432+f4f2c8d0+f4f2c8d02e-r0_all.ipk
+Source: enigma2-plugin-extensions-tvmanager.bb
+Description: tvManager (Softcam Manager) Enigma2 Plugin - Development files
+OE: enigma2-plugin-extensions-tvmanager
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-tvmanager-src
+Version: 3.4-git432+f4f2c8d0+f4f2c8d02e-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 27f4c57950b3c067534eb7a466203013
+SHA256sum: 60aec7a32b2eb129f203b8647776324c70811d4861bff9f17b9c9d3659ca9f93
+Size: 99210
+Filename: enigma2-plugin-extensions-tvmanager-src_3.4-git432+f4f2c8d0+f4f2c8d02e-r0_all.ipk
+Source: enigma2-plugin-extensions-tvmanager.bb
+Description: tvManager (Softcam Manager) Enigma2 Plugin - Source files
+OE: enigma2-plugin-extensions-tvmanager
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-tvmanager
+Version: 3.4-git432+f4f2c8d0+f4f2c8d02e-r0
+Depends: enigma2, python3-core
+Section: base
+Architecture: all
+Maintainer: Lululla
+MD5Sum: c2a037e599336ff2988696b7139a82e9
+SHA256sum: 40007c38d81d782c14560af57613225760da82ec6f92767c2801614f031cff73
+Size: 1717754
+Filename: enigma2-plugin-extensions-tvmanager_3.4-git432+f4f2c8d0+f4f2c8d02e-r0_all.ipk
+Source: enigma2-plugin-extensions-tvmanager.bb
+Description: tvManager (Softcam Manager) Enigma2 Plugin
+OE: enigma2-plugin-extensions-tvmanager
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-vavoo-dbg
+Version: 1.88-git1181+71cb6640+71cb664bb6-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: c0afc8bc433c42d3d0f373ad0c9e6666
+SHA256sum: 45d52b29d97da5f903ec29a04593551b830fdfa42c19751d484055631db873c4
+Size: 586
+Filename: enigma2-plugin-extensions-vavoo-dbg_1.88-git1181+71cb6640+71cb664bb6-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
-Description: Lululla - Debugging files
+Description: Vavoo Stream Live Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-vavoo
 License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dev
-Version: 1.0+git1181+71cb6640+71cb664bb6-r0
-Recommends: enigma2-plugin-extensions-vavoo (= 1.0+git1181+71cb6640+71cb664bb6-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
+Version: 1.88-git1181+71cb6640+71cb664bb6-r0
+Recommends: enigma2-plugin-extensions-vavoo (= 1.88-git1181+71cb6640+71cb664bb6-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 3b414e08b53f9aa8a7bb505b6f9cec5e
-SHA256sum: 5dd4a3fb2f17a8b4b13247b5e8942ba7cec7b36130c30c98cd7f65fbe54ebf8d
-Size: 646
-Filename: enigma2-plugin-extensions-vavoo-dev_1.0+git1181+71cb6640+71cb664bb6-r0_all.ipk
+MD5Sum: 72c1d2d6dc2f5d3c1b5add3421b785b6
+SHA256sum: 23202e6b5beebdc7b49ae6b9e298f1e6168f661865fdb4da23d743be8b686e89
+Size: 664
+Filename: enigma2-plugin-extensions-vavoo-dev_1.88-git1181+71cb6640+71cb664bb6-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
-Description: Lululla - Development files
+Description: Vavoo Stream Live Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-vavoo
 License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-src
-Version: 1.0+git1181+71cb6640+71cb664bb6-r0
+Version: 1.88-git1181+71cb6640+71cb664bb6-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: a1f1bd1dca3c4fbc7750c7a346bb57b5
-SHA256sum: cd00ff26c67b8abb26ed1478f418ccc31d99172409813285f17f5f85520ab257
-Size: 160228
-Filename: enigma2-plugin-extensions-vavoo-src_1.0+git1181+71cb6640+71cb664bb6-r0_all.ipk
+MD5Sum: 056f7ce8386eeef69140b1e9fc282388
+SHA256sum: b09dc1df7ada7663e8efec9588f4342a791e8adddea9fc82dd7ae457bd8f4a52
+Size: 160246
+Filename: enigma2-plugin-extensions-vavoo-src_1.88-git1181+71cb6640+71cb664bb6-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
-Description: Lululla - Source files
+Description: Vavoo Stream Live Enigma2 Plugin - Source files
 OE: enigma2-plugin-extensions-vavoo
 License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.0+git1181+71cb6640+71cb664bb6-r0
+Version: 1.88-git1181+71cb6640+71cb664bb6-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 0f9c5607f5f3ebe22832b6d00db7296f
-SHA256sum: 6fc322c63cf987ace08ac43bb89a9f8086482ca2a4df9b71cd7aed14ef75e35f
-Size: 9913048
-Filename: enigma2-plugin-extensions-vavoo_1.0+git1181+71cb6640+71cb664bb6-r0_all.ipk
+MD5Sum: 83dbf7a6a7d943c5d2ee5037e133b28c
+SHA256sum: 176fdb56fd3c3de1215e0bcd871886e2ace7f123fb4fa78b010dff9b671155fc
+Size: 9394372
+Filename: enigma2-plugin-extensions-vavoo_1.88-git1181+71cb6640+71cb664bb6-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
-Description: Lululla
+Description: Vavoo Stream Live Enigma2 Plugin
 OE: enigma2-plugin-extensions-vavoo
 License: GPL-2.0-or-later
 Priority: required
@@ -3161,12 +3378,12 @@ Version: 1.15-git8+25a8e440+25a8e44ffb-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 6d8de7f0a2ad67c90cacb5698e45b483
-SHA256sum: d7e5948870a541597772b6d2a6a52e752448159980e6cb315c7e26397bcc2bff
-Size: 626
+MD5Sum: 29c03937e4974c9ecbe1cddbe85420bf
+SHA256sum: 57310eb2b43f7b7a07aff9c4352c83b7dbef83ec0d4855db79e2ad3a59afa3cc
+Size: 618
 Filename: enigma2-plugin-skincomponents-kiddac-shared-skin-dbg_1.15-git8+25a8e440+25a8e44ffb-r0_all.ipk
 Source: enigma2-plugin-skincomponents-kiddac-shared-skin.bb
-Description: enigma2-plugin-skincomponents-kiddac-shared-skin version git-r0 - Debugging files
+Description: Shared component for skins by KiddaC - Debugging files
 OE: enigma2-plugin-skincomponents-kiddac-shared-skin
 HomePage: https://github.com/kiddac/shared-skin-components
 License: GPL-2.0-or-later
@@ -3178,12 +3395,12 @@ Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin (= 1.15-git8+25a8e4
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 550d01b6ca95dd3377d39bcdd77f69d7
-SHA256sum: c2daba6fec0c7a493602b5ccb6b798564d91e2b065f9d0aab8584bd63a143ae0
-Size: 662
+MD5Sum: 61b445e23e1ffc26d9e4e2e15ebbab64
+SHA256sum: e519f75160912b56d8f951ebf531029063fb3c7e69bab2c627f1668f60bdbcc5
+Size: 652
 Filename: enigma2-plugin-skincomponents-kiddac-shared-skin-dev_1.15-git8+25a8e440+25a8e44ffb-r0_all.ipk
 Source: enigma2-plugin-skincomponents-kiddac-shared-skin.bb
-Description: enigma2-plugin-skincomponents-kiddac-shared-skin version git-r0 - Development files
+Description: Shared component for skins by KiddaC - Development files
 OE: enigma2-plugin-skincomponents-kiddac-shared-skin
 HomePage: https://github.com/kiddac/shared-skin-components
 License: GPL-2.0-or-later
@@ -3194,12 +3411,12 @@ Version: 1.15-git8+25a8e440+25a8e44ffb-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 41eec6174a752f9cfa252d79d9cdb62a
-SHA256sum: 6f3f45c9a98435e12f13acf23aec64682b696a84269680ea464844d659829caf
-Size: 10650
+MD5Sum: 2680d8f66466af4389c2c085474752a9
+SHA256sum: bfd845c60fd49eede565c54be651f09d7db9c931196e0470f24214b5e437b06f
+Size: 10640
 Filename: enigma2-plugin-skincomponents-kiddac-shared-skin-src_1.15-git8+25a8e440+25a8e44ffb-r0_all.ipk
 Source: enigma2-plugin-skincomponents-kiddac-shared-skin.bb
-Description: enigma2-plugin-skincomponents-kiddac-shared-skin version git-r0 - Source files
+Description: Shared component for skins by KiddaC - Source files
 OE: enigma2-plugin-skincomponents-kiddac-shared-skin
 HomePage: https://github.com/kiddac/shared-skin-components
 License: GPL-2.0-or-later
@@ -3210,12 +3427,12 @@ Version: 1.15-git8+25a8e440+25a8e44ffb-r0
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 484e79f48f6654c1a988d533e83873ca
-SHA256sum: 0f229fc38e094b169c0a2965e488edab54b0230e9f8857e317b42729c0e3c199
-Size: 24728
+MD5Sum: c379fd05fa464a71f85c8904b0ffd394
+SHA256sum: 5ad556ea8c3ef86bf1d398d8d1f9705c2afc0880f9b091d3c3d8d7615158fa56
+Size: 24718
 Filename: enigma2-plugin-skincomponents-kiddac-shared-skin_1.15-git8+25a8e440+25a8e44ffb-r0_all.ipk
 Source: enigma2-plugin-skincomponents-kiddac-shared-skin.bb
-Description: enigma2-plugin-skincomponents-kiddac-shared-skin version git-r0
+Description: Shared component for skins by KiddaC
 OE: enigma2-plugin-skincomponents-kiddac-shared-skin
 HomePage: https://github.com/kiddac/shared-skin-components
 License: GPL-2.0-or-later
@@ -3226,12 +3443,12 @@ Version: 1.0+git302+4493c9a0+4493c9a023-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 58065ccea1d0e0fee58eb58475652b93
-SHA256sum: b73e2f6aaed203f96a5f8f1acddc864c84deed9fa7ef209e78f756b916462371
+MD5Sum: a908fadaf7bd0fae50f21370f4942e4e
+SHA256sum: c860011035132aba6b37e9b4ac902fc388510ccab0b2970f820bdc95e5efffc4
 Size: 598
 Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git302+4493c9a0+4493c9a023-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
-Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0 - Debugging files
+Description: Skin - E2-DarkOS-FHD - Debugging files
 OE: enigma2-plugin-skins-e2darkos
 License: GPL-3.0-only
 Priority: optional
@@ -3242,12 +3459,12 @@ Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git302+4493c9a0+4493c9a023-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 986eab8d4866b6f1fad11d1bf529ee62
-SHA256sum: b9fcbee6a28a296ff0d387100e730dfc39d750be7623123e5cf450747c62203a
+MD5Sum: 87de75ac35564ca6408ce2dcf9475dc2
+SHA256sum: 038cbc7aa542cd4f3ea752fec67637adbbdf36816a3732c469511a923f2815d2
 Size: 634
 Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git302+4493c9a0+4493c9a023-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
-Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0 - Development files
+Description: Skin - E2-DarkOS-FHD - Development files
 OE: enigma2-plugin-skins-e2darkos
 License: GPL-3.0-only
 Priority: optional
@@ -3258,12 +3475,12 @@ Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: cd5a23655c64802b985a541459179721
-SHA256sum: e491069c111cd4708ed605d40c49f7832775c1335574b4ebd2cf407336bdff59
-Size: 3316364
+MD5Sum: 0e40aa3ff873e3d86dec0b7cb71701ea
+SHA256sum: fdd2a55ed8be841ad47e3421bf5cbf4ebaaa7664fcb8445870b975665c4608ba
+Size: 3316362
 Filename: enigma2-plugin-skins-e2darkos_1.0+git302+4493c9a0+4493c9a023-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
-Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0
+Description: Skin - E2-DarkOS-FHD
 OE: enigma2-plugin-skins-e2darkos
 License: GPL-3.0-only
 Priority: optional
@@ -3273,12 +3490,12 @@ Version: 2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0
 Section: devel
 Architecture: all
 Maintainer: Kiddac
-MD5Sum: 7580adc8f4b2dfd9c24b941fd419314b
-SHA256sum: c66bbbb9a5f142abe6244b128150ab9c2c65657a6f93d10b976a3e0e9bac30c9
-Size: 600
+MD5Sum: 110ca90c7c3c23c2003777329ca1bf28
+SHA256sum: cdbd7d40f34d7a66fcb43df5f429dc5e0e0a57642f1a602ccdf7f4d0a09a2bbd
+Size: 598
 Filename: enigma2-plugin-skins-kiddac-1080-onyx-dbg_2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0_all.ipk
 Source: enigma2-plugin-skins-kiddac-1080-onyx.bb
-Description: enigma2-plugin-skins-kiddac-1080-onyx version git-r0 - Debugging files
+Description: Skin - Slyk-Onyx-1080-FHD - Debugging files
 OE: enigma2-plugin-skins-kiddac-1080-onyx
 License: GPL-2.0-or-later
 Priority: optional
@@ -3289,12 +3506,12 @@ Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin
 Section: devel
 Architecture: all
 Maintainer: Kiddac
-MD5Sum: 28688026cceeb7ac56ad08d556fc0ef9
-SHA256sum: 170ca20936264e7970b36c131bead5a57fa4d0a7d13e8c0f61ae1a32a386cb24
-Size: 652
+MD5Sum: 2cde231e226fe91fb6a9283fd320593b
+SHA256sum: 6b7018274bddc0031596a8c807e015920cebd4d555d4bcb32a785a2448b77357
+Size: 654
 Filename: enigma2-plugin-skins-kiddac-1080-onyx-dev_2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0_all.ipk
 Source: enigma2-plugin-skins-kiddac-1080-onyx.bb
-Description: enigma2-plugin-skins-kiddac-1080-onyx version git-r0 - Development files
+Description: Skin - Slyk-Onyx-1080-FHD - Development files
 OE: enigma2-plugin-skins-kiddac-1080-onyx
 License: GPL-2.0-or-later
 Priority: optional
@@ -3305,12 +3522,12 @@ Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
 Section: base
 Architecture: all
 Maintainer: Kiddac
-MD5Sum: 851926d2914a48102c0a47fbb165d9b6
-SHA256sum: b7cc1c1beef8cefdf0101ffe392469a653d66ab117a219517043ef3066cf2586
+MD5Sum: bfbd8111810deb8bf5c6cd0231f80cbc
+SHA256sum: a9c1ef191071133d4602d73c6649e315a1949838f276e18a67506d9e7cbd487c
 Size: 4792550
 Filename: enigma2-plugin-skins-kiddac-1080-onyx_2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0_all.ipk
 Source: enigma2-plugin-skins-kiddac-1080-onyx.bb
-Description: enigma2-plugin-skins-kiddac-1080-onyx version git-r0
+Description: Skin - Slyk-Onyx-1080-FHD
 OE: enigma2-plugin-skins-kiddac-1080-onyx
 License: GPL-2.0-or-later
 Priority: optional
@@ -3320,12 +3537,12 @@ Version: 1.56.20260928-git26+582e8fa0+582e8fab56-r0
 Section: devel
 Architecture: all
 Maintainer: Kiddac
-MD5Sum: a490302d82d74b1d5fcdcd40b9b35941
-SHA256sum: 805165d9f4c4f32ddff6b3ad450d521a8628fee068361c0a39f1060dbc4a1342
+MD5Sum: a5b1f8b120022907fa2b9634fcf73d34
+SHA256sum: 0ac00c2e4bcf92d1a9df0929a2982c10eb60ef8cc728ab42f971d336f2e0056e
 Size: 594
 Filename: enigma2-plugin-skins-kiddac-1080-slyk-q-dbg_1.56.20260928-git26+582e8fa0+582e8fab56-r0_all.ipk
 Source: enigma2-plugin-skins-kiddac-1080-slyk-q.bb
-Description: enigma2-plugin-skins-kiddac-1080-slyk-q version git-r0 - Debugging files
+Description: Skin - Slyk-q-1080-FHD - Debugging files
 OE: enigma2-plugin-skins-kiddac-1080-slyk-q
 License: GPL-2.0-or-later
 Priority: optional
@@ -3336,12 +3553,12 @@ Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin
 Section: devel
 Architecture: all
 Maintainer: Kiddac
-MD5Sum: d255b150909be82b3c8d33c5795b3d80
-SHA256sum: bb55d727cd55cb03a7fe218b1ab1551a72ca9e6e37d44afd6cde980b5e96c3b0
+MD5Sum: c5124f188092185272dd9e3542102101
+SHA256sum: d13451f5f49e36a92f1c294c082f3c4a692efcb0e80c3a20ec1e54a8948fa427
 Size: 650
 Filename: enigma2-plugin-skins-kiddac-1080-slyk-q-dev_1.56.20260928-git26+582e8fa0+582e8fab56-r0_all.ipk
 Source: enigma2-plugin-skins-kiddac-1080-slyk-q.bb
-Description: enigma2-plugin-skins-kiddac-1080-slyk-q version git-r0 - Development files
+Description: Skin - Slyk-q-1080-FHD - Development files
 OE: enigma2-plugin-skins-kiddac-1080-slyk-q
 License: GPL-2.0-or-later
 Priority: optional
@@ -3352,12 +3569,12 @@ Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
 Section: base
 Architecture: all
 Maintainer: Kiddac
-MD5Sum: f3397b6a5e65d77919f0a9f2f41ec9ed
-SHA256sum: 017e50e8c240df8da1ffb7999b6f13567f1318e9c973a4f8fe4a3da1f9f6db1c
+MD5Sum: 2125e2af7b380e87d08f22e0b5e365cf
+SHA256sum: 848ea92c0df657c05468181fe4aa6bb49508e7c7748dd9a30f435038f1394269
 Size: 2811228
 Filename: enigma2-plugin-skins-kiddac-1080-slyk-q_1.56.20260928-git26+582e8fa0+582e8fab56-r0_all.ipk
 Source: enigma2-plugin-skins-kiddac-1080-slyk-q.bb
-Description: enigma2-plugin-skins-kiddac-1080-slyk-q version git-r0
+Description: Skin - Slyk-q-1080-FHD
 OE: enigma2-plugin-skins-kiddac-1080-slyk-q
 License: GPL-2.0-or-later
 Priority: optional
@@ -3367,12 +3584,12 @@ Version: 2.35_20260928-git24+a008a340+a008a34cc5-r0
 Section: devel
 Architecture: all
 Maintainer: Kiddac
-MD5Sum: 78733504d49527d2f8ced97622a953df
-SHA256sum: fb737bd4e13c713b53d00d3c93fecb4d5145b93a5d18946a55e7b257e7202853
+MD5Sum: bc66c235c0412cb6dcfd42c51449a1e6
+SHA256sum: d7ff91dc72a28323ca60e42cc137376d933b42c4678320795dd442dae9ecd53a
 Size: 602
 Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19-dbg_2.35_20260928-git24+a008a340+a008a34cc5-r0_all.ipk
 Source: enigma2-plugin-skins-kiddac-1080-slyk-r19.bb
-Description: enigma2-plugin-skins-kiddac-1080-slyk-r19 version git-r0 - Debugging files
+Description: Skin - Slyk_1080_R19-FHD - Debugging files
 OE: enigma2-plugin-skins-kiddac-1080-slyk-r19
 License: GPL-2.0-or-later
 Priority: optional
@@ -3383,12 +3600,12 @@ Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin
 Section: devel
 Architecture: all
 Maintainer: Kiddac
-MD5Sum: 7d0b404bb16b0275d548c0872b41672a
-SHA256sum: a3cedf65414f64faf71ba1a9ac7505c1224070d4c4ad7b44c5647788cfbcb954
-Size: 656
+MD5Sum: 6fd39af54e1ac72903372b3b8689e8e0
+SHA256sum: 7f9790b414e8dde9d9aac140c52ac9bf67fd79353c513a81a66d7f79bc252887
+Size: 658
 Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19-dev_2.35_20260928-git24+a008a340+a008a34cc5-r0_all.ipk
 Source: enigma2-plugin-skins-kiddac-1080-slyk-r19.bb
-Description: enigma2-plugin-skins-kiddac-1080-slyk-r19 version git-r0 - Development files
+Description: Skin - Slyk_1080_R19-FHD - Development files
 OE: enigma2-plugin-skins-kiddac-1080-slyk-r19
 License: GPL-2.0-or-later
 Priority: optional
@@ -3399,12 +3616,12 @@ Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
 Section: base
 Architecture: all
 Maintainer: Kiddac
-MD5Sum: d74d06732424d55f670a4c6715dec8db
-SHA256sum: 16a119ae94b23b3493f30ed03f53ae26ae82e9331ea7540b526557d168a6ed9e
+MD5Sum: 39afac69f64b6b8893291028ce020a59
+SHA256sum: 4ec241cdd97f958037486f732f4f25b0bfc727d2a4c0710b068c5078d0a0e77d
 Size: 2591096
 Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19_2.35_20260928-git24+a008a340+a008a34cc5-r0_all.ipk
 Source: enigma2-plugin-skins-kiddac-1080-slyk-r19.bb
-Description: enigma2-plugin-skins-kiddac-1080-slyk-r19 version git-r0
+Description: Skin - Slyk_1080_R19-FHD
 OE: enigma2-plugin-skins-kiddac-1080-slyk-r19
 License: GPL-2.0-or-later
 Priority: optional
@@ -3415,12 +3632,12 @@ Depends: font-valis-enigma
 Section: base
 Architecture: all
 Maintainer: Mike Looijmans
-MD5Sum: 3e2b77dbd464413bbebdea4a8fdc22d6
-SHA256sum: e44cb7d8edbfa804a771b7ece33ab9fb3f38fd8d69b00402ba98549619f3c276
-Size: 123220
+MD5Sum: bac763107aecf6f1258fe5171874bf66
+SHA256sum: 4596ba4aedae4db7675768595b2806f3b7f8bfd1bed242ba910d1de8d9b2c131
+Size: 123216
 Filename: enigma2-plugin-skins-magic_1.0+git331+8b5fb840+8b5fb84750-r0_all.ipk
 Source: enigma2-plugin-skins-magic.bb
-Description: enigma2-plugin-skins-magic version 1.0+git-r0
+Description: Skin - Magic
 OE: enigma2-plugin-skins-magic
 License: GPL-2.0-or-later
 Priority: optional
@@ -3430,12 +3647,12 @@ Version: 2.6.1+git626+e2410ce0+e2410ce775-r0
 Section: devel
 Architecture: all
 Maintainer: pd1loi1
-MD5Sum: 3c367123b1a1568b9dd702f64846b6c4
-SHA256sum: f4d57c7ba0f5e987d156ecbe679da87cb5dc6145f3dd24fb6c4943461cffcfb2
+MD5Sum: d5697d561b0e8b0bba80e304c254832b
+SHA256sum: 204e5bd8908fb8ba67d1c6cffabf1236206d086c76fd8f8b82296473a2b93b05
 Size: 580
 Filename: enigma2-plugin-skins-pd1loi-hd-night-dbg_2.6.1+git626+e2410ce0+e2410ce775-r0_all.ipk
 Source: enigma2-plugin-skins-pd1loi-hd-night.bb
-Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+git-r0 - Debugging files
+Description: Skin - PD1LOI-HD - Debugging files
 OE: enigma2-plugin-skins-pd1loi-hd-night
 License: GPL-3.0-only
 Priority: optional
@@ -3446,12 +3663,12 @@ Recommends: enigma2-plugin-skins-pd1loi-hd-night (= 2.6.1+git626+e2410ce0+e2410c
 Section: devel
 Architecture: all
 Maintainer: pd1loi1
-MD5Sum: 9a362282180924e77e28ad7d19eb5db0
-SHA256sum: 532ef2ff3eac7e1e5ec590ba88cd5d5c766977934c011ce08a9ff463743d1f88
-Size: 620
+MD5Sum: 16a01c655a50bcbb3d57746bc61ee18c
+SHA256sum: 2570e8cc1811dfe340af362341b1ab198dc94c2cc361a666de957ecd65216926
+Size: 618
 Filename: enigma2-plugin-skins-pd1loi-hd-night-dev_2.6.1+git626+e2410ce0+e2410ce775-r0_all.ipk
 Source: enigma2-plugin-skins-pd1loi-hd-night.bb
-Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+git-r0 - Development files
+Description: Skin - PD1LOI-HD - Development files
 OE: enigma2-plugin-skins-pd1loi-hd-night
 License: GPL-3.0-only
 Priority: optional
@@ -3461,13 +3678,59 @@ Version: 2.6.1+git626+e2410ce0+e2410ce775-r0
 Section: base
 Architecture: all
 Maintainer: pd1loi1
-MD5Sum: fe4a47458eca96f7bffa1c197613e154
-SHA256sum: 4e62fa7210c676fbbcc6a24f0cda0d05825d1e8fa1443a6b2cf1086a738b83c0
-Size: 5192004
+MD5Sum: acc50ecbfa9ac2f661c7e1bdc8ae29ae
+SHA256sum: e3def71682f03239defbfffc0fbd7529775f3bfd248ad517144136818e2063fe
+Size: 5192002
 Filename: enigma2-plugin-skins-pd1loi-hd-night_2.6.1+git626+e2410ce0+e2410ce775-r0_all.ipk
 Source: enigma2-plugin-skins-pd1loi-hd-night.bb
-Description: enigma2-plugin-skins-pd1loi-hd-night version 2.6.1+git-r0
+Description: Skin - PD1LOI-HD
 OE: enigma2-plugin-skins-pd1loi-hd-night
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-fullnight-fhd-dbg
+Version: 1.0+git2+f292ae90+f292ae9d38-r0
+Section: devel
+Architecture: all
+Maintainer: me
+MD5Sum: 65f3ce5ee94fc4638b8d9528faf6f817
+SHA256sum: dea7b06befbb3a8caa02f35ae63f139cf61b0b3835e722c6bab5e044bd69dd8f
+Size: 588
+Filename: enigma2-plugin-skins-pli-fullnight-fhd-dbg_1.0+git2+f292ae90+f292ae9d38-r0_all.ipk
+Source: enigma2-plugin-skins-pli-fullnight-fhd.bb
+Description: Skin - PLi-FullNight-FHD - Debugging files
+OE: enigma2-plugin-skins-pli-fullnight-fhd
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-fullnight-fhd-dev
+Version: 1.0+git2+f292ae90+f292ae9d38-r0
+Recommends: enigma2-plugin-skins-pli-fullnight-fhd (= 1.0+git2+f292ae90+f292ae9d38-r0)
+Section: devel
+Architecture: all
+Maintainer: me
+MD5Sum: 8e970e93128104ab39f318ed067503c9
+SHA256sum: 4a50c7ab692d4401d0bec587a379f50d96c028a6abe3ec5058d4d7bcca2a758f
+Size: 628
+Filename: enigma2-plugin-skins-pli-fullnight-fhd-dev_1.0+git2+f292ae90+f292ae9d38-r0_all.ipk
+Source: enigma2-plugin-skins-pli-fullnight-fhd.bb
+Description: Skin - PLi-FullNight-FHD - Development files
+OE: enigma2-plugin-skins-pli-fullnight-fhd
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-fullnight-fhd
+Version: 1.0+git2+f292ae90+f292ae9d38-r0
+Section: base
+Architecture: all
+Maintainer: me
+MD5Sum: 41f31ded1eb1be4f43120cd01cc565e6
+SHA256sum: 4d0362b20f19e3eff133d5da506077804e8c9c33bcd421ed754f15bd917d4350
+Size: 265632
+Filename: enigma2-plugin-skins-pli-fullnight-fhd_1.0+git2+f292ae90+f292ae9d38-r0_all.ipk
+Source: enigma2-plugin-skins-pli-fullnight-fhd.bb
+Description: Skin - PLi-FullNight-FHD
+OE: enigma2-plugin-skins-pli-fullnight-fhd
 License: GPL-3.0-only
 Priority: optional
 
@@ -3476,12 +3739,12 @@ Version: 0.1+git2347+187ac020+187ac022bd-r0
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: a98ed4c562f65d575b5c2cf17cdbdccf
-SHA256sum: c373bb0afc5fcdb638080b3824f5d57446f72220171578fd053bc42c88bff072
-Size: 580
+MD5Sum: a95a67fbc767d2ef04bf7fdce72897b9
+SHA256sum: d25c717f56139d5643bca5cc243f26e25d70f3549bf4a91204cc83cbaee465bc
+Size: 576
 Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2347+187ac020+187ac022bd-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
-Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0 - Debugging files
+Description: Skin - PLi-HD - Debugging files
 OE: enigma2-plugin-skins-pli-hd
 License: LicenseRef-Proprietary
 Priority: optional
@@ -3492,12 +3755,12 @@ Recommends: enigma2-plugin-skins-pli-hd (= 0.1+git2347+187ac020+187ac022bd-r0)
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 2f187beb41c1aa2e9c557cd3d5591622
-SHA256sum: 625031613dad37a27f718f9c733ed70a349787aed3f97dbb3b3708f250d0436b
-Size: 618
+MD5Sum: f6116d02835590fc4047b0f385be32f7
+SHA256sum: 6637a00528b70433324d961179482dfec3b556e9e8fd531ef0486198c9d7b828
+Size: 614
 Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2347+187ac020+187ac022bd-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
-Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0 - Development files
+Description: Skin - PLi-HD - Development files
 OE: enigma2-plugin-skins-pli-hd
 License: LicenseRef-Proprietary
 Priority: optional
@@ -3507,12 +3770,12 @@ Version: 0.1+git109+99adc650+99adc658e4-r0
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 31ea6154c88558522bc528785cafba06
-SHA256sum: 10b68b368e378e28874664c3cfa245d3c570da498aec43680531b62ca02dfa65
+MD5Sum: d8d90355e49b5fc8b83cf896d8c7cd38
+SHA256sum: 5ab96043837ebea21e9f0d563a4d6da7c26cd95bf65f1995507a01429ebbf421
 Size: 594
 Filename: enigma2-plugin-skins-pli-hd-fullnight-dbg_0.1+git109+99adc650+99adc658e4-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd-fullnight.bb
-Description: enigma2-plugin-skins-pli-hd-fullnight version 0.1+git-r0 - Debugging files
+Description: Skin - PLi-FullNight-HD - Debugging files
 OE: enigma2-plugin-skins-pli-hd-fullnight
 License: LicenseRef-Proprietary
 Priority: optional
@@ -3523,12 +3786,12 @@ Recommends: enigma2-plugin-skins-pli-hd-fullnight (= 0.1+git109+99adc650+99adc65
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 00e15cf2a3cf1af5935fdd13eb517e0a
-SHA256sum: d75ed74b6f2bbf02c4aa7e6c258b3448ca936ec226b2c2620e6f5e4f227f5473
-Size: 630
+MD5Sum: f3b370c6fb617fd53b3eb133d76d8832
+SHA256sum: ff380028f4a8a4010b071b2edb3c10996ae781f2dbe5796dd646f65125f05f09
+Size: 632
 Filename: enigma2-plugin-skins-pli-hd-fullnight-dev_0.1+git109+99adc650+99adc658e4-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd-fullnight.bb
-Description: enigma2-plugin-skins-pli-hd-fullnight version 0.1+git-r0 - Development files
+Description: Skin - PLi-FullNight-HD - Development files
 OE: enigma2-plugin-skins-pli-hd-fullnight
 License: LicenseRef-Proprietary
 Priority: optional
@@ -3538,12 +3801,12 @@ Version: 0.1+git109+99adc650+99adc658e4-r0
 Section: base
 Architecture: all
 Maintainer: littlesat
-MD5Sum: ff38c57b333796dc66cf96422ed7627a
-SHA256sum: d4a530932c4939f4e9b33e3a2fbf8cd56b1849ff204f3b82436126857d6ce0aa
-Size: 145950
+MD5Sum: 04910ca3ea7fb9efe2a2ecfb4cab96c4
+SHA256sum: 04d597d4b06e4050209d5db3615e5dd365b6951dee9155d9925a7a4dd7675ea5
+Size: 145954
 Filename: enigma2-plugin-skins-pli-hd-fullnight_0.1+git109+99adc650+99adc658e4-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd-fullnight.bb
-Description: enigma2-plugin-skins-pli-hd-fullnight version 0.1+git-r0
+Description: Skin - PLi-FullNight-HD
 OE: enigma2-plugin-skins-pli-hd-fullnight
 License: LicenseRef-Proprietary
 Priority: optional
@@ -3553,12 +3816,12 @@ Version: 0.1+git2347+187ac020+187ac022bd-r0
 Section: base
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 67dbabc37f2030332fc8110f218d5359
-SHA256sum: 1def107ebefe683c2a3404c8c9af2821e609139dec32b73f05e7c7f23d68ded4
+MD5Sum: e59e5bb6fa7b1db62963519fb98f33d2
+SHA256sum: 6b6e1aeca7565b654798c744149f0f1c02bc38f6e016635f166d04f222ea5ec9
 Size: 463564
 Filename: enigma2-plugin-skins-pli-hd_0.1+git2347+187ac020+187ac022bd-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
-Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0
+Description: Skin - PLi-HD
 OE: enigma2-plugin-skins-pli-hd
 License: LicenseRef-Proprietary
 Priority: optional
@@ -3568,12 +3831,12 @@ Version: 1.0+git15+da2c7a00+da2c7a0b62-r0
 Section: devel
 Architecture: all
 Maintainer: openmips
-MD5Sum: 7fbafc1037cad03ded6ba9362dc4f41f
-SHA256sum: 9dbed414700b0d10cde03874d0ed61c6cfa6abe6ec69e074b860e2d4f9798001
-Size: 582
+MD5Sum: a15de96ae171ae3b5af0c2de259f7714
+SHA256sum: affd01a27954b05bcfa61fcd974412d98d2083f8040721fa607360de70e35c94
+Size: 580
 Filename: enigma2-plugin-skins-ruinfinityhd-dbg_1.0+git15+da2c7a00+da2c7a0b62-r0_all.ipk
 Source: enigma2-plugin-skins-ruinfinityhd.bb
-Description: Enigma2 Skin ru_infinity HD - Debugging files
+Description: Skin - RU_infinity HD - Debugging files
 OE: enigma2-plugin-skins-ruinfinityhd
 License: GPL-2.0-or-later
 Priority: required
@@ -3584,12 +3847,12 @@ Recommends: enigma2-plugin-skins-ruinfinityhd (= 1.0+git15+da2c7a00+da2c7a0b62-r
 Section: devel
 Architecture: all
 Maintainer: openmips
-MD5Sum: ce65ab2a73aa2188b739ad33e1312b25
-SHA256sum: 38b0e5865ae900e8186e0285a6faac168327779621420ac8e694c73053cefe81
-Size: 620
+MD5Sum: c490818d17420c691ece36896092f792
+SHA256sum: 5d40c8ece6044f177f36fef6977be117ec3831f1bda51593ac58b3eb384b223c
+Size: 616
 Filename: enigma2-plugin-skins-ruinfinityhd-dev_1.0+git15+da2c7a00+da2c7a0b62-r0_all.ipk
 Source: enigma2-plugin-skins-ruinfinityhd.bb
-Description: Enigma2 Skin ru_infinity HD - Development files
+Description: Skin - RU_infinity HD - Development files
 OE: enigma2-plugin-skins-ruinfinityhd
 License: GPL-2.0-or-later
 Priority: required
@@ -3599,12 +3862,12 @@ Version: 1.0+git15+da2c7a00+da2c7a0b62-r0
 Section: base
 Architecture: all
 Maintainer: openmips
-MD5Sum: c4dab87423b3d4b0a310c85954e9f801
-SHA256sum: 26305d2731d331f1acc347186460d6f9dd19c1d9de4f463ffba7d96cb97dde44
+MD5Sum: eb39cf448d754cd2ca883f29ead0ac3e
+SHA256sum: 7592c9b0f8560fdf969d98b90ba12e6f32a320671c5d87aa4032772e1967dd36
 Size: 1014840
 Filename: enigma2-plugin-skins-ruinfinityhd_1.0+git15+da2c7a00+da2c7a0b62-r0_all.ipk
 Source: enigma2-plugin-skins-ruinfinityhd.bb
-Description: Enigma2 Skin ru_infinity HD
+Description: Skin - RU_infinity HD
 OE: enigma2-plugin-skins-ruinfinityhd
 License: GPL-2.0-or-later
 Priority: required
@@ -3614,12 +3877,12 @@ Version: 1.0+git289+80b15880+80b158870a-r0
 Section: devel
 Architecture: all
 Maintainer: Taapat
-MD5Sum: fed5564fe4fb821fc0d71b285e78d3c5
-SHA256sum: cf41cfe3fc87a4bdbb65f8e92b944ccc55c2c01851b5c6ca7d113cefe21a867b
-Size: 602
+MD5Sum: b123f0c4e3d3bed7a167cd545aad8224
+SHA256sum: f4be3ae1d9cc703747651f16f86380cbc3b351609ef3e6219937096d521ea112
+Size: 598
 Filename: enigma2-plugin-skins-simple-gray-dbg_1.0+git289+80b15880+80b158870a-r0_all.ipk
 Source: enigma2-plugin-skins-simple-gray.bb
-Description: enigma2-plugin-skins-simple-gray version 1.0+git-r0 - Debugging files
+Description: Skin - SimpleGray - Debugging files
 OE: enigma2-plugin-skins-simple-gray
 License: GPL-3.0-only
 Priority: optional
@@ -3630,12 +3893,12 @@ Recommends: enigma2-plugin-skins-simple-gray (= 1.0+git289+80b15880+80b158870a-r
 Section: devel
 Architecture: all
 Maintainer: Taapat
-MD5Sum: 46e73c0b6c4ebe118e565b9ee578cb24
-SHA256sum: 2ad8d93f22bfe234f12deb4502268491a6976de08af8abde0cd7d4b67e1154ef
-Size: 638
+MD5Sum: 758624f5bc6c9fac7ee2f26273a34f0b
+SHA256sum: 4810ee701b35533731686319ef59939b4ff6529e6b27c8cd10dcb75725ee6878
+Size: 636
 Filename: enigma2-plugin-skins-simple-gray-dev_1.0+git289+80b15880+80b158870a-r0_all.ipk
 Source: enigma2-plugin-skins-simple-gray.bb
-Description: enigma2-plugin-skins-simple-gray version 1.0+git-r0 - Development files
+Description: Skin - SimpleGray - Development files
 OE: enigma2-plugin-skins-simple-gray
 License: GPL-3.0-only
 Priority: optional
@@ -3645,12 +3908,12 @@ Version: 1.0+git289+80b15880+80b158870a-r0
 Section: base
 Architecture: all
 Maintainer: Taapat
-MD5Sum: 306e26189552417e0dd52eb8c0581507
-SHA256sum: d34adbed509b9b2e413d9b6bc164bd14cdf3fe57fd6f9838949a7b86ad571440
-Size: 409980
+MD5Sum: eed7690483b59ca7f829bebe9f7f04be
+SHA256sum: e84f94fd6da2ddce86d5f38c1321dd0a484a43d9a92d2ce08569e838f6afa1bb
+Size: 409976
 Filename: enigma2-plugin-skins-simple-gray_1.0+git289+80b15880+80b158870a-r0_all.ipk
 Source: enigma2-plugin-skins-simple-gray.bb
-Description: enigma2-plugin-skins-simple-gray version 1.0+git-r0
+Description: Skin - SimpleGray
 OE: enigma2-plugin-skins-simple-gray
 License: GPL-3.0-only
 Priority: optional
@@ -4604,12 +4867,12 @@ Version: 1.0+git331+8b5fb84-r0
 Section: base
 Architecture: all
 Maintainer: Mike Looijmans
-MD5Sum: 9234bab4f3dc60736ff2b828d0087830
-SHA256sum: ba085294361a896c07d581791bfb39381cebc1bdfdf9c5471c6a1b26b560616e
-Size: 37392
+MD5Sum: 8b4414d3cc384b5361a5c1b30cf16edc
+SHA256sum: 6e0636440c1d578db70d9ee24aaf5a8486278418693fb5b8291f8fd03b7fef02
+Size: 37390
 Filename: font-valis-enigma_1.0+git331+8b5fb84-r0_all.ipk
 Source: enigma2-plugin-skins-magic.bb
-Description: enigma2-plugin-skins-magic version 1.0+git-r0
+Description: Skin - Magic
 OE: enigma2-plugin-skins-magic
 License: GPL-2.0-or-later
 Priority: optional
@@ -7957,9 +8220,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: faa2a642d26ca6690498bca9211a137d
-SHA256sum: 76af813f5ff5e379360c64e4d06c7927e9ebebe608be11666c587f62c4cd7c6c
-Size: 890
+MD5Sum: 64757b26e377fe95a1347946b4687fe3
+SHA256sum: 6243e1cb20bd90accfe9c771419890415c81466d16111b20ab3b287838129ffd
+Size: 914
 Filename: softcam-support_2-r0_all.ipk
 Source: softcam-support.bb
 Description: Start, stop and select softcams.
@@ -7972,9 +8235,9 @@ Version: 8.6.2+git4+6658f3f0+6658f3f55e-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: c14d160fe5db86c7e0f9ee50f427f42b
-SHA256sum: 5d6fbcf34fcf1d3c1b3e58e21e268d402534cb54bb4b9645ce87f7a7a1ab5aa6
-Size: 608
+MD5Sum: 9a3b0fee17742086d5f24d5ce63ff798
+SHA256sum: f509460256fe412e113cce952df2475cdfad9843b0436c703ea43ece7702006b
+Size: 606
 Filename: streamlinksrv-dbg_8.6.2+git4+6658f3f0+6658f3f55e-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 8.6.2+git-r0 - Debugging files
@@ -7989,9 +8252,9 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 8.6.2+git4+6658f3
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: cebd45763b2a9bd6d8b11ea631f8c380
-SHA256sum: 867c7b47644fb6a9c4503faab0b19b4a163b22a09f5fbb2b82d8d25d6c406532
-Size: 656
+MD5Sum: 0991589241829f567e1bf55b8c1f684c
+SHA256sum: 512e1371627af769b6f252f5d7265db324da014b19ee3f9ea6ea3cfa86ec2262
+Size: 658
 Filename: streamlinksrv-dev_8.6.2+git4+6658f3f0+6658f3f55e-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 8.6.2+git-r0 - Development files
@@ -8006,8 +8269,8 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 2a193ef4c55aec34ea2348d7632b54d3
-SHA256sum: a9bd611377e8742a1f86639b1d5b35778c91cb320f993f403bce09ba8cf45ab3
+MD5Sum: 5703311ca9d48a345da6096714ceab2c
+SHA256sum: 10434700017f80f8f4def3221d3672d1b0c7ca14608db0baa52a1abb205a6e8f
 Size: 90048
 Filename: streamlinksrv_8.6.2+git4+6658f3f0+6658f3f55e-r0_all.ipk
 Source: streamlinksrv.bb
