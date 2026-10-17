@@ -1,0 +1,17 @@
+Package: enigma2-plugin-extensions-hdfradio
+Version: 2.27.8+git666+f810e920+f810e92ba1-r2
+Section: base
+Priority: required
+Maintainer: koivo & oerlgrey
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-hdfradio
+Homepage: https://www.hdfreaks.cc
+Depends: gstplayer, libc6 (>= 2.44), python3-beautifulsoup4, python3-core, python3-json, python3-mutagen, python3-pillow, python3-requests, python3-sqlite3
+Source: enigma2-plugin-extensions-hdfradio.bb
+MD5Sum: 71bf0a728929a3708690fcf2ba5a7499
+SHA256sum: 3ca1dd64cd8d32948d9048f56e62b5021f062fb3ee212f0d99a1dbe1fdb7a8a6
+Size: 4820398
+Filename: enigma2-plugin-extensions-hdfradio_2.27.8_py3_3.14_cortexa15hf-neon-vfpv4.ipk
+Description: Webradio Plugin
+
