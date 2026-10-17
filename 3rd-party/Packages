@@ -15,3 +15,41 @@ Size: 4820398
 Filename: enigma2-plugin-extensions-hdfradio_2.27.8_py3_3.14_cortexa15hf-neon-vfpv4.ipk
 Description: Webradio Plugin
 
+Package: enigma2-plugin-extensions-mediastream
+Version: 20260607-python3.14-r0
+Section: base
+Priority: optional
+Maintainer: MS
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-mediastream
+Homepage: http://mediastream.medianewsonline.com/
+Depends: libc6 (>= 2.44), nodejs, python3-compression, python3-core, python3-db, python3-email, python3-futures3, python3-html, python3-json, python3-multiprocessing, python3-netclient, python3-numbers, python3-pillow, python3-pkgutil, python3-pprint, python3-pyopenssl, python3-requests, python3-twisted-core, python3-twisted-web, python3-xml, python3-youtube-dl, python3-yt-dlp
+Recommends: gstreamer1.0-plugins-base-opus, python3-pycryptodome
+Provides: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
+Replaces: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
+Conflicts: enigma2-plugin-extensions-mediaportal, enigma2-plugin-extensions-mpgz
+Source: enigma2-plugin-extensions-mediastream.bb
+MD5Sum: a1179273e58d31b1e3a98e9c3d85bce4
+SHA256sum: ee6237bbd828dde0a76dbc3bddd9a0e544749c4d5d787dc9ee6069733e50a64e
+Size: 12071182
+Filename: enigma2-plugin-extensions-mediastream_20260607-python3.14-r0_cortexa15hf-neon-vfpv4.ipk
+Description: MediaStream Plugin
+
+Package: enigma2-plugin-skins-madmax-impossible
+Version: 3.4
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: madhouse
+Depends: enigma2-plugin-extensions-oaweather
+Source: enigma2-plugin-skins-madmax-impossible.bb
+Homepage: https://github.com/m4dhouse/MadMax
+OE: enigma2-plugin-skins
+License: open
+MD5Sum: 42cea3fb68180d0a3e0ed04864568112
+SHA256sum: 4e169680e8c5e0a58335b873c1df6bbf3ce347d589e545da734be74dfbaa8a32
+Size: 6265110
+Filename: enigma2-plugin-skins-madmax-impossible_3.4_all.ipk
+Description: Skin - MadMax Impossible FHD
+
