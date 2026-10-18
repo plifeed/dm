@@ -9902,8 +9902,8 @@ Version: git575+dbe70c70+dbe70c75b1-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 22aee96a1009351fd79f53345d1a3053
-SHA256sum: 7dbc3373439863fe22a596d54e29e267f7530de97e94310517fa4df186540b46
+MD5Sum: 2f89c0f485bc3cb1c9ba1f67967fa4c3
+SHA256sum: 0c5fff38da8355eea3ae1a6d46287bfcdadc22e5549af4670bea22f4d09bec72
 Size: 622
 Filename: enigma2-plugin-extensions-backupsuite-dbg_git575+dbe70c70+dbe70c75b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
@@ -9918,8 +9918,8 @@ Recommends: bzip2-dev, enigma2-plugin-extensions-backupsuite (= git575+dbe70c70+
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0c4c2384fdd7f70218783d531bd6f30d
-SHA256sum: 8829d29d4ca061523ad6d60dd277b1e1c74e4c74dcf0cdaf753be7a223acd261
+MD5Sum: 05f360ccbcd9f98d5989e97f8b4dc07e
+SHA256sum: 03f3247a7e4ef3b56e18ee7e9ef8595e236c1ad908056bc55a761ca37afd3879
 Size: 700
 Filename: enigma2-plugin-extensions-backupsuite-dev_git575+dbe70c70+dbe70c75b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
@@ -9934,8 +9934,8 @@ Depends: enigma2-plugin-extensions-backupsuite
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8724300c086c090c9362561886fe1722
-SHA256sum: 8978e9c26c3bc3f14ead5c71ad297348e324139d9db48e4767502c48a48f6d8c
+MD5Sum: 1e9d04bf58d6f7b634eb3742cecad91e
+SHA256sum: d429ffa75da272ef0303261c9e713e824e22c2e1a6fb9c7be620cf7f00141a2f
 Size: 11504
 Filename: enigma2-plugin-extensions-backupsuite-src_git575+dbe70c70+dbe70c75b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
@@ -9950,9 +9950,9 @@ Depends: bzip2, enigma2-plugin-extensions-backupsuite, mtd-utils, mtd-utils-ubif
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c8ae0e66d6450f82100b9fdc61e4a202
-SHA256sum: e5c97f2e0c6d5b5ac4b59ffdaa1fd3680478c79b3b7ffe7653cf1973614220aa
-Size: 113898
+MD5Sum: 2da04d208c761bfddcdb91e6b0621d69
+SHA256sum: 720b688ce82903ad1def3808e9650d53a89a3351d9cf33032bd4e98db33efe7c
+Size: 113880
 Filename: enigma2-plugin-extensions-backupsuite_git575+dbe70c70+dbe70c75b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
 Description: Enigma2 Plugin: extensions-backupsuite
@@ -11726,14 +11726,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather-dbg
-Version: 0.0-git1+ae1d4ac0+ae1d4acfcf-r0
+Version: 2.4+git1+ae1d4ac0+ae1d4acfcf-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: 97106e966525e96874fcc93014ef30b7
-SHA256sum: b0173ef619a745e0d9e72762565543128134ed96ae073eb3e92d06e34531bf52
-Size: 614
-Filename: enigma2-plugin-extensions-oaweather-dbg_0.0-git1+ae1d4ac0+ae1d4acfcf-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8b59a0e3c359fcfb9b518b3bd1bdc924
+SHA256sum: 394fe4ef089e1f41500116a026618a7d09be79d093d3c7f78b918daff15cbdb0
+Size: 616
+Filename: enigma2-plugin-extensions-oaweather-dbg_2.4+git1+ae1d4ac0+ae1d4acfcf-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin. - Debugging files
 OE: enigma2-plugin-extensions-oaweather
@@ -11741,15 +11741,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather-dev
-Version: 0.0-git1+ae1d4ac0+ae1d4acfcf-r0
-Recommends: enigma2-plugin-extensions-oaweather (= 0.0-git1+ae1d4ac0+ae1d4acfcf-r0), enigma2-tools-weatherinfo-dev
+Version: 2.4+git1+ae1d4ac0+ae1d4acfcf-r0
+Recommends: enigma2-plugin-extensions-oaweather (= 2.4+git1+ae1d4ac0+ae1d4acfcf-r0), enigma2-tools-weatherinfo-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: ef409269b49170796c1db8b40819e575
-SHA256sum: cf42764b8b6e91f770937ec68d1f18d487dc279abd88bcdd350f270296fb2e5b
+MD5Sum: 3d6e0554f273b96286fca9419b95f1d6
+SHA256sum: 6218f8559a324aa07f082beaff89c3f15c265d26631f069d9b315e4456978191
 Size: 664
-Filename: enigma2-plugin-extensions-oaweather-dev_0.0-git1+ae1d4ac0+ae1d4acfcf-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-oaweather-dev_2.4+git1+ae1d4ac0+ae1d4acfcf-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin. - Development files
 OE: enigma2-plugin-extensions-oaweather
@@ -11757,14 +11757,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather-src
-Version: 0.0-git1+ae1d4ac0+ae1d4acfcf-r0
+Version: 2.4+git1+ae1d4ac0+ae1d4acfcf-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: 47f0803a762af7b1b66c347ba96764fd
-SHA256sum: fdb3557085e0337e3e618aacf930aab8554eb60324d4596950859b31ed42741b
+MD5Sum: d8805dd18b5a57df556773f564af7312
+SHA256sum: eeccca0927c2f44b43e9fc12f223569706b4df06a90d8b17ff8efc119efdba81
 Size: 18320
-Filename: enigma2-plugin-extensions-oaweather-src_0.0-git1+ae1d4ac0+ae1d4acfcf-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-oaweather-src_2.4+git1+ae1d4ac0+ae1d4acfcf-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin. - Source files
 OE: enigma2-plugin-extensions-oaweather
@@ -11772,15 +11772,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather
-Version: 0.0-git1+ae1d4ac0+ae1d4acfcf-r0
+Version: 2.4+git1+ae1d4ac0+ae1d4acfcf-r0
 Depends: enigma2-tools-weatherinfo
 Section: extra
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: 122dd7619f5b725aad94f1fcd1cb0772
-SHA256sum: f4990920bac16b6eeda61a55164c988ac9767d9b99b153c2c179c8e2f289119e
+MD5Sum: 7415258abdb7abe76d6a45ddff36e126
+SHA256sum: 52dfcaf19d78af5dafacc1c4a2f80df238ccb7b1c416ef352223c6339f55c92c
 Size: 1329606
-Filename: enigma2-plugin-extensions-oaweather_0.0-git1+ae1d4ac0+ae1d4acfcf-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-oaweather_2.4+git1+ae1d4ac0+ae1d4acfcf-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin.
 OE: enigma2-plugin-extensions-oaweather
@@ -13920,15 +13920,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-emu
-Version: 0.0-11077-gad7588c-r0
+Version: 11966-git11077+ad7588c0+ad7588c6dd-r0
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44a4831bbb00984ac22a69311daef255
-SHA256sum: 9912118b2596a06878fb04b99e604971bfa5eed34e4d91e4a54ab1bc4edc75f4
-Size: 745966
-Filename: enigma2-plugin-softcams-oscam-emu_0.0-11077-gad7588c-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ae2705c3379129d3a29dd89d90210d07
+SHA256sum: 7c8ca0adf73e229b63a3ca3784ee39bfd467a1901415b4a2f86dd3b886fe4ec2
+Size: 746768
+Filename: enigma2-plugin-softcams-oscam-emu_11966-git11077+ad7588c0+ad7588c6dd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam-emu.bb
 Description: enigma2-plugin-softcams-oscam-emu version git-r0
 OE: enigma2-plugin-softcams-oscam-emu
@@ -13936,15 +13936,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam
-Version: 11968-r0
+Version: 11968-git10887+39e78a40+39e78a4688-r0
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9807c041bc90598212ecacb4173b47dd
-SHA256sum: a4b6c91a07eb246b1a4f9e09592387275f5de371986b811911a0b3747cbd445c
-Size: 697472
-Filename: enigma2-plugin-softcams-oscam_11968-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d9b4ae939687f8b7caccf93afb2fe948
+SHA256sum: 0882b0e8590890f9e9ab3a453f5f0fbc948dcbebfa9e62c952c192d1d94f50d3
+Size: 697374
+Filename: enigma2-plugin-softcams-oscam_11968-git10887+39e78a40+39e78a4688-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
 OE: enigma2-plugin-softcams-oscam
@@ -96791,14 +96791,14 @@ License: GPL-2.0-only AND LGPL-2.0-only
 Priority: optional
 
 Package: ofgwrite-dbg
-Version: 5.x+git245+aa46e350+aa46e35ced-r0
+Version: 5.x+git247+6b47a790+6b47a79855-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Betacentauri
-MD5Sum: 5a51a544fd95f00dc4e1e0a200586988
-SHA256sum: f931cb2692783292525a4e57bb9f8efad51c056f8d0adea81055bbd6b407d57a
-Size: 9437212
-Filename: ofgwrite-dbg_5.x+git245+aa46e350+aa46e35ced-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5bf48be7cb7a47f56439390fb8401b2b
+SHA256sum: f6cfa87f05ba01034a6dc962cf9874c3af856c71ccd187c8e8cbd5aa465e2e4c
+Size: 9439848
+Filename: ofgwrite-dbg_5.x+git247+6b47a790+6b47a79855-r0_cortexa15hf-neon-vfpv4.ipk
 Source: ofgwrite.bb
 Description: Betacentauris couch flashing - Debugging files
 OE: ofgwrite
@@ -96806,15 +96806,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: ofgwrite-dev
-Version: 5.x+git245+aa46e350+aa46e35ced-r0
-Recommends: ofgwrite (= 5.x+git245+aa46e350+aa46e35ced-r0), openssl-dev
+Version: 5.x+git247+6b47a790+6b47a79855-r0
+Recommends: ofgwrite (= 5.x+git247+6b47a790+6b47a79855-r0), openssl-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Betacentauri
-MD5Sum: f744c9a1fe3e0f159db2ebb96f3f747a
-SHA256sum: 6717ee1f589babeade23b10bbab37071d7d6aac8324ccb29b383882bfca33e35
-Size: 622
-Filename: ofgwrite-dev_5.x+git245+aa46e350+aa46e35ced-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 321b3afa3fca85f7df9b40c6861b51ae
+SHA256sum: 1647976c38684fe500d94b9c2be4bd8bde76a2464a2d71d5844f670b8119bf00
+Size: 624
+Filename: ofgwrite-dev_5.x+git247+6b47a790+6b47a79855-r0_cortexa15hf-neon-vfpv4.ipk
 Source: ofgwrite.bb
 Description: Betacentauris couch flashing - Development files
 OE: ofgwrite
@@ -96822,14 +96822,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: ofgwrite
-Version: 5.x+git245+aa46e350+aa46e35ced-r0
+Version: 5.x+git247+6b47a790+6b47a79855-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Betacentauri
-MD5Sum: 97d808288f96d73e5830f1caadb6085f
-SHA256sum: 846e15f3f6807cd1e9c9d151030195d730edcaa2077c8d61e13fad8ab1b199f5
-Size: 2524150
-Filename: ofgwrite_5.x+git245+aa46e350+aa46e35ced-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c53d5ef9c1351df0319c4c21d560d82d
+SHA256sum: b884bbf795f8cec8e222c12df645f1be773c4b9df5e65f83cd4d56ff9f7c6e01
+Size: 2524074
+Filename: ofgwrite_5.x+git247+6b47a790+6b47a79855-r0_cortexa15hf-neon-vfpv4.ipk
 Source: ofgwrite.bb
 Description: Betacentauris couch flashing
 OE: ofgwrite

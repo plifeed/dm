@@ -499,8 +499,8 @@ Version: 1.4-git123+4becaa70+4becaa7a6e-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: fdd53992c2b9e4a74f03408af6fae19d
-SHA256sum: 84457e6f06769d66f59c96dcb1e18328bfe06ff8d107595a3e9d368b09738fa0
+MD5Sum: 7b5aeb50b683701613c75d395b4e758e
+SHA256sum: 070ea8daede670b5933c733b1a222777e1cb45ac3ddf91f8518e5448a18eef19
 Size: 578
 Filename: enigma2-plugin-extensions-acherence-dbg_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
 Source: enigma2-plugin-extensions-acherence.bb
@@ -515,8 +515,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-acherence (= 1.4-git123+4beca
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 65e4f81af9f9c9244c915d7fb9161e30
-SHA256sum: 2c57075e42f1e9b5cdf6a0ea6d8dbc39727018d9276dafc89998ab1272e66cb4
+MD5Sum: 88286d3083fc81a756899ac7011b84e3
+SHA256sum: 099905a3799b1e7c920022dcb83b812413b3c8ee9d96394dfae1420d0a4bb1ba
 Size: 630
 Filename: enigma2-plugin-extensions-acherence-dev_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
 Source: enigma2-plugin-extensions-acherence.bb
@@ -531,9 +531,9 @@ Depends: enigma2, python3-core
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: fe93d6dc9f554e8c794d5efa0145907b
-SHA256sum: f6927d9645d20bc7d8f0230704a3e44b30325685f1c264a009d32348e5827f6b
-Size: 163234
+MD5Sum: e6e716981825fdb02f15ff2dff8b39d2
+SHA256sum: 36a3fd09873c2bd7bbe2623fe424ee2807a2799a23d65cd49e721fa8a3e1b1a3
+Size: 163212
 Filename: enigma2-plugin-extensions-acherence_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
 Source: enigma2-plugin-extensions-acherence.bb
 Description: OpenScript for Enigma2
@@ -589,14 +589,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dbg
-Version: 1.79-20261007-r3
+Version: 1.79-20261007-git230+6fff9400+6fff9406bc-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 8b515fe2ce439e45679539b080870bcb
-SHA256sum: 3a6189140924075132cb42f112091f0f87f3ab6fad63fa38ba6940ce66b583dc
-Size: 614
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.79-20261007-r3_all.ipk
+MD5Sum: a3ba00e6ea8339b3d9d9ad5b331415e3
+SHA256sum: 01c5da3b76374005dc34226cd3fa6c56fb2fc116442b1ed69d52317137d05db1
+Size: 632
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.79-20261007-git230+6fff9400+6fff9406bc-r0_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Debugging files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -605,15 +605,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dev
-Version: 1.79-20261007-r3
-Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.79-20261007-r3), python3-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.79-20261007-git230+6fff9400+6fff9406bc-r0
+Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.79-20261007-git230+6fff9400+6fff9406bc-r0), python3-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: c00bcdc7b8ef12d400b32d207028004a
-SHA256sum: 39361561cc2b06f1811855625579c0bd8e0930602b6ba0936700058a2563b06c
-Size: 676
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.79-20261007-r3_all.ipk
+MD5Sum: 4f26588d6ca45e1775368e8a57b97e6f
+SHA256sum: 6c84a360d4cebe08a10b5f8eceba1725505378011b195a5e15e2fca08319cc30
+Size: 692
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.79-20261007-git230+6fff9400+6fff9406bc-r0_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Development files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -622,15 +622,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream
-Version: 1.79-20261007-r3
+Version: 1.79-20261007-git230+6fff9400+6fff9406bc-r0
 Depends: python3, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: c5ccca2e4a12cf652424d0a43da4758a
-SHA256sum: 6f0043de205138c69b2258ff4233d596ecb8e8c49cc2598d666f07b05f116349
-Size: 4113534
-Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.79-20261007-r3_all.ipk
+MD5Sum: ab175eb03ad238ac28f04dac692ba869
+SHA256sum: c3f4705bdec8925020b5fde1ffa6fc5108ebb6741c337910325e4cbe76dffc8e
+Size: 4113548
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.79-20261007-git230+6fff9400+6fff9406bc-r0_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -1065,8 +1065,8 @@ Version: 3.0-git227+b41a07f0+b41a07fe5d-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: f4f7017d23e8dcd4120622bb63e33953
-SHA256sum: 9abaf87038555d65f08376fe486cee58ab6982a9b41bc8138e2dad53a4a1167f
+MD5Sum: ec74b4c67c86250b79647072cddcf650
+SHA256sum: 921ab01dcf1e5ecd7f090a81b36d586ce2927b3437fb805ddfa786711aa27bbc
 Size: 582
 Filename: enigma2-plugin-extensions-tvgarden-dbg_3.0-git227+b41a07f0+b41a07fe5d-r0_all.ipk
 Source: enigma2-plugin-extensions-tvgarden.bb
@@ -1081,8 +1081,8 @@ Recommends: ca-certificates-dev, enigma2-dev, enigma2-plugin-extensions-tvgarden
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 8de4691fcd15fa11f33cde18afbe6502
-SHA256sum: ac9ff157a395f7eb956dd33371db9f8bbc6a61582b888e9576cdfe3054a577c0
+MD5Sum: 1d388a51e9f517f6213398a25e95f604
+SHA256sum: 487e3099d72a36f79cf17aa0a5bd1eccf01a3066e4bd79d04345269a9ba26275
 Size: 656
 Filename: enigma2-plugin-extensions-tvgarden-dev_3.0-git227+b41a07f0+b41a07fe5d-r0_all.ipk
 Source: enigma2-plugin-extensions-tvgarden.bb
@@ -1096,9 +1096,9 @@ Version: 3.0-git227+b41a07f0+b41a07fe5d-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: d869fca665ffbc470fef727e86783fca
-SHA256sum: c1c585b2980ebd2e1f622eb07e28a15750a9a41c94278e874b79377735403580
-Size: 82580
+MD5Sum: 20ff6cf3eb53790a089c4d8ea3eefbcf
+SHA256sum: ecde3af4dd21fbfc86cae2bdc443e720fee0df4928a90d952ce8e351fbbb0ad0
+Size: 82570
 Filename: enigma2-plugin-extensions-tvgarden-src_3.0-git227+b41a07f0+b41a07fe5d-r0_all.ipk
 Source: enigma2-plugin-extensions-tvgarden.bb
 Description: TV Garden Plugin for Enigma2 - Source files
@@ -1112,9 +1112,9 @@ Depends: ca-certificates, enigma2, python3-core, python3-yt-dlp
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 3b29bee5e44d1606acaf0814ae8f4eaf
-SHA256sum: 633cec76b4c362452bd633d8cfec4da2cb053c1df1571b33f6474f82920fefd7
-Size: 1070180
+MD5Sum: 9d1c3d823eaaa98a581befce588bc207
+SHA256sum: da0dade5ef610b4f1363de04d5c5644003af5d0dddc73076830e6336afa7309f
+Size: 1070174
 Filename: enigma2-plugin-extensions-tvgarden_3.0-git227+b41a07f0+b41a07fe5d-r0_all.ipk
 Source: enigma2-plugin-extensions-tvgarden.bb
 Description: TV Garden Plugin for Enigma2
@@ -1127,8 +1127,8 @@ Version: 3.4-git432+f4f2c8d0+f4f2c8d02e-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 11179ceaff6e56c6fd1e7d187bde1ec8
-SHA256sum: 105934e067a8f2b7389ed9e2ba4383d09e58a119f9f5cef79471eefbf9e9fb08
+MD5Sum: 4f993eb3157814f12dd555873ee67e6b
+SHA256sum: ee1fc2da8c04bdaf3768cd08f40c2fe674fe382241f6b92b7b565b67c65462db
 Size: 592
 Filename: enigma2-plugin-extensions-tvmanager-dbg_3.4-git432+f4f2c8d0+f4f2c8d02e-r0_all.ipk
 Source: enigma2-plugin-extensions-tvmanager.bb
@@ -1143,8 +1143,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-tvmanager (= 3.4-git432+f4f2c
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 2f66f64822adc97aa75ec9620e2ba556
-SHA256sum: 783e266dd0f30ceb30af6f05f3d4b0ad9fba0823d0a169d7507466fbe840909c
+MD5Sum: 48a8a2121c732cf11e9a40853b276f28
+SHA256sum: 1987b2e5f2a1cf911e33bff90b31c7da08d1e530b06c9c8a3249456646b057d6
 Size: 644
 Filename: enigma2-plugin-extensions-tvmanager-dev_3.4-git432+f4f2c8d0+f4f2c8d02e-r0_all.ipk
 Source: enigma2-plugin-extensions-tvmanager.bb
@@ -1158,9 +1158,9 @@ Version: 3.4-git432+f4f2c8d0+f4f2c8d02e-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 27f4c57950b3c067534eb7a466203013
-SHA256sum: 60aec7a32b2eb129f203b8647776324c70811d4861bff9f17b9c9d3659ca9f93
-Size: 99210
+MD5Sum: f748ae54f65a7ed12e69e44c89e47f04
+SHA256sum: 96947a59140387b68b87468690c82816080ede50885abd708117c73aaf45fe76
+Size: 99208
 Filename: enigma2-plugin-extensions-tvmanager-src_3.4-git432+f4f2c8d0+f4f2c8d02e-r0_all.ipk
 Source: enigma2-plugin-extensions-tvmanager.bb
 Description: tvManager (Softcam Manager) Enigma2 Plugin - Source files
@@ -1174,9 +1174,9 @@ Depends: enigma2, python3-core
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: c2a037e599336ff2988696b7139a82e9
-SHA256sum: 40007c38d81d782c14560af57613225760da82ec6f92767c2801614f031cff73
-Size: 1717754
+MD5Sum: b328316e9edb0306800ff0adba8a04b2
+SHA256sum: a2f0b1127475f3138645d802f9d0171197ccd491277cef064bc176c937c9ee99
+Size: 1717384
 Filename: enigma2-plugin-extensions-tvmanager_3.4-git432+f4f2c8d0+f4f2c8d02e-r0_all.ipk
 Source: enigma2-plugin-extensions-tvmanager.bb
 Description: tvManager (Softcam Manager) Enigma2 Plugin
