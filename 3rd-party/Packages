@@ -11,6 +11,35 @@ Filename: enigma2-plugin-extensions-ajpanel_v10.8.6_all_no_restart.ipk
 Size: 541646
 MD5Sum: c141d57c8c765f165489efa6f4a7ca61
 
+Package: enigma2-plugin-extensions-cooltvguide
+Version: Coolman_V8.0_py3
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: Coolman <cooltvguide@gmail.com>
+Description: Cool TV Guide 3D EPG with switchable 6-24 TV-Lines and changeable Buttons with Setup
+Source: 
+Homepage: 
+OE: CoolTVGuide-Coolman_V.8.0
+Filename: enigma2-plugin-extensions-cooltvguide_Coolman_V8.0_py3_all.ipk
+Size: 2317314
+MD5Sum: 36ccaa81c253bc28d7a7cf7fe393e478
+
+Package: enigma2-plugin-extensions-gtiptvplayerpro
+Version: 1.3.0-r0
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: VicTuS59
+Depends: enigma2, python3-core, python3-asyncio, python3-compression, python3-datetime, python3-difflib, python3-fcntl, python3-html, python3-io, python3-json, python3-math, python3-netclient, python3-netserver, python3-stringold, python3-threading, python3-xml
+Installed-Size: 46342
+Homepage: https://github.com/VicTuS59/GT-IPTV-Player-Pro
+License: GPL-2.0-or-later
+Description: GT IPTV Player Pro for Enigma2
+Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.3.0-r0_all.ipk
+Size: 40578518
+MD5Sum: 2d4f1781d111ed1fac7f541f2ba56e02
+
 Package: enigma2-plugin-extensions-hdfradio
 Version: 2.27.8+git666+f810e920+f810e92ba1-r2
 Section: base
@@ -27,6 +56,65 @@ SHA256sum: 3ca1dd64cd8d32948d9048f56e62b5021f062fb3ee212f0d99a1dbe1fdb7a8a6
 Size: 4820398
 Filename: enigma2-plugin-extensions-hdfradio_2.27.8_py3_3.14_cortexa15hf-neon-vfpv4.ipk
 Description: Webradio Plugin
+
+Package: enigma2-plugin-extensions-internet-speedtest
+Version: 1.8
+Section: enigma2
+Priority: optional
+Architecture: all
+Maintainer: madhouse
+Description: Speedtest for enigma2 by Madhouse
+Source: https://github.com/m4dhouse/Internet-Speedtest
+OE: Enigma2 Plugin
+License: open
+Filename: enigma2-plugin-extensions-internet-speedtest_1.8_all.ipk
+Size: 717898
+MD5Sum: de14ef828f74028940353128c38eadb0
+
+Package: enigma2-plugin-extensions-ipaudiopro
+Version: 1.9
+Description: enigma2-plugin-extensions-ipaudiopro version 1.9
+ IPAudioPro is a Plugin that allows you to listen to radio streams in the
+ background while watching something else
+Section: base
+Priority: optional
+Maintainer: zKhadiri
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-ipaudiopro
+Homepage: https://github.com/zKhadiri/IPAudioPro
+Depends: alsa-plugins, enigma2, libasound2, libavcodec62, libavformat62, libc6, libgcc1, libpython3.14-1.0, libstdc++6, python3-cryptography
+Source: enigma2-plugin-extensions-ipaudiopro.bb
+Filename: enigma2-plugin-extensions-ipaudiopro_1.9_cortexa15hf-neon-vfpv4_py3.14_ff8.0.ipk
+Size: 1103302
+MD5Sum: 4a59f3a0e63de83a53b25e8c1873521c
+
+Package: enigma2-plugin-extensions-ipchecker
+Version: 004
+Priority: optional
+Architecture: all
+Maintainer: dsayers
+Description: plugin to check your boxes external IP adress
+Source: 
+Homepage: 
+Section: extensions
+Filename: enigma2-plugin-extensions-ipchecker_004_all.ipk
+Size: 5082
+MD5Sum: a31cbb234b395ba355bc25de35a4d903
+
+Package: enigma2-plugin-extensions-iptvremote
+Version: 1.0.8-py3
+Description: E2 IPTV Server
+Section: extra
+Priority: optional
+Maintainer: murxer <support@boxpirates.to>
+Source: http://test.com
+Architecture: all
+License: free
+Depends: python3-json
+Filename: enigma2-plugin-extensions-iptvremote_1.0.8-py3_all.ipk
+Size: 39406
+MD5Sum: 3dba1877e3f1e2456bbdae0eef9f007b
 
 Package: enigma2-plugin-extensions-mediastream
 Version: 20260607-python3.14-r0
@@ -49,13 +137,26 @@ Size: 12071182
 Filename: enigma2-plugin-extensions-mediastream_20260607-python3.14-r0_cortexa15hf-neon-vfpv4.ipk
 Description: MediaStream Plugin
 
+Package: enigma2-plugin-extensions-moviebrowser
+Version: 4.1
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: kashmir, lululla
+Description: Movie Browser Plugin
+Source: enigma2-plugin-extensions-moviebrowser
+Homepage: 
+Filename: enigma2-plugin-extensions-moviebrowser_4.1_all.ipk
+Size: 2594156
+MD5Sum: 8712a471a63eb0ff48313f3f42be6d94
+
 Package: enigma2-plugin-extensions-myhybridiptv
 Version: 3.0-r1
 Description: MyHybridIPTV Player plugin for Enigma2
  Enigma2 plugin supporting Stalker, Xtream, and M3U playlist streaming
 Section: base
 Priority: optional
-Maintainer: openATV
+Maintainer: open
 License: CLOSED
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions-myhybridiptv
@@ -66,6 +167,96 @@ MD5Sum: fca3a975112c9a06a7fbcd7c29b96e8c
 SHA256sum: e0d0d72d2d90360cb5bcd5a0b61e813d30ac01090f8d84e54052bf9e862c7977
 Size: 20083188
 Filename: enigma2-plugin-extensions-myhybridiptv_3.0-r1_cortexa15hf-neon-vfpv4_py3.14.ipk
+
+Package: enigma2-plugin-extensions-ngsetting-fhd
+Version: 2.9
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: m43c0, ftp21, mmark, lululla
+Description: NGsetting
+Source: enigma2-plugin-extensions-ngsetting-fhd
+Homepage: *
+OE: enigma2-plugin-extensions-ngsetting-fhd
+Filename: enigma2-plugin-extensions-ngsetting-fhd_2.9_all.ipk
+Size: 502900
+MD5Sum: ec00c684c0325648d819cc1a563d8493
+
+Package: enigma2-plugin-extensions-purevpn
+Version: 1.1.5-py3
+Description: Manage PureVPN connections
+Section: extra
+Priority: optional
+Maintainer: murxer <support@boxpirates.to>
+Source: https://www.purevpn.com
+Homepage: https://www.purevpn.com
+Architecture: all
+License: free
+Depends: openvpn, openresolv, bash, python3-json, python3-requests
+Filename: enigma2-plugin-extensions-purevpn_1.1.5-py3_all.ipk
+Size: 358510
+MD5Sum: 8d513ff1979d2317c940524d2e009ffa
+
+Package: enigma2-plugin-extensions-rakutentv
+Version: 20260606
+Section: extensions
+Priority: optional
+Architecture: all
+Maintainer: Billy2011
+Description: Rakuten TV Free
+Depends: streamlinksrv
+Recommends: enigma2-plugin-systemplugins-serviceapp
+Source: enigma2-plugin-extensions-rakutentv
+Homepage: https://www.rakuten.tv/
+Filename: enigma2-plugin-extensions-rakutentv_20260606_all.ipk
+Size: 708266
+MD5Sum: 74e1fe1d567a0615d60a176de4c1538f
+SHA256sum: 18ab5db83fc288b81bcb4630e81f9e794f8e97aed0c771ed104dad9a25586704
+
+Package: enigma2-plugin-extensions-samsungtvplus
+Version: 20250815
+Section: extensions
+Priority: optional
+Architecture: all
+Maintainer: Billy2011
+Description: Samsung TV Plus Live TV Channels
+Depends: enigma2-plugin-extensions-epgimport
+Recommends: enigma2-plugin-systemplugins-serviceapp
+Source: 
+Homepage: 
+Filename: enigma2-plugin-extensions-samsungtvplus_20250815_all.ipk
+Size: 174972
+MD5Sum: 403153a647d4c1fd2751f5cf99b479b1
+
+Package: enigma2-plugin-extensions-surfsharkvpn
+Version: 1.0.9-py3
+Description: Manage Surfshark VPN connections
+Section: extra
+Priority: optional
+Maintainer: murxer <support@boxpirates.to>
+Source: https://surfshark.com/
+Homepage: https://surfshark.com/
+Architecture: all
+License: free
+Depends: openvpn, openresolv, bash, python3-json, python3-requests
+Filename: enigma2-plugin-extensions-surfsharkvpn_1.0.9-py3_all.ipk
+Size: 927526
+MD5Sum: fda0075fe5f6ada0bc7c2fc43df1b725
+
+Package: enigma2-plugin-extensions-vpnmanager
+Version: 1.1.7-py3
+Description: OpenVpn Verbindungen verwalten
+Section: extra
+Priority: optional
+Maintainer: murxer <support@boxpirates.to>
+Architecture: all
+License: free
+Homepage: https://www.boxpirates.to
+Depends: python3-future, python3-json, openvpn, bash, openresolv, python3-beautifulsoup4
+Source: https://www.boxpirates.to
+Filename: enigma2-plugin-extensions-vpnmanager_1.1.7-py3_all.ipk
+Size: 491660
+MD5Sum: 52f0138fd0fb5307fa60871a29e07f8f
 
 Package: enigma2-plugin-extensions-wireguard-vpn
 Version: 16.2
@@ -99,6 +290,21 @@ SHA256sum: 4e169680e8c5e0a58335b873c1df6bbf3ce347d589e545da734be74dfbaa8a32
 Size: 6265110
 Filename: enigma2-plugin-skins-madmax-impossible_3.4_all.ipk
 Description: Skin - MadMax Impossible FHD
+
+Package: enigma2-plugin-skins-pdreamy-fhd
+Version: 2.1-r4
+Section: base
+Priority: required
+Architecture: all
+Maintainer: mmark -willy01Mod
+Description: enigma2-plugin-skins-pdreamy-fhd
+Source: enigma2-plugin-skins-pdreamy-fhd.bb
+Homepage: 
+OE: enigma2-plugin-skins-pdreamy-fhd
+License: GPLv2+
+Filename: enigma2-plugin-skins-pdreamy-fhd_2.1-r4_all.ipk
+Size: 970366
+MD5Sum: 65a5976718fc925e06e7e08539c42fa5
 
 Package: enigma2-plugin-skins-kiddac-1080-vskin
 Version: 2.27.20260928
@@ -149,4 +355,38 @@ Source: nodejs_24.20.0.bb
 Filename: nodejs-npm_24.20.0-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 2648390
 MD5Sum: f38d4d3eccc50827b7aa694bcf0ba84a
+
+Package: python3-rapidfuzz
+Version: 3.11.0
+Description: Fuzzy string matching in python
+ Fuzzy string matching in python.
+Section: devel/python
+Priority: optional
+Maintainer: zKhadiri
+License: GPL-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-rapidfuzz
+Homepage: https://github.com/rapidfuzz/RapidFuzz
+Depends: python3-core
+Source: python3-rapidfuzz_3.11.0.bb
+Filename: python3-rapidfuzz_3.11.0_cortexa15hf-neon-vfpv4.ipk
+Size: 1570076
+MD5Sum: cebc0d83245c85b78c43f96c4db3b138
+
+Package: python3-rarfile
+Version: 4.2-r0
+Description: RAR archive reader for Python
+ RAR archive reader for Python.
+Section: devel/python
+Priority: optional
+Maintainer: zKhadiri
+License: BSD-3-Clause
+Architecture: all
+OE: python3-rarfile
+Homepage: https://github.com/markokr/rarfile
+Depends: python3-core
+Source: python3-rarfile_4.2.bb
+Filename: python3-rarfile_4.2-r0_all.ipk
+Size: 26692
+MD5Sum: 502e661f8dea86cfd1f3f6e6eeaba37b
 
