@@ -3784,6 +3784,68 @@ OE: enigma2-plugin-skins-e2darkos
 License: GPL-3.0-only
 Priority: optional
 
+Package: enigma2-plugin-skins-glamouraurafhd-dbg
+Version: 14.x+git637+a56b0e30+a56b0e31d9-r0
+Section: devel
+Architecture: all
+Maintainer: MCelliotG
+MD5Sum: e1942684697ab743709a35733a85ed15
+SHA256sum: 1787c88deb23b475f16b303d524a57f5eba45b5293d6e25167b52ae418112794
+Size: 632
+Filename: enigma2-plugin-skins-glamouraurafhd-dbg_14.x+git637+a56b0e30+a56b0e31d9-r0_all.ipk
+Source: enigma2-plugin-skins-glamouraurafhd.bb
+Description: Glamour Aura FHD ATV skin for new generation STBs with OpenATV/OE-A based images - Debugging files
+OE: enigma2-plugin-skins-glamouraurafhd
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-glamouraurafhd-dev
+Version: 14.x+git637+a56b0e30+a56b0e31d9-r0
+Recommends: enigma2-plugin-skins-glamouraurafhd (= 14.x+git637+a56b0e30+a56b0e31d9-r0)
+Section: devel
+Architecture: all
+Maintainer: MCelliotG
+MD5Sum: 9e69d36d5844da338fab0560bc0ba0ad
+SHA256sum: 79a0fab7cf30a0b6c7482db7372e650bb95161b18390a53e27a18498e5c8df3d
+Size: 666
+Filename: enigma2-plugin-skins-glamouraurafhd-dev_14.x+git637+a56b0e30+a56b0e31d9-r0_all.ipk
+Source: enigma2-plugin-skins-glamouraurafhd.bb
+Description: Glamour Aura FHD ATV skin for new generation STBs with OpenATV/OE-A based images - Development files
+OE: enigma2-plugin-skins-glamouraurafhd
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-glamouraurafhd-src
+Version: 14.x+git637+a56b0e30+a56b0e31d9-r0
+Section: devel
+Architecture: all
+Maintainer: MCelliotG
+MD5Sum: 472d1b517c839d19a1fbada8e3cdfb19
+SHA256sum: bcf00feb2a5ab90328704da357a66b39466876674a73d877355b3fa530debb40
+Size: 81196
+Filename: enigma2-plugin-skins-glamouraurafhd-src_14.x+git637+a56b0e30+a56b0e31d9-r0_all.ipk
+Source: enigma2-plugin-skins-glamouraurafhd.bb
+Description: Glamour Aura FHD ATV skin for new generation STBs with OpenATV/OE-A based images - Source files
+OE: enigma2-plugin-skins-glamouraurafhd
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-glamouraurafhd
+Version: 14.x+git637+a56b0e30+a56b0e31d9-r0
+Recommends: enigma2-plugin-extensions-bitrate
+Section: base
+Architecture: all
+Maintainer: MCelliotG
+MD5Sum: 624be2942ee7d0406d37763bb98b3060
+SHA256sum: 291cd38ff8081d04c7717170692c65067faf8a8505452b0bcabfaee079d64027
+Size: 14258050
+Filename: enigma2-plugin-skins-glamouraurafhd_14.x+git637+a56b0e30+a56b0e31d9-r0_all.ipk
+Source: enigma2-plugin-skins-glamouraurafhd.bb
+Description: Glamour Aura FHD ATV skin for new generation STBs with OpenATV/OE-A based images
+OE: enigma2-plugin-skins-glamouraurafhd
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-skins-kiddac-1080-onyx-dbg
 Version: 2.52_20260928-git26+2db8ddb0+2db8ddb67b-r0
 Section: devel
@@ -4122,6 +4184,52 @@ Filename: enigma2-plugin-skins-pli-hd_0.1+git2347+187ac020+187ac022bd-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
 Description: Skin - PLi-HD
 OE: enigma2-plugin-skins-pli-hd
+License: LicenseRef-Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-proteusfhd-dbg
+Version: 1.0+git33+2a4b8a80+2a4b8a8503-r0
+Section: devel
+Architecture: all
+Maintainer: nautilus7
+MD5Sum: 4d7015b9c267687cba3ae79dff088bd2
+SHA256sum: 00a9a1ffed79563fbadb549a528b618859b2d403f41728d5bfeb2bcc3978eb2d
+Size: 584
+Filename: enigma2-plugin-skins-proteusfhd-dbg_1.0+git33+2a4b8a80+2a4b8a8503-r0_all.ipk
+Source: enigma2-plugin-skins-proteusfhd.bb
+Description: Skin ProteusFHD - Debugging files
+OE: enigma2-plugin-skins-proteusfhd
+License: LicenseRef-Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-proteusfhd-dev
+Version: 1.0+git33+2a4b8a80+2a4b8a8503-r0
+Recommends: enigma2-plugin-skins-proteusfhd (= 1.0+git33+2a4b8a80+2a4b8a8503-r0)
+Section: devel
+Architecture: all
+Maintainer: nautilus7
+MD5Sum: 22eb8a21b58b7626da8c08527afb15d6
+SHA256sum: b72715cc763273529ec31ac9e32ad0d1ec14d471b3c0c5314f4bf3c5e3f317c0
+Size: 618
+Filename: enigma2-plugin-skins-proteusfhd-dev_1.0+git33+2a4b8a80+2a4b8a8503-r0_all.ipk
+Source: enigma2-plugin-skins-proteusfhd.bb
+Description: Skin ProteusFHD - Development files
+OE: enigma2-plugin-skins-proteusfhd
+License: LicenseRef-Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-proteusfhd
+Version: 1.0+git33+2a4b8a80+2a4b8a8503-r0
+Section: base
+Architecture: all
+Maintainer: nautilus7
+MD5Sum: 6278cfc451f3f47098a524b4dfedf35b
+SHA256sum: 8062f2147bd82a793f241adc81c49d81f582b4bdab8a5300f29aebf6d6697441
+Size: 1168534
+Filename: enigma2-plugin-skins-proteusfhd_1.0+git33+2a4b8a80+2a4b8a8503-r0_all.ipk
+Source: enigma2-plugin-skins-proteusfhd.bb
+Description: Skin ProteusFHD
+OE: enigma2-plugin-skins-proteusfhd
 License: LicenseRef-Proprietary
 Priority: optional
 
@@ -8336,6 +8444,72 @@ Description: management framework for resolv.conf
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
 License: BSD-2-Clause
+Priority: optional
+
+Package: os-release-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 839d4d1930800eb92d442744e7697a47
+SHA256sum: 573a320962e86ae12dfb9c30a6486fa154d74d255ae5d168d2a5b21b43b57a09
+Size: 636
+Filename: os-release-dbg_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification - Debugging files
+OE: os-release
+HomePage: https://www.freedesktop.org/software/systemd/man/os-release.html
+License: MIT
+Priority: optional
+
+Package: os-release-dev
+Version: 1.0-r0
+Recommends: os-release (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2bfeec6b3537b3be955d4c89d394d84f
+SHA256sum: f2c92ffef981e2153c5af5694487bb94be35a17e1b593451207ed231125438ce
+Size: 668
+Filename: os-release-dev_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification - Development files
+OE: os-release
+HomePage: https://www.freedesktop.org/software/systemd/man/os-release.html
+License: MIT
+Priority: optional
+
+Package: os-release-initrd
+Version: 1.0-r0
+Depends: os-release
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 536507d2dfe9840cf5700a33d035cebe
+SHA256sum: b9d0301cc97c3dac3282acac3e77622374eb87265c9119e7e7a73eca8008b35d
+Size: 698
+Filename: os-release-initrd_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification
+OE: os-release
+HomePage: https://www.freedesktop.org/software/systemd/man/os-release.html
+License: MIT
+Priority: optional
+
+Package: os-release
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8f4e12eb12ae81ecadac3579e4d4eb22
+SHA256sum: 2351bd2b329a3c339d1016e50a0362d84e0664089f26ff220130996f7bf73b5f
+Size: 814
+Filename: os-release_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification
+OE: os-release
+HomePage: https://www.freedesktop.org/software/systemd/man/os-release.html
+License: MIT
 Priority: optional
 
 Package: packagegroup-openplugins-dbg
