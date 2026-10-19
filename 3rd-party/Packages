@@ -213,21 +213,6 @@ Size: 708266
 MD5Sum: 74e1fe1d567a0615d60a176de4c1538f
 SHA256sum: 18ab5db83fc288b81bcb4630e81f9e794f8e97aed0c771ed104dad9a25586704
 
-Package: enigma2-plugin-extensions-samsungtvplus
-Version: 20250815
-Section: extensions
-Priority: optional
-Architecture: all
-Maintainer: Billy2011
-Description: Samsung TV Plus Live TV Channels
-Depends: enigma2-plugin-extensions-epgimport
-Recommends: enigma2-plugin-systemplugins-serviceapp
-Source: 
-Homepage: 
-Filename: enigma2-plugin-extensions-samsungtvplus_20250815_all.ipk
-Size: 174972
-MD5Sum: 403153a647d4c1fd2751f5cf99b479b1
-
 Package: enigma2-plugin-extensions-surfsharkvpn
 Version: 1.0.9-py3
 Description: Manage Surfshark VPN connections
@@ -297,7 +282,7 @@ Section: base
 Priority: required
 Architecture: all
 Maintainer: mmark -willy01Mod
-Description: enigma2-plugin-skins-pdreamy-fhd
+Description: Skin - pDreamy-FHD
 Source: enigma2-plugin-skins-pdreamy-fhd.bb
 Homepage: 
 OE: enigma2-plugin-skins-pdreamy-fhd
@@ -317,7 +302,7 @@ SHA256sum: fe6c8d819cbe9728425efc8814ce0346a362daf6234ee12c3930da05d4b14b9a
 Size: 1115630
 Filename: enigma2-plugin-skins-vskin-1080_2.27.20260928_all.ipk
 Source: enigma2-plugin-skins-kiddac-1080-vskin.bb
-Description: enigma2-plugin-skins-kiddac-1080-vskin version git-r0
+Description: Skin - VSkin-1080-FHD
 OE: enigma2-plugin-skins-kiddac-1080-vskin
 License: GPL-2.0-or-later
 Priority: optional

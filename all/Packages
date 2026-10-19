@@ -494,50 +494,50 @@ OE: enigma2-plugin-drivers-s2-usb-dvbsky-s960
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-extensions-acherence-dbg
+Package: enigma2-plugin-extensions-acherone-dbg
 Version: 1.4-git123+4becaa70+4becaa7a6e-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: fdd53992c2b9e4a74f03408af6fae19d
-SHA256sum: 84457e6f06769d66f59c96dcb1e18328bfe06ff8d107595a3e9d368b09738fa0
+MD5Sum: adaa070d69d2122b3a8ef11712080d9d
+SHA256sum: 4493717c7d4eb9e959433623465e3dbac8d4e2c6cf39871db2acf49048ba3fba
 Size: 578
-Filename: enigma2-plugin-extensions-acherence-dbg_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
-Source: enigma2-plugin-extensions-acherence.bb
+Filename: enigma2-plugin-extensions-acherone-dbg_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
+Source: enigma2-plugin-extensions-acherone.bb
 Description: OpenScript for Enigma2 - Debugging files
-OE: enigma2-plugin-extensions-acherence
+OE: enigma2-plugin-extensions-acherone
 License: GPL-2.0-or-later
 Priority: required
 
-Package: enigma2-plugin-extensions-acherence-dev
+Package: enigma2-plugin-extensions-acherone-dev
 Version: 1.4-git123+4becaa70+4becaa7a6e-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-acherence (= 1.4-git123+4becaa70+4becaa7a6e-r0), python3-core-dev
+Recommends: enigma2-dev, enigma2-plugin-extensions-acherone (= 1.4-git123+4becaa70+4becaa7a6e-r0), python3-core-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 65e4f81af9f9c9244c915d7fb9161e30
-SHA256sum: 2c57075e42f1e9b5cdf6a0ea6d8dbc39727018d9276dafc89998ab1272e66cb4
-Size: 630
-Filename: enigma2-plugin-extensions-acherence-dev_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
-Source: enigma2-plugin-extensions-acherence.bb
+MD5Sum: bff15a933654634617976bab891d5d0b
+SHA256sum: 7641020319d82741ec496f07b792cf25bcb1a63f07c17ba9237947b25c28c5fd
+Size: 628
+Filename: enigma2-plugin-extensions-acherone-dev_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
+Source: enigma2-plugin-extensions-acherone.bb
 Description: OpenScript for Enigma2 - Development files
-OE: enigma2-plugin-extensions-acherence
+OE: enigma2-plugin-extensions-acherone
 License: GPL-2.0-or-later
 Priority: required
 
-Package: enigma2-plugin-extensions-acherence
+Package: enigma2-plugin-extensions-acherone
 Version: 1.4-git123+4becaa70+4becaa7a6e-r0
 Depends: enigma2, python3-core
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: fe93d6dc9f554e8c794d5efa0145907b
-SHA256sum: f6927d9645d20bc7d8f0230704a3e44b30325685f1c264a009d32348e5827f6b
-Size: 163234
-Filename: enigma2-plugin-extensions-acherence_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
-Source: enigma2-plugin-extensions-acherence.bb
+MD5Sum: 3870544606143cf23bade4a80af9ca6d
+SHA256sum: 162554531ef5a741fe5de677b274ffa5d30d9fb003c8495ff527476aae54ede2
+Size: 163232
+Filename: enigma2-plugin-extensions-acherone_1.4-git123+4becaa70+4becaa7a6e-r0_all.ipk
+Source: enigma2-plugin-extensions-acherone.bb
 Description: OpenScript for Enigma2
-OE: enigma2-plugin-extensions-acherence
+OE: enigma2-plugin-extensions-acherone
 License: GPL-2.0-or-later
 Priority: required
 
@@ -752,12 +752,12 @@ Version: 1.29-20260720-git65+bcbdb6e0+bcbdb6ede5-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: a5b64ca95f99afd19e3ae107e41ea281
-SHA256sum: 40fccd4aa973e893e12fe9b65376c89807ace6303c58ccddf6605dfbfe5d618a
-Size: 634
+MD5Sum: 6f965ddba316750e9ecb18c2ec1cc8b1
+SHA256sum: 58bbfab91e5d1de8e25fb600cc1bb81669bebd4ab53a0d568db1bcd686b86870
+Size: 628
 Filename: enigma2-plugin-extensions-e2piconizer-dbg_1.29-20260720-git65+bcbdb6e0+bcbdb6ede5-r0_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
-Description: enigma2-plugin-extensions-e2piconizer version git-r0 - Debugging files
+Description: Picon Downloader/Creator - Debugging files
 OE: enigma2-plugin-extensions-e2piconizer
 HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-or-later
@@ -769,12 +769,12 @@ Recommends: enigma2-plugin-extensions-e2piconizer (= 1.29-20260720-git65+bcbdb6e
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 1d27c2e1bcda1849df16fbde80dabb69
-SHA256sum: c61b23226b2f71431eda2fafef445a8ad9b369e06dbde2bf0ba11029bea418bc
-Size: 670
+MD5Sum: b68589e3870268629a96837b6d26b980
+SHA256sum: 199bf301c22759e049b2c25cb8ccd9ee359da534399463780fd20d2f3790c03c
+Size: 664
 Filename: enigma2-plugin-extensions-e2piconizer-dev_1.29-20260720-git65+bcbdb6e0+bcbdb6ede5-r0_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
-Description: enigma2-plugin-extensions-e2piconizer version git-r0 - Development files
+Description: Picon Downloader/Creator - Development files
 OE: enigma2-plugin-extensions-e2piconizer
 HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-or-later
@@ -785,12 +785,12 @@ Version: 1.29-20260720-git65+bcbdb6e0+bcbdb6ede5-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 5d09fea9c91353941949f71e7faf9718
-SHA256sum: f0ce5406b88672ab6464dd2638f04634147da4ecde2eb13d20bb730f2909242a
-Size: 15496
+MD5Sum: fe89e67195096753e56565f861c9bd53
+SHA256sum: 2a17f72e0c9ad192418979d5a8e978f0c41d98b60b7966697688497fd226a5cf
+Size: 15490
 Filename: enigma2-plugin-extensions-e2piconizer-src_1.29-20260720-git65+bcbdb6e0+bcbdb6ede5-r0_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
-Description: enigma2-plugin-extensions-e2piconizer version git-r0 - Source files
+Description: Picon Downloader/Creator - Source files
 OE: enigma2-plugin-extensions-e2piconizer
 HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-or-later
@@ -801,12 +801,12 @@ Version: 1.29-20260720-git65+bcbdb6e0+bcbdb6ede5-r0
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 57791329f2c407b2afbcfdb294f3503b
-SHA256sum: 9087eca28b7ed6df3546f5eface85ba3b0d9c20a801482197ee129cda8df0f8b
-Size: 1976780
+MD5Sum: 8720786521ffc8b63769d41da576444a
+SHA256sum: c94ad989a6af58eb2727f00f6d28914929069d8ee7fd0b4ae10e333b60457e99
+Size: 1976774
 Filename: enigma2-plugin-extensions-e2piconizer_1.29-20260720-git65+bcbdb6e0+bcbdb6ede5-r0_all.ipk
 Source: enigma2-plugin-extensions-e2piconizer.bb
-Description: enigma2-plugin-extensions-e2piconizer version git-r0
+Description: Picon Downloader/Creator
 OE: enigma2-plugin-extensions-e2piconizer
 HomePage: https://github.com/kiddac/E2_Piconizer
 License: GPL-2.0-or-later
@@ -1011,65 +1011,65 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jediepgxtream-dbg
-Version: 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r3
+Version: 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: f48c3c32aa0c00c6897b29f8cba77a55
-SHA256sum: 8967348077f5921cd2396a34c93a5176494f9ebe19f823b5d193f997aaa93c82
-Size: 622
-Filename: enigma2-plugin-extensions-jediepgxtream-dbg_2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r3_all.ipk
+MD5Sum: 3f1803a70e9e039535d565106573e017
+SHA256sum: 77c0f9ba80f5ad6e19c3f5521f33ce6288c5af16cf0883c8e5a38816e36202bd
+Size: 614
+Filename: enigma2-plugin-extensions-jediepgxtream-dbg_2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version git-r3 - Debugging files
+Description: Jedi-EPG-XStream - Debugging files
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jediepgxtream-dev
-Version: 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r3
-Recommends: enigma2-plugin-extensions-jediepgxtream (= 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r3), python3-backports-lzma-dev
+Version: 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0
+Recommends: enigma2-plugin-extensions-jediepgxtream (= 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0), python3-backports-lzma-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 93c49cb1dd22da53f305cb8738cf7349
-SHA256sum: fd66b2253104685fad24c238104e0be836331b07f1f44f50e88fad8abfad84a2
-Size: 676
-Filename: enigma2-plugin-extensions-jediepgxtream-dev_2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r3_all.ipk
+MD5Sum: 8a9db3578025879455705fb3f67b0cb8
+SHA256sum: 807a8af31652277f008d42292ed24023683e4e162fdbd51e736480e68057ce46
+Size: 670
+Filename: enigma2-plugin-extensions-jediepgxtream-dev_2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version git-r3 - Development files
+Description: Jedi-EPG-XStream - Development files
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jediepgxtream-src
-Version: 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r3
+Version: 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 7bf640f19869272a0108b5879359601b
-SHA256sum: 76564e7fe93292ed8e999f999b25db25aebc5d2df0b3108e01af450a85bbd0dd
-Size: 10766
-Filename: enigma2-plugin-extensions-jediepgxtream-src_2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r3_all.ipk
+MD5Sum: 6c1181fb95e2e5e014b1fb906105711a
+SHA256sum: c3624b35386ad278b2e9774c41427b97c4e8d273ca39ff3e60706c081f6e6d79
+Size: 10758
+Filename: enigma2-plugin-extensions-jediepgxtream-src_2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version git-r3 - Source files
+Description: Jedi-EPG-XStream - Source files
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jediepgxtream
-Version: 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r3
+Version: 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 7daf468478f7a4a30607e1840c1b8391
-SHA256sum: 95f5d203b9dbfa49a1b45f35ca3aa27bc3021ee68e8d58b3f17d1d4d4e84d18d
-Size: 271398
-Filename: enigma2-plugin-extensions-jediepgxtream_2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r3_all.ipk
+MD5Sum: 69f6f8f422203b083cf55e87a11d4680
+SHA256sum: 48af2ba8542ebb38f56caebf155870912383a6270fbe9c862f563dd7d83c94c6
+Size: 271390
+Filename: enigma2-plugin-extensions-jediepgxtream_2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0_all.ipk
 Source: enigma2-plugin-extensions-jediepgxtream.bb
-Description: enigma2-plugin-extensions-jediepgxtream version git-r3
+Description: Jedi-EPG-XStream
 OE: enigma2-plugin-extensions-jediepgxtream
 HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
@@ -1118,100 +1118,6 @@ Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.6-git506+f1f58c10+f1f58c13
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-moviebrowser-dbg
-Version: 3.9-rc0-git223+899a88d0+899a88d557-r0
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 309d75f974bba697ac6d59ba58f98dac
-SHA256sum: 494c1e0375dac37bbf813d44c6b6871a5b56fac9dc7674e022c00a4625899196
-Size: 590
-Filename: enigma2-plugin-extensions-moviebrowser-dbg_3.9-rc0-git223+899a88d0+899a88d557-r0_all.ipk
-Source: enigma2-plugin-extensions-moviebrowser.bb
-Description: MovieBrowser Enigma2 Plugin - Debugging files
-OE: enigma2-plugin-extensions-moviebrowser
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-moviebrowser-dev
-Version: 3.9-rc0-git223+899a88d0+899a88d557-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-moviebrowser (= 3.9-rc0-git223+899a88d0+899a88d557-r0), python3-requests-dev, python3-sqlite3-dev
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 4cb06ca7d8aff084e2f368641d0dd789
-SHA256sum: f0755f46d46c99ffcf64180773e57ad5f4a032b428befa7d155e08696e41d51a
-Size: 652
-Filename: enigma2-plugin-extensions-moviebrowser-dev_3.9-rc0-git223+899a88d0+899a88d557-r0_all.ipk
-Source: enigma2-plugin-extensions-moviebrowser.bb
-Description: MovieBrowser Enigma2 Plugin - Development files
-OE: enigma2-plugin-extensions-moviebrowser
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-moviebrowser
-Version: 3.9-rc0-git223+899a88d0+899a88d557-r0
-Depends: enigma2, python3-requests, python3-sqlite3
-Section: base
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 99ac14639b1060a45d0f5874759a5dec
-SHA256sum: bf3d0cf96de48946965363f05e3c4bf8477c3509195d048d6d9bdbac0dee4f9e
-Size: 2721790
-Filename: enigma2-plugin-extensions-moviebrowser_3.9-rc0-git223+899a88d0+899a88d557-r0_all.ipk
-Source: enigma2-plugin-extensions-moviebrowser.bb
-Description: MovieBrowser Enigma2 Plugin
-OE: enigma2-plugin-extensions-moviebrowser
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-ngsettings-dbg
-Version: 0.0-git13+01937440+01937447b4-r0
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: e65eaf10edbbfb16509314cf6f18465f
-SHA256sum: 9fedcdc28a52c1532b6671dc5a52e6330522ee62aebe34efe25059b6100d031f
-Size: 578
-Filename: enigma2-plugin-extensions-ngsettings-dbg_0.0-git13+01937440+01937447b4-r0_all.ipk
-Source: enigma2-plugin-extensions-ngsettings.bb
-Description: ngsettings Enigma2 Plugin - Debugging files
-OE: enigma2-plugin-extensions-ngsettings
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-ngsettings-dev
-Version: 0.0-git13+01937440+01937447b4-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-ngsettings (= 0.0-git13+01937440+01937447b4-r0)
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 76ef50485388eee4c8ccdf89cbcb7d97
-SHA256sum: 5d46d7980632bc9679dc73502b34509d6ddf1da4315a5cb6dea9db73caff5eda
-Size: 618
-Filename: enigma2-plugin-extensions-ngsettings-dev_0.0-git13+01937440+01937447b4-r0_all.ipk
-Source: enigma2-plugin-extensions-ngsettings.bb
-Description: ngsettings Enigma2 Plugin - Development files
-OE: enigma2-plugin-extensions-ngsettings
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-ngsettings
-Version: 0.0-git13+01937440+01937447b4-r0
-Depends: enigma2
-Section: base
-Architecture: all
-Maintainer: Lululla
-MD5Sum: be2d62eeb7e85a254e09d42ca67623e7
-SHA256sum: 5d008c03a695d72a257a6e0687d6e0d98812f76251ec30a75ca61a712620e89c
-Size: 307700
-Filename: enigma2-plugin-extensions-ngsettings_0.0-git13+01937440+01937447b4-r0_all.ipk
-Source: enigma2-plugin-extensions-ngsettings.bb
-Description: ngsettings Enigma2 Plugin
-OE: enigma2-plugin-extensions-ngsettings
 License: GPL-2.0-or-later
 Priority: required
 
