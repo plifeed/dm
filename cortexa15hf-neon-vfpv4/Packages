@@ -11014,6 +11014,56 @@ OE: enigma2-plugin-extensions-fontinfo
 License: LicenseRef-Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-footonsat-dbg
+Version: V0.0-git542+430678e0+430678e67a-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: fairbird
+MD5Sum: 24a70a29f2d1d80153d98aa2828cdd70
+SHA256sum: 3b3a47ff0bf2c6dd2397f657002aefe61a4c640bd0f3238d5d21f0c3389982b1
+Size: 688
+Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git542+430678e0+430678e67a-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-footonsat.bb
+Description: FootOnsat plugin for football match schedules - Debugging files
+OE: enigma2-plugin-extensions-footonsat
+HomePage: https://github.com/fairbird/FootOnsat
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-footonsat-dev
+Version: V0.0-git542+430678e0+430678e67a-r0
+Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git542+430678e0+430678e67a-r0), python3-sqlite3-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: fairbird
+MD5Sum: ea131c23480eed926f1ef4dee5a77145
+SHA256sum: f987101278c650d2e0eabfb0c823617c0b7d4fddd36fe20e6dd147eaa259c940
+Size: 738
+Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git542+430678e0+430678e67a-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-footonsat.bb
+Description: FootOnsat plugin for football match schedules - Development files
+OE: enigma2-plugin-extensions-footonsat
+HomePage: https://github.com/fairbird/FootOnsat
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-footonsat
+Version: V0.0-git542+430678e0+430678e67a-r0
+Depends: python3-sqlite3
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: fairbird
+MD5Sum: ad7559a2be6bb25d7e90ca925f45a24d
+SHA256sum: b26501a9bb4de06679c61c4211eb828915735b87141ad4542c611a9f2a59092c
+Size: 41416722
+Filename: enigma2-plugin-extensions-footonsat_V0.0-git542+430678e0+430678e67a-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-footonsat.bb
+Description: FootOnsat plugin for football match schedules
+OE: enigma2-plugin-extensions-footonsat
+HomePage: https://github.com/fairbird/FootOnsat
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-foreca-dbg
 Version: 2.0+git381+2351f7e0+2351f7ef2f-r0
 Section: devel
@@ -13502,8 +13552,8 @@ Version: V7.1-git548+8d109e80+8d109e8475-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 41d9182d86ee440b380d31bd6d272418
-SHA256sum: 7f1b7a51ac93dbde13d0685ec438418d1ae6452a519f3e8b9de4d2e3fd881076
+MD5Sum: b54273c0b96522f1315f001e25124b37
+SHA256sum: 22b9ddade6076bcff2f728cd86a9453c44e4c2f64881a1e686e51b3db739650b
 Size: 652
 Filename: enigma2-plugin-extensions-worldcam-dbg_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13519,9 +13569,9 @@ Recommends: enigma2-plugin-extensions-worldcam (= V7.1-git548+8d109e80+8d109e847
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: b1a981d14748c3b6e4149e38f0c4628e
-SHA256sum: 64cc07227c255eed31997799df3e1cfc48ea2da3ab39bd6bea26b6d74ca857f1
-Size: 786
+MD5Sum: 0ba975a6ecae27ea304195a599b36b71
+SHA256sum: 688eeb24a6bd51482ca7d5ea12e6e2327daadc14c04e723e3544fcd3f3aed9fc
+Size: 784
 Filename: enigma2-plugin-extensions-worldcam-dev_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Development files
@@ -13535,8 +13585,8 @@ Version: V7.1-git548+8d109e80+8d109e8475-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 558db9c6653ad11ab7d612d106b8028e
-SHA256sum: 46467584af86d6cfba324d5b2998061a9dddd8fd3cf7ce60d59e80500aca6d11
+MD5Sum: 63c3c9e75bd9424a464825ce095217fa
+SHA256sum: 9f151e79fea393931091c492d6560bf72ad1d8f3a796297625b0fabbec135577
 Size: 46256
 Filename: enigma2-plugin-extensions-worldcam-src_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13553,9 +13603,9 @@ Recommends: enigma2-plugin-extensions-streamlinkwrapper, enigma2-plugin-extensio
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: fcef8603decb729d4666fc5588b14c0e
-SHA256sum: 0dbedc314a37e1532b8bbb26a9eb4936acaf25691ebb17a6428cca32cf950bc2
-Size: 2793536
+MD5Sum: 7ba0cfdb48809651c42459d496988e2a
+SHA256sum: 1021463578256ee1bf80aa01e9ff234608d80b3c10947e2fc7d6e001762fae79
+Size: 2793560
 Filename: enigma2-plugin-extensions-worldcam_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists
@@ -13971,8 +14021,8 @@ Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7e4a7da00674ec947cd6b0569dcbc3f7
-SHA256sum: 56a478630c08e3de3eef20c6480f87e7b5d8553dc4d2eabb52ff5abd69728924
+MD5Sum: 1633bbd5b3041aa89cbe9117b369720a
+SHA256sum: 35d1187e5572a7965792dfbbf79b793f2a4ddfe234db478bd581ff94c32a126d
 Size: 746774
 Filename: enigma2-plugin-softcams-oscam-emu_11966-git11077+ad7588c0+ad7588c6dd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam-emu.bb
@@ -13987,9 +14037,9 @@ Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8fcac639f8494381a268b63d5dac8420
-SHA256sum: 3c6fc4864bc3a048b116f0cc969749fcd81dbda39b8aa31c53f18ff71b0c14a1
-Size: 697352
+MD5Sum: cb7e0558bce6a50580ffecc801867c04
+SHA256sum: 86778dd60b103556d1433d8a85a13230bbeaa99844d3a42da669ade4974cd3f7
+Size: 697350
 Filename: enigma2-plugin-softcams-oscam_11968-git10887+39e78a40+39e78a4688-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
@@ -94761,16 +94811,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: mpd-dbg
-Version: 0.24.15-r0
+Version: 0.24.16-r0
 Recommends: alsa-lib-dbg, dbus-lib-dbg, expat-dbg, faad2-dbg, fluidsynth-dbg, fmt-dbg, glibc-dbg, libao-dbg, libavahi-client-dbg, libavahi-common-dbg, libavcodec-dbg, libavfilter-dbg, libavformat-dbg, libavutil-dbg, libbz2-dbg, libcdio-dbg, libcurl-dbg, libflac-dbg, libgcc-dbg, libicui18n-dbg, libicuuc-dbg, libiso9660-dbg, libjack-dbg, libmms-dbg, libmodplug-dbg, libogg-dbg, libopus-dbg, libpcre2-dbg, libpulse-dbg, libsamplerate0-dbg, libsndfile1-dbg, libsqlite3-dbg, libstdc++-dbg, libupnp-dbg, libvorbis-dbg, mpg123-dbg, openal-soft-dbg, wavpack-dbg, zlib-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 05a94f52649d935ab2e91a49e9e54338
-SHA256sum: 64568c55b7ed2a4319c85178bbf050091be8d02f2516ae906ccbb5d53041a8c2
-Size: 21526216
-Filename: mpd-dbg_0.24.15-r0_cortexa15hf-neon-vfpv4.ipk
-Source: mpd_0.24.15.bb
+MD5Sum: f9fe60e8f6cccc0d2bd541133d56d196
+SHA256sum: 47bd2f5f6f5a6bc2aec07dc73178d37e0d215a5d753802b9ac92dac59d88e787
+Size: 21812178
+Filename: mpd-dbg_0.24.16-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mpd_0.24.16.bb
 Description: Music Player Daemon - Debugging files
 OE: mpd
 HomePage: http://www.musicpd.org
@@ -94778,16 +94828,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: mpd-dev
-Version: 0.24.15-r0
-Recommends: alsa-lib-dev, base-files-dev, base-passwd-dev, bzip2-dev, curl-dev, dbus-dev, dbus-lib-dev, expat-dev, faad2-dev, ffmpeg-dev, flac-dev, fluidsynth-dev, fmt-dev, glibc-dev, icu-dev, jack-dev, libao-dev, libavahi-client-dev, libavahi-common-dev, libavcodec-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbz2-dev, libcdio-dev, libcurl-dev, libflac-dev, libgcc-dev, libicui18n-dev, libicuuc-dev, libiso9660-dev, libjack-dev, libmms-dev, libmodplug-dev, libogg-dev, libopus-dev, libpcre2-dev, libpulse-dev, libsamplerate0-dev, libsndfile1-dev, libsqlite3-dev, libstdc++-dev, libupnp-dev, libvorbis-dev, mpd (= 0.24.15-r0), mpg123-dev, openal-soft-dev, pulseaudio-dev, shadow-dev, shadow-sysroot-dev, sqlite3-dev, wavpack-dev, yajl-dev, zlib-dev
+Version: 0.24.16-r0
+Recommends: alsa-lib-dev, base-files-dev, base-passwd-dev, bzip2-dev, curl-dev, dbus-dev, dbus-lib-dev, expat-dev, faad2-dev, ffmpeg-dev, flac-dev, fluidsynth-dev, fmt-dev, glibc-dev, icu-dev, jack-dev, libao-dev, libavahi-client-dev, libavahi-common-dev, libavcodec-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbz2-dev, libcdio-dev, libcurl-dev, libflac-dev, libgcc-dev, libicui18n-dev, libicuuc-dev, libiso9660-dev, libjack-dev, libmms-dev, libmodplug-dev, libogg-dev, libopus-dev, libpcre2-dev, libpulse-dev, libsamplerate0-dev, libsndfile1-dev, libsqlite3-dev, libstdc++-dev, libupnp-dev, libvorbis-dev, mpd (= 0.24.16-r0), mpg123-dev, openal-soft-dev, pulseaudio-dev, shadow-dev, shadow-sysroot-dev, sqlite3-dev, wavpack-dev, yajl-dev, zlib-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 876c6f5e52db114887a1209311dbff3c
-SHA256sum: 2d9447ceb97f3324ce3247e3d80c18f70bc84ee7005641ccf0039c4f7f710641
-Size: 918
-Filename: mpd-dev_0.24.15-r0_cortexa15hf-neon-vfpv4.ipk
-Source: mpd_0.24.15.bb
+MD5Sum: f3b053360da5f76c14feda8e4170d877
+SHA256sum: 037efbb28936e493b07223b0ef4008b0971b02443ecc65b5c1831c58c5ea8e8a
+Size: 920
+Filename: mpd-dev_0.24.16-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mpd_0.24.16.bb
 Description: Music Player Daemon - Development files
 OE: mpd
 HomePage: http://www.musicpd.org
@@ -94795,15 +94845,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: mpd-doc
-Version: 0.24.15-r0
+Version: 0.24.16-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 12c76dbf2fa47754eb5f69616b848463
-SHA256sum: 62f953c95188072fc930a03ab650b73b7500baaffba2e531e0819d837fcac343
-Size: 43744
-Filename: mpd-doc_0.24.15-r0_cortexa15hf-neon-vfpv4.ipk
-Source: mpd_0.24.15.bb
+MD5Sum: 81226e898096a2ae3ce649c836cfe990
+SHA256sum: 16c4bbf4372387d6883bf5433495b1c58b885a06bae3922fe79511f010be00c0
+Size: 44934
+Filename: mpd-doc_0.24.16-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mpd_0.24.16.bb
 Description: Music Player Daemon - Documentation files
 OE: mpd
 HomePage: http://www.musicpd.org
@@ -94811,7 +94861,7 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: mpd
-Version: 0.24.15-r0
+Version: 0.24.16-r0
 Depends: base-files, base-passwd, faad2 (>= 2.11.3), libao2 (>= 0.8.8), libasound2 (>= 1.2.16.1), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libavcodec63 (>= 9.0.2), libavfilter12 (>= 9.0.2), libavformat63 (>= 9.0.2), libavutil61 (>= 9.0.2), libbz2-1 (>= 1.0.8), libc6 (>= 2.44+git0+34106fee69), libcdio21 (>= 2.4.0), libcurl4 (>= 8.23.0), libdbus-1-3 (>= 1.16.2), libexpat1 (>= 2.9.0), libflac14 (>= 1.5.0), libfluidsynth3 (>= 2.5.7), libfmt12 (>= 12.2.0), libgcc1 (>= 16.2.0), libicui18n78 (>= 78.3), libicuuc78 (>= 78.3), libiso9660-13 (>= 2.4.0), libjack (>= 1.9.22), libmms0 (>= 0.6.4), libmodplug1 (>= 0.8.9.0), libogg0 (>= 1.3.6), libopus0 (>= 1.6.1), libpcre2 (>= 10.49), libpulse0 (>= 17.0), libsamplerate0 (>= 0.2.2), libsndfile1 (>= 1.2.2), libsqlite3-0 (>= 3.54.0), libstdc++6 (>= 16.2.0), libupnp (>= 1.14.31), libvorbis (>= 1.3.7), libwavpack1 (>= 5.9.0), libz1 (>= 1.3.2), mpg123 (>= 1.33.7), openal-soft (>= 1.25.2), shadow
 Provides: mpd-systemd
 Replaces: mpd-systemd
@@ -94819,11 +94869,11 @@ Conflicts: mpd-systemd
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f717b08478e90118f0340fefe306b978
-SHA256sum: da526351a172f25596842b345f8b408d46ff0516741e04a43dd7e1ea819a311c
-Size: 903814
-Filename: mpd_0.24.15-r0_cortexa15hf-neon-vfpv4.ipk
-Source: mpd_0.24.15.bb
+MD5Sum: 49b4069bc69a8ff53506adf440d81bc7
+SHA256sum: d271a98a664129c2e540ac9d830e695be2f9c978a78681ee1d594554667abb47
+Size: 916870
+Filename: mpd_0.24.16-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mpd_0.24.16.bb
 Description: Music Player Daemon
 OE: mpd
 HomePage: http://www.musicpd.org
@@ -95106,9 +95156,9 @@ Recommends: glibc-dbg, ncurses-libncursesw-dbg, ncurses-libtinfo-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 19213a0b9f28cb0fe504d569d50e0f56
-SHA256sum: c4a4075bf7a039cfb5f32e37d48fe962e8a2f4ac21838ecb1442ba1cf47876b6
-Size: 236636
+MD5Sum: 90760d96bb073e6505c2e16db5c2f64c
+SHA256sum: 0b7dc306d3974aa329d826c1427816f167500b981b34c1c5a5ca882aac506569
+Size: 236786
 Filename: mtr-dbg_0.96-r0_cortexa15hf-neon-vfpv4.ipk
 Source: mtr_0.96.bb
 Description: Combined traceroute and ping utility - Debugging files
@@ -95156,9 +95206,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libncursesw5 (>= 6.6), libtinfo5 (>= 6
 Section: net
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 206de5bc01785b3083ca4debceb5fa32
-SHA256sum: 63fcd3129e75a432b19080affb6a043aa6962b65addaa49f86116897b1843455
-Size: 49540
+MD5Sum: 1f0b37598c8e2e6f3fced22e227c1254
+SHA256sum: fe45447088b59a1193eee0e0d9dc5bd60a53ad713295cbeefbc92887dcaff2d8
+Size: 49528
 Filename: mtr_0.96-r0_cortexa15hf-neon-vfpv4.ipk
 Source: mtr_0.96.bb
 Description: Combined traceroute and ping utility
@@ -97409,13 +97459,13 @@ Priority: optional
 
 Package: openpli-enigma2-feed-dev
 Version: 1.0-r0
-Recommends: astra-sm-dev, autofs-dev, autossh-dev, bitstream-dev, ccid-dev, channelsettings-enigma2-meta-dev, chrony-dev, cloudflare-dns-dev, cmdwrapper-dev, ctorrent-dev, cups-dev, curl-dev, curl-impersonate-dev, dav1d-dev, davfs2-dev, dhrystone-dev, diffutils-dev, djmount-dev, dosfstools-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, edid-decode-dev, enigma2-binary-plugins-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-acherone-dev, enigma2-plugin-extensions-arabicsavior-dev, enigma2-plugin-extensions-archimede-m3uconverter-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-automatic-fullbackup-dev, enigma2-plugin-extensions-backupflash-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-bmediacenter-dev, enigma2-plugin-extensions-bouquetmakerxtream-dev, enigma2-plugin-extensions-calendar-dev, enigma2-plugin-extensions-chefkoch-dev, enigma2-plugin-extensions-ciplus-helper-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-e2piconizer-dev, enigma2-plugin-extensions-enhancedmoviecenter-dev, enigma2-plugin-extensions-enigmalight-dev, enigma2-plugin-extensions-enigmawelt-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-epgtranslator-dev, enigma2-plugin-extensions-esame-dev, enigma2-plugin-extensions-estalker-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-freechannels-dev, enigma2-plugin-extensions-fritzcall-dev, enigma2-plugin-extensions-hdmitest-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-infobarweather-dev, enigma2-plugin-extensions-iptv-org-playlists-dev, enigma2-plugin-extensions-jediepgxtream-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-linuxsatpanel-dev, enigma2-plugin-extensions-lottoextended-dev, enigma2-plugin-extensions-moviemanager-dev, enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-extensions-oemediathek-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-planerfs-dev, enigma2-plugin-extensions-plutotv-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-raedquicksignal-dev, enigma2-plugin-extensions-raiplay-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-schiffe-dev, enigma2-plugin-extensions-sdgradio-dev, enigma2-plugin-extensions-serienrecorder-dev, enigma2-plugin-extensions-simplezoom-panel-dev, enigma2-plugin-extensions-skyline-webcams-dev, enigma2-plugin-extensions-stalkerportalconverter-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-sudoku-dev, enigma2-plugin-extensions-sundtekcontrolcenter-dev, enigma2-plugin-extensions-tetris-dev, enigma2-plugin-extensions-ts-sateditor-dev, enigma2-plugin-extensions-tvgarden-dev, enigma2-plugin-extensions-tvmanager-dev, enigma2-plugin-extensions-vavoo-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vhannibal-autosettings-dev, enigma2-plugin-extensions-vierg-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-webradiofs-dev, enigma2-plugin-extensions-wifi-manager-dev, enigma2-plugin-extensions-worldcam-dev, enigma2-plugin-extensions-xklass-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-extensions-yampmusicplayer-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-e2darkos-dev, enigma2-plugin-skins-glamouraurafhd-dev, enigma2-plugin-skins-kiddac-1080-onyx-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-pd1loi-hd-night-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd-fullnight-dev, enigma2-plugin-skins-proteusfhd-dev, enigma2-plugin-skins-ruinfinityhd-dev, enigma2-plugin-skins-satdreamgr-hd-transpba-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-systemplugins-bluetoothsetup-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-extrafancontrol-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-m3uiptv-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-netspeedtest-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-satipserver-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-terrestrialbouquet-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, evtest-dev, exfatprogs-dev, exteplayer3-dev, fdk-aac-dev, firmware-mt7601u-dev, firmware-rtl8188eu-dev, firmware-rtl8188fu-dev, firmware-rtl8192eu-dev, firmware-rtl8723bu-dev, fstrcmp-dev, fuse-dev, gdb-dev, gerbera-dev, google-dns-dev, grep-dev, gstplayer-dev, hddtemp-dev, hdparm-dev, htop-dev, iflatbitrate-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, ipkg-tools-dev, iproute2-dev, iputils-dev, joe-dev, kernel-module-mt7601usta-dev, kernel-module-mt7610u-dev, kernel-module-rt3573sta-dev, kernel-module-rt5572sta-dev, kernel-module-rt8188eu-dev, kernel-module-rt8188fu-dev, kernel-module-rt8189es-dev, kernel-module-rt8192eu-dev, kernel-module-rt8192fu-dev, kernel-module-rt8723a-dev, kernel-module-rt8723bs-dev, kernel-module-rt8723bu-dev, kernel-module-rt8812au-dev, kernel-module-rt8814au-dev, kernel-module-rt8821cu-dev, kernel-module-rt8852cu-dev, kernel-module-rt88x2bu-dev, kernel-module-rt88x2cu-dev, less-dev, libbluray-dev, libdcadec-dev, libnfs-dev, libpar2-dev, libudfread-dev, libvpx-dev, mc-dev, mediainfo-dev, meta-enigma2-dvdburn-dev, minisatip-dev, mpd-dev, mpg123-dev, mtd-utils-dev, mtools-dev, mtr-dev, nano-dev, net-tools-dev, ntfs-3g-dev, openmultiboot-dev, openpli-enigma2-feed (= 1.0-r0), openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, os-release-dev, package-index-feed-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, picons-enigma2-meta-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python3-apprise-dev, python3-babelfish-dev, python3-backports-lzma-dev, python3-beautifulsoup4-dev, python3-biplist-dev, python3-bluetool-dev, python3-cattrs-dev, python3-cfscrape-dev, python3-chardet-dev, python3-cheroot-dev, python3-cherrypy-dev, python3-circuits-bricks-dev, python3-circuits-dev, python3-cocy-dev, python3-compat2-dev, python3-cssselect-dev, python3-ct3-dev, python3-curl-cffi-dev, python3-daap-dev, python3-exceptiongroup-dev, python3-feedparser-dev, python3-flickrapi-dev, python3-flit-scm-dev, python3-future-dev, python3-futures3-dev, python3-fuzzywuzzy-dev, python3-gdata-python3-dev, python3-guessit-dev, python3-h11-dev, python3-icalendar-dev, python3-iniparse-dev, python3-iso-639-dev, python3-isodate-dev, python3-itemadapter-dev, python3-itemloaders-dev, python3-jaraco.classes-dev, python3-jaraco.collections-dev, python3-jaraco.context-dev, python3-jaraco.functools-dev, python3-jaraco.text-dev, python3-js2py-dev, python3-levenshtein-dev, python3-lxml-dev, python3-lzallright-dev, python3-mechanize-dev, python3-more-itertools-dev, python3-multipart-dev, python3-mutagen-dev, python3-notify2-dev, python3-ntplib-dev, python3-outcome-dev, python3-packaging-dev, python3-parsel-dev, python3-pbkdf2-dev, python3-pip-dev, python3-platformdirs-dev, python3-portend-dev, python3-process-dev, python3-protego-dev, python3-puremagic-dev, python3-py3amf-dev, python3-pycountry-dev, python3-pycryptodome-dev, python3-pyexecjs-dev, python3-pysmb-dev, python3-pysnmp-dev, python3-pyte-dev, python3-pytz-dev, python3-queuelib-dev, python3-rbtranslations-dev, python3-rebulk-dev, python3-requests-cache-dev, python3-requests-dev, python3-sabctools-dev, python3-sabyenc3-dev, python3-scrapy-dev, python3-setuptools-dev, python3-sgmllib3k-dev, python3-simple-justwatch-python-api-dev, python3-singledispatch-dev, python3-soco-dev, python3-tcpbridge-dev, python3-tempora-dev, python3-tenjin-dev, python3-thefuzz-dev, python3-timeout-decorator-dev, python3-tinytag-dev, python3-tldextract-dev, python3-tmdbsimple-dev, python3-tmdbv3api-dev, python3-transmission-rpc-dev, python3-treq-dev, python3-trio-websocket-dev, python3-tvdbsimple-dev, python3-types-setuptools-dev, python3-typing-extensions-dev, python3-tzlocal-dev, python3-ubi-reader-dev, python3-url-normalize-dev, python3-uv-build-dev, python3-versioningit-dev, python3-w3lib-dev, python3-websockets-dev, python3-wifi-dev, python3-yenc-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-yt-dlp-ejs-dev, python3-zc.lockfile-dev, quickjs-dev, rclone-dev, redsea-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, satpi-dev, screen-dev, sed-dev, shairplay-dev, shellinabox-dev, smartmontools-dev, smbnetfs-dev, softcams-enigma2-meta-dev, sshpass-dev, strace-dev, streamlink-dev, streamlinksrv-dev, tcpdump-dev, tmux-dev, transmission-dev, tsanalyze-dev, tsduck-dev, tslib-dev, tsniv2ni-dev, ttyrun-dev, ubuntu-font-family-dev, udpxy-dev, unzip-dev, upx-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, valgrind-dev, vim-dev, wget-dev, wireguard-module-dev, wireguard-tools-dev, wireless-tools-dev, wscan-dev, wsdd-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zerotier-dev, zip-dev, zsh-dev
+Recommends: astra-sm-dev, autofs-dev, autossh-dev, bitstream-dev, ccid-dev, channelsettings-enigma2-meta-dev, chrony-dev, cloudflare-dns-dev, cmdwrapper-dev, ctorrent-dev, cups-dev, curl-dev, curl-impersonate-dev, dav1d-dev, davfs2-dev, dhrystone-dev, diffutils-dev, djmount-dev, dosfstools-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, edid-decode-dev, enigma2-binary-plugins-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-acherone-dev, enigma2-plugin-extensions-arabicsavior-dev, enigma2-plugin-extensions-archimede-m3uconverter-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-automatic-fullbackup-dev, enigma2-plugin-extensions-backupflash-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-bmediacenter-dev, enigma2-plugin-extensions-bouquetmakerxtream-dev, enigma2-plugin-extensions-calendar-dev, enigma2-plugin-extensions-chefkoch-dev, enigma2-plugin-extensions-ciplus-helper-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-e2piconizer-dev, enigma2-plugin-extensions-enhancedmoviecenter-dev, enigma2-plugin-extensions-enigmalight-dev, enigma2-plugin-extensions-enigmawelt-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-epgtranslator-dev, enigma2-plugin-extensions-esame-dev, enigma2-plugin-extensions-estalker-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-footonsat-dev, enigma2-plugin-extensions-freechannels-dev, enigma2-plugin-extensions-fritzcall-dev, enigma2-plugin-extensions-hdmitest-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-infobarweather-dev, enigma2-plugin-extensions-iptv-org-playlists-dev, enigma2-plugin-extensions-jediepgxtream-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-linuxsatpanel-dev, enigma2-plugin-extensions-lottoextended-dev, enigma2-plugin-extensions-moviemanager-dev, enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-extensions-oemediathek-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-planerfs-dev, enigma2-plugin-extensions-plutotv-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-raedquicksignal-dev, enigma2-plugin-extensions-raiplay-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-schiffe-dev, enigma2-plugin-extensions-sdgradio-dev, enigma2-plugin-extensions-serienrecorder-dev, enigma2-plugin-extensions-simplezoom-panel-dev, enigma2-plugin-extensions-skyline-webcams-dev, enigma2-plugin-extensions-stalkerportalconverter-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-sudoku-dev, enigma2-plugin-extensions-sundtekcontrolcenter-dev, enigma2-plugin-extensions-tetris-dev, enigma2-plugin-extensions-ts-sateditor-dev, enigma2-plugin-extensions-tvgarden-dev, enigma2-plugin-extensions-tvmanager-dev, enigma2-plugin-extensions-vavoo-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vhannibal-autosettings-dev, enigma2-plugin-extensions-vierg-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-webradiofs-dev, enigma2-plugin-extensions-wifi-manager-dev, enigma2-plugin-extensions-worldcam-dev, enigma2-plugin-extensions-xklass-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-extensions-yampmusicplayer-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-e2darkos-dev, enigma2-plugin-skins-glamouraurafhd-dev, enigma2-plugin-skins-kiddac-1080-onyx-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-pd1loi-hd-night-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd-fullnight-dev, enigma2-plugin-skins-proteusfhd-dev, enigma2-plugin-skins-ruinfinityhd-dev, enigma2-plugin-skins-satdreamgr-hd-transpba-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-systemplugins-bluetoothsetup-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-extrafancontrol-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-m3uiptv-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-netspeedtest-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-satipserver-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-terrestrialbouquet-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, evtest-dev, exfatprogs-dev, exteplayer3-dev, fdk-aac-dev, firmware-mt7601u-dev, firmware-rtl8188eu-dev, firmware-rtl8188fu-dev, firmware-rtl8192eu-dev, firmware-rtl8723bu-dev, fstrcmp-dev, fuse-dev, gdb-dev, gerbera-dev, google-dns-dev, grep-dev, gstplayer-dev, hddtemp-dev, hdparm-dev, htop-dev, iflatbitrate-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, ipkg-tools-dev, iproute2-dev, iputils-dev, joe-dev, kernel-module-mt7601usta-dev, kernel-module-mt7610u-dev, kernel-module-rt3573sta-dev, kernel-module-rt5572sta-dev, kernel-module-rt8188eu-dev, kernel-module-rt8188fu-dev, kernel-module-rt8189es-dev, kernel-module-rt8192eu-dev, kernel-module-rt8192fu-dev, kernel-module-rt8723a-dev, kernel-module-rt8723bs-dev, kernel-module-rt8723bu-dev, kernel-module-rt8812au-dev, kernel-module-rt8814au-dev, kernel-module-rt8821cu-dev, kernel-module-rt8852cu-dev, kernel-module-rt88x2bu-dev, kernel-module-rt88x2cu-dev, less-dev, libbluray-dev, libdcadec-dev, libnfs-dev, libpar2-dev, libudfread-dev, libvpx-dev, mc-dev, mediainfo-dev, meta-enigma2-dvdburn-dev, minisatip-dev, mpd-dev, mpg123-dev, mtd-utils-dev, mtools-dev, mtr-dev, nano-dev, net-tools-dev, ntfs-3g-dev, openmultiboot-dev, openpli-enigma2-feed (= 1.0-r0), openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, os-release-dev, package-index-feed-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, picons-enigma2-meta-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python3-apprise-dev, python3-babelfish-dev, python3-backports-lzma-dev, python3-beautifulsoup4-dev, python3-biplist-dev, python3-bluetool-dev, python3-cattrs-dev, python3-cfscrape-dev, python3-chardet-dev, python3-cheroot-dev, python3-cherrypy-dev, python3-circuits-bricks-dev, python3-circuits-dev, python3-cocy-dev, python3-compat2-dev, python3-cssselect-dev, python3-ct3-dev, python3-curl-cffi-dev, python3-daap-dev, python3-exceptiongroup-dev, python3-feedparser-dev, python3-flickrapi-dev, python3-flit-scm-dev, python3-future-dev, python3-futures3-dev, python3-fuzzywuzzy-dev, python3-gdata-python3-dev, python3-guessit-dev, python3-h11-dev, python3-icalendar-dev, python3-iniparse-dev, python3-iso-639-dev, python3-isodate-dev, python3-itemadapter-dev, python3-itemloaders-dev, python3-jaraco.classes-dev, python3-jaraco.collections-dev, python3-jaraco.context-dev, python3-jaraco.functools-dev, python3-jaraco.text-dev, python3-js2py-dev, python3-levenshtein-dev, python3-lxml-dev, python3-lzallright-dev, python3-mechanize-dev, python3-more-itertools-dev, python3-multipart-dev, python3-mutagen-dev, python3-notify2-dev, python3-ntplib-dev, python3-outcome-dev, python3-packaging-dev, python3-parsel-dev, python3-pbkdf2-dev, python3-pip-dev, python3-platformdirs-dev, python3-portend-dev, python3-process-dev, python3-protego-dev, python3-puremagic-dev, python3-py3amf-dev, python3-pycountry-dev, python3-pycryptodome-dev, python3-pyexecjs-dev, python3-pysmb-dev, python3-pysnmp-dev, python3-pyte-dev, python3-pytz-dev, python3-queuelib-dev, python3-rbtranslations-dev, python3-rebulk-dev, python3-requests-cache-dev, python3-requests-dev, python3-sabctools-dev, python3-sabyenc3-dev, python3-scrapy-dev, python3-setuptools-dev, python3-sgmllib3k-dev, python3-simple-justwatch-python-api-dev, python3-singledispatch-dev, python3-soco-dev, python3-tcpbridge-dev, python3-tempora-dev, python3-tenjin-dev, python3-thefuzz-dev, python3-timeout-decorator-dev, python3-tinytag-dev, python3-tldextract-dev, python3-tmdbsimple-dev, python3-tmdbv3api-dev, python3-transmission-rpc-dev, python3-treq-dev, python3-trio-websocket-dev, python3-tvdbsimple-dev, python3-types-setuptools-dev, python3-typing-extensions-dev, python3-tzlocal-dev, python3-ubi-reader-dev, python3-url-normalize-dev, python3-uv-build-dev, python3-versioningit-dev, python3-w3lib-dev, python3-websockets-dev, python3-wifi-dev, python3-yenc-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-yt-dlp-ejs-dev, python3-zc.lockfile-dev, quickjs-dev, rclone-dev, redsea-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, satpi-dev, screen-dev, sed-dev, shairplay-dev, shellinabox-dev, smartmontools-dev, smbnetfs-dev, softcams-enigma2-meta-dev, sshpass-dev, strace-dev, streamlink-dev, streamlinksrv-dev, tcpdump-dev, tmux-dev, transmission-dev, tsanalyze-dev, tsduck-dev, tslib-dev, tsniv2ni-dev, ttyrun-dev, ubuntu-font-family-dev, udpxy-dev, unzip-dev, upx-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, valgrind-dev, vim-dev, wget-dev, wireguard-module-dev, wireguard-tools-dev, wireless-tools-dev, wscan-dev, wsdd-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zerotier-dev, zip-dev, zsh-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a303a5bea097efebfdcd89fafd3eb3e4
-SHA256sum: d669de13ee0cca3ffd675cc95dd83de4835e8f00cd24565be0179105770d792b
-Size: 3082
+MD5Sum: 2e85525c39b78ac8f88bc4bfe7ca0216
+SHA256sum: 330077cd73c762e466db04409ec2ecc7ceb042834f7f3ab86cdcdc24ae3f1b2e
+Size: 3086
 Filename: openpli-enigma2-feed-dev_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: openpli-enigma2-feed.bb
 Description: openpli-enigma2-feed version 1.0-r0 - Development files
@@ -99748,15 +99798,15 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: pcsc-tools-dbg
-Version: 0.0-1759-g6510c0e-r0
+Version: 0.0-1760-g848b44e-r0
 Recommends: glibc-dbg, pcsc-lite-lib-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 247dffe8ba2752fbc703c57bbe744c8c
-SHA256sum: 52acd2f81866ec1285c586299f9eb4ee9703e558781467f21354904559c7eeba
-Size: 30980
-Filename: pcsc-tools-dbg_0.0-1759-g6510c0e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: e48da34f5c961615182a6a88c7221588
+SHA256sum: 6886b29d27f13e280820e3c29a76c78b4117a31a754d1ab357a2d8cd3a941e2c
+Size: 30982
+Filename: pcsc-tools-dbg_0.0-1760-g848b44e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools.bb
 Description: PCSC tools - Debugging files
 OE: pcsc-tools
@@ -99765,15 +99815,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools-dev
-Version: 0.0-1759-g6510c0e-r0
-Recommends: autoconf-archive-dev, glibc-dev, pcsc-lite-dev, pcsc-lite-lib-dev, pcsc-tools (= 0.0-1759-g6510c0e-r0)
+Version: 0.0-1760-g848b44e-r0
+Recommends: autoconf-archive-dev, glibc-dev, pcsc-lite-dev, pcsc-lite-lib-dev, pcsc-tools (= 0.0-1760-g848b44e-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1493fa8e4c16fbe3493ffb1069ca4246
-SHA256sum: e3e66e63a1a1e572f607f07e94a3186c43cb18f30e15211946299a6d88cbc409
+MD5Sum: 367b2b9e703204af4c871af09e8fe170
+SHA256sum: 2364246c5d3c3e6f2f643fe262c001f0280c469852f3edcaee47e2f4f9a3a8b7
 Size: 678
-Filename: pcsc-tools-dev_0.0-1759-g6510c0e-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: pcsc-tools-dev_0.0-1760-g848b44e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools.bb
 Description: PCSC tools - Development files
 OE: pcsc-tools
@@ -99782,14 +99832,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools-doc
-Version: 0.0-1759-g6510c0e-r0
+Version: 0.0-1760-g848b44e-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eb149315355a93c11aab268db277d30c
-SHA256sum: 8a02a91ca9bb051396d158ba3b93cbbfe8fbdda600dd826e6645471d3677caf0
+MD5Sum: 471d5f4fe2e6da8ff50976dfca548ffc
+SHA256sum: 87bc6e0067c269e28820d690407878319ab53693bcb4920640efa08cddb97f79
 Size: 3502
-Filename: pcsc-tools-doc_0.0-1759-g6510c0e-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: pcsc-tools-doc_0.0-1760-g848b44e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools.bb
 Description: PCSC tools - Documentation files
 OE: pcsc-tools
@@ -99798,16 +99848,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools-locale-fr
-Version: 0.0-1759-g6510c0e-r0
+Version: 0.0-1760-g848b44e-r0
 Provides: fr-translation, pcsc-tools-locale
 Recommends: virtual-locale-fr
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6f6dc39efb9bb35203617ff6e21f9565
-SHA256sum: 314ffe6fa3deb790201ea117db8659a41c8fb96c0dad537d96fcbd8a30448153
+MD5Sum: 35a91ff1029653caa5e4e18f66f14c3b
+SHA256sum: b70c3f83c3feaaeb8e359b14877e4fad5f15cbb1ced1989ef1767d9737996caa
 Size: 3110
-Filename: pcsc-tools-locale-fr_0.0-1759-g6510c0e-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: pcsc-tools-locale-fr_0.0-1760-g848b44e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools.bb
 Description: PCSC tools - fr translations
 OE: pcsc-tools
@@ -99816,16 +99866,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools-locale-ka
-Version: 0.0-1759-g6510c0e-r0
+Version: 0.0-1760-g848b44e-r0
 Provides: ka-translation, pcsc-tools-locale
 Recommends: virtual-locale-ka
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e8a3ee527dd30043cab3d5c61d4578ee
-SHA256sum: 727a5846b135d4ebec8abeb75b4283944c00854b0b7fc0ccb804d3253fca033f
-Size: 4216
-Filename: pcsc-tools-locale-ka_0.0-1759-g6510c0e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 959d3b1ad40b0c215ee87782e90aa454
+SHA256sum: c73a44e847c88755642136d084f4cbe9732077bfb6456b448cff5488e332b848
+Size: 4218
+Filename: pcsc-tools-locale-ka_0.0-1760-g848b44e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools.bb
 Description: PCSC tools - ka translations
 OE: pcsc-tools
@@ -99834,16 +99884,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools-locale-ru
-Version: 0.0-1759-g6510c0e-r0
+Version: 0.0-1760-g848b44e-r0
 Provides: pcsc-tools-locale, ru-translation
 Recommends: virtual-locale-ru
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2c1dbdc670fa582a0f36d5102606649b
-SHA256sum: 816009599546ce0131244d83faf0cac3e3547ae50c4d7a45c538c5f1d2f502a5
+MD5Sum: 05fb1c21a7a4f71bc36e76c90e9a7d51
+SHA256sum: 745fb676aee370c257231cfb8064557f0527777b915c1c0d77d4df22580736b8
 Size: 3998
-Filename: pcsc-tools-locale-ru_0.0-1759-g6510c0e-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: pcsc-tools-locale-ru_0.0-1760-g848b44e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools.bb
 Description: PCSC tools - ru translations
 OE: pcsc-tools
@@ -99852,15 +99902,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools
-Version: 0.0-1759-g6510c0e-r0
+Version: 0.0-1760-g848b44e-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), pcsc-lite, pcsc-lite-lib (>= 2.5.1)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 88120ce44b2dd6d94a5b8ef6cce97358
-SHA256sum: 9801153d73c77b908ba8310239ae9b25ec99417904cb694aa0af588c2fbb1709
-Size: 217886
-Filename: pcsc-tools_0.0-1759-g6510c0e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 188204a2141029b61e2d4ec1039b16de
+SHA256sum: ce7d5bb11baeba4a511d0ed776b2b707e158ffa3332c293f81483f0e052ebe19
+Size: 218434
+Filename: pcsc-tools_0.0-1760-g848b44e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools.bb
 Description: PCSC tools
 OE: pcsc-tools
@@ -130508,6 +130558,73 @@ HomePage: http://libtorrent.rakshasa.no/
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: s-nail-dbg
+Version: 14.9.25-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4aa6e6e7eb83b301f57da414db3fe3a
+SHA256sum: a722877353350f79376fe6500fb85f4fa884ed62a24a525412eb5f27e4250261
+Size: 1749246
+Filename: s-nail-dbg_14.9.25-r0_cortexa15hf-neon-vfpv4.ipk
+Source: s-nail_14.9.25.bb
+Description: Feature-rich BSD mail(1) - Debugging files
+OE: s-nail
+HomePage: https://www.sdaoden.eu/code.html#s-mailx
+License: BSD-3-Clause AND BSD-4-Clause AND ISC
+Priority: optional
+
+Package: s-nail-dev
+Version: 14.9.25-r0
+Recommends: glibc-dev, s-nail (= 14.9.25-r0), update-alternatives-opkg-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e0f8be05cb8149550b3068183ed5668d
+SHA256sum: ac229b0c4ec2ab7393155ab7bab07286baaea40bd5d73e26e6ae574f99be4dd8
+Size: 708
+Filename: s-nail-dev_14.9.25-r0_cortexa15hf-neon-vfpv4.ipk
+Source: s-nail_14.9.25.bb
+Description: Feature-rich BSD mail(1) - Development files
+OE: s-nail
+HomePage: https://www.sdaoden.eu/code.html#s-mailx
+License: BSD-3-Clause AND BSD-4-Clause AND ISC
+Priority: optional
+
+Package: s-nail-doc
+Version: 14.9.25-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1d719fda430f76f139a85779a1c6c46d
+SHA256sum: f1768bf22468df5cfcbaf510e5db5b59a45e1eb4e68a9808d236668c0f455df6
+Size: 136962
+Filename: s-nail-doc_14.9.25-r0_cortexa15hf-neon-vfpv4.ipk
+Source: s-nail_14.9.25.bb
+Description: Feature-rich BSD mail(1) - Documentation files
+OE: s-nail
+HomePage: https://www.sdaoden.eu/code.html#s-mailx
+License: BSD-3-Clause AND BSD-4-Clause AND ISC
+Priority: optional
+
+Package: s-nail
+Version: 14.9.25-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), update-alternatives-opkg
+Section: console/network
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 35e4e768e85cb9ed8f75e225ed5bb6b1
+SHA256sum: d6bc9bdc40a35c5cb88f875d9bc8b4521323d86d6546e8d1ad872c75b57576c2
+Size: 388592
+Filename: s-nail_14.9.25-r0_cortexa15hf-neon-vfpv4.ipk
+Source: s-nail_14.9.25.bb
+Description: Feature-rich BSD mail(1)
+OE: s-nail
+HomePage: https://www.sdaoden.eu/code.html#s-mailx
+License: BSD-3-Clause AND BSD-4-Clause AND ISC
+Priority: optional
+
 Package: sabnzbd-doc
 Version: 5.1.3-r0
 Section: doc
@@ -134713,66 +134830,71 @@ License: GPL-2.0-only AND LGPL-2.1-or-later
 Priority: optional
 
 Package: smartmontools-dbg
-Version: 5.42-r1.0
+Version: 7.5-r0
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 388134e3f134f626e6294a0d64f5de71
-SHA256sum: d0c467833ac0bbf888c946460252ed7da08efc1b63f9eade007dcb925a69494c
-Size: 1963114
-Filename: smartmontools-dbg_5.42-r1.0_cortexa15hf-neon-vfpv4.ipk
-Source: smartmontools_5.42.bb
-Description: Control and monitor storage systems using S.M.A.R.T. - Debugging files
+MD5Sum: e88cfe8a7a349cd020ba95ef9d861721
+SHA256sum: e429fc01278325901ee7e8500ac121a583594c7853729b05d5e76a85f98c4fef
+Size: 3336786
+Filename: smartmontools-dbg_7.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: smartmontools_7.5.bb
+Description: Control and monitor storage systems using S.M.A.R.T - Debugging files
 OE: smartmontools
-License: GPL-2.0-or-later
+HomePage: http://smartmontools.sourceforge.net/
+License: GPL-2.0-only
 Priority: optional
 
 Package: smartmontools-dev
-Version: 5.42-r1.0
-Recommends: glibc-dev, libgcc-dev, libstdc++-dev, smartmontools (= 5.42-r1.0)
+Version: 7.5-r0
+Recommends: glibc-dev, initscripts-dev, libgcc-dev, libstdc++-dev, smartmontools (= 7.5-r0), update-rc.d-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ef00dee37fc898d80723973e925c8b1d
-SHA256sum: 12a598b6dc16d7428ab47b64f3ead791f8f50f46d32144174adaa139a1f4b600
-Size: 674
-Filename: smartmontools-dev_5.42-r1.0_cortexa15hf-neon-vfpv4.ipk
-Source: smartmontools_5.42.bb
-Description: Control and monitor storage systems using S.M.A.R.T. - Development files
+MD5Sum: 606f562404355b0f5ac0fbc44a49142c
+SHA256sum: d58398eeabdb46bf2812625868b67d6477c8131e48df14d34bcd8863614077be
+Size: 878
+Filename: smartmontools-dev_7.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: smartmontools_7.5.bb
+Description: Control and monitor storage systems using S.M.A.R.T - Development files
 OE: smartmontools
-License: GPL-2.0-or-later
+HomePage: http://smartmontools.sourceforge.net/
+License: GPL-2.0-only
 Priority: optional
 
 Package: smartmontools-doc
-Version: 5.42-r1.0
+Version: 7.5-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 73392ca9ed17dbe548c42c862f16093c
-SHA256sum: 991363f33012b488369ac6a83b37c9bcae94c96c496f3f5695ec4c6bfb728e6b
-Size: 143568
-Filename: smartmontools-doc_5.42-r1.0_cortexa15hf-neon-vfpv4.ipk
-Source: smartmontools_5.42.bb
-Description: Control and monitor storage systems using S.M.A.R.T. - Documentation files
+MD5Sum: 6fb9aada6c521efeadb7da793acfc723
+SHA256sum: 92f7205b89b20dcd6b794412ddbc66de81476054c92696cf524c0efdf94f4e82
+Size: 170494
+Filename: smartmontools-doc_7.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: smartmontools_7.5.bb
+Description: Control and monitor storage systems using S.M.A.R.T - Documentation files
 OE: smartmontools
-License: GPL-2.0-or-later
+HomePage: http://smartmontools.sourceforge.net/
+License: GPL-2.0-only
 Priority: optional
 
 Package: smartmontools
-Version: 5.42-r1.0
+Version: 7.5-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0)
+Recommends: s-nail, update-rc.d
 Section: console/utils
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eb4760153a8a73ecd1d6ac505236b457
-SHA256sum: da4d1235b7160ba2e88df81d0cd28909a54ed39977d056f38a76e4969cdf5490
-Size: 268640
-Filename: smartmontools_5.42-r1.0_cortexa15hf-neon-vfpv4.ipk
-Source: smartmontools_5.42.bb
-Description: Control and monitor storage systems using S.M.A.R.T.
+MD5Sum: 5a62bf76181d0c0081b717e96149c03f
+SHA256sum: 84ea1a78be1a0db57030fbc5a3f32410853959637d6bdf8b0e62d09c67ed0fde
+Size: 569378
+Filename: smartmontools_7.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: smartmontools_7.5.bb
+Description: Control and monitor storage systems using S.M.A.R.T
 OE: smartmontools
-License: GPL-2.0-or-later
+HomePage: http://smartmontools.sourceforge.net/
+License: GPL-2.0-only
 Priority: optional
 
 Package: smbclient
