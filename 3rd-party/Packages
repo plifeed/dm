@@ -292,6 +292,23 @@ Size: 2901708
 Filename: enigma2-plugin-extensions-wireguard-vpn_16.2_all.ipk
 Description: Protect your device with Wireguard
 
+Package: enigma2-plugin-extensions-xportal
+Version: 4.1
+Description: Stalker & Xtream
+Section: base
+Priority: optional
+Maintainer: open
+License: CLOSED
+Architecture: all
+OE: enigma2-plugin-extensions-xportal
+Homepage: https://github.com
+Depends: python3-requests, python3-twisted, enigma2-plugin-systemplugins-serviceapp, exteplayer3
+Source: enigma2-plugin-extensions-xportal.bb
+Size: 41119374
+Filename: enigma2-plugin-extensions-xportal_4.1_all.ipk
+MD5Sum: ed15dc48bf25a2a1e53e05e1a344f3f7
+SHA256sum: 3c71729499470435f46c94723b5c698536216e79490888d4ef49961e4380ba2c
+
 Package: enigma2-plugin-skins-freesat-fhd
 Version: 1.0
 Section: base
