@@ -213,6 +213,22 @@ Size: 708266
 MD5Sum: 74e1fe1d567a0615d60a176de4c1538f
 SHA256sum: 18ab5db83fc288b81bcb4630e81f9e794f8e97aed0c771ed104dad9a25586704
 
+Package: enigma2-plugin-extensions-samsungtvplus
+Version: 20250815
+Section: extensions
+Priority: optional
+Architecture: all
+Maintainer: Billy2011
+Description: Samsung TV Plus Live TV Channels
+Depends: enigma2-plugin-extensions-epgimport
+Recommends: enigma2-plugin-systemplugins-serviceapp
+Source: enigma2-plugin-extensions-samsungtvplus.bb
+Homepage: https://github.com
+Filename: enigma2-plugin-extensions-samsungtvplus_20250815_all.ipk
+Size: 174972
+MD5Sum: 403153a647d4c1fd2751f5cf99b479b1
+SHA256sum: 84dcde5ce11443cc6d0bc862910e4b071efd83a2b816014102d3f68724bdbda0
+
 Package: enigma2-plugin-extensions-surfsharkvpn
 Version: 1.0.9-py3
 Description: Manage Surfshark VPN connections
