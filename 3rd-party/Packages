@@ -291,23 +291,6 @@ Size: 3729954
 Filename: enigma2-plugin-skins-freesat-fhd_1.0_all.ipk
 Description: Skin - Freesat FHD
 
-Package: enigma2-plugin-skins-madmax-impossible
-Version: 3.4
-Section: base
-Priority: optional
-Architecture: all
-Maintainer: madhouse
-Depends: enigma2-plugin-extensions-oaweather
-Source: enigma2-plugin-skins-madmax-impossible.bb
-Homepage: https://github.com/m4dhouse/MadMax
-OE: enigma2-plugin-skins
-License: open
-MD5Sum: 80217b9832b8a10f6e7a2423b6016b9d
-SHA256sum: fa56b12ab978145e1f1f849fa615a7a4f9ea5f68ae670ba72605775611d397ca
-Size: 6267096
-Filename: enigma2-plugin-skins-madmax-impossible_3.4_all.ipk
-Description: Skin - MadMax Impossible FHD
-
 Package: enigma2-plugin-skins-kiddac-1080-vskin
 Version: 2.27.20260928
 Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
@@ -323,6 +306,23 @@ Description: Skin - VSkin 1080 FHD
 OE: enigma2-plugin-skins-kiddac-1080-vskin
 License: GPL-2.0-or-later
 Priority: optional
+
+Package: enigma2-plugin-skins-madmax-impossible
+Version: 3.4
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: madhouse
+Depends: enigma2-plugin-extensions-oaweather
+Source: enigma2-plugin-skins-madmax-impossible.bb
+Homepage: https://github.com/m4dhouse/MadMax
+OE: enigma2-plugin-skins
+License: open
+MD5Sum: 8aee2fd34ca8c30b94705870c162b10c
+SHA256sum: d3b5f33d92935534c9685774c3e3b1ca263e30abc9dd1b490a2d6344631d97eb
+Size: 6267092
+Filename: enigma2-plugin-skins-madmax-impossible_3.4_all.ipk
+Description: Skin - MadMax Impossible FHD
 
 Package: enigma2-plugin-skins-moderonfhd
 Version: 1.03
