@@ -229,6 +229,23 @@ Size: 174972
 MD5Sum: 403153a647d4c1fd2751f5cf99b479b1
 SHA256sum: 84dcde5ce11443cc6d0bc862910e4b071efd83a2b816014102d3f68724bdbda0
 
+Package: enigma2-plugin-extensions-starplay
+Version: 2.2
+Description: Play Movies & Series
+Section: base
+Priority: optional
+Maintainer: open
+License: CLOSED
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-starplay
+Homepage: https://github.com
+Depends: libc6 (>= 2.44), python3-core
+Source: enigma2-plugin-extensions-starplay.bb
+Filename: enigma2-plugin-extensions-starplay_2.2_cortexa15hf-neon-vfpv4.ipk
+Size: 30010370
+MD5Sum: a09a5a76ae3e40191f60691c8635cbfa
+SHA256sum: ba1452fe5e77b220da26648a6c1866fdc4c57a435b5dceb569ba68d70ae910b1
+
 Package: enigma2-plugin-extensions-surfsharkvpn
 Version: 1.0.9-py3
 Description: Manage Surfshark VPN connections
