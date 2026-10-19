@@ -309,6 +309,24 @@ Filename: enigma2-plugin-extensions-xportal_4.1_all.ipk
 MD5Sum: ed15dc48bf25a2a1e53e05e1a344f3f7
 SHA256sum: 3c71729499470435f46c94723b5c698536216e79490888d4ef49961e4380ba2c
 
+Package: enigma2-plugin-skins-aglare-fhd-pli
+Version: 7.3
+Section: base
+Priority: required
+Architecture: all
+Maintainer: mnasr
+Description: Skins Aglare-FHD
+Source: enigma2-plugin-skins-aglare-fhd-pli.bb
+Depends: enigma2-plugin-extensions-bitrate, python3-pillow, gettext
+Homepage: https://github.com/popking159
+OE: enigma2-plugin-skins-aglare-fhd-pli
+License: GPLv2+
+MD5Sum: 54fffef68eb7cfbc549bf6c9cba7cd91
+SHA256sum: b59f2588d7612693898a23604e628d9369bf683b643bd68a26232ee9df6aae25
+Size: 11931176
+Filename: enigma2-plugin-skins-aglare-fhd-pli_7.3_all.ipk
+Description: Skin - Aglare FHD
+
 Package: enigma2-plugin-skins-freesat-fhd
 Version: 1.0
 Section: base
