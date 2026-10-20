@@ -10377,8 +10377,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 1d82381117f1a8433cb51f9b9706127d
-SHA256sum: fb772a0241480b6f0b2156886f89401468e5ec5a2e7052fddd2f90fa6176460d
+MD5Sum: d5caecfb95316d486ad0639810a65c34
+SHA256sum: 937bbe82bf7793bfb7cdad4614c915a760c2f8583cafb144d947d1c37c70e61f
 Size: 626
 Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -10393,8 +10393,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.0-git91+e
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 6c576819873202f9e13639d488fbe712
-SHA256sum: 8fb4c03e5132429c6290d825dabfa2396f39ddc86b53d0ad7db490437f066d14
+MD5Sum: 64ea9b89c192afb1ba5d40d24c66f8b7
+SHA256sum: 5a7d94f9de6121846e780603e8df776e5919304aa2edef874bbaf346833ec521
 Size: 658
 Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -10409,9 +10409,9 @@ Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc+
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 7f77696038a074e6b35e82fbe0f976da
-SHA256sum: 2738655cbadb75287da2265a7512b0cb26d62a2cfe4c6cb148b4bf35b72745f0
-Size: 2194212
+MD5Sum: 3182cdee738e68ce20247ce9e96b1c2d
+SHA256sum: 3f3bd8dad7d31b99605e3457817adba33e87db620c8a0f4926c9887043982863
+Size: 2194214
 Filename: enigma2-plugin-extensions-ciplus-helper_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2
@@ -11015,14 +11015,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: V0.0-git542+430678e0+430678e67a-r0
+Version: V0.0-git543+04c3fb90+04c3fb9006-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 24a70a29f2d1d80153d98aa2828cdd70
-SHA256sum: 3b3a47ff0bf2c6dd2397f657002aefe61a4c640bd0f3238d5d21f0c3389982b1
+MD5Sum: 7e77e75708118271292723f6ae0793bd
+SHA256sum: c9879de1c60251931577285ed681b02c83864bb2a2500a447a5ee8b29e3dfda2
 Size: 688
-Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git542+430678e0+430678e67a-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git543+04c3fb90+04c3fb9006-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -11031,15 +11031,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: V0.0-git542+430678e0+430678e67a-r0
-Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git542+430678e0+430678e67a-r0), python3-sqlite3-dev
+Version: V0.0-git543+04c3fb90+04c3fb9006-r0
+Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git543+04c3fb90+04c3fb9006-r0), python3-sqlite3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: ea131c23480eed926f1ef4dee5a77145
-SHA256sum: f987101278c650d2e0eabfb0c823617c0b7d4fddd36fe20e6dd147eaa259c940
-Size: 738
-Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git542+430678e0+430678e67a-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b5fc1787a8351cf1df1ed83447a77f17
+SHA256sum: c430e03b0140db47b07dfad32751b3c202e3546d8f9e26a4edcd59da6909177b
+Size: 736
+Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git543+04c3fb90+04c3fb9006-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -11048,15 +11048,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: V0.0-git542+430678e0+430678e67a-r0
+Version: V0.0-git543+04c3fb90+04c3fb9006-r0
 Depends: python3-sqlite3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: ad7559a2be6bb25d7e90ca925f45a24d
-SHA256sum: b26501a9bb4de06679c61c4211eb828915735b87141ad4542c611a9f2a59092c
-Size: 41416722
-Filename: enigma2-plugin-extensions-footonsat_V0.0-git542+430678e0+430678e67a-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c118d4d7f544157003e8c5bc8e6d6798
+SHA256sum: f086cf50b49fe4b46659ffb5eb41cafb690b13ddc5d67b6c15702684ff90844e
+Size: 41416184
+Filename: enigma2-plugin-extensions-footonsat_V0.0-git543+04c3fb90+04c3fb9006-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules
 OE: enigma2-plugin-extensions-footonsat
@@ -11397,6 +11397,72 @@ Source: enigma2-plugin-extensions-infobarweather.bb
 Description: enigma2-plugin-extensions-infobarweather version 2.0+git-r0
 OE: enigma2-plugin-extensions-infobarweather
 License: LicenseRef-Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-jukebox-dbg
+Version: V2.0.0-git5+d6828bf0+d6828bf707-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9da43fc7f92071f91223f7666c429ea5
+SHA256sum: aef680d7bd56c0513ed17e027efa0632744e5b921b8b31dc3d05025413b73fb0
+Size: 698
+Filename: enigma2-plugin-extensions-jukebox-dbg_V2.0.0-git5+d6828bf0+d6828bf707-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-jukebox.bb
+Description: enigma2-plugin-extensions-jukebox version git-r0 - Debugging files
+OE: enigma2-plugin-extensions-jukebox
+HomePage: https://github.com/oe-alliance-plugins/Jukebox
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-jukebox-dev
+Version: V2.0.0-git5+d6828bf0+d6828bf707-r0
+Recommends: enigma2-plugin-extensions-jukebox (= V2.0.0-git5+d6828bf0+d6828bf707-r0), python3-core-dev, python3-dev, python3-misc-dev, python3-mutagen-dev, python3-sqlite3-dev, python3-twisted-web-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 712c1cfc6f99562d7627bd7e601ea4b7
+SHA256sum: b3ed795d72e92c2989e33ba00f431c1b73f42e6ea8fa30ebc85740dfec1409b4
+Size: 774
+Filename: enigma2-plugin-extensions-jukebox-dev_V2.0.0-git5+d6828bf0+d6828bf707-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-jukebox.bb
+Description: enigma2-plugin-extensions-jukebox version git-r0 - Development files
+OE: enigma2-plugin-extensions-jukebox
+HomePage: https://github.com/oe-alliance-plugins/Jukebox
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-jukebox-src
+Version: V2.0.0-git5+d6828bf0+d6828bf707-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1d47a5a512b50da85590b76887d4eba7
+SHA256sum: 71cea3e9d2849e656a0ee6f9cabc103f955f6ae20547b8d119a21ace60681412
+Size: 38766
+Filename: enigma2-plugin-extensions-jukebox-src_V2.0.0-git5+d6828bf0+d6828bf707-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-jukebox.bb
+Description: enigma2-plugin-extensions-jukebox version git-r0 - Source files
+OE: enigma2-plugin-extensions-jukebox
+HomePage: https://github.com/oe-alliance-plugins/Jukebox
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-jukebox
+Version: V2.0.0-git5+d6828bf0+d6828bf707-r0
+Depends: python3-core, python3-misc, python3-mutagen, python3-sqlite3, python3-twisted-web
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 731283037cccacffea7f737c27552be7
+SHA256sum: ce818b561d48e9f1ecfa36f90faaef77118c355492ab46175719604d19913018
+Size: 217666
+Filename: enigma2-plugin-extensions-jukebox_V2.0.0-git5+d6828bf0+d6828bf707-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-jukebox.bb
+Description: enigma2-plugin-extensions-jukebox version git-r0
+OE: enigma2-plugin-extensions-jukebox
+HomePage: https://github.com/oe-alliance-plugins/Jukebox
+License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-keyadder-dbg
@@ -14001,13 +14067,13 @@ Priority: optional
 
 Package: enigma2-plugin-softcams-ncam
 Version: git10899+b9882800+b9882801f7-r0
-Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3), libdvbcsa1 (>= 1.1.0), libssl4 (>= 4.0.3), libudev1 (>= 3.2.14), libusb-1.0-0 (>= 1.0.30), softcam-support
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3), libdvbcsa1 (>= 1.1.0+git64+b84e7900+b84e790a94), libssl4 (>= 4.0.3), libudev1 (>= 3.2.14), libusb-1.0-0 (>= 1.0.30), softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED Developer
-MD5Sum: aa7a1fe033d14c231f5fe4ee3864f493
-SHA256sum: df5bb48189a4c0ad057df21812c3cc1c2e041bbbdaa5d40f59a4cd82da2b8025
-Size: 902000
+MD5Sum: 055a0a0c6bf75b279e16c627b728e522
+SHA256sum: 92692b1e900876db44fd2b8d55fe4038373c0da48f753ec51e89c704d42cd411
+Size: 902016
 Filename: enigma2-plugin-softcams-ncam_git10899+b9882800+b9882801f7-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-ncam.bb
 Description: enigma2-plugin-softcams-ncam version git-r0
@@ -14021,9 +14087,9 @@ Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1633bbd5b3041aa89cbe9117b369720a
-SHA256sum: 35d1187e5572a7965792dfbbf79b793f2a4ddfe234db478bd581ff94c32a126d
-Size: 746774
+MD5Sum: 9eb35c13d13d29961cc9d93d3047050f
+SHA256sum: 7467afc6f2fabafcfff76fcc10a9650c19c98b4b3f761d6ca3c44581f61bcdd4
+Size: 746084
 Filename: enigma2-plugin-softcams-oscam-emu_11966-git11077+ad7588c0+ad7588c6dd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam-emu.bb
 Description: enigma2-plugin-softcams-oscam-emu version git-r0
@@ -14037,14 +14103,76 @@ Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cb7e0558bce6a50580ffecc801867c04
-SHA256sum: 86778dd60b103556d1433d8a85a13230bbeaa99844d3a42da669ade4974cd3f7
-Size: 697350
+MD5Sum: a762968a4d45a1d9a888efce0a113734
+SHA256sum: 16c8a48c56aeee207eca1435a26dd3bb08a3a97333f7b2a38d2b9be18f1e64ae
+Size: 697440
 Filename: enigma2-plugin-softcams-oscam_11968-git10887+39e78a40+39e78a4688-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
 OE: enigma2-plugin-softcams-oscam
 License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-animation-setup-dbg
+Version: V1.0-git51+ca759930+ca75993de3-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1612873cb49a96003ddc839a41e86151
+SHA256sum: 786057d38e70e9b8e6d1d8cd08d43d2930d58dbbfbaf8c1be2b6622ece6fea2a
+Size: 632
+Filename: enigma2-plugin-systemplugins-animation-setup-dbg_V1.0-git51+ca759930+ca75993de3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-animation-setup.bb
+Description: enigma2-plugin-systemplugins-animation-setup version git-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-animation-setup
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-animation-setup-dev
+Version: V1.0-git51+ca759930+ca75993de3-r0
+Recommends: enigma2-plugin-systemplugins-animation-setup (= V1.0-git51+ca759930+ca75993de3-r0), python3-core-dev, python3-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 147b2b06f32321e753d974ee214e0692
+SHA256sum: 258e37804ee187a3efc0a5be70351bf1fce758c40ffd35f75aaae9a1716efcd0
+Size: 680
+Filename: enigma2-plugin-systemplugins-animation-setup-dev_V1.0-git51+ca759930+ca75993de3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-animation-setup.bb
+Description: enigma2-plugin-systemplugins-animation-setup version git-r0 - Development files
+OE: enigma2-plugin-systemplugins-animation-setup
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-animation-setup-src
+Version: V1.0-git51+ca759930+ca75993de3-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 82b88f07c7696ff069c766641cb6628b
+SHA256sum: f473d237752fbaa325f33760e70d7be9bd075518e905dd06f3ee302116b12f6b
+Size: 2788
+Filename: enigma2-plugin-systemplugins-animation-setup-src_V1.0-git51+ca759930+ca75993de3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-animation-setup.bb
+Description: enigma2-plugin-systemplugins-animation-setup version git-r0 - Source files
+OE: enigma2-plugin-systemplugins-animation-setup
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-animation-setup
+Version: V1.0-git51+ca759930+ca75993de3-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 71f634bd1d968e20c5ec046ed087a6bb
+SHA256sum: a3a33d06587b334713fb48fabafa5648cc4369095efc7fa3b05792d4dbadece6
+Size: 9824
+Filename: enigma2-plugin-systemplugins-animation-setup_V1.0-git51+ca759930+ca75993de3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-animation-setup.bb
+Description: enigma2-plugin-systemplugins-animation-setup version git-r0
+OE: enigma2-plugin-systemplugins-animation-setup
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-dbg
@@ -16620,6 +16748,69 @@ Source: flash-nrf52_1.3.bb
 Description: Flasher for the DM900/DM920 NRF52 Bluetooth remote control adapter
 OE: flash-nrf52
 License: LicenseRef-Proprietary
+Priority: optional
+
+Package: flip-dbg
+Version: 1.20-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+MD5Sum: 6cc0d0db4f5b7ccb6877b336aa80e56e
+SHA256sum: b8c5e68b4779a5b79360d384f44094a0d10211131be46ed75ad05fea8c84d7a4
+Size: 22118
+Filename: flip-dbg_1.20-r0_cortexa15hf-neon-vfpv4.ipk
+Source: flip_1.20.bb
+Description: File interchange program flip - Debugging files
+OE: flip
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: flip-dev
+Version: 1.20-r0
+Recommends: flip (= 1.20-r0), glibc-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+MD5Sum: 2b2f7d7c420e218db19ee2219ada7733
+SHA256sum: 70755c0e5d85e45f26f9a038d80c3336583ec8f0501df9f1afccb982ea64c513
+Size: 954
+Filename: flip-dev_1.20-r0_cortexa15hf-neon-vfpv4.ipk
+Source: flip_1.20.bb
+Description: File interchange program flip - Development files
+OE: flip
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: flip-doc
+Version: 1.20-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+MD5Sum: a3bf6354a161f725133d57cff9cd29fe
+SHA256sum: ff36eee42c4fbff8033bd026a8b404f8588e6876b27be19ab6c6f0f897abc4cb
+Size: 3264
+Filename: flip-doc_1.20-r0_cortexa15hf-neon-vfpv4.ipk
+Source: flip_1.20.bb
+Description: File interchange program flip - Documentation files
+OE: flip
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: flip
+Version: 1.20-r0
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Section: console/utils
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+MD5Sum: 38e15c4a9d4ba829638210d1601fe930
+SHA256sum: 5207c34a0ee188ff70b70bf5907fc86bf49e709c5f09fa8abb4f88a616dd4aa8
+Size: 6786
+Filename: flip_1.20-r0_cortexa15hf-neon-vfpv4.ipk
+Source: flip_1.20.bb
+Description: File interchange program flip
+OE: flip
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: fontconfig-utils
@@ -60083,50 +60274,50 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: libdvbcsa-dbg
-Version: 1.1.0-r0
+Version: 1.1.0+git64+b84e7900+b84e790a94-r0
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: acb9f4050f19a9ea583cedfad2224871
-SHA256sum: 684e2f9ab1646267f41269a3eb732ad282f19a508b9f37bbffd8955102102c41
-Size: 70126
-Filename: libdvbcsa-dbg_1.1.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: libdvbcsa_1.1.0.bb
+MD5Sum: 23aaf440352107dfa0b59e415dbf4cab
+SHA256sum: f5302e8102530e767a959e4c7ce82cf4b749e917aef0d2279f1f08c262a4a12b
+Size: 92724
+Filename: libdvbcsa-dbg_1.1.0+git64+b84e7900+b84e790a94-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libdvbcsa_git.bb
 Description: Open implementation of the DVB Common Scrambling Algorithm, encrypt and decrypt  - Debugging files
 OE: libdvbcsa
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: libdvbcsa-dev
-Version: 1.1.0-r0
+Version: 1.1.0+git64+b84e7900+b84e790a94-r0
 Depends: libdvbcsa
-Recommends: glibc-dev, libdvbcsa1 (= 1.1.0-r0)
+Recommends: glibc-dev, libdvbcsa1 (= 1.1.0+git64+b84e7900+b84e790a94-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 33cc6582694e9a44498f74bdde087b21
-SHA256sum: 4d9bfa785dbd0145554316e127de1e8ae65a9e9f177e5ccf9d838939de523fb4
-Size: 2352
-Filename: libdvbcsa-dev_1.1.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: libdvbcsa_1.1.0.bb
+MD5Sum: e689ca5329c8637285d881785c0341ed
+SHA256sum: 6166e9d5fdd40ed7fef60225e75b9fa869dbf67aebc678007e4b3492cc014761
+Size: 2372
+Filename: libdvbcsa-dev_1.1.0+git64+b84e7900+b84e790a94-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libdvbcsa_git.bb
 Description: Open implementation of the DVB Common Scrambling Algorithm, encrypt and decrypt  - Development files
 OE: libdvbcsa
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: libdvbcsa1
-Version: 1.1.0-r0
+Version: 1.1.0+git64+b84e7900+b84e790a94-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
 Provides: libdvbcsa
 Section: libs/multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23a9f137f1fbcb44d43a3f5854048a39
-SHA256sum: 4c606758113da5e477c7a9c7b2bda241587a4a9745a3d0ba5363c92fb67f473b
-Size: 29902
-Filename: libdvbcsa1_1.1.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: libdvbcsa_1.1.0.bb
+MD5Sum: a5bc462e693f6c5096b1c2efd705c9eb
+SHA256sum: a12c7af4378ae55f822f4838c90e742d180adb2ea6676f4550b671c89d19c40b
+Size: 37170
+Filename: libdvbcsa1_1.1.0+git64+b84e7900+b84e790a94-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libdvbcsa_git.bb
 Description: Open implementation of the DVB Common Scrambling Algorithm, encrypt and decrypt
 OE: libdvbcsa
 License: GPL-2.0-or-later
@@ -94548,15 +94739,15 @@ License: GPL-2.0-only OR BSD-3-Clause
 Priority: optional
 
 Package: minisatip-dbg
-Version: 1.0d+git0+5890f2e5fd-r0
+Version: 1.0d+git0+e34c2d1b62-r0
 Recommends: glibc-dbg, libcrypto-dbg, libdvbcsa-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 121061cb711d20584edaa593af38d4fd
-SHA256sum: 76743bfe8bd773aa2dd8c854596b27dc746c3e4e1ae5a7ae97f05019e53a1990
-Size: 2697194
-Filename: minisatip-dbg_1.0d+git0+5890f2e5fd-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 495682394900fc091915bd6fba545a8c
+SHA256sum: 9a82870359fe2a4a82ebde920db55c7f61b6f509b4c3b89815ed155f333847c6
+Size: 2831182
+Filename: minisatip-dbg_1.0d+git0+e34c2d1b62-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Debugging files
 OE: minisatip
@@ -94565,15 +94756,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip-dev
-Version: 1.0d+git0+5890f2e5fd-r0
-Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+5890f2e5fd-r0), openssl-dev, update-rc.d-dev
+Version: 1.0d+git0+e34c2d1b62-r0
+Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+e34c2d1b62-r0), openssl-dev, update-rc.d-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: d99f7cacededf983d55a23165468a62b
-SHA256sum: f200607df7c346382718d9396df5c7cd8bd2ef6324e66fd6f1a5dc9057a28811
-Size: 686
-Filename: minisatip-dev_1.0d+git0+5890f2e5fd-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 76f8dbbf9a6937fd5950d69beca665e2
+SHA256sum: 8531a81e8ef33971e195a4a934e595dc51760f14179e1eadd46efc9e35720692
+Size: 684
+Filename: minisatip-dev_1.0d+git0+e34c2d1b62-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Development files
 OE: minisatip
@@ -94582,16 +94773,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip
-Version: 1.0d+git0+5890f2e5fd-r0
-Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3), libdvbcsa1 (>= 1.1.0), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), openssl
+Version: 1.0d+git0+e34c2d1b62-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3), libdvbcsa1 (>= 1.1.0+git64+b84e7900+b84e790a94), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), openssl
 Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 95f9b2aba4a73bf73d30623047c4fc80
-SHA256sum: 6d0219534574abc3a2f46915b9f5dfcd264727229318d0e354127b3e47821afc
-Size: 531936
-Filename: minisatip_1.0d+git0+5890f2e5fd-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d7c283144bf23ff22bd1b690b18116f9
+SHA256sum: acafe08910ed7f4549aff9dd7d494e99841c9aa86b8fc373496d694b307ff97a
+Size: 532292
+Filename: minisatip_1.0d+git0+e34c2d1b62-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server
 OE: minisatip
@@ -97459,13 +97650,13 @@ Priority: optional
 
 Package: openpli-enigma2-feed-dev
 Version: 1.0-r0
-Recommends: astra-sm-dev, autofs-dev, autossh-dev, bitstream-dev, ccid-dev, channelsettings-enigma2-meta-dev, chrony-dev, cloudflare-dns-dev, cmdwrapper-dev, ctorrent-dev, cups-dev, curl-dev, curl-impersonate-dev, dav1d-dev, davfs2-dev, dhrystone-dev, diffutils-dev, djmount-dev, dosfstools-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, edid-decode-dev, enigma2-binary-plugins-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-acherone-dev, enigma2-plugin-extensions-arabicsavior-dev, enigma2-plugin-extensions-archimede-m3uconverter-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-automatic-fullbackup-dev, enigma2-plugin-extensions-backupflash-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-bmediacenter-dev, enigma2-plugin-extensions-bouquetmakerxtream-dev, enigma2-plugin-extensions-calendar-dev, enigma2-plugin-extensions-chefkoch-dev, enigma2-plugin-extensions-ciplus-helper-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-e2piconizer-dev, enigma2-plugin-extensions-enhancedmoviecenter-dev, enigma2-plugin-extensions-enigmalight-dev, enigma2-plugin-extensions-enigmawelt-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-epgtranslator-dev, enigma2-plugin-extensions-esame-dev, enigma2-plugin-extensions-estalker-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-footonsat-dev, enigma2-plugin-extensions-freechannels-dev, enigma2-plugin-extensions-fritzcall-dev, enigma2-plugin-extensions-hdmitest-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-infobarweather-dev, enigma2-plugin-extensions-iptv-org-playlists-dev, enigma2-plugin-extensions-jediepgxtream-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-linuxsatpanel-dev, enigma2-plugin-extensions-lottoextended-dev, enigma2-plugin-extensions-moviemanager-dev, enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-extensions-oemediathek-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-planerfs-dev, enigma2-plugin-extensions-plutotv-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-raedquicksignal-dev, enigma2-plugin-extensions-raiplay-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-schiffe-dev, enigma2-plugin-extensions-sdgradio-dev, enigma2-plugin-extensions-serienrecorder-dev, enigma2-plugin-extensions-simplezoom-panel-dev, enigma2-plugin-extensions-skyline-webcams-dev, enigma2-plugin-extensions-stalkerportalconverter-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-sudoku-dev, enigma2-plugin-extensions-sundtekcontrolcenter-dev, enigma2-plugin-extensions-tetris-dev, enigma2-plugin-extensions-ts-sateditor-dev, enigma2-plugin-extensions-tvgarden-dev, enigma2-plugin-extensions-tvmanager-dev, enigma2-plugin-extensions-vavoo-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vhannibal-autosettings-dev, enigma2-plugin-extensions-vierg-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-webradiofs-dev, enigma2-plugin-extensions-wifi-manager-dev, enigma2-plugin-extensions-worldcam-dev, enigma2-plugin-extensions-xklass-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-extensions-yampmusicplayer-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-e2darkos-dev, enigma2-plugin-skins-glamouraurafhd-dev, enigma2-plugin-skins-kiddac-1080-onyx-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-pd1loi-hd-night-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd-fullnight-dev, enigma2-plugin-skins-proteusfhd-dev, enigma2-plugin-skins-ruinfinityhd-dev, enigma2-plugin-skins-satdreamgr-hd-transpba-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-systemplugins-bluetoothsetup-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-extrafancontrol-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-m3uiptv-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-netspeedtest-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-satipserver-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-terrestrialbouquet-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, evtest-dev, exfatprogs-dev, exteplayer3-dev, fdk-aac-dev, firmware-mt7601u-dev, firmware-rtl8188eu-dev, firmware-rtl8188fu-dev, firmware-rtl8192eu-dev, firmware-rtl8723bu-dev, fstrcmp-dev, fuse-dev, gdb-dev, gerbera-dev, google-dns-dev, grep-dev, gstplayer-dev, hddtemp-dev, hdparm-dev, htop-dev, iflatbitrate-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, ipkg-tools-dev, iproute2-dev, iputils-dev, joe-dev, kernel-module-mt7601usta-dev, kernel-module-mt7610u-dev, kernel-module-rt3573sta-dev, kernel-module-rt5572sta-dev, kernel-module-rt8188eu-dev, kernel-module-rt8188fu-dev, kernel-module-rt8189es-dev, kernel-module-rt8192eu-dev, kernel-module-rt8192fu-dev, kernel-module-rt8723a-dev, kernel-module-rt8723bs-dev, kernel-module-rt8723bu-dev, kernel-module-rt8812au-dev, kernel-module-rt8814au-dev, kernel-module-rt8821cu-dev, kernel-module-rt8852cu-dev, kernel-module-rt88x2bu-dev, kernel-module-rt88x2cu-dev, less-dev, libbluray-dev, libdcadec-dev, libnfs-dev, libpar2-dev, libudfread-dev, libvpx-dev, mc-dev, mediainfo-dev, meta-enigma2-dvdburn-dev, minisatip-dev, mpd-dev, mpg123-dev, mtd-utils-dev, mtools-dev, mtr-dev, nano-dev, net-tools-dev, ntfs-3g-dev, openmultiboot-dev, openpli-enigma2-feed (= 1.0-r0), openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, os-release-dev, package-index-feed-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, picons-enigma2-meta-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python3-apprise-dev, python3-babelfish-dev, python3-backports-lzma-dev, python3-beautifulsoup4-dev, python3-biplist-dev, python3-bluetool-dev, python3-cattrs-dev, python3-cfscrape-dev, python3-chardet-dev, python3-cheroot-dev, python3-cherrypy-dev, python3-circuits-bricks-dev, python3-circuits-dev, python3-cocy-dev, python3-compat2-dev, python3-cssselect-dev, python3-ct3-dev, python3-curl-cffi-dev, python3-daap-dev, python3-exceptiongroup-dev, python3-feedparser-dev, python3-flickrapi-dev, python3-flit-scm-dev, python3-future-dev, python3-futures3-dev, python3-fuzzywuzzy-dev, python3-gdata-python3-dev, python3-guessit-dev, python3-h11-dev, python3-icalendar-dev, python3-iniparse-dev, python3-iso-639-dev, python3-isodate-dev, python3-itemadapter-dev, python3-itemloaders-dev, python3-jaraco.classes-dev, python3-jaraco.collections-dev, python3-jaraco.context-dev, python3-jaraco.functools-dev, python3-jaraco.text-dev, python3-js2py-dev, python3-levenshtein-dev, python3-lxml-dev, python3-lzallright-dev, python3-mechanize-dev, python3-more-itertools-dev, python3-multipart-dev, python3-mutagen-dev, python3-notify2-dev, python3-ntplib-dev, python3-outcome-dev, python3-packaging-dev, python3-parsel-dev, python3-pbkdf2-dev, python3-pip-dev, python3-platformdirs-dev, python3-portend-dev, python3-process-dev, python3-protego-dev, python3-puremagic-dev, python3-py3amf-dev, python3-pycountry-dev, python3-pycryptodome-dev, python3-pyexecjs-dev, python3-pysmb-dev, python3-pysnmp-dev, python3-pyte-dev, python3-pytz-dev, python3-queuelib-dev, python3-rbtranslations-dev, python3-rebulk-dev, python3-requests-cache-dev, python3-requests-dev, python3-sabctools-dev, python3-sabyenc3-dev, python3-scrapy-dev, python3-setuptools-dev, python3-sgmllib3k-dev, python3-simple-justwatch-python-api-dev, python3-singledispatch-dev, python3-soco-dev, python3-tcpbridge-dev, python3-tempora-dev, python3-tenjin-dev, python3-thefuzz-dev, python3-timeout-decorator-dev, python3-tinytag-dev, python3-tldextract-dev, python3-tmdbsimple-dev, python3-tmdbv3api-dev, python3-transmission-rpc-dev, python3-treq-dev, python3-trio-websocket-dev, python3-tvdbsimple-dev, python3-types-setuptools-dev, python3-typing-extensions-dev, python3-tzlocal-dev, python3-ubi-reader-dev, python3-url-normalize-dev, python3-uv-build-dev, python3-versioningit-dev, python3-w3lib-dev, python3-websockets-dev, python3-wifi-dev, python3-yenc-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-yt-dlp-ejs-dev, python3-zc.lockfile-dev, quickjs-dev, rclone-dev, redsea-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, satpi-dev, screen-dev, sed-dev, shairplay-dev, shellinabox-dev, smartmontools-dev, smbnetfs-dev, softcams-enigma2-meta-dev, sshpass-dev, strace-dev, streamlink-dev, streamlinksrv-dev, tcpdump-dev, tmux-dev, transmission-dev, tsanalyze-dev, tsduck-dev, tslib-dev, tsniv2ni-dev, ttyrun-dev, ubuntu-font-family-dev, udpxy-dev, unzip-dev, upx-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, valgrind-dev, vim-dev, wget-dev, wireguard-module-dev, wireguard-tools-dev, wireless-tools-dev, wscan-dev, wsdd-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zerotier-dev, zip-dev, zsh-dev
+Recommends: astra-sm-dev, autofs-dev, autossh-dev, bitstream-dev, ccid-dev, channelsettings-enigma2-meta-dev, chrony-dev, cloudflare-dns-dev, cmdwrapper-dev, ctorrent-dev, cups-dev, curl-dev, curl-impersonate-dev, dav1d-dev, davfs2-dev, dhrystone-dev, diffutils-dev, djmount-dev, dosfstools-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, edid-decode-dev, enigma2-binary-plugins-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-acherone-dev, enigma2-plugin-extensions-arabicsavior-dev, enigma2-plugin-extensions-archimede-m3uconverter-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-automatic-fullbackup-dev, enigma2-plugin-extensions-backupflash-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-bmediacenter-dev, enigma2-plugin-extensions-bouquetmakerxtream-dev, enigma2-plugin-extensions-calendar-dev, enigma2-plugin-extensions-chefkoch-dev, enigma2-plugin-extensions-ciplus-helper-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-e2piconizer-dev, enigma2-plugin-extensions-enhancedmoviecenter-dev, enigma2-plugin-extensions-enigmalight-dev, enigma2-plugin-extensions-enigmawelt-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-epgtranslator-dev, enigma2-plugin-extensions-esame-dev, enigma2-plugin-extensions-estalker-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-footonsat-dev, enigma2-plugin-extensions-freechannels-dev, enigma2-plugin-extensions-fritzcall-dev, enigma2-plugin-extensions-hdmitest-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-infobarweather-dev, enigma2-plugin-extensions-iptv-org-playlists-dev, enigma2-plugin-extensions-jediepgxtream-dev, enigma2-plugin-extensions-jukebox-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-linuxsatpanel-dev, enigma2-plugin-extensions-lottoextended-dev, enigma2-plugin-extensions-moviemanager-dev, enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-extensions-oemediathek-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-planerfs-dev, enigma2-plugin-extensions-plutotv-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-raedquicksignal-dev, enigma2-plugin-extensions-raiplay-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-schiffe-dev, enigma2-plugin-extensions-sdgradio-dev, enigma2-plugin-extensions-serienrecorder-dev, enigma2-plugin-extensions-simplezoom-panel-dev, enigma2-plugin-extensions-skyline-webcams-dev, enigma2-plugin-extensions-stalkerportalconverter-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-sudoku-dev, enigma2-plugin-extensions-sundtekcontrolcenter-dev, enigma2-plugin-extensions-tetris-dev, enigma2-plugin-extensions-ts-sateditor-dev, enigma2-plugin-extensions-tvgarden-dev, enigma2-plugin-extensions-tvmanager-dev, enigma2-plugin-extensions-vavoo-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vhannibal-autosettings-dev, enigma2-plugin-extensions-vierg-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-webradiofs-dev, enigma2-plugin-extensions-wifi-manager-dev, enigma2-plugin-extensions-worldcam-dev, enigma2-plugin-extensions-xklass-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-extensions-yampmusicplayer-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-army-moodblue-hd-dev, enigma2-plugin-skins-e2darkos-dev, enigma2-plugin-skins-glamouraurafhd-dev, enigma2-plugin-skins-kiddac-1080-onyx-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-pd1loi-hd-night-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd-fullnight-dev, enigma2-plugin-skins-proteusfhd-dev, enigma2-plugin-skins-ruinfinityhd-dev, enigma2-plugin-skins-satdreamgr-hd-transpba-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-systemplugins-animation-setup-dev, enigma2-plugin-systemplugins-bluetoothsetup-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-extrafancontrol-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-m3uiptv-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-netspeedtest-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-satipserver-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-terrestrialbouquet-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, evtest-dev, exfatprogs-dev, exteplayer3-dev, fdk-aac-dev, firmware-mt7601u-dev, firmware-rtl8188eu-dev, firmware-rtl8188fu-dev, firmware-rtl8192eu-dev, firmware-rtl8723bu-dev, flip-dev, fstrcmp-dev, fuse-dev, gdb-dev, gerbera-dev, google-dns-dev, grep-dev, gstplayer-dev, hddtemp-dev, hdparm-dev, htop-dev, iflatbitrate-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, ipkg-tools-dev, iproute2-dev, iputils-dev, joe-dev, kernel-module-mt7601usta-dev, kernel-module-mt7610u-dev, kernel-module-rt3573sta-dev, kernel-module-rt5572sta-dev, kernel-module-rt8188eu-dev, kernel-module-rt8188fu-dev, kernel-module-rt8189es-dev, kernel-module-rt8192eu-dev, kernel-module-rt8192fu-dev, kernel-module-rt8723a-dev, kernel-module-rt8723bs-dev, kernel-module-rt8723bu-dev, kernel-module-rt8812au-dev, kernel-module-rt8814au-dev, kernel-module-rt8821cu-dev, kernel-module-rt8852cu-dev, kernel-module-rt88x2bu-dev, kernel-module-rt88x2cu-dev, less-dev, libbluray-dev, libdcadec-dev, libnfs-dev, libpar2-dev, libudfread-dev, libvpx-dev, mc-dev, mediainfo-dev, meta-enigma2-dvdburn-dev, minisatip-dev, mpd-dev, mpg123-dev, mtd-utils-dev, mtools-dev, mtr-dev, nano-dev, net-tools-dev, ntfs-3g-dev, openmultiboot-dev, openpli-enigma2-feed (= 1.0-r0), openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, os-release-dev, package-index-feed-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, picons-enigma2-meta-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python3-apprise-dev, python3-babelfish-dev, python3-backports-lzma-dev, python3-beautifulsoup4-dev, python3-biplist-dev, python3-bluetool-dev, python3-cattrs-dev, python3-cfscrape-dev, python3-chardet-dev, python3-cheroot-dev, python3-cherrypy-dev, python3-circuits-bricks-dev, python3-circuits-dev, python3-cocy-dev, python3-compat2-dev, python3-cssselect-dev, python3-ct3-dev, python3-curl-cffi-dev, python3-daap-dev, python3-exceptiongroup-dev, python3-feedparser-dev, python3-flickrapi-dev, python3-flit-scm-dev, python3-future-dev, python3-futures3-dev, python3-fuzzywuzzy-dev, python3-gdata-python3-dev, python3-guessit-dev, python3-h11-dev, python3-icalendar-dev, python3-iniparse-dev, python3-iso-639-dev, python3-isodate-dev, python3-itemadapter-dev, python3-itemloaders-dev, python3-jaraco.classes-dev, python3-jaraco.collections-dev, python3-jaraco.context-dev, python3-jaraco.functools-dev, python3-jaraco.text-dev, python3-js2py-dev, python3-levenshtein-dev, python3-lxml-dev, python3-lzallright-dev, python3-mechanize-dev, python3-more-itertools-dev, python3-multipart-dev, python3-mutagen-dev, python3-notify2-dev, python3-ntplib-dev, python3-outcome-dev, python3-packaging-dev, python3-parsel-dev, python3-pbkdf2-dev, python3-pip-dev, python3-platformdirs-dev, python3-portend-dev, python3-process-dev, python3-protego-dev, python3-puremagic-dev, python3-py3amf-dev, python3-pycountry-dev, python3-pycryptodome-dev, python3-pyexecjs-dev, python3-pysmb-dev, python3-pysnmp-dev, python3-pyte-dev, python3-pytz-dev, python3-queuelib-dev, python3-rbtranslations-dev, python3-rebulk-dev, python3-requests-cache-dev, python3-requests-dev, python3-sabctools-dev, python3-sabyenc3-dev, python3-scrapy-dev, python3-setuptools-dev, python3-sgmllib3k-dev, python3-simple-justwatch-python-api-dev, python3-singledispatch-dev, python3-soco-dev, python3-tcpbridge-dev, python3-tempora-dev, python3-tenjin-dev, python3-thefuzz-dev, python3-timeout-decorator-dev, python3-tinytag-dev, python3-tldextract-dev, python3-tmdbsimple-dev, python3-tmdbv3api-dev, python3-transmission-rpc-dev, python3-treq-dev, python3-trio-websocket-dev, python3-tvdbsimple-dev, python3-types-setuptools-dev, python3-typing-extensions-dev, python3-tzlocal-dev, python3-ubi-reader-dev, python3-url-normalize-dev, python3-uv-build-dev, python3-versioningit-dev, python3-w3lib-dev, python3-websockets-dev, python3-wifi-dev, python3-yenc-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-yt-dlp-ejs-dev, python3-zc.lockfile-dev, quickjs-dev, rclone-dev, redsea-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, satpi-dev, screen-dev, sed-dev, shairplay-dev, shellinabox-dev, smartmontools-dev, smbnetfs-dev, softcams-enigma2-meta-dev, sshpass-dev, strace-dev, streamlink-dev, streamlinksrv-dev, tcpdump-dev, tmux-dev, transmission-dev, tsanalyze-dev, tsduck-dev, tslib-dev, tsniv2ni-dev, ttyrun-dev, ubuntu-font-family-dev, udpxy-dev, unzip-dev, upx-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, valgrind-dev, vim-dev, wget-dev, wireguard-module-dev, wireguard-tools-dev, wireless-tools-dev, wscan-dev, wsdd-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zerotier-dev, zip-dev, zsh-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e85525c39b78ac8f88bc4bfe7ca0216
-SHA256sum: 330077cd73c762e466db04409ec2ecc7ceb042834f7f3ab86cdcdc24ae3f1b2e
-Size: 3086
+MD5Sum: 8745c83d09f90f6d94368388d3534017
+SHA256sum: 460ceccbbf8f77d46a2b8b039eea0c23363974d41838d4a570369bf40a4c1560
+Size: 3114
 Filename: openpli-enigma2-feed-dev_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: openpli-enigma2-feed.bb
 Description: openpli-enigma2-feed version 1.0-r0 - Development files
@@ -99014,577 +99205,17 @@ HomePage: http://www.gnu.org/software/parted/parted.html
 License: GPL-3.0-or-later
 Priority: optional
 
-Package: parted-locale-ca
+Package: parted-locale
 Version: 3.8-r0
-Provides: ca-translation, parted-locale
-Recommends: virtual-locale-ca
 Section: console/tools
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b1e9a1686ba80956c6245ba2e748b8ac
-SHA256sum: 122c1201533f0e4f211b8818664d85de656ef8b90b5ba091abad0085df055a71
-Size: 7744
-Filename: parted-locale-ca_3.8-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 9b18ed3282c25b136a8d226e0335b954
+SHA256sum: a6b5d66f9780777637be6a921d7e0ccc54c6bd6b14bc028387b002b010688d85
+Size: 419704
+Filename: parted-locale_3.8-r0_cortexa15hf-neon-vfpv4.ipk
 Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - ca translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-cs
-Version: 3.8-r0
-Provides: cs-translation, parted-locale
-Recommends: virtual-locale-cs
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a9323d231fe936c97b45dd869a63c10b
-SHA256sum: b5d3d1b226eacc24a50bf29893f70c510983a6ad3ac56175f080749cff398f08
-Size: 21998
-Filename: parted-locale-cs_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - cs translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-da
-Version: 3.8-r0
-Provides: da-translation, parted-locale
-Recommends: virtual-locale-da
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fe0e8eb8c9eaf911e36308cbd4efd063
-SHA256sum: f94401ff4abb3abfdaaea3ac06796be862d31f7e4df869cb1477fbf4c532c5bc
-Size: 19356
-Filename: parted-locale-da_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - da translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-de
-Version: 3.8-r0
-Provides: de-translation, parted-locale
-Recommends: virtual-locale-de
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a4f71afdd021e90b47c422c70755c144
-SHA256sum: 21228414ad98daad358dd8c9957310fef84164f2c66de3b4a8cf1e2abe954272
-Size: 28970
-Filename: parted-locale-de_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - de translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-es
-Version: 3.8-r0
-Provides: es-translation, parted-locale
-Recommends: virtual-locale-es
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ce391114f430bcce2aaf1552fffc1fce
-SHA256sum: 5c2fda89cd54dd36427d0f6009489f34936b4afa269dccab5d0fb6ecaea2ee71
-Size: 28098
-Filename: parted-locale-es_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - es translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-fi
-Version: 3.8-r0
-Provides: fi-translation, parted-locale
-Recommends: virtual-locale-fi
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 475d742247d388a3bdcdddd93980f01c
-SHA256sum: 3155d0d9097fd010f82bac23a25886dbed765e4c65bd969b969ff97239cedbaf
-Size: 28262
-Filename: parted-locale-fi_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - fi translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-fr
-Version: 3.8-r0
-Provides: fr-translation, parted-locale
-Recommends: virtual-locale-fr
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f5c606a3353dc7169a66fac62f22d5e7
-SHA256sum: 78cb2204c32e835cc76a3611e659224a7185e16af2fbc506da780ccb21c8ef98
-Size: 26822
-Filename: parted-locale-fr_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - fr translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-fur
-Version: 3.8-r0
-Provides: fur-translation, parted-locale
-Recommends: virtual-locale-fur
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4390b617ef39a94f6c694c1e307d8ebe
-SHA256sum: 77be1637a552c134b11d95561a122ea9c17143c279a10304f00b1f0dd4209b02
-Size: 28146
-Filename: parted-locale-fur_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - fur translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-gl
-Version: 3.8-r0
-Provides: gl-translation, parted-locale
-Recommends: virtual-locale-gl
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 08813d97aef8efd1ce38fd3d743ab605
-SHA256sum: 0835f0c055ed87b230be2649c5ea26b8624ab6bed44a38a0a6ea223d7101dfc4
-Size: 14954
-Filename: parted-locale-gl_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - gl translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-hu
-Version: 3.8-r0
-Provides: hu-translation, parted-locale
-Recommends: virtual-locale-hu
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5f89b2b9a432cbf69d8f4a6547724dc9
-SHA256sum: 345c994946bed2f1864177a5dc0f9f5d4fdb1a304079fb89d30d51153f91c2c1
-Size: 25694
-Filename: parted-locale-hu_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - hu translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-id
-Version: 3.8-r0
-Provides: id-translation, parted-locale
-Recommends: virtual-locale-id
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dc89d8a264471974e1484e0b90e7ee43
-SHA256sum: a4942825ca520cd576aff18aeb83b3a5aa1a3334fec943b7dacee46be92d6942
-Size: 27432
-Filename: parted-locale-id_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - id translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-it
-Version: 3.8-r0
-Provides: it-translation, parted-locale
-Recommends: virtual-locale-it
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7c8219f03c1b554ef6a7aedf4775fcaa
-SHA256sum: c0171a8c38c699cbefbe37c505b2f477cb3243c97394350af83e1776fd6d85bd
-Size: 24886
-Filename: parted-locale-it_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - it translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-ja
-Version: 3.8-r0
-Provides: ja-translation, parted-locale
-Recommends: virtual-locale-ja
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6edac2fab52faf0bdaef94061f0d222b
-SHA256sum: f6a79a2d28d29d005539473621b4555bdc95b7c11c49275b8a2544f7cbdf5bdd
-Size: 30120
-Filename: parted-locale-ja_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - ja translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-ka
-Version: 3.8-r0
-Provides: ka-translation, parted-locale
-Recommends: virtual-locale-ka
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 43345f264a123d56da08ff86e006b30d
-SHA256sum: dde68299a5014d1c1f7665390c2b1656a6c31cc757599f53f813bd3b6ebc6792
-Size: 23068
-Filename: parted-locale-ka_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - ka translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-ko
-Version: 3.8-r0
-Provides: ko-translation, parted-locale
-Recommends: virtual-locale-ko
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d924a56ffcf3931c7b0d717e90a23143
-SHA256sum: 0ecb773a41ffcbb463591faa2b9df5af569ca0dcc42f31458ef5e44c6f2a7864
-Size: 29526
-Filename: parted-locale-ko_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - ko translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-nl
-Version: 3.8-r0
-Provides: nl-translation, parted-locale
-Recommends: virtual-locale-nl
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0ab6e7369fa6d36f20626447c23ab21a
-SHA256sum: 1fc22ab6bf47c92794ab57bf4e9a260a5c3ff7a19e2de68b179fbcafa4677252
-Size: 28358
-Filename: parted-locale-nl_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - nl translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-nn
-Version: 3.8-r0
-Provides: nn-translation, parted-locale
-Recommends: virtual-locale-nn
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eabf2c5cde9465a3ee3d23d53530b948
-SHA256sum: 1c06ef36a5d4a81381069d99c5d5db7da7bed9dc751cc6dba748b6bbf44b891a
-Size: 7754
-Filename: parted-locale-nn_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - nn translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-pl
-Version: 3.8-r0
-Provides: parted-locale, pl-translation
-Recommends: virtual-locale-pl
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 40894900bbcb19ab5b821a74c194b659
-SHA256sum: 44c8f0978f58329e6e065f8f11c66474b1f71f22fb02d922df0f02d18b413bee
-Size: 29398
-Filename: parted-locale-pl_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - pl translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-pt-br
-Version: 3.8-r0
-Provides: parted-locale, pt-br-translation
-Recommends: virtual-locale-pt-br
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c06a72f3ec78f02ce4d4e9d2ef9e6f6c
-SHA256sum: 23536921bb822328df6b68f84dbbe59d88476e5dc3932853103d0fc7a44c9a01
-Size: 27738
-Filename: parted-locale-pt-br_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - pt_BR translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-pt
-Version: 3.8-r0
-Provides: parted-locale, pt-translation
-Recommends: virtual-locale-pt
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 74e6f5c21a160492f4c4916915939746
-SHA256sum: 52c49706cdaefacae1ef3b514227cf7326b353a3043967eab46ad4ef1e6cf459
-Size: 27684
-Filename: parted-locale-pt_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - pt translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-ro
-Version: 3.8-r0
-Provides: parted-locale, ro-translation
-Recommends: virtual-locale-ro
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0b8fcaa07d60f762daa0dc07861c9a55
-SHA256sum: d3a3b0688ee9537f46d026db56df9d06ee5b810add14d3a32649b8a1f239c443
-Size: 29628
-Filename: parted-locale-ro_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - ro translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-ru
-Version: 3.8-r0
-Provides: parted-locale, ru-translation
-Recommends: virtual-locale-ru
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1deecd0129bf2775aef0fa3c23157dde
-SHA256sum: c1b40a82785163c5ef9836cb9e865e5bb7819e64910095b9c237943c1d5e86c3
-Size: 31666
-Filename: parted-locale-ru_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - ru translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-rw
-Version: 3.8-r0
-Provides: parted-locale, rw-translation
-Recommends: virtual-locale-rw
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d92343557806262675b25de4d84da40b
-SHA256sum: bb5bab0bc66f41b83b812c3384047dc17a7db6c61d2e499cc58a0fb934db1d81
-Size: 1592
-Filename: parted-locale-rw_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - rw translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-sk
-Version: 3.8-r0
-Provides: parted-locale, sk-translation
-Recommends: virtual-locale-sk
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 95ad1b6feba97f0532628afaa47e2c28
-SHA256sum: e33ef654f09c84c71868babfb76319c810732ca61d6b0d238ec2abf2e4c5ec8f
-Size: 25382
-Filename: parted-locale-sk_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - sk translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-sl
-Version: 3.8-r0
-Provides: parted-locale, sl-translation
-Recommends: virtual-locale-sl
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9347663ce0b91a1bd62a66f283f8c020
-SHA256sum: faa0e15bcc1973edf18b28056d9dd0a35a9a3aba54812eea23b182ad0b6bc88b
-Size: 23644
-Filename: parted-locale-sl_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - sl translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-sr
-Version: 3.8-r0
-Provides: parted-locale, sr-translation
-Recommends: virtual-locale-sr
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d20b8382d8408c4be34249bf863d4f13
-SHA256sum: f539a595df9df3fe547b083f56a243cb7749fa2b5eade2c1dccece14b6e03fd8
-Size: 32094
-Filename: parted-locale-sr_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - sr translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-sv
-Version: 3.8-r0
-Provides: parted-locale, sv-translation
-Recommends: virtual-locale-sv
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f2c32c033a0448b4e5c0f30da07d3b3
-SHA256sum: 87e09f221e88e2665e83d55c0a7146a240820eb7ecb36107c71c34b33e399321
-Size: 28240
-Filename: parted-locale-sv_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - sv translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-tr
-Version: 3.8-r0
-Provides: parted-locale, tr-translation
-Recommends: virtual-locale-tr
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62a30cd206a0314c8a5898cde7cdb83c
-SHA256sum: 15e2fc8dddeb7a42780b235dd7e1ea0b7fdb6945d96de8d4239568ab510875fe
-Size: 25790
-Filename: parted-locale-tr_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - tr translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-uk
-Version: 3.8-r0
-Provides: parted-locale, uk-translation
-Recommends: virtual-locale-uk
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 69f1aef41c91ecbb7e0be74b5fddd4b1
-SHA256sum: 0e09a15b3b3667b249b06d1984d1196c3d09efc25206c87642b3db9adb210f51
-Size: 32520
-Filename: parted-locale-uk_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - uk translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-vi
-Version: 3.8-r0
-Provides: parted-locale, vi-translation
-Recommends: virtual-locale-vi
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cc186c9551debdeebce95447d116f5a5
-SHA256sum: 67f51d6e16105803269b8939e6be515efe491d8416a1fc00daac6d1c3e60e3f4
-Size: 29208
-Filename: parted-locale-vi_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - vi translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-zh-cn
-Version: 3.8-r0
-Provides: parted-locale, zh-cn-translation
-Recommends: virtual-locale-zh-cn
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 11accdc70ee95d15499e055e4ee1fa5a
-SHA256sum: 43620f9abcaf38571037463dd4866ca5af7dd3140277fdf4cc71cc5d287689fa
-Size: 29454
-Filename: parted-locale-zh-cn_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - zh_CN translations
-OE: parted
-HomePage: http://www.gnu.org/software/parted/parted.html
-License: GPL-3.0-or-later
-Priority: optional
-
-Package: parted-locale-zh-tw
-Version: 3.8-r0
-Provides: parted-locale, zh-tw-translation
-Recommends: virtual-locale-zh-tw
-Section: console/tools
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6abbaf0b62c177efb11b129e998fb685
-SHA256sum: 56cf24a4c649e62802f33f1ed21cfbe654c5b722bdf2e0008f93469429e15b13
-Size: 28954
-Filename: parted-locale-zh-tw_3.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: parted_3.8.bb
-Description: Disk partition editing/resizing utility - zh_TW translations
+Description: Disk partition editing/resizing utility
 OE: parted
 HomePage: http://www.gnu.org/software/parted/parted.html
 License: GPL-3.0-or-later
