@@ -433,7 +433,7 @@ SHA256sum: 79bad58093fafa7301853e224e763f744ab1a32bf667674427d03eb217c19a6d
 
 Package: enigma2-plugin-softcams-cccam-2.3.9
 Version: 2.3.9-r1
-Description: CCcam 2.3.9
+Description: CCcam 2.3.9 softcam
  An outdated binary only softcam
 Section: base
 Priority: optional
@@ -441,7 +441,7 @@ Maintainer: open
 License: LicenseRef-Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-cccam-2.3.9
-Homepage: https://www.opena.tv
+Homepage: https://github.com
 Depends: glibc, libstdc++
 Source: enigma2-plugin-softcams-cccam-2.3.9.bb
 Filename: enigma2-plugin-softcams-cccam-2.3.9_2.3.9-r1_cortexa15hf-neon-vfpv4.ipk
@@ -458,7 +458,7 @@ Maintainer: open
 License: LicenseRef-Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-gbox-811l
-Homepage: https://www.opena.tv
+Homepage: https://github.com
 Depends: glibc, libgcc
 Source: enigma2-plugin-softcams-gbox-811l.bb
 Filename: enigma2-plugin-softcams-gbox-811l_811l-r0_cortexa15hf-neon-vfpv4.ipk
@@ -475,7 +475,7 @@ Maintainer: open
 License: LicenseRef-Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-mgcamd-1.46
-Homepage: https://www.opena.tv
+Homepage: https://github.com
 Source: enigma2-plugin-softcams-mgcamd-1.46.bb
 Filename: enigma2-plugin-softcams-mgcamd-1.46_1.46-r1_cortexa15hf-neon-vfpv4.ipk
 Size: 348450
@@ -483,7 +483,7 @@ MD5Sum: def6f496be62434c58675fd41d66009c
 
 Package: enigma2-plugin-softcams-oscam-smod
 Version: 1.20+git2389+01bc9cd0+01bc9cdbdc-r4
-Description: OSCam-smod 1.20+git2389+01bc9cd0+01bc9cdbdc (IPv6/IPv4 Dual-Stack support)
+Description: OSCam-smod softcam (IPv6/IPv4 Dual-Stack support)
  Combining the benefits of
  - latest trunk
  - modern interface
@@ -496,7 +496,7 @@ Maintainer: smod
 License: GPL-3.0-only
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-oscam-smod
-Homepage: https://www.opena.tv
+Homepage: https://github.com
 Depends: glibc, libcrypto, libdvbcsa, libssl, libusb1, pcsc-lite-lib
 Provides: oscam-smod
 Replaces: oscam-smod-ipv4only
@@ -516,7 +516,7 @@ Maintainer: open
 License: LicenseRef-Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-softcams-wicardd-1.19
-Homepage: https://www.opena.tv
+Homepage: https://github.com
 Depends: glibc, libgcc
 Source: enigma2-plugin-softcams-wicardd-1.19.bb
 Filename: enigma2-plugin-softcams-wicardd-1.19_1.19-r1_cortexa15hf-neon-vfpv4.ipk
