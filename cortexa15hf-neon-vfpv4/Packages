@@ -10547,14 +10547,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.10.18.06-git6130+2d854740+2d85474480-r0
+Version: 2026.10.20.01-git6132+0ac82780+0ac82784c1-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 18753fbc525bd7bb73f33fd4492cd6d3
-SHA256sum: 86004f6834a52511372c8c6c27bbcf21817a83b684028a3d9cf924c304d86311
+MD5Sum: 70ccd26427fcf782e178f0e43d852522
+SHA256sum: d73e020afeccce16cfd5ccf90eedcebe6ecb05d0468e0607d415ee2f67d3acb6
 Size: 670
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.10.18.06-git6130+2d854740+2d85474480-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.10.20.01-git6132+0ac82780+0ac82784c1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10612,15 +10612,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.10.18.06-git6130+2d854740+2d85474480-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.10.18.06-git6130+2d854740+2d85474480-r0), python3-core-dev, python3-dev
+Version: 2026.10.20.01-git6132+0ac82780+0ac82784c1-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.10.20.01-git6132+0ac82780+0ac82784c1-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d2bdb92fc9cffb7fcaf028813902f8f8
-SHA256sum: a9d9c1f836a3d256bf0b321e94ad709c75088f84b6fbafb63c9f5259c7e03bf3
+MD5Sum: 1be79148c3c4ad6fc200909c42e26955
+SHA256sum: 8c792f06f906ce746f62fe77e126229e675b2a267a0ba2e05b2f73249c57075f
 Size: 718
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.10.18.06-git6130+2d854740+2d85474480-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.10.20.01-git6132+0ac82780+0ac82784c1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10629,15 +10629,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.10.18.06-git6130+2d854740+2d85474480-r0
+Version: 2026.10.20.01-git6132+0ac82780+0ac82784c1-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 34340ef7503e9e30c5d5d2488863e083
-SHA256sum: 7e5c95dde6274c2798138746c9576ccaad07898ecdd7d46c06c53a9441191dc8
-Size: 2518930
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.10.18.06-git6130+2d854740+2d85474480-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b3158d3b3755575614e49859d0705089
+SHA256sum: a94b7e8db8db4614a020fc9c1926258f4961908511daddc8418e3c63e3544833
+Size: 2520462
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.10.20.01-git6132+0ac82780+0ac82784c1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10646,16 +10646,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.10.18.06-git6130+2d854740+2d85474480-r0
+Version: 2026.10.20.01-git6132+0ac82780+0ac82784c1-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 97bd8d9ec14a7ad1cf37a33c68085cb9
-SHA256sum: da2b27e6963123764306b8fe6d6cb2f513694c3b082b79deafe8c3fa6825f47d
-Size: 23846782
-Filename: enigma2-plugin-extensions-e2iplayer_2026.10.18.06-git6130+2d854740+2d85474480-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: af30d1fb54f5c67ade691234d083959c
+SHA256sum: 4a6f004dee8c550e32cce8ce0464563b5d4a1ceafb62e462c444af5997fe8469
+Size: 23845970
+Filename: enigma2-plugin-extensions-e2iplayer_2026.10.20.01-git6132+0ac82780+0ac82784c1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
