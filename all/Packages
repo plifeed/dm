@@ -159,6 +159,24 @@ OE: channelsettings-enigma2-meta
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: dabstreamer
+Version: 0.1+git17+8d84fef0+8d84fef64b-r0
+Depends: eti-tools, python3-core, tsniv2ni
+Recommends: update-rc.d
+Section: devel/python
+Architecture: all
+Maintainer: SatDreamGR
+MD5Sum: 5654efe275ccdaf002910e172c7c8a86
+SHA256sum: 96176e10720111de1a57824c826e8704cd98ac495f2c7a11f85467c9def2e5cf
+Size: 3860
+Filename: dabstreamer_0.1+git17+8d84fef0+8d84fef64b-r0_all.ipk
+Source: dabstreamer.bb
+Description: dabstreamer version 0.1+git-r0
+OE: dabstreamer
+HomePage: www.satdreamgr.com
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: dvb-usb-drivers-meta
 Version: 1.1-r0
 Section: base
