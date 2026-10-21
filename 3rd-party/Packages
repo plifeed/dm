@@ -234,6 +234,23 @@ Size: 30010370
 MD5Sum: a09a5a76ae3e40191f60691c8635cbfa
 SHA256sum: ba1452fe5e77b220da26648a6c1866fdc4c57a435b5dceb569ba68d70ae910b1
 
+Package: enigma2-plugin-extensions-subssupport-pro
+Version: 1.5.0
+Description: Collection of enigma2 subtitles plugins
+Section: base
+Priority: optional
+Maintainer: popking159
+License: GPL-2.0-only
+Architecture: all
+OE: enigma2-plugin-extensions-subssupport
+Homepage: https://github.com/popking159
+Depends: python3-beautifulsoup4, python3-codecs, python3-compression, python3-difflib, python3-requests, python3-xmlrpc, unrar
+Source: enigma2-plugin-extensions-subssupport-pro.bb
+Filename: enigma2-plugin-extensions-subssupport-pro_1.5.0_all.ipk
+Size: 1790018
+MD5Sum: cc3f5a4ad9e24881fc3f18a7373aab24
+SHA256sum: d4771b518c4ae3ed513895637043e77887e9515d7926d70f1cb3571f7f412693
+
 Package: enigma2-plugin-extensions-surfsharkvpn
 Version: 1.0.9-py3
 Description: Manage Surfshark VPN connections
