@@ -96,8 +96,8 @@ Priority: optional
 Architecture: all
 Maintainer: dsayers
 Description: plugin to check your boxes external IP adress
-Source: 
-Homepage: 
+Source: enigma2-plugin-extensions-ipchecker.bb
+Homepage: https://github.com
 Section: extensions
 Filename: enigma2-plugin-extensions-ipchecker_004_all.ipk
 Size: 5082
@@ -116,6 +116,20 @@ Depends: python3-json
 Filename: enigma2-plugin-extensions-iptvremote_1.0.8-py3_all.ipk
 Size: 39406
 MD5Sum: 3dba1877e3f1e2456bbdae0eef9f007b
+
+Package: enigma2-plugin-extensions-jedimakerxtream
+Version: 6.40.20250212
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: kiddac
+Description: Jedi Maker Xtream - Enigma2 IPTV Bouquet Creator
+Source: enigma2-plugin-extensions-jedimakerxtream.bb
+Homepage: https://github.com/kiddac
+Filename: enigma2-plugin-extensions-jedimakerxtream_6.40.20250212_all.ipk
+Size: 3662090
+MD5Sum: 03ee01a42cabe38e6aee07ad76ec3cc4
+SHA256sum: a82df259a244dbc23253ac990b57e8ecac0be86309cf0f2c5bcc6fd690ace717
 
 Package: enigma2-plugin-extensions-mediastream
 Version: 20260607-python3.14-r0
