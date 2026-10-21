@@ -222,15 +222,15 @@ Section: base
 Priority: optional
 Maintainer: open
 License: CLOSED
-Architecture: cortexa15hf-neon-vfpv4
+Architecture: all
 OE: enigma2-plugin-extensions-starplay
 Homepage: https://github.com
 Depends: libc6 (>= 2.44), python3-core
 Source: enigma2-plugin-extensions-starplay.bb
-Filename: enigma2-plugin-extensions-starplay_2.2_cortexa15hf-neon-vfpv4.ipk
-Size: 30010370
-MD5Sum: a09a5a76ae3e40191f60691c8635cbfa
-SHA256sum: ba1452fe5e77b220da26648a6c1866fdc4c57a435b5dceb569ba68d70ae910b1
+Filename: enigma2-plugin-extensions-starplay_2.2_all.ipk
+Size: 7905680
+MD5Sum: 4616560ada225248be0d7582c20ef38a
+SHA256sum: 3a7e03a61d9888b400a5c9a1ee95e4da2ec6d7bd8dd45f3e560ab773fab137ff
 
 Package: enigma2-plugin-extensions-subssupport-pro
 Version: 1.5.0
