@@ -765,6 +765,194 @@ OE: enigma2-plugin-extensions-calendar
 License: GPL-2.0-or-later
 Priority: required
 
+Package: enigma2-plugin-extensions-ciefpplugins-dbg
+Version: git70+dfd35920+dfd35923c8-r0
+Section: devel
+Architecture: all
+Maintainer: ciefp
+MD5Sum: 972126a3715a0e0b8c95cdfc86747f88
+SHA256sum: 9ead7cc42235f92a9eaaa4590c139ddf115acc45c31af1dd1bd0e009704403d3
+Size: 572
+Filename: enigma2-plugin-extensions-ciefpplugins-dbg_git70+dfd35920+dfd35923c8-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpplugins.bb
+Description: CiefpPlugins Enigma2 Panel - Debugging files
+OE: enigma2-plugin-extensions-ciefpplugins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpplugins-dev
+Version: git70+dfd35920+dfd35923c8-r0
+Recommends: curl-dev, enigma2-dev, enigma2-plugin-extensions-ciefpplugins (= git70+dfd35920+dfd35923c8-r0), python3-json-dev, python3-requests-dev, wget-dev
+Section: devel
+Architecture: all
+Maintainer: ciefp
+MD5Sum: 6f5fff56b9aab39c2bae2dfb6216cd2a
+SHA256sum: 700b20495e78224d5c6126bc17aa27ce64fc6fac9484369233ec84d8ea12b697
+Size: 646
+Filename: enigma2-plugin-extensions-ciefpplugins-dev_git70+dfd35920+dfd35923c8-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpplugins.bb
+Description: CiefpPlugins Enigma2 Panel - Development files
+OE: enigma2-plugin-extensions-ciefpplugins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpplugins
+Version: git70+dfd35920+dfd35923c8-r0
+Depends: curl, enigma2, python3-json, python3-requests, wget
+Section: base
+Architecture: all
+Maintainer: ciefp
+MD5Sum: 7204aed92bedf95c3b0c875fb4efe724
+SHA256sum: 1e9f3ab75e693fde49766424240f8ecd600c3c07508db5380cc5e7b1c3c56fed
+Size: 2194158
+Filename: enigma2-plugin-extensions-ciefpplugins_git70+dfd35920+dfd35923c8-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpplugins.bb
+Description: CiefpPlugins Enigma2 Panel
+OE: enigma2-plugin-extensions-ciefpplugins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpsettingspanel-dbg
+Version: git98+0bd8be30+0bd8be3c65-r0
+Section: devel
+Architecture: all
+Maintainer: ciefp
+MD5Sum: f3797dc2298ba7638ddb9867c8ed3276
+SHA256sum: ff7f7635e60432a09e6331447ec9bc92ae456fbca455c73fc9b52a7cc8cb5878
+Size: 588
+Filename: enigma2-plugin-extensions-ciefpsettingspanel-dbg_git98+0bd8be30+0bd8be3c65-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpsettingspanel.bb
+Description: CiefpsettingsPanel Enigma2 Plugin Manager - Debugging files
+OE: enigma2-plugin-extensions-ciefpsettingspanel
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpsettingspanel-dev
+Version: git98+0bd8be30+0bd8be3c65-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpsettingspanel (= git98+0bd8be30+0bd8be3c65-r0), opkg-dev, python3-json-dev, python3-requests-dev, python3-shell-dev, tar-dev, wget-dev
+Section: devel
+Architecture: all
+Maintainer: ciefp
+MD5Sum: 585a9538e09dc91d071ebf4a0b2455a8
+SHA256sum: 5421f66710b1634dfdbf0faf5536b5eac69a1530b4b03ddd9c8d4fdd7ac1b1d1
+Size: 668
+Filename: enigma2-plugin-extensions-ciefpsettingspanel-dev_git98+0bd8be30+0bd8be3c65-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpsettingspanel.bb
+Description: CiefpsettingsPanel Enigma2 Plugin Manager - Development files
+OE: enigma2-plugin-extensions-ciefpsettingspanel
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpsettingspanel
+Version: git98+0bd8be30+0bd8be3c65-r0
+Depends: enigma2, opkg, python3-json, python3-requests, python3-shell, tar, wget
+Section: base
+Architecture: all
+Maintainer: ciefp
+MD5Sum: ff0ffb242de888ca8df8d11cde9d6c19
+SHA256sum: ecb6bdbedba83b1a47f66c1b7bfb38bbeb4f333b7c38c07f48401c31b5b44a7c
+Size: 3750772
+Filename: enigma2-plugin-extensions-ciefpsettingspanel_git98+0bd8be30+0bd8be3c65-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpsettingspanel.bb
+Description: CiefpsettingsPanel Enigma2 Plugin Manager
+OE: enigma2-plugin-extensions-ciefpsettingspanel
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpsettingst2miabertis-dbg
+Version: git26+8a0a9470+8a0a947295-r0
+Section: devel
+Architecture: all
+Maintainer: ciefp
+MD5Sum: 2838e47369217867658b24a53608f573
+SHA256sum: 872b3aed4acde8760cba786c5fd31a7df0208729e4149cae83ccdb3440c80293
+Size: 592
+Filename: enigma2-plugin-extensions-ciefpsettingst2miabertis-dbg_git26+8a0a9470+8a0a947295-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpsettingst2miabertis.bb
+Description: CiefpSettingsT2miAbertis Enigma2 Plugin - Debugging files
+OE: enigma2-plugin-extensions-ciefpsettingst2miabertis
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpsettingst2miabertis-dev
+Version: git26+8a0a9470+8a0a947295-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpsettingst2miabertis (= git26+8a0a9470+8a0a947295-r0), opkg-dev, procps-dev, python3-shell-dev, wget-dev
+Section: devel
+Architecture: all
+Maintainer: ciefp
+MD5Sum: 0beff545a08fd0121af77bc102535263
+SHA256sum: 748a2b3362688cc308f825001402926fbd0741db31c523df8bd707d68124069f
+Size: 660
+Filename: enigma2-plugin-extensions-ciefpsettingst2miabertis-dev_git26+8a0a9470+8a0a947295-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpsettingst2miabertis.bb
+Description: CiefpSettingsT2miAbertis Enigma2 Plugin - Development files
+OE: enigma2-plugin-extensions-ciefpsettingst2miabertis
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpsettingst2miabertis
+Version: git26+8a0a9470+8a0a947295-r0
+Depends: enigma2, opkg, procps, python3-shell, wget
+Section: base
+Architecture: all
+Maintainer: ciefp
+MD5Sum: e7c01138991ff4774fdd516b323f7a90
+SHA256sum: a79b3114aa8a53cf622b490798e850e0bbfc2a5c453202758931bb4304dba551
+Size: 3251974
+Filename: enigma2-plugin-extensions-ciefpsettingst2miabertis_git26+8a0a9470+8a0a947295-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpsettingst2miabertis.bb
+Description: CiefpSettingsT2miAbertis Enigma2 Plugin
+OE: enigma2-plugin-extensions-ciefpsettingst2miabertis
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpyoutube-dbg
+Version: git30+d1b74e30+d1b74e3ba7-r0
+Section: devel
+Architecture: all
+Maintainer: ciefp
+MD5Sum: 3ddb14f8f295a9c929cd070ac8c5bbfd
+SHA256sum: ffa966bbd6165fdb91ee0a5322ec472583cd5a98751d47b999fc9bfa15967445
+Size: 576
+Filename: enigma2-plugin-extensions-ciefpyoutube-dbg_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpyoutube.bb
+Description: CiefpYouTube Enigma2 Plugin - Debugging files
+OE: enigma2-plugin-extensions-ciefpyoutube
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpyoutube-dev
+Version: git30+d1b74e30+d1b74e3ba7-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpyoutube (= git30+d1b74e30+d1b74e3ba7-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, python3-json-dev, python3-requests-dev, python3-yt-dlp-dev
+Section: devel
+Architecture: all
+Maintainer: ciefp
+MD5Sum: 23dd981acd8dc1b9a066edac46d864c8
+SHA256sum: b62658bcf66bab6502bfefefcb59b6a3963d0c042aee11e3f2ce8868695e9fcc
+Size: 668
+Filename: enigma2-plugin-extensions-ciefpyoutube-dev_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpyoutube.bb
+Description: CiefpYouTube Enigma2 Plugin - Development files
+OE: enigma2-plugin-extensions-ciefpyoutube
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-ciefpyoutube
+Version: git30+d1b74e30+d1b74e3ba7-r0
+Depends: enigma2, enigma2-plugin-systemplugins-serviceapp, exteplayer3, python3-json, python3-requests, python3-yt-dlp
+Section: base
+Architecture: all
+Maintainer: ciefp
+MD5Sum: 8f20e3b0d6e12227bfb1d0a69a68b4df
+SHA256sum: 670cc0ceeb9cdd3ebd1b51177d66fd156a62f0eb79952be1e4b08f84f9da276e
+Size: 1839644
+Filename: enigma2-plugin-extensions-ciefpyoutube_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
+Source: enigma2-plugin-extensions-ciefpyoutube.bb
+Description: CiefpYouTube Enigma2 Plugin
+OE: enigma2-plugin-extensions-ciefpyoutube
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-commandcenter-dbg
 Version: 1.4-git112+cef28f00+cef28f0088-r0
 Section: devel
