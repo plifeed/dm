@@ -1073,14 +1073,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dbg
-Version: 1.4.0-git9+e35f6450+e35f6456ee-r0
+Version: 1.5.0-git12+233bbaf0+233bbafb2f-r0
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 02b9f1d1edbe6426adac770e9abea0b7
-SHA256sum: d90fb1691b5a07c5d62bc9c222682ff30b493a06bae3166fe2913dbb3e4d5040
+MD5Sum: e80959def299f1f245fb4986c0084be7
+SHA256sum: 1195cd9aa472667897b2544a6d9393086b0ef80fb1bf3b64383c0f29d0bbb74a
 Size: 702
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.4.0-git9+e35f6450+e35f6456ee-r0_all.ipk
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.5.0-git12+233bbaf0+233bbafb2f-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1089,15 +1089,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dev
-Version: 1.4.0-git9+e35f6450+e35f6456ee-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.4.0-git9+e35f6450+e35f6456ee-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
+Version: 1.5.0-git12+233bbaf0+233bbafb2f-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.5.0-git12+233bbaf0+233bbafb2f-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 9decf14df12ec2654f671c8f9c048b05
-SHA256sum: 47b2e8afcb732467a31a33d1d5794e7963b1cf0317814ab5982aa314866ab757
+MD5Sum: 1d80c9d6c8d962ffb508e3cf93fbc20d
+SHA256sum: 9a696cd39fdc2cf792dec1c78bee349b417737667d7cfe3e1c5572c67b1e169e
 Size: 840
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.4.0-git9+e35f6450+e35f6456ee-r0_all.ipk
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.5.0-git12+233bbaf0+233bbafb2f-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Development files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1106,15 +1106,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro
-Version: 1.4.0-git9+e35f6450+e35f6456ee-r0
+Version: 1.5.0-git12+233bbaf0+233bbafb2f-r0
 Depends: enigma2, python3-asyncio, python3-compression, python3-core, python3-datetime, python3-difflib, python3-fcntl, python3-html, python3-io, python3-json, python3-math, python3-netclient, python3-netserver, python3-stringold, python3-threading, python3-xml
 Section: base
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: eb59e4510343eb3bf6aa62d403c3e280
-SHA256sum: 98dfd3138a8d96c01d8d6b86f96ca8b02b8282111ede6bffbd4ba0b4f16dab1b
-Size: 40726398
-Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.4.0-git9+e35f6450+e35f6456ee-r0_all.ipk
+MD5Sum: 3fa52774008216a84f5fdbed599bfe32
+SHA256sum: 2c34efb7b8ada68493477eb5cf0c2117f8095692aab0c6a272ff99e8b26d5827
+Size: 41708346
+Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.5.0-git12+233bbaf0+233bbafb2f-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -4545,14 +4545,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-dbg
-Version: 0.1+git2353+e2e22580+e2e225873d-r0
+Version: 0.1+git2355+3a003040+3a0030415a-r0
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 0c9194a9ea9e7113008e74df22764b5e
-SHA256sum: 60db8c9392869a92caaf056ffe358f7b45b57f1d2dc4456dfeae75a9d25077f6
-Size: 574
-Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2353+e2e22580+e2e225873d-r0_all.ipk
+MD5Sum: 9b234067133ef272cb603a0d1fd46a47
+SHA256sum: 7ccb9ce46341277f1b809ad2db16e99804898ed97e4f0ab5974256853a04648a
+Size: 576
+Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2355+3a003040+3a0030415a-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
 Description: Skin - PLi HD - Debugging files
 OE: enigma2-plugin-skins-pli-hd
@@ -4560,15 +4560,15 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-dev
-Version: 0.1+git2353+e2e22580+e2e225873d-r0
-Recommends: enigma2-plugin-skins-pli-hd (= 0.1+git2353+e2e22580+e2e225873d-r0)
+Version: 0.1+git2355+3a003040+3a0030415a-r0
+Recommends: enigma2-plugin-skins-pli-hd (= 0.1+git2355+3a003040+3a0030415a-r0)
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: e0d72010f78c8c545635968dd83adae0
-SHA256sum: 666cca53646fa61b357a1557879c7127655600f21f42176927f151a214972fec
+MD5Sum: 048f1d0eba025f86d9bebeb8ded12997
+SHA256sum: 526ab200e92fefa21ab71e346afd1729aa2584aec8c2a6f8517f3d8056be35f0
 Size: 612
-Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2353+e2e22580+e2e225873d-r0_all.ipk
+Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2355+3a003040+3a0030415a-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
 Description: Skin - PLi HD - Development files
 OE: enigma2-plugin-skins-pli-hd
@@ -4622,14 +4622,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd
-Version: 0.1+git2353+e2e22580+e2e225873d-r0
+Version: 0.1+git2355+3a003040+3a0030415a-r0
 Section: base
 Architecture: all
 Maintainer: littlesat
-MD5Sum: eec32ae4eee1729a833c1262e21d1910
-SHA256sum: 7523aed22351de4480736b91cb2a134786575cd9467a7e681cb654c773c19b46
-Size: 463182
-Filename: enigma2-plugin-skins-pli-hd_0.1+git2353+e2e22580+e2e225873d-r0_all.ipk
+MD5Sum: b8bda680c448d9ef43d72242e95c24bf
+SHA256sum: 37431d27ed6905bb79e01dbe538080a5bf9775c93c68aebcf6df9222fe90a50a
+Size: 463192
+Filename: enigma2-plugin-skins-pli-hd_0.1+git2355+3a003040+3a0030415a-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
 Description: Skin - PLi HD
 OE: enigma2-plugin-skins-pli-hd
