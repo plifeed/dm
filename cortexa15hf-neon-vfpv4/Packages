@@ -9836,9 +9836,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc++6 (>= 16
 Section: extra
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: LraiZer
-MD5Sum: 3739585f03d69dbbbb14f539803b109f
-SHA256sum: 66aeee584222e77afa10991c2e588d31b926dc1d3e077eb1cbf91b8718703795
-Size: 156862
+MD5Sum: 0c1d849ef1f611136ada861739d625d5
+SHA256sum: a547cebb0c2855b9dd78cc8395a3f34f47517f538183740de31ca49ae5a54d07
+Size: 156860
 Filename: enigma2-plugin-extensions-autobouquets_2.2+git266+3fc227b0+3fc227bb70-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-autobouquets.bb
 Description: scan dvb data for automatic bouquets creation on Enigma2 STB
@@ -9949,8 +9949,8 @@ Version: git575+dbe70c70+dbe70c75b1-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2f89c0f485bc3cb1c9ba1f67967fa4c3
-SHA256sum: 0c5fff38da8355eea3ae1a6d46287bfcdadc22e5549af4670bea22f4d09bec72
+MD5Sum: 22aee96a1009351fd79f53345d1a3053
+SHA256sum: 7dbc3373439863fe22a596d54e29e267f7530de97e94310517fa4df186540b46
 Size: 622
 Filename: enigma2-plugin-extensions-backupsuite-dbg_git575+dbe70c70+dbe70c75b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
@@ -9965,8 +9965,8 @@ Recommends: bzip2-dev, enigma2-plugin-extensions-backupsuite (= git575+dbe70c70+
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 05f360ccbcd9f98d5989e97f8b4dc07e
-SHA256sum: 03f3247a7e4ef3b56e18ee7e9ef8595e236c1ad908056bc55a761ca37afd3879
+MD5Sum: 0c4c2384fdd7f70218783d531bd6f30d
+SHA256sum: 8829d29d4ca061523ad6d60dd277b1e1c74e4c74dcf0cdaf753be7a223acd261
 Size: 700
 Filename: enigma2-plugin-extensions-backupsuite-dev_git575+dbe70c70+dbe70c75b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
@@ -9981,8 +9981,8 @@ Depends: enigma2-plugin-extensions-backupsuite
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e9d04bf58d6f7b634eb3742cecad91e
-SHA256sum: d429ffa75da272ef0303261c9e713e824e22c2e1a6fb9c7be620cf7f00141a2f
+MD5Sum: 8724300c086c090c9362561886fe1722
+SHA256sum: 8978e9c26c3bc3f14ead5c71ad297348e324139d9db48e4767502c48a48f6d8c
 Size: 11504
 Filename: enigma2-plugin-extensions-backupsuite-src_git575+dbe70c70+dbe70c75b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
@@ -9997,9 +9997,9 @@ Depends: bzip2, enigma2-plugin-extensions-backupsuite, mtd-utils, mtd-utils-ubif
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2da04d208c761bfddcdb91e6b0621d69
-SHA256sum: 720b688ce82903ad1def3808e9650d53a89a3351d9cf33032bd4e98db33efe7c
-Size: 113880
+MD5Sum: c8ae0e66d6450f82100b9fdc61e4a202
+SHA256sum: e5c97f2e0c6d5b5ac4b59ffdaa1fd3680478c79b3b7ffe7653cf1973614220aa
+Size: 113898
 Filename: enigma2-plugin-extensions-backupsuite_git575+dbe70c70+dbe70c75b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
 Description: Enigma2 Plugin: extensions-backupsuite
@@ -10547,14 +10547,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.10.20.01-git6132+0ac82780+0ac82784c1-r0
+Version: 2026.10.20.06-git6144+340da360+340da36db3-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 70ccd26427fcf782e178f0e43d852522
-SHA256sum: d73e020afeccce16cfd5ccf90eedcebe6ecb05d0468e0607d415ee2f67d3acb6
+MD5Sum: a351d102f5cc2a782aa68b34199d4933
+SHA256sum: 8cdfcdc49f8209a8d20c458e5a4fc3be50884541b93b32c228e2b6e9ca90677c
 Size: 670
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.10.20.01-git6132+0ac82780+0ac82784c1-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.10.20.06-git6144+340da360+340da36db3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10612,15 +10612,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.10.20.01-git6132+0ac82780+0ac82784c1-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.10.20.01-git6132+0ac82780+0ac82784c1-r0), python3-core-dev, python3-dev
+Version: 2026.10.20.06-git6144+340da360+340da36db3-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.10.20.06-git6144+340da360+340da36db3-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1be79148c3c4ad6fc200909c42e26955
-SHA256sum: 8c792f06f906ce746f62fe77e126229e675b2a267a0ba2e05b2f73249c57075f
-Size: 718
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.10.20.01-git6132+0ac82780+0ac82784c1-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: a244728839a9b40a42009d5569a34715
+SHA256sum: 13b46088fb40d742b166a9690f31c74bcb94146212f8d57ca5b12f4b08c77142
+Size: 716
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.10.20.06-git6144+340da360+340da36db3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10629,15 +10629,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.10.20.01-git6132+0ac82780+0ac82784c1-r0
+Version: 2026.10.20.06-git6144+340da360+340da36db3-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b3158d3b3755575614e49859d0705089
-SHA256sum: a94b7e8db8db4614a020fc9c1926258f4961908511daddc8418e3c63e3544833
-Size: 2520462
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.10.20.01-git6132+0ac82780+0ac82784c1-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c81415757f49be8064e3db02829bdbd2
+SHA256sum: 7433c28cc09c10a15a2ad53d0b6c23fc076d383b97224cac31043b2a850fdd9c
+Size: 2536768
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.10.20.06-git6144+340da360+340da36db3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10646,16 +10646,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.10.20.01-git6132+0ac82780+0ac82784c1-r0
+Version: 2026.10.20.06-git6144+340da360+340da36db3-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: af30d1fb54f5c67ade691234d083959c
-SHA256sum: 4a6f004dee8c550e32cce8ce0464563b5d4a1ceafb62e462c444af5997fe8469
-Size: 23845970
-Filename: enigma2-plugin-extensions-e2iplayer_2026.10.20.01-git6132+0ac82780+0ac82784c1-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 1601055bd950fd077b064d6249d8ff2a
+SHA256sum: a16f8439485f4fd977b6044e371647a575fbc26befe1ba102a9887dccb5b1502
+Size: 24030266
+Filename: enigma2-plugin-extensions-e2iplayer_2026.10.20.06-git6144+340da360+340da36db3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -11260,8 +11260,8 @@ Version: git51+fb552f80+fb552f87ce-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: DrMichael
-MD5Sum: 38e26a211e93535e31cab87a2d6b27f2
-SHA256sum: ee5ded9e150379d6f024161fc61cc05da61efa7e280cdb8eccbc6cf5f614af3f
+MD5Sum: 8eb53391d0bea8ce94a85bdd949db420
+SHA256sum: d74b8c36cab77bbadd0abb8da517e08fc6270d3ef50b419eb83d1449249af1a8
 Size: 618
 Filename: enigma2-plugin-extensions-fritzcall-dbg_git51+fb552f80+fb552f87ce-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-fritzcall.bb
@@ -11276,9 +11276,9 @@ Recommends: enigma2-plugin-extensions-fritzcall (= git51+fb552f80+fb552f87ce-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: DrMichael
-MD5Sum: f0dc87e41e62b44057c10a92a797cd15
-SHA256sum: 35b2676c4ac5ac36fb573fb762f506243eb93476e60e860445e2970b1159213b
-Size: 702
+MD5Sum: cd1fcda7275132e9ad519da0975bf7cf
+SHA256sum: 93e9d2041e9bfb9340aaa9c694416a955714786d55802789a5d3bb9ccf4ad75f
+Size: 700
 Filename: enigma2-plugin-extensions-fritzcall-dev_git51+fb552f80+fb552f87ce-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-fritzcall.bb
 Description: enigma2-plugin-extensions-fritzcall version git-r0 - Development files
@@ -11292,9 +11292,9 @@ Depends: python3-core, python3-html, python3-json, python3-requests, python3-six
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: DrMichael
-MD5Sum: bca9944b45e3df0f9d3723a4d3a50de3
-SHA256sum: 29f058ae5fd9373aaf7c3e4c35cf7aab237e053ff62bc601b7408565eb00a6b7
-Size: 483830
+MD5Sum: e6443df0a4157c71a2434ba3a26237b0
+SHA256sum: 741e4146fdc471f2c8838159e3bb1f2496a490ef8c0cef13e143b9c2eecb9cce
+Size: 483818
 Filename: enigma2-plugin-extensions-fritzcall_git51+fb552f80+fb552f87ce-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-fritzcall.bb
 Description: enigma2-plugin-extensions-fritzcall version git-r0
@@ -12817,9 +12817,9 @@ Version: 2.0+git22+faf0c900+faf0c907fe-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6094d388685cbb6171bc04282d8425b8
-SHA256sum: c41c47cddad98728bcf76d87806bfd15941ac3f3959650bac9474aad219557fc
-Size: 642
+MD5Sum: 8cbfaa91437c654887a5abb3c76b43b0
+SHA256sum: 2a757feaf865504d1b99ec063c6c91ac1db7911b8b8aea83563d7aca0690ddce
+Size: 640
 Filename: enigma2-plugin-extensions-streaminterface-dbg_2.0+git22+faf0c900+faf0c907fe-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-streaminterface.bb
 Description: enigma2-plugin-extensions-streaminterface version 2.0+git-r0 - Debugging files
@@ -12833,8 +12833,8 @@ Recommends: enigma2-plugin-extensions-streaminterface (= 2.0+git22+faf0c900+faf0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ef1019441da8f8c4370456af5aeb7e0b
-SHA256sum: 483aa63925434e6cfe46be885dac619e811fac89e74d5b508127a68f61225e9e
+MD5Sum: e4cc37d2b9d851f2cf4834fedc4ce1c7
+SHA256sum: 376d032395b51f4fc4be23ffc51ed3b33ebf95d26b7d7b09675db21d906cd106
 Size: 700
 Filename: enigma2-plugin-extensions-streaminterface-dev_2.0+git22+faf0c900+faf0c907fe-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-streaminterface.bb
@@ -12849,9 +12849,9 @@ Depends: python3-core, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81954edd4187e9804b0ef7d9be95a313
-SHA256sum: 5d13d005181112f71ea6d1f44e442be30f01793aa786a067882dd8ff41d4280b
-Size: 16188
+MD5Sum: 75a7551e7744d93ef0102991e0c8e6d0
+SHA256sum: 2f7526536aa5f2f9d501aeb6253f757bb9c1c467b863a9def81549fa4f59fcd2
+Size: 16186
 Filename: enigma2-plugin-extensions-streaminterface_2.0+git22+faf0c900+faf0c907fe-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-streaminterface.bb
 Description: enigma2-plugin-extensions-streaminterface version 2.0+git-r0
@@ -13229,8 +13229,8 @@ Version: 1+git142+aaaa9220+aaaa922d4f-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a3595e65619e3fafecea8567bed3ce7c
-SHA256sum: 0fb7f2dd8d4befb3952d5e149ffedd873d3c79612cf6c4327d452fdb6411d3e0
+MD5Sum: 64f03b9e4e4fb3e2df3ab28220ec05ba
+SHA256sum: a7de0dabeed4c90abf002bf26d87f2499c59a31e47d994a84a9ee969c50d7fd4
 Size: 672
 Filename: enigma2-plugin-extensions-tmbd-dbg_1+git142+aaaa9220+aaaa922d4f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-tmbd.bb
@@ -13246,9 +13246,9 @@ Recommends: enigma2-plugin-extensions-tmbd (= 1+git142+aaaa9220+aaaa922d4f-r0), 
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fd52faea1c06764d60526a2bed3662de
-SHA256sum: 89859caa02c3fa1f8fb07c7e853fc8145c2067fc01ed3067285c1e46a078f65f
-Size: 760
+MD5Sum: 64c13e4da216907eebe20700a4324a7c
+SHA256sum: 68af9f4d3ca6fd14b95a4f0b9498992275c65a52ad7df770a7576ec6915c36be
+Size: 762
 Filename: enigma2-plugin-extensions-tmbd-dev_1+git142+aaaa9220+aaaa922d4f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-tmbd.bb
 Description: enigma2-plugin-extensions-tmbd version 1+git-r0 - Development files
@@ -13263,9 +13263,9 @@ Depends: python3-core, python3-html, python3-lxml, python3-misc, python3-shell, 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fe0f1004df5c6dc52e73db7f41e859be
-SHA256sum: f6f0fe89dbd24ae636649e9b8f644057c6d988cf07f35f46191e5822b66facc8
-Size: 486138
+MD5Sum: 2167fbad2429573f6ef8c0d780f4760a
+SHA256sum: 2508242df8a8e9a61bfdad57a1bb7d433e90b569966ef2a132bda9b90a38c862
+Size: 486130
 Filename: enigma2-plugin-extensions-tmbd_1+git142+aaaa9220+aaaa922d4f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-tmbd.bb
 Description: enigma2-plugin-extensions-tmbd version 1+git-r0
@@ -13631,8 +13631,8 @@ Version: V26.04-git13+d15cee00+d15cee0821-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf08409a683832930c75d3e93cfcfdb1
-SHA256sum: 434c1fa258127da977560b844109503adf90de0fe40e6781e50f61c383211408
+MD5Sum: 1433744f5a8d4fe7a98c0254d446aeaf
+SHA256sum: 39b50b48e32e7e6a67f82a8976784547c0c9dc3cff6bcf6d0542f32b3c3facb2
 Size: 634
 Filename: enigma2-plugin-extensions-webradiofs-dbg_V26.04-git13+d15cee00+d15cee0821-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-webradiofs.bb
@@ -13647,8 +13647,8 @@ Recommends: enigma2-plugin-extensions-webradiofs (= V26.04-git13+d15cee00+d15cee
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8401bba390f9300046fcb4d27efa20d6
-SHA256sum: 6111017e0cbfa09dae5cf5300b625e1e77273bf9a1b420d3d654ab16494b6c23
+MD5Sum: 45f610a2167f38a077f38382c54d71d4
+SHA256sum: 65f5f15119d4562be3b50f61033c4748c303192c81e68f2668fc5e0fbdaefc0c
 Size: 696
 Filename: enigma2-plugin-extensions-webradiofs-dev_V26.04-git13+d15cee00+d15cee0821-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-webradiofs.bb
@@ -13662,9 +13662,9 @@ Version: V26.04-git13+d15cee00+d15cee0821-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 92c3b443fe6976f5fb5b5de87e8d71d9
-SHA256sum: 23cb17442fb0267994470ec5e9f9436b50c558ae64e3daa7326e3af842cc973e
-Size: 116536
+MD5Sum: a9f6cebb04423c5b35894039f897136a
+SHA256sum: 4e2579f197fe2b4e20d9898dfeaf54c6e5e3f765713db2c778a8e3da5a83cd00
+Size: 116540
 Filename: enigma2-plugin-extensions-webradiofs-src_V26.04-git13+d15cee00+d15cee0821-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-webradiofs.bb
 Description: enigma2-plugin-extensions-webradiofs version git-r0 - Source files
@@ -13678,9 +13678,9 @@ Depends: python3-core, python3-sqlite3, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8768afb9e52c3ed7b6a28791beadca62
-SHA256sum: a46d9206e7653be25f59bad4c5f5bd41fa09ab7c3505c3a805d8861c1162b331
-Size: 584984
+MD5Sum: a35ccbbb3bf7e6b95efd24fcd833b26c
+SHA256sum: 7544d9ddbe2ee08d3875b60be03401aa4d47ef05f9cae1d8835feee2965c967c
+Size: 584956
 Filename: enigma2-plugin-extensions-webradiofs_V26.04-git13+d15cee00+d15cee0821-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-webradiofs.bb
 Description: enigma2-plugin-extensions-webradiofs version git-r0
@@ -13693,8 +13693,8 @@ Version: V7.1-git548+8d109e80+8d109e8475-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: b54273c0b96522f1315f001e25124b37
-SHA256sum: 22b9ddade6076bcff2f728cd86a9453c44e4c2f64881a1e686e51b3db739650b
+MD5Sum: 41d9182d86ee440b380d31bd6d272418
+SHA256sum: 7f1b7a51ac93dbde13d0685ec438418d1ae6452a519f3e8b9de4d2e3fd881076
 Size: 652
 Filename: enigma2-plugin-extensions-worldcam-dbg_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13710,9 +13710,9 @@ Recommends: enigma2-plugin-extensions-worldcam (= V7.1-git548+8d109e80+8d109e847
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 0ba975a6ecae27ea304195a599b36b71
-SHA256sum: 688eeb24a6bd51482ca7d5ea12e6e2327daadc14c04e723e3544fcd3f3aed9fc
-Size: 784
+MD5Sum: b1a981d14748c3b6e4149e38f0c4628e
+SHA256sum: 64cc07227c255eed31997799df3e1cfc48ea2da3ab39bd6bea26b6d74ca857f1
+Size: 786
 Filename: enigma2-plugin-extensions-worldcam-dev_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Development files
@@ -13726,8 +13726,8 @@ Version: V7.1-git548+8d109e80+8d109e8475-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 63c3c9e75bd9424a464825ce095217fa
-SHA256sum: 9f151e79fea393931091c492d6560bf72ad1d8f3a796297625b0fabbec135577
+MD5Sum: 558db9c6653ad11ab7d612d106b8028e
+SHA256sum: 46467584af86d6cfba324d5b2998061a9dddd8fd3cf7ce60d59e80500aca6d11
 Size: 46256
 Filename: enigma2-plugin-extensions-worldcam-src_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13744,9 +13744,9 @@ Recommends: enigma2-plugin-extensions-streamlinkwrapper, enigma2-plugin-extensio
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 7ba0cfdb48809651c42459d496988e2a
-SHA256sum: 1021463578256ee1bf80aa01e9ff234608d80b3c10947e2fc7d6e001762fae79
-Size: 2793560
+MD5Sum: fcef8603decb729d4666fc5588b14c0e
+SHA256sum: 0dbedc314a37e1532b8bbb26a9eb4936acaf25691ebb17a6428cca32cf950bc2
+Size: 2793536
 Filename: enigma2-plugin-extensions-worldcam_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists
@@ -14146,8 +14146,8 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3), libdvbcsa1 (>= 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED Developer
-MD5Sum: 055a0a0c6bf75b279e16c627b728e522
-SHA256sum: 92692b1e900876db44fd2b8d55fe4038373c0da48f753ec51e89c704d42cd411
+MD5Sum: 62d2415be03b13922affc390b8e926a2
+SHA256sum: 81b925392fa566ee72851cb53829c9fcbe22bbccebdbc09b718ac90020c3f3ac
 Size: 902016
 Filename: enigma2-plugin-softcams-ncam_git10899+b9882800+b9882801f7-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-ncam.bb
@@ -14162,9 +14162,9 @@ Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9eb35c13d13d29961cc9d93d3047050f
-SHA256sum: 7467afc6f2fabafcfff76fcc10a9650c19c98b4b3f761d6ca3c44581f61bcdd4
-Size: 746084
+MD5Sum: 51ea050d868bc4bff441de7a0c7ea76e
+SHA256sum: 40dadabc2fe3fbc31c9f47b5b92e77ba3e4bff8d17b62a73358100d4e2ed80ca
+Size: 746538
 Filename: enigma2-plugin-softcams-oscam-emu_11966-git11077+ad7588c0+ad7588c6dd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam-emu.bb
 Description: enigma2-plugin-softcams-oscam-emu version git-r0
@@ -14178,9 +14178,9 @@ Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a762968a4d45a1d9a888efce0a113734
-SHA256sum: 16c8a48c56aeee207eca1435a26dd3bb08a3a97333f7b2a38d2b9be18f1e64ae
-Size: 697440
+MD5Sum: c6214811e9acd9c29ba8fd49fc2edf08
+SHA256sum: 3aedbe762fe1f0957636928f727c25ad3f55b455eb544eda1ed88108826bc060
+Size: 697278
 Filename: enigma2-plugin-softcams-oscam_11968-git10887+39e78a40+39e78a4688-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
@@ -16910,8 +16910,8 @@ Version: 1.20-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Jari Aalto <jari.aalto@cante.net>
-MD5Sum: a3bf6354a161f725133d57cff9cd29fe
-SHA256sum: ff36eee42c4fbff8033bd026a8b404f8588e6876b27be19ab6c6f0f897abc4cb
+MD5Sum: b81e3011c7e89c190074e8322c80f9c8
+SHA256sum: 14a61bdd775136124f4fd17e34d92e2cd9f19a954a1ae5bb568000cafbe5a729
 Size: 3264
 Filename: flip-doc_1.20-r0_cortexa15hf-neon-vfpv4.ipk
 Source: flip_1.20.bb
@@ -95520,9 +95520,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libncursesw5 (>= 6.6), libtinfo5 (>= 6
 Section: net
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1f0b37598c8e2e6f3fced22e227c1254
-SHA256sum: fe45447088b59a1193eee0e0d9dc5bd60a53ad713295cbeefbc92887dcaff2d8
-Size: 49528
+MD5Sum: e2ce8670ba13f5f78d686c4de15f6e69
+SHA256sum: df2dcdb5195dfa56d64ec85e476a61c7aa417d101316018640c91622b505c85b
+Size: 49532
 Filename: mtr_0.96-r0_cortexa15hf-neon-vfpv4.ipk
 Source: mtr_0.96.bb
 Description: Combined traceroute and ping utility
@@ -118882,9 +118882,9 @@ Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.44+git0+34106fee69), libedit0 (>= 2026
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1a5727786aa5073eff9a620a9b2e6e86
-SHA256sum: f25fe0fc0640eae3402f323e9a384b38acbb03bd220a25079a2e4a9cd8c50036
-Size: 2901772
+MD5Sum: 5d45d4b9aff34836133036efad12e7ee
+SHA256sum: 104922372513519df0c887a2e224e0e56cb1925fa66eb3d6072664a121222b83
+Size: 2901908
 Filename: python3-core_3.14.8-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3_3.14.8.bb
 Description: Python interpreter and core modules
@@ -120670,9 +120670,9 @@ Depends: python3-click, python3-httpx, python3-pygments, python3-rich
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8fd0f9b79f36ccb0fa56f8e8c4c5ac7b
-SHA256sum: 0b854411132c8a42e9bbd11da2793e9d4acbfba89aaa19d64465e2ab636d8d92
-Size: 830
+MD5Sum: 33975490a4624b6a13265a3e12e897e7
+SHA256sum: 194b3552568583f0cca6c829745c536f2a3f36ba1b81cf05e80b0b2b4cf0a4bb
+Size: 826
 Filename: python3-httpx-cli_0.28.1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-httpx_0.28.1.bb
 Description: A next generation HTTP client for Python.
@@ -120685,9 +120685,9 @@ Version: 0.28.1-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9779ead213e82f91916467022172d196
-SHA256sum: 98c8ddfea14ae5257966259b58ba224ebf2b69aeb85deb29b2380142bd001cba
-Size: 614
+MD5Sum: 05f90eeb2a01a56efb13156f8f72c7ce
+SHA256sum: f1448a7b89d772f210d747873228960792ef25872c0aa4be4de5613b77e7a175
+Size: 612
 Filename: python3-httpx-dbg_0.28.1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-httpx_0.28.1.bb
 Description: A next generation HTTP client for Python. - Debugging files
@@ -120701,9 +120701,9 @@ Recommends: python3-anyio-dev, python3-certifi-dev, python3-click-dev, python3-c
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4959d2683fbb8514369ff9f82304f80f
-SHA256sum: 9c2597077f2cbab7f34d6dc6facf5a987600157327efa2d74a67b63fefe10aca
-Size: 718
+MD5Sum: f1fbd75075f7de6e88917dd1065ef5e3
+SHA256sum: bc7743a0eb8bfedbbe4604347d3307786d0d358cf5f22267a52bf4fa44712b16
+Size: 716
 Filename: python3-httpx-dev_0.28.1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-httpx_0.28.1.bb
 Description: A next generation HTTP client for Python. - Development files
@@ -120716,8 +120716,8 @@ Version: 0.28.1-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 241503ec0c83285fab86ab82a0f61bc2
-SHA256sum: 80f250af324db055b70e98e668ce8824178ee937f938ffd68979c2eb00ccd66e
+MD5Sum: 5de445e7fbd469f1426db5e943bd85ca
+SHA256sum: a33ad64aa310a308776af9fa92ff4338b5f2de191529122942acad8e6da72a7f
 Size: 4620
 Filename: python3-httpx-doc_0.28.1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-httpx_0.28.1.bb
@@ -120732,9 +120732,9 @@ Depends: python3-anyio, python3-certifi, python3-compression, python3-core, pyth
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 25ea3dc2d8ca8efcfc90b49d8231c749
-SHA256sum: b4c5e16aab9ca5edd59bf2e4d9e541655c30582ca4620718411fffd59fa07e55
-Size: 194070
+MD5Sum: 158243d93d943d9b57cbd5c8f8ab2f5f
+SHA256sum: 513ec09389270be8817a67bcf39c525847e58319a1b8aa4cbb6e6a05f1698be8
+Size: 194068
 Filename: python3-httpx_0.28.1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-httpx_0.28.1.bb
 Description: A next generation HTTP client for Python.
@@ -121029,8 +121029,8 @@ Version: 24.11.0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: be2d6bbb9fae8d43371da5ff9b99b7c2
-SHA256sum: 5344665b5e11f30e432c2ba5babb50750beb29aa1ce4ea24f1d22b3d27e5e22e
+MD5Sum: 00ab94223fdd598723b9e4d71bce9264
+SHA256sum: 8e3286a56be76d6d546971164f6d1f7d75665a763b4316f8051448a66d004779
 Size: 652
 Filename: python3-incremental-dbg_24.11.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-incremental_24.11.0.bb
@@ -121046,8 +121046,8 @@ Recommends: python3-click-dev, python3-core-dev, python3-dev, python3-incrementa
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e0cc376d674a06268f194eeb285648b0
-SHA256sum: 0efeaba1da0025e4372324c46ae94550bfb2bf650d0fe663b6cae3c06bb0946f
+MD5Sum: a84c964579e9a6a8b2895bad3b0f385d
+SHA256sum: 68f01db61dcd1684af81d284122b7f47a9ca6550e9665010ec78f82bb5df90af
 Size: 712
 Filename: python3-incremental-dev_24.11.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-incremental_24.11.0.bb
@@ -121062,9 +121062,9 @@ Version: 24.11.0-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f374a1283019a4559fb0e95611f008e2
-SHA256sum: ec35bad3d6d84902a48a95524f754b3e682e200cf00b1afda156fb56705c644e
-Size: 5734
+MD5Sum: a53fc168cf1f92741af755fcef7a5860
+SHA256sum: 53fc66b3ad4e76318bcfd5101b6644c999a3cea07a72104648abaa0092c89647
+Size: 5732
 Filename: python3-incremental-doc_24.11.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-incremental_24.11.0.bb
 Description: python3-incremental version 24.11.0-r0 - Documentation files
@@ -121079,9 +121079,9 @@ Depends: python3-click
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 774d4aa84805cdf383f15a88e6fb7782
-SHA256sum: fe5d609895be16b570a678750949dcd50c5c08090573f6f2e5ea4f81d482b759
-Size: 7610
+MD5Sum: 568e2210f5c68e1dbae069e22d78f02a
+SHA256sum: 0ecda62029b5224cdc714c18a422feefcc25f20ee87728d27c27baaf841983b4
+Size: 7608
 Filename: python3-incremental-scripts_24.11.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-incremental_24.11.0.bb
 Description: python3-incremental version 24.11.0-r0
@@ -121096,8 +121096,8 @@ Depends: python3-incremental-scripts, python3-twisted
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c5957d843bcd297f2f9985164b0231be
-SHA256sum: 0db1ff8eb85ae1a56086436d67890f8dd8d275f684253adca04b86a3086e4d40
+MD5Sum: c6fc7dd3c2515e3008798158df246d83
+SHA256sum: 6e58bbc100f3a8bcf02c642506e0dc688fbce5694b4ca7a40dcc3ffbb5fd0ef3
 Size: 23256
 Filename: python3-incremental-tests_24.11.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-incremental_24.11.0.bb
@@ -121113,9 +121113,9 @@ Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0641f716bf0dc348fdd050280c2b5605
-SHA256sum: 86c3c7a2064d7d34044092bbe65e25e7e153d1c9e9012bf773bc1a860a5bc8a4
-Size: 16176
+MD5Sum: f63e96f67fdba3066a6dd34d26a9a114
+SHA256sum: ee4b364666bc0379ef3bd4ce69c8dc45df5c63f918e5cf8530f930d2c86db975
+Size: 16174
 Filename: python3-incremental_24.11.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-incremental_24.11.0.bb
 Description: python3-incremental version 24.11.0-r0
@@ -122009,9 +122009,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc++6 (>= 16
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c90d0c2d71f1d7060e7e147358152efc
-SHA256sum: ff65f5a76b1d583819b822461ccb4037966dc9ed9c70f8d4ae6940ab1c808210
-Size: 178408
+MD5Sum: ac72fefd65de72aae1034595f565e48b
+SHA256sum: ef1182cdffc63f0cb973cd50d4a1a56d44b79642613445f6361b0742cf21c792
+Size: 178406
 Filename: python3-levenshtein_0.27.5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-levenshtein_0.27.5.bb
 Description: python3-levenshtein version 0.27.5-r0
@@ -122444,9 +122444,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), python3-audio, python3-codecs, python3
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b147b084e5320caac303e4c29c55cf6b
-SHA256sum: 4ceed537c3829a4c834bd159c95428e0dbe577fb183a4aea633988273fe095af
-Size: 1308998
+MD5Sum: 176601cf3962a0a9fe6f98c3dbd4c0a3
+SHA256sum: 5783b27421f943e7dfde4aec268222d679846e202ecfb556bfbfa4a177dee850
+Size: 1308994
 Filename: python3-misc_3.14.8-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3_3.14.8.bb
 Description: The Python Programming Language
@@ -125623,8 +125623,8 @@ Version: 2.34.2-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d6e2ecb6b124d50de735c3a0688fa514
-SHA256sum: fa33ef43b28a87e11da1448679b3e5105690980c36a5df4e711f630baafa8ce1
+MD5Sum: 8d00ca8b80277abf49f577c56eae90fa
+SHA256sum: 3da7e57828e4a05bccc6cfabb57cf9edcb29855fe596e608335c814124f08837
 Size: 654
 Filename: python3-requests-dbg_2.34.2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-requests_2.34.2.bb
@@ -125640,8 +125640,8 @@ Recommends: python3-certifi-dev, python3-chardet-dev, python3-compression-dev, p
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 851effa57c88d34fd568577a93dc9f41
-SHA256sum: bc70d268bb5aa6dc1b8ead3b985b2cb1f68d885e7288ee7f49819d1223baca2c
+MD5Sum: 212c4af53c7b141ed1df9e3bd275381e
+SHA256sum: 0bee6c6011c6b218e6360cb0841ceba4d6a9815ee9b30293f19bc08787962779
 Size: 750
 Filename: python3-requests-dev_2.34.2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-requests_2.34.2.bb
@@ -125656,8 +125656,8 @@ Version: 2.34.2-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bf34345b0e1591ffa36ce868e2f8b7e3
-SHA256sum: a0937d8bdb72ab396ff3bb7ca441bd87814b22c69d9f225eb30ecec4b8fc8deb
+MD5Sum: 46ac4b414d84f9c8809a10c87130a204
+SHA256sum: 2bd56536d79409fddaf3250d57e7a0e6cffe32024fb1da7a2836eaed08c7c350
 Size: 6786
 Filename: python3-requests-doc_2.34.2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-requests_2.34.2.bb
@@ -125723,9 +125723,9 @@ Depends: python3-certifi, python3-chardet, python3-compression, python3-core, py
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9379cf6d184c562e40005ccd771a2383
-SHA256sum: 7c3b5d85ed46e834a685b0dcde43685fa9b4e2facf8174f9df9af3005707073d
-Size: 159784
+MD5Sum: 0f9520a5f3eacdc7e993006f8b3585ea
+SHA256sum: cb2809cbc3be568def3221016364c7a260936ac86d1eac4021c228c1b809e5ec
+Size: 159770
 Filename: python3-requests_2.34.2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-requests_2.34.2.bb
 Description: Python HTTP for Humans.
@@ -125936,9 +125936,9 @@ Version: 2.19.0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b29cc6daebd2e1d05b7f96ea7a8d2fe7
-SHA256sum: 403fb4ccda38119a9c0b0420bba1985ac47bb0e1315290591e07b96a144f0c7f
-Size: 642
+MD5Sum: 2b428ab4777488a521e3fcdeffbdc725
+SHA256sum: 1c74735e354d22e1dff6c98e1432b174244b34f5aefee461390a07d5952b8067
+Size: 640
 Filename: python3-scrapy-dbg_2.19.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-scrapy_2.19.0.bb
 Description: Scrapy is a fast high-level web crawling and web scraping framework - Debugging files
@@ -125953,9 +125953,9 @@ Recommends: python3-core-dev, python3-cryptography-dev, python3-cssselect-dev, p
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7cf5e5c2a9b5457920b84c316b7d6c0a
-SHA256sum: c1ef0cda587a8d28f013bff00c4b882c7e848188715ca79e46938e1d0b2afe84
-Size: 808
+MD5Sum: 8c9b27109d7128296d0f08cde43d7d0e
+SHA256sum: f3ae9d6433b5523e8fcc129f4245e9b34f78861227426e9d066d6c55f22c5ea1
+Size: 806
 Filename: python3-scrapy-dev_2.19.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-scrapy_2.19.0.bb
 Description: Scrapy is a fast high-level web crawling and web scraping framework - Development files
@@ -125970,9 +125970,9 @@ Depends: python3-core, python3-cryptography, python3-cssselect, python3-defusedx
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d6784e9eadb86e77cd7dca3fbefb2fa6
-SHA256sum: b44ea6afcc77bd025a4ac6ae3509f5fad400d24b07b60fe1cdd2af26b044a187
-Size: 887572
+MD5Sum: 0cd4dec5fa3cd0ded434a6da894da5c2
+SHA256sum: 677477e708125c7fd24b5688190a07c05ce3d071b39db32362fff39660159733
+Size: 887450
 Filename: python3-scrapy_2.19.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-scrapy_2.19.0.bb
 Description: Scrapy is a fast high-level web crawling and web scraping framework
@@ -127672,8 +127672,8 @@ Depends: python3-treq
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Tom Most <twm@freecog.net>
-MD5Sum: 16b7f574bfaf7e4bdf85d55b147d3fb6
-SHA256sum: fca38d18f70bd9ccf41dd993cba43205833911f0c45bc962ed9fe3fce0d85a6e
+MD5Sum: cd859952037e5230f6c67779c502a6ea
+SHA256sum: 0232da9e2b2900f8d741cb6d9107837fc55a17b24249e8f4c42ef62a1bcb2b28
 Size: 690
 Filename: python3-treq-dbg_26.7.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-treq_26.7.0.bb
@@ -127688,9 +127688,9 @@ Recommends: python3-attrs-dev, python3-core-dev, python3-dev, python3-hyperlink-
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Tom Most <twm@freecog.net>
-MD5Sum: 9e99ee170efddf023076f60821ac4336
-SHA256sum: a4dda4b79d3e895a8616cd759af2b94faf54accd994d8a813edc83450953902b
-Size: 770
+MD5Sum: 76bace60b0d1f288fc3b5ddac33c487a
+SHA256sum: b95280febf28c9ee9f8015cf9250ff042166c12555705808b47b15b979bff9de
+Size: 768
 Filename: python3-treq-dev_26.7.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-treq_26.7.0.bb
 Description: treq: High-level Twisted HTTP Client API - Development files
@@ -127703,8 +127703,8 @@ Version: 26.7.0-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Tom Most <twm@freecog.net>
-MD5Sum: 51f1ccef585ed25044112b2bb6314be1
-SHA256sum: 70f673059f4ad3ad5b7b2b2b450b27bbb484713567ecbe40d7c4356f02a2602b
+MD5Sum: ce78adc6ba76144c739dde622af5952d
+SHA256sum: ba16e63976be56f63cf97f22add2959eeabec4d10318b084d6e12344c09d034a
 Size: 3126
 Filename: python3-treq-doc_26.7.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-treq_26.7.0.bb
@@ -127719,9 +127719,9 @@ Depends: python3-attrs, python3-core, python3-hyperlink, python3-incremental, py
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Tom Most <twm@freecog.net>
-MD5Sum: 145bfb8537f493c3a301d81c7e43c844
-SHA256sum: 6abf8be0760b253031c7d0760e0fe990572bd944e66e42cb1f4b178fdcb477f1
-Size: 182764
+MD5Sum: 492ef4947806ac0fb793fded08b56351
+SHA256sum: 0219c8540154038650d38ac9175cc8a77367e0516eaecb55bee182c362de94fa
+Size: 182780
 Filename: python3-treq_26.7.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-treq_26.7.0.bb
 Description: treq: High-level Twisted HTTP Client API
@@ -129106,8 +129106,8 @@ Version: 1.3.2-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f2351b7c1fcb3cfc5a1f8cc4beb7dc0e
-SHA256sum: 5c280acb5b4d4aa5b4ddf57ee2360abdc0eaedad0af5dacba697ff03598b49fa
+MD5Sum: adea6ef4c55887e0470fe66f1ba53e69
+SHA256sum: 957aad4d21c664c1dcaa27247ea7cfac6f3a52e9dbbd64a2b43731b7a9089ef4
 Size: 648
 Filename: python3-wsproto-dbg_1.3.2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-wsproto_1.3.2.bb
@@ -129123,8 +129123,8 @@ Recommends: python3-core-dev, python3-dev, python3-h11-dev, python3-netclient-de
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cea3af982855777707de17826a0674bf
-SHA256sum: 30e25287cf429b2acecd81daf6ccb413a857227bf4b9b9a43a619f0dae4960f7
+MD5Sum: 253330839cd6dcfcb504ea7685972da5
+SHA256sum: 4c1211e846917caedc23fbce494536e5bd32844f93f6ae0efc8d8c3f175f4d4a
 Size: 704
 Filename: python3-wsproto-dev_1.3.2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-wsproto_1.3.2.bb
@@ -129140,9 +129140,9 @@ Depends: python3-core, python3-h11, python3-netclient
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7b4d3c51240e51454e26dfbc3a069f7
-SHA256sum: 73a8f57eca9d7e2ff062cf792bad98c5fa837935b88151520dc713b2ad2b0d45
-Size: 58956
+MD5Sum: f471158d0606af858cb3af5da471479e
+SHA256sum: 36a1a9ec2deee267c3e75edcca998843d27a7749bb9a3b23d417edb82c7be9d0
+Size: 58954
 Filename: python3-wsproto_1.3.2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-wsproto_1.3.2.bb
 Description: WebSockets state-machine based protocol implementation
@@ -129320,8 +129320,8 @@ Version: 2026.08.19-git24011+89734120+897341241f-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0849884a852b3bc48dca6a1b47f2bfc1
-SHA256sum: 88c2f3fc8cd84cd6123a75d013bb3c3933312667fbbf2c32a21c1ce946387a87
+MD5Sum: b446a81ea045e045f1f2f409a5dcf8d6
+SHA256sum: 9b0ba05eaaac2c7b39901fb0801c1c09b8f650351795013d32139c28d4ff5235
 Size: 750
 Filename: python3-yt-dlp-dbg_2026.08.19-git24011+89734120+897341241f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
@@ -129337,8 +129337,8 @@ Recommends: bash-completion-dev, python3-core-dev, python3-ctypes-dev, python3-d
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 99b8b795c57940e89421883d3461dc9e
-SHA256sum: 5287bba4697e35fc3bbf21925e90fdb3febe1fb842b64092daa07ae2305b47c3
+MD5Sum: 1d20cb2365b4766da4acb69ba5582caa
+SHA256sum: 6176e72b61c7c6568fff28069762b71fb26a90c921bd04fafa8ded741df2bddc
 Size: 840
 Filename: python3-yt-dlp-dev_2026.08.19-git24011+89734120+897341241f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
@@ -129354,9 +129354,9 @@ Depends: python3-yt-dlp
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 79ae68eed5634251975d58767410fa2d
-SHA256sum: fed6d4a891377fdd91202a71a196d07ae01b85379a4580798ea8d96e7258886f
-Size: 2425576
+MD5Sum: 3c5e73c7d175d7fb04abdcfc4e32b81c
+SHA256sum: c58b27be1e6b6c57646eb82c12a3c423468a962404fc90e690abb790170a46a7
+Size: 2426052
 Filename: python3-yt-dlp-src_2026.08.19-git24011+89734120+897341241f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Source files
@@ -129371,9 +129371,9 @@ Depends: bash-completion, python3-core, python3-ctypes, python3-email, python3-h
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e00bd43caaa1d430498a7ac2b165a18c
-SHA256sum: b47072594be0c81ec491e545660ba14a2e64d0aa48e9fa732c7e49f20d998fc6
-Size: 4598744
+MD5Sum: 98ee45db61ab98caf15702e90a501d81
+SHA256sum: c20296dca32472e1e48adcf120950de5bdb21dfc7c26140dd74537e0d361478a
+Size: 4598578
 Filename: python3-yt-dlp_2026.08.19-git24011+89734120+897341241f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes
@@ -130384,9 +130384,9 @@ Version: 5.1.3-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: team@sabnzbd.org
-MD5Sum: 71aac9e5fb4f5f249d9f8a5997cb8fdc
-SHA256sum: 907743ee0024cbe73143e828770379af7dc881734f1877eb7d1aebcb5371d36a
-Size: 34482
+MD5Sum: 015c1e6f553194316c4a73cd28dfc797
+SHA256sum: d6dd8c89cf0cd6b0d9453dcf071d73ca4dbc2584ea9260abc42e4ef312723c22
+Size: 34486
 Filename: sabnzbd-doc_5.1.3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: sabnzbd_5.1.3.bb
 Description: SABnzbd - The automated Usenet download tool - Documentation files
@@ -130400,9 +130400,9 @@ Version: 5.1.3-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: team@sabnzbd.org
-MD5Sum: b7d4af6cd386358ed3b442859ae5abf7
-SHA256sum: a7ec31103bbfef5474b4f139d22829530b1b69a6c458042e0efbe9b640ad9316
-Size: 519444
+MD5Sum: 45ed7a2952edeb2f1ff1922ed0bd7e18
+SHA256sum: cf32d38baf114e4b331187646541281f5445669087d77c67c890ebc72ba64e28
+Size: 519452
 Filename: sabnzbd-src_5.1.3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: sabnzbd_5.1.3.bb
 Description: SABnzbd - The automated Usenet download tool - Source files
@@ -130418,9 +130418,9 @@ Recommends: par2cmdline, unrar, update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: team@sabnzbd.org
-MD5Sum: 50fce7e99331bdabd18e6e8d8ea33a55
-SHA256sum: 51979342f108a28d63c2d9fe8d53ab7a4740fc95d59d1464b5ee57230aca7d9b
-Size: 5315538
+MD5Sum: cadad300615e5e2e5228a73952e17162
+SHA256sum: 846b097424f92d98ec575fe4682ef0dbd692576e29a6635b7255575debb21858
+Size: 5315704
 Filename: sabnzbd_5.1.3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: sabnzbd_5.1.3.bb
 Description: SABnzbd - The automated Usenet download tool
@@ -134936,16 +134936,16 @@ License: GPL-2.0-or-later AND LGPL-2.1-or-later
 Priority: optional
 
 Package: streamlink
-Version: 8.6.2-git6137+b19cc05_0.0-git1+4ec0b8c0+b19cc05aff_4ec0b8c658-r0
+Version: 8.6.2-git6140+c79a8b4_0.0-git1+4ec0b8c0+c79a8b4c60_4ec0b8c658-r0
 Depends: python3-certifi, python3-core, python3-ctypes, python3-isodate, python3-lxml, python3-pkgutil, python3-pycountry, python3-pycryptodome, python3-pysocks, python3-requests, python3-shell, python3-trio, python3-trio-websocket, python3-urllib3, python3-websocket-client
 Recommends: ffmpeg
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9e2493379d19bf72418bb2f26892f05e
-SHA256sum: 9546e229d1119fd68079253e4f3a589d30718a99c6195805cc4b554ca39cfe94
-Size: 1180106
-Filename: streamlink_8.6.2-git6137+b19cc05_0.0-git1+4ec0b8c0+b19cc05aff_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 2e07e6ffec2589e97c1f0b12022a17a5
+SHA256sum: a954339d36068eca2a29114e049fc2cfd75c45bacdd056f86172eef3660af0c1
+Size: 1180092
+Filename: streamlink_8.6.2-git6140+c79a8b4_0.0-git1+4ec0b8c0+c79a8b4c60_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
 Source: streamlink_git.bb
 Description: CLI for extracting streams from various websites to a video player of your choosing
 OE: streamlink
