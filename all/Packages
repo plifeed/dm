@@ -1093,6 +1093,53 @@ HomePage: https://github.com/kiddac/Jedi-EPG-XStream
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-levi45addons-dbg
+Version: 0.0-git116+8bf50470+8bf5047d65-r0
+Section: devel
+Architecture: all
+Maintainer: levi-45
+MD5Sum: ecf28051011d4b930b0e8c543f421d26
+SHA256sum: 4241867677de2c4ff46d12ba145c554f845907003c1c5db30c157a593a4e1ccc
+Size: 586
+Filename: enigma2-plugin-extensions-levi45addons-dbg_0.0-git116+8bf50470+8bf5047d65-r0_all.ipk
+Source: enigma2-plugin-extensions-levi45addons.bb
+Description: Levi45 Addons Panel for Enigma2 - Debugging files
+OE: enigma2-plugin-extensions-levi45addons
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-levi45addons-dev
+Version: 0.0-git116+8bf50470+8bf5047d65-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-levi45addons (= 0.0-git116+8bf50470+8bf5047d65-r0), python3-core-dev
+Section: devel
+Architecture: all
+Maintainer: levi-45
+MD5Sum: a1e1c2c6588fc96a118b8d3dcfa45c71
+SHA256sum: fa63ba4718dbb5a19ce8e8a2bce5f15507a7b9f43069ca4bb9fd75439969e27f
+Size: 638
+Filename: enigma2-plugin-extensions-levi45addons-dev_0.0-git116+8bf50470+8bf5047d65-r0_all.ipk
+Source: enigma2-plugin-extensions-levi45addons.bb
+Description: Levi45 Addons Panel for Enigma2 - Development files
+OE: enigma2-plugin-extensions-levi45addons
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-levi45addons
+Version: 0.0-git116+8bf50470+8bf5047d65-r0
+Depends: enigma2, python3-core
+Section: base
+Architecture: all
+Maintainer: levi-45
+MD5Sum: f9b2f00d1ed06b82c2eab4a425e12f2a
+SHA256sum: 173c3f0d18423b3e432bd9547aa78ef1bbb4b1a67ffadfcc1e642ec900ff8106
+Size: 136676
+Filename: enigma2-plugin-extensions-levi45addons_0.0-git116+8bf50470+8bf5047d65-r0_all.ipk
+Source: enigma2-plugin-extensions-levi45addons.bb
+Description: Levi45 Addons Panel for Enigma2
+OE: enigma2-plugin-extensions-levi45addons
+License: GPL-2.0-or-later
+Priority: required
+
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
 Version: 3.0.6-git506+f1f58c10+f1f58c13ef-r0
 Section: devel
@@ -1136,6 +1183,53 @@ Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.6-git506+f1f58c10+f1f58c13
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-neoradio-dbg
+Version: 3.0-git58+61f07330+61f0733c3d-r0
+Section: devel
+Architecture: all
+Maintainer: OliOli2013
+MD5Sum: 483acda1f385efe0cc896f901e84bb18
+SHA256sum: b184f5147d17d7e948318f8febc8f1a017dadb70c6551a1bf6769ac9150598f5
+Size: 592
+Filename: enigma2-plugin-extensions-neoradio-dbg_3.0-git58+61f07330+61f0733c3d-r0_all.ipk
+Source: enigma2-plugin-extensions-neoradio.bb
+Description: NeoRadio Internet Radio Plugin for Enigma2 - Debugging files
+OE: enigma2-plugin-extensions-neoradio
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-neoradio-dev
+Version: 3.0-git58+61f07330+61f0733c3d-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-neoradio (= 3.0-git58+61f07330+61f0733c3d-r0), python3-core-dev
+Section: devel
+Architecture: all
+Maintainer: OliOli2013
+MD5Sum: 743cb0131a33af02b92ceddafc4eaf94
+SHA256sum: e894e9c0b464c2383a9c0428505c2b1cb3fa3cb7a013774f52e8a9380161baea
+Size: 646
+Filename: enigma2-plugin-extensions-neoradio-dev_3.0-git58+61f07330+61f0733c3d-r0_all.ipk
+Source: enigma2-plugin-extensions-neoradio.bb
+Description: NeoRadio Internet Radio Plugin for Enigma2 - Development files
+OE: enigma2-plugin-extensions-neoradio
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-neoradio
+Version: 3.0-git58+61f07330+61f0733c3d-r0
+Depends: enigma2, python3-core
+Section: base
+Architecture: all
+Maintainer: OliOli2013
+MD5Sum: 49cd4e0a82c94f08962ac74a431c07cd
+SHA256sum: 1093b361f5ffd5dfc73f90bf97bc5a44b01a96d5ae70be1b4e5410eb6942ecb3
+Size: 10460836
+Filename: enigma2-plugin-extensions-neoradio_3.0-git58+61f07330+61f0733c3d-r0_all.ipk
+Source: enigma2-plugin-extensions-neoradio.bb
+Description: NeoRadio Internet Radio Plugin for Enigma2
+OE: enigma2-plugin-extensions-neoradio
 License: GPL-2.0-or-later
 Priority: required
 
