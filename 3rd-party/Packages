@@ -25,22 +25,6 @@ Filename: enigma2-plugin-extensions-cooltvguide_Coolman_V8.0_py3_all.ipk
 Size: 2317314
 MD5Sum: 36ccaa81c253bc28d7a7cf7fe393e478
 
-Package: enigma2-plugin-extensions-gtiptvplayerpro
-Version: 1.4.0-r0
-Section: extra
-Priority: optional
-Architecture: all
-Maintainer: VicTuS59
-Depends: enigma2, python3-core, python3-asyncio, python3-compression, python3-datetime, python3-difflib, python3-fcntl, python3-html, python3-io, python3-json, python3-math, python3-netclient, python3-netserver, python3-stringold, python3-threading, python3-xml
-Installed-Size: 46342
-Homepage: https://github.com/VicTuS59/GT-IPTV-Player-Pro
-License: GPL-2.0-or-later
-Description: GT IPTV Player Pro for Enigma2
-Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.4.0-r0_all.ipk
-Size: 41778626
-MD5Sum: 3ffdc72434cec7ee5e504255fc2737f2
-SHA256sum: 625f9d6133c4be7f846445fef822ffcdfc371f70902f902ef353ea2b58d78468
-
 Package: enigma2-plugin-extensions-hdfradio
 Version: 2.27.8+git666+f810e920+f810e92ba1-r2
 Section: base
@@ -736,21 +720,4 @@ Source: python3-rapidfuzz_3.11.0.bb
 Filename: python3-rapidfuzz_3.11.0_cortexa15hf-neon-vfpv4.ipk
 Size: 1570076
 MD5Sum: cebc0d83245c85b78c43f96c4db3b138
-
-Package: python3-rarfile
-Version: 4.2-r0
-Description: RAR archive reader for Python
- RAR archive reader for Python.
-Section: devel/python
-Priority: optional
-Maintainer: zKhadiri
-License: BSD-3-Clause
-Architecture: all
-OE: python3-rarfile
-Homepage: https://github.com/markokr/rarfile
-Depends: python3-core
-Source: python3-rarfile_4.2.bb
-Filename: python3-rarfile_4.2-r0_all.ipk
-Size: 26692
-MD5Sum: 502e661f8dea86cfd1f3f6e6eeaba37b
 
