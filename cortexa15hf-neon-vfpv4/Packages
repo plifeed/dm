@@ -10547,14 +10547,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.10.21.02-git6153+d32f7260+d32f726a44-r0
+Version: 2026.10.21.04-git6157+72885110+7288511631-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 289f1fdea7d480164bc646ee22960383
-SHA256sum: 86bdbc2bce74404fd92c24bbff8c433cfb69436f5da77c8c075f3abac547bcce
+MD5Sum: 66c75ddfca19d387f8ffa5b0873865a6
+SHA256sum: 4cadb061501b0e1609dd5d6e63b3b8b997d078d73810f25dc45927e85b55585a
 Size: 670
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.10.21.02-git6153+d32f7260+d32f726a44-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.10.21.04-git6157+72885110+7288511631-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10612,15 +10612,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.10.21.02-git6153+d32f7260+d32f726a44-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.10.21.02-git6153+d32f7260+d32f726a44-r0), python3-core-dev, python3-dev
+Version: 2026.10.21.04-git6157+72885110+7288511631-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.10.21.04-git6157+72885110+7288511631-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 021c6ed09d00836ed37c087236c3d90f
-SHA256sum: 5494a1d163ed7586f97fcc209c25705a4e54e1e228c14cb47c2af0f66a05cb04
+MD5Sum: 580abeb99814e6deb11b0ac3a4df532a
+SHA256sum: 4f70c37ceca0c3366d4f7a91b6920f9547ff21bb490403915fd8dcbe63b11d4d
 Size: 718
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.10.21.02-git6153+d32f7260+d32f726a44-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.10.21.04-git6157+72885110+7288511631-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10629,15 +10629,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.10.21.02-git6153+d32f7260+d32f726a44-r0
+Version: 2026.10.21.04-git6157+72885110+7288511631-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 393965b330ef0460d7df22f3bc981205
-SHA256sum: 04c3e53b548fbdd846151d985f8828ae408816f2e514a58c71d0c7ff8ed82779
-Size: 2540652
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.10.21.02-git6153+d32f7260+d32f726a44-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 413ac4579e616719201d37bdb83057a8
+SHA256sum: 4ef4e688eff041d1168152729fae36125edb020c72fa0d7405bf455024e8f296
+Size: 2545512
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.10.21.04-git6157+72885110+7288511631-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10646,16 +10646,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.10.21.02-git6153+d32f7260+d32f726a44-r0
+Version: 2026.10.21.04-git6157+72885110+7288511631-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1bdae10c63a6a9719a0e73eff441ad59
-SHA256sum: 2707c1258ee075a7694b10b12d696268a71c0698dd7d1ca39b450ff56f4b5b0f
-Size: 24028470
-Filename: enigma2-plugin-extensions-e2iplayer_2026.10.21.02-git6153+d32f7260+d32f726a44-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: dff2827dae824823b810998dbb24734e
+SHA256sum: 7ffe349c46f0e16c62929ce210b8cc07ea2798dfa7a42b77ce29f6b39b6bfc1a
+Size: 24102994
+Filename: enigma2-plugin-extensions-e2iplayer_2026.10.21.04-git6157+72885110+7288511631-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -13693,8 +13693,8 @@ Version: V7.1-git548+8d109e80+8d109e8475-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 41d9182d86ee440b380d31bd6d272418
-SHA256sum: 7f1b7a51ac93dbde13d0685ec438418d1ae6452a519f3e8b9de4d2e3fd881076
+MD5Sum: b54273c0b96522f1315f001e25124b37
+SHA256sum: 22b9ddade6076bcff2f728cd86a9453c44e4c2f64881a1e686e51b3db739650b
 Size: 652
 Filename: enigma2-plugin-extensions-worldcam-dbg_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13710,9 +13710,9 @@ Recommends: enigma2-plugin-extensions-worldcam (= V7.1-git548+8d109e80+8d109e847
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: b1a981d14748c3b6e4149e38f0c4628e
-SHA256sum: 64cc07227c255eed31997799df3e1cfc48ea2da3ab39bd6bea26b6d74ca857f1
-Size: 786
+MD5Sum: 0ba975a6ecae27ea304195a599b36b71
+SHA256sum: 688eeb24a6bd51482ca7d5ea12e6e2327daadc14c04e723e3544fcd3f3aed9fc
+Size: 784
 Filename: enigma2-plugin-extensions-worldcam-dev_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Development files
@@ -13726,8 +13726,8 @@ Version: V7.1-git548+8d109e80+8d109e8475-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 558db9c6653ad11ab7d612d106b8028e
-SHA256sum: 46467584af86d6cfba324d5b2998061a9dddd8fd3cf7ce60d59e80500aca6d11
+MD5Sum: 63c3c9e75bd9424a464825ce095217fa
+SHA256sum: 9f151e79fea393931091c492d6560bf72ad1d8f3a796297625b0fabbec135577
 Size: 46256
 Filename: enigma2-plugin-extensions-worldcam-src_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13744,9 +13744,9 @@ Recommends: enigma2-plugin-extensions-streamlinkwrapper, enigma2-plugin-extensio
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: fcef8603decb729d4666fc5588b14c0e
-SHA256sum: 0dbedc314a37e1532b8bbb26a9eb4936acaf25691ebb17a6428cca32cf950bc2
-Size: 2793536
+MD5Sum: 7ba0cfdb48809651c42459d496988e2a
+SHA256sum: 1021463578256ee1bf80aa01e9ff234608d80b3c10947e2fc7d6e001762fae79
+Size: 2793560
 Filename: enigma2-plugin-extensions-worldcam_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists
@@ -14173,15 +14173,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam
-Version: 11968-git10887+39e78a40+39e78a4688-r0
+Version: 11966-git10885+59051090+5905109ea7-r0
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6214811e9acd9c29ba8fd49fc2edf08
-SHA256sum: 3aedbe762fe1f0957636928f727c25ad3f55b455eb544eda1ed88108826bc060
-Size: 697278
-Filename: enigma2-plugin-softcams-oscam_11968-git10887+39e78a40+39e78a4688-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8c1a8437e5c8bdc2d93c17303463f1e5
+SHA256sum: c2d4590ca8880ab8684ecd81261249a788238237290435f1d742237fcfe35ca4
+Size: 697364
+Filename: enigma2-plugin-softcams-oscam_11966-git10885+59051090+5905109ea7-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
 OE: enigma2-plugin-softcams-oscam
@@ -58952,96 +58952,6 @@ Description: Library for getting/setting POSIX.1e capabilities
 OE: libcap
 HomePage: http://sites.google.com/site/fullycapable/
 License: (BSD-3-Clause OR GPL-2.0-only) AND (BSD-3-Clause OR LGPL-2.0-or-later)
-Priority: optional
-
-Package: libcares-dbg
-Version: 1.34.8-r0
-Provides: c-ares-dbg
-Recommends: glibc-dbg
-Section: devel
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dfd39275b9a0f8f8447878d47ac910dd
-SHA256sum: c3b55502f1cb2f8572d477e0bd329031e651ee2e8fdf53e01d0e3aa82281ebe5
-Size: 767562
-Filename: libcares-dbg_1.34.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: c-ares_1.34.8.bb
-Description: c-ares is a C library that resolves names asynchronously. - Debugging files
-OE: c-ares
-HomePage: https://c-ares.org/
-License: MIT
-Priority: optional
-
-Package: libcares-dev
-Version: 1.34.8-r0
-Depends: c-ares
-Provides: c-ares-dev
-Recommends: glibc-dev, libcares2 (= 1.34.8-r0)
-Section: devel
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3fa76016cd075dbfd0acf3bd8dbd5e04
-SHA256sum: b860b994c7787f02c44203d7c565571d0424a55be06db084a2dacfe5f27a5ebc
-Size: 32254
-Filename: libcares-dev_1.34.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: c-ares_1.34.8.bb
-Description: c-ares is a C library that resolves names asynchronously. - Development files
-OE: c-ares
-HomePage: https://c-ares.org/
-License: MIT
-Priority: optional
-
-Package: libcares-doc
-Version: 1.34.8-r0
-Provides: c-ares-doc
-Section: doc
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5f6281f0de18ef49b61b28d7a2bc34b2
-SHA256sum: 68f0c8edbb1a1f15224e4b6e29ddd63693cf25a9ce2359a3dcbb7d53a7d880c2
-Size: 53058
-Filename: libcares-doc_1.34.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: c-ares_1.34.8.bb
-Description: c-ares is a C library that resolves names asynchronously. - Documentation files
-OE: c-ares
-HomePage: https://c-ares.org/
-License: MIT
-Priority: optional
-
-Package: libcares-utils
-Version: 1.34.8-r0
-Depends: libc6 (>= 2.44+git0+5c479454d1), libcares2 (>= 1.34.8)
-Provides: c-ares-utils
-Section: libs
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 174c53ec1485f5d293f365e87177d355
-SHA256sum: 255e2cf3678e9aa12fa50bc5998b5a9c16ac6c47b1f04f619602fa6712de38ac
-Size: 16108
-Filename: libcares-utils_1.34.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: c-ares_1.34.8.bb
-Description: c-ares is a C library that resolves names asynchronously.
-OE: c-ares
-HomePage: https://c-ares.org/
-License: MIT
-Priority: optional
-
-Package: libcares2
-Version: 1.34.8-r0
-Depends: libc6 (>= 2.44+git0+5c479454d1)
-Provides: c-ares
-Section: libs
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1ce4b0715a54978e7d9064f21262a3c3
-SHA256sum: 2f5fce9d70750748f627608ea2be806455305fea53ce23b45e799c31abe422f4
-Size: 114356
-Filename: libcares2_1.34.8-r0_cortexa15hf-neon-vfpv4.ipk
-Source: c-ares_1.34.8.bb
-Description: c-ares is a C library that resolves names asynchronously.
-OE: c-ares
-HomePage: https://c-ares.org/
-License: MIT
 Priority: optional
 
 Package: libcddb-dbg
@@ -129636,14 +129546,14 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dbg
-Version: 2026.08.19-git24014+12ac9ac0+12ac9aca79-r0
+Version: 2026.08.19-git24016+f59cd0b0+f59cd0ba0a-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e2d56f6cd54f0aaf6e6f0c3f1604c3eb
-SHA256sum: cee9a4e267714a1ae7d155217a7a01633f7739a3114cb0a7b6595cb99a612b07
+MD5Sum: dbfc2bf5af68184c289bfa857c71f5e5
+SHA256sum: 7f02e7ae0c7595728b6e809a5afdd2d4c79e8f3a66cb0de50ebca233d99b4948
 Size: 750
-Filename: python3-yt-dlp-dbg_2026.08.19-git24014+12ac9ac0+12ac9aca79-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: python3-yt-dlp-dbg_2026.08.19-git24016+f59cd0b0+f59cd0ba0a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Debugging files
 OE: python3-yt-dlp
@@ -129652,15 +129562,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dev
-Version: 2026.08.19-git24014+12ac9ac0+12ac9aca79-r0
-Recommends: bash-completion-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2026.08.19-git24014+12ac9ac0+12ac9aca79-r0), python3-yt-dlp-ejs-dev, quickjs-dev
+Version: 2026.08.19-git24016+f59cd0b0+f59cd0ba0a-r0
+Recommends: bash-completion-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2026.08.19-git24016+f59cd0b0+f59cd0ba0a-r0), python3-yt-dlp-ejs-dev, quickjs-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ed8f695032088732f087f8f6941b2a81
-SHA256sum: 3316993a4eb1c8985455a18d7ecd3ea7c23a17bae713fd5a1c0bc9d82f935ad5
+MD5Sum: 90a755948db6dfcbce4d67070f2e80c8
+SHA256sum: e1a6757a33c32a2d05a933257d8822ff0d42bd28f216a87fb5d8c6cea711a43b
 Size: 840
-Filename: python3-yt-dlp-dev_2026.08.19-git24014+12ac9ac0+12ac9aca79-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: python3-yt-dlp-dev_2026.08.19-git24016+f59cd0b0+f59cd0ba0a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Development files
 OE: python3-yt-dlp
@@ -129669,15 +129579,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-src
-Version: 2026.08.19-git24014+12ac9ac0+12ac9aca79-r0
+Version: 2026.08.19-git24016+f59cd0b0+f59cd0ba0a-r0
 Depends: python3-yt-dlp
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3da0e2465814dcad49f899742258b656
-SHA256sum: 2962a2776a25ca6cb387388dee0d1788e6b68eb0436b76e5acb3256fabe09b33
-Size: 2427012
-Filename: python3-yt-dlp-src_2026.08.19-git24014+12ac9ac0+12ac9aca79-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d0e076a250471a4c54df9c7e6aa5b258
+SHA256sum: b7b5a7d6bb57f726aea3423dd82d0d17ad10727cd85823da689ed9146e32ecb2
+Size: 2427108
+Filename: python3-yt-dlp-src_2026.08.19-git24016+f59cd0b0+f59cd0ba0a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Source files
 OE: python3-yt-dlp
@@ -129686,15 +129596,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp
-Version: 2026.08.19-git24014+12ac9ac0+12ac9aca79-r0
+Version: 2026.08.19-git24016+f59cd0b0+f59cd0ba0a-r0
 Depends: bash-completion, python3-core, python3-ctypes, python3-email, python3-html, python3-unixadmin, python3-yt-dlp-ejs, quickjs
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2ee76cb989a2db1448a0f80cd21d9e6f
-SHA256sum: f17522f0b28511f54eb37bf5c0f1c4f07814649fe80e6a84e5e599e69ade2e09
-Size: 4603362
-Filename: python3-yt-dlp_2026.08.19-git24014+12ac9ac0+12ac9aca79-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 3454b2c929d178d1eeff21f7f62ea001
+SHA256sum: 8cce6a9c788210f8220a20faa5348ed1fb4ed3484df5b280bf1a285484d451b3
+Size: 4603316
+Filename: python3-yt-dlp_2026.08.19-git24016+f59cd0b0+f59cd0ba0a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes
 OE: python3-yt-dlp
