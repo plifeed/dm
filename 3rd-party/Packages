@@ -287,22 +287,6 @@ OE: enigma2-plugin-extensions-starplay
 License: CLOSED
 Priority: optional
 
-Package: enigma2-plugin-extensions-subssupport-pro
-Version: 1.5.0
-Depends: python3-beautifulsoup4, python3-codecs, python3-compression, python3-difflib, python3-requests, python3-xmlrpc, unrar
-Section: base
-Architecture: all
-Maintainer: popking159
-MD5Sum: cc3f5a4ad9e24881fc3f18a7373aab24
-SHA256sum: d4771b518c4ae3ed513895637043e77887e9515d7926d70f1cb3571f7f412693
-Size: 1790018
-Filename: enigma2-plugin-extensions-subssupport-pro_1.5.0_all.ipk
-Source: enigma2-plugin-extensions-subssupport-pro.bb
-Description: Collection of enigma2 subtitles plugins
-OE: enigma2-plugin-extensions-subssupport
-License: GPL-2.0-only
-Priority: optional
-
 Package: enigma2-plugin-extensions-surfsharkvpn
 Version: 1.0.9-py3
 Depends: openvpn, openresolv, bash, python3-json, python3-requests

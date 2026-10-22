@@ -1360,6 +1360,53 @@ HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-iptvplayerpro-dbg
+Version: 0.0-git27+8cc056e0+8cc056e373-r0
+Section: devel
+Architecture: all
+Maintainer: azroukarim
+MD5Sum: 6b85610ace0f83cae41cab0143b0c038
+SHA256sum: 024d691ec3b51295b5b92662b711573891857e6fceed6f400a8dbce6d6882da0
+Size: 586
+Filename: enigma2-plugin-extensions-iptvplayerpro-dbg_0.0-git27+8cc056e0+8cc056e373-r0_all.ipk
+Source: enigma2-plugin-extensions-iptvplayerpro.bb
+Description: IptvPlayerPro Enigma2 Plugin - Debugging files
+OE: enigma2-plugin-extensions-iptvplayerpro
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-iptvplayerpro-dev
+Version: 0.0-git27+8cc056e0+8cc056e373-r0
+Recommends: enigma2-plugin-extensions-iptvplayerpro (= 0.0-git27+8cc056e0+8cc056e373-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
+Section: devel
+Architecture: all
+Maintainer: azroukarim
+MD5Sum: f99ab5fb5784f8679db16bc5bc2fdc2f
+SHA256sum: 4222123e98daab60b5e4e790c3aadbfed4c367f1735ea1a395ee344a36a6792e
+Size: 664
+Filename: enigma2-plugin-extensions-iptvplayerpro-dev_0.0-git27+8cc056e0+8cc056e373-r0_all.ipk
+Source: enigma2-plugin-extensions-iptvplayerpro.bb
+Description: IptvPlayerPro Enigma2 Plugin - Development files
+OE: enigma2-plugin-extensions-iptvplayerpro
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-iptvplayerpro
+Version: 0.0-git27+8cc056e0+8cc056e373-r0
+Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
+Section: multimedia
+Architecture: all
+Maintainer: azroukarim
+MD5Sum: e8f34141c76bd848e33ea141210e48ca
+SHA256sum: 250eba56abe837b1dd8048af40d9749ff14623cf3c91bf33e7e1308ccf7daade
+Size: 290874
+Filename: enigma2-plugin-extensions-iptvplayerpro_0.0-git27+8cc056e0+8cc056e373-r0_all.ipk
+Source: enigma2-plugin-extensions-iptvplayerpro.bb
+Description: IptvPlayerPro Enigma2 Plugin
+OE: enigma2-plugin-extensions-iptvplayerpro
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-jediepgxtream-dbg
 Version: 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0
 Section: devel
@@ -1800,6 +1847,53 @@ Description: StalkerPortalConverter Enigma2 Plugin
 OE: enigma2-plugin-extensions-stalkerportalconverter
 License: GPL-2.0-or-later
 Priority: required
+
+Package: enigma2-plugin-extensions-subssupportpro-dbg
+Version: 1.5.0-r0
+Section: devel
+Architecture: all
+Maintainer: popking159
+MD5Sum: f899ec0e9b82b6438092ee1836dee5e9
+SHA256sum: 79d4b65bd7726c08760a840f1b9cacb743baeb3be52701abf955fb40dbc517bd
+Size: 570
+Filename: enigma2-plugin-extensions-subssupportpro-dbg_1.5.0-r0_all.ipk
+Source: enigma2-plugin-extensions-subssupportpro.bb
+Description: SubsSupportPro Enigma2 Plugin - Debugging files
+OE: enigma2-plugin-extensions-subssupportpro
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-subssupportpro-dev
+Version: 1.5.0-r0
+Recommends: enigma2-plugin-extensions-subssupportpro (= 1.5.0-r0), ffmpeg-dev, python3-beautifulsoup4-dev, python3-codecs-dev, python3-compression-dev, python3-core-dev, python3-difflib-dev, python3-json-dev, python3-requests-dev, python3-six-dev, python3-twisted-web-dev, python3-xmlrpc-dev, unrar-dev
+Section: devel
+Architecture: all
+Maintainer: popking159
+MD5Sum: 127677decb6268aa055b7a1b242a7466
+SHA256sum: 88332197ea414536206a0e27addf3a07d70d382f6c0ad3dc57c70a09b105cb68
+Size: 694
+Filename: enigma2-plugin-extensions-subssupportpro-dev_1.5.0-r0_all.ipk
+Source: enigma2-plugin-extensions-subssupportpro.bb
+Description: SubsSupportPro Enigma2 Plugin - Development files
+OE: enigma2-plugin-extensions-subssupportpro
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-subssupportpro
+Version: 1.5.0-r0
+Depends: ffmpeg, python3-beautifulsoup4, python3-codecs, python3-compression, python3-core, python3-difflib, python3-json, python3-requests, python3-six, python3-twisted-web, python3-xmlrpc, unrar
+Section: multimedia
+Architecture: all
+Maintainer: popking159
+MD5Sum: c8b21c6e4db83f0352f3c01a2ec0c3ae
+SHA256sum: 28a3242760e7acad92c3679950808d2170db58666a2502399d5d0b99f888bb50
+Size: 1544238
+Filename: enigma2-plugin-extensions-subssupportpro_1.5.0-r0_all.ipk
+Source: enigma2-plugin-extensions-subssupportpro.bb
+Description: SubsSupportPro Enigma2 Plugin
+OE: enigma2-plugin-extensions-subssupportpro
+License: GPL-2.0-or-later
+Priority: optional
 
 Package: enigma2-plugin-extensions-tvgarden-dbg
 Version: 3.0-git227+b41a07f0+b41a07fe5d-r0
