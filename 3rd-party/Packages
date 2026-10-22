@@ -240,6 +240,22 @@ OE: enigma2-plugin-extensions-samsungtvplus
 License: open
 Priority: optional
 
+Package: enigma2-plugin-extensions-sherlockmod
+Version: 1.4.2
+Depends: enigma2-plugin-extensions-bitrate
+Section: base
+Architecture: all
+Maintainer: Evg77734
+MD5Sum: 9afd74e96de7bace6491c2809f3eab6d
+SHA256sum: 2e7a599539d417ea1e5e448c92b0fa8d5c5ab64ecaec9fa7e571ea62ebc622f0
+Size: 2588664
+Filename: enigma2-plugin-extensions-sherlockmod_1.4.2_all.ipk
+Source: enigma2-plugin-extensions-sherlockmod.bb
+Description: Sherlock for Dreambox-Enigma2
+OE: enigma2-plugin-extensions
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-starplay
 Version: 2.2
 Depends: libc6 (>= 2.44), python3-core
