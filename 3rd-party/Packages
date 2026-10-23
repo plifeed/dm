@@ -351,6 +351,22 @@ OE: enigma2-plugin-extensions-xportal
 License: CLOSED
 Priority: optional
 
+Package: enigma2-plugin-skins-aglare-fhd-pli
+Version: 7.3
+Depends: enigma2-plugin-extensions-bitrate, python3-pillow, gettext
+Section: base
+Architecture: all
+Maintainer: mnasr
+MD5Sum: 4d3bb6412bfaeef4f462a6bfac010291
+SHA256sum: 0da040e7e549fe44d52c0b927274b864eeb4368da6626c40317efe2a8f85d222
+Size: 12762704
+Filename: enigma2-plugin-skins-aglare-fhd-pli_7.3_all.ipk
+Source: enigma2-plugin-skins-aglare-fhd-pli.bb
+Description: Skin - Aglare FHD
+OE: enigma2-plugin-skins-aglare-fhd-pli
+License: GPLv2+
+Priority: required
+
 Package: enigma2-plugin-skins-freesat-fhd
 Version: 1.0
 Section: base
