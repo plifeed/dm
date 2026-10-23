@@ -10631,14 +10631,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.10.22.02-git6172+efd73c10+efd73c167a-r0
+Version: 2026.10.23.01-git6174+dfc130b0+dfc130b288-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 826e1b2b08d8ed6170cca5414385d1fc
-SHA256sum: 18014e6a99d1388582d0a18d6534777332c769c9546085f130764fcb6f369144
-Size: 670
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.10.22.02-git6172+efd73c10+efd73c167a-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 17832c2583e83c288ed33049c6699ae1
+SHA256sum: 252b569b58692f611a35742efa876e48b91a9f19ed67f7a8661d054e32a5ab88
+Size: 672
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.10.23.01-git6174+dfc130b0+dfc130b288-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10696,15 +10696,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.10.22.02-git6172+efd73c10+efd73c167a-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.10.22.02-git6172+efd73c10+efd73c167a-r0), python3-core-dev, python3-dev
+Version: 2026.10.23.01-git6174+dfc130b0+dfc130b288-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.10.23.01-git6174+dfc130b0+dfc130b288-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1716f3f40e36c9a4460d4e59ed3feb26
-SHA256sum: 7606e56d86b2aa525bdcd343d2d73e83945229a63b9a2dea39ae57e220846e08
+MD5Sum: ab16bf34bd8ce33c961428673ced5c49
+SHA256sum: b2d4f4c149163317e9e78eee4c7dd64d77f2c962c35aa3e12cb3bacf0abd8cb0
 Size: 718
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.10.22.02-git6172+efd73c10+efd73c167a-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.10.23.01-git6174+dfc130b0+dfc130b288-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10713,15 +10713,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.10.22.02-git6172+efd73c10+efd73c167a-r0
+Version: 2026.10.23.01-git6174+dfc130b0+dfc130b288-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d7d511ab2ac18382772163cf73b352c
-SHA256sum: 1c4370c950bb013918c343249e656b52dbc7598fecf906a058ab5432b10f64b7
-Size: 2557016
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.10.22.02-git6172+efd73c10+efd73c167a-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f188e53c1a4a9b74454e15a89aedc0c4
+SHA256sum: 51417c88a35627939aa64980e2a20437fe1dd1a5fc8b8e00f1c04589e26cda00
+Size: 2560758
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.10.23.01-git6174+dfc130b0+dfc130b288-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10730,16 +10730,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.10.22.02-git6172+efd73c10+efd73c167a-r0
+Version: 2026.10.23.01-git6174+dfc130b0+dfc130b288-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5f8cba4a4ac2bf38719dd01012cb87dc
-SHA256sum: 67a8b03d8c9647e6e1e7dfc6b6656f6cd5b0b8ae8c22fa5340d2bbc7d2a35a59
-Size: 24149598
-Filename: enigma2-plugin-extensions-e2iplayer_2026.10.22.02-git6172+efd73c10+efd73c167a-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 54432a52048ca00c89b4cfd4e9379a39
+SHA256sum: b395e2f7eb5d483f04f6d5a6a266404cac17cfb018268d43863247f3041ef762
+Size: 24153468
+Filename: enigma2-plugin-extensions-e2iplayer_2026.10.23.01-git6174+dfc130b0+dfc130b288-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -11193,14 +11193,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: V0.0-git551+212cfbc0+212cfbcf5b-r0
+Version: V0.0-git553+5545b810+5545b81106-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: b25128fc76693b2a906f207bbf2cd151
-SHA256sum: b7ea561beb6138e822ccf033489ce88f560b2a9a730bf66b1573746baaa52153
+MD5Sum: 8099b83eb0b8421e9680deada2bc2621
+SHA256sum: 1d51c2e6a65d9f2713bcef92705ae922476a350f9a1db083380690b22da9e6b3
 Size: 688
-Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git551+212cfbc0+212cfbcf5b-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git553+5545b810+5545b81106-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -11209,15 +11209,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: V0.0-git551+212cfbc0+212cfbcf5b-r0
-Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git551+212cfbc0+212cfbcf5b-r0), python3-sqlite3-dev
+Version: V0.0-git553+5545b810+5545b81106-r0
+Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git553+5545b810+5545b81106-r0), python3-sqlite3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 32c87946d3a1c107c6ae9fd5ab732f46
-SHA256sum: e0f1a002110582f253d45fbf4fd680fe7044b82a9c64a46c282a0b584bd3d7a1
-Size: 736
-Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git551+212cfbc0+212cfbcf5b-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d3c1f2a70712e8d7e94c6f1b67c077a1
+SHA256sum: 1cf8001f351523f70926072d37971d3b6115833b88c7379a2e7fbfe0ffd64dfd
+Size: 738
+Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git553+5545b810+5545b81106-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -11226,15 +11226,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: V0.0-git551+212cfbc0+212cfbcf5b-r0
+Version: V0.0-git553+5545b810+5545b81106-r0
 Depends: python3-sqlite3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 0abc90ac8142ff2d76c1e905f0a2da0e
-SHA256sum: bf73aeadec3ef0e8f29913a421353853f4e1741d07f2bb365760df53d0eec973
-Size: 41213676
-Filename: enigma2-plugin-extensions-footonsat_V0.0-git551+212cfbc0+212cfbcf5b-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b6f271b294824cb2cb7184ae2b96fc03
+SHA256sum: 83369518d92f4564c3628a402d6eb0df3768e7697a73ceb8d37d8e1bf50a4f47
+Size: 41228442
+Filename: enigma2-plugin-extensions-footonsat_V0.0-git553+5545b810+5545b81106-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules
 OE: enigma2-plugin-extensions-footonsat
@@ -98445,75 +98445,6 @@ Description: Netscape Portable Runtime Library
 OE: nspr
 HomePage: http://www.mozilla.org/projects/nspr/
 License: GPL-2.0-only OR LGPL-2.1-only OR MPL-2.0
-Priority: optional
-
-Package: nss-dbg
-Version: 3.126-r0
-Recommends: glibc-dbg, libsqlite3-dbg, nspr-dbg, zlib-dbg
-Section: devel
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 89025ff118846d28ebdf89af2eac242b
-SHA256sum: 80c47fef73642fbf149dc356bd43f01f8c86c65f679cccfa97a7d42cf2bce258
-Size: 18845936
-Filename: nss-dbg_3.126-r0_cortexa15hf-neon-vfpv4.ipk
-Source: nss_3.126.bb
-Description: Mozilla's SSL and TLS implementation - Debugging files
-OE: nss
-HomePage: https://firefox-source-docs.mozilla.org/security/nss/index.html
-License: GPL-2.0-or-later AND MIT AND MPL-2.0 OR LGPL-2.1-or-later AND MIT AND MPL-2.0 OR MIT AND MPL-2.0
-Priority: optional
-
-Package: nss-dev
-Version: 3.126-r0
-Depends: nspr-dev
-Recommends: glibc-dev, libsqlite3-dev, nspr-dev, nss (= 3.126-r0), perl-dev, sqlite3-dev, zlib-dev
-Section: devel
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e79a46c47715d2b9e2e095977d71ebf
-SHA256sum: 7fffc76e70a81d25c5edd60b678b061e5edc3d02290c6a0aa4e74ff470daf517
-Size: 260122
-Filename: nss-dev_3.126-r0_cortexa15hf-neon-vfpv4.ipk
-Source: nss_3.126.bb
-Description: Mozilla's SSL and TLS implementation - Development files
-OE: nss
-HomePage: https://firefox-source-docs.mozilla.org/security/nss/index.html
-License: GPL-2.0-or-later AND MIT AND MPL-2.0 OR LGPL-2.1-or-later AND MIT AND MPL-2.0 OR MIT AND MPL-2.0
-Priority: optional
-
-Package: nss-smime
-Version: 3.126-r0
-Depends: perl
-Section: libs
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a09440aa48051629cca660888324ce25
-SHA256sum: 6fb6c0f84a1c089611f71db9710f7caca199e114054d6f61823317f9f0e3e136
-Size: 6368
-Filename: nss-smime_3.126-r0_cortexa15hf-neon-vfpv4.ipk
-Source: nss_3.126.bb
-Description: Mozilla's SSL and TLS implementation
-OE: nss
-HomePage: https://firefox-source-docs.mozilla.org/security/nss/index.html
-License: GPL-2.0-or-later AND MIT AND MPL-2.0 OR LGPL-2.1-or-later AND MIT AND MPL-2.0 OR MIT AND MPL-2.0
-Priority: optional
-
-Package: nss
-Version: 3.126-r0
-Depends: libc6 (>= 2.44+git0+34106fee69), libsqlite3-0 (>= 3.54.1), libz1 (>= 1.3.2), nspr (>= 4.39)
-Section: libs
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3bc33ac22ba867ae314a17cdebe0fe8a
-SHA256sum: 3c9d70421d56aab4409afadf99097249fa7f4c8d5c698b5554fb9a06128e2bf9
-Size: 3860768
-Filename: nss_3.126-r0_cortexa15hf-neon-vfpv4.ipk
-Source: nss_3.126.bb
-Description: Mozilla's SSL and TLS implementation
-OE: nss
-HomePage: https://firefox-source-docs.mozilla.org/security/nss/index.html
-License: GPL-2.0-or-later AND MIT AND MPL-2.0 OR LGPL-2.1-or-later AND MIT AND MPL-2.0 OR MIT AND MPL-2.0
 Priority: optional
 
 Package: ntfs-3g-ntfsprogs-dbg
