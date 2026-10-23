@@ -1361,14 +1361,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayerpro-dbg
-Version: 0.0-git34+4a077360+4a07736858-r0
+Version: 0.0-git37+2a0da560+2a0da565cd-r0
 Section: devel
 Architecture: all
 Maintainer: azroukarim
-MD5Sum: 23db99ad71686796319907b986616927
-SHA256sum: c95a33c20f5d56d872212e6ec3123cad3307c143a28b37d15279fe705933e23d
-Size: 588
-Filename: enigma2-plugin-extensions-iptvplayerpro-dbg_0.0-git34+4a077360+4a07736858-r0_all.ipk
+MD5Sum: 68881035d4833c1c01f19890682731af
+SHA256sum: 43d1643d0d2333c6afc7a24b686d394d30de083d7c19ac7f6137108ae6b1bdb2
+Size: 586
+Filename: enigma2-plugin-extensions-iptvplayerpro-dbg_0.0-git37+2a0da560+2a0da565cd-r0_all.ipk
 Source: enigma2-plugin-extensions-iptvplayerpro.bb
 Description: IptvPlayerPro Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-iptvplayerpro
@@ -1376,15 +1376,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayerpro-dev
-Version: 0.0-git34+4a077360+4a07736858-r0
-Recommends: enigma2-plugin-extensions-iptvplayerpro (= 0.0-git34+4a077360+4a07736858-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
+Version: 0.0-git37+2a0da560+2a0da565cd-r0
+Recommends: enigma2-plugin-extensions-iptvplayerpro (= 0.0-git37+2a0da560+2a0da565cd-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
 Section: devel
 Architecture: all
 Maintainer: azroukarim
-MD5Sum: fdb8833efb6f90b69b905ec675b8d779
-SHA256sum: fb3213f45d39cccb92a73cca37f854d4c0c905479712d566cde9bfd28628045b
+MD5Sum: 8647acb6722ae9d5cdc88592400a8f25
+SHA256sum: 8c4ee9d66dd48af4a3dd8e3fa571adba6afe8d968e9ecf5cc00e12b48853efc7
 Size: 662
-Filename: enigma2-plugin-extensions-iptvplayerpro-dev_0.0-git34+4a077360+4a07736858-r0_all.ipk
+Filename: enigma2-plugin-extensions-iptvplayerpro-dev_0.0-git37+2a0da560+2a0da565cd-r0_all.ipk
 Source: enigma2-plugin-extensions-iptvplayerpro.bb
 Description: IptvPlayerPro Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-iptvplayerpro
@@ -1392,15 +1392,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayerpro
-Version: 0.0-git34+4a077360+4a07736858-r0
+Version: 0.0-git37+2a0da560+2a0da565cd-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: multimedia
 Architecture: all
 Maintainer: azroukarim
-MD5Sum: 891f89c3b556fcd6e72a2ebe919ddaa7
-SHA256sum: 79adb9e47fc1714740f4bb1f3c978aa82660992c34efc1d08748900bb9b11e6a
-Size: 356206
-Filename: enigma2-plugin-extensions-iptvplayerpro_0.0-git34+4a077360+4a07736858-r0_all.ipk
+MD5Sum: 159df577fb6aab713b8d94594186378e
+SHA256sum: ff44acd0852ca672e248d1851a4a255757cc56c3a6094e7c69d844d36ea9a504
+Size: 642288
+Filename: enigma2-plugin-extensions-iptvplayerpro_0.0-git37+2a0da560+2a0da565cd-r0_all.ipk
 Source: enigma2-plugin-extensions-iptvplayerpro.bb
 Description: IptvPlayerPro Enigma2 Plugin
 OE: enigma2-plugin-extensions-iptvplayerpro
