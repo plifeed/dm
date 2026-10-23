@@ -10442,8 +10442,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: d5caecfb95316d486ad0639810a65c34
-SHA256sum: 937bbe82bf7793bfb7cdad4614c915a760c2f8583cafb144d947d1c37c70e61f
+MD5Sum: 1d82381117f1a8433cb51f9b9706127d
+SHA256sum: fb772a0241480b6f0b2156886f89401468e5ec5a2e7052fddd2f90fa6176460d
 Size: 626
 Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -10458,8 +10458,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.0-git91+e
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 64ea9b89c192afb1ba5d40d24c66f8b7
-SHA256sum: 5a7d94f9de6121846e780603e8df776e5919304aa2edef874bbaf346833ec521
+MD5Sum: 6c576819873202f9e13639d488fbe712
+SHA256sum: 8fb4c03e5132429c6290d825dabfa2396f39ddc86b53d0ad7db490437f066d14
 Size: 658
 Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -10474,9 +10474,9 @@ Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc+
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 3182cdee738e68ce20247ce9e96b1c2d
-SHA256sum: 3f3bd8dad7d31b99605e3457817adba33e87db620c8a0f4926c9887043982863
-Size: 2194214
+MD5Sum: 7f77696038a074e6b35e82fbe0f976da
+SHA256sum: 2738655cbadb75287da2265a7512b0cb26d62a2cfe4c6cb148b4bf35b72745f0
+Size: 2194212
 Filename: enigma2-plugin-extensions-ciplus-helper_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2
@@ -11127,14 +11127,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: V0.0-git547+90d74f60+90d74f62e8-r0
+Version: V0.0-git550+81396d60+81396d6202-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: e05f200926f6773a112085007fc9f3d6
-SHA256sum: d5f0f9d0da70e1a206dcb30a7013ac360ba6ffc0591d5442c2ec2dfb50e34cb7
+MD5Sum: 0b120e37796ea8355478314de9b30ba0
+SHA256sum: fb122472ebac5742155998d6e6fd696802a4e8dcfde34cb96c4cb78ec7a0de5f
 Size: 688
-Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git547+90d74f60+90d74f62e8-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git550+81396d60+81396d6202-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -11143,15 +11143,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: V0.0-git547+90d74f60+90d74f62e8-r0
-Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git547+90d74f60+90d74f62e8-r0), python3-sqlite3-dev
+Version: V0.0-git550+81396d60+81396d6202-r0
+Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git550+81396d60+81396d6202-r0), python3-sqlite3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: b3f0756925b8098f61ba861f41673f83
-SHA256sum: b07bff1d1f5ceafc9ed92fe8271bc75d60d45bbe0b6688559139e862c79146f6
-Size: 738
-Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git547+90d74f60+90d74f62e8-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ea3c6640622be41311fd1a3b99e843ad
+SHA256sum: f901a203c5c45621f5648fb94db6b40cb7e6f1ccb88b181f771ec871608f4fdc
+Size: 736
+Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git550+81396d60+81396d6202-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -11160,15 +11160,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: V0.0-git547+90d74f60+90d74f62e8-r0
+Version: V0.0-git550+81396d60+81396d6202-r0
 Depends: python3-sqlite3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 86387973d125af494f224aebacfc0fff
-SHA256sum: 3d3564b5390792ca4d45c9a85a0aaa591e6f242b121c8d74006219d9044efbf6
-Size: 41166036
-Filename: enigma2-plugin-extensions-footonsat_V0.0-git547+90d74f60+90d74f62e8-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 28efa76cccd4e8f4d3a9a3848231247d
+SHA256sum: 4e763d9634c6207d27874daa958d53cd48ebf3402cd475561f6386b91fd017ae
+Size: 41213756
+Filename: enigma2-plugin-extensions-footonsat_V0.0-git550+81396d60+81396d6202-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules
 OE: enigma2-plugin-extensions-footonsat
@@ -13711,8 +13711,8 @@ Version: V7.1-git548+8d109e80+8d109e8475-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: b54273c0b96522f1315f001e25124b37
-SHA256sum: 22b9ddade6076bcff2f728cd86a9453c44e4c2f64881a1e686e51b3db739650b
+MD5Sum: 41d9182d86ee440b380d31bd6d272418
+SHA256sum: 7f1b7a51ac93dbde13d0685ec438418d1ae6452a519f3e8b9de4d2e3fd881076
 Size: 652
 Filename: enigma2-plugin-extensions-worldcam-dbg_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13728,9 +13728,9 @@ Recommends: enigma2-plugin-extensions-worldcam (= V7.1-git548+8d109e80+8d109e847
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 0ba975a6ecae27ea304195a599b36b71
-SHA256sum: 688eeb24a6bd51482ca7d5ea12e6e2327daadc14c04e723e3544fcd3f3aed9fc
-Size: 784
+MD5Sum: b1a981d14748c3b6e4149e38f0c4628e
+SHA256sum: 64cc07227c255eed31997799df3e1cfc48ea2da3ab39bd6bea26b6d74ca857f1
+Size: 786
 Filename: enigma2-plugin-extensions-worldcam-dev_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Development files
@@ -13744,8 +13744,8 @@ Version: V7.1-git548+8d109e80+8d109e8475-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 63c3c9e75bd9424a464825ce095217fa
-SHA256sum: 9f151e79fea393931091c492d6560bf72ad1d8f3a796297625b0fabbec135577
+MD5Sum: 558db9c6653ad11ab7d612d106b8028e
+SHA256sum: 46467584af86d6cfba324d5b2998061a9dddd8fd3cf7ce60d59e80500aca6d11
 Size: 46256
 Filename: enigma2-plugin-extensions-worldcam-src_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13762,9 +13762,9 @@ Recommends: enigma2-plugin-extensions-streamlinkwrapper, enigma2-plugin-extensio
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 7ba0cfdb48809651c42459d496988e2a
-SHA256sum: 1021463578256ee1bf80aa01e9ff234608d80b3c10947e2fc7d6e001762fae79
-Size: 2793560
+MD5Sum: fcef8603decb729d4666fc5588b14c0e
+SHA256sum: 0dbedc314a37e1532b8bbb26a9eb4936acaf25691ebb17a6428cca32cf950bc2
+Size: 2793536
 Filename: enigma2-plugin-extensions-worldcam_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists
@@ -15599,15 +15599,15 @@ License: LicenseRef-Fraunhofer-FDK-AAC-Codec-Library-for-Android
 Priority: optional
 
 Package: ffmpeg-dbg
-Version: 9.0.2-r1
-Recommends: alsa-lib-dbg, glibc-dbg, libavcodec-dbg, libavdevice-dbg, libavfilter-dbg, libavformat-dbg, libavutil-dbg, libbz2-dbg, libcrypto-dbg, liblzma-dbg, libmp3lame-dbg, libssl-dbg, libswresample-dbg, libswscale-dbg, libvpx-dbg, libx11-dbg, libxcb-dbg, libxcb-shape-dbg, libxcb-shm-dbg, libxcb-xfixes-dbg, libxext-dbg, libxml2-dbg, libxv-dbg, rtmpdump-dbg, zlib-dbg
+Version: 9.0.2-r2
+Recommends: alsa-lib-dbg, glibc-dbg, libavcodec-dbg, libavdevice-dbg, libavfilter-dbg, libavformat-dbg, libavutil-dbg, libbz2-dbg, libcrypto-dbg, liblzma-dbg, libmp3lame-dbg, libssl-dbg, libswresample-dbg, libswscale-dbg, libtheora-dbg, libvpx-dbg, libx11-dbg, libxcb-dbg, libxcb-shape-dbg, libxcb-shm-dbg, libxcb-xfixes-dbg, libxext-dbg, libxml2-dbg, libxv-dbg, rtmpdump-dbg, x264-dbg, zlib-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9506dab1a8dd6c3cdb9446ba8eee6e9b
-SHA256sum: e13eb378b2779f05e6dd5cc09e6501592025477eea65e21c8592a53a2ea27c70
-Size: 40573602
-Filename: ffmpeg-dbg_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 11b1d735ed1c97f8d5ba433600730584
+SHA256sum: 6da5517c71a1aed4511fd1620a57a04f9d06b58a645804cfc7670c79fe1a07bb
+Size: 44865200
+Filename: ffmpeg-dbg_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video. - Debugging files
 OE: ffmpeg
@@ -15616,16 +15616,16 @@ License: BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND IJG AND ISC AND 
 Priority: optional
 
 Package: ffmpeg-dev
-Version: 9.0.2-r1
+Version: 9.0.2-r2
 Depends: libavcodec, libavdevice, libavfilter, libavformat, libavutil, libswresample, libswscale
-Recommends: alsa-lib-dev, bzip2-dev, ffmpeg (= 9.0.2-r1), glibc-dev, lame-dev, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbz2-dev, libcrypto-dev, liblzma-dev, libmp3lame-dev, libogg-dev, librtmp-dev, libssl-dev, libswresample-dev, libswscale-dev, libtheora-dev, libvpx-dev, libx11-dev, libxcb-dev, libxcb-shape-dev, libxcb-shm-dev, libxcb-xfixes-dev, libxext-dev, libxml2-dev, libxv-dev, openssl-dev, rtmpdump-dev, x264-dev, xz-dev, zlib-dev
+Recommends: alsa-lib-dev, bzip2-dev, ffmpeg (= 9.0.2-r2), glibc-dev, lame-dev, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbz2-dev, libcrypto-dev, liblzma-dev, libmp3lame-dev, libogg-dev, librtmp-dev, libssl-dev, libswresample-dev, libswscale-dev, libtheora-dev, libvpx-dev, libx11-dev, libxcb-dev, libxcb-shape-dev, libxcb-shm-dev, libxcb-xfixes-dev, libxext-dev, libxml2-dev, libxv-dev, openssl-dev, rtmpdump-dev, x264-dev, xz-dev, zlib-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a0cf71459d45cf0780b89c1c754ae14a
-SHA256sum: ba88b7592b1e8f72f15f385847e7fac2a7fe74aa3f6664fb1b83c47607477517
-Size: 310528
-Filename: ffmpeg-dev_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: cf575d0cbe44df6c70d9034d0764e97e
+SHA256sum: 3625d45a44f530dc8dba81ff03223594dd23d3afaf9091b82444f725113a8086
+Size: 310550
+Filename: ffmpeg-dev_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video. - Development files
 OE: ffmpeg
@@ -15634,14 +15634,14 @@ License: BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND IJG AND ISC AND 
 Priority: optional
 
 Package: ffmpeg-examples
-Version: 9.0.2-r1
+Version: 9.0.2-r2
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a6e80640d9098ae619aa4c046495f60f
-SHA256sum: 57c2b12d9e65851d3778c0074ac734716a0d783dc5446982051ba86010224e0a
+MD5Sum: 3665287bc171dbc3dcaeac5cc30af988
+SHA256sum: 7fe531339f6bbe2c291759369ba26c52604aab53b0114a36ac84f5b0aec3f28e
 Size: 49328
-Filename: ffmpeg-examples_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+Filename: ffmpeg-examples_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -15650,15 +15650,15 @@ License: BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND IJG AND ISC AND 
 Priority: optional
 
 Package: ffmpeg
-Version: 9.0.2-r1
+Version: 9.0.2-r2
 Depends: libavcodec63 (>= 9.0.2), libavdevice63 (>= 9.0.2), libavfilter12 (>= 9.0.2), libavformat63 (>= 9.0.2), libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69), libswresample7 (>= 9.0.2), libswscale10 (>= 9.0.2), libz1 (>= 1.3.2)
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0c5c436955d33525e52abb56dc145ceb
-SHA256sum: e8b12caa89c507876520aeae92ada774508bbb8de58a10b24797b7dc930b08f4
-Size: 265308
-Filename: ffmpeg_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6713038ae5b27c39cfb8cc4301b8b62e
+SHA256sum: dac684877db52bbf4fb447cc3e0cebeacc83959aeba29924d028b9d27bb7add5
+Size: 265298
+Filename: ffmpeg_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -57972,16 +57972,16 @@ License: LGPL-2.1-or-later
 Priority: optional
 
 Package: libavcodec63
-Version: 9.0.2-r1
-Depends: libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69), liblzma5 (>= 5.8.4), libmp3lame0 (>= 4.0), libswresample7 (>= 9.0.2), libvpx (>= 1.17.0), libz1 (>= 1.3.2)
+Version: 9.0.2-r2
+Depends: libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69), liblzma5 (>= 5.8.4), libmp3lame0 (>= 4.0), libswresample7 (>= 9.0.2), libtheora (>= 1.2.0), libvpx (>= 1.17.0), libx264-165 (>= r3039+git0+0480cb05fa), libz1 (>= 1.3.2)
 Provides: libavcodec
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a057bc49c99532b6ce63d9b6afc28de
-SHA256sum: bb39b95cf414ef0550f245003862e199d5b02defd3b9492a553f8a50ee69147a
-Size: 7371242
-Filename: libavcodec63_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 02aff44382510809f3ddbd3df88e894d
+SHA256sum: d5bf02d6b58ea5baa0bbd8f9e01ca74f7b5078c2fa7f9dbcf8fb7071184a2877
+Size: 8150558
+Filename: libavcodec63_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -57990,16 +57990,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavdevice63
-Version: 9.0.2-r1
+Version: 9.0.2-r2
 Depends: libasound2 (>= 1.2.16.1), libavcodec63 (>= 9.0.2), libavfilter12 (>= 9.0.2), libavformat63 (>= 9.0.2), libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69), libx11-6 (>= 1.8.13), libxcb-shape0 (>= 1.17.0), libxcb-shm0 (>= 1.17.0), libxcb-xfixes0 (>= 1.17.0), libxcb1 (>= 1.17.0), libxext6 (>= 1.3.7), libxv1 (>= 1.0.13)
 Provides: libavdevice
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a9b039038040b0bb3689baae3be9f091
-SHA256sum: 34900dbfa261960720cd4c658b34fbe09d95a30c58b84e2c57ac743523ce0552
-Size: 43204
-Filename: libavdevice63_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6efa37889784abdae1d99d3f40f15851
+SHA256sum: 1234d035c13f82bf7506b19ba6bdb62c321a3d2a4cfe65343b5021b5ba912d00
+Size: 43220
+Filename: libavdevice63_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -58008,16 +58008,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavfilter12
-Version: 9.0.2-r1
+Version: 9.0.2-r2
 Depends: libavcodec63 (>= 9.0.2), libavformat63 (>= 9.0.2), libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69), libswresample7 (>= 9.0.2), libswscale10 (>= 9.0.2)
 Provides: libavfilter
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 77a11a38c34814c20792058ec314d127
-SHA256sum: 770cfbc41031097c578ff09e9484e33dbcdeb65fcf1f28d444311e1e49f2da6b
-Size: 2065466
-Filename: libavfilter12_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: fa8f060be259f692fa2fbcdb27913d84
+SHA256sum: 3eacc8697b7bbb3f6ffb7ef857daf7a7e8edc73f0bc81479c173dfae1d3e082b
+Size: 2065406
+Filename: libavfilter12_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -58026,16 +58026,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavformat63
-Version: 9.0.2-r1
+Version: 9.0.2-r2
 Depends: libavcodec63 (>= 9.0.2), libavutil61 (>= 9.0.2), libbz2-1 (>= 1.0.8), libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3), libssl4 (>= 4.0.3), libxml2 (>= 2.15.4), libz1 (>= 1.3.2), rtmpdump (>= 2.6+git0+6f6bb1353f)
 Provides: libavformat
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dca7cc91f294c611b02f87a036d3d59f
-SHA256sum: 43fa291513b489e8c7e3cb8b204b22c87fb76441d50bb5392b4b9647455cd6c8
-Size: 1271876
-Filename: libavformat63_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d2936bf5bc283114bb853e55e0c4c323
+SHA256sum: cd68561785ebbb5207486d5135d1ade036332dcc0c7f330e910d1d1d9233184b
+Size: 1540792
+Filename: libavformat63_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -58097,16 +58097,16 @@ License: BSD-2-Clause AND BSD-3-Clause AND IJG
 Priority: optional
 
 Package: libavutil61
-Version: 9.0.2-r1
+Version: 9.0.2-r2
 Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3)
 Provides: libavutil
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 79716285635716a0660ad2102586f7bf
-SHA256sum: bb06fd9a33d375b4b79943c10f3a6057743b5830f8a5bfd025230453148c9990
-Size: 384156
-Filename: libavutil61_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8421f28447ca9745dfb55c798d84beee
+SHA256sum: 589cc8326e4870f889b07c519252d4c28b7fba552fd651d4f32ac37d10ca2925
+Size: 384202
+Filename: libavutil61_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -79670,16 +79670,16 @@ License: GPL-3.0-or-later WITH GCC-exception-3.1
 Priority: optional
 
 Package: libswresample7
-Version: 9.0.2-r1
+Version: 9.0.2-r2
 Depends: libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69)
 Provides: libswresample
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9a1f3eed5d418f83ed402fec65de3fc3
-SHA256sum: 7908785ab104d33ea186d220867438ead33493ed14dd0a71b364cd332ff3571d
-Size: 64378
-Filename: libswresample7_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 683ff78a54fa9485b978af1bd6b7c8c8
+SHA256sum: c1b8cba1006861fc4e8b4924770ff4754e97af4ea34ba03d208b9fb092b45ef8
+Size: 64400
+Filename: libswresample7_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -79688,16 +79688,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libswscale10
-Version: 9.0.2-r1
+Version: 9.0.2-r2
 Depends: libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69)
 Provides: libswscale
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2b07904eb7b501a25701a54e275cec08
-SHA256sum: 8e0148ac5c19413012784727ad20c1b0deaa130b5286e52c420c4e99845866ec
-Size: 637796
-Filename: libswscale10_9.0.2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 49310992583e86b29be07ebfff0f5157
+SHA256sum: f243274cbcfa997db29261b46fe7774c74313b5bb31b200054a4b8b49b32609b
+Size: 637820
+Filename: libswscale10_9.0.2-r2_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_9.0.2.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -135307,9 +135307,9 @@ Recommends: ffmpeg
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 70cee739e47bdfa04c6faa01edec71e2
-SHA256sum: a416124f8564e817643c98f81ac1f4613b48df46e1bd21fe2d3d598ec935fa34
-Size: 1180066
+MD5Sum: 83acbe1b86fb4f2946506db78be10f62
+SHA256sum: 713f9b4903b887edf55c9e142236708e9aa79e6b0fc560bf76a1798fcbcca3a4
+Size: 1180212
 Filename: streamlink_8.6.2-git6143+76e07c1_0.0-git1+4ec0b8c0+76e07c1701_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
 Source: streamlink_git.bb
 Description: CLI for extracting streams from various websites to a video player of your choosing
