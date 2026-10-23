@@ -5645,6 +5645,72 @@ HomePage: http://www.freedesktop.org/wiki/Software/cppunit
 License: LGPL-2.1-only
 Priority: optional
 
+Package: crossguid-dbg
+Version: 0.2.2-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2b944e6f87e36697327a01477eb8a65
+SHA256sum: d2c5cdee8b59634d9967d43500fc2d296496098272d1883bc2d73f6f48448dbe
+Size: 5112
+Filename: crossguid-dbg_0.2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: crossguid_0.2.2.bb
+Description: crossguid version 0.2.2-r0 - Debugging files
+OE: crossguid
+HomePage: https://github.com/graeme-hill/crossguid
+License: MIT
+Priority: optional
+
+Package: crossguid-dev
+Version: 0.2.2-r0
+Recommends: crossguid (= 0.2.2-r0), util-linux-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0306be7ea503b5bb22f52524f6b2449d
+SHA256sum: ae56bb46cf2ce8a8c4402434161909bc4629107e6535489a686a08ef0d118ff6
+Size: 2978
+Filename: crossguid-dev_0.2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: crossguid_0.2.2.bb
+Description: crossguid version 0.2.2-r0 - Development files
+OE: crossguid
+HomePage: https://github.com/graeme-hill/crossguid
+License: MIT
+Priority: optional
+
+Package: crossguid-staticdev
+Version: 0.2.2-r0
+Depends: crossguid-dev (= 0.2.2-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c91c363f73a5244e1f1bd9d78469e8a7
+SHA256sum: 558d64333f5a83a8ed03d19a6017ee5c138ceacd7f4c181d9dc853745c136235
+Size: 57506
+Filename: crossguid-staticdev_0.2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: crossguid_0.2.2.bb
+Description: crossguid version 0.2.2-r0 - Development files (Static Libraries)
+OE: crossguid
+HomePage: https://github.com/graeme-hill/crossguid
+License: MIT
+Priority: optional
+
+Package: crossguid
+Version: 0.2.2-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8a81f68afa0fe5168b538c5693599891
+SHA256sum: fdbba73c87895048fc4e6d39b7dba32c79f24f23e6a8acfd01c371a260df52f3
+Size: 4106
+Filename: crossguid_0.2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: crossguid_0.2.2.bb
+Description: crossguid version 0.2.2-r0
+OE: crossguid
+HomePage: https://github.com/graeme-hill/crossguid
+License: MIT
+Priority: optional
+
 Package: ctdb-tests
 Version: 4.23.11-r3
 Depends: bash, ctdb, util-linux-getopt
@@ -10442,8 +10508,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 1d82381117f1a8433cb51f9b9706127d
-SHA256sum: fb772a0241480b6f0b2156886f89401468e5ec5a2e7052fddd2f90fa6176460d
+MD5Sum: d5caecfb95316d486ad0639810a65c34
+SHA256sum: 937bbe82bf7793bfb7cdad4614c915a760c2f8583cafb144d947d1c37c70e61f
 Size: 626
 Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -10458,8 +10524,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.0-git91+e
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 6c576819873202f9e13639d488fbe712
-SHA256sum: 8fb4c03e5132429c6290d825dabfa2396f39ddc86b53d0ad7db490437f066d14
+MD5Sum: 64ea9b89c192afb1ba5d40d24c66f8b7
+SHA256sum: 5a7d94f9de6121846e780603e8df776e5919304aa2edef874bbaf346833ec521
 Size: 658
 Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -10474,9 +10540,9 @@ Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc+
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 7f77696038a074e6b35e82fbe0f976da
-SHA256sum: 2738655cbadb75287da2265a7512b0cb26d62a2cfe4c6cb148b4bf35b72745f0
-Size: 2194212
+MD5Sum: 3182cdee738e68ce20247ce9e96b1c2d
+SHA256sum: 3f3bd8dad7d31b99605e3457817adba33e87db620c8a0f4926c9887043982863
+Size: 2194214
 Filename: enigma2-plugin-extensions-ciplus-helper_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2
@@ -11127,14 +11193,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: V0.0-git550+81396d60+81396d6202-r0
+Version: V0.0-git551+212cfbc0+212cfbcf5b-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 0b120e37796ea8355478314de9b30ba0
-SHA256sum: fb122472ebac5742155998d6e6fd696802a4e8dcfde34cb96c4cb78ec7a0de5f
+MD5Sum: b25128fc76693b2a906f207bbf2cd151
+SHA256sum: b7ea561beb6138e822ccf033489ce88f560b2a9a730bf66b1573746baaa52153
 Size: 688
-Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git550+81396d60+81396d6202-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git551+212cfbc0+212cfbcf5b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -11143,15 +11209,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: V0.0-git550+81396d60+81396d6202-r0
-Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git550+81396d60+81396d6202-r0), python3-sqlite3-dev
+Version: V0.0-git551+212cfbc0+212cfbcf5b-r0
+Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git551+212cfbc0+212cfbcf5b-r0), python3-sqlite3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: ea3c6640622be41311fd1a3b99e843ad
-SHA256sum: f901a203c5c45621f5648fb94db6b40cb7e6f1ccb88b181f771ec871608f4fdc
+MD5Sum: 32c87946d3a1c107c6ae9fd5ab732f46
+SHA256sum: e0f1a002110582f253d45fbf4fd680fe7044b82a9c64a46c282a0b584bd3d7a1
 Size: 736
-Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git550+81396d60+81396d6202-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git551+212cfbc0+212cfbcf5b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -11160,15 +11226,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: V0.0-git550+81396d60+81396d6202-r0
+Version: V0.0-git551+212cfbc0+212cfbcf5b-r0
 Depends: python3-sqlite3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 28efa76cccd4e8f4d3a9a3848231247d
-SHA256sum: 4e763d9634c6207d27874daa958d53cd48ebf3402cd475561f6386b91fd017ae
-Size: 41213756
-Filename: enigma2-plugin-extensions-footonsat_V0.0-git550+81396d60+81396d6202-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 0abc90ac8142ff2d76c1e905f0a2da0e
+SHA256sum: bf73aeadec3ef0e8f29913a421353853f4e1741d07f2bb365760df53d0eec973
+Size: 41213676
+Filename: enigma2-plugin-extensions-footonsat_V0.0-git551+212cfbc0+212cfbcf5b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules
 OE: enigma2-plugin-extensions-footonsat
@@ -12830,6 +12896,71 @@ OE: enigma2-plugin-extensions-snmpagent
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-stbkodilauncher-dbg
+Version: V1.0-git3+162539a0+162539a17d-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0cf6234fea9c378186d79054883f6b59
+SHA256sum: dce10296d17e278905d0696e6ab291177d52c7282c3db9eec35716d83bfc702d
+Size: 708
+Filename: enigma2-plugin-extensions-stbkodilauncher-dbg_V1.0-git3+162539a0+162539a17d-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-stbkodilauncher.bb
+Description: Minimal Enigma2 launcher for standalone STB Kodi - Debugging files
+OE: enigma2-plugin-extensions-stbkodilauncher
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-stbkodilauncher-dev
+Version: V1.0-git3+162539a0+162539a17d-r0
+Recommends: enigma2-plugin-extensions-stbkodilauncher (= V1.0-git3+162539a0+162539a17d-r0), python3-core-dev, python3-dev, virtual-kodi-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 048e248aafb824a294b6044bf8cdf508
+SHA256sum: 2a9ae72d0c5717618a39c178940c4235b591f319b6da8c96c446259f6abeaec6
+Size: 768
+Filename: enigma2-plugin-extensions-stbkodilauncher-dev_V1.0-git3+162539a0+162539a17d-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-stbkodilauncher.bb
+Description: Minimal Enigma2 launcher for standalone STB Kodi - Development files
+OE: enigma2-plugin-extensions-stbkodilauncher
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-stbkodilauncher-src
+Version: V1.0-git3+162539a0+162539a17d-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aceed72cd85dbc8fe2d6006c94dea4fc
+SHA256sum: 0383ea2c169c0baaeeea876a4080ff35974f16198a568e6af432d98f964885e6
+Size: 2702
+Filename: enigma2-plugin-extensions-stbkodilauncher-src_V1.0-git3+162539a0+162539a17d-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-stbkodilauncher.bb
+Description: Minimal Enigma2 launcher for standalone STB Kodi - Source files
+OE: enigma2-plugin-extensions-stbkodilauncher
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-stbkodilauncher
+Version: V1.0-git3+162539a0+162539a17d-r0
+Depends: python3-core, virtual-kodi
+Provides: enigma2-plugin-extensions-kodi
+Replaces: enigma2-plugin-extensions-kodi
+Conflicts: enigma2-plugin-extensions-kodi
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e888ca55427e556cfd3d79c24c7e42e9
+SHA256sum: f6cfee016e6450061313a6011444ec82a34dea098e2a5f9cfdaa2cbfbd7fc18f
+Size: 7576
+Filename: enigma2-plugin-extensions-stbkodilauncher_V1.0-git3+162539a0+162539a17d-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-stbkodilauncher.bb
+Description: Minimal Enigma2 launcher for standalone STB Kodi
+OE: enigma2-plugin-extensions-stbkodilauncher
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-streaminterface-dbg
 Version: 2.0+git22+faf0c900+faf0c907fe-r0
 Section: devel
@@ -13711,8 +13842,8 @@ Version: V7.1-git548+8d109e80+8d109e8475-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 41d9182d86ee440b380d31bd6d272418
-SHA256sum: 7f1b7a51ac93dbde13d0685ec438418d1ae6452a519f3e8b9de4d2e3fd881076
+MD5Sum: b54273c0b96522f1315f001e25124b37
+SHA256sum: 22b9ddade6076bcff2f728cd86a9453c44e4c2f64881a1e686e51b3db739650b
 Size: 652
 Filename: enigma2-plugin-extensions-worldcam-dbg_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13728,9 +13859,9 @@ Recommends: enigma2-plugin-extensions-worldcam (= V7.1-git548+8d109e80+8d109e847
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: b1a981d14748c3b6e4149e38f0c4628e
-SHA256sum: 64cc07227c255eed31997799df3e1cfc48ea2da3ab39bd6bea26b6d74ca857f1
-Size: 786
+MD5Sum: 0ba975a6ecae27ea304195a599b36b71
+SHA256sum: 688eeb24a6bd51482ca7d5ea12e6e2327daadc14c04e723e3544fcd3f3aed9fc
+Size: 784
 Filename: enigma2-plugin-extensions-worldcam-dev_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Development files
@@ -13744,8 +13875,8 @@ Version: V7.1-git548+8d109e80+8d109e8475-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 558db9c6653ad11ab7d612d106b8028e
-SHA256sum: 46467584af86d6cfba324d5b2998061a9dddd8fd3cf7ce60d59e80500aca6d11
+MD5Sum: 63c3c9e75bd9424a464825ce095217fa
+SHA256sum: 9f151e79fea393931091c492d6560bf72ad1d8f3a796297625b0fabbec135577
 Size: 46256
 Filename: enigma2-plugin-extensions-worldcam-src_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13762,9 +13893,9 @@ Recommends: enigma2-plugin-extensions-streamlinkwrapper, enigma2-plugin-extensio
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: fcef8603decb729d4666fc5588b14c0e
-SHA256sum: 0dbedc314a37e1532b8bbb26a9eb4936acaf25691ebb17a6428cca32cf950bc2
-Size: 2793536
+MD5Sum: 7ba0cfdb48809651c42459d496988e2a
+SHA256sum: 1021463578256ee1bf80aa01e9ff234608d80b3c10947e2fc7d6e001762fae79
+Size: 2793560
 Filename: enigma2-plugin-extensions-worldcam_V7.1-git548+8d109e80+8d109e8475-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists
@@ -15360,6 +15491,70 @@ Source: exfatprogs_1.4.3.bb
 Description: exFAT filesystem userspace utilities
 OE: exfatprogs
 HomePage: https://github.com/exfatprogs/exfatprogs
+License: GPL-2.0-only
+Priority: optional
+
+Package: exiv2-dbg
+Version: 0.28.8-r0
+Recommends: brotli-dbg, expat-dbg, glibc-dbg, libgcc-dbg, libinih-dbg, libstdc++-dbg, zlib-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 03ed911a22cf0f7dba1a5d894e7d5586
+SHA256sum: 8a1490affb1f9eb1008fbd0c8e7413048900310bd7b734ef118c1bd335e0c0a9
+Size: 17294806
+Filename: exiv2-dbg_0.28.8-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exiv2_0.28.8.bb
+Description: Exif, Iptc and XMP metadata manipulation library and tools - Debugging files
+OE: exiv2
+License: GPL-2.0-only
+Priority: optional
+
+Package: exiv2-dev
+Version: 0.28.8-r0
+Depends: brotli-dev, exiv2, expat-dev, libinih-dev, zlib-dev
+Recommends: brotli-dev, exiv2 (= 0.28.8-r0), expat-dev, glibc-dev, libgcc-dev, libinih-dev, libstdc++-dev, zlib-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e76e346dc75cb06848d7d2a78ebf5e46
+SHA256sum: e493d1f3137589a05df0019c7adc1a0521d68a3c8da807ad2e7ec71c772bf06e
+Size: 79232
+Filename: exiv2-dev_0.28.8-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exiv2_0.28.8.bb
+Description: Exif, Iptc and XMP metadata manipulation library and tools - Development files
+OE: exiv2
+License: GPL-2.0-only
+Priority: optional
+
+Package: exiv2-doc
+Version: 0.28.8-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2f49aa6aab6701b2d9d9cd81f5f0bbf4
+SHA256sum: 7a1b46f6663fc1668950a99aca618fb1bc27b8465d78af17808784dce17b06ed
+Size: 838
+Filename: exiv2-doc_0.28.8-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exiv2_0.28.8.bb
+Description: Exif, Iptc and XMP metadata manipulation library and tools - Documentation files
+OE: exiv2
+License: GPL-2.0-only
+Priority: optional
+
+Package: exiv2
+Version: 0.28.8-r0
+Depends: brotli (>= 1.2.1), libc6 (>= 2.44+git0+34106fee69), libexpat1 (>= 2.9.0), libgcc1 (>= 16.2.0), libinih (>= 62), libstdc++6 (>= 16.2.0), libz1 (>= 1.3.2)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 824f36fff9c5e9fe5df257dcc0ed911f
+SHA256sum: 18b00b96db196bd56176145e755f4de64960ab472ca5ce0b6d52d1f45e18222e
+Size: 1429496
+Filename: exiv2_0.28.8-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exiv2_0.28.8.bb
+Description: Exif, Iptc and XMP metadata manipulation library and tools
+OE: exiv2
 License: GPL-2.0-only
 Priority: optional
 
@@ -17523,9 +17718,9 @@ Recommends: glibc-dbg, libgcc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 596c2cd8639d3671db660e77f1367a7f
-SHA256sum: 5d622813f43cd359f4a1f76478cf0cdd2b49be48bd9320ae5b62111147517b7a
-Size: 10607032
+MD5Sum: c4e0879d90a30e039bc7ccdc70193435
+SHA256sum: c2f98ab380f6b00cb31abcef0973762974a4beaa7eaceffbdd8fdfae1d88f135
+Size: 10607188
 Filename: gcc-runtime-dbg_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
 Description: Runtime libraries from GCC - Debugging files
@@ -43166,6 +43361,55 @@ HomePage: http://www.gnu.org/software/libc/libc.html
 License: GPL-2.0-only AND LGPL-2.1-or-later
 Priority: optional
 
+Package: glm-dbg
+Version: 0.9.9.8+0.9.9.9+git0+efec5db081-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 01b94fc85b91930c0f5235c1592c500d
+SHA256sum: ec015157521ae2acad830c7aa8131ebf7a2cd8514717d01e95875e5e364b426b
+Size: 706
+Filename: glm-dbg_0.9.9.8+0.9.9.9+git0+efec5db081-r0_cortexa15hf-neon-vfpv4.ipk
+Source: glm_0.9.9.8.bb
+Description: OpenGL Mathematics Library - Debugging files
+OE: glm
+HomePage: https://glm.g-truc.net
+License: MIT
+Priority: optional
+
+Package: glm-dev
+Version: 0.9.9.8+0.9.9.9+git0+efec5db081-r0
+Recommends: glm (= 0.9.9.8+0.9.9.9+git0+efec5db081-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4e6e106b888bbb8d6f554933136e3202
+SHA256sum: 2463b336c98ca5f869d9255f61fb99cd2338d41c5a12c7a95e0e0065c538ce41
+Size: 225594
+Filename: glm-dev_0.9.9.8+0.9.9.9+git0+efec5db081-r0_cortexa15hf-neon-vfpv4.ipk
+Source: glm_0.9.9.8.bb
+Description: OpenGL Mathematics Library - Development files
+OE: glm
+HomePage: https://glm.g-truc.net
+License: MIT
+Priority: optional
+
+Package: glm-doc
+Version: 0.9.9.8+0.9.9.9+git0+efec5db081-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df974eaffe2684de7481d25c4e1e6a5a
+SHA256sum: 844dd655135b4c94b94549a79241f58d7ca097bd708c885465d832425410fc51
+Size: 3538914
+Filename: glm-doc_0.9.9.8+0.9.9.9+git0+efec5db081-r0_cortexa15hf-neon-vfpv4.ipk
+Source: glm_0.9.9.8.bb
+Description: OpenGL Mathematics Library - Documentation files
+OE: glm
+HomePage: https://glm.g-truc.net
+License: MIT
+Priority: optional
+
 Package: gnupg-dbg
 Version: 2.5.24-r0
 Recommends: glibc-dbg, gnutls-dbg, libassuan-dbg, libbz2-dbg, libgcrypt-dbg, libgpg-error-dbg, libksba-dbg, npth-dbg, readline-dbg, zlib-dbg
@@ -56457,6 +56701,358 @@ HomePage: http://kernel.org/pub/linux/utils/kernel/kmod/
 License: GPL-2.0-or-later AND LGPL-2.1-or-later
 Priority: optional
 
+Package: kodi-addon-inputstream-adaptive-piers-dbg
+Version: 22.3.23+gitr0+84bdb35815_a4a4172467-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, pugixml-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c72bc710934e5ba248c31dab9c2db37d
+SHA256sum: be5748a3477e87c90b6aae6f82d904906ec0ec164147a59a86a94c5bf35dd7e0
+Size: 17705700
+Filename: kodi-addon-inputstream-adaptive-piers-dbg_22.3.23+gitr0+84bdb35815_a4a4172467-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-inputstream-adaptive-piers_git.bb
+Description: kodi inputstream addon for several manifest types - Debugging files
+OE: kodi-addon-inputstream-adaptive-piers
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-inputstream-adaptive-piers-dev
+Version: 22.3.23+gitr0+84bdb35815_a4a4172467-r0
+Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-adaptive-piers (= 22.3.23+gitr0+84bdb35815_a4a4172467-r0), kodi-platform-dev, ldd-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, nlohmann-json-dev, nss-dev, p8platform-dev, pugixml-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b49263a82cf199b31aae7a5c4d8043f8
+SHA256sum: a21bda563ba92ace7fc945649b252849bf9e3df926feebac327dba13e24aeedb
+Size: 756
+Filename: kodi-addon-inputstream-adaptive-piers-dev_22.3.23+gitr0+84bdb35815_a4a4172467-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-inputstream-adaptive-piers_git.bb
+Description: kodi inputstream addon for several manifest types - Development files
+OE: kodi-addon-inputstream-adaptive-piers
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-inputstream-adaptive-piers
+Version: 22.3.23+gitr0+84bdb35815_a4a4172467-r0
+Depends: ldd, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, libpugixml1 (>= 1.16), libstdc++6 (>= 16.2.0)
+Recommends: kernel-module-ext2
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e9489c926e4765b7e80b5490eb42a35b
+SHA256sum: 5e4d2bfdff7800b0713f06b0bc47cf2ced6acd81049870c6e54fc611f09d3482
+Size: 60130832
+Filename: kodi-addon-inputstream-adaptive-piers_22.3.23+gitr0+84bdb35815_a4a4172467-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-inputstream-adaptive-piers_git.bb
+Description: kodi inputstream addon for several manifest types
+OE: kodi-addon-inputstream-adaptive-piers
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-inputstream-rtmp-piers-dbg
+Version: 22.1.3+gitr0+de59f7862f-r0
+Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, rtmpdump-dbg, zlib-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6c91305a49c95263fde7236f504e7b4b
+SHA256sum: 981f1f090d8a6ed1427fdb06c4bd5bde05c1f97e25121fc5335ac6441769c562
+Size: 360142
+Filename: kodi-addon-inputstream-rtmp-piers-dbg_22.1.3+gitr0+de59f7862f-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-inputstream-rtmp-piers_git.bb
+Description: kodi inputstream addon for rtmp - Debugging files
+OE: kodi-addon-inputstream-rtmp-piers
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-inputstream-rtmp-piers-dev
+Version: 22.1.3+gitr0+de59f7862f-r0
+Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-rtmp-piers (= 22.1.3+gitr0+de59f7862f-r0), kodi-platform-dev, libcrypto-dev, libgcc-dev, libkodiplatform-dev, libssl-dev, libstdc++-dev, openssl-dev, p8platform-dev, rtmpdump-dev, zlib-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 422a551604bc636c5555ae40a2ff61f4
+SHA256sum: 0881928ad56259f1750ec5aa643a7bc4c72a69eb65289981d20e64af8dfbc34e
+Size: 730
+Filename: kodi-addon-inputstream-rtmp-piers-dev_22.1.3+gitr0+de59f7862f-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-inputstream-rtmp-piers_git.bb
+Description: kodi inputstream addon for rtmp - Development files
+OE: kodi-addon-inputstream-rtmp-piers
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-inputstream-rtmp-piers
+Version: 22.1.3+gitr0+de59f7862f-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3), libgcc1 (>= 16.2.0), libkodiplatform, libssl4 (>= 4.0.3), libstdc++6 (>= 16.2.0), libz1 (>= 1.3.2), rtmpdump (>= 2.6+git0+6f6bb1353f)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b724efe7ae3f36a4334909005d96e14
+SHA256sum: cd7d837a4188260f482063d9328076646c18c303274134223641caab2b4aae9e
+Size: 578336
+Filename: kodi-addon-inputstream-rtmp-piers_22.1.3+gitr0+de59f7862f-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-inputstream-rtmp-piers_git.bb
+Description: kodi inputstream addon for rtmp
+OE: kodi-addon-inputstream-rtmp-piers
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-fishbmc-dbg
+Version: 22.1.2+gitr0+ad159c5ad4-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, libvc5dream-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 764f8099b85255ed1db678e0a96c77bc
+SHA256sum: 9d1e036664562d7a66f7c035633ae6463e6560f7a672c33419c2433b2bf91b90
+Size: 572268
+Filename: kodi-addon-visualization-fishbmc-dbg_22.1.2+gitr0+ad159c5ad4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-fishbmc_git.bb
+Description: Kodi visualization.fishbmc music visualization - Debugging files
+OE: kodi-addon-visualization-fishbmc
+HomePage: https://github.com/xbmc/visualization.fishbmc
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-fishbmc-dev
+Version: 22.1.2+gitr0+ad159c5ad4-r0
+Recommends: glibc-dev, glm-dev, kodi-addon-visualization-fishbmc (= 22.1.2+gitr0+ad159c5ad4-r0), kodi-platform-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, libvc5dream-dev, p8platform-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0e2875a791cbfb71ee417cc1b9c9152f
+SHA256sum: a7cdb4e732cd1f85c424f6ec6c0eeea449f5a10f35250970dc2d36016bde8d66
+Size: 740
+Filename: kodi-addon-visualization-fishbmc-dev_22.1.2+gitr0+ad159c5ad4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-fishbmc_git.bb
+Description: Kodi visualization.fishbmc music visualization - Development files
+OE: kodi-addon-visualization-fishbmc
+HomePage: https://github.com/xbmc/visualization.fishbmc
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-fishbmc
+Version: 22.1.2+gitr0+ad159c5ad4-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libvc5dream (>= 1.0.5)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 97c5b32bd16f350ea5c08687e8cfe319
+SHA256sum: 93b927afef84d62b5574728940d8c9e468f048edd2c34c5900728a7b3f11ebee
+Size: 1403764
+Filename: kodi-addon-visualization-fishbmc_22.1.2+gitr0+ad159c5ad4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-fishbmc_git.bb
+Description: Kodi visualization.fishbmc music visualization
+OE: kodi-addon-visualization-fishbmc
+HomePage: https://github.com/xbmc/visualization.fishbmc
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-matrix-dbg
+Version: 22.1.1+gitr0+8320deb099-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, libvc5dream-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fbe178c8aa2eb2fba7c8445e8dedf071
+SHA256sum: 7d6513d3b7ac5d95d6584f3e9f1897c0d1e077b036953bee1494ced72df08aa6
+Size: 537304
+Filename: kodi-addon-visualization-matrix-dbg_22.1.1+gitr0+8320deb099-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-matrix_git.bb
+Description: Kodi visualization.matrix music visualization - Debugging files
+OE: kodi-addon-visualization-matrix
+HomePage: https://github.com/xbmc/visualization.matrix
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-matrix-dev
+Version: 22.1.1+gitr0+8320deb099-r0
+Recommends: glibc-dev, glm-dev, kodi-addon-visualization-matrix (= 22.1.1+gitr0+8320deb099-r0), kodi-platform-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, libvc5dream-dev, p8platform-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 63cf2a7044f822de0a8af562536e2625
+SHA256sum: fb019693e3753bf3c94a8d4b5ba417fc379529403a4b834fe7dae88bac094179
+Size: 742
+Filename: kodi-addon-visualization-matrix-dev_22.1.1+gitr0+8320deb099-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-matrix_git.bb
+Description: Kodi visualization.matrix music visualization - Development files
+OE: kodi-addon-visualization-matrix
+HomePage: https://github.com/xbmc/visualization.matrix
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-matrix
+Version: 22.1.1+gitr0+8320deb099-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libvc5dream (>= 1.0.5)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 155b077edf02fc882a87f7f686ecbc76
+SHA256sum: 0d9af16416d1914b95e009808223c4c66234c14b96829ec48fcae3cabbb8d1a0
+Size: 2178876
+Filename: kodi-addon-visualization-matrix_22.1.1+gitr0+8320deb099-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-matrix_git.bb
+Description: Kodi visualization.matrix music visualization
+OE: kodi-addon-visualization-matrix
+HomePage: https://github.com/xbmc/visualization.matrix
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-pictureit-dbg
+Version: 22.1.1+gitr0+407b20c1ea-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, libvc5dream-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b7bcf7559237673bfc8b19229c631af2
+SHA256sum: 3c2f6594dae0f6e39c56ba5d260004777b31ac7c087ccde4275c740b7bed1b1e
+Size: 668924
+Filename: kodi-addon-visualization-pictureit-dbg_22.1.1+gitr0+407b20c1ea-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-pictureit_git.bb
+Description: Kodi visualization.pictureit music visualization - Debugging files
+OE: kodi-addon-visualization-pictureit
+HomePage: https://github.com/xbmc/visualization.pictureit
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-pictureit-dev
+Version: 22.1.1+gitr0+407b20c1ea-r0
+Recommends: glibc-dev, glm-dev, kodi-addon-visualization-pictureit (= 22.1.1+gitr0+407b20c1ea-r0), kodi-platform-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, libvc5dream-dev, p8platform-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2317fef1e533c0e0605260238a5a0632
+SHA256sum: bd2b80e697e2ae2446edae1f9a5c28f8882e04ce03a4bf2b4de9230a893b869e
+Size: 742
+Filename: kodi-addon-visualization-pictureit-dev_22.1.1+gitr0+407b20c1ea-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-pictureit_git.bb
+Description: Kodi visualization.pictureit music visualization - Development files
+OE: kodi-addon-visualization-pictureit
+HomePage: https://github.com/xbmc/visualization.pictureit
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-pictureit
+Version: 22.1.1+gitr0+407b20c1ea-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libvc5dream (>= 1.0.5)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 84df66c92651cff8dc47f1364ef0bffe
+SHA256sum: 5e4dd9820a345b48d63f0ab58340a0dc4ce20ed53e472e50bf0b6fd2b0272858
+Size: 1343954
+Filename: kodi-addon-visualization-pictureit_22.1.1+gitr0+407b20c1ea-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-pictureit_git.bb
+Description: Kodi visualization.pictureit music visualization
+OE: kodi-addon-visualization-pictureit
+HomePage: https://github.com/xbmc/visualization.pictureit
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-shadertoy-dbg
+Version: 22.1.1+gitr0+034413fa3c-r0
+Recommends: glibc-dbg, jsoncpp-dbg, libgcc-dbg, libstdc++-dbg, libvc5dream-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 99ea6b0a63897c5df4f14cd338faf761
+SHA256sum: e82cc7f7784735e1214fe209535377210114d8bfd51898e231a2b836bc28c17c
+Size: 780102
+Filename: kodi-addon-visualization-shadertoy-dbg_22.1.1+gitr0+034413fa3c-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-shadertoy_git.bb
+Description: Kodi visualization.shadertoy music visualization - Debugging files
+OE: kodi-addon-visualization-shadertoy
+HomePage: https://github.com/xbmc/visualization.shadertoy
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-shadertoy-dev
+Version: 22.1.1+gitr0+034413fa3c-r0
+Recommends: glibc-dev, glm-dev, jsoncpp-dev, kodi-addon-visualization-shadertoy (= 22.1.1+gitr0+034413fa3c-r0), kodi-platform-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, libvc5dream-dev, p8platform-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bbbf6a5973db138d371dcb27de54b7bf
+SHA256sum: 52b4fcd3ee7ef0ef673aed7ad8df4baa320674c1f4ab5275cbfbc95105b0996b
+Size: 748
+Filename: kodi-addon-visualization-shadertoy-dev_22.1.1+gitr0+034413fa3c-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-shadertoy_git.bb
+Description: Kodi visualization.shadertoy music visualization - Development files
+OE: kodi-addon-visualization-shadertoy
+HomePage: https://github.com/xbmc/visualization.shadertoy
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-shadertoy
+Version: 22.1.1+gitr0+034413fa3c-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 1.9.8), libkodiplatform, libstdc++6 (>= 16.2.0), libvc5dream (>= 1.0.5)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8932c8329b30ac4907132a25aa5600b5
+SHA256sum: e6d5a42cbde8c7d83592456681df4217a5c13d81816794c245e48ab127491a6c
+Size: 26626952
+Filename: kodi-addon-visualization-shadertoy_22.1.1+gitr0+034413fa3c-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-shadertoy_git.bb
+Description: Kodi visualization.shadertoy music visualization
+OE: kodi-addon-visualization-shadertoy
+HomePage: https://github.com/xbmc/visualization.shadertoy
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-waveform-dbg
+Version: 22.1.1+gitr0+8e62fef394-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, libvc5dream-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b482cb07fe105a406d98772415d8a9c3
+SHA256sum: 0f947e455cae43b77ae4a032eb4145bf80e40a91b6b09033beb4b584f0cb65bc
+Size: 239478
+Filename: kodi-addon-visualization-waveform-dbg_22.1.1+gitr0+8e62fef394-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-waveform_git.bb
+Description: Kodi visualization.waveform music visualization - Debugging files
+OE: kodi-addon-visualization-waveform
+HomePage: https://github.com/xbmc/visualization.waveform
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-waveform-dev
+Version: 22.1.1+gitr0+8e62fef394-r0
+Recommends: glibc-dev, glm-dev, kodi-addon-visualization-waveform (= 22.1.1+gitr0+8e62fef394-r0), kodi-platform-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, libvc5dream-dev, p8platform-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5ff2128b140d46f3a766c4b2452df3de
+SHA256sum: 2c98549f3cd95d899c787234403864b954d142b60284d30f06e1582474d63b3c
+Size: 744
+Filename: kodi-addon-visualization-waveform-dev_22.1.1+gitr0+8e62fef394-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-waveform_git.bb
+Description: Kodi visualization.waveform music visualization - Development files
+OE: kodi-addon-visualization-waveform
+HomePage: https://github.com/xbmc/visualization.waveform
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-visualization-waveform
+Version: 22.1.1+gitr0+8e62fef394-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, libstdc++6 (>= 16.2.0), libvc5dream (>= 1.0.5)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d039e371c9d13d5d2da9e76f18856f8f
+SHA256sum: 6efa2171e783c783e069788c4959b717f3b89acf08874bf875be5f3fcf2d3072
+Size: 1423574
+Filename: kodi-addon-visualization-waveform_22.1.1+gitr0+8e62fef394-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-visualization-waveform_git.bb
+Description: Kodi visualization.waveform music visualization
+OE: kodi-addon-visualization-waveform
+HomePage: https://github.com/xbmc/visualization.waveform
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: krb5-admin-server
 Version: 1.22.2-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libcom-err2 (>= 1.47.4), libgssapi-krb5-2 (>= 1.22.2), libgssrpc4 (>= 1.22.2), libk5crypto3 (>= 1.22.2), libkadm5srv-mit12 (>= 1.22.2), libkdb5-10 (>= 1.22.2), libkrb5-3 (>= 1.22.2), libkrb5support0 (>= 1.22.2), libverto0 (>= 1.22.2)
@@ -57574,6 +58170,59 @@ HomePage: http://www.alsa-project.org
 License: GPL-2.0-or-later AND LGPL-2.1-only
 Priority: optional
 
+Package: libass-dbg
+Version: 0.17.5-r0
+Recommends: fontconfig-dbg, freetype-dbg, fribidi-dbg, glibc-dbg, harfbuzz-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 20b9cd847de232a40b62cb7dfbde6a21
+SHA256sum: fd4b13d57712dde00dc6359f850c623c19d26800cfe6ac9d2ac3624ea04d6579
+Size: 598396
+Filename: libass-dbg_0.17.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libass_0.17.5.bb
+Description: libass version 0.17.5-r0 - Debugging files
+OE: libass
+HomePage: https://github.com/libass/libass
+License: ISC
+Priority: optional
+
+Package: libass-dev
+Version: 0.17.5-r0
+Depends: fontconfig-dev, freetype-dev, fribidi-dev, harfbuzz-dev, libass
+Recommends: fontconfig-dev, freetype-dev, fribidi-dev, glibc-dev, harfbuzz-dev, libass9 (= 0.17.5-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3ae288adebd43c7619fd2436c23dd8fe
+SHA256sum: 0588cbdd3bae4e96f765f3b44382a3bfb4779dc260a940695f0814c290388e59
+Size: 16310
+Filename: libass-dev_0.17.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libass_0.17.5.bb
+Description: libass version 0.17.5-r0 - Development files
+OE: libass
+HomePage: https://github.com/libass/libass
+License: ISC
+Priority: optional
+
+Package: libass9
+Version: 0.17.5-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libfontconfig1 (>= 2.18.3), libfreetype6 (>= 2.15.0), libfribidi0 (>= 1.0.17), libharfbuzz0 (>= 14.6.0)
+Provides: libass
+Section: libs/multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1233a6d437d6e36b28c354af1fc93d82
+SHA256sum: 669d2e0732fc5353a554114aa35ef44336ce013948c1dab96a6caf6bdc4c1d65
+Size: 145690
+Filename: libass9_0.17.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libass_0.17.5.bb
+Description: libass version 0.17.5-r0
+OE: libass
+HomePage: https://github.com/libass/libass
+License: ISC
+Priority: optional
+
 Package: libassuan-dbg
 Version: 3.0.2-r0
 Recommends: glibc-dbg, libgpg-error-dbg
@@ -57650,8 +58299,8 @@ Recommends: glibc-dev, libgcc-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 47ea56cfc41a222d87ca4c6cd0302c8e
-SHA256sum: e4328b5c3a2638fe9371ccbac548c8dc045fa0d727bf31791dcd25cb821d1f1f
+MD5Sum: faef9f5ab4d28d28156cb7d60f2b8dca
+SHA256sum: db9572a57ebdb6bb19e9ed42ae35baf9f220742d6f49836b0cd28b1d3d936fff
 Size: 994
 Filename: libatomic-dev_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
@@ -57748,8 +58397,8 @@ Version: 16.2.0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 777e62ff6f9d5672b371a1551652a504
-SHA256sum: d17f63585319e331d5bbd506ccf97440380d21d1c634e4e7a86ec44172199252
+MD5Sum: e93ee416801cad89749789125e7ebcf7
+SHA256sum: fb9d576748dfed58fea95a62716acbac16908b9f220c881d4a4ec01c0c9ede52
 Size: 31594
 Filename: libatomic-staticdev_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
@@ -57766,8 +58415,8 @@ Provides: libatomic
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 698e1f6a780e1d304feaf06998b24110
-SHA256sum: f9e7cd212b3848ea9b91436975849ccdea1dcfc90596b4590d057bc0b8fa8d34
+MD5Sum: 91340ef3a11fa7db2d07ab0bce1c84b9
+SHA256sum: c6c8043e045716e442524e35d364d89ccdf96dc17ca3e2e0202d0274f312966c
 Size: 7120
 Filename: libatomic1_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
@@ -58969,6 +59618,111 @@ Description: libcdio cdio library
 OE: libcdio
 HomePage: http://www.gnu.org/software/libcdio/
 License: GPL-3.0-or-later
+Priority: optional
+
+Package: libcec-dbg
+Version: 8.1.4-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, libudev-dbg, libx11-dbg, libxrandr-dbg, ncurses-libncurses-dbg, ncurses-libtinfo-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 11ed63ac3c2eeb5b9a8d65886c539892
+SHA256sum: 4a3a56468909e142be5af880a4b1286364e9a896334a1e663c9f839e5676a8bd
+Size: 2941196
+Filename: libcec-dbg_8.1.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libcec_8.1.4.bb
+Description: USB CEC Adaptor communication Library - Debugging files
+OE: libcec
+HomePage: http://libcec.pulse-eight.com/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcec-dev
+Version: 8.1.4-r0
+Depends: libcec
+Recommends: glibc-dev, libcec8 (= 8.1.4-r0), libgcc-dev, libstdc++-dev, libudev-dev, libx11-dev, libxrandr-dev, ncurses-dev, ncurses-libncurses-dev, ncurses-libtinfo-dev, p8platform-dev, python3-core-dev, python3-dev, python3-libcec-dev, udev-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f6ce10fb4d0cdf3a38cc185a346782e4
+SHA256sum: a17c8be278a89d38d5975741083ffe789bb805b83caaf5b2bbbeb79fe14bb7b3
+Size: 29244
+Filename: libcec-dev_8.1.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libcec_8.1.4.bb
+Description: USB CEC Adaptor communication Library - Development files
+OE: libcec
+HomePage: http://libcec.pulse-eight.com/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcec-examples-python
+Version: 8.1.4-r0
+Depends: python3-core, python3-libcec
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5a54a6f613093cd22aa86390de579456
+SHA256sum: 9410581fe426fe3a06766f2df6f67e52b0b6ddfbd787d6be8352c9aac48eca40
+Size: 3276
+Filename: libcec-examples-python_8.1.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libcec_8.1.4.bb
+Description: USB CEC Adaptor communication Library
+OE: libcec
+HomePage: http://libcec.pulse-eight.com/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcec-examples
+Version: 8.1.4-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libcec, libgcc1 (>= 16.2.0), libncurses5 (>= 6.6), libstdc++6 (>= 16.2.0), libtinfo5 (>= 6.6)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8cba6dd3e2a1d912e522cb274ad47c32
+SHA256sum: 552fc35841d64cea7fe67df8bd0b0f7f12a8c6e0b3b9aec3eb5a49687bc5ad63
+Size: 43148
+Filename: libcec-examples_8.1.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libcec_8.1.4.bb
+Description: USB CEC Adaptor communication Library
+OE: libcec
+HomePage: http://libcec.pulse-eight.com/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcec-staticdev
+Version: 8.1.4-r0
+Depends: libcec-dev (= 8.1.4-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2e1487df7e73d86f4b088fcfeade2a03
+SHA256sum: 6914c85bd5c588f7215d00c2783f5274823b04fcec40c42e133ee5fe584be9fd
+Size: 4131764
+Filename: libcec-staticdev_8.1.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libcec_8.1.4.bb
+Description: USB CEC Adaptor communication Library - Development files (Static Libraries)
+OE: libcec
+HomePage: http://libcec.pulse-eight.com/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcec8
+Version: 8.1.4-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), libudev1 (>= 3.2.15), libx11-6 (>= 1.8.13), libxrandr2 (>= 1.5.5), python3-core
+Provides: libcec
+Recommends: kernel-module-cdc-acm
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e99a4aecdd44cc66e0b8ed892b09d5a8
+SHA256sum: a65dcb4807f620c5c3aefdbe799862374036d8c7bd7c9e4a91cda427ebc35c33
+Size: 267210
+Filename: libcec8_8.1.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libcec_8.1.4.bb
+Description: USB CEC Adaptor communication Library
+OE: libcec
+HomePage: http://libcec.pulse-eight.com/
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: libcharset3-private-samba
@@ -60861,6 +61615,74 @@ HomePage: http://software.schmorp.de/pkg/libev.html
 License: BSD-2-Clause OR GPL-2.0-or-later
 Priority: optional
 
+Package: libevdev-dbg
+Version: 1.14.0-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 776ff5160ab43339eece9a0cfcc86ab7
+SHA256sum: f1f3081bdb4cbb3efe95b2b016739bb7eae94ea8688a5d45c46aed4a28a3bcd6
+Size: 159696
+Filename: libevdev-dbg_1.14.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libevdev_1.14.0.bb
+Description: Wrapper library for evdev devices - Debugging files
+OE: libevdev
+HomePage: http://www.freedesktop.org/wiki/Software/libevdev/
+License: MIT
+Priority: optional
+
+Package: libevdev-dev
+Version: 1.14.0-r0
+Depends: libevdev
+Recommends: glibc-dev, libevdev (= 1.14.0-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 92d032b9ee63581f7592739cf08c1cf0
+SHA256sum: ce7f5fe16146924641f975fb84ed8b5f7b17a16cfdd1150a9c1e23f362984c92
+Size: 23960
+Filename: libevdev-dev_1.14.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libevdev_1.14.0.bb
+Description: Wrapper library for evdev devices - Development files
+OE: libevdev
+HomePage: http://www.freedesktop.org/wiki/Software/libevdev/
+License: MIT
+Priority: optional
+
+Package: libevdev-doc
+Version: 1.14.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7ddfe6d0436f7052e200b6852f190fe
+SHA256sum: 6b2a06a396c54ce14143a2d61829077c056ba5e78e0a497dc403ebb32ea95a38
+Size: 3220
+Filename: libevdev-doc_1.14.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libevdev_1.14.0.bb
+Description: Wrapper library for evdev devices - Documentation files
+OE: libevdev
+HomePage: http://www.freedesktop.org/wiki/Software/libevdev/
+License: MIT
+Priority: optional
+
+Package: libevdev
+Version: 1.14.0-r0
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 90a5d47df25799cb9883e3f0d3f0653e
+SHA256sum: 29101f50953f262bb402133a5e873dd09d52f698253a115eb7414845fcc139f5
+Size: 44590
+Filename: libevdev_1.14.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libevdev_1.14.0.bb
+Description: Wrapper library for evdev devices
+OE: libevdev
+HomePage: http://www.freedesktop.org/wiki/Software/libevdev/
+License: MIT
+Priority: optional
+
 Package: libevent-2.1-7
 Version: 2.1.13-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
@@ -61388,6 +62210,97 @@ HomePage: https://www.samba.org/
 License: GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later
 Priority: optional
 
+Package: libflatbuffers-compiler
+Version: 25.12.19-r0
+Depends: flatbuffers, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0)
+Provides: flatbuffers-compiler
+Section: console/tools
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: af6113636b7534ba2a2cfabef256214f
+SHA256sum: 307bbd80c7c2dfd2e3409c978afe97e2b906e5d249ccb5abaf799b5a662afe54
+Size: 1366316
+Filename: libflatbuffers-compiler_25.12.19-r0_cortexa15hf-neon-vfpv4.ipk
+Source: flatbuffers.bb
+Description: Memory Efficient Serialization Library
+OE: flatbuffers
+HomePage: https://github.com/google/flatbuffers
+License: Apache-2.0
+Priority: optional
+
+Package: libflatbuffers-dbg
+Version: 25.12.19-r0
+Provides: flatbuffers-dbg
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b8b47fac8a1feada34d23ee570c7583
+SHA256sum: a7e2c199d127449ad7a0b62afb28bae27a2bb7d27f0c709995ecde860a941487
+Size: 23077750
+Filename: libflatbuffers-dbg_25.12.19-r0_cortexa15hf-neon-vfpv4.ipk
+Source: flatbuffers.bb
+Description: Memory Efficient Serialization Library - Debugging files
+OE: flatbuffers
+HomePage: https://github.com/google/flatbuffers
+License: Apache-2.0
+Priority: optional
+
+Package: libflatbuffers-dev
+Version: 25.12.19-r0
+Depends: flatbuffers, flatbuffers-compiler
+Provides: flatbuffers-dev
+Recommends: flatbuffers-compiler-dev, glibc-dev, libflatbuffers25.12.19 (= 25.12.19-r0), libgcc-dev, libstdc++-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 641764028ed67d1bbb33d3ae0788e54d
+SHA256sum: 518c342f364ae96eba15e265f7c1a472df8e9bc1ad814e7f651c292b10510005
+Size: 111014
+Filename: libflatbuffers-dev_25.12.19-r0_cortexa15hf-neon-vfpv4.ipk
+Source: flatbuffers.bb
+Description: Memory Efficient Serialization Library - Development files
+OE: flatbuffers
+HomePage: https://github.com/google/flatbuffers
+License: Apache-2.0
+Priority: optional
+
+Package: libflatbuffers-staticdev
+Version: 25.12.19-r0
+Depends: libflatbuffers-dev (= 25.12.19-r0)
+Provides: flatbuffers-staticdev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c278bb43d1d2c73e046b1bb35a0abdab
+SHA256sum: 34eb1b7e1e415a1dde336885d1478783cc886c0db05a00339b70955e31ab4209
+Size: 4247884
+Filename: libflatbuffers-staticdev_25.12.19-r0_cortexa15hf-neon-vfpv4.ipk
+Source: flatbuffers.bb
+Description: Memory Efficient Serialization Library - Development files (Static Libraries)
+OE: flatbuffers
+HomePage: https://github.com/google/flatbuffers
+License: Apache-2.0
+Priority: optional
+
+Package: libflatbuffers25.12.19
+Version: 25.12.19-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0)
+Provides: flatbuffers
+Section: console/tools
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a5c33619d8ecda7db3204de9e76e7fac
+SHA256sum: 13285ea01f9e3c31f036bc2899fa4e39b80de960d6facb98d57c1a902ea23eb8
+Size: 237260
+Filename: libflatbuffers25.12.19_25.12.19-r0_cortexa15hf-neon-vfpv4.ipk
+Source: flatbuffers.bb
+Description: Memory Efficient Serialization Library
+OE: flatbuffers
+HomePage: https://github.com/google/flatbuffers
+License: Apache-2.0
+Priority: optional
+
 Package: libfluidsynth-bin
 Version: 2.5.7-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libfluidsynth3 (>= 2.5.7), libgcc1 (>= 16.2.0), libglib-2.0-0 (>= 2.90.0)
@@ -61885,9 +62798,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bad383dc5cebe52e9fd1b1d82610b4ad
-SHA256sum: b3cbc7f1414c96cd684c4d85314fb9f4642e55a859ea4e75a34b8c2d891e420d
-Size: 440952
+MD5Sum: 4d179507d3ab572b502978426ad8a1d1
+SHA256sum: 874396230da8449e5d9dba3feb7f5d0f4b0c473738e13fac07dc1ecd589da2b0
+Size: 440920
 Filename: libgcc-s-dbg_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libgcc_16.2.bb
 Description: GNU cc and gcc C compilers - Debugging files
@@ -61903,9 +62816,9 @@ Recommends: glibc-dev, libgcc1 (= 16.2.0-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 73e635a5b93c7d15f794dc94e5ff5d6b
-SHA256sum: 8b00e6420daf9cbf32b95421c10ce4958553f6d53673e99c6de6056c2857369a
-Size: 667818
+MD5Sum: 820445332d0c3daf3550a8f2c4bf064c
+SHA256sum: 9f59398854c72cc8057348a4dd3d09775f26df1463ab6d7994a9dcb01c1272c9
+Size: 667814
 Filename: libgcc-s-dev_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libgcc_16.2.bb
 Description: GNU cc and gcc C compilers - Development files
@@ -61921,8 +62834,8 @@ Provides: libgcc
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6052a3fc3339bc298302ad592e0ba273
-SHA256sum: 4be32cabf357033006ee9e7cd10f00804b12632b0916953e7a95ba50ed3f616b
+MD5Sum: 89d50ecc64653bab72f1707cdacb1cfe
+SHA256sum: b1e73ae90eb469d5cf63625a29d0fef3c0e7414454fe2d0a4387c7cd188d2ec7
 Size: 59056
 Filename: libgcc1_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libgcc_16.2.bb
@@ -67346,9 +68259,9 @@ Recommends: glibc-dev, libgcc-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e841c4aaff95e9af0bf8c34ebacbc90
-SHA256sum: 1982d343c7f8b6386a4089411cb679a106e068dd3275a8a885dacb7c79564f5d
-Size: 8220
+MD5Sum: 693225735d1cbaff4ede6d97c20ff062
+SHA256sum: bec468f323a6b9da449dfa8d6ead9d6779a47a9f68adf2f2a26aceb2c3042ccb
+Size: 8222
 Filename: libgomp-dev_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
 Description: GNU OpenMP parallel programming library - development files
@@ -67362,8 +68275,8 @@ Version: 16.2.0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c9351b936c0b76f30d291191901cec6c
-SHA256sum: f675207564d955d6c8aa20c10dee7a747833385ffc0319ec6bfd8b914eb72679
+MD5Sum: 4df989ddb69d895220a1aba8240a7c86
+SHA256sum: 1f3e1b6cee09668a0bad87140faf038259ea933a73ca201f5789a04925e40cb7
 Size: 1024670
 Filename: libgomp-staticdev_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
@@ -67380,9 +68293,9 @@ Provides: libgomp
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d0567383c81705b0e9127e73e110396b
-SHA256sum: 9a58686f3301d0163473d16d4952584e29e766f293b35bbd2a10ffcf282e06d0
-Size: 183900
+MD5Sum: 2921c85a9841baf3fb266953bc516067
+SHA256sum: f9559bb72796232f08ab13371a102b4bb0ab34fd8e076e10c5c89bd412e55934
+Size: 183896
 Filename: libgomp1_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
 Description: GNU OpenMP parallel programming library
@@ -69589,6 +70502,94 @@ HomePage: http://wiki.github.com/rvoicilas/inotify-tools
 License: GPL-2.0-only
 Priority: optional
 
+Package: libinput-bin
+Version: 1.32.0-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libevdev (>= 1.14.0), libinput10 (>= 1.32.0), libudev1 (>= 3.2.15)
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0ccd367b9900a8937f1b705d50d19637
+SHA256sum: 9b5af691d94a8904ff8ec6c3243ffe15e753f5bbd0fb0e908603bdce3ae1e8c3
+Size: 29922
+Filename: libinput-bin_1.32.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libinput_1.32.0.bb
+Description: Library to handle input devices in Wayland compositors
+OE: libinput
+HomePage: http://www.freedesktop.org/wiki/Software/libinput/
+License: MIT
+Priority: optional
+
+Package: libinput-dbg
+Version: 1.32.0-r0
+Recommends: eudev-dbg, glibc-dbg, libevdev-dbg, libudev-dbg, mtdev-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c709f683519d0fe3b8f7c3fb95d54d49
+SHA256sum: 606502753243eda7963246a889e145a6fc2cb333c6644f4fb06f4c2d3aab9acb
+Size: 1673604
+Filename: libinput-dbg_1.32.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libinput_1.32.0.bb
+Description: Library to handle input devices in Wayland compositors - Debugging files
+OE: libinput
+HomePage: http://www.freedesktop.org/wiki/Software/libinput/
+License: MIT
+Priority: optional
+
+Package: libinput-dev
+Version: 1.32.0-r0
+Depends: eudev-dev, libinput
+Recommends: eudev-dev, glibc-dev, libevdev-dev, libinput10 (= 1.32.0-r0), libudev-dev, mtdev-dev, udev-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7bdf52509c6a434161b4a2e27f2dcf21
+SHA256sum: 065acadf57ddf47e0b2760a5a0a0fad0950fa0dc6dbee5a849d2360ccc0ad8e4
+Size: 43890
+Filename: libinput-dev_1.32.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libinput_1.32.0.bb
+Description: Library to handle input devices in Wayland compositors - Development files
+OE: libinput
+HomePage: http://www.freedesktop.org/wiki/Software/libinput/
+License: MIT
+Priority: optional
+
+Package: libinput-doc
+Version: 1.32.0-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 222e96b2bd9a5f65b259d7ff88a36c0e
+SHA256sum: 7ec334296372e3dbe5a183a448bedce6864fa173b7c6f2b23db4c55e8df94f61
+Size: 13862
+Filename: libinput-doc_1.32.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libinput_1.32.0.bb
+Description: Library to handle input devices in Wayland compositors - Documentation files
+OE: libinput
+HomePage: http://www.freedesktop.org/wiki/Software/libinput/
+License: MIT
+Priority: optional
+
+Package: libinput10
+Version: 1.32.0-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libevdev (>= 1.14.0), libudev1 (>= 3.2.15), mtdev (>= 1.1.7)
+Provides: libinput
+Replaces: libinput
+Conflicts: libinput
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8a39d63266ea4ee778ec33b981516331
+SHA256sum: 039e5a2b06eb0cc73714ab3cf203a2f916d9a8e95572f349c8c96c54d0530430
+Size: 346768
+Filename: libinput10_1.32.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libinput_1.32.0.bb
+Description: Library to handle input devices in Wayland compositors
+OE: libinput
+HomePage: http://www.freedesktop.org/wiki/Software/libinput/
+License: MIT
+Priority: optional
+
 Package: libinterfaces-private-samba
 Version: 4.23.11-r3
 Depends: libc6 (>= 2.44+git0+34106fee69), libreplace-private-samba (>= 4.23.11), libsamba-debug-private-samba (>= 4.23.11), libtalloc2 (>= 2.5.0), samba-common
@@ -69666,9 +70667,9 @@ Recommends: glibc-dev, libgcc-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 64d2bae0599f28135e605268e4b0c75f
-SHA256sum: d62e7b05ebd14172d84137c7ab772bc889be5fa821ac89ddfc0d87db0f8181bf
-Size: 1030
+MD5Sum: 8d21868fdf28842c1105d1360e3120f7
+SHA256sum: 4e6f3b9bab11f9f53269e8f48c625ecafca2f887ecd043e366a2053978a52c55
+Size: 1032
 Filename: libitm-dev_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
 Description: GNU transactional memory support library - development files
@@ -69682,8 +70683,8 @@ Version: 16.2.0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 680f748aa91ffdc9e68f205424859ccc
-SHA256sum: bba8db606fcf85e9910b45deaf31ad1409c2cab24b42fff304a98bc72022901f
+MD5Sum: 64c3b0d496ee8d57668f0647b0317a7f
+SHA256sum: da09fd9e1d916aabc79a53a4d65e3ecd12e94d78caef283a13974739b5a6198c
 Size: 511652
 Filename: libitm-staticdev_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
@@ -69700,9 +70701,9 @@ Provides: libitm
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a6bfa21ed9d72f4c7bbbe99b8fa98ae7
-SHA256sum: 3231c70c2aa321eed3dfaafa8c501e04e6214abc28383277a83da17f49881a1a
-Size: 31716
+MD5Sum: 8a797a0aad417899d1047e08f633cab5
+SHA256sum: eef66bda0c6cb5bf1069a535f39a74f9f45577bfecd6963d4864c3ae8a21b7ff
+Size: 31712
 Filename: libitm1_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
 Description: GNU transactional memory support library
@@ -72066,15 +73067,15 @@ License: GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later
 Priority: optional
 
 Package: libnfs-dbg
-Version: 4.0.0+git0+030814506e-r0
+Version: 16.2.0+git0+20971deebd-r0
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e62305a5c9e41c142ce47df4d20ae2bd
-SHA256sum: 63bcc905eabf9a66f7d53904eba46f55bb9332116d7012c5cbb0ba465d17068d
-Size: 534766
-Filename: libnfs-dbg_4.0.0+git0+030814506e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 9e670892b26dc8e0427da454d51fe4e4
+SHA256sum: b4a670845405116616ce26c7d704cf30dd81a71903371161cd934ccda6cc345a
+Size: 662256
+Filename: libnfs-dbg_16.2.0+git0+20971deebd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libnfs_git.bb
 Description: NFS client library - Debugging files
 OE: libnfs
@@ -72082,33 +73083,33 @@ License: GPL-3.0-only AND LGPL-2.1-only
 Priority: optional
 
 Package: libnfs-dev
-Version: 4.0.0+git0+030814506e-r0
+Version: 16.2.0+git0+20971deebd-r0
 Depends: libnfs
-Recommends: glibc-dev, libnfs11.0.0 (= 4.0.0+git0+030814506e-r0)
+Recommends: glibc-dev, libnfs16.2.0 (= 16.2.0+git0+20971deebd-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 463e87ff51c436a0bda560636c4bb1bb
-SHA256sum: a422639a099aae497788cd86c9d9036de4e19ba5e6f0062f4ed8958d239384c4
-Size: 32146
-Filename: libnfs-dev_4.0.0+git0+030814506e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 95ec5832fe13f76d1e71d63881be7621
+SHA256sum: 8a9eb9d83151259b0818da827a54ea60d5bdd9e88177acd1670415232b87ddf7
+Size: 50670
+Filename: libnfs-dev_16.2.0+git0+20971deebd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libnfs_git.bb
 Description: NFS client library - Development files
 OE: libnfs
 License: GPL-3.0-only AND LGPL-2.1-only
 Priority: optional
 
-Package: libnfs11.0.0
-Version: 4.0.0+git0+030814506e-r0
+Package: libnfs16.2.0
+Version: 16.2.0+git0+20971deebd-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
 Provides: libnfs
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b1a86b811304f685215c172054256d38
-SHA256sum: 7f59ecf2c11bb024f941f8bc70abed86a327159ad4042327f6cc029efa402cd0
-Size: 109426
-Filename: libnfs11.0.0_4.0.0+git0+030814506e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c3cd23f5ca96699d8f7d89c9dc191c48
+SHA256sum: 43c03d1ed779f9226bd04c1abeb7a45ef0d4ec04187c5e9fca89591dfaff7d04
+Size: 127556
+Filename: libnfs16.2.0_16.2.0+git0+20971deebd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libnfs_git.bb
 Description: NFS client library
 OE: libnfs
@@ -74775,6 +75776,75 @@ HomePage: http://www.tcpdump.org/
 License: BSD-3-Clause
 Priority: optional
 
+Package: libpcre-dbg
+Version: 8.45-r0
+Recommends: glibc-dbg, libgcc-dbg, libpcreposix-dbg, libstdc++-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0cc711a3c054b3e7c19fe53a835450eb
+SHA256sum: c028d760e5ef483d95a8271c98c5aec994951aefe3635f00b1c7fc7c43404337
+Size: 1351666
+Filename: libpcre-dbg_8.45-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libpcre_8.45.bb
+Description: Perl Compatible Regular Expressions - Debugging files
+OE: libpcre
+HomePage: http://www.pcre.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: libpcre-dev
+Version: 8.45-r0
+Depends: libpcre, libpcrecpp, libpcreposix
+Recommends: bzip2-dev, glibc-dev, libgcc-dev, libpcre1 (= 8.45-r0), libpcrecpp-dev, libpcreposix-dev, libstdc++-dev, zlib-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4a341719b4380be552b3099b71905b45
+SHA256sum: 08324317f49a2dc182107c4d1bf5055256c11742e9d2bb49783c12b13b8059bf
+Size: 21958
+Filename: libpcre-dev_8.45-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libpcre_8.45.bb
+Description: Perl Compatible Regular Expressions - Development files
+OE: libpcre
+HomePage: http://www.pcre.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: libpcre-doc
+Version: 8.45-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f305e0034633d36ce3dacb07e867ffe3
+SHA256sum: 0238c14f34eb3d86a2dc8a56e579839f7e4c9011c90164cd57d4ae9707f435db
+Size: 522352
+Filename: libpcre-doc_8.45-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libpcre_8.45.bb
+Description: Perl Compatible Regular Expressions - Documentation files
+OE: libpcre
+HomePage: http://www.pcre.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: libpcre1
+Version: 8.45-r0
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Provides: libpcre
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f360d6d8488f9f34b1d88f385e94642f
+SHA256sum: e0b41f16060fb0175dd6be950545a3e665a3b2451fc01682152c382fe8c2ca71
+Size: 216776
+Filename: libpcre1_8.45-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libpcre_8.45.bb
+Description: Perl Compatible Regular Expressions
+OE: libpcre
+HomePage: http://www.pcre.org
+License: BSD-3-Clause
+Priority: optional
+
 Package: libpcre2-16-0
 Version: 10.49-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
@@ -74879,6 +75949,42 @@ HomePage: http://www.pcre.org
 License: BSD-2-Clause AND BSD-3-Clause AND MIT
 Priority: optional
 
+Package: libpcrecpp0
+Version: 8.45-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libpcre1 (>= 8.45), libstdc++6 (>= 16.2.0)
+Provides: libpcrecpp
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7479551b4b43ff546751dec200292a4e
+SHA256sum: bf626dd07791e78876ae1e596e9ce5b8044f80978d03e33cd2c1cab4c836b36d
+Size: 20060
+Filename: libpcrecpp0_8.45-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libpcre_8.45.bb
+Description: Perl Compatible Regular Expressions - C++ wrapper functions
+OE: libpcre
+HomePage: http://www.pcre.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: libpcreposix0
+Version: 8.45-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libpcre1 (>= 8.45)
+Provides: libpcreposix
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 81ae4a4901aa927d00cd78593d5c7d91
+SHA256sum: aca93cc16cc4a79be91077bfed1b934418a7dfd4a36958923e4e6711c48dfd2a
+Size: 4166
+Filename: libpcreposix0_8.45-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libpcre_8.45.bb
+Description: Perl Compatible Regular Expressions - C wrapper functions based on the POSIX regex API
+OE: libpcre
+HomePage: http://www.pcre.org
+License: BSD-3-Clause
+Priority: optional
+
 Package: libpixman-1-0
 Version: 1:0.46.4-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
@@ -74932,6 +76038,114 @@ Description: Pixman: Pixel Manipulation library - Development files
 OE: pixman
 HomePage: http://www.pixman.org
 License: HPND-sell-variant AND MIT
+Priority: optional
+
+Package: libplist++-2.0-4
+Version: 2.7.0-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libplist-2.0-4 (>= 2.7.0), libstdc++6 (>= 16.2.0)
+Provides: libplist++
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a390e46747b4fdf21702884165a69f50
+SHA256sum: a1b0d88c90f77fb9a07566de66f1c1458a6e80f538e034e7ac68d356933ba6d4
+Size: 21060
+Filename: libplist++-2.0-4_2.7.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libplist_2.7.0.bb
+Description: A library to handle Apple Property List format whereas it's binary or XML
+OE: libplist
+HomePage: https://github.com/libimobiledevice/libplist
+License: GPL-2.0-only AND LGPL-2.1-only
+Priority: optional
+
+Package: libplist-2.0-4
+Version: 2.7.0-r0
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Provides: libplist
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d9489763010871467e22346abadf47d9
+SHA256sum: fe3caf1f05b86dcd77cb4fe7a317364194073d3f4204bd53cfc7a81a2a436dcb
+Size: 88852
+Filename: libplist-2.0-4_2.7.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libplist_2.7.0.bb
+Description: A library to handle Apple Property List format whereas it's binary or XML
+OE: libplist
+HomePage: https://github.com/libimobiledevice/libplist
+License: GPL-2.0-only AND LGPL-2.1-only
+Priority: optional
+
+Package: libplist-2.0-dbg
+Version: 2.7.0-r0
+Provides: libplist-dbg
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d1bd8213fe3866181e0dfcac679aaf71
+SHA256sum: 30d6b24aac2ee9441e443404a45c48855622937a2cf203a3cc4eddf2c9406d55
+Size: 535208
+Filename: libplist-2.0-dbg_2.7.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libplist_2.7.0.bb
+Description: A library to handle Apple Property List format whereas it's binary or XML - Debugging files
+OE: libplist
+HomePage: https://github.com/libimobiledevice/libplist
+License: GPL-2.0-only AND LGPL-2.1-only
+Priority: optional
+
+Package: libplist-2.0-dev
+Version: 2.7.0-r0
+Depends: libplist, libplist++
+Provides: libplist-dev
+Recommends: glib-2.0-dev, glibc-dev, libgcc-dev, libplist++-dev, libplist-2.0-4 (= 2.7.0-r0), libstdc++-dev, libxml2-dev, python3-dev, swig-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 867162f61119bd0a7965d33df4563be0
+SHA256sum: ddc351984ee6b8caae4edfe405bae0406dbf2eff6849b2099f59c397bf6e82da
+Size: 13804
+Filename: libplist-2.0-dev_2.7.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libplist_2.7.0.bb
+Description: A library to handle Apple Property List format whereas it's binary or XML - Development files
+OE: libplist
+HomePage: https://github.com/libimobiledevice/libplist
+License: GPL-2.0-only AND LGPL-2.1-only
+Priority: optional
+
+Package: libplist-2.0-doc
+Version: 2.7.0-r0
+Provides: libplist-doc
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0b10a49d9c705311c241185e331870c7
+SHA256sum: 67d1bc909ae8476b0b435cd5672796dbc80db389f372df45e61170a1036c97b9
+Size: 1734
+Filename: libplist-2.0-doc_2.7.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libplist_2.7.0.bb
+Description: A library to handle Apple Property List format whereas it's binary or XML - Documentation files
+OE: libplist
+HomePage: https://github.com/libimobiledevice/libplist
+License: GPL-2.0-only AND LGPL-2.1-only
+Priority: optional
+
+Package: libplist-2.0-utils
+Version: 2.7.0-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libplist-2.0-4 (>= 2.7.0)
+Provides: libplist-utils
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b527b04da3eae802e84479ab146a4fb0
+SHA256sum: 58b7ebb8991c251f209b6567070dfef5c5922f62fd87a7b5a08f4ed0c9d6021b
+Size: 6068
+Filename: libplist-2.0-utils_2.7.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libplist_2.7.0.bb
+Description: A library to handle Apple Property List format whereas it's binary or XML
+OE: libplist
+HomePage: https://github.com/libimobiledevice/libplist
+License: GPL-2.0-only AND LGPL-2.1-only
 Priority: optional
 
 Package: libpng16-16
@@ -79387,6 +80601,53 @@ HomePage: http://www.sqlite.org
 License: blessing
 Priority: optional
 
+Package: libsquish-dbg
+Version: 1.10+git0+52e7d93c59-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 613a8d893da46d685737dba9425afd3e
+SHA256sum: 138f75bdc10fc0fd714bc9648c667e8fed1bdf181cf15126b80b50fcc577d348
+Size: 22308
+Filename: libsquish-dbg_1.10+git0+52e7d93c59-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libsquish_git.bb
+Description: The squish library (abbreviated to libsquish) is an open source DXT compression library written in C++  - Debugging files
+OE: libsquish
+License: MIT
+Priority: optional
+
+Package: libsquish-dev
+Version: 1.10+git0+52e7d93c59-r0
+Recommends: libsquish (= 1.10+git0+52e7d93c59-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8eba645c32995f1b206424031736c50d
+SHA256sum: 220505a59a10e11ec22cfeb676ad4620ab217ed40ecf70ca7d8d47bcbfa2c50f
+Size: 4074
+Filename: libsquish-dev_1.10+git0+52e7d93c59-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libsquish_git.bb
+Description: The squish library (abbreviated to libsquish) is an open source DXT compression library written in C++  - Development files
+OE: libsquish
+License: MIT
+Priority: optional
+
+Package: libsquish-staticdev
+Version: 1.10+git0+52e7d93c59-r0
+Depends: libsquish-dev (= 1.10+git0+52e7d93c59-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0da5d5367fd1d38452f2f822cf8d2dad
+SHA256sum: b7f4ffafcd1d2a5415748dba4dd42e3af4549bc67d4e400021858b842f42ed40
+Size: 164018
+Filename: libsquish-staticdev_1.10+git0+52e7d93c59-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libsquish_git.bb
+Description: The squish library (abbreviated to libsquish) is an open source DXT compression library written in C++  - Development files (Static Libraries)
+OE: libsquish
+License: MIT
+Priority: optional
+
 Package: libsrt-dbg
 Version: 1.5.7-r0
 Provides: srt-dbg
@@ -79624,9 +80885,9 @@ Recommends: glibc-dev, libgcc-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2d22fbb3e61e680b4bdb3693ca0bad3a
-SHA256sum: 239e413f59450a06e2b03e2fd4b5eff3c0e3bcfd49506a9eed8f381ff98f43c9
-Size: 2264956
+MD5Sum: b53d9cbbaf8dec4a28747b41a6a997db
+SHA256sum: 1222a956f95ff2d5df2e37d0535352bc92e2127f4695076a95bc214288c525e1
+Size: 2264868
 Filename: libstdc++-dev_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
 Description: GNU standard C++ library - development files
@@ -79640,9 +80901,9 @@ Version: 16.2.0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 10d8b6c35ed6fce7f01ccabf64358261
-SHA256sum: 2fc257cd3bdf8db49fcfd8a9010a06e403fe3edb9e5128c08e0294f53375a0ae
-Size: 18564356
+MD5Sum: 82ed97df5165ba4a26ad9b512b98f919
+SHA256sum: d8be3038f738032ebe99aeeb973d4bb01df58da60663a62c60c8cf9c9d52ae7c
+Size: 18564364
 Filename: libstdc++-staticdev_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
 Description: GNU standard C++ library - static development files
@@ -79658,8 +80919,8 @@ Provides: libstdc++
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b079e6753facdb17520f0bfad770e5a3
-SHA256sum: a9c1d2dbb09b152a9cc39d74b5573ba9242e14badbffb99a9a7384b719b6ca89
+MD5Sum: 8695df642a4699c643f86872009201ff
+SHA256sum: 4c364e204b2f88545999ba60d5693964e727fb7eb936cab5cff46c0b0a359779
 Size: 920506
 Filename: libstdc++6_16.2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gcc-runtime_16.2.bb
@@ -80410,6 +81671,41 @@ HomePage: http://www.gnu.org/software/ncurses/ncurses.html
 License: MIT
 Priority: optional
 
+Package: libtinyxml-dbg
+Version: 2.6.2-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4ca65ce3a96642ff2eac422478f813e2
+SHA256sum: ecc8658989c21ea756c10e2d84b5571a8a4854e160c3001ed22a6f554a523680
+Size: 411054
+Filename: libtinyxml-dbg_2.6.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libtinyxml_2.6.2.bb
+Description: a simple, small, minimal, C++ XML parser - Debugging files
+OE: libtinyxml
+HomePage: http://www.sourceforge.net/projects/tinyxml
+License: Zlib
+Priority: optional
+
+Package: libtinyxml-dev
+Version: 2.6.2-r0
+Depends: libtinyxml
+Recommends: glibc-dev, libgcc-dev, libstdc++-dev, libtinyxml2.6.2 (= 2.6.2-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5bb41a133f6abd93981528f5241a9643
+SHA256sum: 5bdac8fa0785f3028ffe30adeb035c8616c8da14cc04d1709ccea7c9853389f0
+Size: 18588
+Filename: libtinyxml-dev_2.6.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libtinyxml_2.6.2.bb
+Description: a simple, small, minimal, C++ XML parser - Development files
+OE: libtinyxml
+HomePage: http://www.sourceforge.net/projects/tinyxml
+License: Zlib
+Priority: optional
+
 Package: libtinyxml2-11
 Version: 11.0.0-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0)
@@ -80460,6 +81756,24 @@ Source: libtinyxml2_11.0.0.bb
 Description: TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrating into other programs - Development files
 OE: libtinyxml2
 HomePage: https://leethomason.github.io/tinyxml2
+License: Zlib
+Priority: optional
+
+Package: libtinyxml2.6.2
+Version: 2.6.2-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0)
+Provides: libtinyxml
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f3f828fcac4312a660372ee1d069d3aa
+SHA256sum: ae2e385c7311703f8e47a46e2e4028ca54591b627411d13455f89c8be3e7ef4d
+Size: 53398
+Filename: libtinyxml2.6.2_2.6.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libtinyxml_2.6.2.bb
+Description: a simple, small, minimal, C++ XML parser
+OE: libtinyxml
+HomePage: http://www.sourceforge.net/projects/tinyxml
 License: Zlib
 Priority: optional
 
@@ -83309,6 +84623,75 @@ Filename: libxmuu1_1.3.1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libxmu_1.3.1.bb
 Description: Xmu and Xmuu: X Miscellaneous Utility libraries
 OE: libxmu
+HomePage: http://www.x.org
+License: MIT
+Priority: optional
+
+Package: libxrandr-dbg
+Version: 1:1.5.5-r0
+Recommends: glibc-dbg, libx11-dbg, libxext-dbg, libxrender-dbg, xorgproto-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aea427861445438f232bc8ab59aebbb8
+SHA256sum: 2ce74c4b0386eb8004112f61582dc031a0234d5977cd8faed5a160cc62c34ec9
+Size: 107344
+Filename: libxrandr-dbg_1.5.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libxrandr_1.5.5.bb
+Description: XRandR: X Resize, Rotate and Reflect extension library - Debugging files
+OE: libxrandr
+HomePage: http://www.x.org
+License: MIT
+Priority: optional
+
+Package: libxrandr-dev
+Version: 1:1.5.5-r0
+Depends: libx11-dev, libxext-dev, libxrandr, libxrender-dev, xorgproto-dev
+Recommends: glibc-dev, libx11-dev, libxext-dev, libxrandr2 (= 1:1.5.5-r0), libxrender-dev, xorgproto-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9de01ae9aac790c818c6ec818e8d776
+SHA256sum: 10183c3126a69d8f1a65db0b802c6f6853a07f5f518383ed5f11aee632910ee3
+Size: 5706
+Filename: libxrandr-dev_1.5.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libxrandr_1.5.5.bb
+Description: XRandR: X Resize, Rotate and Reflect extension library - Development files
+OE: libxrandr
+HomePage: http://www.x.org
+License: MIT
+Priority: optional
+
+Package: libxrandr-doc
+Version: 1:1.5.5-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7ed8d1bec07a471f59ac6c0ebc56ad9d
+SHA256sum: dff06dca8749ff47212985d01e75a5384e9ad391ac1595b8659614700f0f585d
+Size: 5776
+Filename: libxrandr-doc_1.5.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libxrandr_1.5.5.bb
+Description: XRandR: X Resize, Rotate and Reflect extension library - Documentation files
+OE: libxrandr
+HomePage: http://www.x.org
+License: MIT
+Priority: optional
+
+Package: libxrandr2
+Version: 1:1.5.5-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libx11-6 (>= 1.8.13), libxext6 (>= 1.3.7), libxrender1 (>= 0.9.12)
+Provides: libxrandr
+Section: x11/libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2e7c91faa6aeb4f4b2415c08e10d50bd
+SHA256sum: c21c81e459cfde46ff6722cd72f18c1c8cd03d8428d8e44ddc118fcef8b218bc
+Size: 16348
+Filename: libxrandr2_1.5.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libxrandr_1.5.5.bb
+Description: XRandR: X Resize, Rotate and Reflect extension library
+OE: libxrandr
 HomePage: http://www.x.org
 License: MIT
 Priority: optional
@@ -95224,6 +96607,58 @@ HomePage: http://www.linux-mtd.infradead.org/
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: mtdev-dbg
+Version: 1.1.7-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 839a5bd4382fe9fe0e7c91ac2aef6a33
+SHA256sum: 38f14dd6a5a432dd0effc90e24bfc21ff65c19cecb35d484268962f832c66fdd
+Size: 58848
+Filename: mtdev-dbg_1.1.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mtdev_1.1.7.bb
+Description: Multitouch Protocol Translation Library - Debugging files
+OE: mtdev
+HomePage: http://bitmath.org/code/mtdev/
+License: MIT
+Priority: optional
+
+Package: mtdev-dev
+Version: 1.1.7-r0
+Depends: mtdev
+Recommends: glibc-dev, mtdev (= 1.1.7-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 290c13599ac8b0b32bcf6805234b0a6e
+SHA256sum: b157e36cb3066dda9f050a3a803d5466db269e4bcb3a3661832e1a6e6125dfa7
+Size: 4864
+Filename: mtdev-dev_1.1.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mtdev_1.1.7.bb
+Description: Multitouch Protocol Translation Library - Development files
+OE: mtdev
+HomePage: http://bitmath.org/code/mtdev/
+License: MIT
+Priority: optional
+
+Package: mtdev
+Version: 1.1.7-r0
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 84ab1a672a554500f5ea4dd1ec197292
+SHA256sum: dfa90f6b4b0038a1a58d739213af1ccce66d678172315b1ae094cdd318ac726b
+Size: 17274
+Filename: mtdev_1.1.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mtdev_1.1.7.bb
+Description: Multitouch Protocol Translation Library
+OE: mtdev
+HomePage: http://bitmath.org/code/mtdev/
+License: MIT
+Priority: optional
+
 Package: mtools-dbg
 Version: 4.0.49-r0
 Recommends: glibc-dbg
@@ -96941,6 +98376,144 @@ Source: nmap_7.991.bb
 Description: network auditing tool
 OE: nmap
 License: LicenseRef-NPSL
+Priority: optional
+
+Package: nspr-dbg
+Version: 4.39-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 540bb19c74df6cdd4de25f0b508c8729
+SHA256sum: 3f172960f06c1d87edcce05b040c47feb5841fe129cb25ff55fa5719e7d1b510
+Size: 1653276
+Filename: nspr-dbg_4.39-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nspr_4.39.bb
+Description: Netscape Portable Runtime Library - Debugging files
+OE: nspr
+HomePage: http://www.mozilla.org/projects/nspr/
+License: GPL-2.0-only OR LGPL-2.1-only OR MPL-2.0
+Priority: optional
+
+Package: nspr-dev
+Version: 4.39-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), nspr (>= 4.39), perl
+Recommends: glibc-dev, nspr (= 4.39-r0), perl-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: adaa90abc9f965d7ac94425968d0f182
+SHA256sum: 44e1b68afdfceaa3e148196fbeb3a9be21efb2eba141f1908a17d90d5400200b
+Size: 356198
+Filename: nspr-dev_4.39-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nspr_4.39.bb
+Description: Netscape Portable Runtime Library - Development files
+OE: nspr
+HomePage: http://www.mozilla.org/projects/nspr/
+License: GPL-2.0-only OR LGPL-2.1-only OR MPL-2.0
+Priority: optional
+
+Package: nspr-staticdev
+Version: 4.39-r0
+Depends: nspr-dev (= 4.39-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bff057ba50df03e8eb6866264572e285
+SHA256sum: 2332195c679b2a056bf1c1dfc51a8b7a2b3b78b1e0971d237a8f51a7795771e4
+Size: 741018
+Filename: nspr-staticdev_4.39-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nspr_4.39.bb
+Description: Netscape Portable Runtime Library - Development files (Static Libraries)
+OE: nspr
+HomePage: http://www.mozilla.org/projects/nspr/
+License: GPL-2.0-only OR LGPL-2.1-only OR MPL-2.0
+Priority: optional
+
+Package: nspr
+Version: 4.39-r0
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Section: libs/network
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 83f581451369395cbbf95e41aaf68b9d
+SHA256sum: d8d585f2e0785b9d3029f55caa1d78f7ad56e6f5bb84028a6b576d98488fd511
+Size: 143242
+Filename: nspr_4.39-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nspr_4.39.bb
+Description: Netscape Portable Runtime Library
+OE: nspr
+HomePage: http://www.mozilla.org/projects/nspr/
+License: GPL-2.0-only OR LGPL-2.1-only OR MPL-2.0
+Priority: optional
+
+Package: nss-dbg
+Version: 3.126-r0
+Recommends: glibc-dbg, libsqlite3-dbg, nspr-dbg, zlib-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 89025ff118846d28ebdf89af2eac242b
+SHA256sum: 80c47fef73642fbf149dc356bd43f01f8c86c65f679cccfa97a7d42cf2bce258
+Size: 18845936
+Filename: nss-dbg_3.126-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nss_3.126.bb
+Description: Mozilla's SSL and TLS implementation - Debugging files
+OE: nss
+HomePage: https://firefox-source-docs.mozilla.org/security/nss/index.html
+License: GPL-2.0-or-later AND MIT AND MPL-2.0 OR LGPL-2.1-or-later AND MIT AND MPL-2.0 OR MIT AND MPL-2.0
+Priority: optional
+
+Package: nss-dev
+Version: 3.126-r0
+Depends: nspr-dev
+Recommends: glibc-dev, libsqlite3-dev, nspr-dev, nss (= 3.126-r0), perl-dev, sqlite3-dev, zlib-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2e79a46c47715d2b9e2e095977d71ebf
+SHA256sum: 7fffc76e70a81d25c5edd60b678b061e5edc3d02290c6a0aa4e74ff470daf517
+Size: 260122
+Filename: nss-dev_3.126-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nss_3.126.bb
+Description: Mozilla's SSL and TLS implementation - Development files
+OE: nss
+HomePage: https://firefox-source-docs.mozilla.org/security/nss/index.html
+License: GPL-2.0-or-later AND MIT AND MPL-2.0 OR LGPL-2.1-or-later AND MIT AND MPL-2.0 OR MIT AND MPL-2.0
+Priority: optional
+
+Package: nss-smime
+Version: 3.126-r0
+Depends: perl
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a09440aa48051629cca660888324ce25
+SHA256sum: 6fb6c0f84a1c089611f71db9710f7caca199e114054d6f61823317f9f0e3e136
+Size: 6368
+Filename: nss-smime_3.126-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nss_3.126.bb
+Description: Mozilla's SSL and TLS implementation
+OE: nss
+HomePage: https://firefox-source-docs.mozilla.org/security/nss/index.html
+License: GPL-2.0-or-later AND MIT AND MPL-2.0 OR LGPL-2.1-or-later AND MIT AND MPL-2.0 OR MIT AND MPL-2.0
+Priority: optional
+
+Package: nss
+Version: 3.126-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libsqlite3-0 (>= 3.54.1), libz1 (>= 1.3.2), nspr (>= 4.39)
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3bc33ac22ba867ae314a17cdebe0fe8a
+SHA256sum: 3c9d70421d56aab4409afadf99097249fa7f4c8d5c698b5554fb9a06128e2bf9
+Size: 3860768
+Filename: nss_3.126-r0_cortexa15hf-neon-vfpv4.ipk
+Source: nss_3.126.bb
+Description: Mozilla's SSL and TLS implementation
+OE: nss
+HomePage: https://firefox-source-docs.mozilla.org/security/nss/index.html
+License: GPL-2.0-or-later AND MIT AND MPL-2.0 OR LGPL-2.1-or-later AND MIT AND MPL-2.0 OR MIT AND MPL-2.0
 Priority: optional
 
 Package: ntfs-3g-ntfsprogs-dbg
@@ -99269,6 +100842,72 @@ Description: program for testing Perl-comatible regular expressions
 OE: libpcre2
 HomePage: http://www.pcre.org
 License: BSD-2-Clause AND BSD-3-Clause AND MIT
+Priority: optional
+
+Package: pcregrep-doc
+Version: 8.45-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 29654c7f80ac0abf598e83735ba96a01
+SHA256sum: 3cd5e9e028d1c8d97be5ba666a47c06e62d09ef46b61d9a23db8e14e07de1ba4
+Size: 12194
+Filename: pcregrep-doc_8.45-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libpcre_8.45.bb
+Description: grep utility that uses perl 5 compatible regexes - docs
+OE: libpcre
+HomePage: http://www.pcre.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: pcregrep
+Version: 8.45-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libpcre1 (>= 8.45)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c044b2be1b92cbac6330a68a613c2fc8
+SHA256sum: 174036d141c94f1053c342965f4ecaf3b6ea7a64bf3c1132e2a7a7f38d7886a5
+Size: 21424
+Filename: pcregrep_8.45-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libpcre_8.45.bb
+Description: grep utility that uses perl 5 compatible regexes
+OE: libpcre
+HomePage: http://www.pcre.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: pcretest-doc
+Version: 8.45-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 824775bd58e0515c8602364b8591614f
+SHA256sum: 86aa1ecb74c708c6887aa9db1f651cc085a957e228ee3d969107a4535cbd3a7d
+Size: 17060
+Filename: pcretest-doc_8.45-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libpcre_8.45.bb
+Description: program for testing Perl-comatible regular expressions - docs
+OE: libpcre
+HomePage: http://www.pcre.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: pcretest
+Version: 8.45-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libpcre1 (>= 8.45), libpcreposix0 (>= 8.45)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cc83b289ba142ed50231ecf25c3cdd6a
+SHA256sum: d32f7d4024932ffdb9ada1dc810b5558538ed89bfb67e109a9ec65c6fc578928
+Size: 33068
+Filename: pcretest_8.45-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libpcre_8.45.bb
+Description: program for testing Perl-comatible regular expressions
+OE: libpcre
+HomePage: http://www.pcre.org
+License: BSD-3-Clause
 Priority: optional
 
 Package: pcsc-lite-dbg
@@ -124408,6 +126047,90 @@ HomePage: http://www.pycryptodome.org
 License: BSD-2-Clause AND Unlicense
 Priority: optional
 
+Package: python3-pycryptodomex-dbg
+Version: 3.24.1-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0e943991d489afa000ec53cf98161d96
+SHA256sum: ab6854b292486c0385fc8e412e196dfc051ac1b1d13658f292670e038122c3a4
+Size: 1352632
+Filename: python3-pycryptodomex-dbg_3.24.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycryptodomex_3.24.1.bb
+Description: Cryptographic library for Python - Debugging files
+OE: python3-pycryptodomex
+HomePage: http://www.pycryptodome.org
+License: BSD-2-Clause AND Unlicense
+Priority: optional
+
+Package: python3-pycryptodomex-dev
+Version: 3.24.1-r0
+Recommends: glibc-dev, python3-cffi-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-io-dev, python3-math-dev, python3-pycryptodomex (= 3.24.1-r0), python3-unittest-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a6234e8ae0a8c42abcce786e0dedc9e7
+SHA256sum: f61ccf2b83a24dc8d23152b2bb57808448327a6888dc8123d00abd6bb5bac74a
+Size: 750
+Filename: python3-pycryptodomex-dev_3.24.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycryptodomex_3.24.1.bb
+Description: Cryptographic library for Python - Development files
+OE: python3-pycryptodomex
+HomePage: http://www.pycryptodome.org
+License: BSD-2-Clause AND Unlicense
+Priority: optional
+
+Package: python3-pycryptodomex-doc
+Version: 3.24.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1a1c9d8df0ae44baf80c264890fa34f
+SHA256sum: f9911674b8e7c57226407070073caa372769b34117fd094345883f33bbcf9112
+Size: 4506
+Filename: python3-pycryptodomex-doc_3.24.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycryptodomex_3.24.1.bb
+Description: Cryptographic library for Python - Documentation files
+OE: python3-pycryptodomex
+HomePage: http://www.pycryptodome.org
+License: BSD-2-Clause AND Unlicense
+Priority: optional
+
+Package: python3-pycryptodomex-tests
+Version: 3.24.1-r0
+Depends: python3-unittest
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fbf39ff611f2b5816f374b6267d3a3b7
+SHA256sum: 2824e2f24167ec4e7c8e20581b9f899f3ba84281d82a3a9cafafbe9b75af7785
+Size: 629782
+Filename: python3-pycryptodomex-tests_3.24.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycryptodomex_3.24.1.bb
+Description: Cryptographic library for Python
+OE: python3-pycryptodomex
+HomePage: http://www.pycryptodome.org
+License: BSD-2-Clause AND Unlicense
+Priority: optional
+
+Package: python3-pycryptodomex
+Version: 3.24.1-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-cffi, python3-core, python3-ctypes, python3-io, python3-math
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 13869dbdee41cee440cfb641b1185ed0
+SHA256sum: e88ebe42397020c39f811422691c0b3e164ec40d773a8d6458b73a3957075922
+Size: 1320118
+Filename: python3-pycryptodomex_3.24.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pycryptodomex_3.24.1.bb
+Description: Cryptographic library for Python
+OE: python3-pycryptodomex
+HomePage: http://www.pycryptodome.org
+License: BSD-2-Clause AND Unlicense
+Priority: optional
+
 Package: python3-pycurl-dbg
 Version: 7.47.0-r0
 Recommends: glibc-dbg, libcrypto-dbg, libcurl-dbg, libssl-dbg
@@ -129632,14 +131355,14 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dbg
-Version: 2026.10.21-git24023+9b58cb30+9b58cb33d0-r0
+Version: 2026.10.21-git24024+fa988660+fa9886678e-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f867cd6b5376879578b86e98b0ae4d2d
-SHA256sum: dc172ccd367343707f54fefdf9aa647e9bf97a588b53fd42f6b808f5d0b0699a
+MD5Sum: a3c322e3ed8cbbb956e55d82dbbf6e25
+SHA256sum: 0420f14c6c6a25544f9e5177a9d4e6f8e177c18df5e657b525fd2133fa0651f4
 Size: 750
-Filename: python3-yt-dlp-dbg_2026.10.21-git24023+9b58cb30+9b58cb33d0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: python3-yt-dlp-dbg_2026.10.21-git24024+fa988660+fa9886678e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Debugging files
 OE: python3-yt-dlp
@@ -129648,15 +131371,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dev
-Version: 2026.10.21-git24023+9b58cb30+9b58cb33d0-r0
-Recommends: bash-completion-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2026.10.21-git24023+9b58cb30+9b58cb33d0-r0), python3-yt-dlp-ejs-dev, quickjs-dev
+Version: 2026.10.21-git24024+fa988660+fa9886678e-r0
+Recommends: bash-completion-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2026.10.21-git24024+fa988660+fa9886678e-r0), python3-yt-dlp-ejs-dev, quickjs-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d48177d461475bf3b6d8dfe805cf625
-SHA256sum: 63314419d6ed3fb95191af9345f8b59975ca6055d8b4f2108a4de534c10e97b8
+MD5Sum: ffde378b65ce2abbd8427e5671b1d760
+SHA256sum: ece6eede13f1813388df8929d2c1d9cd7a309efc4a2ce6cab75a5117862def13
 Size: 840
-Filename: python3-yt-dlp-dev_2026.10.21-git24023+9b58cb30+9b58cb33d0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: python3-yt-dlp-dev_2026.10.21-git24024+fa988660+fa9886678e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Development files
 OE: python3-yt-dlp
@@ -129665,15 +131388,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-src
-Version: 2026.10.21-git24023+9b58cb30+9b58cb33d0-r0
+Version: 2026.10.21-git24024+fa988660+fa9886678e-r0
 Depends: python3-yt-dlp
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 697a1ac8e907a87d619c2c436be1176c
-SHA256sum: 6b58c09705f523969a05bd9ecedf2a3593acae9c4c41b1237827a5099f250224
-Size: 2425456
-Filename: python3-yt-dlp-src_2026.10.21-git24023+9b58cb30+9b58cb33d0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 881b51eaaa38901db49fc6e7c1bf5d8b
+SHA256sum: 09a4ab53a24dec19e2282ca552fa66af81c880c4acc8629da2c98b2c0635d6fb
+Size: 2425448
+Filename: python3-yt-dlp-src_2026.10.21-git24024+fa988660+fa9886678e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Source files
 OE: python3-yt-dlp
@@ -129682,15 +131405,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp
-Version: 2026.10.21-git24023+9b58cb30+9b58cb33d0-r0
+Version: 2026.10.21-git24024+fa988660+fa9886678e-r0
 Depends: bash-completion, python3-core, python3-ctypes, python3-email, python3-html, python3-unixadmin, python3-yt-dlp-ejs, quickjs
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 27f4282584ccdecd237b400049f0f1d8
-SHA256sum: 0ac7b5d42984b564416aaa73bd7e58dd52d1ee8ebfdbcc72f536f57b73b5de5e
-Size: 4601728
-Filename: python3-yt-dlp_2026.10.21-git24023+9b58cb30+9b58cb33d0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 4c826e9b0148efcdcb0f114b010b96c5
+SHA256sum: 9644fa16d75c4114897a336b010c169e7ad34079f1c275b05792e427d62fce6c
+Size: 4601726
+Filename: python3-yt-dlp_2026.10.21-git24024+fa988660+fa9886678e-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes
 OE: python3-yt-dlp
@@ -135301,16 +137024,16 @@ License: GPL-2.0-or-later AND LGPL-2.1-or-later
 Priority: optional
 
 Package: streamlink
-Version: 8.6.2-git6143+76e07c1_0.0-git1+4ec0b8c0+76e07c1701_4ec0b8c658-r0
+Version: 8.6.2-git6145+fcf0652_0.0-git1+4ec0b8c0+fcf065296b_4ec0b8c658-r0
 Depends: python3-certifi, python3-core, python3-ctypes, python3-isodate, python3-lxml, python3-pkgutil, python3-pycountry, python3-pycryptodome, python3-pysocks, python3-requests, python3-shell, python3-trio, python3-trio-websocket, python3-urllib3, python3-websocket-client
 Recommends: ffmpeg
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83acbe1b86fb4f2946506db78be10f62
-SHA256sum: 713f9b4903b887edf55c9e142236708e9aa79e6b0fc560bf76a1798fcbcca3a4
-Size: 1180212
-Filename: streamlink_8.6.2-git6143+76e07c1_0.0-git1+4ec0b8c0+76e07c1701_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: e4ba0d798b37e18c63f57a50f500e81c
+SHA256sum: 9c545f0ebcfe5edaf6081c1ad253fce57bf9baad84751dba73c4f94b457bc888
+Size: 1180048
+Filename: streamlink_8.6.2-git6145+fcf0652_0.0-git1+4ec0b8c0+fcf065296b_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
 Source: streamlink_git.bb
 Description: CLI for extracting streams from various websites to a video player of your choosing
 OE: streamlink
@@ -135383,6 +137106,57 @@ Description: download online streams into audio files
 OE: streamripper
 HomePage: http://streamripper.sourceforge.net
 License: GPL-2.0-only
+Priority: optional
+
+Package: swig-dbg
+Version: 4.5.1-r0
+Recommends: glibc-dbg, libgcc-dbg, libpcre2-dbg, libstdc++-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 099d2b047be431fdc899a7c6e84bd677
+SHA256sum: 4631f90f0ed703d3219f9c70e3eb4987defa8791ecdb2efcc30bde15e60b2a81
+Size: 4630966
+Filename: swig-dbg_4.5.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: swig_4.5.1.bb
+Description: SWIG - Simplified Wrapper and Interface Generator - Debugging files
+OE: swig
+HomePage: http://swig.sourceforge.net/
+License: BSD-3-Clause AND GPL-3.0-only
+Priority: optional
+
+Package: swig-dev
+Version: 4.5.1-r0
+Recommends: glibc-dev, libgcc-dev, libpcre2-dev, libstdc++-dev, swig (= 4.5.1-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d4770968c1057f75c0c9e5eb1e16150d
+SHA256sum: 6eafbc1efda6866e63fdfb75968ec5d61b1957b06c3848dab4596adb7341a6ef
+Size: 824
+Filename: swig-dev_4.5.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: swig_4.5.1.bb
+Description: SWIG - Simplified Wrapper and Interface Generator - Development files
+OE: swig
+HomePage: http://swig.sourceforge.net/
+License: BSD-3-Clause AND GPL-3.0-only
+Priority: optional
+
+Package: swig
+Version: 4.5.1-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libpcre2 (>= 10.49), libstdc++6 (>= 16.2.0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 00e213b371599924d5db72f588463c78
+SHA256sum: 522c2785c8e03c480f750eb97889bef31b408d39faa7fcbc4a7c8f41d393f639
+Size: 1372172
+Filename: swig_4.5.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: swig_4.5.1.bb
+Description: SWIG - Simplified Wrapper and Interface Generator
+OE: swig
+HomePage: http://swig.sourceforge.net/
+License: BSD-3-Clause AND GPL-3.0-only
 Priority: optional
 
 Package: sysvinit-dbg
