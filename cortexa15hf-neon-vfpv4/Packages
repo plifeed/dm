@@ -10631,14 +10631,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.10.23.01-git6174+dfc130b0+dfc130b288-r0
+Version: 2026.10.24.03-git6182+8b9e2e50+8b9e2e58ef-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 17832c2583e83c288ed33049c6699ae1
-SHA256sum: 252b569b58692f611a35742efa876e48b91a9f19ed67f7a8661d054e32a5ab88
-Size: 672
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.10.23.01-git6174+dfc130b0+dfc130b288-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 31e56e7a6cbcba9bdf27ef82c5b569ce
+SHA256sum: 10758dbae17ae9a00cc4a59e6b7e669185a9dc3355886c5de85c8d3660814b48
+Size: 670
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.10.24.03-git6182+8b9e2e50+8b9e2e58ef-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10696,15 +10696,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.10.23.01-git6174+dfc130b0+dfc130b288-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.10.23.01-git6174+dfc130b0+dfc130b288-r0), python3-core-dev, python3-dev
+Version: 2026.10.24.03-git6182+8b9e2e50+8b9e2e58ef-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.10.24.03-git6182+8b9e2e50+8b9e2e58ef-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab16bf34bd8ce33c961428673ced5c49
-SHA256sum: b2d4f4c149163317e9e78eee4c7dd64d77f2c962c35aa3e12cb3bacf0abd8cb0
+MD5Sum: 18c0c2ae7bbf5558101163eec7a8e9b7
+SHA256sum: 51a463675fd50979f655d056686b0e8bdb09f8f6d67b62417b26c6721119e2ad
 Size: 718
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.10.23.01-git6174+dfc130b0+dfc130b288-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.10.24.03-git6182+8b9e2e50+8b9e2e58ef-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10713,15 +10713,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.10.23.01-git6174+dfc130b0+dfc130b288-r0
+Version: 2026.10.24.03-git6182+8b9e2e50+8b9e2e58ef-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f188e53c1a4a9b74454e15a89aedc0c4
-SHA256sum: 51417c88a35627939aa64980e2a20437fe1dd1a5fc8b8e00f1c04589e26cda00
-Size: 2560758
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.10.23.01-git6174+dfc130b0+dfc130b288-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b8af8de7187b25a5b81aa4aec102a2c6
+SHA256sum: 7f725ff2564447f92d6ca32aa5703507682318ea99e9143e60c6c256ccff8678
+Size: 2565302
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.10.24.03-git6182+8b9e2e50+8b9e2e58ef-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10730,16 +10730,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.10.23.01-git6174+dfc130b0+dfc130b288-r0
+Version: 2026.10.24.03-git6182+8b9e2e50+8b9e2e58ef-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 54432a52048ca00c89b4cfd4e9379a39
-SHA256sum: b395e2f7eb5d483f04f6d5a6a266404cac17cfb018268d43863247f3041ef762
-Size: 24153468
-Filename: enigma2-plugin-extensions-e2iplayer_2026.10.23.01-git6174+dfc130b0+dfc130b288-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d26d89cbeebd9058fab211f628836d5e
+SHA256sum: 2d2a30d28b3351b1669f20a3e2b4ec387afea6d1b2e23ffb4fa3486bf66a0af3
+Size: 24161808
+Filename: enigma2-plugin-extensions-e2iplayer_2026.10.24.03-git6182+8b9e2e50+8b9e2e58ef-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -11193,14 +11193,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: V0.0-git554+9f80a170+9f80a17a04-r0
+Version: V0.0-git555+17077ca0+17077ca425-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: a516d74a78cfb9ce69a529b3c635032d
-SHA256sum: 7df5aba1e7f286240d749563e79ac68006a8e4b522ed452d8ddadac1d953dc56
-Size: 690
-Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git554+9f80a170+9f80a17a04-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 0c8af34d450435718f69c184dbd620f6
+SHA256sum: e67d9157a78cda7162373226828d8511934c80234ef017e7f687077d409623ab
+Size: 688
+Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git555+17077ca0+17077ca425-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -11209,15 +11209,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: V0.0-git554+9f80a170+9f80a17a04-r0
-Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git554+9f80a170+9f80a17a04-r0), python3-sqlite3-dev
+Version: V0.0-git555+17077ca0+17077ca425-r0
+Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git555+17077ca0+17077ca425-r0), python3-sqlite3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 23c4f2856504986f4d5b7df7b31b5f8b
-SHA256sum: aa3957f7c94b43dae27a985c0df722dd4b08a31113334c0b1071e3d0715b1a7c
-Size: 738
-Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git554+9f80a170+9f80a17a04-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5532940359b026183cbb4a5d41f2deaf
+SHA256sum: 4008d461aa88805c98e7b9b2a7f39df4560e6799db431a6eeeab5e79b5e5c247
+Size: 736
+Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git555+17077ca0+17077ca425-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -11226,15 +11226,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: V0.0-git554+9f80a170+9f80a17a04-r0
+Version: V0.0-git555+17077ca0+17077ca425-r0
 Depends: python3-sqlite3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 38792189d7caf9e07521735024d3dcc2
-SHA256sum: e1dbd68863b2bd25850ef2e19c1490908958d206c0e53bca8a333c83bbebbf40
-Size: 41228310
-Filename: enigma2-plugin-extensions-footonsat_V0.0-git554+9f80a170+9f80a17a04-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6a5cbca7109b078d29607c593db5d60c
+SHA256sum: eb7c12fc596cb3764951ae9499e4397d5dcb2c8ed2af961c25d49cbbd33156a3
+Size: 42550284
+Filename: enigma2-plugin-extensions-footonsat_V0.0-git555+17077ca0+17077ca425-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules
 OE: enigma2-plugin-extensions-footonsat
@@ -96089,15 +96089,15 @@ License: GPL-2.0-only OR BSD-3-Clause
 Priority: optional
 
 Package: minisatip-dbg
-Version: 1.0d+git0+28dfd78201-r0
+Version: 1.0d+git0+669c54fc59-r0
 Recommends: glibc-dbg, libcrypto-dbg, libdvbcsa-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 5b06b132973bc37f04abbd6a32e47d31
-SHA256sum: c010a5bb3b7504ac7c52445f474a0eeb8b637448bf27a6fe613a30161de1ec20
-Size: 2830864
-Filename: minisatip-dbg_1.0d+git0+28dfd78201-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 39dc4f2e6c74946e5c0f809c6f0123ff
+SHA256sum: 36b6dbb644df3841edc174d2e7125ed9ac13474e875f6da54d06ba01db8007eb
+Size: 3091832
+Filename: minisatip-dbg_1.0d+git0+669c54fc59-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Debugging files
 OE: minisatip
@@ -96106,15 +96106,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip-dev
-Version: 1.0d+git0+28dfd78201-r0
-Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+28dfd78201-r0), openssl-dev, update-rc.d-dev
+Version: 1.0d+git0+669c54fc59-r0
+Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+669c54fc59-r0), openssl-dev, update-rc.d-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 2a397ec94a083603c8f2d9887719530b
-SHA256sum: 3075b41b95c450a76009c1cffe5b8332b053419fee9777c3375d48c64dfed43f
+MD5Sum: f85485636db20bd36620c601b171753a
+SHA256sum: 770d2db923580ace3d8abbe9392bbc31520d854db63929ab3c07af568403eb3f
 Size: 686
-Filename: minisatip-dev_1.0d+git0+28dfd78201-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: minisatip-dev_1.0d+git0+669c54fc59-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Development files
 OE: minisatip
@@ -96123,16 +96123,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip
-Version: 1.0d+git0+28dfd78201-r0
+Version: 1.0d+git0+669c54fc59-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3), libdvbcsa1 (>= 1.1.0+git64+b84e7900+b84e790a94), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), openssl
 Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 493566ecbe47ac20845ff573d7c8fe7c
-SHA256sum: 1c69590d405bf87a895c603ab28e5475e899cc1833de430a987629067fbe5c45
-Size: 532668
-Filename: minisatip_1.0d+git0+28dfd78201-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5047802a04d5e7344da853504aa1e226
+SHA256sum: 74eba0e25bcdb9290dcc160c2e205f7a04046736c5bc0cec2df7400c0b720291
+Size: 548074
+Filename: minisatip_1.0d+git0+669c54fc59-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server
 OE: minisatip
