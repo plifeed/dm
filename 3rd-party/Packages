@@ -351,6 +351,22 @@ OE: enigma2-plugin-extensions-xportal
 License: CLOSED
 Priority: optional
 
+Package: enigma2-plugin-extensions-xtraevent
+Version: 7.1
+Depends: python3-core, python3-image, python3-pillow, python3-requests
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dce9450119a1ab664abf190acd49438b
+SHA256sum: f87b6ee59b5459cd56a099417ca19e569cd2dcbed75b132ffaafd8aec1ef35a0
+Size: 2783996
+Filename: enigma2-plugin-extensions-xtraevent_v7.1_all.ipk
+Source: enigma2-plugin-extensions-xtraevent.bb
+Description: enigma2-plugin-extensions-xtraevent version git-r0
+OE: enigma2-plugin-extensions-xtraevent
+License: GPL-3.0-only
+Priority: optional
+
 Package: enigma2-plugin-skins-aglare-fhd-pli
 Version: 7.3
 Depends: enigma2-plugin-extensions-bitrate, python3-pillow, gettext
