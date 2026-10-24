@@ -122,6 +122,22 @@ OE: enigma2-plugin-extensions-ipchecker
 License: open
 Priority: optional
 
+Package: enigma2-plugin-extensions-ipstreamer
+Version: 1.4.0
+Section: extra
+Architecture: all
+Maintainer: popking159
+MD5Sum: 1fd042a739fcf46f820307eca269e5c6
+SHA256sum: 7eefb43c11e9a73ab4d6052a9c99dd698c0625d0c135a3769f3dd0aefe23e0c1
+Size: 533916
+Filename: enigma2-plugin-extensions-ipstreamer_1.4.0_all.ipk
+Source: enigma2-plugin-extensions-ipstreamer.bb
+Description: IPStreamer Plugin
+Depends: ffmpeg, gstreamer1.0-plugins-bad-audiovisualizers, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-equalizer, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, python3-core, python3-json, python3-pillow, python3-twisted-web
+OE: enigma2-plugin-extensions-ipstreamer
+License: GPL-2.0
+Priority: optional
+
 Package: enigma2-plugin-extensions-iptvremote
 Version: 1.0.8-py3
 Depends: python3-json
