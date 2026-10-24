@@ -494,6 +494,8 @@ Priority: optional
 
 Package: enigma2-plugin-skins-xDreamy
 Version: 7.6.0
+Depends: python3-pycairo
+Recommends: enigma2-plugin-extensions-oaweather
 Section: skin
 Architecture: all
 Maintainer: xDreamy
