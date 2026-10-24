@@ -254,6 +254,21 @@ OE: enigma2-plugin-extensions-rakutentv
 License: open
 Priority: optional
 
+Package: enigma2-plugin-extensions-qurankareem
+Version: 1.0.0
+Section: extra
+Maintainer: MNASR
+MD5Sum: c61df057da953fee8c46a0360a3207cc
+SHA256sum: 763da0003adde6b7037747c11326ffb18ed9857a5051953460fc037739cdc3db
+Size: 1164704
+Filename: enigma2-plugin-extensions-qurankareem_1.0.0_cortexa15hf-neon-vfpv4_py3.14.ipk
+Architecture: cortexa15hf-neon-vfpv4
+Description: QuranKareem Plugin
+License: GPL-2.0
+Source: enigma2-plugin-extensions-qurankareem
+Depends: enigma2, python3-core, python3-json, ffmpeg, enigma2-plugin-systemplugins-serviceapp, exteplayer3
+Priority: optional
+
 Package: enigma2-plugin-extensions-samsungtvplus
 Version: 20250815
 Depends: enigma2-plugin-extensions-epgimport
