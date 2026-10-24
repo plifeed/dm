@@ -10,7 +10,7 @@ Filename: enigma2-plugin-display-lcdskin-13_r1.2_dm920.ipk
 Source: enigma2-plugin-display-skins.bb
 Description: LCD Display Skin 13
 OE: enigma2-plugin-display-skins
-License: Proprietary
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ajpanel
@@ -25,7 +25,7 @@ Filename: enigma2-plugin-extensions-ajpanel_v10.8.6_all_no_restart.ipk
 Source: enigma2-plugin-extensions-ajpanel.bb
 Description: Enigma2 Tools
 OE: enigma2-plugin-extensions-ajpanel
-License: open
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-cooltvguide
@@ -40,7 +40,7 @@ Filename: enigma2-plugin-extensions-cooltvguide_Coolman_V8.0_py3_all.ipk
 Source: enigma2-plugin-extensions-cooltvguide.bb
 Description: Cool TV Guide 3D EPG with switchable 6-24 TV-Lines and changeable Buttons with Setup
 OE: CoolTVGuide-Coolman_V.8.0
-License: open
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-furybiss
@@ -55,7 +55,7 @@ Filename: enigma2-plugin-extensions-furybiss_7.2_all.ipk
 Source: enigma2-plugin-extensions-furybiss.bb
 Description: FuryBiss - BISS keys and satellite feeds for Enigma2
 OE: enigma2-plugin-extensions-furybiss
-License: open
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-hdfradio
@@ -86,7 +86,7 @@ Filename: enigma2-plugin-extensions-internet-speedtest_1.8_all.ipk
 Source: https://github.com/m4dhouse/Internet-Speedtest
 Description: Speedtest for enigma2 by Madhouse
 OE: enigma2-plugin-extensions-internet-speedtest
-License: open
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ipaudiopro
@@ -119,11 +119,12 @@ Filename: enigma2-plugin-extensions-ipchecker_004_all.ipk
 Source: enigma2-plugin-extensions-ipchecker.bb
 Description: plugin to check your boxes external IP adress
 OE: enigma2-plugin-extensions-ipchecker
-License: open
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ipstreamer
 Version: 1.4.0
+Depends: ffmpeg, gstreamer1.0-plugins-bad-audiovisualizers, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-equalizer, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, python3-core, python3-json, python3-pillow, python3-twisted-web
 Section: extra
 Architecture: all
 Maintainer: popking159
@@ -133,7 +134,6 @@ Size: 533916
 Filename: enigma2-plugin-extensions-ipstreamer_1.4.0_all.ipk
 Source: enigma2-plugin-extensions-ipstreamer.bb
 Description: IPStreamer Plugin
-Depends: ffmpeg, gstreamer1.0-plugins-bad-audiovisualizers, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-equalizer, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, python3-core, python3-json, python3-pillow, python3-twisted-web
 OE: enigma2-plugin-extensions-ipstreamer
 License: GPL-2.0
 Priority: optional
@@ -151,7 +151,7 @@ Filename: enigma2-plugin-extensions-iptvremote_1.0.8-py3_all.ipk
 Source: http://test.com
 Description: E2 IPTV Server
 OE: enigma2-plugin-extensions-iptvremote
-License: free
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream
@@ -166,7 +166,7 @@ Filename: enigma2-plugin-extensions-jedimakerxtream_6.40.20250212_all.ipk
 Source: enigma2-plugin-extensions-jedimakerxtream.bb
 Description: Jedi Maker Xtream - Enigma2 IPTV Bouquet Creator
 OE: enigma2-plugin-extensions-jedimakerxtream
-License: open
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediastream
@@ -218,7 +218,7 @@ Filename: enigma2-plugin-extensions-ngsetting-fhd_2.9_all.ipk
 Source: enigma2-plugin-extensions-ngsetting-fhd
 Description: NGsetting
 OE: enigma2-plugin-extensions-ngsetting-fhd
-License: open
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-purevpn
@@ -256,17 +256,18 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-qurankareem
 Version: 1.0.0
+Depends: enigma2, python3-core, python3-json, ffmpeg, enigma2-plugin-systemplugins-serviceapp, exteplayer3
 Section: extra
+Architecture: cortexa15hf-neon-vfpv4
 Maintainer: MNASR
 MD5Sum: c61df057da953fee8c46a0360a3207cc
 SHA256sum: 763da0003adde6b7037747c11326ffb18ed9857a5051953460fc037739cdc3db
 Size: 1164704
 Filename: enigma2-plugin-extensions-qurankareem_1.0.0_cortexa15hf-neon-vfpv4_py3.14.ipk
-Architecture: cortexa15hf-neon-vfpv4
-Description: QuranKareem Plugin
-License: GPL-2.0
 Source: enigma2-plugin-extensions-qurankareem
-Depends: enigma2, python3-core, python3-json, ffmpeg, enigma2-plugin-systemplugins-serviceapp, exteplayer3
+Description: QuranKareem Plugin
+OE: enigma2-plugin-extensions-qurankareem
+License: GPL-2.0
 Priority: optional
 
 Package: enigma2-plugin-extensions-samsungtvplus
