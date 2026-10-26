@@ -907,14 +907,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles-dbg
-Version: git10+2c648e20+2c648e2541-r0
+Version: git12+52d909f0+52d909fb72-r0
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: ce75487ff2ee50c729cf3d70be0d331f
-SHA256sum: d0dba91a873b1876841894e75954a239c1dc03ffd3f0cfebca3e73983dde4c50
-Size: 572
-Filename: enigma2-plugin-extensions-ciefpxfiles-dbg_git10+2c648e20+2c648e2541-r0_all.ipk
+MD5Sum: 7180851fff8e362fa6e3317434040eaf
+SHA256sum: 0677da18912cb810677430f189bb84bd2ef4f2b6bd80f686d5018bf8589dbfd5
+Size: 576
+Filename: enigma2-plugin-extensions-ciefpxfiles-dbg_git12+52d909f0+52d909fb72-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -922,15 +922,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles-dev
-Version: git10+2c648e20+2c648e2541-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpxfiles (= git10+2c648e20+2c648e2541-r0), python3-json-dev, python3-requests-dev, python3-shell-dev, python3-six-dev
+Version: git12+52d909f0+52d909fb72-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpxfiles (= git12+52d909f0+52d909fb72-r0), python3-json-dev, python3-requests-dev, python3-shell-dev, python3-six-dev
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 9d7844b99463c594a1ba6c005cec7815
-SHA256sum: 03e64e9ea504af5265fd58ea15f6c66e13f955540cc79ffddc731f526ee8ca6c
-Size: 646
-Filename: enigma2-plugin-extensions-ciefpxfiles-dev_git10+2c648e20+2c648e2541-r0_all.ipk
+MD5Sum: e51b4d6f4f84c3aa5ed502b95a72eac8
+SHA256sum: 564171c107209de07c1586dcdf4d11742afe287da3625049a95a4b6bd6a2cdff
+Size: 650
+Filename: enigma2-plugin-extensions-ciefpxfiles-dev_git12+52d909f0+52d909fb72-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -938,15 +938,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles
-Version: git10+2c648e20+2c648e2541-r0
+Version: git12+52d909f0+52d909fb72-r0
 Depends: enigma2, python3-json, python3-requests, python3-shell, python3-six
 Section: base
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 72978360e03b6db341c7c4c867800f21
-SHA256sum: 741bd731b46f500c6254c2f2b2cd98b6517037da784c5ce806cd4fe43677117e
-Size: 1527654
-Filename: enigma2-plugin-extensions-ciefpxfiles_git10+2c648e20+2c648e2541-r0_all.ipk
+MD5Sum: b6cee271ca5939b5a8107648c51c79f0
+SHA256sum: fed6c4dddf8f65accdad799b0149e0d91dd7c16bc71ac4a5fc8ca72760bc3b70
+Size: 1536740
+Filename: enigma2-plugin-extensions-ciefpxfiles_git12+52d909f0+52d909fb72-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -1093,6 +1093,72 @@ Description: Crashlog Viewer Enigma2 Plugin
 OE: enigma2-plugin-extensions-crashlogviewer
 License: GPL-2.0-or-later
 Priority: required
+
+Package: enigma2-plugin-extensions-e2embyclient-dbg
+Version: 1.0-git170+dfb15e80+dfb15e80be-r0
+Section: devel
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: 09eed03d7e78d3ba26ffa543145087dd
+SHA256sum: bb8d7ac80fa3edaa25b694cdd814676d2d4e8767384f7a52d4be4bfd86bda2e0
+Size: 622
+Filename: enigma2-plugin-extensions-e2embyclient-dbg_1.0-git170+dfb15e80+dfb15e80be-r0_all.ipk
+Source: enigma2-plugin-extensions-e2embyclient.bb
+Description: enigma2-plugin-extensions-e2embyclient version git-r0 - Debugging files
+OE: enigma2-plugin-extensions-e2embyclient
+HomePage: https://github.com/DimitarCC/e2-emby-client
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2embyclient-dev
+Version: 1.0-git170+dfb15e80+dfb15e80be-r0
+Recommends: enigma2-plugin-extensions-e2embyclient (= 1.0-git170+dfb15e80+dfb15e80be-r0), python3-core-dev, python3-dev, python3-pillow-dev, python3-requests-dev, python3-yt-dlp-dev
+Section: devel
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: 9901c70ff9e61251e492bc6d12be89c0
+SHA256sum: 65ae93823f4e2fa88f7dc459d5d6d06dfbc637c6c5bb8ae5170b8f7cfa01f988
+Size: 694
+Filename: enigma2-plugin-extensions-e2embyclient-dev_1.0-git170+dfb15e80+dfb15e80be-r0_all.ipk
+Source: enigma2-plugin-extensions-e2embyclient.bb
+Description: enigma2-plugin-extensions-e2embyclient version git-r0 - Development files
+OE: enigma2-plugin-extensions-e2embyclient
+HomePage: https://github.com/DimitarCC/e2-emby-client
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2embyclient-src
+Version: 1.0-git170+dfb15e80+dfb15e80be-r0
+Section: devel
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: 1a49ad81f1c7339287b63e868f0f60fa
+SHA256sum: a2f8c9f965849984e6825e3b98a64e4c04ac5008a1056f0a8d3538b57ab2dbdb
+Size: 75026
+Filename: enigma2-plugin-extensions-e2embyclient-src_1.0-git170+dfb15e80+dfb15e80be-r0_all.ipk
+Source: enigma2-plugin-extensions-e2embyclient.bb
+Description: enigma2-plugin-extensions-e2embyclient version git-r0 - Source files
+OE: enigma2-plugin-extensions-e2embyclient
+HomePage: https://github.com/DimitarCC/e2-emby-client
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2embyclient
+Version: 1.0-git170+dfb15e80+dfb15e80be-r0
+Depends: python3-core, python3-pillow, python3-requests, python3-yt-dlp
+Section: base
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: 445ea5e8230bb368d467fbefd5c83f2b
+SHA256sum: 5aaf2b2c65905d5bb304836fa1a856ba880e059b61bf575c0792177a5722f247
+Size: 287894
+Filename: enigma2-plugin-extensions-e2embyclient_1.0-git170+dfb15e80+dfb15e80be-r0_all.ipk
+Source: enigma2-plugin-extensions-e2embyclient.bb
+Description: enigma2-plugin-extensions-e2embyclient version git-r0
+OE: enigma2-plugin-extensions-e2embyclient
+HomePage: https://github.com/DimitarCC/e2-emby-client
+License: GPL-3.0-only
+Priority: optional
 
 Package: enigma2-plugin-extensions-e2piconizer-dbg
 Version: 1.29-20260720-git65+bcbdb6e0+bcbdb6ede5-r0
@@ -1407,6 +1473,53 @@ HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-iptvplayer-pro-dbg
+Version: 0.0-git64+235a9620+235a96211d-r0
+Section: devel
+Architecture: all
+Maintainer: azroukarim
+MD5Sum: a2432489e2eaf491adbe0ef06142c855
+SHA256sum: 8a88afeba0374ae7e7a70a8469926cbc09249c1d793de15d730d312053aa3eb2
+Size: 588
+Filename: enigma2-plugin-extensions-iptvplayer-pro-dbg_0.0-git64+235a9620+235a96211d-r0_all.ipk
+Source: enigma2-plugin-extensions-iptvplayer-pro.bb
+Description: IptvPlayerPro Enigma2 Plugin - Debugging files
+OE: enigma2-plugin-extensions-iptvplayer-pro
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-iptvplayer-pro-dev
+Version: 0.0-git64+235a9620+235a96211d-r0
+Recommends: enigma2-plugin-extensions-iptvplayer-pro (= 0.0-git64+235a9620+235a96211d-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
+Section: devel
+Architecture: all
+Maintainer: azroukarim
+MD5Sum: 1cf91671a10c3a9923610dbb5041014f
+SHA256sum: bf7bc73c2aa15c76725783d25c2a026565211d18694f247889cff0647cde4b89
+Size: 664
+Filename: enigma2-plugin-extensions-iptvplayer-pro-dev_0.0-git64+235a9620+235a96211d-r0_all.ipk
+Source: enigma2-plugin-extensions-iptvplayer-pro.bb
+Description: IptvPlayerPro Enigma2 Plugin - Development files
+OE: enigma2-plugin-extensions-iptvplayer-pro
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-iptvplayer-pro
+Version: 0.0-git64+235a9620+235a96211d-r0
+Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
+Section: multimedia
+Architecture: all
+Maintainer: azroukarim
+MD5Sum: ea422953421154b43f1a57bae02d16b3
+SHA256sum: 42f619cb683c5abe27eee3a4e033232598068503a2de3c8e51f817eb07f0e174
+Size: 1418280
+Filename: enigma2-plugin-extensions-iptvplayer-pro_0.0-git64+235a9620+235a96211d-r0_all.ipk
+Source: enigma2-plugin-extensions-iptvplayer-pro.bb
+Description: IptvPlayerPro Enigma2 Plugin
+OE: enigma2-plugin-extensions-iptvplayer-pro
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-jediepgxtream-dbg
 Version: 2.13-20240805-git25+7cf0d7d0+7cf0d7db6c-r0
 Section: devel
@@ -1520,14 +1633,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 3.0.6-git506+f1f58c10+f1f58c13ef-r0
+Version: 3.0.6-git510+7de1e180+7de1e18598-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 6bbd10fc71e51c17d99b85004c5b3df6
-SHA256sum: 2255e44723d644b91e66ea28d92f2a0a25d3f57c54c2d17c5fa93182ec2a06d0
+MD5Sum: e93b50680e97f2942c77ee6285689faa
+SHA256sum: 96211b30e9157bd0035b9f4975640ee55aeca23bc8a597e47080ad62c8814c34
 Size: 584
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.6-git506+f1f58c10+f1f58c13ef-r0_all.ipk
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.6-git510+7de1e180+7de1e18598-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1535,15 +1648,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 3.0.6-git506+f1f58c10+f1f58c13ef-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.6-git506+f1f58c10+f1f58c13ef-r0)
+Version: 3.0.6-git510+7de1e180+7de1e18598-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.6-git510+7de1e180+7de1e18598-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 7422652d431d9293b387c469eebec391
-SHA256sum: 90a5a6550441deea4624baa7244badda8c50137f19ed2b0f1fa12e479753be6f
+MD5Sum: a9707d4f96a7ef10b291bfd63de0e242
+SHA256sum: 1bdb05614883eb91dcb06d43a3bd141e342f664ec33338de7e018e9e5a2becd2
 Size: 620
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.6-git506+f1f58c10+f1f58c13ef-r0_all.ipk
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.6-git510+7de1e180+7de1e18598-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1551,14 +1664,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 3.0.6-git506+f1f58c10+f1f58c13ef-r0
+Version: 3.0.6-git510+7de1e180+7de1e18598-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 4f9dd14712a090b0f94f3efb2fe7bf7f
-SHA256sum: 96be1fd7a73679b74924622644d59a617deba7e521bac34e98b9d41b8aff855c
-Size: 15106778
-Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.6-git506+f1f58c10+f1f58c13ef-r0_all.ipk
+MD5Sum: 138cd02887f29573599fbdb80709f868
+SHA256sum: 494514aff52873fefba7f31cb704ab8eff11c2bf2b639d85acab4705526f724d
+Size: 15175340
+Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.6-git510+7de1e180+7de1e18598-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1892,6 +2005,53 @@ Filename: enigma2-plugin-extensions-subssupportpro_1.5.0-r0_all.ipk
 Source: enigma2-plugin-extensions-subssupportpro.bb
 Description: SubsSupportPro Enigma2 Plugin
 OE: enigma2-plugin-extensions-subssupportpro
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-transmission-stremio-dbg
+Version: 5.4.2-r0
+Section: devel
+Architecture: all
+Maintainer: dreamarabia
+MD5Sum: 9ffa03047c3f0fe242416b3366d610b7
+SHA256sum: 9a139bed556a0521ad2cf845adf8c88a96ad833108d832cc82125ab0cd90dd20
+Size: 594
+Filename: enigma2-plugin-extensions-transmission-stremio-dbg_5.4.2-r0_all.ipk
+Source: enigma2-plugin-extensions-transmission-stremio.bb
+Description: Transmission BitTorrent Client Enigma2 Plugin (dreamarabia build) - Debugging files
+OE: enigma2-plugin-extensions-transmission-stremio
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-transmission-stremio-dev
+Version: 5.4.2-r0
+Recommends: enigma2-plugin-extensions-transmission-stremio (= 5.4.2-r0), transmission-dev
+Section: devel
+Architecture: all
+Maintainer: dreamarabia
+MD5Sum: 948ea504b90deae72441b353ee13f5fe
+SHA256sum: 5366c8bf51b059e4e353b29d7e90d9b0f8d8947689fcf4297aa39087f63366fd
+Size: 634
+Filename: enigma2-plugin-extensions-transmission-stremio-dev_5.4.2-r0_all.ipk
+Source: enigma2-plugin-extensions-transmission-stremio.bb
+Description: Transmission BitTorrent Client Enigma2 Plugin (dreamarabia build) - Development files
+OE: enigma2-plugin-extensions-transmission-stremio
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-transmission-stremio
+Version: 5.4.2-r0
+Depends: transmission
+Section: multimedia
+Architecture: all
+Maintainer: dreamarabia
+MD5Sum: 400d22793313cd3e9413dbb4d7322f57
+SHA256sum: 9718c1d0db122001ee3b57fd3f8a0841192e2e63872fd9dff0be6b56a7e8138f
+Size: 8158580
+Filename: enigma2-plugin-extensions-transmission-stremio_5.4.2-r0_all.ipk
+Source: enigma2-plugin-extensions-transmission-stremio.bb
+Description: Transmission BitTorrent Client Enigma2 Plugin (dreamarabia build)
+OE: enigma2-plugin-extensions-transmission-stremio
 License: GPL-2.0-or-later
 Priority: optional
 
@@ -4466,14 +4626,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-glamouraurafhd-dbg
-Version: 14.x+git641+5775a460+5775a46e19-r0
+Version: 14.x+git645+a0c85100+a0c8510cdc-r0
 Section: devel
 Architecture: all
 Maintainer: MCelliotG
-MD5Sum: dff38098064c8870031720f5729df881
-SHA256sum: 54c8377086b09c560485e49ce3a5a20aad244699fabb88917ed4568230a96916
-Size: 628
-Filename: enigma2-plugin-skins-glamouraurafhd-dbg_14.x+git641+5775a460+5775a46e19-r0_all.ipk
+MD5Sum: e6282381a64ee39b65a856aeec00f151
+SHA256sum: 2eb01ac9c1ed0be281312a25da5a9566be050b93ba1575e40fa9af76b230e11c
+Size: 630
+Filename: enigma2-plugin-skins-glamouraurafhd-dbg_14.x+git645+a0c85100+a0c8510cdc-r0_all.ipk
 Source: enigma2-plugin-skins-glamouraurafhd.bb
 Description: Skin - Glamour Aura FHD - Debugging files
 OE: enigma2-plugin-skins-glamouraurafhd
@@ -4481,15 +4641,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-glamouraurafhd-dev
-Version: 14.x+git641+5775a460+5775a46e19-r0
-Recommends: enigma2-plugin-skins-glamouraurafhd (= 14.x+git641+5775a460+5775a46e19-r0)
+Version: 14.x+git645+a0c85100+a0c8510cdc-r0
+Recommends: enigma2-plugin-skins-glamouraurafhd (= 14.x+git645+a0c85100+a0c8510cdc-r0)
 Section: devel
 Architecture: all
 Maintainer: MCelliotG
-MD5Sum: 960e2d09f91c1a98bf2f9d8e29299149
-SHA256sum: 9fc345d5384e800d42db87f9e70e8fd5564c0f92ee892aec948aed2d6e995f13
-Size: 662
-Filename: enigma2-plugin-skins-glamouraurafhd-dev_14.x+git641+5775a460+5775a46e19-r0_all.ipk
+MD5Sum: 26a54607ba4cdf380f9cc1d5f9c5d87c
+SHA256sum: ffaf6c399666fb5ca967cca43de427843e3f77fbb3cfe8e009b2c582b3fb54d6
+Size: 664
+Filename: enigma2-plugin-skins-glamouraurafhd-dev_14.x+git645+a0c85100+a0c8510cdc-r0_all.ipk
 Source: enigma2-plugin-skins-glamouraurafhd.bb
 Description: Skin - Glamour Aura FHD - Development files
 OE: enigma2-plugin-skins-glamouraurafhd
@@ -4497,14 +4657,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-glamouraurafhd-src
-Version: 14.x+git641+5775a460+5775a46e19-r0
+Version: 14.x+git645+a0c85100+a0c8510cdc-r0
 Section: devel
 Architecture: all
 Maintainer: MCelliotG
-MD5Sum: d498e2f978661fcdcad1f8637e17036a
-SHA256sum: 0d6ed6982cfda98636da169c585a0165a90ad4da8fe28df6cf484ba9064c0ead
-Size: 81512
-Filename: enigma2-plugin-skins-glamouraurafhd-src_14.x+git641+5775a460+5775a46e19-r0_all.ipk
+MD5Sum: 5e4c16ee431ad2bdf1f1cb0be9fc49b5
+SHA256sum: 1cb508eb671f9910e13c85a150f9c482fb39dc8465506bb7861cf3ae94245a52
+Size: 82120
+Filename: enigma2-plugin-skins-glamouraurafhd-src_14.x+git645+a0c85100+a0c8510cdc-r0_all.ipk
 Source: enigma2-plugin-skins-glamouraurafhd.bb
 Description: Skin - Glamour Aura FHD - Source files
 OE: enigma2-plugin-skins-glamouraurafhd
@@ -4512,15 +4672,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-glamouraurafhd
-Version: 14.x+git641+5775a460+5775a46e19-r0
+Version: 14.x+git645+a0c85100+a0c8510cdc-r0
 Recommends: enigma2-plugin-extensions-bitrate
 Section: base
 Architecture: all
 Maintainer: MCelliotG
-MD5Sum: 304b04f2838282e4b035f6ed2926397f
-SHA256sum: 5f9100269d7da6c25414d4e725e10adde2e3615802ad4e557806c2a70792004a
-Size: 14288912
-Filename: enigma2-plugin-skins-glamouraurafhd_14.x+git641+5775a460+5775a46e19-r0_all.ipk
+MD5Sum: 16ed7d6c87dbbfe1a58e66d82969e741
+SHA256sum: 3868b43b3ef3c03855df03731c04c62b3c5bbf65b2adbec53321a7db045b4935
+Size: 14300888
+Filename: enigma2-plugin-skins-glamouraurafhd_14.x+git645+a0c85100+a0c8510cdc-r0_all.ipk
 Source: enigma2-plugin-skins-glamouraurafhd.bb
 Description: Skin - Glamour Aura FHD
 OE: enigma2-plugin-skins-glamouraurafhd
@@ -5963,6 +6123,55 @@ Source: enigma2-plugin-skins-magic.bb
 Description: Skin - Magic
 OE: enigma2-plugin-skins-magic
 License: GPL-2.0-or-later
+Priority: optional
+
+Package: hicolor-icon-theme-dbg
+Version: 0.18-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f4575bc4c3a5aa22fae93d776ac83dd5
+SHA256sum: 6ba2616ab6ead1a5bbe73b2da38c0c11d024d03683cc7845d37efc759781d539
+Size: 690
+Filename: hicolor-icon-theme-dbg_0.18-r0_all.ipk
+Source: hicolor-icon-theme_0.18.bb
+Description: Default icon theme that all icon themes automatically inherit from - Debugging files
+OE: hicolor-icon-theme
+HomePage: https://www.freedesktop.org/wiki/Software/icon-theme
+License: GPL-2.0-only
+Priority: optional
+
+Package: hicolor-icon-theme-dev
+Version: 0.18-r0
+Recommends: hicolor-icon-theme (= 0.18-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dc0dd81f12506f5983d395089a2b6134
+SHA256sum: ff19b5ac2db318942a5ff8d4cd5636e9b37ee340341340f14519311b6cbd0f42
+Size: 926
+Filename: hicolor-icon-theme-dev_0.18-r0_all.ipk
+Source: hicolor-icon-theme_0.18.bb
+Description: Default icon theme that all icon themes automatically inherit from - Development files
+OE: hicolor-icon-theme
+HomePage: https://www.freedesktop.org/wiki/Software/icon-theme
+License: GPL-2.0-only
+Priority: optional
+
+Package: hicolor-icon-theme
+Version: 0.18-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 895d99f9b15226e2d882bc51e34987de
+SHA256sum: 32ee797bcf111c6a69ade2a590adbfe83cb6fea3bbaf7b8022c98ba405252eb7
+Size: 11364
+Filename: hicolor-icon-theme_0.18-r0_all.ipk
+Source: hicolor-icon-theme_0.18.bb
+Description: Default icon theme that all icon themes automatically inherit from
+OE: hicolor-icon-theme
+HomePage: https://www.freedesktop.org/wiki/Software/icon-theme
+License: GPL-2.0-only
 Priority: optional
 
 Package: iso-codes-dbg
@@ -9096,6 +9305,23 @@ HomePage: https://github.com/herrnst/script.xbmc.lcdproc
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: liberation-fonts
+Version: 1:2.1.5-r0
+Depends: fontconfig-utils
+Section: x11/fonts
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: afa09d3338d69725590b6e3e4410f0d0
+SHA256sum: e866bb144dd8505550b07fd9315bd4f52689895bed8c22b671d10eaccce86fed
+Size: 1927234
+Filename: liberation-fonts_2.1.5-r0_all.ipk
+Source: liberation-fonts_2.1.5.bb
+Description: Liberation(tm) Fonts
+OE: liberation-fonts
+HomePage: https://github.com/liberationfonts/liberation-fonts
+License: OFL-1.1
+Priority: optional
+
 Package: mm-common-dbg
 Version: 1.0.8-r0
 Section: devel
@@ -9701,14 +9927,14 @@ License: Bitstream-Vera
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1564+a0c2f5c0+a0c2f5c440-3
+Version: 2+git1565+ef865f90+ef865f97cc-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 67e36ea72d953dfbe0d48bf7ca187e9e
-SHA256sum: 7715ccbc12ae9ef285c0a72b1e72d01525b15f2ce44c58324aa5da40562c6fc3
+MD5Sum: 4c071801a6f5b929da5e74804a0c385a
+SHA256sum: 2161ab2b34b001107da3ac80c233f032b27281413f6324d9989e33528833caef
 Size: 568
-Filename: tuxbox-common-dbg_2+git1564+a0c2f5c0+a0c2f5c440-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1565+ef865f90+ef865f97cc-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9716,15 +9942,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1564+a0c2f5c0+a0c2f5c440-3
-Recommends: tuxbox-common (>= 2+git1564+a0c2f5c0+a0c2f5c440-3), tuxbox-common (<< 2+git1564+a0c2f5c0+a0c2f5c440-3.0), xz-dev
+Version: 2+git1565+ef865f90+ef865f97cc-3
+Recommends: tuxbox-common (>= 2+git1565+ef865f90+ef865f97cc-3), tuxbox-common (<< 2+git1565+ef865f90+ef865f97cc-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: fcf6c01ec6655b35efeb2b6a67000e78
-SHA256sum: aa76c3b339340b964dd7d4674f154b851d3a1436b8d78c60e462e447b1738662
+MD5Sum: a4a5460e4ca2b7f242434c20e3236496
+SHA256sum: 5f947c4318af1b6bac1b38141fc3d7301d6afc4f7a5385e4fd988271869dae99
 Size: 622
-Filename: tuxbox-common-dev_2+git1564+a0c2f5c0+a0c2f5c440-3_all.ipk
+Filename: tuxbox-common-dev_2+git1565+ef865f90+ef865f97cc-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9732,15 +9958,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1564+a0c2f5c0+a0c2f5c440-3
+Version: 2+git1565+ef865f90+ef865f97cc-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 4cd880614a579ab7b32d86021e7b2fc2
-SHA256sum: 1699c326e76879aac0557c68dc247db32f8e75f2078337bcf9d8490ee1aba330
-Size: 69352
-Filename: tuxbox-common_2+git1564+a0c2f5c0+a0c2f5c440-3_all.ipk
+MD5Sum: 308ce309659ca72ac6b781d7a9469923
+SHA256sum: 03f7163d68bc67ad47d486b9e16bbe309a0ff0b7d8b2e98346e89092cd32b3d4
+Size: 69314
+Filename: tuxbox-common_2+git1565+ef865f90+ef865f97cc-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common

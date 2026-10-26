@@ -189,6 +189,21 @@ OE: enigma2-plugin-extensions-mediastream
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-myhits
+Version: 1.5.0
+Depends: enigma2, python3-core, python3-json, python3-crypt, python3-html, ffmpeg, enigma2-plugin-systemplugins-serviceapp, exteplayer3
+Section: extra
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: MNASR
+MD5Sum: bdb801355a72905c7dd0dca0ca4127fc
+SHA256sum: cb4ea61e18296fee82e43b9aeb35ad4c9ee8d08e730569c2c6c7841f8b3a8dc0
+Size: 1451204
+Filename: enigma2-plugin-extensions-myhits_1.5.0_cortexa15hf-neon-vfpv4_py3.14.ipk
+Source: enigma2-plugin-extensions-myhits.bb
+Description: MyHits Plugin by MNASR
+License: GPL-2.0
+Priority: optional
+
 Package: enigma2-plugin-extensions-myhybridiptv
 Version: 3.0-r1
 Depends: libc6 (>= 2.44), python3-core
