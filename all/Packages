@@ -2451,14 +2451,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dbg
-Version: 5.72-20261024-git646+49292c30+49292c3429-r1
+Version: 5.73-20261031-git647+96ed0e30+96ed0e3714-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 89b922b8a98259339283846a607bac38
-SHA256sum: 2820adbed96c8aa0c86d4cf037f571ddff28b5b4ed6cd4f2c5c560fd3348c960
+MD5Sum: 8baa8f7c9a234f04f1aac5d860156b61
+SHA256sum: eef50c38722c75e02f4350bf4b7e466a2358c5aeee33887f289889492e0be7c5
 Size: 636
-Filename: enigma2-plugin-extensions-xstreamity-dbg_5.72-20261024-git646+49292c30+49292c3429-r1_all.ipk
+Filename: enigma2-plugin-extensions-xstreamity-dbg_5.73-20261031-git647+96ed0e30+96ed0e3714-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-xstreamity
@@ -2467,15 +2467,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dev
-Version: 5.72-20261024-git646+49292c30+49292c3429-r1
-Recommends: enigma2-plugin-extensions-xstreamity (= 5.72-20261024-git646+49292c30+49292c3429-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 5.73-20261031-git647+96ed0e30+96ed0e3714-r1
+Recommends: enigma2-plugin-extensions-xstreamity (= 5.73-20261031-git647+96ed0e30+96ed0e3714-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 92f9c49afdd8124b51024ac01c0c42dc
-SHA256sum: 5a5dc56322203a1ea5a3e4a534a275d2015328543a28e9e1134e74b339f2b1e5
-Size: 708
-Filename: enigma2-plugin-extensions-xstreamity-dev_5.72-20261024-git646+49292c30+49292c3429-r1_all.ipk
+MD5Sum: c9537f901e64472f43e2d8473aa806d4
+SHA256sum: 47245b26209c711c6c7cb79626ffdca0573c688bc8db6e646e9434e2d9dab3d0
+Size: 706
+Filename: enigma2-plugin-extensions-xstreamity-dev_5.73-20261031-git647+96ed0e30+96ed0e3714-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
 OE: enigma2-plugin-extensions-xstreamity
@@ -2484,14 +2484,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-src
-Version: 5.72-20261024-git646+49292c30+49292c3429-r1
+Version: 5.73-20261031-git647+96ed0e30+96ed0e3714-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: f9f8f5640283286d2c96fd60c4df540d
-SHA256sum: 851c8d5bfcaaa3e1c6e789676b4bc88668ec7824ed1ed6fb5c4e3f7329896361
-Size: 122738
-Filename: enigma2-plugin-extensions-xstreamity-src_5.72-20261024-git646+49292c30+49292c3429-r1_all.ipk
+MD5Sum: 45b3dfed100c13b827f780cf1b772120
+SHA256sum: e66d1eebfb8adef231e8f7445c3a2641d88e77db483e6bf4df2a0d2d77aae78b
+Size: 123380
+Filename: enigma2-plugin-extensions-xstreamity-src_5.73-20261031-git647+96ed0e30+96ed0e3714-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
 OE: enigma2-plugin-extensions-xstreamity
@@ -2500,15 +2500,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity
-Version: 5.72-20261024-git646+49292c30+49292c3429-r1
+Version: 5.73-20261031-git647+96ed0e30+96ed0e3714-r1
 Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 74f3a9261b201d9f4c643a9652a53286
-SHA256sum: 9eb6e00088d2f4d1651fc6402ef31cd653348854af63aeae2ceea352496c89d7
-Size: 8846532
-Filename: enigma2-plugin-extensions-xstreamity_5.72-20261024-git646+49292c30+49292c3429-r1_all.ipk
+MD5Sum: a74914f7d00bd3b267c1f2119d5459e8
+SHA256sum: 71c448549194da990bcb4d396b2f1602229054649af11d2bbdab97013597c733
+Size: 8848120
+Filename: enigma2-plugin-extensions-xstreamity_5.73-20261031-git647+96ed0e30+96ed0e3714-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
 OE: enigma2-plugin-extensions-xstreamity
