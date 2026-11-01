@@ -817,8 +817,8 @@ Version: git99+9ab3b630+9ab3b632ff-r0
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 56a2b43fb444f9e7e7ee27aa45e85295
-SHA256sum: d37a37cbe24c90c00bfa37941c229ead7223ca543a412140a19c3f64bba6c907
+MD5Sum: 32cd40b4fba176264a43596893fa16e3
+SHA256sum: 0b67f777f4474d83dc960a2cc1ff7cabb784ba6b982b0c3559f60f3cfe160f37
 Size: 586
 Filename: enigma2-plugin-extensions-ciefpsettingspanel-dbg_git99+9ab3b630+9ab3b632ff-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpsettingspanel.bb
@@ -833,8 +833,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpsettingspanel (= git99+9
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 6f868e332da1bec66d0e5123d71b5474
-SHA256sum: 0ca3889a271ed87cdd4de72a9a4d7b769cd459f631088da8f40138b46443307d
+MD5Sum: 1a2849d2116ab539906f7cca3457212b
+SHA256sum: d68c3588ee49d89cc891b7a873cab5201052556cc3f72e592f4b1f110aea4165
 Size: 668
 Filename: enigma2-plugin-extensions-ciefpsettingspanel-dev_git99+9ab3b630+9ab3b632ff-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpsettingspanel.bb
@@ -849,60 +849,13 @@ Depends: enigma2, opkg, python3-json, python3-requests, python3-shell, tar, wget
 Section: base
 Architecture: all
 Maintainer: ciefp
-MD5Sum: c9a73373dae8d73dbed0b2ad5ac733bd
-SHA256sum: 52d50690f3873529b617c8bcd13f4f0972c7a3d1fc7489d0ab5eb5ef3724545b
-Size: 3750628
+MD5Sum: 064c5c35548d87d5c7bd381be06658a5
+SHA256sum: 83542c413c02a023227dc36ec0f29bc837b7fbc218352453e24d9c6caa8c8b80
+Size: 3750626
 Filename: enigma2-plugin-extensions-ciefpsettingspanel_git99+9ab3b630+9ab3b632ff-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpsettingspanel.bb
 Description: CiefpsettingsPanel Enigma2 Plugin Manager
 OE: enigma2-plugin-extensions-ciefpsettingspanel
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-ciefpsettingst2miabertis-dbg
-Version: git26+8a0a9470+8a0a947295-r0
-Section: devel
-Architecture: all
-Maintainer: ciefp
-MD5Sum: e70c84964a3e2aea05d907ac46c07d30
-SHA256sum: 49e6c72f6fc8540bf2c564e03cf114b02fbe9b60fcacd87b1ad4710924d21f8c
-Size: 592
-Filename: enigma2-plugin-extensions-ciefpsettingst2miabertis-dbg_git26+8a0a9470+8a0a947295-r0_all.ipk
-Source: enigma2-plugin-extensions-ciefpsettingst2miabertis.bb
-Description: CiefpSettingsT2miAbertis Enigma2 Plugin - Debugging files
-OE: enigma2-plugin-extensions-ciefpsettingst2miabertis
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-ciefpsettingst2miabertis-dev
-Version: git26+8a0a9470+8a0a947295-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpsettingst2miabertis (= git26+8a0a9470+8a0a947295-r0), opkg-dev, procps-dev, python3-shell-dev, wget-dev
-Section: devel
-Architecture: all
-Maintainer: ciefp
-MD5Sum: a95bd9cc659c5a5b20abde5bd27de906
-SHA256sum: 3829356881b6c5ee1c9bdd60876ee5a17223224e0c1eb4d923532f01aa7b7c10
-Size: 662
-Filename: enigma2-plugin-extensions-ciefpsettingst2miabertis-dev_git26+8a0a9470+8a0a947295-r0_all.ipk
-Source: enigma2-plugin-extensions-ciefpsettingst2miabertis.bb
-Description: CiefpSettingsT2miAbertis Enigma2 Plugin - Development files
-OE: enigma2-plugin-extensions-ciefpsettingst2miabertis
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-ciefpsettingst2miabertis
-Version: git26+8a0a9470+8a0a947295-r0
-Depends: enigma2, opkg, procps, python3-shell, wget
-Section: base
-Architecture: all
-Maintainer: ciefp
-MD5Sum: b6ba20e557d019b90a1db1ed8e2539ca
-SHA256sum: a037bfc076177cef1f97bc9ca272db226b0f2d56b5bccda9bbeb4764082a895f
-Size: 3251980
-Filename: enigma2-plugin-extensions-ciefpsettingst2miabertis_git26+8a0a9470+8a0a947295-r0_all.ipk
-Source: enigma2-plugin-extensions-ciefpsettingst2miabertis.bb
-Description: CiefpSettingsT2miAbertis Enigma2 Plugin
-OE: enigma2-plugin-extensions-ciefpsettingst2miabertis
 License: GPL-2.0-or-later
 Priority: optional
 
@@ -958,8 +911,8 @@ Version: git30+d1b74e30+d1b74e3ba7-r0
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 3ddb14f8f295a9c929cd070ac8c5bbfd
-SHA256sum: ffa966bbd6165fdb91ee0a5322ec472583cd5a98751d47b999fc9bfa15967445
+MD5Sum: f2a2453b8e93381e7c72830a5a779210
+SHA256sum: e37e04d3450ed24bad58beddc0d323db77ad0ca65c7830dda65653cebf3bee8c
 Size: 576
 Filename: enigma2-plugin-extensions-ciefpyoutube-dbg_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpyoutube.bb
@@ -974,8 +927,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpyoutube (= git30+d1b74e3
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 23dd981acd8dc1b9a066edac46d864c8
-SHA256sum: b62658bcf66bab6502bfefefcb59b6a3963d0c042aee11e3f2ce8868695e9fcc
+MD5Sum: 20e303c4794011e0303b178d0cf3a564
+SHA256sum: cd16f428b6e77b8141a9f9af7a4a624f9399ff2b0e9a4dfb67071a0a5713706c
 Size: 668
 Filename: enigma2-plugin-extensions-ciefpyoutube-dev_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpyoutube.bb
@@ -990,9 +943,9 @@ Depends: enigma2, enigma2-plugin-systemplugins-serviceapp, exteplayer3, python3-
 Section: base
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 8f20e3b0d6e12227bfb1d0a69a68b4df
-SHA256sum: 670cc0ceeb9cdd3ebd1b51177d66fd156a62f0eb79952be1e4b08f84f9da276e
-Size: 1839644
+MD5Sum: b3c59d3c96f577ae6927058a3ea70dc9
+SHA256sum: 8b5a0ac2f49556897a4ec0b8c825415c8afc3c1d9ed6d9c6afceba5595324c1d
+Size: 962798
 Filename: enigma2-plugin-extensions-ciefpyoutube_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpyoutube.bb
 Description: CiefpYouTube Enigma2 Plugin
@@ -1374,14 +1327,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dbg
-Version: 1.8.0-r0-git30+0eb4ced0+0eb4ced319-r0
+Version: 1.8.5-r0-git32+7ccbbb40+7ccbbb4412-r0
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 8aa3a291c14f69720fffc45fbaf0806c
-SHA256sum: 966cebfc73c7f8fda8abfce5617801500127f3d0076d127a1b8c3f128cc82a8d
+MD5Sum: 5bc472e77b5a454ccd5b67f79737bcde
+SHA256sum: d64dd38c5f891f83f9fc73fabb8498b01eb846f1387529a3334ab5e0663926a9
 Size: 704
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.8.0-r0-git30+0eb4ced0+0eb4ced319-r0_all.ipk
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.8.5-r0-git32+7ccbbb40+7ccbbb4412-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1390,15 +1343,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dev
-Version: 1.8.0-r0-git30+0eb4ced0+0eb4ced319-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.8.0-r0-git30+0eb4ced0+0eb4ced319-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
+Version: 1.8.5-r0-git32+7ccbbb40+7ccbbb4412-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.8.5-r0-git32+7ccbbb40+7ccbbb4412-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 54e560e57009b76ff9f99860fc022921
-SHA256sum: 2459c7b73d69366f4da73c2511748bc10b48563420abd60fb6e929a1ba4681e1
-Size: 842
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.8.0-r0-git30+0eb4ced0+0eb4ced319-r0_all.ipk
+MD5Sum: b8f2a3d28c77ecadde59536beb32ce03
+SHA256sum: 3886b2961e0e48ce1231ff1478aa3500c15f8b7f3d1ab3d39686529cecdbc942
+Size: 844
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.8.5-r0-git32+7ccbbb40+7ccbbb4412-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Development files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1407,15 +1360,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro
-Version: 1.8.0-r0-git30+0eb4ced0+0eb4ced319-r0
+Version: 1.8.5-r0-git32+7ccbbb40+7ccbbb4412-r0
 Depends: enigma2, python3-asyncio, python3-compression, python3-core, python3-datetime, python3-difflib, python3-fcntl, python3-html, python3-io, python3-json, python3-math, python3-netclient, python3-netserver, python3-stringold, python3-threading, python3-xml
 Section: base
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: f698c0058c18e05fd1d7470533905f19
-SHA256sum: 808a7d2be7622ffbff12cd9855a2188dc14b36439463ea64f659702d0b050380
-Size: 10404112
-Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.8.0-r0-git30+0eb4ced0+0eb4ced319-r0_all.ipk
+MD5Sum: 5c0f937810a634b41edb1a093904a314
+SHA256sum: 311cddc7581dd0943c8977a3df463b868c365b6627584d49e1d96ff235b9a1c4
+Size: 10421212
+Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.8.5-r0-git32+7ccbbb40+7ccbbb4412-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1478,9 +1431,9 @@ Version: 0.0-git69+2ef90790+2ef9079866-r0
 Section: devel
 Architecture: all
 Maintainer: azroukarim
-MD5Sum: aedbe8b9f64c9a0118ff853255b78b89
-SHA256sum: 77810c3ddebfaacc620e183f543ae280c0294d0222629528293f0748a75e5323
-Size: 590
+MD5Sum: 351e681fd25289c3d8e4b974a182ec21
+SHA256sum: 5f484aacbe21d981cc7f9ea10ed28fc6373272562c56ffb2b2b221d9a546fbc0
+Size: 588
 Filename: enigma2-plugin-extensions-iptvplayer-pro-dbg_0.0-git69+2ef90790+2ef9079866-r0_all.ipk
 Source: enigma2-plugin-extensions-iptvplayer-pro.bb
 Description: IptvPlayerPro Enigma2 Plugin - Debugging files
@@ -1494,8 +1447,8 @@ Recommends: enigma2-plugin-extensions-iptvplayer-pro (= 0.0-git69+2ef90790+2ef90
 Section: devel
 Architecture: all
 Maintainer: azroukarim
-MD5Sum: dc0082a4df858632d69457df97077b3a
-SHA256sum: 7d2987be2be7c797713289b79774dfd24a903922d1a91cde4b3c776eb02649f9
+MD5Sum: 8aa09ab262d55295e193ee515956616e
+SHA256sum: 5c9db39c71ad28f3cf72b504570c7176848369435728c2aa6a5141f29e876614
 Size: 666
 Filename: enigma2-plugin-extensions-iptvplayer-pro-dev_0.0-git69+2ef90790+2ef9079866-r0_all.ipk
 Source: enigma2-plugin-extensions-iptvplayer-pro.bb
@@ -1510,9 +1463,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: multimedia
 Architecture: all
 Maintainer: azroukarim
-MD5Sum: b516768fb98beb4931c6f92938816d24
-SHA256sum: 962abf1a7f84c5f41848983e85498ccd5659e259c19c76a4f76f01fd89c1b860
-Size: 1438392
+MD5Sum: ac1f00cb920fdf3a6aefd217611cbec5
+SHA256sum: 4e9147003d8905c889b838e7aeade30f2722c7c927c2a1d6213d8a95e03a0a3a
+Size: 1438344
 Filename: enigma2-plugin-extensions-iptvplayer-pro_0.0-git69+2ef90790+2ef9079866-r0_all.ipk
 Source: enigma2-plugin-extensions-iptvplayer-pro.bb
 Description: IptvPlayerPro Enigma2 Plugin
@@ -1792,8 +1745,8 @@ Version: 1.9-git350+3282d360+3282d36475-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 464114652fb1c6ea74adcedf3f83fc53
-SHA256sum: c0afd07d20ced4cc73470d36b9e5fd4d8d392a5a08defffc35ac50e7c4744c3f
+MD5Sum: a6c5a1c3edd9797dd5cc8ef0565378e0
+SHA256sum: a63f468c8ac619b9e3f4d31c96842c54b076199d083e252ae725c9b9328efbd9
 Size: 580
 Filename: enigma2-plugin-extensions-raiplay-dbg_1.9-git350+3282d360+3282d36475-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
@@ -1808,8 +1761,8 @@ Recommends: enigma2-plugin-extensions-raiplay (= 1.9-git350+3282d360+3282d36475-
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 9418f491644f520208915876cdddbfed
-SHA256sum: 7c29da4addaa2dce8452a4ea2e6acb2d29396d4b2c8914ddbe9f837439665e61
+MD5Sum: c826299b573644a7c062cbe933ef1beb
+SHA256sum: 6a69e278036b8af8d0e995651daac717d2f51b89f6077bad1a3a1d609c3b0c8b
 Size: 656
 Filename: enigma2-plugin-extensions-raiplay-dev_1.9-git350+3282d360+3282d36475-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
@@ -1824,9 +1777,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 37d69e2510ee5cae3e2f7ae3e2ee615e
-SHA256sum: 534a92fe655416fc893d3a366dc7c2b7880957e6fb661dffd521e57d56744a85
-Size: 6501440
+MD5Sum: 0fec31e9d81f32963c6554f89be6b87d
+SHA256sum: d5514f8751555df9420232949708ba5749759f436141e72673132a87c37e7860
+Size: 6501672
 Filename: enigma2-plugin-extensions-raiplay_1.9-git350+3282d360+3282d36475-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: RaiPlay Enigma2 Plugin
@@ -2168,8 +2121,8 @@ Version: 1.88-git1181+71cb6640+71cb664bb6-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: c0afc8bc433c42d3d0f373ad0c9e6666
-SHA256sum: 45d52b29d97da5f903ec29a04593551b830fdfa42c19751d484055631db873c4
+MD5Sum: 49a32dc879d0fb0620b0d991a532564a
+SHA256sum: 037b9c37212abd28d399af937d003bf1e939697b2c3c91f3b4fb1e6f5ec0892c
 Size: 586
 Filename: enigma2-plugin-extensions-vavoo-dbg_1.88-git1181+71cb6640+71cb664bb6-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
@@ -2184,9 +2137,9 @@ Recommends: enigma2-plugin-extensions-vavoo (= 1.88-git1181+71cb6640+71cb664bb6-
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 72c1d2d6dc2f5d3c1b5add3421b785b6
-SHA256sum: 23202e6b5beebdc7b49ae6b9e298f1e6168f661865fdb4da23d743be8b686e89
-Size: 664
+MD5Sum: b591354b2c1a86451f548f7e0e8f2c06
+SHA256sum: 09f2ad453dd79843f6fabad98dd567be27456ab8f990ba3f4cab98a0c2200d7b
+Size: 662
 Filename: enigma2-plugin-extensions-vavoo-dev_1.88-git1181+71cb6640+71cb664bb6-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin - Development files
@@ -2200,9 +2153,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 2edf5cd33a7b2185bf29d2fa0032030e
-SHA256sum: 77b6b41710002495d6fc682f80a50d8bd5e769660ff678081a5cbb09f2381c6a
-Size: 9794060
+MD5Sum: 0eebfb800a3f23ebee619a6d5a65bd76
+SHA256sum: fde093c35a45708c8996b43972771fee7a0dff0f64012df004b15d43b21b1ad3
+Size: 9794054
 Filename: enigma2-plugin-extensions-vavoo_1.88-git1181+71cb6640+71cb664bb6-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin
