@@ -100,9 +100,7 @@ SHA256sum: a8e3f17e0377b6960793b72987b1e7a76c90b87bdc7718e4bf43af7e02b97375
 Size: 1103302
 Filename: enigma2-plugin-extensions-ipaudiopro_1.9_cortexa15hf-neon-vfpv4_py3.14_ff8.0.ipk
 Source: enigma2-plugin-extensions-ipaudiopro.bb
-Description: enigma2-plugin-extensions-ipaudiopro version 1.9
- IPAudioPro is a Plugin that allows you to listen to radio streams in the
- background while watching something else
+Description: IPAudioPro allows you to listen to radio streams in the background while watching something else
 OE: enigma2-plugin-extensions-ipaudiopro
 License: Proprietary
 Priority: optional
@@ -171,6 +169,7 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-lukatv
 Version: 1.0.1
+Depends: enigma2, python3-core, python3-json, python3-crypt, python3-beautifulsoup4, python3-requests, python3-html, ffmpeg, enigma2-plugin-systemplugins-serviceapp, exteplayer3
 Section: extra
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: MNASR
@@ -180,7 +179,6 @@ Size: 3791194
 Filename: enigma2-plugin-extensions-lukatv_1.0.1_cortexa15hf-neon-vfpv4_py3.14.ipk
 Source: enigma2-plugin-extensions-lukatv.bb
 Description: LukaTV IPTV Plugin by MNASR
-Depends: enigma2, python3-core, python3-json, python3-crypt, python3-beautifulsoup4, python3-requests, python3-html, ffmpeg, enigma2-plugin-systemplugins-serviceapp, exteplayer3
 OE: enigma2-plugin-extensions-lukatv
 License: GPL-2.0
 Priority: optional
@@ -230,7 +228,7 @@ MD5Sum: fca3a975112c9a06a7fbcd7c29b96e8c
 SHA256sum: e0d0d72d2d90360cb5bcd5a0b61e813d30ac01090f8d84e54052bf9e862c7977
 Size: 20083188
 Filename: enigma2-plugin-extensions-myhybridiptv_3.0-r1_cortexa15hf-neon-vfpv4_py3.14.ipk
-Source: enigma2-plugin-extensions-myhybridiptv_2.0.bb
+Source: enigma2-plugin-extensions-myhybridiptv.bb
 Description: MyHybridIPTV Player plugin for Enigma2
  Enigma2 plugin supporting Stalker, Xtream, and M3U playlist streaming
 OE: enigma2-plugin-extensions-myhybridiptv
@@ -419,13 +417,13 @@ Version: 7.1
 Depends: python3-core, python3-image, python3-pillow, python3-requests
 Section: base
 Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Maintainer: digiteng , kitte888 & mnasr
 MD5Sum: dce9450119a1ab664abf190acd49438b
 SHA256sum: f87b6ee59b5459cd56a099417ca19e569cd2dcbed75b132ffaafd8aec1ef35a0
 Size: 2783996
 Filename: enigma2-plugin-extensions-xtraevent_v7.1_all.ipk
 Source: enigma2-plugin-extensions-xtraevent.bb
-Description: enigma2-plugin-extensions-xtraevent version git-r0
+Description: xtraEvent plugin to show extra events for enigma2 skins
 OE: enigma2-plugin-extensions-xtraevent
 License: GPL-3.0-only
 Priority: optional
