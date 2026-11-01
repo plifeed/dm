@@ -12433,8 +12433,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: d5caecfb95316d486ad0639810a65c34
-SHA256sum: 937bbe82bf7793bfb7cdad4614c915a760c2f8583cafb144d947d1c37c70e61f
+MD5Sum: 1d82381117f1a8433cb51f9b9706127d
+SHA256sum: fb772a0241480b6f0b2156886f89401468e5ec5a2e7052fddd2f90fa6176460d
 Size: 626
 Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -12449,8 +12449,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.0-git91+e
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 64ea9b89c192afb1ba5d40d24c66f8b7
-SHA256sum: 5a7d94f9de6121846e780603e8df776e5919304aa2edef874bbaf346833ec521
+MD5Sum: 6c576819873202f9e13639d488fbe712
+SHA256sum: 8fb4c03e5132429c6290d825dabfa2396f39ddc86b53d0ad7db490437f066d14
 Size: 658
 Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -12465,9 +12465,9 @@ Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc+
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 3182cdee738e68ce20247ce9e96b1c2d
-SHA256sum: 3f3bd8dad7d31b99605e3457817adba33e87db620c8a0f4926c9887043982863
-Size: 2194214
+MD5Sum: 7f77696038a074e6b35e82fbe0f976da
+SHA256sum: 2738655cbadb75287da2265a7512b0cb26d62a2cfe4c6cb148b4bf35b72745f0
+Size: 2194212
 Filename: enigma2-plugin-extensions-ciplus-helper_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2
@@ -16201,16 +16201,16 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-dbg
-Version: 3.3+git1204+ac206ec0+ac206eca78-r0
+Version: 3.3+git1211+8843acc0+8843acc8ca-r0
 Depends: enigma2-plugin-systemplugins-autobouquetsmaker
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oe-alliance team
-MD5Sum: cdca8c96015b1b631ad9679255ae168e
-SHA256sum: 2727de7de57b479af6a1af5d3f58162c11c3dec1fecff494ae31682971731d2c
+MD5Sum: 2f7aab855ecfa36e10cebef05a8cf0e0
+SHA256sum: 3db6d3647ae65d4fa139d519ce08995376996a77a3eec55c751dbfe869fdaeb6
 Size: 43860
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dbg_3.3+git1204+ac206ec0+ac206eca78-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dbg_3.3+git1211+8843acc0+8843acc8ca-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Debugging files
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
@@ -16218,15 +16218,15 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-dev
-Version: 3.3+git1204+ac206ec0+ac206eca78-r0
-Recommends: enigma2-dev, enigma2-plugin-systemplugins-autobouquetsmaker (= 3.3+git1204+ac206ec0+ac206eca78-r0), glibc-dev, python3-dev
+Version: 3.3+git1211+8843acc0+8843acc8ca-r0
+Recommends: enigma2-dev, enigma2-plugin-systemplugins-autobouquetsmaker (= 3.3+git1211+8843acc0+8843acc8ca-r0), glibc-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oe-alliance team
-MD5Sum: b7c3cb8a10d9f9ba0388822404e978a3
-SHA256sum: 2339a51bb914c22d1b6a2147007f7a0944917b0f753516f64f1eb610c5061ac5
+MD5Sum: 8bfec977fa4d471465a8409ba552d975
+SHA256sum: f671aa8589415b2fa0fb122f6ff4cdf07ee08072b7ed417f95d71584632f8d7d
 Size: 688
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dev_3.3+git1204+ac206ec0+ac206eca78-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dev_3.3+git1211+8843acc0+8843acc8ca-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Development files
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
@@ -16234,15 +16234,15 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-po
-Version: 3.3+git1204+ac206ec0+ac206eca78-r0
+Version: 3.3+git1211+8843acc0+8843acc8ca-r0
 Depends: enigma2-plugin-systemplugins-autobouquetsmaker
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oe-alliance team
-MD5Sum: 8ccb91b727743a2a514c1389f1c1665a
-SHA256sum: 8778afea8876280ecb47af2861d5efeaa05c219c12aeefcdcadcfaf8a2ab2f58
-Size: 65246
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-po_3.3+git1204+ac206ec0+ac206eca78-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 95b4f0464e52ed823b4040077b8a9460
+SHA256sum: 4a8e530c5107436f436f1f2015f515fe7f185fbd175aa5f3bc9342a62f9e4290
+Size: 65240
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-po_3.3+git1211+8843acc0+8843acc8ca-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker (translations)
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
@@ -16250,15 +16250,15 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-src
-Version: 3.3+git1204+ac206ec0+ac206eca78-r0
+Version: 3.3+git1211+8843acc0+8843acc8ca-r0
 Depends: enigma2
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oe-alliance team
-MD5Sum: 5b10a6a38e186e32b53ed0906c3ed562
-SHA256sum: f754f7611311a29e5826179f70bcafe7bb7bf548dcf221f7d50eb960e6562a25
-Size: 67566
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-src_3.3+git1204+ac206ec0+ac206eca78-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8401f3ce0c2c734eed4492bd3260f857
+SHA256sum: 4adcc8d48af8f4dba07892f47a3f674f9d155b3f2cd1335f4d7b6576a597affc
+Size: 75096
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-src_3.3+git1211+8843acc0+8843acc8ca-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Source files
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
@@ -16266,15 +16266,15 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker
-Version: 3.3+git1204+ac206ec0+ac206eca78-r0
+Version: 3.3+git1211+8843acc0+8843acc8ca-r0
 Depends: enigma2, libc6 (>= 2.44+git0+34106fee69)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oe-alliance team
-MD5Sum: 988048f3a10a20e763c512631cd56e3f
-SHA256sum: f237898721cf7e18e08477e3cc639362ccf2e460c792043e9033a7fde4f2b086
-Size: 363650
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker_3.3+git1204+ac206ec0+ac206eca78-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 2026226d75f5a97410b5e9eea479481f
+SHA256sum: 6b035ce9a088eea3659a85cbaf2088515fdfa572d1850ca3d17ec94d44453917
+Size: 386340
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker_3.3+git1211+8843acc0+8843acc8ca-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
@@ -101167,15 +101167,15 @@ License: GPL-2.0-only OR BSD-3-Clause
 Priority: optional
 
 Package: minisatip-dbg
-Version: 1.0d+git0+f25e27c3ea-r0
+Version: 1.0d+git0+2b68c46291-r0
 Recommends: glibc-dbg, libcrypto-dbg, libdvbcsa-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: e657fd5d4cf953da6d76b5af6c82bde2
-SHA256sum: 46420ec47b45504645e524ee35fbfb8e428ec07be936d3db76848808382422e1
-Size: 3161552
-Filename: minisatip-dbg_1.0d+git0+f25e27c3ea-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 83e951fafef62c9af9100496d82b589d
+SHA256sum: a722d36dca8b61ab244bc82ab22cd8e830bdd82f8dafde93dbcbc7d30da01a6d
+Size: 3161648
+Filename: minisatip-dbg_1.0d+git0+2b68c46291-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Debugging files
 OE: minisatip
@@ -101184,15 +101184,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip-dev
-Version: 1.0d+git0+f25e27c3ea-r0
-Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+f25e27c3ea-r0), openssl-dev, update-rc.d-dev
+Version: 1.0d+git0+2b68c46291-r0
+Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+2b68c46291-r0), openssl-dev, update-rc.d-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 5255a35381f0fc5b3c82af87b60ffdbb
-SHA256sum: fcb3a8cbbcd9a95a2743e4a75adf7297106fa9fe921fdd0e37b2b13d44ce91ad
-Size: 684
-Filename: minisatip-dev_1.0d+git0+f25e27c3ea-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 40af849b666bdc3ea02a4c83551ca072
+SHA256sum: 099aa26bdba508ab8c0eaf476363a640e7ffb7f5989900d63799519d123755be
+Size: 686
+Filename: minisatip-dev_1.0d+git0+2b68c46291-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Development files
 OE: minisatip
@@ -101201,16 +101201,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip
-Version: 1.0d+git0+f25e27c3ea-r0
+Version: 1.0d+git0+2b68c46291-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3), libdvbcsa1 (>= 1.1.0+git64+b84e7900+b84e790a94), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), openssl
 Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: a66ae9890e5f96dd0680f6239debd8cf
-SHA256sum: b45ea0c0d402ed11d812d3ac32e71e5f5368fc45061cd94cb06082410acd926e
-Size: 551994
-Filename: minisatip_1.0d+git0+f25e27c3ea-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6a50214ef62f504618cee2be1a929b11
+SHA256sum: da78d94d2b38bb5668a12512f11486b6aff61e9d29b94ee6679373c69e8c6bae
+Size: 551934
+Filename: minisatip_1.0d+git0+2b68c46291-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server
 OE: minisatip
