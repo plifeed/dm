@@ -300,15 +300,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: aio-grab-dbg
-Version: 2.2+git12+db83ae70+db83ae7ae0-r0
+Version: 2.2+git13+55ba9950+55ba99500a-r0
 Recommends: glibc-dbg, libgomp-dbg, libjpeg-turbo-dbg, libpng-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: PLi team
-MD5Sum: 429321e4b5bc43566eaab2674b61a611
-SHA256sum: 4beb0faa2479a141044d3662da00843058f28b7f69ae14e950862788b592cd38
-Size: 116040
-Filename: aio-grab-dbg_2.2+git12+db83ae70+db83ae7ae0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: e2d84fd891fa665b42bc0346b5d89656
+SHA256sum: 23a6e6fb2b1ccb9b4ba10c9c2b6920893de3b32e3c7beb3a55908e68586cb84f
+Size: 116124
+Filename: aio-grab-dbg_2.2+git13+55ba9950+55ba99500a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: aio-grab.bb
 Description: aio-grab version 2.2+git-r0 - Debugging files
 OE: aio-grab
@@ -316,15 +316,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: aio-grab-dev
-Version: 2.2+git12+db83ae70+db83ae7ae0-r0
-Recommends: aio-grab (= 2.2+git12+db83ae70+db83ae7ae0-r0), glibc-dev, jpeg-dev, libgomp-dev, libjpeg-turbo-dev, libpng-dev, zlib-dev
+Version: 2.2+git13+55ba9950+55ba99500a-r0
+Recommends: aio-grab (= 2.2+git13+55ba9950+55ba99500a-r0), glibc-dev, jpeg-dev, libgomp-dev, libjpeg-turbo-dev, libpng-dev, zlib-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: PLi team
-MD5Sum: 80f0656dbbec2801c101388297dca15b
-SHA256sum: 6fd7df2004cdeecab89dcf965e9dcc323d4a913560e37acee2b81ebec55b5f8c
-Size: 654
-Filename: aio-grab-dev_2.2+git12+db83ae70+db83ae7ae0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c1e44b52b932a7199e56c4627fc0ab33
+SHA256sum: 516829e36742ce23f18da081faee4e3a0180d5ae1e07221dda3c171c52af95fa
+Size: 652
+Filename: aio-grab-dev_2.2+git13+55ba9950+55ba99500a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: aio-grab.bb
 Description: aio-grab version 2.2+git-r0 - Development files
 OE: aio-grab
@@ -332,15 +332,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: aio-grab
-Version: 2.2+git12+db83ae70+db83ae7ae0-r0
+Version: 2.2+git13+55ba9950+55ba99500a-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libgomp1 (>= 16.2.0), libjpeg62 (>= 3.2.0), libpng16-16 (>= 1.6.59)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: PLi team
-MD5Sum: 20ddcfde556ccfc6d1cbaed823aa5444
-SHA256sum: b6d31b949a037a19ceca451f8dc7e3c25e9acc91262f7fc1da83122e1b19ffbc
-Size: 43358
-Filename: aio-grab_2.2+git12+db83ae70+db83ae7ae0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5d58305f6c080874f9ff6f1194265b04
+SHA256sum: 903c2f900fc9248fd53f8c3a04f41afa10fcfb1c44452c8926717802ecd8e055
+Size: 43324
+Filename: aio-grab_2.2+git13+55ba9950+55ba99500a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: aio-grab.bb
 Description: aio-grab version 2.2+git-r0
 OE: aio-grab
@@ -11764,9 +11764,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c30667cc002219cda0b2452edb49a3f
-SHA256sum: a2aaabd9454695dee5e15a61be734e1f1aa4b75861a82ae6f5e5b38b15e8f297
-Size: 636
+MD5Sum: a08376b8dd1ab64a1bd06a66f82c620b
+SHA256sum: cf4ec757f102ae08bfe0185dee15d327b7e45705738f90aa174618cfdbbe3ad6
+Size: 634
 Filename: enigma2-plugin-extensions-archivczsk-dbg_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-archivczsk.bb
 Description: ArchivCZSK enigma2 plugin (source build) - Debugging files
@@ -11780,8 +11780,8 @@ Recommends: bash-dev, enigma2-plugin-extensions-archivczsk (= 1.0-r0), enigma2-p
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5e88298f5a36d3908baf56ca27e768bd
-SHA256sum: 23fadb10285bb43ee236f354ebbfacc8271d03c46764f074dce55b4be64b1e3b
+MD5Sum: efb4bdd0112de0959d342b844a103efa
+SHA256sum: 24094e6fea75964c16a3231015140b85e463dd6100ef1d01d939a275ed74c009
 Size: 706
 Filename: enigma2-plugin-extensions-archivczsk-dev_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-archivczsk.bb
@@ -11796,9 +11796,9 @@ Depends: bash, enigma2-plugin-systemplugins-serviceapp, exteplayer3, libc6 (>= 2
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9ada36659b738e5ad9e3f808075ec048
-SHA256sum: 0c888f02cb9b1b5ca2c0602ebcb63f47584aedd651f886cf900aafda1a1dbeed
-Size: 375622
+MD5Sum: d0f5176d93d6e673c40005f584b388c6
+SHA256sum: 96bf84532405ec25d82df6e9b1e180faba10870b5967cc93f7f3238d5000376d
+Size: 371886
 Filename: enigma2-plugin-extensions-archivczsk_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-archivczsk.bb
 Description: ArchivCZSK enigma2 plugin (source build)
@@ -12604,14 +12604,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.11.02.01-git6268+74d53c00+74d53c0764-r0
+Version: 2026.11.02.02-git6273+83661520+836615257a-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4f7fdc9c440f51d1894e5c89bacd1b40
-SHA256sum: 0d24873a489ae0d7aa7f3f08fd9908724979f2671883ca5a0171f72ee574b2b4
+MD5Sum: 46953b744fc857b50066c5ad643b4385
+SHA256sum: 3b2d1d1ce446e013cfd25b37a7caa5d272dabd2b1d8c855c5430dd9e6cfd2065
 Size: 670
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.02.01-git6268+74d53c00+74d53c0764-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.02.02-git6273+83661520+836615257a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -12669,15 +12669,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.11.02.01-git6268+74d53c00+74d53c0764-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.02.01-git6268+74d53c00+74d53c0764-r0), python3-core-dev, python3-dev
+Version: 2026.11.02.02-git6273+83661520+836615257a-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.02.02-git6273+83661520+836615257a-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 00c7a2605971527fbf92d82820b77aaa
-SHA256sum: b941b43383a5dfb0a3ff02100e0d889a87da4de682c29574ee1dc4044531d7c1
+MD5Sum: 748ebcc7bb13ac95370e740a80a98839
+SHA256sum: d69dde427e4f5419c432457919ef50a39a3137fd1dcb94a0535dfded980b560c
 Size: 718
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.02.01-git6268+74d53c00+74d53c0764-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.02.02-git6273+83661520+836615257a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -12686,15 +12686,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.11.02.01-git6268+74d53c00+74d53c0764-r0
+Version: 2026.11.02.02-git6273+83661520+836615257a-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3c5b06f65877d07db3373bed99b98d8d
-SHA256sum: 3464e68e8219d4c49dc59fcedfd11a1b4002f115bfbdcb468c5ed80a2c9f91fd
-Size: 2927920
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.02.01-git6268+74d53c00+74d53c0764-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 52b73836097670a3dd9c8073c8d1813f
+SHA256sum: 25e35a2e4ad48d3b6536135df29590cffdb8c6cbbb118f165084604dba3886b6
+Size: 2927530
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.02.02-git6273+83661520+836615257a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -12703,16 +12703,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.11.02.01-git6268+74d53c00+74d53c0764-r0
+Version: 2026.11.02.02-git6273+83661520+836615257a-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9bd313b94a64feb4b65da801d743efaa
-SHA256sum: 6ef1fda49bfceb0a5d24f1487e38d969ed6617480f7f02f1df918f1f13f94057
-Size: 26797200
-Filename: enigma2-plugin-extensions-e2iplayer_2026.11.02.01-git6268+74d53c00+74d53c0764-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 9e2f316e5f7392b4647292ac334c1ec3
+SHA256sum: fd53d92b8671e4a3c6abf7686fb555d5bcda6125f4d63451e3c0f71dfed57c9e
+Size: 26812504
+Filename: enigma2-plugin-extensions-e2iplayer_2026.11.02.02-git6273+83661520+836615257a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -16249,16 +16249,16 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-dbg
-Version: 3.3+git1211+8843acc0+8843acc8ca-r0
+Version: 3.3+git1213+fb6a8500+fb6a850146-r0
 Depends: enigma2-plugin-systemplugins-autobouquetsmaker
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oe-alliance team
-MD5Sum: 2f7aab855ecfa36e10cebef05a8cf0e0
-SHA256sum: 3db6d3647ae65d4fa139d519ce08995376996a77a3eec55c751dbfe869fdaeb6
+MD5Sum: 01bf843b0e938108e80ed78fb19e7e60
+SHA256sum: d20de5380f31dc9475b68ca6c32979de020215730c7b7838b474a4773bc08203
 Size: 43860
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dbg_3.3+git1211+8843acc0+8843acc8ca-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dbg_3.3+git1213+fb6a8500+fb6a850146-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Debugging files
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
@@ -16266,15 +16266,15 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-dev
-Version: 3.3+git1211+8843acc0+8843acc8ca-r0
-Recommends: enigma2-dev, enigma2-plugin-systemplugins-autobouquetsmaker (= 3.3+git1211+8843acc0+8843acc8ca-r0), glibc-dev, python3-dev
+Version: 3.3+git1213+fb6a8500+fb6a850146-r0
+Recommends: enigma2-dev, enigma2-plugin-systemplugins-autobouquetsmaker (= 3.3+git1213+fb6a8500+fb6a850146-r0), glibc-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oe-alliance team
-MD5Sum: 8bfec977fa4d471465a8409ba552d975
-SHA256sum: f671aa8589415b2fa0fb122f6ff4cdf07ee08072b7ed417f95d71584632f8d7d
+MD5Sum: 07dfb60f70168b6e71d01ca5c1269d26
+SHA256sum: 9548eaa5ef04f714f25bb439a93858da0bb36745280909c390e3a66c97ad47f2
 Size: 688
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dev_3.3+git1211+8843acc0+8843acc8ca-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dev_3.3+git1213+fb6a8500+fb6a850146-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Development files
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
@@ -16282,15 +16282,15 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-po
-Version: 3.3+git1211+8843acc0+8843acc8ca-r0
+Version: 3.3+git1213+fb6a8500+fb6a850146-r0
 Depends: enigma2-plugin-systemplugins-autobouquetsmaker
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oe-alliance team
-MD5Sum: 95b4f0464e52ed823b4040077b8a9460
-SHA256sum: 4a8e530c5107436f436f1f2015f515fe7f185fbd175aa5f3bc9342a62f9e4290
+MD5Sum: 2e57e21b374b1060e71c7e63ece592c0
+SHA256sum: 62d615f9a6b53e1ec021a45d0ac18e4191e2089124b96521263dacc3a1ac0312
 Size: 65240
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-po_3.3+git1211+8843acc0+8843acc8ca-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-po_3.3+git1213+fb6a8500+fb6a850146-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker (translations)
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
@@ -16298,15 +16298,15 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-src
-Version: 3.3+git1211+8843acc0+8843acc8ca-r0
+Version: 3.3+git1213+fb6a8500+fb6a850146-r0
 Depends: enigma2
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oe-alliance team
-MD5Sum: 8401f3ce0c2c734eed4492bd3260f857
-SHA256sum: 4adcc8d48af8f4dba07892f47a3f674f9d155b3f2cd1335f4d7b6576a597affc
-Size: 75096
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-src_3.3+git1211+8843acc0+8843acc8ca-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: dae832c384ee74d571166210ae0e24bd
+SHA256sum: bca8f93ec159ea77e5cc296ebb5ab5b0df171cf3311e7f4a36d6f5464564d83d
+Size: 74934
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-src_3.3+git1213+fb6a8500+fb6a850146-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Source files
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
@@ -16314,15 +16314,15 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker
-Version: 3.3+git1211+8843acc0+8843acc8ca-r0
+Version: 3.3+git1213+fb6a8500+fb6a850146-r0
 Depends: enigma2, libc6 (>= 2.44+git0+34106fee69)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oe-alliance team
-MD5Sum: 2026226d75f5a97410b5e9eea479481f
-SHA256sum: 6b035ce9a088eea3659a85cbaf2088515fdfa572d1850ca3d17ec94d44453917
-Size: 386340
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker_3.3+git1211+8843acc0+8843acc8ca-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 12a421d4d533ac0c1cac08d6e9796c53
+SHA256sum: 479a30136ec8185dbb1ec3e69f068ffffa48cfb17e3bd8c5392b95168fcfb510
+Size: 386186
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker_3.3+git1213+fb6a8500+fb6a850146-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker
 OE: enigma2-plugin-systemplugins-autobouquetsmaker
@@ -59873,9 +59873,9 @@ Version: 20110114-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 36cb36fcbe402ccd404353d1b40cf5cf
-SHA256sum: f39d2feb1d395c1a7f504d9b51e6ac6b31763109f72898499fe12507d85c9855
-Size: 1924
+MD5Sum: 382d304a1cd5cf4874fe160af05790bf
+SHA256sum: 094cf87e913e90d1f0bcbdf1e53f88327aa0079da323cac1c7e121621e7485bc
+Size: 1268
 Filename: kernel-params_20110114-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kernel-params.bb
 Description: kernel-params version 20110114-r0
