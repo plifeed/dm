@@ -1740,6 +1740,52 @@ OE: enigma2-plugin-extensions-neoradio
 License: GPL-2.0-or-later
 Priority: required
 
+Package: enigma2-plugin-extensions-obsidian-mawaqit-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d15ae280df5c23c4ea4e6667e9c4a060
+SHA256sum: e1c36e73aa064d98e5f2cf6abdf24aeee2026d1a976e43be7107621617c66536
+Size: 604
+Filename: enigma2-plugin-extensions-obsidian-mawaqit-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-obsidian-mawaqit.bb
+Description: Obsidian Skin - Extension Mawaqit - Debugging files
+OE: enigma2-plugin-extensions-obsidian-mawaqit
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-obsidian-mawaqit-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-extensions-obsidian-mawaqit (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2591b83be58ae3bd4a1447f1f76c968a
+SHA256sum: 28b06b1e131ba66da4881109cee6596bbfead13f417a458c8275e344511ffd0b
+Size: 634
+Filename: enigma2-plugin-extensions-obsidian-mawaqit-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-obsidian-mawaqit.bb
+Description: Obsidian Skin - Extension Mawaqit - Development files
+OE: enigma2-plugin-extensions-obsidian-mawaqit
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-obsidian-mawaqit
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f7d78103d44b21de886f2a8237986776
+SHA256sum: 89a9496996de15228432f8161b4dd14819a2d0370976ee5cc9b870c7889175c5
+Size: 641526
+Filename: enigma2-plugin-extensions-obsidian-mawaqit_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-obsidian-mawaqit.bb
+Description: Obsidian Skin - Extension Mawaqit
+OE: enigma2-plugin-extensions-obsidian-mawaqit
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-plutotv-dbg
 Version: 1.0+git123+44da6540+44da654055-r0
 Section: devel
@@ -5102,6 +5148,144 @@ Filename: enigma2-plugin-skins-magic_1.0+git331+8b5fb840+8b5fb84750-r0_all.ipk
 Source: enigma2-plugin-skins-magic.bb
 Description: Skin - Magic
 OE: enigma2-plugin-skins-magic
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-edge-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 17ac58ed058d3ec0be8adcba40bf03d6
+SHA256sum: 815da6a81090b3a4a28ba26b97c8cd46a47e7e989272a268089af0429d566f89
+Size: 602
+Filename: enigma2-plugin-skins-obsidian-fhd-edge-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-edge.bb
+Description: Obsidian Skin - Style Pack Edge - Debugging files
+OE: enigma2-plugin-skins-obsidian-fhd-edge
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-edge-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-skins-obsidian-fhd-edge (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a380c643bee71aaba99c48ae86766cf0
+SHA256sum: 7e44b653e61de3a7292c93f8384f5a0afd247ead6ef8a80a76791c13aa063668
+Size: 634
+Filename: enigma2-plugin-skins-obsidian-fhd-edge-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-edge.bb
+Description: Obsidian Skin - Style Pack Edge - Development files
+OE: enigma2-plugin-skins-obsidian-fhd-edge
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-edge
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4bc5076bd2742570f17977323fd9dcbc
+SHA256sum: 5f51622c9693e975ae2a09ee8ec452f96fdd9d4982af051e2ec89e3b24caa0e8
+Size: 286688
+Filename: enigma2-plugin-skins-obsidian-fhd-edge_1.0-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-edge.bb
+Description: Obsidian Skin - Style Pack Edge
+OE: enigma2-plugin-skins-obsidian-fhd-edge
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-k7-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: be11c3cbd9837c7f5bb665018cb77cfa
+SHA256sum: 9177846983df2454a89addc98c4eb62a44009437e4c6e421632e4cba6c0e8c52
+Size: 600
+Filename: enigma2-plugin-skins-obsidian-fhd-k7-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-k7.bb
+Description: Obsidian Skin - Style Pack K7 - Debugging files
+OE: enigma2-plugin-skins-obsidian-fhd-k7
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-k7-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-skins-obsidian-fhd-k7 (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 602ec9130b8ec818bee8347fb9e24981
+SHA256sum: 11674a2fa77a5854280430201b51fd8ec13299063785255274ea912269f5595a
+Size: 634
+Filename: enigma2-plugin-skins-obsidian-fhd-k7-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-k7.bb
+Description: Obsidian Skin - Style Pack K7 - Development files
+OE: enigma2-plugin-skins-obsidian-fhd-k7
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-k7
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fbaadb128522ce151f262acb37415c7f
+SHA256sum: da75e8fd25aa663b8041774784b3d850c2161b2aa92ab683ea2ddad2439710ad
+Size: 366452
+Filename: enigma2-plugin-skins-obsidian-fhd-k7_1.0-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-k7.bb
+Description: Obsidian Skin - Style Pack K7
+OE: enigma2-plugin-skins-obsidian-fhd-k7
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-nova-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d1099be7de5ea326a9c5e088832c614e
+SHA256sum: ac9232c1489b7c25f0bea7f18abf60d0dbc6a891dbf98e969b982b5bd2581dad
+Size: 604
+Filename: enigma2-plugin-skins-obsidian-fhd-nova-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-nova.bb
+Description: Obsidian Skin - Style Pack Nova - Debugging files
+OE: enigma2-plugin-skins-obsidian-fhd-nova
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-nova-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-skins-obsidian-fhd-nova (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 597ee7c01d816a8b512b5282877e2685
+SHA256sum: 100bbe33bf343c5fc573f63cbc94168b8248feb376c009b557e5e72c7b3e66a7
+Size: 634
+Filename: enigma2-plugin-skins-obsidian-fhd-nova-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-nova.bb
+Description: Obsidian Skin - Style Pack Nova - Development files
+OE: enigma2-plugin-skins-obsidian-fhd-nova
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-nova
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ea49d317ce7ed7e47a2bee20b72f1a1e
+SHA256sum: 1d75e1b8b2e7d8d6e06b9bb869d36cb0f4e18ea0bea543d2d67e7b0812537cc7
+Size: 284298
+Filename: enigma2-plugin-skins-obsidian-fhd-nova_1.0-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-nova.bb
+Description: Obsidian Skin - Style Pack Nova
+OE: enigma2-plugin-skins-obsidian-fhd-nova
 License: GPL-2.0-or-later
 Priority: optional
 

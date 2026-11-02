@@ -460,22 +460,6 @@ OE: enigma2-plugin-skins-freesat-fhd
 License: open
 Priority: optional
 
-Package: enigma2-plugin-skins-vskin-1080
-Version: 2.27.20260928
-Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
-Section: base
-Architecture: all
-Maintainer: Kiddac
-MD5Sum: 962047549ac4aae68ccff3a837b6f81e
-SHA256sum: fe6c8d819cbe9728425efc8814ce0346a362daf6234ee12c3930da05d4b14b9a
-Size: 1115630
-Filename: enigma2-plugin-skins-vskin-1080_2.27.20260928_all.ipk
-Source: enigma2-plugin-skins-vskin-1080.bb
-Description: Skin - VSkin 1080 FHD
-OE: enigma2-plugin-skins-vskin-1080
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: enigma2-plugin-skins-madmax-impossible
 Version: 3.4
 Depends: enigma2-plugin-extensions-oaweather
@@ -508,21 +492,38 @@ License: open
 Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd
-Version: 1.5.2
+Version: 1.6.2
+Recommends: enigma2-plugin-extensions-oaweather, enigma2-plugin-extensions-obsidian-mawaqit, enigma2-plugin-skins-obsidian-fhd-edge, enigma2-plugin-skins-obsidian-fhd-k7, enigma2-plugin-skins-obsidian-fhd-nova
 Section: skin
 Architecture: all
 Maintainer: obsidian
-MD5Sum: 175f623b8d4e42c336656cd32b707d70
-SHA256sum: e2aa986faba294f2715b1ba0650c2b91797a141b84fa7093b90313db04137820
-Size: 2123672
-Filename: enigma2-plugin-skins-obsidian-fhd_1.5.2_all.ipk
+MD5Sum: 8c08a1dd3b74267327702cd32b7e5764
+SHA256sum: 892ef87e4b669907dd40a548a955e64d9f70f287d59334861748af89e55b8605
+Size: 2958192
+Filename: enigma2-plugin-skins-obsidian-fhd_all.ipk
 Source: enigma2-plugin-skins-obsidian-fhd.bb
 Description: Skin - Obsidian FHD
 OE: enigma2-plugin-skins-obsidian-fhd
 License: open
 Priority: optional
 
-Package: enigma2-plugin-skins-xDreamy
+Package: enigma2-plugin-skins-vskin-1080
+Version: 2.27.20260928
+Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
+Section: base
+Architecture: all
+Maintainer: Kiddac
+MD5Sum: 962047549ac4aae68ccff3a837b6f81e
+SHA256sum: fe6c8d819cbe9728425efc8814ce0346a362daf6234ee12c3930da05d4b14b9a
+Size: 1115630
+Filename: enigma2-plugin-skins-vskin-1080_2.27.20260928_all.ipk
+Source: enigma2-plugin-skins-vskin-1080.bb
+Description: Skin - VSkin 1080 FHD
+OE: enigma2-plugin-skins-vskin-1080
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-xdreamy
 Version: 7.6.0
 Depends: python3-pycairo
 Recommends: enigma2-plugin-extensions-oaweather
@@ -539,7 +540,7 @@ OE: enigma2-plugin-skins-xDreamy
 License: open
 Priority: optional
 
-Package: enigma2-plugin-skins-Youchie-PLI-FHD-For-OpenPLI-OpenBH-OpenVIX
+Package: enigma2-plugin-skins-youchie
 Version: 1.0.3
 Section: skin
 Architecture: all
