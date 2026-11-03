@@ -11764,9 +11764,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a08376b8dd1ab64a1bd06a66f82c620b
-SHA256sum: cf4ec757f102ae08bfe0185dee15d327b7e45705738f90aa174618cfdbbe3ad6
-Size: 634
+MD5Sum: 34275e58dd1661970a0288acc45f9a84
+SHA256sum: f9259b5203faf0d2d220b5e53188b24b23d4e2391ed275c3aee142e16b7d1767
+Size: 636
 Filename: enigma2-plugin-extensions-archivczsk-dbg_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-archivczsk.bb
 Description: ArchivCZSK enigma2 plugin (source build) - Debugging files
@@ -11780,8 +11780,8 @@ Recommends: bash-dev, enigma2-plugin-extensions-archivczsk (= 1.0-r0), enigma2-p
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: efb4bdd0112de0959d342b844a103efa
-SHA256sum: 24094e6fea75964c16a3231015140b85e463dd6100ef1d01d939a275ed74c009
+MD5Sum: cd29cbd31591d3b4a5d85186239763c4
+SHA256sum: 36f95e552301d52840d48f267a5298df41d2cbc9be1cfa02e8765f6ffb44dc5b
 Size: 706
 Filename: enigma2-plugin-extensions-archivczsk-dev_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-archivczsk.bb
@@ -11796,9 +11796,9 @@ Depends: bash, enigma2-plugin-systemplugins-serviceapp, exteplayer3, libc6 (>= 2
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d0f5176d93d6e673c40005f584b388c6
-SHA256sum: 96bf84532405ec25d82df6e9b1e180faba10870b5967cc93f7f3238d5000376d
-Size: 371886
+MD5Sum: b31513155edfdd48d1185137cee243a4
+SHA256sum: ec7985d420d7defd6aaa13e9a8e5ca00374c74b6d847c5ad812b3be73632dc7b
+Size: 372122
 Filename: enigma2-plugin-extensions-archivczsk_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-archivczsk.bb
 Description: ArchivCZSK enigma2 plugin (source build)
@@ -101215,15 +101215,15 @@ License: GPL-2.0-only OR BSD-3-Clause
 Priority: optional
 
 Package: minisatip-dbg
-Version: 1.0d+git0+2b68c46291-r0
+Version: 1.0d+git0+3b40870527-r0
 Recommends: glibc-dbg, libcrypto-dbg, libdvbcsa-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 83e951fafef62c9af9100496d82b589d
-SHA256sum: a722d36dca8b61ab244bc82ab22cd8e830bdd82f8dafde93dbcbc7d30da01a6d
-Size: 3161648
-Filename: minisatip-dbg_1.0d+git0+2b68c46291-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ea09dc9d8b0a0c3abfccc8f9db5ef6ea
+SHA256sum: 64fde254850fbba43aff45da531db0f24138461edca5ac8f223a56affe07899c
+Size: 3167000
+Filename: minisatip-dbg_1.0d+git0+3b40870527-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Debugging files
 OE: minisatip
@@ -101232,15 +101232,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip-dev
-Version: 1.0d+git0+2b68c46291-r0
-Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+2b68c46291-r0), openssl-dev, update-rc.d-dev
+Version: 1.0d+git0+3b40870527-r0
+Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+3b40870527-r0), openssl-dev, update-rc.d-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 40af849b666bdc3ea02a4c83551ca072
-SHA256sum: 099aa26bdba508ab8c0eaf476363a640e7ffb7f5989900d63799519d123755be
+MD5Sum: 33bf35cbe535b33fd50ddddd35dbdab7
+SHA256sum: b0312629268d0c8679b0a906ae58384863b85b929919251f59583db90974a95f
 Size: 686
-Filename: minisatip-dev_1.0d+git0+2b68c46291-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: minisatip-dev_1.0d+git0+3b40870527-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Development files
 OE: minisatip
@@ -101249,16 +101249,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip
-Version: 1.0d+git0+2b68c46291-r0
+Version: 1.0d+git0+3b40870527-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.0.3), libdvbcsa1 (>= 1.1.0+git64+b84e7900+b84e790a94), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), openssl
 Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 6a50214ef62f504618cee2be1a929b11
-SHA256sum: da78d94d2b38bb5668a12512f11486b6aff61e9d29b94ee6679373c69e8c6bae
-Size: 551934
-Filename: minisatip_1.0d+git0+2b68c46291-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 53d0c6bc7960af27ed9033ecc1a47692
+SHA256sum: 6cbb592e485db8419a62817c217dc3f3e4c204378b9f3c545e9e860f444905a4
+Size: 552618
+Filename: minisatip_1.0d+git0+3b40870527-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server
 OE: minisatip

@@ -607,14 +607,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-autobackup-dbg
-Version: 2.0+git303+2cb8d430+2cb8d4393b-r2
+Version: 2.0+git309+c83d97f0+c83d97f2f7-r2
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 734dcb156382744c0558a3c3d264ea4e
-SHA256sum: a9353efa17fda4cdc795496035816bd6652e562a5de25b32448d788e0bcbaa17
-Size: 664
-Filename: enigma2-plugin-extensions-autobackup-dbg_2.0+git303+2cb8d430+2cb8d4393b-r2_all.ipk
+MD5Sum: e3668a0b5a1165813f9d3f709c99da0d
+SHA256sum: 717e57975ab6ccdb3990b7c31828d3169570a6f36f9b34ce00838cd6829057d2
+Size: 666
+Filename: enigma2-plugin-extensions-autobackup-dbg_2.0+git309+c83d97f0+c83d97f2f7-r2_all.ipk
 Source: enigma2-plugin-extensions-autobackup.bb
 Description: Backup settings and restore them automatically - Debugging files
 OE: enigma2-plugin-extensions-autobackup
@@ -622,15 +622,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-autobackup-dev
-Version: 2.0+git303+2cb8d430+2cb8d4393b-r2
-Recommends: enigma2-plugin-extensions-autobackup (= 2.0+git303+2cb8d430+2cb8d4393b-r2), python3-core-dev, python3-dev
+Version: 2.0+git309+c83d97f0+c83d97f2f7-r2
+Recommends: enigma2-plugin-extensions-autobackup (= 2.0+git309+c83d97f0+c83d97f2f7-r2), python3-core-dev, python3-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3a4c2deb7abd0d299d5a9aac69abcaae
-SHA256sum: 951bc97b727dbc003ee9a4efd7238a252492320b6bcc4b72d24f9488001e27c9
-Size: 716
-Filename: enigma2-plugin-extensions-autobackup-dev_2.0+git303+2cb8d430+2cb8d4393b-r2_all.ipk
+MD5Sum: d8ae478985340ca9cd0a46a79f02f6d7
+SHA256sum: 65f3c69dc5ec569df2ac77487f905f3f6d2bd89ade5d758106503f1953b8b2c1
+Size: 718
+Filename: enigma2-plugin-extensions-autobackup-dev_2.0+git309+c83d97f0+c83d97f2f7-r2_all.ipk
 Source: enigma2-plugin-extensions-autobackup.bb
 Description: Backup settings and restore them automatically - Development files
 OE: enigma2-plugin-extensions-autobackup
@@ -638,15 +638,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-autobackup
-Version: 2.0+git303+2cb8d430+2cb8d4393b-r2
+Version: 2.0+git309+c83d97f0+c83d97f2f7-r2
 Depends: python3-core
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ec9bd6b6cdc687a64317186159f37efa
-SHA256sum: fccea48f4701e20169aa3d55c22469849409673e7df9de9ac1e339cd69480ee9
-Size: 79766
-Filename: enigma2-plugin-extensions-autobackup_2.0+git303+2cb8d430+2cb8d4393b-r2_all.ipk
+MD5Sum: 53dbc845694cd81ed10f839f819fbc09
+SHA256sum: 0498281ed9ab2a1b616f8afa5707d3b8beea51e08771b1c1942df77267d9ec49
+Size: 82632
+Filename: enigma2-plugin-extensions-autobackup_2.0+git309+c83d97f0+c83d97f2f7-r2_all.ipk
 Source: enigma2-plugin-extensions-autobackup.bb
 Description: Backup settings and restore them automatically
 OE: enigma2-plugin-extensions-autobackup
