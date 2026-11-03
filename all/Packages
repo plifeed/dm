@@ -860,14 +860,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles-dbg
-Version: git17+27b91310+27b9131965-r0
+Version: git18+5efc04f0+5efc04f290-r0
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: ef6e4d8ce416d639f5cab45b89c89681
-SHA256sum: 45081abcbaa7e27d475e03ba65f61380facf94be0a137f63269d7cdb292cf863
+MD5Sum: be57033727c62e0d7ce389051d75dc9e
+SHA256sum: 4596ddfa08473b0902663e75d4f6c7f9b76af446bf352aa6783b1c5daf00dfeb
 Size: 574
-Filename: enigma2-plugin-extensions-ciefpxfiles-dbg_git17+27b91310+27b9131965-r0_all.ipk
+Filename: enigma2-plugin-extensions-ciefpxfiles-dbg_git18+5efc04f0+5efc04f290-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -875,15 +875,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles-dev
-Version: git17+27b91310+27b9131965-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpxfiles (= git17+27b91310+27b9131965-r0), python3-json-dev, python3-requests-dev, python3-shell-dev, python3-six-dev
+Version: git18+5efc04f0+5efc04f290-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpxfiles (= git18+5efc04f0+5efc04f290-r0), python3-json-dev, python3-requests-dev, python3-shell-dev, python3-six-dev
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: d00112984ab4f8e5fa0aa654610a767d
-SHA256sum: dd570ef86d132b0ecaa093ceb2fa45284fc427da28c948deb57922cb4ba34718
+MD5Sum: 91f69857c8fdf66b49e2511f84eba991
+SHA256sum: 541a071da881949b7538ce7546d2110c992f2187ecdb722a228ee1a1229a3b30
 Size: 648
-Filename: enigma2-plugin-extensions-ciefpxfiles-dev_git17+27b91310+27b9131965-r0_all.ipk
+Filename: enigma2-plugin-extensions-ciefpxfiles-dev_git18+5efc04f0+5efc04f290-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -891,15 +891,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles
-Version: git17+27b91310+27b9131965-r0
+Version: git18+5efc04f0+5efc04f290-r0
 Depends: enigma2, python3-json, python3-requests, python3-shell, python3-six
 Section: base
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 96542b64d0a32fd0c2ada25b0b90679d
-SHA256sum: f0b6d8f5df6b193b6e603b843a5850b59e7a8044e7ef676101f23949a4c5aeed
-Size: 1712196
-Filename: enigma2-plugin-extensions-ciefpxfiles_git17+27b91310+27b9131965-r0_all.ipk
+MD5Sum: c0e4f7819ad57f1ec0747e7cae1decc6
+SHA256sum: 6408971acaf164ac1230d05571c43ad34983a97fe39ccd09eb27d64cecb969c1
+Size: 1729578
+Filename: enigma2-plugin-extensions-ciefpxfiles_git18+5efc04f0+5efc04f290-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -1648,13 +1648,13 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit-dev
 Version: 0.19.0-git33+d4d3c040+d4d3c047fd-r0
-Recommends: enigma2-plugin-extensions-mediathekcockpit (= 0.19.0-git33+d4d3c040+d4d3c047fd-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-cachecockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-jobcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
+Recommends: enigma2-plugin-extensions-mediathekcockpit (= 0.19.0-git33+d4d3c040+d4d3c047fd-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-cachecockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-jobcockpit-dev, enigma2-plugin-systemplugins-mountcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4363e65ec185e09a19211bf81a2dce1a
-SHA256sum: 2bcb9243d3ca5b8d9313bb94a125a8a5546c4afc2e7999095dbe0e420f81d0d6
-Size: 734
+MD5Sum: e77ab62797be2d2a955f2ced32fcc201
+SHA256sum: 09b0d40add2a838225e5def544a4ebb7cb638751487df1b93a16e46868bc96c0
+Size: 738
 Filename: enigma2-plugin-extensions-mediathekcockpit-dev_0.19.0-git33+d4d3c040+d4d3c047fd-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2 - Development files
@@ -1679,13 +1679,13 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit
 Version: 0.19.0-git33+d4d3c040+d4d3c047fd-r0
-Depends: enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-jobcockpit, enigma2-plugin-systemplugins-streamproxycockpit
+Depends: enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-jobcockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-streamproxycockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2bb78721d743ced2569de055d2f86767
-SHA256sum: de498459a416a13c0aa80c5962e4c7dfad27babcbe0f856e0dfd1c09bf174b47
-Size: 321020
+MD5Sum: e2bdcd6551d3c246a94983cd7ccb2ca3
+SHA256sum: 0118a2563df80cd27d204b77b823bd6b05a3c3765d064c9afa855cc031c92e68
+Size: 321026
 Filename: enigma2-plugin-extensions-mediathekcockpit_0.19.0-git33+d4d3c040+d4d3c047fd-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2
@@ -5894,6 +5894,53 @@ HomePage: https://github.com/DimitarCC
 License: GPL-3.0-only
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-mountcockpit-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c6c9238b0429686444738deb7d3d9d0
+SHA256sum: a437d51e2828a679191220698e42fb9cdb162b83f003408639856d13fa41e3ef
+Size: 600
+Filename: enigma2-plugin-systemplugins-mountcockpit-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-systemplugins-mountcockpit.bb
+Description: MountCockpit prebuilt package - Debugging files
+OE: enigma2-plugin-systemplugins-mountcockpit
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-mountcockpit-dev
+Version: 1.0-r0
+Recommends: bash-dev, enigma2-plugin-systemplugins-mountcockpit (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b0aa252e11f01ca0912c0bcc0d934d07
+SHA256sum: 64ebc90a8d50a6797597ba9c684bd18498062857ef13eb3b30e6266c2ae3f6af
+Size: 638
+Filename: enigma2-plugin-systemplugins-mountcockpit-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-systemplugins-mountcockpit.bb
+Description: MountCockpit prebuilt package - Development files
+OE: enigma2-plugin-systemplugins-mountcockpit
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-mountcockpit
+Version: 1.0-r0
+Depends: bash
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 610dd6ca2bab2b65bb0e1f1acbc590a3
+SHA256sum: c18c7183002066c96e1d3cd82612d70a2280bbc0dbec447480cfdeaf389bfa8f
+Size: 24244
+Filename: enigma2-plugin-systemplugins-mountcockpit_1.0-r0_all.ipk
+Source: enigma2-plugin-systemplugins-mountcockpit.bb
+Description: MountCockpit prebuilt package
+OE: enigma2-plugin-systemplugins-mountcockpit
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-streamproxycockpit-dbg
 Version: 0.3.1-git26+cafd9710+cafd971a60-r0
 Section: devel
@@ -9787,55 +9834,6 @@ Description: ISO language, territory, currency, script codes and their translati
 OE: iso-codes
 HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
 License: LGPL-2.1-or-later
-Priority: optional
-
-Package: kodi-addon-repository-kodinerds-dbg
-Version: 7.0.1.8-r0
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b956f242776a40b76013c09eaa427a43
-SHA256sum: a2beebb548650c03d57362d313ac9748a32c5fa52cd60ad19f6b9a3bcf7042d8
-Size: 666
-Filename: kodi-addon-repository-kodinerds-dbg_7.0.1.8-r0_all.ipk
-Source: kodi-addon-repository-kodinerds_7.0.1.8.bb
-Description: Kodinerds Kodi add-on repository - Debugging files
-OE: kodi-addon-repository-kodinerds
-HomePage: https://repo.kodinerds.net/
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: kodi-addon-repository-kodinerds-dev
-Version: 7.0.1.8-r0
-Recommends: kodi-addon-repository-kodinerds (= 7.0.1.8-r0)
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b3e4af4c5cd122ea9e532220bbf17aa1
-SHA256sum: 76c9237f97347675653c10c3103d7d8dfb3f291d48ca270f27e999e101ed3338
-Size: 698
-Filename: kodi-addon-repository-kodinerds-dev_7.0.1.8-r0_all.ipk
-Source: kodi-addon-repository-kodinerds_7.0.1.8.bb
-Description: Kodinerds Kodi add-on repository - Development files
-OE: kodi-addon-repository-kodinerds
-HomePage: https://repo.kodinerds.net/
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: kodi-addon-repository-kodinerds
-Version: 7.0.1.8-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 28bf3a6566dd05b11a5d4706dc9c42f3
-SHA256sum: 6a37395d8260d58305b249fe0bde6c409e9782d13899e767dfac5361c03d1ade
-Size: 444118
-Filename: kodi-addon-repository-kodinerds_7.0.1.8-r0_all.ipk
-Source: kodi-addon-repository-kodinerds_7.0.1.8.bb
-Description: Kodinerds Kodi add-on repository
-OE: kodi-addon-repository-kodinerds
-HomePage: https://repo.kodinerds.net/
-License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-repository-kus-allinone-dbg

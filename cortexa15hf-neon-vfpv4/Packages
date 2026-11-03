@@ -123660,62 +123660,62 @@ License: MIT
 Priority: optional
 
 Package: python3-anyio-dbg
-Version: 4.15.1-r0
+Version: 4.16.0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ee103a6ef54dbf1e9f05ce1399300145
-SHA256sum: 48a95607fccada2f86e12ffaefb6843616cfc783aa1eb433be3e0f30d608e313
+MD5Sum: 1618fa5971ad50497cadd7e23755b894
+SHA256sum: 3f56fce3d89f5880ad52ea0bbe4014c4fed425b05e658f87863aa7115ed515de
 Size: 636
-Filename: python3-anyio-dbg_4.15.1-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-anyio_4.15.1.bb
+Filename: python3-anyio-dbg_4.16.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-anyio_4.16.0.bb
 Description: High level compatibility layer for multiple asynchronous event loop implementations - Debugging files
 OE: python3-anyio
 License: MIT
 Priority: optional
 
 Package: python3-anyio-dev
-Version: 4.15.1-r0
-Recommends: python3-anyio (= 4.15.1-r0), python3-asyncio-dev, python3-core-dev, python3-dev, python3-idna-dev, python3-io-dev, python3-numbers-dev, python3-sniffio-dev, python3-typing-extensions-dev
+Version: 4.16.0-r0
+Recommends: python3-anyio (= 4.16.0-r0), python3-asyncio-dev, python3-core-dev, python3-dev, python3-idna-dev, python3-io-dev, python3-numbers-dev, python3-sniffio-dev, python3-typing-extensions-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d2e813a1c1888f8c55b97a7bbfd9fb87
-SHA256sum: 8ba540a38c0ff648de9d618bbe9d71722250e9b37a026158bf446b2980f6dcf8
-Size: 716
-Filename: python3-anyio-dev_4.15.1-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-anyio_4.15.1.bb
+MD5Sum: f785986067cd7370dd2f19dfa1e3daa3
+SHA256sum: 0803dd99734ed5addbfe7ea24ad181203c00aa6598dde5289aef4489179eb7ec
+Size: 714
+Filename: python3-anyio-dev_4.16.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-anyio_4.16.0.bb
 Description: High level compatibility layer for multiple asynchronous event loop implementations - Development files
 OE: python3-anyio
 License: MIT
 Priority: optional
 
 Package: python3-anyio-doc
-Version: 4.15.1-r0
+Version: 4.16.0-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1afe2686f5ebef1a09bed8954a34c77e
-SHA256sum: 8daaa7ac942ae041376eee6f945ef503c7fee99860cda67bc554b44cdac40225
-Size: 3648
-Filename: python3-anyio-doc_4.15.1-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-anyio_4.15.1.bb
+MD5Sum: 64abd520e2fd002da7cc6e91d068d5fc
+SHA256sum: 10de7b8c79fcb94d9efa06922eb4bd54d9fccd9aa89cbdb0edf02117f67bf73a
+Size: 3642
+Filename: python3-anyio-doc_4.16.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-anyio_4.16.0.bb
 Description: High level compatibility layer for multiple asynchronous event loop implementations - Documentation files
 OE: python3-anyio
 License: MIT
 Priority: optional
 
 Package: python3-anyio
-Version: 4.15.1-r0
+Version: 4.16.0-r0
 Depends: python3-asyncio, python3-core, python3-idna, python3-io, python3-numbers, python3-sniffio, python3-typing-extensions
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9795f8d61b671e6c222abfb4c482d6e5
-SHA256sum: 6e5456f217aed66953ad0fc49cf430d577cbc930466db998531960a3a3d4ab2e
-Size: 389628
-Filename: python3-anyio_4.15.1-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-anyio_4.15.1.bb
+MD5Sum: 6c1b29c92bc60d58ceaf984a61de1b18
+SHA256sum: f6e639cae0d1fab848aa579a46172b774944724e35387d4ac84f45e6b96fcfd6
+Size: 396816
+Filename: python3-anyio_4.16.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-anyio_4.16.0.bb
 Description: High level compatibility layer for multiple asynchronous event loop implementations
 OE: python3-anyio
 License: MIT
@@ -132089,47 +132089,47 @@ License: MIT
 Priority: optional
 
 Package: python3-python-multipart-dbg
-Version: 0.0.32-r0
+Version: 0.0.33-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c24f925c8acee1578f4d91b64d827be0
-SHA256sum: 5c82115407d98e77e1597255505629795127dd748df77a1f09bd1ecf912d7d13
+MD5Sum: 6d9e4e448b9fca910042f01c1c3d9962
+SHA256sum: 12b1727c2895b6eee08537a14dbfd90060e3c79367b8172397ccf23c3e7232a5
 Size: 608
-Filename: python3-python-multipart-dbg_0.0.32-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-python-multipart_0.0.32.bb
+Filename: python3-python-multipart-dbg_0.0.33-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-python-multipart_0.0.33.bb
 Description: A streaming multipart parser for Python - Debugging files
 OE: python3-python-multipart
 License: Apache-2.0
 Priority: optional
 
 Package: python3-python-multipart-dev
-Version: 0.0.32-r0
-Recommends: python3-core-dev, python3-dev, python3-python-multipart (= 0.0.32-r0)
+Version: 0.0.33-r0
+Recommends: python3-core-dev, python3-dev, python3-python-multipart (= 0.0.33-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c1d3e9379d3dd28fc9ad4582759f7e2
-SHA256sum: 8e075d923dbfa3fa1752744952191f1c7316129dcc55c66e2d20ed77dfbcdd3a
-Size: 652
-Filename: python3-python-multipart-dev_0.0.32-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-python-multipart_0.0.32.bb
+MD5Sum: e8f3cca277e840b5885eeb5d3c456633
+SHA256sum: 288521b11926a6d43c2a6ee568c9a9747ebf1820e866643455dd7758ab0a2bb5
+Size: 650
+Filename: python3-python-multipart-dev_0.0.33-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-python-multipart_0.0.33.bb
 Description: A streaming multipart parser for Python - Development files
 OE: python3-python-multipart
 License: Apache-2.0
 Priority: optional
 
 Package: python3-python-multipart
-Version: 0.0.32-r0
+Version: 0.0.33-r0
 Depends: python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2d3340775be874dc1a144c7fce83388f
-SHA256sum: ef5b881adf65c0e6ea1cea3fdf9c11b33e648dd619e2ca524748355aa246d50f
-Size: 60776
-Filename: python3-python-multipart_0.0.32-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-python-multipart_0.0.32.bb
+MD5Sum: df50f5b59146d72145a431eee71083b1
+SHA256sum: 721d17ae3c3dcfea61e364f9fac79db63aa42b3260406f6b4b3f9c5bf6521594
+Size: 64728
+Filename: python3-python-multipart_0.0.33-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-python-multipart_0.0.33.bb
 Description: A streaming multipart parser for Python
 OE: python3-python-multipart
 License: Apache-2.0
@@ -134846,15 +134846,15 @@ License: MIT
 Priority: optional
 
 Package: python3-trio-dbg
-Version: 0.34.0-r0
+Version: 0.35.0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d6a0fc4a09cde2f3692ec24416cf123
-SHA256sum: 3b30b95183dae4a31d84a8ddce324dd5e1de9521f1ebd660bb27a6b83aaa8a48
-Size: 650
-Filename: python3-trio-dbg_0.34.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-trio_0.34.0.bb
+MD5Sum: a6b7e11c0aabcbaca261100f95fcc15c
+SHA256sum: f393ef4a9b5b0891dc386cf4a6f0ddc643188659a6d70b58874f0ca1b4ad9175
+Size: 652
+Filename: python3-trio-dbg_0.35.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-trio_0.35.0.bb
 Description: A friendly Python library for async concurrency and I/O - Debugging files
 OE: python3-trio
 HomePage: https://github.com/python-trio/trio
@@ -134862,16 +134862,16 @@ License: Apache-2.0 AND MIT
 Priority: optional
 
 Package: python3-trio-dev
-Version: 0.34.0-r0
-Recommends: python3-attrs-dev, python3-core-dev, python3-dev, python3-idna-dev, python3-outcome-dev, python3-sniffio-dev, python3-sortedcontainers-dev, python3-trio (= 0.34.0-r0)
+Version: 0.35.0-r0
+Recommends: python3-attrs-dev, python3-core-dev, python3-dev, python3-idna-dev, python3-outcome-dev, python3-sniffio-dev, python3-sortedcontainers-dev, python3-trio (= 0.35.0-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d030a5eb44c4e5caea1531e01c66adaa
-SHA256sum: b8cb0df186fd5fa18294297e8778b86d64982d219102da52eb0ffe5b22e9e01f
+MD5Sum: 238338e4a8ce2ce98c60e919b2ae37c0
+SHA256sum: 75c97808d397d992fb47b2f4c9378f2869bf6b3082e8be56dfb202fcfe3202a3
 Size: 726
-Filename: python3-trio-dev_0.34.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-trio_0.34.0.bb
+Filename: python3-trio-dev_0.35.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-trio_0.35.0.bb
 Description: A friendly Python library for async concurrency and I/O - Development files
 OE: python3-trio
 HomePage: https://github.com/python-trio/trio
@@ -134879,15 +134879,15 @@ License: Apache-2.0 AND MIT
 Priority: optional
 
 Package: python3-trio-doc
-Version: 0.34.0-r0
+Version: 0.35.0-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e7bc4dbe9b2d923cb7cb31cd2dcbd390
-SHA256sum: 934b926a1c39c69fdeda6e1ae4880b50f6a95e0ea1b44879ddb0a88790ebf514
-Size: 9294
-Filename: python3-trio-doc_0.34.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-trio_0.34.0.bb
+MD5Sum: 02778353fd32eb5562d81c6da1094b13
+SHA256sum: 91fc9e8a984aa5b36db1e46cfeb73489727612d9ac4ce1f1a6c72cacb1d98abe
+Size: 9304
+Filename: python3-trio-doc_0.35.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-trio_0.35.0.bb
 Description: A friendly Python library for async concurrency and I/O - Documentation files
 OE: python3-trio
 HomePage: https://github.com/python-trio/trio
@@ -134957,16 +134957,16 @@ License: MIT
 Priority: optional
 
 Package: python3-trio
-Version: 0.34.0-r0
+Version: 0.35.0-r0
 Depends: python3-attrs, python3-core, python3-idna, python3-outcome, python3-sniffio, python3-sortedcontainers
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 30679b2e8a5b8dfda7e9e0287f18b50a
-SHA256sum: 409339d0c1929805a5b3e652c4d956d46306cfcca754e028956e2c8b6fc18e99
-Size: 1317930
-Filename: python3-trio_0.34.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-trio_0.34.0.bb
+MD5Sum: a194a27a95bebdaa6a03a20f72642ca1
+SHA256sum: dec27ed8dc0092000d44ef46da303e8bf90925b04530ceb0f35e0bc01685c114
+Size: 1322188
+Filename: python3-trio_0.35.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-trio_0.35.0.bb
 Description: A friendly Python library for async concurrency and I/O
 OE: python3-trio
 HomePage: https://github.com/python-trio/trio
@@ -136862,14 +136862,14 @@ License: MIT
 Priority: optional
 
 Package: rapidfuzz-dbg
-Version: 3.14.6+git949+09328420+0932842291-r0
+Version: 3.14.6+git951+1d7d2f00+1d7d2f071c-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4112b00d815cd41c147ca784c72e33ad
-SHA256sum: 401a2a27464707bed78d7e8249f01529cea010a678b29e146f0c66d2904bbc90
+MD5Sum: 155312ecf8dbbacfa66302d02c6f0c2a
+SHA256sum: 925fedd02c73d18e1ae94f21c43ead5d1ce55c9dbd81f799c98fe1393b027458
 Size: 654
-Filename: rapidfuzz-dbg_3.14.6+git949+09328420+0932842291-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: rapidfuzz-dbg_3.14.6+git951+1d7d2f00+1d7d2f071c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rapidfuzz.bb
 Description: rapidfuzz version 3.14.6.+git-r0 - Debugging files
 OE: rapidfuzz
@@ -136877,15 +136877,15 @@ License: MIT
 Priority: optional
 
 Package: rapidfuzz-dev
-Version: 3.14.6+git949+09328420+0932842291-r0
-Recommends: python3-core-dev, python3-dev, rapidfuzz (= 3.14.6+git949+09328420+0932842291-r0)
+Version: 3.14.6+git951+1d7d2f00+1d7d2f071c-r0
+Recommends: python3-core-dev, python3-dev, rapidfuzz (= 3.14.6+git951+1d7d2f00+1d7d2f071c-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 77f1aaa421ba1f6e956413be58dae7c5
-SHA256sum: 6acd7f3ade364c8b2d0b594e0a630f0087152de9c6178193c573368ac54a1b7f
-Size: 706
-Filename: rapidfuzz-dev_3.14.6+git949+09328420+0932842291-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: a0c380464c1990ba9085c0e2b14d6fba
+SHA256sum: 4fb1c3bede604f998fc4dae1e012102a7ea406b8eb3591997ca656db065f1162
+Size: 704
+Filename: rapidfuzz-dev_3.14.6+git951+1d7d2f00+1d7d2f071c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rapidfuzz.bb
 Description: rapidfuzz version 3.14.6.+git-r0 - Development files
 OE: rapidfuzz
@@ -136893,15 +136893,15 @@ License: MIT
 Priority: optional
 
 Package: rapidfuzz
-Version: 3.14.6+git949+09328420+0932842291-r0
+Version: 3.14.6+git951+1d7d2f00+1d7d2f071c-r0
 Depends: python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5749edc6b1fb40a2f0ce88db1d1d693e
-SHA256sum: d8e9c0ef5c69a021fe5138bd92d8feb4ff9eb6f5cd3d5a5bbeed3f52b686f019
-Size: 89042
-Filename: rapidfuzz_3.14.6+git949+09328420+0932842291-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 7dc21f314bd94e73dad44664dbb22553
+SHA256sum: babf53fdc765f5daa73bdfae08770dcef03313eeaff22376aa0627e7686d3edc
+Size: 88974
+Filename: rapidfuzz_3.14.6+git951+1d7d2f00+1d7d2f071c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rapidfuzz.bb
 Description: rapidfuzz version 3.14.6.+git-r0
 OE: rapidfuzz
