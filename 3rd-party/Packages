@@ -444,6 +444,23 @@ OE: enigma2-plugin-extensions-xtraevent
 License: GPL-3.0-only
 Priority: optional
 
+Package: enigma2-plugin-skins-aglare-fhd-pli
+Version: 7.3-r1
+Depends: enigma2-plugin-extensions-bitrate, python3-pillow, gettext
+Recommends: enigma2-plugin-extensions-oaweather
+Section: base
+Architecture: all
+Maintainer: mnasr
+MD5Sum: 749efa2444fca2ad876a94a084b4c193
+SHA256sum: 701c1d00eaaa6666c836417be3f30c27ae4feb56a4c71af92a80f6f2e453b068
+Size: 12763308
+Filename: enigma2-plugin-skins-aglare-fhd-pli_7.3_all.ipk
+Source: enigma2-plugin-skins-aglare-fhd-pli.bb
+Description: Skin - Aglare FHD
+OE: enigma2-plugin-skins-aglare-fhd-pli
+License: GPLv2+
+Priority: required
+
 Package: enigma2-plugin-skins-freesat-fhd
 Version: 1.0
 Section: base
