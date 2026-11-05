@@ -12603,6 +12603,22 @@ OE: enigma2-plugin-extensions-dlnaserver
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-e2iplayer-dbg
+Version: 2026.11.04.05-git6285+e187f140+e187f1429a-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ccc96589b0ba30b6781bef5416733ca5
+SHA256sum: 4a0b1ab874e83ec06475c85827f56769956e88b9d19f8ea95b4c8a750148535f
+Size: 670
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.04.05-git6285+e187f140+e187f1429a-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2iPlayer - Debugging files
+OE: enigma2-plugin-extensions-e2iplayer
+HomePage: https://gitlab.com/iptvplayer-for-e2/
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-e2iplayer-deps-dbg
 Version: 1.0+git47+e8cd31f0+e8cd31feef-r7
 Recommends: glibc-dbg, libavcodec-dbg, libavformat-dbg, libavutil-dbg, libcrypto-dbg, libcurl-dbg, libgcc-dbg, libpython3-dbg, libssl-dbg, libstdc++-dbg, zlib-dbg
@@ -12649,6 +12665,58 @@ Filename: enigma2-plugin-extensions-e2iplayer-deps_1.0+git47+e8cd31f0+e8cd31feef
 Source: enigma2-plugin-extensions-e2iplayer-deps.bb
 Description: Meta package for installing all dependencies for SSS' E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer-deps
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-dev
+Version: 2026.11.04.05-git6285+e187f140+e187f1429a-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.04.05-git6285+e187f140+e187f1429a-r0), python3-core-dev, python3-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a97a96e0dee1e7261b96c75f171d0d56
+SHA256sum: 8e22edb9203d4acc2948eeffaf8eb8a4230052db014e01133200e7e59b93f5fc
+Size: 718
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.04.05-git6285+e187f140+e187f1429a-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2iPlayer - Development files
+OE: enigma2-plugin-extensions-e2iplayer
+HomePage: https://gitlab.com/iptvplayer-for-e2/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer-src
+Version: 2026.11.04.05-git6285+e187f140+e187f1429a-r0
+Depends: enigma2-plugin-extensions-e2iplayer
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 35844217df28fa05bf01240289cd1d95
+SHA256sum: fab37ad1f8c63de2623a3c64c1b501864d09faaaf159310c69dcd99d3ef2d5f1
+Size: 2943074
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.04.05-git6285+e187f140+e187f1429a-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2iPlayer - Source files
+OE: enigma2-plugin-extensions-e2iplayer
+HomePage: https://gitlab.com/iptvplayer-for-e2/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-e2iplayer
+Version: 2026.11.04.05-git6285+e187f140+e187f1429a-r0
+Depends: python3-core
+Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
+Section: multimedia
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 78e72e4515de9d21ba104815d06c9489
+SHA256sum: 438f829d341fe2ed89c0bd0498e992250df719b371d34fd3b4b73d93865003d0
+Size: 26958614
+Filename: enigma2-plugin-extensions-e2iplayer_2026.11.04.05-git6285+e187f140+e187f1429a-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-e2iplayer.bb
+Description: E2iPlayer
+OE: enigma2-plugin-extensions-e2iplayer
+HomePage: https://gitlab.com/iptvplayer-for-e2/
 License: GPL-2.0-or-later
 Priority: optional
 
@@ -101147,15 +101215,15 @@ License: GPL-2.0-only OR BSD-3-Clause
 Priority: optional
 
 Package: minisatip-dbg
-Version: 1.0d+git0+3b40870527-r0
+Version: 1.0d+git0+7e5e8225ed-r0
 Recommends: glibc-dbg, libcrypto-dbg, libdvbcsa-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 8b26247fcbe440610f1bf41de2979882
-SHA256sum: f61ccaf643cee31aff1668505e42da365e9ccfeaeac5afaa9414586b1ea5422c
-Size: 3167268
-Filename: minisatip-dbg_1.0d+git0+3b40870527-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 134e57cd68fa79bed3b8f037128fde4a
+SHA256sum: 5019cd42b3b7cc86d875155fd9f6cdaa2f3d913e8ab0c23130cb250ae2e869cc
+Size: 3392432
+Filename: minisatip-dbg_1.0d+git0+7e5e8225ed-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Debugging files
 OE: minisatip
@@ -101164,15 +101232,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip-dev
-Version: 1.0d+git0+3b40870527-r0
-Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+3b40870527-r0), openssl-dev, update-rc.d-dev
+Version: 1.0d+git0+7e5e8225ed-r0
+Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+7e5e8225ed-r0), openssl-dev, update-rc.d-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 33bf35cbe535b33fd50ddddd35dbdab7
-SHA256sum: b0312629268d0c8679b0a906ae58384863b85b929919251f59583db90974a95f
-Size: 686
-Filename: minisatip-dev_1.0d+git0+3b40870527-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 63e9a28cec7ddab78b4491d3d78aa05e
+SHA256sum: 38fe4fca3eb8d12e24ba21b70ca71cf2a7d6d244be1898680d4fa4be1c4e00c0
+Size: 684
+Filename: minisatip-dev_1.0d+git0+7e5e8225ed-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Development files
 OE: minisatip
@@ -101181,16 +101249,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip
-Version: 1.0d+git0+3b40870527-r0
+Version: 1.0d+git0+7e5e8225ed-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.1.0+git64+b84e7900+b84e790a94), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), openssl
 Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 187c9ceeb7faefc609b122e4e205e271
-SHA256sum: d9c33545cd754387641294334634e9ae4ea46f3c65366ea25577cc947ae018f4
-Size: 552616
-Filename: minisatip_1.0d+git0+3b40870527-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 727f9d62b707c58b04343cdd28dbdaf1
+SHA256sum: 51992cff847f9b2dd7a012dcecc265f5ea4b747d631c39bcba78b807a0e0fdc9
+Size: 575198
+Filename: minisatip_1.0d+git0+7e5e8225ed-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server
 OE: minisatip
