@@ -13166,14 +13166,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: V0.0-git564+32a9c180+32a9c18920-r0
+Version: V0.0-git565+660d3200+660d320be0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: a30ed672de47c5ec75ed9827632a8e07
-SHA256sum: efc2a111e3de3ab2b0f8244da865d3ad81133a99b468e9dff21c680114e2b111
+MD5Sum: 673a599d5c001a0a52811e9b7e01c062
+SHA256sum: e96c03bf9047f265e5141ab3d265029e4260c0fb8279700b05d8070a82394499
 Size: 686
-Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git564+32a9c180+32a9c18920-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git565+660d3200+660d320be0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -13182,15 +13182,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: V0.0-git564+32a9c180+32a9c18920-r0
-Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git564+32a9c180+32a9c18920-r0), python3-sqlite3-dev
+Version: V0.0-git565+660d3200+660d320be0-r0
+Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git565+660d3200+660d320be0-r0), python3-sqlite3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: f6b4afc84456a4d919ed945c125d356b
-SHA256sum: 6fa5e765fbb6a4ac60afb1b1ba07a18dddc31396b05a6f3dad068512c9690e40
-Size: 738
-Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git564+32a9c180+32a9c18920-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 204cd048658bccab9cbe6f9452f18b1c
+SHA256sum: e2a70d107caacc5dc9b1252f98d1c142f3d6805caf467e8db87097d8539a0525
+Size: 734
+Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git565+660d3200+660d320be0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -13199,15 +13199,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: V0.0-git564+32a9c180+32a9c18920-r0
+Version: V0.0-git565+660d3200+660d320be0-r0
 Depends: python3-sqlite3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 57c9de44a1b8aca2126c86cc1f6137c5
-SHA256sum: df986cb6f65ecebfb5ee6d37cbfd14b38a7efd43dc669b48ae3ca0410bfe1c0e
-Size: 42610490
-Filename: enigma2-plugin-extensions-footonsat_V0.0-git564+32a9c180+32a9c18920-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 4f4a8e89a37cb25216fca10a6b1416c2
+SHA256sum: 144fb157266b314ee01487fbde276ea545c76f1bbc582a7f95f338531be120da
+Size: 42614532
+Filename: enigma2-plugin-extensions-footonsat_V0.0-git565+660d3200+660d320be0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules
 OE: enigma2-plugin-extensions-footonsat
