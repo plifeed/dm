@@ -1632,14 +1632,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-mediathekcockpit-dbg
-Version: 0.19.0-git33+d4d3c040+d4d3c047fd-r0
+Version: 0.19.1-git33+3d789ce0+3d789cefad-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7abf909c09cf21839e0f2553e71af98a
-SHA256sum: da1c2d5aca11a371693564e4408f0a716e6344ad617ab38017915465e20e2309
-Size: 648
-Filename: enigma2-plugin-extensions-mediathekcockpit-dbg_0.19.0-git33+d4d3c040+d4d3c047fd-r0_all.ipk
+MD5Sum: 0c27646a5548ae254ce3b7b35a04b03c
+SHA256sum: 32b8326e5244466b30d23722467a1c82f7a43322f125274a7d830b5e33bce4c7
+Size: 650
+Filename: enigma2-plugin-extensions-mediathekcockpit-dbg_0.19.1-git33+3d789ce0+3d789cefad-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2 - Debugging files
 OE: enigma2-plugin-extensions-mediathekcockpit
@@ -1647,15 +1647,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit-dev
-Version: 0.19.0-git33+d4d3c040+d4d3c047fd-r0
-Recommends: enigma2-plugin-extensions-mediathekcockpit (= 0.19.0-git33+d4d3c040+d4d3c047fd-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-cachecockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-mountcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
+Version: 0.19.1-git33+3d789ce0+3d789cefad-r0
+Recommends: enigma2-plugin-extensions-mediathekcockpit (= 0.19.1-git33+3d789ce0+3d789cefad-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-cachecockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-mountcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d6149ea86d7b138e103da87b9a0e51ee
-SHA256sum: c36db90fe0e2be23f70d8b1fee04311cadd82d0e13526b3e4ef36e3deb02fbe9
+MD5Sum: 6d021147fd567a5e127dd922a0f990b3
+SHA256sum: d2ebda6b6e90d0c7dd3fa10d429432f73a75f3235475dbe5665fcb4950c37c37
 Size: 734
-Filename: enigma2-plugin-extensions-mediathekcockpit-dev_0.19.0-git33+d4d3c040+d4d3c047fd-r0_all.ipk
+Filename: enigma2-plugin-extensions-mediathekcockpit-dev_0.19.1-git33+3d789ce0+3d789cefad-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2 - Development files
 OE: enigma2-plugin-extensions-mediathekcockpit
@@ -1663,14 +1663,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit-src
-Version: 0.19.0-git33+d4d3c040+d4d3c047fd-r0
+Version: 0.19.1-git33+3d789ce0+3d789cefad-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e174620e082ca89648ba0dc86330bf44
-SHA256sum: 8ce999083ccb49ff7c848fc85371027c80db6610d80377c2e7e2aadac8994853
-Size: 34572
-Filename: enigma2-plugin-extensions-mediathekcockpit-src_0.19.0-git33+d4d3c040+d4d3c047fd-r0_all.ipk
+MD5Sum: 873f5b2c3c8165f2a045e609c99cbce4
+SHA256sum: b9e5e394fb4c79169be0b9343103abbdf6114693dca142c18344b9d61e35d3ee
+Size: 33506
+Filename: enigma2-plugin-extensions-mediathekcockpit-src_0.19.1-git33+3d789ce0+3d789cefad-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2 - Source files
 OE: enigma2-plugin-extensions-mediathekcockpit
@@ -1678,16 +1678,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit
-Version: 0.19.0-git33+d4d3c040+d4d3c047fd-r0
+Version: 0.19.1-git33+3d789ce0+3d789cefad-r0
 Depends: enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-streamproxycockpit
 Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f0903a9fc39b509714c27a2d4c30b10
-SHA256sum: e0ba8f05f82a0754eb4577671c3655caab9523eae6561dccd4c5f336260ac40f
-Size: 321036
-Filename: enigma2-plugin-extensions-mediathekcockpit_0.19.0-git33+d4d3c040+d4d3c047fd-r0_all.ipk
+MD5Sum: d0f5c6e6f6eb2055591439b39fe04300
+SHA256sum: a50256322363ff0a6a09292a1b7a3bccf238c42c45b0cb1561f3dc1b403b709c
+Size: 320792
+Filename: enigma2-plugin-extensions-mediathekcockpit_0.19.1-git33+3d789ce0+3d789cefad-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2
 OE: enigma2-plugin-extensions-mediathekcockpit
@@ -1742,14 +1742,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-obsidian-mawaqit-dbg
-Version: 1.0-r0
+Version: 1.6.0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d15ae280df5c23c4ea4e6667e9c4a060
-SHA256sum: e1c36e73aa064d98e5f2cf6abdf24aeee2026d1a976e43be7107621617c66536
-Size: 604
-Filename: enigma2-plugin-extensions-obsidian-mawaqit-dbg_1.0-r0_all.ipk
+MD5Sum: 274074c11cffa6efbe435be8559fcdfd
+SHA256sum: c22cd0a7670ad517a77fdd2fa84987171118e29417fe6e0e04d8056777c1b002
+Size: 606
+Filename: enigma2-plugin-extensions-obsidian-mawaqit-dbg_1.6.0-r0_all.ipk
 Source: enigma2-plugin-extensions-obsidian-mawaqit.bb
 Description: Obsidian Skin - Extension Mawaqit - Debugging files
 OE: enigma2-plugin-extensions-obsidian-mawaqit
@@ -1757,15 +1757,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-obsidian-mawaqit-dev
-Version: 1.0-r0
-Recommends: enigma2-plugin-extensions-obsidian-mawaqit (= 1.0-r0)
+Version: 1.6.0-r0
+Recommends: enigma2-plugin-extensions-obsidian-mawaqit (= 1.6.0-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2591b83be58ae3bd4a1447f1f76c968a
-SHA256sum: 28b06b1e131ba66da4881109cee6596bbfead13f417a458c8275e344511ffd0b
-Size: 634
-Filename: enigma2-plugin-extensions-obsidian-mawaqit-dev_1.0-r0_all.ipk
+MD5Sum: 1758800eaa25f2e392917a2c7df340ff
+SHA256sum: 317b4048ec12587277425029e889a1a47ae94ac604e5f28ec84337e4a25df9cb
+Size: 636
+Filename: enigma2-plugin-extensions-obsidian-mawaqit-dev_1.6.0-r0_all.ipk
 Source: enigma2-plugin-extensions-obsidian-mawaqit.bb
 Description: Obsidian Skin - Extension Mawaqit - Development files
 OE: enigma2-plugin-extensions-obsidian-mawaqit
@@ -1773,14 +1773,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-obsidian-mawaqit
-Version: 1.0-r0
+Version: 1.6.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7d78103d44b21de886f2a8237986776
-SHA256sum: 89a9496996de15228432f8161b4dd14819a2d0370976ee5cc9b870c7889175c5
-Size: 641526
-Filename: enigma2-plugin-extensions-obsidian-mawaqit_1.0-r0_all.ipk
+MD5Sum: 71cea956406ac354ef47affa7e221d49
+SHA256sum: 2d5b5b28f564dfacaae0d9b4192b95584ba2fc827d54b9af7fce62a833733db9
+Size: 641528
+Filename: enigma2-plugin-extensions-obsidian-mawaqit_1.6.0-r0_all.ipk
 Source: enigma2-plugin-extensions-obsidian-mawaqit.bb
 Description: Obsidian Skin - Extension Mawaqit
 OE: enigma2-plugin-extensions-obsidian-mawaqit
@@ -1960,14 +1960,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-rakutentvcockpit-dbg
-Version: 0.27.2-git52+fb2b6c90+fb2b6c9556-r0
+Version: 0.27.3-git52+e903c680+e903c68271-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 68c10ed4d4ae9ae419445fdbca88b452
-SHA256sum: 82b961ca91f5df2c340115dc8925d68e5431f48124625998d8f196721624e092
+MD5Sum: 5ef3eb64e0bec208a9ae866bb35ed1c7
+SHA256sum: f2855aa5efe9c7ea369d0d45657fe0685848bcf318a75977dcbfff07e42a4f97
 Size: 646
-Filename: enigma2-plugin-extensions-rakutentvcockpit-dbg_0.27.2-git52+fb2b6c90+fb2b6c9556-r0_all.ipk
+Filename: enigma2-plugin-extensions-rakutentvcockpit-dbg_0.27.3-git52+e903c680+e903c68271-r0_all.ipk
 Source: enigma2-plugin-extensions-rakutentvcockpit.bb
 Description: RakutenTVCockpit plugin for enigma2 - Debugging files
 OE: enigma2-plugin-extensions-rakutentvcockpit
@@ -1975,15 +1975,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-rakutentvcockpit-dev
-Version: 0.27.2-git52+fb2b6c90+fb2b6c9556-r0
-Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-rakutentvcockpit (= 0.27.2-git52+fb2b6c90+fb2b6c9556-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
+Version: 0.27.3-git52+e903c680+e903c68271-r0
+Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-rakutentvcockpit (= 0.27.3-git52+e903c680+e903c68271-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 187dc514bd4e09d9ab2d840082e22cb9
-SHA256sum: 62735c49b619caa14b8eb6b5e1a2dd23f1c3ee134d4a0cedb9f01a02c03493bb
+MD5Sum: c9ddf342fc8dfcc41d2c7a3d2b44cd0d
+SHA256sum: 4aa36e5b5e54331f054e4b62772b2807eba0e6e8ebd7bc670f43e1536b8bb4a4
 Size: 730
-Filename: enigma2-plugin-extensions-rakutentvcockpit-dev_0.27.2-git52+fb2b6c90+fb2b6c9556-r0_all.ipk
+Filename: enigma2-plugin-extensions-rakutentvcockpit-dev_0.27.3-git52+e903c680+e903c68271-r0_all.ipk
 Source: enigma2-plugin-extensions-rakutentvcockpit.bb
 Description: RakutenTVCockpit plugin for enigma2 - Development files
 OE: enigma2-plugin-extensions-rakutentvcockpit
@@ -1991,14 +1991,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-rakutentvcockpit-src
-Version: 0.27.2-git52+fb2b6c90+fb2b6c9556-r0
+Version: 0.27.3-git52+e903c680+e903c68271-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 123e571a53be4e81457cffaf477f8254
-SHA256sum: c112cfe59358b9238a7378a619c03144691465633c406504f8d3b081156fa5fe
-Size: 56866
-Filename: enigma2-plugin-extensions-rakutentvcockpit-src_0.27.2-git52+fb2b6c90+fb2b6c9556-r0_all.ipk
+MD5Sum: dbd93d51d6184b2a7a4b51a3a41230ac
+SHA256sum: 3b011b6fe4759d1c4384f9fa58c2f00564b5ef1d3cca51e34b34649012e6960c
+Size: 56676
+Filename: enigma2-plugin-extensions-rakutentvcockpit-src_0.27.3-git52+e903c680+e903c68271-r0_all.ipk
 Source: enigma2-plugin-extensions-rakutentvcockpit.bb
 Description: RakutenTVCockpit plugin for enigma2 - Source files
 OE: enigma2-plugin-extensions-rakutentvcockpit
@@ -2006,16 +2006,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-rakutentvcockpit
-Version: 0.27.2-git52+fb2b6c90+fb2b6c9556-r0
+Version: 0.27.3-git52+e903c680+e903c68271-r0
 Depends: enigma2-plugin-extensions-epgimport, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-streamproxycockpit
 Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c5bb6aba6942e46d9e7d67097a57cf51
-SHA256sum: 015f8a44a0085900b55ef5263c05d5855bb8ddcf735436b77f5aec54c6275996
-Size: 351426
-Filename: enigma2-plugin-extensions-rakutentvcockpit_0.27.2-git52+fb2b6c90+fb2b6c9556-r0_all.ipk
+MD5Sum: 92eab79fda8ef8385d9f40bc675fd5c4
+SHA256sum: 03d28127ad03a916c0dd7fdb8f42520f201c75f56784c5400e4df65d7e862b1c
+Size: 351518
+Filename: enigma2-plugin-extensions-rakutentvcockpit_0.27.3-git52+e903c680+e903c68271-r0_all.ipk
 Source: enigma2-plugin-extensions-rakutentvcockpit.bb
 Description: RakutenTVCockpit plugin for enigma2
 OE: enigma2-plugin-extensions-rakutentvcockpit
@@ -5156,14 +5156,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd-edge-dbg
-Version: 1.0-r0
+Version: 1.6.3-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 17ac58ed058d3ec0be8adcba40bf03d6
-SHA256sum: 815da6a81090b3a4a28ba26b97c8cd46a47e7e989272a268089af0429d566f89
-Size: 602
-Filename: enigma2-plugin-skins-obsidian-fhd-edge-dbg_1.0-r0_all.ipk
+MD5Sum: 1c6e8285a65fd70f6ed3f68a26ee6ea2
+SHA256sum: 516e8f22ed4d5a675ca5f506d1156441711175a11871b4f7b2c1ea85f78b5fa7
+Size: 604
+Filename: enigma2-plugin-skins-obsidian-fhd-edge-dbg_1.6.3-r0_all.ipk
 Source: enigma2-plugin-skins-obsidian-fhd-edge.bb
 Description: Obsidian Skin - Style Pack Edge - Debugging files
 OE: enigma2-plugin-skins-obsidian-fhd-edge
@@ -5171,15 +5171,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd-edge-dev
-Version: 1.0-r0
-Recommends: enigma2-plugin-skins-obsidian-fhd-edge (= 1.0-r0)
+Version: 1.6.3-r0
+Recommends: enigma2-plugin-skins-obsidian-fhd-edge (= 1.6.3-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a380c643bee71aaba99c48ae86766cf0
-SHA256sum: 7e44b653e61de3a7292c93f8384f5a0afd247ead6ef8a80a76791c13aa063668
-Size: 634
-Filename: enigma2-plugin-skins-obsidian-fhd-edge-dev_1.0-r0_all.ipk
+MD5Sum: fb7855f5c70c8f365b90bc2da1dfee06
+SHA256sum: e96c0c33ca0ec989781d56ea7c046375427ba41a8b3e8c963bbf4ecca046faad
+Size: 636
+Filename: enigma2-plugin-skins-obsidian-fhd-edge-dev_1.6.3-r0_all.ipk
 Source: enigma2-plugin-skins-obsidian-fhd-edge.bb
 Description: Obsidian Skin - Style Pack Edge - Development files
 OE: enigma2-plugin-skins-obsidian-fhd-edge
@@ -5187,14 +5187,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd-edge
-Version: 1.0-r0
+Version: 1.6.3-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4bc5076bd2742570f17977323fd9dcbc
-SHA256sum: 5f51622c9693e975ae2a09ee8ec452f96fdd9d4982af051e2ec89e3b24caa0e8
-Size: 286688
-Filename: enigma2-plugin-skins-obsidian-fhd-edge_1.0-r0_all.ipk
+MD5Sum: 4ff18dcab582d71f3b34e8c6be135223
+SHA256sum: db7edb174b953682e5eea879d87bebfb07095a909f8c7e77334fc7ca61ba7b68
+Size: 286270
+Filename: enigma2-plugin-skins-obsidian-fhd-edge_1.6.3-r0_all.ipk
 Source: enigma2-plugin-skins-obsidian-fhd-edge.bb
 Description: Obsidian Skin - Style Pack Edge
 OE: enigma2-plugin-skins-obsidian-fhd-edge
@@ -5202,14 +5202,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd-k7-dbg
-Version: 1.0-r0
+Version: 1.6.3-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: be11c3cbd9837c7f5bb665018cb77cfa
-SHA256sum: 9177846983df2454a89addc98c4eb62a44009437e4c6e421632e4cba6c0e8c52
-Size: 600
-Filename: enigma2-plugin-skins-obsidian-fhd-k7-dbg_1.0-r0_all.ipk
+MD5Sum: e45aec6cb0d1ee83359f266cab757ed8
+SHA256sum: 2910794a5f39b7a19107814efd5fca195c58d988b9d353a94caa6287710e9eb8
+Size: 604
+Filename: enigma2-plugin-skins-obsidian-fhd-k7-dbg_1.6.3-r0_all.ipk
 Source: enigma2-plugin-skins-obsidian-fhd-k7.bb
 Description: Obsidian Skin - Style Pack K7 - Debugging files
 OE: enigma2-plugin-skins-obsidian-fhd-k7
@@ -5217,15 +5217,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd-k7-dev
-Version: 1.0-r0
-Recommends: enigma2-plugin-skins-obsidian-fhd-k7 (= 1.0-r0)
+Version: 1.6.3-r0
+Recommends: enigma2-plugin-skins-obsidian-fhd-k7 (= 1.6.3-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 602ec9130b8ec818bee8347fb9e24981
-SHA256sum: 11674a2fa77a5854280430201b51fd8ec13299063785255274ea912269f5595a
-Size: 634
-Filename: enigma2-plugin-skins-obsidian-fhd-k7-dev_1.0-r0_all.ipk
+MD5Sum: 57e4b12d86fc4621cacafbcd835abdeb
+SHA256sum: e91a8a0db7e03829df57ce285fd9ccc09d44a6d246fde442ecfce31dc6e991a7
+Size: 636
+Filename: enigma2-plugin-skins-obsidian-fhd-k7-dev_1.6.3-r0_all.ipk
 Source: enigma2-plugin-skins-obsidian-fhd-k7.bb
 Description: Obsidian Skin - Style Pack K7 - Development files
 OE: enigma2-plugin-skins-obsidian-fhd-k7
@@ -5233,14 +5233,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd-k7
-Version: 1.0-r0
+Version: 1.6.3-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fbaadb128522ce151f262acb37415c7f
-SHA256sum: da75e8fd25aa663b8041774784b3d850c2161b2aa92ab683ea2ddad2439710ad
-Size: 366452
-Filename: enigma2-plugin-skins-obsidian-fhd-k7_1.0-r0_all.ipk
+MD5Sum: a3b72e40682bae8c26138cabe9b6599c
+SHA256sum: 32da958238645e95d56be3bf006f36e025b09b55a7e100cff549a0e8be8cd6b6
+Size: 360954
+Filename: enigma2-plugin-skins-obsidian-fhd-k7_1.6.3-r0_all.ipk
 Source: enigma2-plugin-skins-obsidian-fhd-k7.bb
 Description: Obsidian Skin - Style Pack K7
 OE: enigma2-plugin-skins-obsidian-fhd-k7
@@ -5248,14 +5248,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd-nova-dbg
-Version: 1.0-r0
+Version: 1.6.3-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1099be7de5ea326a9c5e088832c614e
-SHA256sum: ac9232c1489b7c25f0bea7f18abf60d0dbc6a891dbf98e969b982b5bd2581dad
-Size: 604
-Filename: enigma2-plugin-skins-obsidian-fhd-nova-dbg_1.0-r0_all.ipk
+MD5Sum: f70cae0432462cb8c08c2c50b1e12945
+SHA256sum: 7bcdd0502e78904b21ced8afdc1f00690a2cd07dc93280a4b277e16c1249204d
+Size: 606
+Filename: enigma2-plugin-skins-obsidian-fhd-nova-dbg_1.6.3-r0_all.ipk
 Source: enigma2-plugin-skins-obsidian-fhd-nova.bb
 Description: Obsidian Skin - Style Pack Nova - Debugging files
 OE: enigma2-plugin-skins-obsidian-fhd-nova
@@ -5263,15 +5263,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd-nova-dev
-Version: 1.0-r0
-Recommends: enigma2-plugin-skins-obsidian-fhd-nova (= 1.0-r0)
+Version: 1.6.3-r0
+Recommends: enigma2-plugin-skins-obsidian-fhd-nova (= 1.6.3-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 597ee7c01d816a8b512b5282877e2685
-SHA256sum: 100bbe33bf343c5fc573f63cbc94168b8248feb376c009b557e5e72c7b3e66a7
-Size: 634
-Filename: enigma2-plugin-skins-obsidian-fhd-nova-dev_1.0-r0_all.ipk
+MD5Sum: ae3e32fcb5bb538fd38f0e272182d929
+SHA256sum: 2b676c5cf5115970d2fec2f84cb8d8c1567964a8a0854c1bc4bc7253d85c3119
+Size: 636
+Filename: enigma2-plugin-skins-obsidian-fhd-nova-dev_1.6.3-r0_all.ipk
 Source: enigma2-plugin-skins-obsidian-fhd-nova.bb
 Description: Obsidian Skin - Style Pack Nova - Development files
 OE: enigma2-plugin-skins-obsidian-fhd-nova
@@ -5279,17 +5279,63 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd-nova
-Version: 1.0-r0
+Version: 1.6.3-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ea49d317ce7ed7e47a2bee20b72f1a1e
-SHA256sum: 1d75e1b8b2e7d8d6e06b9bb869d36cb0f4e18ea0bea543d2d67e7b0812537cc7
+MD5Sum: bfa805f55e3a97d7ac117917c1df5aa0
+SHA256sum: 733c9ef6e1a27aca3effcb98978083eb27b21224a71cada1dbf23018af5fead6
 Size: 284298
-Filename: enigma2-plugin-skins-obsidian-fhd-nova_1.0-r0_all.ipk
+Filename: enigma2-plugin-skins-obsidian-fhd-nova_1.6.3-r0_all.ipk
 Source: enigma2-plugin-skins-obsidian-fhd-nova.bb
 Description: Obsidian Skin - Style Pack Nova
 OE: enigma2-plugin-skins-obsidian-fhd-nova
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-synthwave-dbg
+Version: 1.6.3-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: faf955cc167c64296f2811c2098df9f9
+SHA256sum: 730991aec98f39c6754d51cd4951593903d747530d347476191b48969f015a96
+Size: 612
+Filename: enigma2-plugin-skins-obsidian-fhd-synthwave-dbg_1.6.3-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-synthwave.bb
+Description: Obsidian Skin - Style Pack SynthWave - Debugging files
+OE: enigma2-plugin-skins-obsidian-fhd-synthwave
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-synthwave-dev
+Version: 1.6.3-r0
+Recommends: enigma2-plugin-skins-obsidian-fhd-synthwave (= 1.6.3-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4f6d6c4fac603efbdc762645cb3d83a6
+SHA256sum: 2ea343f03304a60301f1918ad314510e2561be0f69e508fc9ca4349bc7ddb2b0
+Size: 644
+Filename: enigma2-plugin-skins-obsidian-fhd-synthwave-dev_1.6.3-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-synthwave.bb
+Description: Obsidian Skin - Style Pack SynthWave - Development files
+OE: enigma2-plugin-skins-obsidian-fhd-synthwave
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-obsidian-fhd-synthwave
+Version: 1.6.3-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f937e7b72bfba0ca80468d5ce8e02f47
+SHA256sum: e54900471af94375e980bd2d449de7ae816df882a5934d23bc697a5db3e78657
+Size: 366552
+Filename: enigma2-plugin-skins-obsidian-fhd-synthwave_1.6.3-r0_all.ipk
+Source: enigma2-plugin-skins-obsidian-fhd-synthwave.bb
+Description: Obsidian Skin - Style Pack SynthWave
+OE: enigma2-plugin-skins-obsidian-fhd-synthwave
 License: GPL-2.0-or-later
 Priority: optional
 
@@ -5899,14 +5945,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit-dbg
-Version: 0.3.2-git27+b6c4b890+b6c4b89c97-r0
+Version: 0.3.4-git27+ed6574e0+ed6574e324-r0
 Section: devel
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 2b884bbac2c1c4f7b58d207e9bd17391
-SHA256sum: eebec82c82c415b113f0645e5ca45c659743dd5a6eda53004438bb885fdbdce9
-Size: 594
-Filename: enigma2-plugin-systemplugins-streamproxycockpit-dbg_0.3.2-git27+b6c4b890+b6c4b89c97-r0_all.ipk
+MD5Sum: 6fb737062a2946eb4288583d888970d5
+SHA256sum: bdcc35fa67b8703b56688dcad981e3f6d567f467ccff963d16ded59ec46f3a4a
+Size: 592
+Filename: enigma2-plugin-systemplugins-streamproxycockpit-dbg_0.3.4-git27+ed6574e0+ed6574e324-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-systemplugins-streamproxycockpit
@@ -5914,15 +5960,15 @@ License: GPL-3.0-only
 Priority: required
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit-dev
-Version: 0.3.2-git27+b6c4b890+b6c4b89c97-r0
-Recommends: enigma2-dev, enigma2-plugin-systemplugins-streamproxycockpit (= 0.3.2-git27+b6c4b890+b6c4b89c97-r0), python3-requests-dev
+Version: 0.3.4-git27+ed6574e0+ed6574e324-r0
+Recommends: enigma2-dev, enigma2-plugin-systemplugins-streamproxycockpit (= 0.3.4-git27+ed6574e0+ed6574e324-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 5948127853b52aba41014d7ace71951d
-SHA256sum: 909456a487ef01132abb7c8dadf6323703738bbcffea723a49203dc88e843681
+MD5Sum: 37a6b5d0a65058a197f23039436ad410
+SHA256sum: ce3465559021319bf5da95bf91f8870de2fc59274961c2773f0c933bec5a28ec
 Size: 646
-Filename: enigma2-plugin-systemplugins-streamproxycockpit-dev_0.3.2-git27+b6c4b890+b6c4b89c97-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-streamproxycockpit-dev_0.3.4-git27+ed6574e0+ed6574e324-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin - Development files
 OE: enigma2-plugin-systemplugins-streamproxycockpit
@@ -5930,15 +5976,15 @@ License: GPL-3.0-only
 Priority: required
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit
-Version: 0.3.2-git27+b6c4b890+b6c4b89c97-r0
+Version: 0.3.4-git27+ed6574e0+ed6574e324-r0
 Depends: enigma2, python3-requests
 Section: base
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: a5e34cac2bc569330c208daf21afbf95
-SHA256sum: d39dece575756d6e14a2b2674f5546153fd24b9969211893bb5c26b24b719de9
-Size: 113768
-Filename: enigma2-plugin-systemplugins-streamproxycockpit_0.3.2-git27+b6c4b890+b6c4b89c97-r0_all.ipk
+MD5Sum: 7e3f658a219748ee7a97cccebddedf51
+SHA256sum: a61652769e65e6c440bf8fb26d4e8b24e07439d7eae8980e48a039a59f64e40d
+Size: 113764
+Filename: enigma2-plugin-systemplugins-streamproxycockpit_0.3.4-git27+ed6574e0+ed6574e324-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin
 OE: enigma2-plugin-systemplugins-streamproxycockpit
