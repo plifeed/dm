@@ -5945,14 +5945,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit-dbg
-Version: 0.3.4-git27+ed6574e0+ed6574e324-r0
+Version: 0.3.5-git28+1b1c4f00+1b1c4f0c09-r0
 Section: devel
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 6fb737062a2946eb4288583d888970d5
-SHA256sum: bdcc35fa67b8703b56688dcad981e3f6d567f467ccff963d16ded59ec46f3a4a
+MD5Sum: 6cee1702aef1d167d2d71e75b94e7731
+SHA256sum: f22246602f08717714ba3e193f2b030cae513967fcdce7013cd01c12d950b721
 Size: 592
-Filename: enigma2-plugin-systemplugins-streamproxycockpit-dbg_0.3.4-git27+ed6574e0+ed6574e324-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-streamproxycockpit-dbg_0.3.5-git28+1b1c4f00+1b1c4f0c09-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-systemplugins-streamproxycockpit
@@ -5960,15 +5960,15 @@ License: GPL-3.0-only
 Priority: required
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit-dev
-Version: 0.3.4-git27+ed6574e0+ed6574e324-r0
-Recommends: enigma2-dev, enigma2-plugin-systemplugins-streamproxycockpit (= 0.3.4-git27+ed6574e0+ed6574e324-r0), python3-requests-dev
+Version: 0.3.5-git28+1b1c4f00+1b1c4f0c09-r0
+Recommends: enigma2-dev, enigma2-plugin-systemplugins-streamproxycockpit (= 0.3.5-git28+1b1c4f00+1b1c4f0c09-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 37a6b5d0a65058a197f23039436ad410
-SHA256sum: ce3465559021319bf5da95bf91f8870de2fc59274961c2773f0c933bec5a28ec
+MD5Sum: 135b7d22854ffc9f6ba4867fc819893e
+SHA256sum: 44abd5a5bf905b6af73c378da4a2632e04eced7be80daef627f4e802a3faaa52
 Size: 646
-Filename: enigma2-plugin-systemplugins-streamproxycockpit-dev_0.3.4-git27+ed6574e0+ed6574e324-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-streamproxycockpit-dev_0.3.5-git28+1b1c4f00+1b1c4f0c09-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin - Development files
 OE: enigma2-plugin-systemplugins-streamproxycockpit
@@ -5976,15 +5976,15 @@ License: GPL-3.0-only
 Priority: required
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit
-Version: 0.3.4-git27+ed6574e0+ed6574e324-r0
+Version: 0.3.5-git28+1b1c4f00+1b1c4f0c09-r0
 Depends: enigma2, python3-requests
 Section: base
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 7e3f658a219748ee7a97cccebddedf51
-SHA256sum: a61652769e65e6c440bf8fb26d4e8b24e07439d7eae8980e48a039a59f64e40d
-Size: 113764
-Filename: enigma2-plugin-systemplugins-streamproxycockpit_0.3.4-git27+ed6574e0+ed6574e324-r0_all.ipk
+MD5Sum: 55d62a34c299369c831ec9b311a46344
+SHA256sum: 5936844696150c73726111c9c0bfcf9cc8191144fc6461bfdcc150179dcad711
+Size: 114430
+Filename: enigma2-plugin-systemplugins-streamproxycockpit_0.3.5-git28+1b1c4f00+1b1c4f0c09-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin
 OE: enigma2-plugin-systemplugins-streamproxycockpit
