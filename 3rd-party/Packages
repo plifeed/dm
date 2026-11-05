@@ -509,7 +509,7 @@ Priority: optional
 
 Package: enigma2-plugin-skins-obsidian-fhd
 Version: 1.6.3
-Recommends: enigma2-plugin-extensions-oaweather, enigma2-plugin-extensions-obsidian-mawaqit, enigma2-plugin-skins-obsidian-fhd-edge, enigma2-plugin-skins-obsidian-fhd-k7, enigma2-plugin-skins-obsidian-fhd-nova, enigma2-plugin-skins-obsidian-fhd-synthwave
+Recommends: enigma2-plugin-extensions-oaweather, enigma2-plugin-skincomponents-obsidian-fhd-edge, enigma2-plugin-skincomponents-obsidian-fhd-k7, enigma2-plugin-skincomponents-obsidian-fhd-mawaqit, enigma2-plugin-skincomponents-obsidian-fhd-nova, enigma2-plugin-skincomponents-obsidian-fhd-synthwave
 Section: skin
 Architecture: all
 Maintainer: obsidian
@@ -663,16 +663,16 @@ OE: enigma2-plugin-softcams-wicardd-1.19
 License: LicenseRef-Proprietary
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-jobcockpit_0.17.0_all.ipk
-Version: 0.17.0
+Package: enigma2-plugin-systemplugins-jobcockpit
+Version: 0.17.1
 Depends: enigma2-plugin-systemplugins-fontscockpit
 Section: extra
 Architecture: all
 Maintainer: xcentaurix
-MD5Sum: 0c22e0ae5169c0523dc6cc3eb639fb9d
-SHA256sum: 2e0a8c29b76654999e9f72307507e720f28fcc3d54a108d4f7335c84e7ede770
-Size: 46326
-Filename: enigma2-plugin-systemplugins-jobcockpit_0.17.0_all.ipk
+MD5Sum: be22cdc52dffe0749403fd22b5e41d5b
+SHA256sum: 7657c7fe681901372342e1c2d088c68ffe0e8dfabd3a8f234e03460f28843ce4
+Size: 49300
+Filename: enigma2-plugin-systemplugins-jobcockpit_0.17.1_all.ipk
 Source: https://github.com/OpenCockpit
 Description: JobCockpit
 OE: enigma2-plugin-systemplugins-jobcockpit
