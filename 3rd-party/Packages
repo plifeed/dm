@@ -136,6 +136,22 @@ OE: enigma2-plugin-extensions-ipstreamer
 License: GPL-2.0
 Priority: optional
 
+Package: enigma2-plugin-extensions-iptvplayer-pro
+Version: 1.0
+Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
+Section: multimedia
+Architecture: all
+Maintainer: azroukarim
+MD5Sum: b516768fb98beb4931c6f92938816d24
+SHA256sum: 962abf1a7f84c5f41848983e85498ccd5659e259c19c76a4f76f01fd89c1b860
+Size: 1438392
+Filename: enigma2-plugin-extensions-iptvplayer-pro_0.0-git69+2ef90790+2ef9079866-r0_all.ipk
+Source: enigma2-plugin-extensions-iptvplayer-pro.bb
+Description: IptvPlayerPro Enigma2 Plugin
+OE: enigma2-plugin-extensions-iptvplayer-pro
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-iptvremote
 Version: 1.0.8-py3
 Depends: python3-json

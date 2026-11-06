@@ -1327,14 +1327,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dbg
-Version: 1.8.6-r0-git35+cb3e7f30+cb3e7f32c9-r0
+Version: 1.9.1-r0-git39+363d94a0+363d94a1cd-r0
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 9691e401a5344560f5325abb92f018aa
-SHA256sum: cfd98b9ea68d5b70dd7ec1dc5944d30225193b6c5e8c0105b30455b2e8ad4a70
+MD5Sum: 075377e2244c933dff10e79ae0d16ca6
+SHA256sum: b7b6363b630b3e392bfc4e97caf79522afaee0c60ee3ee6ec1f90120df679c7c
 Size: 704
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.8.6-r0-git35+cb3e7f30+cb3e7f32c9-r0_all.ipk
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.9.1-r0-git39+363d94a0+363d94a1cd-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1343,15 +1343,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dev
-Version: 1.8.6-r0-git35+cb3e7f30+cb3e7f32c9-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.8.6-r0-git35+cb3e7f30+cb3e7f32c9-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
+Version: 1.9.1-r0-git39+363d94a0+363d94a1cd-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.9.1-r0-git39+363d94a0+363d94a1cd-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: cbf3efa5c17e3e9de2999fc404329342
-SHA256sum: d7f8f8bc63b4711a0cf120d141091373dfa70818093bee8c9427bab9f8e59588
+MD5Sum: 4333091c7a9d3eec4c92c23dfc7fb5f5
+SHA256sum: a8ad0f18fd9e3007b310633bd926ab83628134547952e0985ec99813ba6543c9
 Size: 844
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.8.6-r0-git35+cb3e7f30+cb3e7f32c9-r0_all.ipk
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.9.1-r0-git39+363d94a0+363d94a1cd-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Development files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1360,15 +1360,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro
-Version: 1.8.6-r0-git35+cb3e7f30+cb3e7f32c9-r0
+Version: 1.9.1-r0-git39+363d94a0+363d94a1cd-r0
 Depends: enigma2, python3-asyncio, python3-compression, python3-core, python3-datetime, python3-difflib, python3-fcntl, python3-html, python3-io, python3-json, python3-math, python3-netclient, python3-netserver, python3-stringold, python3-threading, python3-xml
 Section: base
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: a2b822fb74720f2058bac3cc61203b15
-SHA256sum: 8dc7a7b3b802c912359de96ab3e51dd32c939427b5b1dfa1fffbeec147a12a50
-Size: 10452146
-Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.8.6-r0-git35+cb3e7f30+cb3e7f32c9-r0_all.ipk
+MD5Sum: 1e2589211d3342a07f40c345c4c1146c
+SHA256sum: 3f4e6adad8f533dff93fcb0f72909a47b141b29ea49cecc149302828eb261ae1
+Size: 10372232
+Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.9.1-r0-git39+363d94a0+363d94a1cd-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1423,53 +1423,6 @@ Source: enigma2-plugin-extensions-iptv-org-playlists.bb
 Description: enigma2-plugin-extensions-iptv-org-playlists version 1.0+git-r0
 OE: enigma2-plugin-extensions-iptv-org-playlists
 HomePage: https://github.com/Huevos/iptv-org-playlists-plugin-for-enigma2
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-iptvplayer-pro-dbg
-Version: 0.0-git69+2ef90790+2ef9079866-r0
-Section: devel
-Architecture: all
-Maintainer: azroukarim
-MD5Sum: aedbe8b9f64c9a0118ff853255b78b89
-SHA256sum: 77810c3ddebfaacc620e183f543ae280c0294d0222629528293f0748a75e5323
-Size: 590
-Filename: enigma2-plugin-extensions-iptvplayer-pro-dbg_0.0-git69+2ef90790+2ef9079866-r0_all.ipk
-Source: enigma2-plugin-extensions-iptvplayer-pro.bb
-Description: IptvPlayerPro Enigma2 Plugin - Debugging files
-OE: enigma2-plugin-extensions-iptvplayer-pro
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-iptvplayer-pro-dev
-Version: 0.0-git69+2ef90790+2ef9079866-r0
-Recommends: enigma2-plugin-extensions-iptvplayer-pro (= 0.0-git69+2ef90790+2ef9079866-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
-Section: devel
-Architecture: all
-Maintainer: azroukarim
-MD5Sum: dc0082a4df858632d69457df97077b3a
-SHA256sum: 7d2987be2be7c797713289b79774dfd24a903922d1a91cde4b3c776eb02649f9
-Size: 666
-Filename: enigma2-plugin-extensions-iptvplayer-pro-dev_0.0-git69+2ef90790+2ef9079866-r0_all.ipk
-Source: enigma2-plugin-extensions-iptvplayer-pro.bb
-Description: IptvPlayerPro Enigma2 Plugin - Development files
-OE: enigma2-plugin-extensions-iptvplayer-pro
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-iptvplayer-pro
-Version: 0.0-git69+2ef90790+2ef9079866-r0
-Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
-Section: multimedia
-Architecture: all
-Maintainer: azroukarim
-MD5Sum: b516768fb98beb4931c6f92938816d24
-SHA256sum: 962abf1a7f84c5f41848983e85498ccd5659e259c19c76a4f76f01fd89c1b860
-Size: 1438392
-Filename: enigma2-plugin-extensions-iptvplayer-pro_0.0-git69+2ef90790+2ef9079866-r0_all.ipk
-Source: enigma2-plugin-extensions-iptvplayer-pro.bb
-Description: IptvPlayerPro Enigma2 Plugin
-OE: enigma2-plugin-extensions-iptvplayer-pro
 License: GPL-2.0-or-later
 Priority: optional
 
@@ -1636,9 +1589,9 @@ Version: 0.19.1-git33+3d789ce0+3d789cefad-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0c27646a5548ae254ce3b7b35a04b03c
-SHA256sum: 32b8326e5244466b30d23722467a1c82f7a43322f125274a7d830b5e33bce4c7
-Size: 650
+MD5Sum: 10263f55960c021865e9f68f87287be7
+SHA256sum: 826d7864cb4c2ab7497faebe28bce363a55403722bab3f46eecccdf50df7bb80
+Size: 648
 Filename: enigma2-plugin-extensions-mediathekcockpit-dbg_0.19.1-git33+3d789ce0+3d789cefad-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2 - Debugging files
@@ -1652,8 +1605,8 @@ Recommends: enigma2-plugin-extensions-mediathekcockpit (= 0.19.1-git33+3d789ce0+
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d021147fd567a5e127dd922a0f990b3
-SHA256sum: d2ebda6b6e90d0c7dd3fa10d429432f73a75f3235475dbe5665fcb4950c37c37
+MD5Sum: 5989f5c8f76e38dffbf0775ea94e68f7
+SHA256sum: 44070735ab2efc25e6271fd739eadb7df41ec42c465e575229dd42d7a181469f
 Size: 734
 Filename: enigma2-plugin-extensions-mediathekcockpit-dev_0.19.1-git33+3d789ce0+3d789cefad-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
@@ -1667,9 +1620,9 @@ Version: 0.19.1-git33+3d789ce0+3d789cefad-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 873f5b2c3c8165f2a045e609c99cbce4
-SHA256sum: b9e5e394fb4c79169be0b9343103abbdf6114693dca142c18344b9d61e35d3ee
-Size: 33506
+MD5Sum: 4c2819a3a1950337c8f5356e9b8ad3dd
+SHA256sum: 42fc5663599eb2d8808d534bb100d7d0ee54d3a90726e4615fc829ce6c6807e6
+Size: 33512
 Filename: enigma2-plugin-extensions-mediathekcockpit-src_0.19.1-git33+3d789ce0+3d789cefad-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2 - Source files
@@ -1684,9 +1637,9 @@ Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d0f5c6e6f6eb2055591439b39fe04300
-SHA256sum: a50256322363ff0a6a09292a1b7a3bccf238c42c45b0cb1561f3dc1b403b709c
-Size: 320792
+MD5Sum: 55b47b2eb1521bc5a1a2b3712997da9e
+SHA256sum: 2c1534fe28476fc844ec0e7e428716ecce5baf491cd9430a2c2efe360521e22f
+Size: 320698
 Filename: enigma2-plugin-extensions-mediathekcockpit_0.19.1-git33+3d789ce0+3d789cefad-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2
@@ -1804,14 +1757,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotvcockpit-dbg
-Version: 0.35.3-git48+308398a0+308398a954-r0
+Version: 0.35.5-git48+dc81a920+dc81a92d10-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cdc46347dc07df9a512a1d2698be1be5
-SHA256sum: ac149ed038403b1403716e3be18752bcaf84ff879b5abd5dbf0b7bb4964a6e93
-Size: 644
-Filename: enigma2-plugin-extensions-plutotvcockpit-dbg_0.35.3-git48+308398a0+308398a954-r0_all.ipk
+MD5Sum: cf4d7071005165d56fa5c65b0ec9c3f5
+SHA256sum: df8cbdc5778f04e42b27d5882dc67df50c7dab07e2c8e8d942a94a9bfd97d813
+Size: 642
+Filename: enigma2-plugin-extensions-plutotvcockpit-dbg_0.35.5-git48+dc81a920+dc81a92d10-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotvcockpit.bb
 Description: PlutoTVCockpit plugin for enigma2 - Debugging files
 OE: enigma2-plugin-extensions-plutotvcockpit
@@ -1819,15 +1772,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotvcockpit-dev
-Version: 0.35.3-git48+308398a0+308398a954-r0
-Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-plutotvcockpit (= 0.35.3-git48+308398a0+308398a954-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
+Version: 0.35.5-git48+dc81a920+dc81a92d10-r0
+Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-plutotvcockpit (= 0.35.5-git48+dc81a920+dc81a92d10-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e963c31b993d748fc6bb4d9ce05f5697
-SHA256sum: 6ca41a6a55053f4db923c6f92403183a44a42ad38cc2927da4af568b97b144f7
-Size: 730
-Filename: enigma2-plugin-extensions-plutotvcockpit-dev_0.35.3-git48+308398a0+308398a954-r0_all.ipk
+MD5Sum: 2d24f094a14616b33f9403753b5831c3
+SHA256sum: 94110ab3c1867eebdf8a0875198d835c468697c309c96b5f5864fd3e7f9ab3b1
+Size: 726
+Filename: enigma2-plugin-extensions-plutotvcockpit-dev_0.35.5-git48+dc81a920+dc81a92d10-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotvcockpit.bb
 Description: PlutoTVCockpit plugin for enigma2 - Development files
 OE: enigma2-plugin-extensions-plutotvcockpit
@@ -1835,14 +1788,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotvcockpit-src
-Version: 0.35.3-git48+308398a0+308398a954-r0
+Version: 0.35.5-git48+dc81a920+dc81a92d10-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3ac1ee3d9a7d8aece41a6937cdbf243c
-SHA256sum: 30c1646f8fb70a733cf4189b5a54e5a642f0ad2cc31e48687e54a986d4dfbb6c
-Size: 74288
-Filename: enigma2-plugin-extensions-plutotvcockpit-src_0.35.3-git48+308398a0+308398a954-r0_all.ipk
+MD5Sum: 0a1fef3dab6eb5f9b0ae41874427410c
+SHA256sum: 04bab5defc40ac631cb19b8ce11185c853da7b05e97880b7acc438308633cbd5
+Size: 74104
+Filename: enigma2-plugin-extensions-plutotvcockpit-src_0.35.5-git48+dc81a920+dc81a92d10-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotvcockpit.bb
 Description: PlutoTVCockpit plugin for enigma2 - Source files
 OE: enigma2-plugin-extensions-plutotvcockpit
@@ -1850,16 +1803,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-plutotvcockpit
-Version: 0.35.3-git48+308398a0+308398a954-r0
+Version: 0.35.5-git48+dc81a920+dc81a92d10-r0
 Depends: enigma2-plugin-extensions-epgimport, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-streamproxycockpit
 Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 228d283bf94968c7728c0e3b8ce209cc
-SHA256sum: d98565234cd48ea0f022a4b320f7ff6c0d4b6ccfe0a2fd2946d31f1c96f8e329
-Size: 484596
-Filename: enigma2-plugin-extensions-plutotvcockpit_0.35.3-git48+308398a0+308398a954-r0_all.ipk
+MD5Sum: 80b334d4343b042f424a9ed7bcd9913a
+SHA256sum: 62960a2ec171370984d43cf5f7fe7e00e12492b6f7efc72c93ea96778980ca2d
+Size: 484312
+Filename: enigma2-plugin-extensions-plutotvcockpit_0.35.5-git48+dc81a920+dc81a92d10-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotvcockpit.bb
 Description: PlutoTVCockpit plugin for enigma2
 OE: enigma2-plugin-extensions-plutotvcockpit
@@ -1918,8 +1871,8 @@ Version: 0.27.3-git52+e903c680+e903c68271-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5ef3eb64e0bec208a9ae866bb35ed1c7
-SHA256sum: f2855aa5efe9c7ea369d0d45657fe0685848bcf318a75977dcbfff07e42a4f97
+MD5Sum: 1326603fc34dce6a154b66a5ef888f53
+SHA256sum: 4d46e9d3e2e6dbffbfaad4867ad8c9c3f7e20ee65a39b9fc748ea186a7623f7c
 Size: 646
 Filename: enigma2-plugin-extensions-rakutentvcockpit-dbg_0.27.3-git52+e903c680+e903c68271-r0_all.ipk
 Source: enigma2-plugin-extensions-rakutentvcockpit.bb
@@ -1934,8 +1887,8 @@ Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-r
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c9ddf342fc8dfcc41d2c7a3d2b44cd0d
-SHA256sum: 4aa36e5b5e54331f054e4b62772b2807eba0e6e8ebd7bc670f43e1536b8bb4a4
+MD5Sum: 4728a5798f751ff2949c5f827ef5f967
+SHA256sum: 6d63c299a7622e03bbd385308bc7d6dd5e68e475b8688b26aa73b0bdb6f64cfc
 Size: 730
 Filename: enigma2-plugin-extensions-rakutentvcockpit-dev_0.27.3-git52+e903c680+e903c68271-r0_all.ipk
 Source: enigma2-plugin-extensions-rakutentvcockpit.bb
@@ -1949,9 +1902,9 @@ Version: 0.27.3-git52+e903c680+e903c68271-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dbd93d51d6184b2a7a4b51a3a41230ac
-SHA256sum: 3b011b6fe4759d1c4384f9fa58c2f00564b5ef1d3cca51e34b34649012e6960c
-Size: 56676
+MD5Sum: c885155aca68b8de15c9d9d78ff9702c
+SHA256sum: 59c70fa5035c1729edff1a03c63e1774d3771495389786174f4aec91d587bc7b
+Size: 56674
 Filename: enigma2-plugin-extensions-rakutentvcockpit-src_0.27.3-git52+e903c680+e903c68271-r0_all.ipk
 Source: enigma2-plugin-extensions-rakutentvcockpit.bb
 Description: RakutenTVCockpit plugin for enigma2 - Source files
@@ -1966,9 +1919,9 @@ Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 92eab79fda8ef8385d9f40bc675fd5c4
-SHA256sum: 03d28127ad03a916c0dd7fdb8f42520f201c75f56784c5400e4df65d7e862b1c
-Size: 351518
+MD5Sum: 304f8991facdffeda231372433ee23e4
+SHA256sum: 8d4a089329b543aca255ce68c459703ba130dde12f28903d39c156019b103ddb
+Size: 351536
 Filename: enigma2-plugin-extensions-rakutentvcockpit_0.27.3-git52+e903c680+e903c68271-r0_all.ipk
 Source: enigma2-plugin-extensions-rakutentvcockpit.bb
 Description: RakutenTVCockpit plugin for enigma2
@@ -1981,8 +1934,8 @@ Version: 1.26.2-git47+fc651f60+fc651f6ed4-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 288ff22b5b27303dd7d50fa17addfc53
-SHA256sum: 609d02d371e846c76ff4116c7d67011f756d1799d49279ce2ad5b45bb9041f45
+MD5Sum: 14fe8deb5ac0efcf9e426969217c066d
+SHA256sum: bcb93fe9abc0c89f183c996206f80b397223002a610fa6bd9027097b25d13144
 Size: 648
 Filename: enigma2-plugin-extensions-samsungtvcockpit-dbg_1.26.2-git47+fc651f60+fc651f6ed4-r0_all.ipk
 Source: enigma2-plugin-extensions-samsungtvcockpit.bb
@@ -1997,9 +1950,9 @@ Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-s
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: abe37c09066329512ce654d40e99b75d
-SHA256sum: e23b277642f56335b268b65e9409eb84c496a432c7de2c3440d89dddeab02c77
-Size: 734
+MD5Sum: fe812ddccc8b27f607e75fc7c27d3ca3
+SHA256sum: 4b1b6a3c011fc85106a08260d3a8eb6a1d6e3618630942f5e49bb6228bdfd63e
+Size: 732
 Filename: enigma2-plugin-extensions-samsungtvcockpit-dev_1.26.2-git47+fc651f60+fc651f6ed4-r0_all.ipk
 Source: enigma2-plugin-extensions-samsungtvcockpit.bb
 Description: SamsungTVCockpit plugin for enigma2 - Development files
@@ -2012,9 +1965,9 @@ Version: 1.26.2-git47+fc651f60+fc651f6ed4-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b803acd49a32932be381c70958127489
-SHA256sum: aa1d48137ccbc262d1377655dd979c13760e34656ad32011a29300d6e249ef65
-Size: 62690
+MD5Sum: 4680be09e7046c1923e3c36669e65640
+SHA256sum: f638af52f0e56e76be0952a6f2d8ff26a8ab6058ccf2d6a8fe8eda9c9c759e31
+Size: 62692
 Filename: enigma2-plugin-extensions-samsungtvcockpit-src_1.26.2-git47+fc651f60+fc651f6ed4-r0_all.ipk
 Source: enigma2-plugin-extensions-samsungtvcockpit.bb
 Description: SamsungTVCockpit plugin for enigma2 - Source files
@@ -2029,9 +1982,9 @@ Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83ab57087178f58e91b03789b03ef844
-SHA256sum: cb55667987a740f77c599d70b95683e63850a6d614a1a2ae58cf71bb9e3cfb09
-Size: 457582
+MD5Sum: b484c7c1a8d947b2aab4c33fe1defb1f
+SHA256sum: 93249a2ef25c787c2837ddb553de61c4a40878bfdc251fdcb2e6f1d531437172
+Size: 457578
 Filename: enigma2-plugin-extensions-samsungtvcockpit_1.26.2-git47+fc651f60+fc651f6ed4-r0_all.ipk
 Source: enigma2-plugin-extensions-samsungtvcockpit.bb
 Description: SamsungTVCockpit plugin for enigma2
@@ -5074,14 +5027,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos-dbg
-Version: 1.0+git304+7cc0f280+7cc0f28baf-r0
+Version: 1.0+git306+64d6f210+64d6f2186e-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: cf8947e843f76bcfbf250cf39a216668
-SHA256sum: 70968467e3c9274c51b4836460b9b42de94d6c374e3f7200515c8d54024a48b5
-Size: 600
-Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git304+7cc0f280+7cc0f28baf-r0_all.ipk
+MD5Sum: fce56396948f1fd0b8c20ab918b5cddc
+SHA256sum: f3869b019fdc6021788ea38d9e479c1beec12f4a57ec1536f37078976584a502
+Size: 598
+Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git306+64d6f210+64d6f2186e-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin - E2 DarkOS FHD - Debugging files
 OE: enigma2-plugin-skins-e2darkos
@@ -5089,15 +5042,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos-dev
-Version: 1.0+git304+7cc0f280+7cc0f28baf-r0
-Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git304+7cc0f280+7cc0f28baf-r0)
+Version: 1.0+git306+64d6f210+64d6f2186e-r0
+Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git306+64d6f210+64d6f2186e-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 8855140c29840d820ae68ee352669796
-SHA256sum: 7e4cce6a48b0d6fbff64d3f747567f6ff0a50496585cbb49d8e6ce82acdb9d7e
-Size: 638
-Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git304+7cc0f280+7cc0f28baf-r0_all.ipk
+MD5Sum: 2f03cb4756d9b833ae3d674a99805961
+SHA256sum: 49c354f1b7e9bd66f49e913da4065d9bc708037bb03e75ca815cbfa4f57f97a0
+Size: 636
+Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git306+64d6f210+64d6f2186e-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin - E2 DarkOS FHD - Development files
 OE: enigma2-plugin-skins-e2darkos
@@ -5105,15 +5058,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2darkos
-Version: 1.0+git304+7cc0f280+7cc0f28baf-r0
+Version: 1.0+git306+64d6f210+64d6f2186e-r0
 Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: dd3b81ddd9b52d59a157ffa464a04119
-SHA256sum: 801990b26b69ce8c5d5e465dd69184d9c49957ad404a14e48589284bca830636
-Size: 3316830
-Filename: enigma2-plugin-skins-e2darkos_1.0+git304+7cc0f280+7cc0f28baf-r0_all.ipk
+MD5Sum: 5060d4a891ae43bbab1d06d942fde5a5
+SHA256sum: b80af0a876a2e323ad305ab42d505253fd4b94def53f283c7157a7ec8d0a8882
+Size: 3318258
+Filename: enigma2-plugin-skins-e2darkos_1.0+git306+64d6f210+64d6f2186e-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: Skin - E2 DarkOS FHD
 OE: enigma2-plugin-skins-e2darkos
@@ -5848,14 +5801,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dbg
-Version: 1.0+git526+c0fa6b60+c0fa6b61ce-r0
+Version: 1.0+git527+06fe5fe0+06fe5fe066-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 6543a0a7c0d2faac054ca9dc2fd684b6
-SHA256sum: 36e7b162f5bf0edbfbf435e87c03954231f66af8f5c524341a4bb10fe8a50c93
-Size: 622
-Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git526+c0fa6b60+c0fa6b61ce-r0_all.ipk
+MD5Sum: c6de48a16b7fe3f500dfb0fe6c45ae79
+SHA256sum: 6750e8644747b9f7135053efc70b52cd5efcca3092eacbdeb74c36c3140c95e5
+Size: 620
+Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git527+06fe5fe0+06fe5fe066-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -5864,15 +5817,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dev
-Version: 1.0+git526+c0fa6b60+c0fa6b61ce-r0
-Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git526+c0fa6b60+c0fa6b61ce-r0), python3-core-dev, python3-dev, python3-multiprocessing-dev, python3-requests-dev
+Version: 1.0+git527+06fe5fe0+06fe5fe066-r0
+Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git527+06fe5fe0+06fe5fe066-r0), python3-core-dev, python3-dev, python3-multiprocessing-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 4f0c80170f5d1a688ab5bd37205439b8
-SHA256sum: cf03b00371fa0c2d551b5167a065f052e3b0efe77eea80912967d5cc4f0425c8
+MD5Sum: 22f8ce513385fcb399529bf480e174f4
+SHA256sum: aedd76a6e5c570d0ae9eaabe7a62497be79775418104fa8d558ffab51306e10b
 Size: 692
-Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git526+c0fa6b60+c0fa6b61ce-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git527+06fe5fe0+06fe5fe066-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Development files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -5881,15 +5834,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv
-Version: 1.0+git526+c0fa6b60+c0fa6b61ce-r0
+Version: 1.0+git527+06fe5fe0+06fe5fe066-r0
 Depends: python3-core, python3-multiprocessing, python3-requests
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 82ad99f267454631075ba821146da05b
-SHA256sum: ec78643e5c5b70b366c4ecd62c27e50174d916aed24ab24724bca80b0e539d3d
-Size: 358580
-Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git526+c0fa6b60+c0fa6b61ce-r0_all.ipk
+MD5Sum: 2a2bae1fe1fa161eb9495cb54e25e96f
+SHA256sum: 0aa2666e30fc530d87379742137a17d5df38e7bf12aa883de690259bb1484ae3
+Size: 361372
+Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git527+06fe5fe0+06fe5fe066-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -5945,14 +5898,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit-dbg
-Version: 0.3.5-git28+1b1c4f00+1b1c4f0c09-r0
+Version: 0.3.7-git28+8eac88f0+8eac88f768-r0
 Section: devel
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 6cee1702aef1d167d2d71e75b94e7731
-SHA256sum: f22246602f08717714ba3e193f2b030cae513967fcdce7013cd01c12d950b721
-Size: 592
-Filename: enigma2-plugin-systemplugins-streamproxycockpit-dbg_0.3.5-git28+1b1c4f00+1b1c4f0c09-r0_all.ipk
+MD5Sum: d50790031d4b7dc04f3801e141dc95e6
+SHA256sum: e54bd5cd60adaf4f5cae42a31d12df49b6ab80276873bae342e4f6b2abba5d67
+Size: 594
+Filename: enigma2-plugin-systemplugins-streamproxycockpit-dbg_0.3.7-git28+8eac88f0+8eac88f768-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-systemplugins-streamproxycockpit
@@ -5960,15 +5913,15 @@ License: GPL-3.0-only
 Priority: required
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit-dev
-Version: 0.3.5-git28+1b1c4f00+1b1c4f0c09-r0
-Recommends: enigma2-dev, enigma2-plugin-systemplugins-streamproxycockpit (= 0.3.5-git28+1b1c4f00+1b1c4f0c09-r0), python3-requests-dev
+Version: 0.3.7-git28+8eac88f0+8eac88f768-r0
+Recommends: enigma2-dev, enigma2-plugin-systemplugins-streamproxycockpit (= 0.3.7-git28+8eac88f0+8eac88f768-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 135b7d22854ffc9f6ba4867fc819893e
-SHA256sum: 44abd5a5bf905b6af73c378da4a2632e04eced7be80daef627f4e802a3faaa52
+MD5Sum: 58c15ad0abc074f34f621267d52f4e36
+SHA256sum: 715ae0afe67c6bc45996abe2db1e2c723d3841a0c34ab02dd9406680aad9978e
 Size: 646
-Filename: enigma2-plugin-systemplugins-streamproxycockpit-dev_0.3.5-git28+1b1c4f00+1b1c4f0c09-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-streamproxycockpit-dev_0.3.7-git28+8eac88f0+8eac88f768-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin - Development files
 OE: enigma2-plugin-systemplugins-streamproxycockpit
@@ -5976,15 +5929,15 @@ License: GPL-3.0-only
 Priority: required
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit
-Version: 0.3.5-git28+1b1c4f00+1b1c4f0c09-r0
+Version: 0.3.7-git28+8eac88f0+8eac88f768-r0
 Depends: enigma2, python3-requests
 Section: base
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 55d62a34c299369c831ec9b311a46344
-SHA256sum: 5936844696150c73726111c9c0bfcf9cc8191144fc6461bfdcc150179dcad711
-Size: 114430
-Filename: enigma2-plugin-systemplugins-streamproxycockpit_0.3.5-git28+1b1c4f00+1b1c4f0c09-r0_all.ipk
+MD5Sum: ca2ec9366078dfbaa3f9298fa850117a
+SHA256sum: 527f01e7e931c9ccaae992e753cae0da4e88c485abff989c462148a754c4262e
+Size: 115620
+Filename: enigma2-plugin-systemplugins-streamproxycockpit_0.3.7-git28+8eac88f0+8eac88f768-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin
 OE: enigma2-plugin-systemplugins-streamproxycockpit
@@ -6148,16 +6101,19 @@ License: LicenseRef-LICENSE-CLOSED
 Priority: optional
 
 Package: firmware-cx231xx
-Version: 1.1+git296+4b2b1510+4b2b151e18-r0
+Version: 1.1+git296+4b2b1510+4b2b151e18-r1
+Provides: firmware-tbs-cx231xx
+Replaces: firmware-tbs-cx231xx
+Conflicts: firmware-tbs-cx231xx
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 94b432787cf12de540ab6b8f18e6d90d
-SHA256sum: c3808150a31810502ef559508f5d8a0ded4c6adcf9741deb6e8398ae54efc594
-Size: 9678
-Filename: firmware-cx231xx_1.1+git296+4b2b1510+4b2b151e18-r0_all.ipk
+MD5Sum: c6a5f5417911797cd80261163855cbbc
+SHA256sum: 02054c46b0ce5be095aea311750bdc2aa78828417ce7e03a3e7ffa6da3918c27
+Size: 9696
+Filename: firmware-cx231xx_1.1+git296+4b2b1510+4b2b151e18-r1_all.ipk
 Source: firmware-cx231xx.bb
-Description: firmware-cx231xx version 1.1+git-r0
+Description: Firmware for cx231xx
 OE: firmware-cx231xx
 License: LicenseRef-LICENSE-CLOSED
 Priority: optional
@@ -10560,14 +10516,14 @@ License: Bitstream-Vera
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1577+c1b0d3f0+c1b0d3f4c5-3
+Version: 2+git1578+f75d1de0+f75d1ded4b-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: aeafb8df4d3fb2290a40818be67520fc
-SHA256sum: 07399b3a95dcf4cc8d899b607b462726ae67a48bd8c681072c06e2242ffe9ea8
-Size: 568
-Filename: tuxbox-common-dbg_2+git1577+c1b0d3f0+c1b0d3f4c5-3_all.ipk
+MD5Sum: b6975f13e5e528b309cd13f5311c21b1
+SHA256sum: 2f1784014b273db1b6d6acc4ef4d45d6b805f44a4e86bac582d4e49ea2d8a3ae
+Size: 570
+Filename: tuxbox-common-dbg_2+git1578+f75d1de0+f75d1ded4b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10575,15 +10531,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1577+c1b0d3f0+c1b0d3f4c5-3
-Recommends: tuxbox-common (>= 2+git1577+c1b0d3f0+c1b0d3f4c5-3), tuxbox-common (<< 2+git1577+c1b0d3f0+c1b0d3f4c5-3.0), xz-dev
+Version: 2+git1578+f75d1de0+f75d1ded4b-3
+Recommends: tuxbox-common (>= 2+git1578+f75d1de0+f75d1ded4b-3), tuxbox-common (<< 2+git1578+f75d1de0+f75d1ded4b-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 66fa3d4f0e3f73a9f399d96225e5d5d9
-SHA256sum: 4785c882523c1f69389899e3d5e785568423d7af643d8fdf50addc01f28fb10c
+MD5Sum: dee45bb18133c823854599fdc5f0bb60
+SHA256sum: e12735e0423ab04da6edb16cdf97e6e1d68a5bb4fddf3e8304fed86a935d925c
 Size: 622
-Filename: tuxbox-common-dev_2+git1577+c1b0d3f0+c1b0d3f4c5-3_all.ipk
+Filename: tuxbox-common-dev_2+git1578+f75d1de0+f75d1ded4b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10591,15 +10547,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1577+c1b0d3f0+c1b0d3f4c5-3
+Version: 2+git1578+f75d1de0+f75d1ded4b-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 2614ce6fc34e33d6e7cef6b025c3aec6
-SHA256sum: a91808ad972be4b246f0dcd69231f991f131d19134c4065b120404efee84aed9
-Size: 69364
-Filename: tuxbox-common_2+git1577+c1b0d3f0+c1b0d3f4c5-3_all.ipk
+MD5Sum: 6fb6b39d03b23b29c10523388dc042d9
+SHA256sum: 3f4daaaa06eb266455b02fe06646a851b8bde25a83b8c9cdc8c758e47ee2dfc5
+Size: 69362
+Filename: tuxbox-common_2+git1578+f75d1de0+f75d1ded4b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
