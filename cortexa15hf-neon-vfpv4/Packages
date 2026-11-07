@@ -9040,15 +9040,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: dvblast-dbg
-Version: 1.0+git436+82b2c000+82b2c0051f-r0
+Version: 1.0+git437+c9152b10+c9152b1f11-r0
 Recommends: glibc-dbg, libev-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d917037d861110b3a42bed60a6292e07
-SHA256sum: 45e3a75ee0c6ed92940400161902609a291df46130e2f769f9a93c56b91fbb40
-Size: 716214
-Filename: dvblast-dbg_1.0+git436+82b2c000+82b2c0051f-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8c852cfc42781602ba8149387f924b31
+SHA256sum: 83e7e3e7c77d2e994282b5ffa32912442437f9f3cfd07735edbe597c18ba27ed
+Size: 716262
+Filename: dvblast-dbg_1.0+git437+c9152b10+c9152b1f11-r0_cortexa15hf-neon-vfpv4.ipk
 Source: dvblast.bb
 Description: DVBlast is a simple and powerful MPEG-2/TS demux and streaming application - Debugging files
 OE: dvblast
@@ -9056,15 +9056,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: dvblast-dev
-Version: 1.0+git436+82b2c000+82b2c0051f-r0
-Recommends: bitstream-dev, dvblast (= 1.0+git436+82b2c000+82b2c0051f-r0), glibc-dev, libev-dev
+Version: 1.0+git437+c9152b10+c9152b1f11-r0
+Recommends: bitstream-dev, dvblast (= 1.0+git437+c9152b10+c9152b1f11-r0), glibc-dev, libev-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 515299f6f0c5abf49b03ef765f53fb82
-SHA256sum: d467b328b44542e8aa31328a1387f0c36eecc48a8ab5e916f4db9f602e1ad34c
+MD5Sum: c9dcab694645f17bd5f550d0ec0f7edb
+SHA256sum: 3f092459c67bfd7817e9aa6992b470177d766a048faeef416f0f0ee3259214fc
 Size: 808
-Filename: dvblast-dev_1.0+git436+82b2c000+82b2c0051f-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: dvblast-dev_1.0+git437+c9152b10+c9152b1f11-r0_cortexa15hf-neon-vfpv4.ipk
 Source: dvblast.bb
 Description: DVBlast is a simple and powerful MPEG-2/TS demux and streaming application - Development files
 OE: dvblast
@@ -9072,14 +9072,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: dvblast-doc
-Version: 1.0+git436+82b2c000+82b2c0051f-r0
+Version: 1.0+git437+c9152b10+c9152b1f11-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2366fbb37a109860107cd355b077a591
-SHA256sum: 060458d4d78b4902b13546b8bf780a7fd96ef591d3a2750fb29aafbc8d3f1e8f
-Size: 4704
-Filename: dvblast-doc_1.0+git436+82b2c000+82b2c0051f-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 92a51a86f54d32bdd72d83496d04452a
+SHA256sum: bf0dec2998d648b27b732016b44f0171316c264f2ea7aba829f12da7bd1df6cb
+Size: 4706
+Filename: dvblast-doc_1.0+git437+c9152b10+c9152b1f11-r0_cortexa15hf-neon-vfpv4.ipk
 Source: dvblast.bb
 Description: DVBlast is a simple and powerful MPEG-2/TS demux and streaming application - Documentation files
 OE: dvblast
@@ -9087,15 +9087,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: dvblast
-Version: 1.0+git436+82b2c000+82b2c0051f-r0
+Version: 1.0+git437+c9152b10+c9152b1f11-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libev4 (>= 4.33)
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3ad9770ea7f38b453ce0f623d09e40c2
-SHA256sum: 5d395ce6ba5aa251bf2e5908d6ea6f50b8dd246f991b3be6fec0c73e0fedb277
-Size: 162220
-Filename: dvblast_1.0+git436+82b2c000+82b2c0051f-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d274064db96265ded3ebbf7387e47037
+SHA256sum: 9cc9d9e00f00cefe59a39367d0c4efff188838dc44d8d20604ee7e3de0be8bb3
+Size: 162198
+Filename: dvblast_1.0+git437+c9152b10+c9152b1f11-r0_cortexa15hf-neon-vfpv4.ipk
 Source: dvblast.bb
 Description: DVBlast is a simple and powerful MPEG-2/TS demux and streaming application
 OE: dvblast
@@ -10739,16 +10739,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-abertis-dbg
-Version: 1.0-r0
+Version: 2.0-r0
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0deb5062f256f8ac98ae01bf954fb165
-SHA256sum: a35a68170677b3f7ec27f4fc6008ce64283bfb20e10f694062c6ac59d79a1d71
-Size: 710
-Filename: enigma2-plugin-extensions-abertis-dbg_1.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: enigma2-plugin-extensions-abertis.bb
+MD5Sum: a52726134552c830f043fc84f39abffe
+SHA256sum: e29334cc4813f2e9547012f141d3769fd517ae9e545beb553811709c438e0728
+Size: 714
+Filename: enigma2-plugin-extensions-abertis-dbg_2.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-abertis_2.0.bb
 Description: Abertis 30°W userbouquet + astra-sm Installer - Debugging files
 OE: enigma2-plugin-extensions-abertis
 HomePage: https://github.com/
@@ -10756,16 +10756,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-abertis-dev
-Version: 1.0-r0
-Recommends: astra-sm-dev, enigma2-plugin-extensions-abertis (= 1.0-r0), glibc-dev
+Version: 2.0-r0
+Recommends: astra-sm-dev, enigma2-plugin-extensions-abertis (= 2.0-r0), glibc-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 59961122c713efb4747ee3d42e96e9f2
-SHA256sum: 7f875ab43fe96d7ef79531328f08d52f65cfb1d87022b9ba5a0dc37c7b8f8b00
-Size: 740
-Filename: enigma2-plugin-extensions-abertis-dev_1.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: enigma2-plugin-extensions-abertis.bb
+MD5Sum: 29263c1bcc4d98bed6363004cf032a44
+SHA256sum: 5aab38f885bca1c7c8751dfc1e80bfab0003ac750596e6732c380f485831a8ef
+Size: 744
+Filename: enigma2-plugin-extensions-abertis-dev_2.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-abertis_2.0.bb
 Description: Abertis 30°W userbouquet + astra-sm Installer - Development files
 OE: enigma2-plugin-extensions-abertis
 HomePage: https://github.com/
@@ -10773,16 +10773,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-abertis
-Version: 1.0-r0
+Version: 2.0-r0
 Depends: astra-sm, libc6 (>= 2.44+git0+34106fee69)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d71920c80b501e2bfd8ce790954790b
-SHA256sum: fa0c8da3a5e0e7b50d9a7ccd043e7b819f949524dfc438c86e9f1844867acbc9
-Size: 12696
-Filename: enigma2-plugin-extensions-abertis_1.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: enigma2-plugin-extensions-abertis.bb
+MD5Sum: ddc427c13903a02b2a180dfac3a38a35
+SHA256sum: c270b9bd89a8f84a73d81c0b4694eaf9fbec82295b56e51761e039579cda55c5
+Size: 12736
+Filename: enigma2-plugin-extensions-abertis_2.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-abertis_2.0.bb
 Description: Abertis 30°W userbouquet + astra-sm Installer
 OE: enigma2-plugin-extensions-abertis
 HomePage: https://github.com/
@@ -11776,14 +11776,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.11.06.01-git6289+406efb30+406efb3a09-r0
+Version: 2026.11.07.02-git6296+ae144950+ae14495e73-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 16e067197d47f806553259527f7c15a4
-SHA256sum: 724c4956659a34a3f4c6137b8001573728a82d4e857528370eabb3fedb3d5a39
+MD5Sum: dd69737e78af78b77f494d2258e62b0f
+SHA256sum: 1dc1df780bb3eac25f3fd3dabf69c07e02e22c00479e0c9a78b8a6b74dc1f2be
 Size: 672
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.06.01-git6289+406efb30+406efb3a09-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.07.02-git6296+ae144950+ae14495e73-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -11844,15 +11844,15 @@ License: GPL-3.0-only AND LGPL-2.1-or-later AND MIT AND Zlib
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.11.06.01-git6289+406efb30+406efb3a09-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.06.01-git6289+406efb30+406efb3a09-r0), python3-core-dev, python3-dev
+Version: 2026.11.07.02-git6296+ae144950+ae14495e73-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.07.02-git6296+ae144950+ae14495e73-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 9b0885ef3c27fabfb8bbf3b7db3f3672
-SHA256sum: b4d9391fccf2767f4d4b8635df435e1d3440af9e0ffc3e8a98fdc59066a9efe4
+MD5Sum: b3bc0a577ca77b711e7fc8cdfd14b80c
+SHA256sum: 0cdf4f7a8b21b50684d501f824ec52c1cda652c2f96a6a8c858dd10160619da3
 Size: 724
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.06.01-git6289+406efb30+406efb3a09-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.07.02-git6296+ae144950+ae14495e73-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -11861,15 +11861,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.11.06.01-git6289+406efb30+406efb3a09-r0
+Version: 2026.11.07.02-git6296+ae144950+ae14495e73-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: cff5daa10943fe900944cba330ab6650
-SHA256sum: 5cb8e9312efa3ca7f0a61437fe0f9315256c5ddac41d541d11ae11acd49645ed
-Size: 2945340
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.06.01-git6289+406efb30+406efb3a09-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 81427b9f1cd2447bbd389eefdb25276e
+SHA256sum: 31039bd3005b8a68863d2aaa8654f85237ed27c8265eeaa55a43388e2a8cb8cf
+Size: 2958346
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.07.02-git6296+ae144950+ae14495e73-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -11878,16 +11878,16 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.11.06.01-git6289+406efb30+406efb3a09-r0
+Version: 2026.11.07.02-git6296+ae144950+ae14495e73-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: e30d6c4f67801ad70d0f0497874a375c
-SHA256sum: f24bee6d6b26b733de8865dd4bfdfb302e40a1f59fb395279878e6a52f47b1f0
-Size: 26956440
-Filename: enigma2-plugin-extensions-e2iplayer_2026.11.06.01-git6289+406efb30+406efb3a09-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 85e4227bcd4da660cc023d348413ca49
+SHA256sum: 805ba43eea97ab4ee17bd1616547cbc1b3cac5dedfe54b3a550047fb8f60a6b5
+Size: 26984222
+Filename: enigma2-plugin-extensions-e2iplayer_2026.11.07.02-git6296+ae144950+ae14495e73-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -12341,14 +12341,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: V0.0-git570+d99262b0+d99262b524-r0
+Version: V0.0-git571+08339790+0833979433-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 416e205b1dff22f5a4cbbe7457dbf62a
-SHA256sum: 707216900cf72e997b72f541f1440089e2f7f3493f479b195948dfcfd7e6af49
-Size: 688
-Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git570+d99262b0+d99262b524-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6fc293543d316675be9b83da543fc8b2
+SHA256sum: b4f0316b72bf0ffd769cf9ff00127368c48ee22435c801bc5821ef5a0161accc
+Size: 690
+Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git571+08339790+0833979433-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -12357,15 +12357,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: V0.0-git570+d99262b0+d99262b524-r0
-Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git570+d99262b0+d99262b524-r0), python3-sqlite3-dev
+Version: V0.0-git571+08339790+0833979433-r0
+Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git571+08339790+0833979433-r0), python3-sqlite3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 12c14c5d328eb4b94b6ea2879b99ef6b
-SHA256sum: 9e8e3f53b76fb78e99176356fed9ad44abc0247260871a1e420124cdb89426eb
-Size: 736
-Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git570+d99262b0+d99262b524-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 9648f44e878e8dc93f5103d5c365fba2
+SHA256sum: a6e17f6fd2666312f4a16b09dad80e8cc3f91661ffc497239995bb03c7a28bc4
+Size: 738
+Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git571+08339790+0833979433-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -12374,15 +12374,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: V0.0-git570+d99262b0+d99262b524-r0
+Version: V0.0-git571+08339790+0833979433-r0
 Depends: python3-sqlite3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 556896b58786e539688511c22d5010b8
-SHA256sum: a123fc16e0e13ccb8c73bca7c05e66fc55e776c6c512a3125edbfb3dd1979207
-Size: 42635578
-Filename: enigma2-plugin-extensions-footonsat_V0.0-git570+d99262b0+d99262b524-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 424246552855f8ea823103812c56e21f
+SHA256sum: 6952ad162b7d6959bef8d92a8039fcd983fdc368a7e0549481921883fa1d18a5
+Size: 42647330
+Filename: enigma2-plugin-extensions-footonsat_V0.0-git571+08339790+0833979433-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules
 OE: enigma2-plugin-extensions-footonsat
@@ -131073,251 +131073,251 @@ License: GPL-1.0-only
 Priority: optional
 
 Package: python3-twisted-conch
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Depends: python3-appdirs, python3-bcrypt, python3-cryptography, python3-pickle, python3-twisted-core, python3-twisted-protocols
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5aa9c08e7c963f4f5a74561ed2bcdc28
-SHA256sum: ac06e46d20ebd87274902b70043ea45222d6678cfb15504cab1a8bdd684a016c
-Size: 508300
-Filename: python3-twisted-conch_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: 44e66f57156a5c4a8a8eea99e7c94201
+SHA256sum: 13143149f4b275b60a1e8ad5a57309695e686b1061a47278dcf5710a7b3700cb
+Size: 518168
+Filename: python3-twisted-conch_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-core
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Depends: python3-asyncio, python3-attrs, python3-automat, python3-constantly, python3-core, python3-debugger, python3-hyperlink, python3-incremental, python3-pickle, python3-pyserial, python3-service-identity, python3-typing-extensions, python3-unixadmin, python3-zopeinterface
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2572cdf42a2524523983c38c5ef4f7c3
-SHA256sum: 8ddb9fb4c75ca576a55a6a890b57af19f915055b35c656a9045c410c4f588e7b
-Size: 1706810
-Filename: python3-twisted-core_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: d2365f4201883722e5c354ada3044273
+SHA256sum: 6eec7a2a3f12bbd7baf0673a39bb1c5d72c4a2f6db33c83e9772511b52330c63
+Size: 1713872
+Filename: python3-twisted-core_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-dbg
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b339ad76298bd2c04c7eae8e677c4a10
-SHA256sum: 1a0829a77008d64600f3fb69bcd7a38ae28999e2b02e5fb54b0c6b914f460f67
-Size: 768
-Filename: python3-twisted-dbg_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0 - Debugging files
+MD5Sum: c673a0076aa89c6fb4dde017838066b6
+SHA256sum: 238176146278034445f6da1c0307f3c1cae132cfdfaad374c49f29908db9eefe
+Size: 770
+Filename: python3-twisted-dbg_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0 - Debugging files
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-dev
-Version: 26.4.0-r0
-Recommends: python3-appdirs-dev, python3-asyncio-dev, python3-attrs-dev, python3-automat-dev, python3-bcrypt-dev, python3-constantly-dev, python3-core-dev, python3-cryptography-dev, python3-debugger-dev, python3-dev, python3-hyperlink-dev, python3-incremental-dev, python3-pickle-dev, python3-pyhamcrest-dev, python3-pyserial-dev, python3-service-identity-dev, python3-twisted (= 26.4.0-r0), python3-twisted-conch-dev, python3-twisted-core-dev, python3-twisted-mail-dev, python3-twisted-names-dev, python3-twisted-pair-dev, python3-twisted-protocols-dev, python3-twisted-runner-dev, python3-twisted-web-dev, python3-twisted-words-dev, python3-twisted-zsh-dev, python3-typing-extensions-dev, python3-unixadmin-dev, python3-zopeinterface-dev
+Version: 26.10.0-r0
+Recommends: python3-appdirs-dev, python3-asyncio-dev, python3-attrs-dev, python3-automat-dev, python3-bcrypt-dev, python3-constantly-dev, python3-core-dev, python3-cryptography-dev, python3-debugger-dev, python3-dev, python3-hyperlink-dev, python3-incremental-dev, python3-pickle-dev, python3-pyhamcrest-dev, python3-pyserial-dev, python3-service-identity-dev, python3-twisted (= 26.10.0-r0), python3-twisted-conch-dev, python3-twisted-core-dev, python3-twisted-mail-dev, python3-twisted-names-dev, python3-twisted-pair-dev, python3-twisted-protocols-dev, python3-twisted-runner-dev, python3-twisted-web-dev, python3-twisted-words-dev, python3-twisted-zsh-dev, python3-typing-extensions-dev, python3-unixadmin-dev, python3-zopeinterface-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 359414567de45e77ee999dbb96cef9f4
-SHA256sum: 2c70b4b32142810db306a9cb1a91d3b31b94819facadf9fa78f5a1e9f6ccd7e5
+MD5Sum: 2a196431ca26e0b9499bacaec53c349f
+SHA256sum: ea6c4379711ec419d72061d167035dbc493c80bdb2c7c069d8678ee012cc2408
 Size: 990
-Filename: python3-twisted-dev_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0 - Development files
+Filename: python3-twisted-dev_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0 - Development files
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-doc
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5739d06037b6470f48b8efa5971bf07e
-SHA256sum: e995beb3c010347c78ae18e54f5e3ebf6ef0969f74add838aea23c5913b3622d
-Size: 6978
-Filename: python3-twisted-doc_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0 - Documentation files
+MD5Sum: 51cd3268246886ac842e51423bbe9478
+SHA256sum: 9088acf1f2a12da95b51bab876a846e3b3c0e893ed175ef0d2789c988469660f
+Size: 6934
+Filename: python3-twisted-doc_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0 - Documentation files
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-mail
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Depends: python3-twisted-core, python3-twisted-protocols
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 48908ea1db0608e0bd7b58398722cd63
-SHA256sum: c312aa2ead413db040624718ce239e4d70d5cf5f6a1bba5df226e173d72b8c72
-Size: 380078
-Filename: python3-twisted-mail_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: 0f0b256db9950a784fbcf704e58d7094
+SHA256sum: de7222403f2c047a60a4ec85bcede43703d0c88e6091f45f721ff552e91b8c84
+Size: 380626
+Filename: python3-twisted-mail_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-names
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Depends: python3-twisted-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 89dd81bfed7db48eaf69a43abf6fd4e3
-SHA256sum: 89790faae89ce6e390ef8da674a4be92574378a57a35cfb0ff786d5ee4aa29a9
-Size: 157466
-Filename: python3-twisted-names_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: 2d5490d494d171400702b12c38b55f93
+SHA256sum: 4a5c56d2e8851ac8f3b15cc6f1e973f0a7650bc5080cd9a8fa23388bdf910e82
+Size: 159392
+Filename: python3-twisted-names_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-pair
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Depends: python3-twisted-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3d06f59bf0f97ab69c046b7d69e7cfa0
-SHA256sum: 85dcd983828b0c6bafa7ec45ce914abc07c93bbd8d17e04f6f817eb1cd0d82d9
-Size: 29798
-Filename: python3-twisted-pair_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: d31daffc1ddd65cbc8ae56c1317eba61
+SHA256sum: cc9da11104a987e851ba48c27d94db54e739d27b566efd84a0b85db5ed0cc5fd
+Size: 29800
+Filename: python3-twisted-pair_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-protocols
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a39394baec31ae17a931dac54390318
-SHA256sum: 699105e89aa4648517b7d31d80e695543b32a0ee0443dda41c63fb84f6dd0c27
-Size: 318674
-Filename: python3-twisted-protocols_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: ebadb0bc39310209a9d593868eaf8c86
+SHA256sum: a7d4d7e7573f8b8ec8a78807374da0cf5ea4ddcf431543f8c7be97675e924cab
+Size: 319644
+Filename: python3-twisted-protocols_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-runner
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Depends: python3-twisted-core, python3-twisted-protocols
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 49fb1cec04e505f2ab905b4f82b7191d
-SHA256sum: 01f67aff2774344288126b37adb4cc7ecb2c12d8bd77cc85d49e4266508a1194
-Size: 26380
-Filename: python3-twisted-runner_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: b92e0bed9ed635085a46c9e6a0922607
+SHA256sum: 68c58a8201bcfd62fd361d78735444332aa5c77e62e5b67b08cd5c463800f6da
+Size: 26412
+Filename: python3-twisted-runner_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-test
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Depends: python3-pyhamcrest, python3-twisted
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a6b1d5928a54aaa48ccf6c75fe1436b
-SHA256sum: 59466e028da5cfb696031ef7f721dc1f13cc630b2003af7e9b6aa78db2c291fd
-Size: 4469418
-Filename: python3-twisted-test_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: 8c6225e3fe493811fb861d4347484318
+SHA256sum: 037d2a736918faf4e5aac8e4115bd8a5098a0725c15471f5c864fd0d540f4bef
+Size: 4510420
+Filename: python3-twisted-test_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-web
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Depends: python3-twisted-core, python3-twisted-protocols
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 584bcfc1bbcbc1962a88b4a72d962750
-SHA256sum: f2bb2cf21cc713a6cfb8d46c81a057056b1f9607a9530d323f8905f340fc4987
-Size: 496830
-Filename: python3-twisted-web_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: 09c4ef310ca502a7cef042893ca28516
+SHA256sum: c2eadce57baaa5644bd2025d5e40d71a5088a608724e010b8cc9d50bbffc104b
+Size: 500146
+Filename: python3-twisted-web_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-words
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Depends: python3-twisted-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c542bfe7e1a7850d894a7981a939d72a
-SHA256sum: d1a8470a153f4d70c9e20259431ba3870ad4d5a45be5a2e4e2a0df6d4b03c20d
-Size: 293040
-Filename: python3-twisted-words_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: 078fc56c6976525b6aa7feb6c65b0bad
+SHA256sum: 7017021e002ac7f108f6cc52ffb9aab953966910662c4a74a7e0f7018ca51687
+Size: 294636
+Filename: python3-twisted-words_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted-zsh
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5bbbcab8255edfb073f7bf122fe00622
-SHA256sum: eec2b9de57b4c78becebe8e1e2eb7e810dd8e98ddd935ec420ee380317336097
-Size: 1638
-Filename: python3-twisted-zsh_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: 4b6ee96d79a80c7e87c421b4f85ac127
+SHA256sum: 2f026eb19bc0205fd859fe1179f67137e037b247419162a3f71b8dae9915061b
+Size: 1640
+Filename: python3-twisted-zsh_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
 Priority: optional
 
 Package: python3-twisted
-Version: 26.4.0-r0
+Version: 26.10.0-r0
 Depends: python3-core, python3-twisted-conch, python3-twisted-core, python3-twisted-mail, python3-twisted-names, python3-twisted-pair, python3-twisted-protocols, python3-twisted-runner, python3-twisted-web, python3-twisted-words, python3-twisted-zsh
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5b0fafcf1c9710c460768ef8abda445e
-SHA256sum: e55e2b9cce5af4b8678d776711d3c73753fff8b5d9ec76331eb86272f1872a42
-Size: 950
-Filename: python3-twisted_26.4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-twisted_26.4.0.bb
-Description: python3-twisted version 26.4.0-r0
+MD5Sum: 312d4445713f4dbc9e9d66e194160ae5
+SHA256sum: 61adf326739d2a0b0c7576c1cbc56fdf943e75a4402501bef1a7d15f42930d3d
+Size: 952
+Filename: python3-twisted_26.10.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-twisted_26.10.0.bb
+Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
 License: MIT
