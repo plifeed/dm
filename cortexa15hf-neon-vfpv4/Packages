@@ -136845,16 +136845,16 @@ License: GPL-2.0-or-later AND LGPL-2.1-or-later
 Priority: optional
 
 Package: streamlink
-Version: 8.6.3-git6161+889b98e_0.0-git1+4ec0b8c0+889b98ecdb_4ec0b8c658-r0
+Version: 8.6.3-git6163+3036d7e_0.0-git1+4ec0b8c0+3036d7e1de_4ec0b8c658-r0
 Depends: python3-certifi, python3-core, python3-ctypes, python3-isodate, python3-lxml, python3-pkgutil, python3-pycountry, python3-pycryptodome, python3-pysocks, python3-requests, python3-shell, python3-trio, python3-trio-websocket, python3-urllib3, python3-websocket-client
 Recommends: ffmpeg
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c8010b7c8e2a3f5472e79fb6c124c76c
-SHA256sum: 8053204f2680b6da3c068192698d09e111babf931245750ea944f0b51844ca37
-Size: 1180294
-Filename: streamlink_8.6.3-git6161+889b98e_0.0-git1+4ec0b8c0+889b98ecdb_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d0c82cca5fdca6ec13dbc24436f9264a
+SHA256sum: f1ec7cc611df30f8a362c798005b3bf14826091f2cffa9554a31d1073fb68d07
+Size: 1180250
+Filename: streamlink_8.6.3-git6163+3036d7e_0.0-git1+4ec0b8c0+3036d7e1de_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
 Source: streamlink_git.bb
 Description: CLI for extracting streams from various websites to a video player of your choosing
 OE: streamlink
