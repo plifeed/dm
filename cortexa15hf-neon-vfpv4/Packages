@@ -11653,8 +11653,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 1d82381117f1a8433cb51f9b9706127d
-SHA256sum: fb772a0241480b6f0b2156886f89401468e5ec5a2e7052fddd2f90fa6176460d
+MD5Sum: d5caecfb95316d486ad0639810a65c34
+SHA256sum: 937bbe82bf7793bfb7cdad4614c915a760c2f8583cafb144d947d1c37c70e61f
 Size: 626
 Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -11669,8 +11669,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.0-git91+e
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 6c576819873202f9e13639d488fbe712
-SHA256sum: 8fb4c03e5132429c6290d825dabfa2396f39ddc86b53d0ad7db490437f066d14
+MD5Sum: 64ea9b89c192afb1ba5d40d24c66f8b7
+SHA256sum: 5a7d94f9de6121846e780603e8df776e5919304aa2edef874bbaf346833ec521
 Size: 658
 Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -11685,9 +11685,9 @@ Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc+
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 7f77696038a074e6b35e82fbe0f976da
-SHA256sum: 2738655cbadb75287da2265a7512b0cb26d62a2cfe4c6cb148b4bf35b72745f0
-Size: 2194212
+MD5Sum: 3182cdee738e68ce20247ce9e96b1c2d
+SHA256sum: 3f3bd8dad7d31b99605e3457817adba33e87db620c8a0f4926c9887043982863
+Size: 2194214
 Filename: enigma2-plugin-extensions-ciplus-helper_V7.0-git91+e05063c0+e05063ca2c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2
@@ -13102,14 +13102,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather-dbg
-Version: 2.4+git1+3d680110+3d68011a16-r0
+Version: 2.5+git7+cd393ef0+cd393ef30b-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: 12cfa5180eebd3766d571e46be08eeea
-SHA256sum: 68ff3ac5522d6255f378082bf8fbd579aaa40a8f992efe0ee2c60497b0a01f6b
-Size: 616
-Filename: enigma2-plugin-extensions-oaweather-dbg_2.4+git1+3d680110+3d68011a16-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 3cf31f9abfcac311c5853c65ad14735d
+SHA256sum: d5e287b57552d8419cd588e695f3b81cfbefe2f8530f9e31d77293f558876e0a
+Size: 618
+Filename: enigma2-plugin-extensions-oaweather-dbg_2.5+git7+cd393ef0+cd393ef30b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin. - Debugging files
 OE: enigma2-plugin-extensions-oaweather
@@ -13117,15 +13117,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather-dev
-Version: 2.4+git1+3d680110+3d68011a16-r0
-Recommends: enigma2-plugin-extensions-oaweather (= 2.4+git1+3d680110+3d68011a16-r0), enigma2-tools-weatherinfo-dev
+Version: 2.5+git7+cd393ef0+cd393ef30b-r0
+Recommends: enigma2-plugin-extensions-oaweather (= 2.5+git7+cd393ef0+cd393ef30b-r0), enigma2-tools-weatherinfo-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: e13adbd82621f7039b73c2d09733a788
-SHA256sum: d6da2461e8676b845ce6cb7dba66777e675e483be164b7c97cbaa1d23e70a8f5
+MD5Sum: 19b51480bc499ee3ce23480c4b4173c0
+SHA256sum: db74492137a9c40670ca2dbf3056c66b4974e07aab0409941990961acc8ec9f9
 Size: 666
-Filename: enigma2-plugin-extensions-oaweather-dev_2.4+git1+3d680110+3d68011a16-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-oaweather-dev_2.5+git7+cd393ef0+cd393ef30b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin. - Development files
 OE: enigma2-plugin-extensions-oaweather
@@ -13133,14 +13133,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather-src
-Version: 2.4+git1+3d680110+3d68011a16-r0
+Version: 2.5+git7+cd393ef0+cd393ef30b-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: 1fa728401a056e1805b2b7d527e406ee
-SHA256sum: 6b8fb6fe9b4e5f96fdb3a47de72e96117668054af71010f7f7597c5729f543cd
-Size: 18322
-Filename: enigma2-plugin-extensions-oaweather-src_2.4+git1+3d680110+3d68011a16-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 29fafd4039e18b1e46b54af0a95368fc
+SHA256sum: a10b5203d0f509bbbba55cac0b51aeb73116bd0fff0724547eb9ab784db53c6b
+Size: 18432
+Filename: enigma2-plugin-extensions-oaweather-src_2.5+git7+cd393ef0+cd393ef30b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin. - Source files
 OE: enigma2-plugin-extensions-oaweather
@@ -13148,15 +13148,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather
-Version: 2.4+git1+3d680110+3d68011a16-r0
+Version: 2.5+git7+cd393ef0+cd393ef30b-r0
 Depends: enigma2-tools-weatherinfo
 Section: extra
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: bc500e21222c01e90466154eb4b4fd47
-SHA256sum: 58be3984a0f2b5db4f9ee3878b11a02d214132350d14f47f53984b893dd32c6a
-Size: 1329596
-Filename: enigma2-plugin-extensions-oaweather_2.4+git1+3d680110+3d68011a16-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c1c9e11d93bdc91b856b21bce7528ca7
+SHA256sum: dabdb47f65fbd2c67577a0c69f5cfe685b53abde3ecd8e27aa5057313ec268a8
+Size: 1329728
+Filename: enigma2-plugin-extensions-oaweather_2.5+git7+cd393ef0+cd393ef30b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin.
 OE: enigma2-plugin-extensions-oaweather
@@ -136845,16 +136845,16 @@ License: GPL-2.0-or-later AND LGPL-2.1-or-later
 Priority: optional
 
 Package: streamlink
-Version: 8.6.3-git6163+3036d7e_0.0-git1+4ec0b8c0+3036d7e1de_4ec0b8c658-r0
+Version: 8.6.3-git6166+ae15e79_0.0-git1+4ec0b8c0+ae15e79ea7_4ec0b8c658-r0
 Depends: python3-certifi, python3-core, python3-ctypes, python3-isodate, python3-lxml, python3-pkgutil, python3-pycountry, python3-pycryptodome, python3-pysocks, python3-requests, python3-shell, python3-trio, python3-trio-websocket, python3-urllib3, python3-websocket-client
 Recommends: ffmpeg
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d0c82cca5fdca6ec13dbc24436f9264a
-SHA256sum: f1ec7cc611df30f8a362c798005b3bf14826091f2cffa9554a31d1073fb68d07
-Size: 1180250
-Filename: streamlink_8.6.3-git6163+3036d7e_0.0-git1+4ec0b8c0+3036d7e1de_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b7694cae715c1cb6dc03dacf5a308dfe
+SHA256sum: 7fb82c6a9b86a9dde5c3b4eb9f30849e70416683923e3587a852bccbdc6a7751
+Size: 1180326
+Filename: streamlink_8.6.3-git6166+ae15e79_0.0-git1+4ec0b8c0+ae15e79ea7_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
 Source: streamlink_git.bb
 Description: CLI for extracting streams from various websites to a video player of your choosing
 OE: streamlink
