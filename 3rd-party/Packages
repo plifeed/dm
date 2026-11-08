@@ -833,38 +833,38 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: nodejs
-Version: 24.20.0-r0
-Depends: brotli (>= 1.2.0), libc6 (>= 2.44), libcares2 (>= 1.34.8), libcrypto4 (>= 4.0.2), libgcc1 (>= 16.2.0), libicui18n78 (>= 78.3), libicuuc78 (>= 78.3), libssl4 (>= 4.0.2), libstdc++6 (>= 16.2.0), libz1 (>= 1.3.2)
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: nodejs
-MD5Sum: f9508e42294c3062c97fb54736e8aa50
-SHA256sum: 0d8d4de40b60be14a11f2d1a63eafe621d82f592e623a11ec693b99b604d724a
-Size: 11891686
-Filename: nodejs_24.20.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: nodejs_24.20.0.bb
-Description: nodejs version 24.20.0-r0
+Version: 24.22.1-r0
+Description: nodejs version 24.22.1-r0
  nodeJS Evented I/O for V8 JavaScript
-OE: nodejs
-License: Apache-2.0 AND Artistic-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BlueOak-1.0.0 AND ISC AND MIT
+Section: base
 Priority: optional
+Maintainer: nodejs
+License: Apache-2.0 AND Artistic-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BlueOak-1.0.0 AND ISC AND MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: nodejs
+Homepage: http://nodejs.org
+Depends: brotli (>= 1.2.1), libc6 (>= 2.44), libcares2 (>= 1.34.9), libcrypto4 (>= 4.1.0), libgcc1 (>= 16.2.0), libicui18n78 (>= 78.3), libicuuc78 (>= 78.3), libssl4 (>= 4.1.0), libstdc++6 (>= 16.2.0), libz1 (>= 1.3.2)
+Source: nodejs_24.22.1.bb
+Filename: nodejs_24.22.1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 12016500
+MD5Sum: 02d5cd69f7066156d4eed11dc16013c4
 
 Package: nodejs-npm
-Version: 24.20.0-r0
-Depends: bash, python3-core, python3-datetime, python3-misc, python3-multiprocessing, python3-shell
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: nodejs
-MD5Sum: f38d4d3eccc50827b7aa694bcf0ba84a
-SHA256sum: bec573bbadbe145d8b0278dafe38a388d48176cf6b63a98ceed9279f452d92d8
-Size: 2648390
-Filename: nodejs-npm_24.20.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: nodejs_24.20.0.bb
-Description: nodejs version 24.20.0-r0
+Version: 24.22.1-r0
+Description: nodejs version 24.22.1-r0
  nodeJS Evented I/O for V8 JavaScript
-OE: nodejs
-License: Apache-2.0 AND Artistic-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BlueOak-1.0.0 AND ISC AND MIT
+Section: base
 Priority: optional
+Maintainer: nodejs
+License: Apache-2.0 AND Artistic-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BlueOak-1.0.0 AND ISC AND MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: nodejs
+Homepage: http://nodejs.org
+Depends: bash, python3-core, python3-datetime, python3-misc, python3-multiprocessing, python3-shell
+Source: nodejs_24.22.1.bb
+Filename: nodejs-npm_24.22.1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 2656274
+MD5Sum: 77337bf14a987bd845600634978079ff
 
 Package: python3-rapidfuzz
 Version: 3.11.0
