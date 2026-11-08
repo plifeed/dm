@@ -250,12 +250,12 @@ Version: 1.0+gitr28+45a84500+45a845077c-r0
 Section: devel
 Architecture: dm920
 Maintainer: DimitarCC
-MD5Sum: 20ee5c2614fed5806b3258fe35593626
-SHA256sum: 0349fc4b32365fb6d3b03d015c063a06d17a7788cc1725f509f13666faba3bfd
-Size: 606
+MD5Sum: 28ccc3196fe890884e60cac189d5a286
+SHA256sum: 3700c0c7578964109c086fe385c8e920df90a2cd4c232cee05ddd7ef44d7e133
+Size: 600
 Filename: enigma2-boxlogos-dbg_1.0+gitr28+45a84500+45a845077c-r0_dm920.ipk
 Source: enigma2-boxlogos.bb
-Description: enigma2-boxlogos version 1.0+gitr-r0 - Debugging files
+Description: Box logos for Enimga2 - Debugging files
 OE: enigma2-boxlogos
 HomePage: https://github.com/DimitarCC/e2-boxlogos
 License: GPL-2.0-or-later
@@ -267,12 +267,12 @@ Recommends: enigma-info-dev, enigma2-boxlogos (= 1.0+gitr28+45a84500+45a845077c-
 Section: devel
 Architecture: dm920
 Maintainer: DimitarCC
-MD5Sum: 77b5a967745700eee791f3e07f0743f1
-SHA256sum: 6a18a97913d89d3c4970429c86520d47d99f4d052a1f64508f4f06d4eb267a96
-Size: 652
+MD5Sum: 6a374dbe8ef32b9dcf58686175d8a2ec
+SHA256sum: 031d254d6177bc1bb512e8f58abdb0ee24df18f27e71b947fefe9896db8a9bd1
+Size: 644
 Filename: enigma2-boxlogos-dev_1.0+gitr28+45a84500+45a845077c-r0_dm920.ipk
 Source: enigma2-boxlogos.bb
-Description: enigma2-boxlogos version 1.0+gitr-r0 - Development files
+Description: Box logos for Enimga2 - Development files
 OE: enigma2-boxlogos
 HomePage: https://github.com/DimitarCC/e2-boxlogos
 License: GPL-2.0-or-later
@@ -283,12 +283,12 @@ Version: 1.0+gitr28+45a84500+45a845077c-r0
 Section: base
 Architecture: dm920
 Maintainer: DimitarCC
-MD5Sum: 2b036c977a7919a7a1d17294bc9f9200
-SHA256sum: 5e4b77c7bdfd8f8965f23bca30240d479793c819ee457d1ed61b1777554a6660
-Size: 27278
+MD5Sum: c58d837a0cb0196010cf1807765b6542
+SHA256sum: 67cac556494f1891d4ababb203c43c4c7605bea2d74aa212783b2738acad99e6
+Size: 27268
 Filename: enigma2-boxlogos_1.0+gitr28+45a84500+45a845077c-r0_dm920.ipk
 Source: enigma2-boxlogos.bb
-Description: enigma2-boxlogos version 1.0+gitr-r0
+Description: Box logos for Enimga2
 OE: enigma2-boxlogos
 HomePage: https://github.com/DimitarCC/e2-boxlogos
 License: GPL-2.0-or-later
@@ -1157,12 +1157,12 @@ Version: 2.4.0+381+7a7bb630+7a7bb63ba1-r0
 Section: devel
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: 86ce55df02939e781a6a8cb481c62581
-SHA256sum: 9293a541366f0763d0d670a03c5452416584d21dff1402ddba25b197f21a1df1
-Size: 610
+MD5Sum: a2519e6b6ceaa68703b2383f0d948486
+SHA256sum: 0d175988cb5911f7cee877777e78fadbffbe83cb645f71151e084065560fce21
+Size: 606
 Filename: enigma2-plugin-extensions-openwebif-dbg_2.4.0+381+7a7bb630+7a7bb63ba1-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version 2.4.0+git-r0 - Debugging files
+Description: Control your receiver with a webbrowser - Debugging files
 OE: enigma2-plugin-extensions-openwebif
 License: GPL-2.0-only
 Priority: optional
@@ -1173,12 +1173,12 @@ Recommends: aio-grab-dev, enigma2-plugin-extensions-openwebif (= 2.4.0+381+7a7bb
 Section: devel
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: 90a1b80fb64e570168037ea27b627737
-SHA256sum: bd48e3ed16e532db305f4d4257c424f0f5ca97991d6d37a81f10f332cbe7f11d
-Size: 728
+MD5Sum: c38d39c1e0eac94d737f914408a7a70b
+SHA256sum: 461aabd22af851c42107bd2ab2a150fd2187795a961a02eee4ccedeae1b91b65
+Size: 722
 Filename: enigma2-plugin-extensions-openwebif-dev_2.4.0+381+7a7bb630+7a7bb63ba1-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version 2.4.0+git-r0 - Development files
+Description: Control your receiver with a webbrowser - Development files
 OE: enigma2-plugin-extensions-openwebif
 License: GPL-2.0-only
 Priority: optional
@@ -1190,12 +1190,12 @@ Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: c749863923172cbbcfab42a7d0068c32
-SHA256sum: 047afacd17c555941e344cdc3f486cbf181e046016c081e55e51e7f418a8ddd1
-Size: 2022738
+MD5Sum: 202e5f1f2154b954f171de6758299294
+SHA256sum: c9271e1621c0fa6a71d70ba8048b5ba8f94562316ccb3fcaad4b628977efc4fd
+Size: 2023138
 Filename: enigma2-plugin-extensions-openwebif_2.4.0+381+7a7bb630+7a7bb63ba1-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version 2.4.0+git-r0
+Description: Control your receiver with a webbrowser
 OE: enigma2-plugin-extensions-openwebif
 License: GPL-2.0-only
 Priority: optional
@@ -1329,12 +1329,12 @@ Version: 2.0+git6+0b2e06b0+0b2e06b258-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 30791cf887abb717a4ea3e4d4d1f0eaf
-SHA256sum: 8ac44c7e100ac62590e9773b1fb41789a613f96f92bd1ccf91bdd2cf342a7e51
-Size: 624
+MD5Sum: 7b4de4e862ddc87dbb01514c81fc64ff
+SHA256sum: 0e869287f04dd591016a8beb1e33ad21b855c2ccbb4fc63f8c9a72968eadac3c
+Size: 614
 Filename: enigma2-plugin-extensions-screenposition-dbg_2.0+git6+0b2e06b0+0b2e06b258-r0_dm920.ipk
 Source: enigma2-plugin-extensions-screenposition.bb
-Description: enigma2-plugin-extensions-screenposition version 2.0+git-r0 - Debugging files
+Description: Adjust the screen position - Debugging files
 OE: enigma2-plugin-extensions-screenposition
 License: GPL-2.0-or-later
 Priority: optional
@@ -1345,12 +1345,12 @@ Recommends: enigma2-plugin-extensions-screenposition (= 2.0+git6+0b2e06b0+0b2e06
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a46ae1a22a82dccda1d1cc1d1d2d1eab
-SHA256sum: a1630123cf3ed1adc74ef5224db5dce35253b173a95e3c2777180af78e2e23e8
-Size: 672
+MD5Sum: 713cd5ee0b8bf2901026a681e64c80c2
+SHA256sum: c54781452ed8742e813ab6393192c9809d0560d63267d8fcecbc6630f87dd524
+Size: 664
 Filename: enigma2-plugin-extensions-screenposition-dev_2.0+git6+0b2e06b0+0b2e06b258-r0_dm920.ipk
 Source: enigma2-plugin-extensions-screenposition.bb
-Description: enigma2-plugin-extensions-screenposition version 2.0+git-r0 - Development files
+Description: Adjust the screen position - Development files
 OE: enigma2-plugin-extensions-screenposition
 License: GPL-2.0-or-later
 Priority: optional
@@ -1361,12 +1361,12 @@ Depends: python3-core
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2a5d97f449efd8ec9772d90c13158ee2
-SHA256sum: f706600902e5b9e1ce1778dd76dfc5b43e31b57c02d487f19f66dbf4288df2e4
-Size: 5952
+MD5Sum: 7bb6065ef72df5f9a21651aeed9788bf
+SHA256sum: f2b094cb08b3127b0b44a3b1b5973d772cc15839177e357085fbf47652b81712
+Size: 5942
 Filename: enigma2-plugin-extensions-screenposition_2.0+git6+0b2e06b0+0b2e06b258-r0_dm920.ipk
 Source: enigma2-plugin-extensions-screenposition.bb
-Description: enigma2-plugin-extensions-screenposition version 2.0+git-r0
+Description: Adjust the screen position
 OE: enigma2-plugin-extensions-screenposition
 License: GPL-2.0-or-later
 Priority: optional
@@ -1391,12 +1391,12 @@ Version: 0.2+git20+abd5cda0+abd5cda28c-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81f29f7fa9e7c377b4d3fa1d4826005d
-SHA256sum: 4a1c5a3bb84661a03697d69893e86e085e7872c57212179eea56b411cac5a395
-Size: 636
+MD5Sum: ba267eb79b4bad576f05e042959af336
+SHA256sum: aaf34fcc995fe69b74d29b9fc5a9ec18f3fb513246fe94572b2aad4b7f6e4ebd
+Size: 630
 Filename: enigma2-plugin-extensions-shootyourscreen-dbg_0.2+git20+abd5cda0+abd5cda28c-r0_dm920.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
-Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0 - Debugging files
+Description: Create screenshots with remote control of your STB - Debugging files
 OE: enigma2-plugin-extensions-shootyourscreen
 License: GPL-2.0-or-later
 Priority: optional
@@ -1407,12 +1407,12 @@ Recommends: aio-grab-dev, enigma2-plugin-extensions-shootyourscreen (= 0.2+git20
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9fee69c769890bb340ca0459a947daf6
-SHA256sum: 177ac22d50de1a22efae35248ded94807d07f89e1f277de30ef279953ac7478c
-Size: 696
+MD5Sum: 19b5712a23da5830f4c8ec532fbcb49e
+SHA256sum: 9567ade9efdbf84bb9bccbf97b6cd8f697b7d44fd41af4b228fa69912b53fedf
+Size: 688
 Filename: enigma2-plugin-extensions-shootyourscreen-dev_0.2+git20+abd5cda0+abd5cda28c-r0_dm920.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
-Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0 - Development files
+Description: Create screenshots with remote control of your STB - Development files
 OE: enigma2-plugin-extensions-shootyourscreen
 License: GPL-2.0-or-later
 Priority: optional
@@ -1423,12 +1423,12 @@ Depends: aio-grab, python3-core
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a29d3eff78a52d0b027cc884be1aff7c
-SHA256sum: d1b3d06f8d214b40da56377e7852c11948240b8822d70eebc63b1ea1d551744d
-Size: 18848
+MD5Sum: f70aa7e393969cea2e0dd67453696c48
+SHA256sum: fb7f5712b84a1027a1c46119589a5a751ef54fe57d1174ed8ed5d8c50aef0d16
+Size: 18840
 Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git20+abd5cda0+abd5cda28c-r0_dm920.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
-Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0
+Description: Create screenshots with remote control of your STB
 OE: enigma2-plugin-extensions-shootyourscreen
 License: GPL-2.0-or-later
 Priority: optional
@@ -1815,12 +1815,12 @@ Version: 0.6+git41+16525340+1652534fc4-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 06c2692c8725bae001fffa53e14ed175
-SHA256sum: 332cfe3dcc9188dc4047fbab81b5c3bce10bcbe18ff9964e7789f2f581a86367
-Size: 630
+MD5Sum: ef6508f96520d9cea70fa04b33c1e435
+SHA256sum: c707749001582faaa25865a961d70fd547fcd63ab90b08ce7be42da2dcf2b1d7
+Size: 622
 Filename: enigma2-plugin-systemplugins-autoshutdown-dbg_0.6+git41+16525340+1652534fc4-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-autoshutdown.bb
-Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+git-r0 - Debugging files
+Description: Automated power off for STB - Debugging files
 OE: enigma2-plugin-systemplugins-autoshutdown
 License: GPL-2.0-or-later
 Priority: optional
@@ -1831,12 +1831,12 @@ Recommends: enigma2-plugin-systemplugins-autoshutdown (= 0.6+git41+16525340+1652
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a05e47f45871a3232b58440b0d479b0f
-SHA256sum: c8455d199f122e362a711b5d3e0bb3b20f2c022ba592b31b11ef2b750ab51516
-Size: 662
+MD5Sum: c3bf8f6ca6b705455aaca89bbcf06b68
+SHA256sum: fd9fa80f2e003aad7cf0caac430994c990274bb149a8682ce196c41961b137f3
+Size: 656
 Filename: enigma2-plugin-systemplugins-autoshutdown-dev_0.6+git41+16525340+1652534fc4-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-autoshutdown.bb
-Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+git-r0 - Development files
+Description: Automated power off for STB - Development files
 OE: enigma2-plugin-systemplugins-autoshutdown
 License: GPL-2.0-or-later
 Priority: optional
@@ -1846,12 +1846,12 @@ Version: 0.6+git41+16525340+1652534fc4-r0
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24c645f78719c7e24a3f547a5edaea40
-SHA256sum: 168c7eef5f7fafbf69e6e06008e3600daf07c95cc3344dcf03a65d4f7d1e55e5
-Size: 36882
+MD5Sum: f91eab5fc84e23711d83a7b198197139
+SHA256sum: 9e9a87236a99cb98f3ef58f4830142582b9a194d3cd809747b5f13c491e3afe9
+Size: 36874
 Filename: enigma2-plugin-systemplugins-autoshutdown_0.6+git41+16525340+1652534fc4-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-autoshutdown.bb
-Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+git-r0
+Description: Automated power off for STB
 OE: enigma2-plugin-systemplugins-autoshutdown
 License: GPL-2.0-or-later
 Priority: optional
@@ -1909,12 +1909,12 @@ Recommends: glibc-dbg, libcurl-dbg, libxml2-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e10c5582fd80c324c095f4d5a29c2635
-SHA256sum: 3518c340c84364d8b16b344f6b39eee87fa79bebddb56859bc1ca1247268f370
-Size: 730
+MD5Sum: 3f2126b59662a06af913f6f21140031a
+SHA256sum: 713c948d94f3fa334af97dae4e9b0a7681a289d7161bcec4011af3cad573119e
+Size: 722
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.9.0+gitr563+bf4e3330+bf4e333af0-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
-Description: enigma2-plugin-systemplugins-crossepg version 0.9.0+gitr-r0 - Debugging files
+Description: Handle your EPG on enigma2 from various sources - Debugging files
 OE: enigma2-plugin-systemplugins-crossepg
 HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
 License: LGPL-2.1-only
@@ -1926,12 +1926,12 @@ Recommends: curl-dev, enigma2-dev, enigma2-plugin-systemplugins-crossepg (= 0.9.
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 582742eb0d7bc2057807d10a86d3c8a0
-SHA256sum: 4ad0c4adfc876e265a63506deee21b8e594bca6b91f69fd585f6bab3bf6b5d33
-Size: 792
+MD5Sum: d4a50f98eaa820e49a5fc14e297d9f13
+SHA256sum: adad83475ae1a4e502e2cd242a75eeac83114467a4fe35aeab86c054bb5a327f
+Size: 784
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.9.0+gitr563+bf4e3330+bf4e333af0-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
-Description: enigma2-plugin-systemplugins-crossepg version 0.9.0+gitr-r0 - Development files
+Description: Handle your EPG on enigma2 from various sources - Development files
 OE: enigma2-plugin-systemplugins-crossepg
 HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
 License: LGPL-2.1-only
@@ -1942,12 +1942,12 @@ Version: 0.9.0+gitr563+bf4e3330+bf4e333af0-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2b929fee5d7f8bcdc22cafc5afc045d3
-SHA256sum: e67936c4a0a31b6ddb98dc8591f1e3857204fc4bcb5cdc56420a4716643506ec
-Size: 3364
+MD5Sum: fb0c853ce569bbc5869e1372c28f5bfd
+SHA256sum: 656430ee1c84ba4c4db1e42872f080f620674c3c43b11804abdc0bfdffb82560
+Size: 3354
 Filename: enigma2-plugin-systemplugins-crossepg-src_0.9.0+gitr563+bf4e3330+bf4e333af0-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
-Description: enigma2-plugin-systemplugins-crossepg version 0.9.0+gitr-r0 - Source files
+Description: Handle your EPG on enigma2 from various sources - Source files
 OE: enigma2-plugin-systemplugins-crossepg
 HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
 License: LGPL-2.1-only
@@ -2205,12 +2205,12 @@ Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, uch
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 55912c493b731dc4b7432cf7313fb718
-SHA256sum: 3e5def0506ef8d426e8bd18ccbc7f413e65ee5d468755c3a30150d1fa8dd5abd
-Size: 2660086
+MD5Sum: e61dc2999d03e89007ce27332a69ceb8
+SHA256sum: 2c00cbc0d421b7feb950224dedb4732e4489a4d9ada0f9a438de59fd7a3fa9b0
+Size: 2660094
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
-Description: enigma2-plugin-systemplugins-serviceapp version git-r0 - Debugging files
+Description: ServiceApp media playback system - Debugging files
 OE: enigma2-plugin-systemplugins-serviceapp
 License: GPL-2.0-only
 Priority: optional
@@ -2221,12 +2221,12 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-serviceapp (= git176+947f6
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0f9baf652430efd55fee8fed0f9c27cd
-SHA256sum: ed17bf40b4e2a046908e43c8ec445e7cabdc845bf40d23c0ea45e027e0f4f0a9
-Size: 706
+MD5Sum: dc934448684d2658e40d77843d92de7c
+SHA256sum: aef5f4c6577b2042d71f587893197ac21d02f72a262f02188731a7831484830b
+Size: 712
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
-Description: enigma2-plugin-systemplugins-serviceapp version git-r0 - Development files
+Description: ServiceApp media playback system - Development files
 OE: enigma2-plugin-systemplugins-serviceapp
 License: GPL-2.0-only
 Priority: optional
@@ -2238,12 +2238,12 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 16863f2f1ddc0973af575ee451cd4c8b
-SHA256sum: 21c998ec0bc9c6660f19633cd4fbd8e01ef28a2003f0fd97207897495b5cc7cb
-Size: 206398
+MD5Sum: f1c7ab2ca410b4b3c8647305948b2533
+SHA256sum: 8a51bba670b2976eee022bc660fe0287e2a936dea72c3d87420374756fbcacac
+Size: 206410
 Filename: enigma2-plugin-systemplugins-serviceapp_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
-Description: enigma2-plugin-systemplugins-serviceapp version git-r0
+Description: ServiceApp media playback system
 OE: enigma2-plugin-systemplugins-serviceapp
 License: GPL-2.0-only
 Priority: optional
@@ -2254,12 +2254,12 @@ Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libgcc-dbg, libgstaudio-1
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f6861d8299736ea79fdc1f65771a8921
-SHA256sum: 03686d2587b795e4208a974290aa02b7d253f26efb57321154b48da2b1c41a2d
-Size: 936810
+MD5Sum: ac2627e7b58317026efad5698662491d
+SHA256sum: bf5c507bd2266ad117e891173c0623bfd0869faaf68fe2c81d74b9ae2b8b23d1
+Size: 936820
 Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git81+afdcedd0+afdcedd429-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
-Description: enigma2-plugin-systemplugins-servicemp3 version git-r0 - Debugging files
+Description: Servicemp3 built-in system file player - Debugging files
 OE: enigma2-plugin-systemplugins-servicemp3
 License: GPL-2.0-only
 Priority: optional
@@ -2270,12 +2270,12 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-servicemp3 (= git81+afdced
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c23ab6a96ce24f3a7d31c23eddbaaafe
-SHA256sum: 852a0f5f5cc9e943a109ae0f298fb733a9688a604a6e43383431d27424b14c72
-Size: 1018
+MD5Sum: 92446b60ec3591a2f0d666a3ac80a395
+SHA256sum: 26b72bd9b57f3274c36ad7e4c1f5c605e4568d178e563178ecf458386f2025ab
+Size: 1026
 Filename: enigma2-plugin-systemplugins-servicemp3-dev_git81+afdcedd0+afdcedd429-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
-Description: enigma2-plugin-systemplugins-servicemp3 version git-r0 - Development files
+Description: Servicemp3 built-in system file player - Development files
 OE: enigma2-plugin-systemplugins-servicemp3
 License: GPL-2.0-only
 Priority: optional
@@ -2287,12 +2287,12 @@ Provides: virtual-enigma2-mediaservice
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 30b2e36076ce62df3e83b12eabd22e9c
-SHA256sum: 83540258c97e5cc61dfbcf6aa876612cd35e55d7ea3fd02f5bf221aa105da707
-Size: 78810
+MD5Sum: f32e1865a4b601c7daf48092c7590464
+SHA256sum: bee412069514605bc0163cc32a74b65378d12da390628030ddfea96901564cbc
+Size: 78822
 Filename: enigma2-plugin-systemplugins-servicemp3_git81+afdcedd0+afdcedd429-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
-Description: enigma2-plugin-systemplugins-servicemp3 version git-r0
+Description: Servicemp3 built-in system file player
 OE: enigma2-plugin-systemplugins-servicemp3
 License: GPL-2.0-only
 Priority: optional
