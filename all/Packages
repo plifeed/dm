@@ -606,6 +606,53 @@ OE: enigma2-plugin-extensions-archimede-m3uconverter
 License: GPL-2.0-or-later
 Priority: required
 
+Package: enigma2-plugin-extensions-archivczsk-dbg
+Version: 2.5.0-git586+32974170+3297417f2b-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2ac5fb9806c35ce855c7252ca9567ba8
+SHA256sum: c438c19250d24d00d17fcf5fda17481ebbc45f34a437112de058d4168efa742d
+Size: 692
+Filename: enigma2-plugin-extensions-archivczsk-dbg_2.5.0-git586+32974170+3297417f2b-r0_all.ipk
+Source: enigma2-plugin-extensions-archivczsk.bb
+Description: ArchivCZSK stream Czech and Slovak video archives, TV and internet media - Debugging files
+OE: enigma2-plugin-extensions-archivczsk
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-archivczsk-dev
+Version: 2.5.0-git586+32974170+3297417f2b-r0
+Recommends: bash-dev, enigma2-plugin-extensions-archivczsk (= 2.5.0-git586+32974170+3297417f2b-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, python3-requests-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 29eda997941d359ead544cab87a24848
+SHA256sum: c12ece86002f3fca4234d121fa1b4739ef482c893bcccbeb6c7d5e749f3b814d
+Size: 776
+Filename: enigma2-plugin-extensions-archivczsk-dev_2.5.0-git586+32974170+3297417f2b-r0_all.ipk
+Source: enigma2-plugin-extensions-archivczsk.bb
+Description: ArchivCZSK stream Czech and Slovak video archives, TV and internet media - Development files
+OE: enigma2-plugin-extensions-archivczsk
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-archivczsk
+Version: 2.5.0-git586+32974170+3297417f2b-r0
+Depends: bash, enigma2-plugin-systemplugins-serviceapp, exteplayer3, python3-requests
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e05481712e08801e2044a13ead46e072
+SHA256sum: dcebdfb026e824282d930a891c28f0a5d8229c301d656fadae2911d0655b27f6
+Size: 372198
+Filename: enigma2-plugin-extensions-archivczsk_2.5.0-git586+32974170+3297417f2b-r0_all.ipk
+Source: enigma2-plugin-extensions-archivczsk.bb
+Description: ArchivCZSK stream Czech and Slovak video archives, TV and internet media
+OE: enigma2-plugin-extensions-archivczsk
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-autobackup-dbg
 Version: 2.0+git313+2e336960+2e33696f91-r2
 Section: devel
@@ -1327,14 +1374,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dbg
-Version: 1.9.1-r0-git39+363d94a0+363d94a1cd-r0
+Version: 1.9.2-r0-git41+8a622470+8a62247af7-r0
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 075377e2244c933dff10e79ae0d16ca6
-SHA256sum: b7b6363b630b3e392bfc4e97caf79522afaee0c60ee3ee6ec1f90120df679c7c
+MD5Sum: 9ca74cf91c7b4a27fb084b9afb43049f
+SHA256sum: 67f6ab49df799528adbfd4714b6dba822ba352f7530e2835589b08595e28a8a7
 Size: 704
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.9.1-r0-git39+363d94a0+363d94a1cd-r0_all.ipk
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.9.2-r0-git41+8a622470+8a62247af7-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1343,15 +1390,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dev
-Version: 1.9.1-r0-git39+363d94a0+363d94a1cd-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.9.1-r0-git39+363d94a0+363d94a1cd-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
+Version: 1.9.2-r0-git41+8a622470+8a62247af7-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.9.2-r0-git41+8a622470+8a62247af7-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 4333091c7a9d3eec4c92c23dfc7fb5f5
-SHA256sum: a8ad0f18fd9e3007b310633bd926ab83628134547952e0985ec99813ba6543c9
+MD5Sum: 444013f457e22606ab3443df8b69997f
+SHA256sum: c09bd6950297b51c10d76485f4badeea63ff966912c5cb1ae19addaaf2148759
 Size: 844
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.9.1-r0-git39+363d94a0+363d94a1cd-r0_all.ipk
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.9.2-r0-git41+8a622470+8a62247af7-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Development files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1360,15 +1407,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro
-Version: 1.9.1-r0-git39+363d94a0+363d94a1cd-r0
+Version: 1.9.2-r0-git41+8a622470+8a62247af7-r0
 Depends: enigma2, python3-asyncio, python3-compression, python3-core, python3-datetime, python3-difflib, python3-fcntl, python3-html, python3-io, python3-json, python3-math, python3-netclient, python3-netserver, python3-stringold, python3-threading, python3-xml
 Section: base
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 1e2589211d3342a07f40c345c4c1146c
-SHA256sum: 3f4e6adad8f533dff93fcb0f72909a47b141b29ea49cecc149302828eb261ae1
-Size: 10372232
-Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.9.1-r0-git39+363d94a0+363d94a1cd-r0_all.ipk
+MD5Sum: befa04547f11eda35969ff5fe0c64cb2
+SHA256sum: e0312d0a7c5c357cf6c8fe283506d7581db90a8568c39d339e798e86a4347b6d
+Size: 10405234
+Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.9.2-r0-git41+8a622470+8a62247af7-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -5619,9 +5666,9 @@ Version: 2.1+git17+2ebb8b30+2ebb8b3589-r0
 Section: devel
 Architecture: all
 Maintainer: E2OpenPlugins
-MD5Sum: 188eb4231e56f23fc414d570e8eebb9e
-SHA256sum: ddb6bf88b89375b9e261655d08aab1e87eac664d5b5f191f45230bdb851960d4
-Size: 610
+MD5Sum: d5066ef53869cbfbdaa4dfacf4504e13
+SHA256sum: 56088ddafdc9bf2e25814edacd1f28be958658ebab126313d48bc5881e6ed47e
+Size: 612
 Filename: enigma2-plugin-softcams-icam-whitelist-dbg_2.1+git17+2ebb8b30+2ebb8b3589-r0_all.ipk
 Source: enigma2-plugin-softcams-icam-whitelist.bb
 Description: enigma2-plugin-softcams-icam-whitelist version 2.1+git-r0 - Debugging files
@@ -5635,8 +5682,8 @@ Recommends: enigma2-plugin-softcams-icam-whitelist (= 2.1+git17+2ebb8b30+2ebb8b3
 Section: devel
 Architecture: all
 Maintainer: E2OpenPlugins
-MD5Sum: f61ce256aaf1200cc17ef78b5d5b8d7f
-SHA256sum: d68e06ac1231f94cd4c93ea6d2aee2ef39f490dc27ed1080356e331a9ad386fa
+MD5Sum: b1978c81be64ac87e11c1aebf8f82353
+SHA256sum: cfddbac679b32d691f28df1abc59482a5cf269c262a8d6c7ff4732c228a52950
 Size: 654
 Filename: enigma2-plugin-softcams-icam-whitelist-dev_2.1+git17+2ebb8b30+2ebb8b3589-r0_all.ipk
 Source: enigma2-plugin-softcams-icam-whitelist.bb
@@ -5653,8 +5700,8 @@ Conflicts: enigma2-plugins-softcams-icam
 Section: base
 Architecture: all
 Maintainer: E2OpenPlugins
-MD5Sum: 965d8d885830a1b31c7a643d6a63c1bf
-SHA256sum: 079d17e3dd0e80e83df0cdf6887972e8ab628a55240123baef749ce5cfa80398
+MD5Sum: 2975cb839e344d7672915e98a1a56c6d
+SHA256sum: c88f8592a6999d3f56e73a78ecb149e7ccfa8eddc32d5e96bd10548f559b1cba
 Size: 1014
 Filename: enigma2-plugin-softcams-icam-whitelist_2.1+git17+2ebb8b30+2ebb8b3589-r0_all.ipk
 Source: enigma2-plugin-softcams-icam-whitelist.bb
@@ -10157,6 +10204,54 @@ HomePage: https://www.freedesktop.org/software/systemd/man/os-release.html
 License: MIT
 Priority: optional
 
+Package: packagegroup-hbbtv2-dbg
+Version: 1.0-r0
+Recommends: enigma2-plugin-systemplugins-hbbtv2-dbg
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 81b5b971bcff6d2ffab0f62dde3d51e9
+SHA256sum: db5d8fab82bb3ecc2671bba6e523fd3e9304c4739bd9402c166433aa1258b430
+Size: 614
+Filename: packagegroup-hbbtv2-dbg_1.0-r0_all.ipk
+Source: packagegroup-hbbtv2.bb
+Description: HbbTV 2.0 plugin and everything it needs - Debugging files
+OE: packagegroup-hbbtv2
+License: MIT
+Priority: optional
+
+Package: packagegroup-hbbtv2-dev
+Version: 1.0-r0
+Recommends: enigma2-plugin-systemplugins-hbbtv2-dev, packagegroup-hbbtv2 (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df4adccf23354a4e73dfa3b18d9b3ad7
+SHA256sum: 3a881f17f38d629de1733dbf0c8e0e6c7dae9c02c058d8a5ea97cfdb0904e384
+Size: 642
+Filename: packagegroup-hbbtv2-dev_1.0-r0_all.ipk
+Source: packagegroup-hbbtv2.bb
+Description: HbbTV 2.0 plugin and everything it needs - Development files
+OE: packagegroup-hbbtv2
+License: MIT
+Priority: optional
+
+Package: packagegroup-hbbtv2
+Version: 1.0-r0
+Depends: enigma2-plugin-systemplugins-hbbtv2
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c6c02512e4b74dd49ff6c503dc3747f5
+SHA256sum: 73ea032b11410ba3c1533d65800c8ac7b1a8715f1218e74a83455196f4892bdc
+Size: 548
+Filename: packagegroup-hbbtv2_1.0-r0_all.ipk
+Source: packagegroup-hbbtv2.bb
+Description: HbbTV 2.0 plugin and everything it needs
+OE: packagegroup-hbbtv2
+License: MIT
+Priority: optional
+
 Package: packagegroup-openplugins-dbg
 Version: 1.0-r0
 Section: devel
@@ -10517,14 +10612,14 @@ License: Bitstream-Vera
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1579+45b1b050+45b1b05abc-3
+Version: 2+git1580+4ef76d70+4ef76d702b-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 80808d83e1fc07d1e36964fa37f398c3
-SHA256sum: e94b6d2def57d5218e974950e2a9f2a77b3b4b6c0477512aaee4fd51a00adaf4
+MD5Sum: 6e502515439d599dbb520e2d0c76074f
+SHA256sum: f986c788f3e293783658c758d6c6b45388e146d723f0219a0fa5a551260bb879
 Size: 568
-Filename: tuxbox-common-dbg_2+git1579+45b1b050+45b1b05abc-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1580+4ef76d70+4ef76d702b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10532,15 +10627,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1579+45b1b050+45b1b05abc-3
-Recommends: tuxbox-common (>= 2+git1579+45b1b050+45b1b05abc-3), tuxbox-common (<< 2+git1579+45b1b050+45b1b05abc-3.0), xz-dev
+Version: 2+git1580+4ef76d70+4ef76d702b-3
+Recommends: tuxbox-common (>= 2+git1580+4ef76d70+4ef76d702b-3), tuxbox-common (<< 2+git1580+4ef76d70+4ef76d702b-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 0f34b7b5e761fa3d9f4fcae6c3856e61
-SHA256sum: 817075a241b12f2dfa881ab4232cd1623437fbd6e812ee349fe2f0509268f6ac
-Size: 622
-Filename: tuxbox-common-dev_2+git1579+45b1b050+45b1b05abc-3_all.ipk
+MD5Sum: 6fe403d80e8978623fc62ab5708f887a
+SHA256sum: 41ea565efa6c497acfa0af0dd741ad801187453880f484ddd205f428aa3bc7c2
+Size: 620
+Filename: tuxbox-common-dev_2+git1580+4ef76d70+4ef76d702b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10548,15 +10643,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1579+45b1b050+45b1b05abc-3
+Version: 2+git1580+4ef76d70+4ef76d702b-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 2c09d910d036e8b849db603ad4b9df33
-SHA256sum: dc75b63721e9784717f0bd261d4937fc3012b3d26e91127ff1b16413dfec34aa
-Size: 69344
-Filename: tuxbox-common_2+git1579+45b1b050+45b1b05abc-3_all.ipk
+MD5Sum: a8aa43087359b9510f1e75a0e4c29561
+SHA256sum: 7435b4ec2c95d27cd8e62fa3384d5ad9c886d747b8b67545acdccaa46d1b1055
+Size: 69330
+Filename: tuxbox-common_2+git1580+4ef76d70+4ef76d702b-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
