@@ -679,6 +679,26 @@ OE: enigma2-plugin-softcams-wicardd-1.19
 License: LicenseRef-Proprietary
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-hbbtv2
+Version: 2.0
+Depends: libc6 (>= 2.44), libglib-2.0-0 (>= 2.90.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0)
+Provides: enigma2-plugin-extensions-wpehbbtv
+Replaces: enigma2-plugin-extensions-wpehbbtv
+Conflicts: enigma2-plugin-extensions-wpehbbtv
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ca16597fef723b41a3a779aaf21ef3cc
+SHA256sum: c45107acf0ee4c3476412724d98818f03c27261504866185616b31baf4e35152
+Size: 112332
+Filename: enigma2-plugin-systemplugins-hbbtv2_2.0+git43+e6ab57a0+e6ab57af36-r33_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-systemplugins-hbbtv2_git.bb
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+OE: enigma2-plugin-systemplugins-hbbtv2
+HomePage: https://github.com/OpenViX/HbbTv2.0
+License: GPL-3.0-only
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-jobcockpit
 Version: 0.17.1
 Depends: enigma2-plugin-systemplugins-fontscockpit
