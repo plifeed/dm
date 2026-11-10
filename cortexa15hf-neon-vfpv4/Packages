@@ -9105,14 +9105,14 @@ License: LicenseRef-PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-backupflash-dbg
-Version: V0.0-git198+e97f6f60+e97f6f6712-r0
+Version: V0.0-git199+2fec6c60+2fec6c6330-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED - fairbird
-MD5Sum: afd314000ddedeac150ca9cec3ac66aa
-SHA256sum: 84691d4e40e3e2e558225ce20b67f4b0bee8d404433b550573ca60ca6768ddd2
-Size: 660
-Filename: enigma2-plugin-extensions-backupflash-dbg_V0.0-git198+e97f6f60+e97f6f6712-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 91fef87eeda5abecf85f4c7fe78bd4a8
+SHA256sum: d35eb40fba6f3c40e13485557db2cd1935e83dc1999b2197b547bb39556f16b0
+Size: 658
+Filename: enigma2-plugin-extensions-backupflash-dbg_V0.0-git199+2fec6c60+2fec6c6330-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupflash.bb
 Description: BackUpFlash plugin to Create Backup and flash - Debugging files
 OE: enigma2-plugin-extensions-backupflash
@@ -9120,15 +9120,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-backupflash-dev
-Version: V0.0-git198+e97f6f60+e97f6f6712-r0
-Recommends: enigma2-plugin-extensions-backupflash (= V0.0-git198+e97f6f60+e97f6f6712-r0), flash-scripts-dev, pigz-dev, python3-core-dev, python3-crypt-dev, python3-dev, wget-dev, xz-dev
+Version: V0.0-git199+2fec6c60+2fec6c6330-r0
+Recommends: enigma2-plugin-extensions-backupflash (= V0.0-git199+2fec6c60+2fec6c6330-r0), flash-scripts-dev, pigz-dev, python3-core-dev, python3-crypt-dev, python3-dev, wget-dev, xz-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED - fairbird
-MD5Sum: 6378396e0586a621ab1a963dbf1c91a5
-SHA256sum: b375d634a54084b44476134ac4e5e262103ff0d1ada2d2a3e081c7400c7484ae
+MD5Sum: c0ed6bd46b53deee6e117afe9dbfe444
+SHA256sum: 0592a80515e63d84ed7c43bebe30f1cc225678ecabdc43aea033b46452ab346e
 Size: 736
-Filename: enigma2-plugin-extensions-backupflash-dev_V0.0-git198+e97f6f60+e97f6f6712-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-backupflash-dev_V0.0-git199+2fec6c60+2fec6c6330-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupflash.bb
 Description: BackUpFlash plugin to Create Backup and flash - Development files
 OE: enigma2-plugin-extensions-backupflash
@@ -9136,15 +9136,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-backupflash
-Version: V0.0-git198+e97f6f60+e97f6f6712-r0
+Version: V0.0-git199+2fec6c60+2fec6c6330-r0
 Depends: flash-scripts, pigz, python3-core, python3-crypt, wget, xz
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED - fairbird
-MD5Sum: f6b7b0455a68babbff88e7d13262d638
-SHA256sum: a311489daf4b38bb515dd7579441672e7851558c5f44dd9a5d85dad8967972e5
-Size: 303872
-Filename: enigma2-plugin-extensions-backupflash_V0.0-git198+e97f6f60+e97f6f6712-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6cc94ba6bfbb304d1a2e6630f3e9d0e6
+SHA256sum: 5992268ee6adfa41feabc23ec5ab76cbd4ce3eb5eaea4deef5274f73fbde7c4e
+Size: 303992
+Filename: enigma2-plugin-extensions-backupflash_V0.0-git199+2fec6c60+2fec6c6330-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupflash.bb
 Description: BackUpFlash plugin to Create Backup and flash
 OE: enigma2-plugin-extensions-backupflash
@@ -9754,14 +9754,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.11.08.03-git6308+663d5460+663d54618c-r0
+Version: 2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: e2ad0b3c29d083d21fb8413e3653a6aa
-SHA256sum: 31021a1849855c9fa8c35aa2a54fdc5ae1422408082a3849041132c052eaef20
+MD5Sum: 80c90bd6e7fac8aa62ecf3828456eeb2
+SHA256sum: 2cbdab825de755fca88c23c7ae0df6a8b088644c8036610960553d06aef80aa0
 Size: 672
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.08.03-git6308+663d5460+663d54618c-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9822,15 +9822,15 @@ License: GPL-3.0-only AND LGPL-2.1-or-later AND MIT AND Zlib
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.11.08.03-git6308+663d5460+663d54618c-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.08.03-git6308+663d5460+663d54618c-r0), python3-core-dev, python3-dev
+Version: 2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 734afa90edcbb5b1ff5b5e027c820fc9
-SHA256sum: 6ba93a948af4e156939ee00c7c1206321bb063085fc59cdfb3e37335bd32b88d
+MD5Sum: 00c36b3a280e0b78d7d421247cea1afd
+SHA256sum: aac60418f64e4c585ecb86367e0a2bb324f2428d32d543591c74c3aabb828a6c
 Size: 724
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.08.03-git6308+663d5460+663d54618c-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9839,15 +9839,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.11.08.03-git6308+663d5460+663d54618c-r0
+Version: 2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 358d4c911c05dff2f1becc272eb8542e
-SHA256sum: 8ce1e5d27eddbb404e71cf3a6816f1f959d3786fe9aa1b79587f7d6353412528
-Size: 2988708
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.08.03-git6308+663d5460+663d54618c-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6c8bdd5e9b98b61621e7cb33254c238f
+SHA256sum: 16e94f6f17500bbfd5545a4ac5c9d37b3e10499f0de586a7d368ee7298eca99e
+Size: 3002544
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9856,16 +9856,16 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.11.08.03-git6308+663d5460+663d54618c-r0
+Version: 2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: aeb30de50673e56de529370c2c7169d4
-SHA256sum: ec5961d8361433a6a38444f5f5a223cb6ee66614146ec1238713bfafbc3877dc
-Size: 27062134
-Filename: enigma2-plugin-extensions-e2iplayer_2026.11.08.03-git6308+663d5460+663d54618c-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 125b628dba35eff1bd8dd6e3ab4bcd75
+SHA256sum: b3b711692a56ea0a236fc7c6e9201dd5080116e410f1f7bc126514b42f6514e2
+Size: 27131416
+Filename: enigma2-plugin-extensions-e2iplayer_2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -13289,15 +13289,15 @@ License: LicenseRef-LICENSE-CLOSED
 Priority: optional
 
 Package: enigma2-plugin-softcams-ncam
-Version: git10902+259930c0+259930c27d-r0
+Version: git10907+25671bf0+25671bffc8-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git76+79d8f4b0+79d8f4bd0c), libssl4 (>= 4.1.0), libudev1 (>= 3.2.15), libusb-1.0-0 (>= 1.0.30), softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED Developer
-MD5Sum: 4af2554747ec3de95d1e117f4ad5cb88
-SHA256sum: 5a8a96ed3cde997bc0b93e09a2e51001abccbc7baf70e287600640398f4d5fae
-Size: 903128
-Filename: enigma2-plugin-softcams-ncam_git10902+259930c0+259930c27d-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 595289f64786374ff96e50fc750af268
+SHA256sum: a92a2f9a698574c1e5bf74978fdc911379d8a15fe2eef3bfdd017fdf9f07d66d
+Size: 903840
+Filename: enigma2-plugin-softcams-ncam_git10907+25671bf0+25671bffc8-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-ncam.bb
 Description: enigma2-plugin-softcams-ncam version git-r0
 OE: enigma2-plugin-softcams-ncam
@@ -13321,15 +13321,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam
-Version: 11968-git10887+39e78a40+39e78a4688-r0
+Version: 11971-git10890+2ff6f5a0+2ff6f5ad4d-r0
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6debb3db0b8298a68af051dcf7c786d1
-SHA256sum: aee94a94cb99efb66a59f3ba448fe022b76bfec1cc30c67aacc63f3ead3c3330
-Size: 697432
-Filename: enigma2-plugin-softcams-oscam_11968-git10887+39e78a40+39e78a4688-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 319d2b712be08afb9eced0a5958230b0
+SHA256sum: 3e628119a9b4c9c6ff545a5e26dbd4359799ed05b62de82110f00321bab8e1f6
+Size: 698056
+Filename: enigma2-plugin-softcams-oscam_11971-git10890+2ff6f5a0+2ff6f5ad4d-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
 OE: enigma2-plugin-softcams-oscam
@@ -13569,15 +13569,15 @@ License: LicenseRef-PD
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hbbtv2-dbg
-Version: 2.0+git55+0b8c4d30+0b8c4d34da-r33
+Version: 2.0+git56+55252130+55252138ad-r33
 Recommends: glib-2.0-dbg, glibc-dbg, orb-dbg, wpewebkit-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 60cf979299d25131726a41ff11b73ddd
-SHA256sum: 789d0f8e3dc4b427c8064a13c47df9fb5bc8aae6ddbc095119f01ebf8f7b059c
-Size: 163150
-Filename: enigma2-plugin-systemplugins-hbbtv2-dbg_2.0+git55+0b8c4d30+0b8c4d34da-r33_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 50420bea06cc2a8444e63926712e4cfc
+SHA256sum: adbc7d664e6d072c3618d6964c31395106d5e36e89970fcbdcab8c164d18f8d7
+Size: 163152
+Filename: enigma2-plugin-systemplugins-hbbtv2-dbg_2.0+git56+55252130+55252138ad-r33_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-hbbtv2_git.bb
 Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Debugging files
 OE: enigma2-plugin-systemplugins-hbbtv2
@@ -13586,15 +13586,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hbbtv2-dev
-Version: 2.0+git55+0b8c4d30+0b8c4d34da-r33
-Recommends: enigma2-plugin-systemplugins-hbbtv2 (= 2.0+git55+0b8c4d30+0b8c4d34da-r33), glib-2.0-dev, glibc-dev, libsoup-dev, orb-dev, wpewebkit-dev
+Version: 2.0+git56+55252130+55252138ad-r33
+Recommends: enigma2-plugin-systemplugins-hbbtv2 (= 2.0+git56+55252130+55252138ad-r33), glib-2.0-dev, glibc-dev, libsoup-dev, orb-dev, wpewebkit-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0437041f4d3a5956624c1458c91ae80c
-SHA256sum: 457cc4ad5bd2549c6f668d5f89582dabfda4e5a946d129862442fb0274d61aa8
-Size: 928
-Filename: enigma2-plugin-systemplugins-hbbtv2-dev_2.0+git55+0b8c4d30+0b8c4d34da-r33_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 38b7f08bb505b36dd6dbd4c8d7c9c74b
+SHA256sum: 3a33e5ce0ba6c971934ba45676f80c59027e3efee594db3abe937fca1631f12b
+Size: 932
+Filename: enigma2-plugin-systemplugins-hbbtv2-dev_2.0+git56+55252130+55252138ad-r33_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-hbbtv2_git.bb
 Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Development files
 OE: enigma2-plugin-systemplugins-hbbtv2
@@ -13603,14 +13603,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hbbtv2-src
-Version: 2.0+git55+0b8c4d30+0b8c4d34da-r33
+Version: 2.0+git56+55252130+55252138ad-r33
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f691928f9a2da71f541f0257518b5499
-SHA256sum: 74eae634349bb7810d036166164b66664233ee6df28419337b9e91019c77c535
-Size: 26984
-Filename: enigma2-plugin-systemplugins-hbbtv2-src_2.0+git55+0b8c4d30+0b8c4d34da-r33_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: eb71e0d9496e502e6b99d467d0d38e81
+SHA256sum: 3ebe1c8db5f419d9f0b25adeb6372fe7f459bb5ab4580c3e0b843c9369d79a24
+Size: 26988
+Filename: enigma2-plugin-systemplugins-hbbtv2-src_2.0+git56+55252130+55252138ad-r33_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-hbbtv2_git.bb
 Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Source files
 OE: enigma2-plugin-systemplugins-hbbtv2
@@ -13619,7 +13619,7 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hbbtv2
-Version: 2.0+git55+0b8c4d30+0b8c4d34da-r33
+Version: 2.0+git56+55252130+55252138ad-r33
 Depends: libc6 (>= 2.44+git0+34106fee69), libglib-2.0-0 (>= 2.90.0), libwpewebkit-2.0-1 (>= 2.54.0+git0+485155565e), orb (>= 1.0+git385+8945a130+8945a1301c-r5), orb (>= 1.0+git390+efbca8c0+efbca8c22f)
 Provides: enigma2-plugin-extensions-wpehbbtv
 Replaces: enigma2-plugin-extensions-wpehbbtv
@@ -13627,10 +13627,10 @@ Conflicts: enigma2-plugin-extensions-wpehbbtv
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 95e40ee53ad5c954a927fa2e5324df69
-SHA256sum: 3df8137fbdb06855b19c58b8889c33567ccfc7ee80d5a5a59a6b8b788b383231
-Size: 113820
-Filename: enigma2-plugin-systemplugins-hbbtv2_2.0+git55+0b8c4d30+0b8c4d34da-r33_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: eeaee39c56a83dc62ba8618c1edc69f4
+SHA256sum: 077a58c7c6b9504afcb7649213f89f6a13c290b0b78b2886eb5237282c2a9427
+Size: 117868
+Filename: enigma2-plugin-systemplugins-hbbtv2_2.0+git56+55252130+55252138ad-r33_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-hbbtv2_git.bb
 Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
 OE: enigma2-plugin-systemplugins-hbbtv2
@@ -91016,15 +91016,15 @@ License: GPL-2.0-only OR BSD-3-Clause
 Priority: optional
 
 Package: minisatip-dbg
-Version: 1.0d+git0+88bf2fe565-r0
+Version: 1.0d+git0+b78943fcbc-r0
 Recommends: glibc-dbg, libcrypto-dbg, libdvbcsa-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: ca593484cfa62608cc4037b3117c102b
-SHA256sum: bff09809be06a16e780e8e3aac21bd7c0275ad62921830ed2a58625943258312
-Size: 3396136
-Filename: minisatip-dbg_1.0d+git0+88bf2fe565-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 893d73aa3887f335a11342fb8aff2f20
+SHA256sum: e5d7e8972644423848af9f6849f9425a0a04c911ece7c1cd108890620149b90e
+Size: 3480140
+Filename: minisatip-dbg_1.0d+git0+b78943fcbc-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Debugging files
 OE: minisatip
@@ -91033,15 +91033,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip-dev
-Version: 1.0d+git0+88bf2fe565-r0
-Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+88bf2fe565-r0), openssl-dev, update-rc.d-dev
+Version: 1.0d+git0+b78943fcbc-r0
+Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+b78943fcbc-r0), openssl-dev, update-rc.d-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 0582a3dea1a0ffd33748b281806b6f4b
-SHA256sum: 9192392dcf878e84329a2142d6072dec875776a33cf18b84b5cbff9c04b41d62
+MD5Sum: e54ce31218674736c9044dc12bdbf962
+SHA256sum: 806ec48df655c299f391192957ab7f7b59d668b7ba22f4a8028a229077d38f30
 Size: 686
-Filename: minisatip-dev_1.0d+git0+88bf2fe565-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: minisatip-dev_1.0d+git0+b78943fcbc-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Development files
 OE: minisatip
@@ -91050,16 +91050,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip
-Version: 1.0d+git0+88bf2fe565-r0
+Version: 1.0d+git0+b78943fcbc-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git76+79d8f4b0+79d8f4bd0c), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), openssl
 Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: ae826d641c70fa3faadb0831156f7b01
-SHA256sum: ca0de3841cd8825a56242dded0363849cc7768f8782578be19c8997011691442
-Size: 575484
-Filename: minisatip_1.0d+git0+88bf2fe565-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 63c364bf9c7442ce40f7904e6b7959f0
+SHA256sum: 8a9d2040d7ae8f94610763594695cff9ec52ad4b2b8e9deea183512c95e299dc
+Size: 587806
+Filename: minisatip_1.0d+git0+b78943fcbc-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server
 OE: minisatip
@@ -126629,14 +126629,14 @@ License: MIT
 Priority: optional
 
 Package: rapidfuzz-dbg
-Version: 3.14.6+git951+1d7d2f00+1d7d2f071c-r0
+Version: 3.14.6+git955+e5ba5950+e5ba5955a0-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 155312ecf8dbbacfa66302d02c6f0c2a
-SHA256sum: 925fedd02c73d18e1ae94f21c43ead5d1ce55c9dbd81f799c98fe1393b027458
+MD5Sum: e36e5f9a413bd1f55b1b5151bfc736ea
+SHA256sum: 6d631dd25f573d2747a7a00225da08dec4e87b9c656b3b493628979694c32497
 Size: 654
-Filename: rapidfuzz-dbg_3.14.6+git951+1d7d2f00+1d7d2f071c-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: rapidfuzz-dbg_3.14.6+git955+e5ba5950+e5ba5955a0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rapidfuzz.bb
 Description: rapidfuzz version 3.14.6.+git-r0 - Debugging files
 OE: rapidfuzz
@@ -126644,15 +126644,15 @@ License: MIT
 Priority: optional
 
 Package: rapidfuzz-dev
-Version: 3.14.6+git951+1d7d2f00+1d7d2f071c-r0
-Recommends: python3-core-dev, python3-dev, rapidfuzz (= 3.14.6+git951+1d7d2f00+1d7d2f071c-r0)
+Version: 3.14.6+git955+e5ba5950+e5ba5955a0-r0
+Recommends: python3-core-dev, python3-dev, rapidfuzz (= 3.14.6+git955+e5ba5950+e5ba5955a0-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a0c380464c1990ba9085c0e2b14d6fba
-SHA256sum: 4fb1c3bede604f998fc4dae1e012102a7ea406b8eb3591997ca656db065f1162
+MD5Sum: 61ae07f65d37ab5ec6ed9a86e9e795de
+SHA256sum: 1c06d6393551e4fad1633cb9a561923dcfbb33b4bf682fa932646fd77cd7065c
 Size: 704
-Filename: rapidfuzz-dev_3.14.6+git951+1d7d2f00+1d7d2f071c-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: rapidfuzz-dev_3.14.6+git955+e5ba5950+e5ba5955a0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rapidfuzz.bb
 Description: rapidfuzz version 3.14.6.+git-r0 - Development files
 OE: rapidfuzz
@@ -126660,15 +126660,15 @@ License: MIT
 Priority: optional
 
 Package: rapidfuzz
-Version: 3.14.6+git951+1d7d2f00+1d7d2f071c-r0
+Version: 3.14.6+git955+e5ba5950+e5ba5955a0-r0
 Depends: python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7dc21f314bd94e73dad44664dbb22553
-SHA256sum: babf53fdc765f5daa73bdfae08770dcef03313eeaff22376aa0627e7686d3edc
-Size: 88974
-Filename: rapidfuzz_3.14.6+git951+1d7d2f00+1d7d2f071c-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8492ec4bca01d9c75653db4af6ca1b03
+SHA256sum: 942273eb5e51e073761a16b5d4c56b6d1c438a67b812dd3ef2f62c834668f323
+Size: 89208
+Filename: rapidfuzz_3.14.6+git955+e5ba5950+e5ba5955a0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rapidfuzz.bb
 Description: rapidfuzz version 3.14.6.+git-r0
 OE: rapidfuzz
@@ -130475,16 +130475,16 @@ License: GPL-2.0-or-later AND LGPL-2.1-or-later
 Priority: optional
 
 Package: streamlink
-Version: 8.6.3-git6166+ae15e79_0.0-git1+4ec0b8c0+ae15e79ea7_4ec0b8c658-r0
+Version: 8.6.3-git6171+f16b2f3_0.0-git1+4ec0b8c0+f16b2f3c06_4ec0b8c658-r0
 Depends: python3-certifi, python3-core, python3-ctypes, python3-isodate, python3-lxml, python3-pkgutil, python3-pycountry, python3-pycryptodome, python3-pysocks, python3-requests, python3-shell, python3-trio, python3-trio-websocket, python3-urllib3, python3-websocket-client
 Recommends: ffmpeg
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b7694cae715c1cb6dc03dacf5a308dfe
-SHA256sum: 7fb82c6a9b86a9dde5c3b4eb9f30849e70416683923e3587a852bccbdc6a7751
-Size: 1180326
-Filename: streamlink_8.6.3-git6166+ae15e79_0.0-git1+4ec0b8c0+ae15e79ea7_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: dfcdc91493db09e55e28f5d0fcc7bc68
+SHA256sum: 3f4d7e2dc8670d1e1ca52fa0fcaba948e7bd1b1d852d730d8cdb5a1b2842e6d5
+Size: 1180424
+Filename: streamlink_8.6.3-git6171+f16b2f3_0.0-git1+4ec0b8c0+f16b2f3c06_4ec0b8c658-r0_cortexa15hf-neon-vfpv4.ipk
 Source: streamlink_git.bb
 Description: CLI for extracting streams from various websites to a video player of your choosing
 OE: streamlink
