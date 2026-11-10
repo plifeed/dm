@@ -4942,6 +4942,52 @@ HomePage: https://github.com/kiddac/shared-skin-components
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-skincomponents-obsidian-fhd-cast-dbg
+Version: 1.7.1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0854658e839ed39a21e33a39bb6bb236
+SHA256sum: 41e2f5467b21a8c2c42a6a154e65fa6b15427185fc5bb3f8be1c86482ebd0b93
+Size: 610
+Filename: enigma2-plugin-skincomponents-obsidian-fhd-cast-dbg_1.7.1-r0_all.ipk
+Source: enigma2-plugin-skincomponents-obsidian-fhd-cast.bb
+Description: Obsidian Skin - Style Pack Cast - Debugging files
+OE: enigma2-plugin-skincomponents-obsidian-fhd-cast
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-obsidian-fhd-cast-dev
+Version: 1.7.1-r0
+Recommends: enigma2-plugin-skincomponents-obsidian-fhd-cast (= 1.7.1-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a55dafc0b470d7ad5dade4a4e48c88da
+SHA256sum: bec6ae0b1905d43906d2405df75c284ba22ba59724540e3205b8050fe69521b9
+Size: 642
+Filename: enigma2-plugin-skincomponents-obsidian-fhd-cast-dev_1.7.1-r0_all.ipk
+Source: enigma2-plugin-skincomponents-obsidian-fhd-cast.bb
+Description: Obsidian Skin - Style Pack Cast - Development files
+OE: enigma2-plugin-skincomponents-obsidian-fhd-cast
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-obsidian-fhd-cast
+Version: 1.7.1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4e1597127cc07aafff4911b3032c5a70
+SHA256sum: 214a85d66dd83cb04c3aba5063f82eff99cea9da2049645b84be551b5b7cd804
+Size: 15746
+Filename: enigma2-plugin-skincomponents-obsidian-fhd-cast_1.7.1-r0_all.ipk
+Source: enigma2-plugin-skincomponents-obsidian-fhd-cast.bb
+Description: Obsidian Skin - Style Pack Cast
+OE: enigma2-plugin-skincomponents-obsidian-fhd-cast
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-skincomponents-obsidian-fhd-edge-dbg
 Version: 1.7.1-r0
 Section: devel
@@ -5034,6 +5080,52 @@ OE: enigma2-plugin-skincomponents-obsidian-fhd-k7
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-skincomponents-obsidian-fhd-matchday-dbg
+Version: 1.7.1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4ab4e23c7a93c3549d84269208d58bf4
+SHA256sum: b9855a9f00351b4b2c8769dbb9160c03253c166db1ac1339706e42ce10e1f41b
+Size: 614
+Filename: enigma2-plugin-skincomponents-obsidian-fhd-matchday-dbg_1.7.1-r0_all.ipk
+Source: enigma2-plugin-skincomponents-obsidian-fhd-matchday.bb
+Description: Obsidian Skin - Extension Matchday - Debugging files
+OE: enigma2-plugin-skincomponents-obsidian-fhd-matchday
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-obsidian-fhd-matchday-dev
+Version: 1.7.1-r0
+Recommends: enigma2-plugin-skincomponents-obsidian-fhd-matchday (= 1.7.1-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4322ddaf159b90eed6b6d72262010a20
+SHA256sum: 082ee0af683a1fdecfdc06a18a538bb6e4ac3c859682857555ee51f2f5f80197
+Size: 646
+Filename: enigma2-plugin-skincomponents-obsidian-fhd-matchday-dev_1.7.1-r0_all.ipk
+Source: enigma2-plugin-skincomponents-obsidian-fhd-matchday.bb
+Description: Obsidian Skin - Extension Matchday - Development files
+OE: enigma2-plugin-skincomponents-obsidian-fhd-matchday
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-obsidian-fhd-matchday
+Version: 1.7.1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ed585fee58aa0ecb74cb6317da766fb5
+SHA256sum: 7b1dca9e6d9045ff156c2f02cf4dd5ecc9037aee0bf181a64d5d11604946ef90
+Size: 327210
+Filename: enigma2-plugin-skincomponents-obsidian-fhd-matchday_1.7.1-r0_all.ipk
+Source: enigma2-plugin-skincomponents-obsidian-fhd-matchday.bb
+Description: Obsidian Skin - Extension Matchday
+OE: enigma2-plugin-skincomponents-obsidian-fhd-matchday
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-skincomponents-obsidian-fhd-mawaqit-dbg
 Version: 1.7.1-r0
 Section: devel
@@ -5123,6 +5215,52 @@ Filename: enigma2-plugin-skincomponents-obsidian-fhd-nova_1.7.1-r0_all.ipk
 Source: enigma2-plugin-skincomponents-obsidian-fhd-nova.bb
 Description: Obsidian Skin - Style Pack Nova
 OE: enigma2-plugin-skincomponents-obsidian-fhd-nova
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-obsidian-fhd-posters-dbg
+Version: 1.7.1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8fc0bc4f283137b0d9954c1cb472d4b4
+SHA256sum: b80f7c08f7f4570961620e24df20ca07a865d5ca695d351aa0a7f37b4370c27c
+Size: 612
+Filename: enigma2-plugin-skincomponents-obsidian-fhd-posters-dbg_1.7.1-r0_all.ipk
+Source: enigma2-plugin-skincomponents-obsidian-fhd-posters.bb
+Description: Obsidian Skin - Style Pack Posters - Debugging files
+OE: enigma2-plugin-skincomponents-obsidian-fhd-posters
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-obsidian-fhd-posters-dev
+Version: 1.7.1-r0
+Recommends: enigma2-plugin-skincomponents-obsidian-fhd-posters (= 1.7.1-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d9305ebe86630d2e7d0d34e46bcf5b5
+SHA256sum: a67e4db169b7f472319ebf34cc22c81bdcfff91f4c343a18f9f24d4a8c299174
+Size: 644
+Filename: enigma2-plugin-skincomponents-obsidian-fhd-posters-dev_1.7.1-r0_all.ipk
+Source: enigma2-plugin-skincomponents-obsidian-fhd-posters.bb
+Description: Obsidian Skin - Style Pack Posters - Development files
+OE: enigma2-plugin-skincomponents-obsidian-fhd-posters
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-obsidian-fhd-posters
+Version: 1.7.1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7509ae40cf4e57dd9fc8bea853a49b0c
+SHA256sum: 95e2f108ffe64ded79e813f8fda8fbe3df38a8702defb805382fc1694372afc3
+Size: 37302
+Filename: enigma2-plugin-skincomponents-obsidian-fhd-posters_1.7.1-r0_all.ipk
+Source: enigma2-plugin-skincomponents-obsidian-fhd-posters.bb
+Description: Obsidian Skin - Style Pack Posters
+OE: enigma2-plugin-skincomponents-obsidian-fhd-posters
 License: GPL-2.0-or-later
 Priority: optional
 
