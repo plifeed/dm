@@ -43,6 +43,23 @@ OE: CoolTVGuide-Coolman_V.8.0
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-emuinstaller
+Version: 1.5.0
+Depends: enigma2, python3-core
+Section: extra
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: popking159
+MD5Sum: 5dab6da4ecbf41f741f2e3d946d620c8
+SHA256sum: 58a4b2474586e8cc58d94e3c2693160765c2036736b5bdab082d8c58cceacdec
+Size: 306042
+Filename: enigma2-plugin-extensions-emuinstaller_1.5.0_cortexa15hf-neon-vfpv4_py3.14.ipk
+Source: enigma2-plugin-extensions-emuinstaller.bb
+Description: EmuInstaller Plugin
+Homepage: https://github.com/popking159
+OE: enigma2-plugin-extensions-emuinstaller
+License: GPL-2.0
+Priority: optional
+
 Package: enigma2-plugin-extensions-furybiss
 Version: 7.2
 Section: extra
