@@ -1226,14 +1226,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2tvplayer-dbg
-Version: 0.0-git28+fb471110+fb47111229-r0
+Version: 0.0-git29+030d52a0+030d52acec-r0
 Section: devel
 Architecture: all
 Maintainer: onni-k
-MD5Sum: 219827c96d2cfa100427e059205358ac
-SHA256sum: 860b3bfb36be298c80b73e5e44672ad253b50a16843df448f69b4409b3ccabb9
+MD5Sum: f7d3fcdf73faf4e2e6eb79d28340663e
+SHA256sum: b36c6852796156dfde6edcb511b03a2926d216fcd554f0e8d620ce8a6de6b722
 Size: 594
-Filename: enigma2-plugin-extensions-e2tvplayer-dbg_0.0-git28+fb471110+fb47111229-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2tvplayer-dbg_0.0-git29+030d52a0+030d52acec-r0_all.ipk
 Source: enigma2-plugin-extensions-e2tvplayer.bb
 Description: E2TVPlayer - OpenWebif extension for TV playback - Debugging files
 OE: enigma2-plugin-extensions-e2tvplayer
@@ -1241,15 +1241,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2tvplayer-dev
-Version: 0.0-git28+fb471110+fb47111229-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-e2tvplayer (= 0.0-git28+fb471110+fb47111229-r0), enigma2-plugin-extensions-openwebif-dev, python3-core-dev
+Version: 0.0-git29+030d52a0+030d52acec-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-e2tvplayer (= 0.0-git29+030d52a0+030d52acec-r0), enigma2-plugin-extensions-openwebif-dev, python3-core-dev
 Section: devel
 Architecture: all
 Maintainer: onni-k
-MD5Sum: cb290597cbc57287ebeee7cce542b1f3
-SHA256sum: e91672dd9778a79fbb4e5f762a15d0ea21bbd190c26fbc53dbe4c4c56459d792
+MD5Sum: 7de1381629f87f64da89a58d03e85dbf
+SHA256sum: 817f263fe852d9db5b319a81c3cd620d99776914025932a32531aebfec5b3482
 Size: 658
-Filename: enigma2-plugin-extensions-e2tvplayer-dev_0.0-git28+fb471110+fb47111229-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2tvplayer-dev_0.0-git29+030d52a0+030d52acec-r0_all.ipk
 Source: enigma2-plugin-extensions-e2tvplayer.bb
 Description: E2TVPlayer - OpenWebif extension for TV playback - Development files
 OE: enigma2-plugin-extensions-e2tvplayer
@@ -1257,15 +1257,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2tvplayer
-Version: 0.0-git28+fb471110+fb47111229-r0
+Version: 0.0-git29+030d52a0+030d52acec-r0
 Depends: enigma2, enigma2-plugin-extensions-openwebif, python3-core
 Section: base
 Architecture: all
 Maintainer: onni-k
-MD5Sum: 3512af393211af1222a87774bb7c0467
-SHA256sum: 9a88e524fb810ee3f46462551f14a9a1a59202b8b9130faf6a86d6750e351574
-Size: 141244
-Filename: enigma2-plugin-extensions-e2tvplayer_0.0-git28+fb471110+fb47111229-r0_all.ipk
+MD5Sum: a12eb8e9d8f74111b543c426cfdc8023
+SHA256sum: a2211b74816aa16f5901cde224094a01bddf47460ab7d30ba1d31d44cbc6b782
+Size: 142388
+Filename: enigma2-plugin-extensions-e2tvplayer_0.0-git29+030d52a0+030d52acec-r0_all.ipk
 Source: enigma2-plugin-extensions-e2tvplayer.bb
 Description: E2TVPlayer - OpenWebif extension for TV playback
 OE: enigma2-plugin-extensions-e2tvplayer
