@@ -9820,14 +9820,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.11.11.01-git6324+c93827a0+c93827ad4e-r0
+Version: 2026.11.11.01-git6326+b1a70aa0+b1a70aa003-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: dff707ae3b057729043b3fb20978d6ac
-SHA256sum: cc0f18887fdbef94bb943f94184e33ea78b13b3bcab2c06cd172b2e9cb0d33d4
-Size: 670
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.11.01-git6324+c93827a0+c93827ad4e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ec04c33f075109c71d1131a6bbb4541e
+SHA256sum: 0ccedf38fd99c39e611c35638d270084ad67bbde1032c9d3bbf5e57dc8422d04
+Size: 666
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.11.01-git6326+b1a70aa0+b1a70aa003-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9888,15 +9888,15 @@ License: GPL-3.0-only AND LGPL-2.1-or-later AND MIT AND Zlib
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.11.11.01-git6324+c93827a0+c93827ad4e-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.11.01-git6324+c93827a0+c93827ad4e-r0), python3-core-dev, python3-dev
+Version: 2026.11.11.01-git6326+b1a70aa0+b1a70aa003-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.11.01-git6326+b1a70aa0+b1a70aa003-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 56198239b01113f0a39a595dd3e47d69
-SHA256sum: 9dc39fcbf37d6dd875fcd8a8baef48231cb5ebaf0c65fe47aee51763cfe6296a
-Size: 722
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.11.01-git6324+c93827a0+c93827ad4e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 3416fdb1128b24eebe7f365cdf9139f2
+SHA256sum: ad2bcb63ec2a1eec8f5a3493ddb079cbfb6f7def01b7227892de25c9eb94871f
+Size: 720
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.11.01-git6326+b1a70aa0+b1a70aa003-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9905,15 +9905,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.11.11.01-git6324+c93827a0+c93827ad4e-r0
+Version: 2026.11.11.01-git6326+b1a70aa0+b1a70aa003-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: feaa00bb73380012f8c7e57d07d9ecf2
-SHA256sum: f0a76f88f934c211707cdc8a064b52ff2eb081ee950d7087215a303c5aa3016a
-Size: 3012228
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.11.01-git6324+c93827a0+c93827ad4e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f0c818edf3e5a05c5ce2f2e0e22eb6d8
+SHA256sum: f655add8c8f31960a64c776dafadadf37acf93f9bd8c92a95f88f125597ce967
+Size: 3012376
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.11.01-git6326+b1a70aa0+b1a70aa003-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9922,16 +9922,16 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.11.11.01-git6324+c93827a0+c93827ad4e-r0
+Version: 2026.11.11.01-git6326+b1a70aa0+b1a70aa003-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: f5e5958483166a3b1344d62519282e71
-SHA256sum: ac2a49176a136e8116590183acd06b0b8b899e07dd7e2bf56f4fed833f570ad9
-Size: 27152026
-Filename: enigma2-plugin-extensions-e2iplayer_2026.11.11.01-git6324+c93827a0+c93827ad4e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 414f5041cae12480438c45315514609a
+SHA256sum: 19475e3311f6f45d20add8d79406d24b8ac4f524df05a6080752853b6abbd393
+Size: 27158294
+Filename: enigma2-plugin-extensions-e2iplayer_2026.11.11.01-git6326+b1a70aa0+b1a70aa003-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10385,14 +10385,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: V0.0-git579+f6b31c50+f6b31c5e19-r0
+Version: V0.0-git581+ef5276f0+ef5276ff00-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 24e36f8a04b825969c36d5dc138efa3d
-SHA256sum: 3bb58448be69da910d59a32b4d53ab21e9f9aa9e45493e72e137acab4c1ee8e5
+MD5Sum: 2c9d9e5ce6e018b6208646b876beb794
+SHA256sum: 1f0603d1c285956e1fdf90a75bf6f0223cd1cffdeaadfc7bac85addcb49bc6de
 Size: 688
-Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git579+f6b31c50+f6b31c5e19-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git581+ef5276f0+ef5276ff00-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -10401,15 +10401,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: V0.0-git579+f6b31c50+f6b31c5e19-r0
-Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git579+f6b31c50+f6b31c5e19-r0), python3-sqlite3-dev
+Version: V0.0-git581+ef5276f0+ef5276ff00-r0
+Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git581+ef5276f0+ef5276ff00-r0), python3-sqlite3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: fd67bda4e39baf748b2f0d72b41c61ae
-SHA256sum: df0b93fe62cdfdf759baea28fcfc571a183cd22c8250d119ece74eb228dcff64
-Size: 738
-Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git579+f6b31c50+f6b31c5e19-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: fbcb9676967acb73f30f1722cd8fc642
+SHA256sum: 9114796211d380513cf39d262a832621827ea376a8215f017dbbee146d726183
+Size: 736
+Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git581+ef5276f0+ef5276ff00-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -10418,15 +10418,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: V0.0-git579+f6b31c50+f6b31c5e19-r0
+Version: V0.0-git581+ef5276f0+ef5276ff00-r0
 Depends: python3-sqlite3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 2e2981336034d17bdb4e81feb61ae1f9
-SHA256sum: c0702d5a09fbb091ddf7a97efe0c676a54c32c8b119f395ec684a959d8031ad6
-Size: 42821260
-Filename: enigma2-plugin-extensions-footonsat_V0.0-git579+f6b31c50+f6b31c5e19-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: eb2cbd37c365ebf8735ca6666f882409
+SHA256sum: 392664778d9d1313c051d583ba1f2c4c353ea11fd2ef8f354ea75f5473596958
+Size: 42820060
+Filename: enigma2-plugin-extensions-footonsat_V0.0-git581+ef5276f0+ef5276ff00-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules
 OE: enigma2-plugin-extensions-footonsat
@@ -13081,14 +13081,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam-dbg
-Version: V7.1-git551+5bd3c560+5bd3c56a67-r0
+Version: V7.2-git554+191626e0+191626e91b-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 89a6dfc02c97b298c9d3536ffd53d9e8
-SHA256sum: 303e78b459500da5f964e40a5016a00e749ad84558f5869bdc5954d443742e00
-Size: 650
-Filename: enigma2-plugin-extensions-worldcam-dbg_V7.1-git551+5bd3c560+5bd3c56a67-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: cbf39395533f883d6133f1c25719ab2b
+SHA256sum: 03913222a97d6c24ae1ba80b4b3d6c0c19b8fff6d5cc5a82d55af28273c351f3
+Size: 652
+Filename: enigma2-plugin-extensions-worldcam-dbg_V7.2-git554+191626e0+191626e91b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Debugging files
 OE: enigma2-plugin-extensions-worldcam
@@ -13097,15 +13097,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam-dev
-Version: V7.1-git551+5bd3c560+5bd3c56a67-r0
-Recommends: enigma2-plugin-extensions-worldcam (= V7.1-git551+5bd3c560+5bd3c56a67-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev, gstreamer1.0-libav-dev, gstreamer1.0-plugins-bad-dev, gstreamer1.0-plugins-ugly-dev, python3-requests-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, streamlink-dev
+Version: V7.2-git554+191626e0+191626e91b-r0
+Recommends: enigma2-plugin-extensions-worldcam (= V7.2-git554+191626e0+191626e91b-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev, gstreamer1.0-libav-dev, gstreamer1.0-plugins-bad-dev, gstreamer1.0-plugins-ugly-dev, python3-requests-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, streamlink-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 4bd2e16c8caeb2061a278fde720357c9
-SHA256sum: c58da4f4f366c8e4c32d78702a1530b1518eb02bebba665bab02c87d285c24ce
-Size: 782
-Filename: enigma2-plugin-extensions-worldcam-dev_V7.1-git551+5bd3c560+5bd3c56a67-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6c8ce865c0705dfb805dac5ae1ba4ca1
+SHA256sum: 07cf66c532c9806571df39a4632c3ab664c3294294de862e186cdcbd98404b14
+Size: 784
+Filename: enigma2-plugin-extensions-worldcam-dev_V7.2-git554+191626e0+191626e91b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Development files
 OE: enigma2-plugin-extensions-worldcam
@@ -13114,14 +13114,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam-src
-Version: V7.1-git551+5bd3c560+5bd3c56a67-r0
+Version: V7.2-git554+191626e0+191626e91b-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: c49d4dcb96ead87824150c819d0ed536
-SHA256sum: ad146fce0a42b0911456a785a03473230f5325de50aba9f96dd7370588e63d48
-Size: 46260
-Filename: enigma2-plugin-extensions-worldcam-src_V7.1-git551+5bd3c560+5bd3c56a67-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8e9352e08e3784d82802680ddd50aada
+SHA256sum: ba6a67569aef316be2e96581e3a0c89e119e876e06c233191cfc7dc22ffac60f
+Size: 45610
+Filename: enigma2-plugin-extensions-worldcam-src_V7.2-git554+191626e0+191626e91b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Source files
 OE: enigma2-plugin-extensions-worldcam
@@ -13130,16 +13130,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam
-Version: V7.1-git551+5bd3c560+5bd3c56a67-r0
+Version: V7.2-git554+191626e0+191626e91b-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer, gstreamer1.0-libav, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, python3-requests, python3-youtube-dl, python3-yt-dlp, streamlink
 Recommends: enigma2-plugin-extensions-streamlinkwrapper, enigma2-plugin-extensions-ytdlpwrapper, enigma2-plugin-extensions-ytdlwrapper
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 606e7289b1c5ae9d46fa4b156d4b3bb6
-SHA256sum: 077e6ba8efb6f5e163191353d8ccfcff23bb526188c4c5aa1788d7a26b0ee1cf
-Size: 2793316
-Filename: enigma2-plugin-extensions-worldcam_V7.1-git551+5bd3c560+5bd3c56a67-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 92ead16b9f61ae4e321c7ef1a382bd57
+SHA256sum: 150c17aa16a46d70cdf155b4d08baf237e8ebd35c9637ee2ee18fc430d9b905e
+Size: 2793796
+Filename: enigma2-plugin-extensions-worldcam_V7.2-git554+191626e0+191626e91b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists
 OE: enigma2-plugin-extensions-worldcam
@@ -13503,15 +13503,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam
-Version: 11974-git10893+387823b0+387823b1cd-r0
+Version: 11975-git10894+7476c320+7476c32788-r0
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1b77016621a967a87316d783d79a1e29
-SHA256sum: e8bd2611edb94bd936e6b52f52f6501c75cf32e09a017bb3c8df8b1c1a826eec
-Size: 698120
-Filename: enigma2-plugin-softcams-oscam_11974-git10893+387823b0+387823b1cd-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 0f7e18a19f8fa84207dac8a9bc6f4cb7
+SHA256sum: e0a555f4eb4f4fbbd0fd1362290d3326642dc3964363f1949814b6bb16d0413a
+Size: 698018
+Filename: enigma2-plugin-softcams-oscam_11975-git10894+7476c320+7476c32788-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
 OE: enigma2-plugin-softcams-oscam
@@ -14048,14 +14048,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-newvirtualkeyboard-dbg
-Version: 13.9-git82+654bdca0+654bdca78a-r0
+Version: 13.9-git83+b357d360+b357d36a43-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED - fairbird
-MD5Sum: 6720cfc15f52f66228726181496c4742
-SHA256sum: f404171476f757a53b47657426a13a078f8d9e574f3d355f54d04cbfe8105a00
+MD5Sum: 9d215e348da3ee49f0f0dfa374bdc265
+SHA256sum: 2ded514c3a8818f4df8591bb92477e876db44230d233de1877ddbf36e0ac34e0
 Size: 622
-Filename: enigma2-plugin-systemplugins-newvirtualkeyboard-dbg_13.9-git82+654bdca0+654bdca78a-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-systemplugins-newvirtualkeyboard-dbg_13.9-git83+b357d360+b357d36a43-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-newvirtualkeyboard.bb
 Description: NewVirtualKeyBoard plugin by mfaraj57 & RAED - Debugging files
 OE: enigma2-plugin-systemplugins-newvirtualkeyboard
@@ -14063,15 +14063,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-newvirtualkeyboard-dev
-Version: 13.9-git82+654bdca0+654bdca78a-r0
-Recommends: bash-dev, enigma2-plugin-systemplugins-newvirtualkeyboard (= 13.9-git82+654bdca0+654bdca78a-r0), python3-core-dev, python3-dev
+Version: 13.9-git83+b357d360+b357d36a43-r0
+Recommends: bash-dev, enigma2-plugin-systemplugins-newvirtualkeyboard (= 13.9-git83+b357d360+b357d36a43-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED - fairbird
-MD5Sum: 1557b71b0382f428e2fb4f2c4a937ab0
-SHA256sum: 9fb7ab414d7206ed441bfce4fadab2cc23399cfa89fa975aa014ffa60cb5a573
-Size: 678
-Filename: enigma2-plugin-systemplugins-newvirtualkeyboard-dev_13.9-git82+654bdca0+654bdca78a-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: fdd9c6d1291797c1ba6e516f7fd944ef
+SHA256sum: 2b3c6fea11f446b6e5a00a08d1ee5d86eab25ffd70c9d9aca605d8e4f462df6f
+Size: 680
+Filename: enigma2-plugin-systemplugins-newvirtualkeyboard-dev_13.9-git83+b357d360+b357d36a43-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-newvirtualkeyboard.bb
 Description: NewVirtualKeyBoard plugin by mfaraj57 & RAED - Development files
 OE: enigma2-plugin-systemplugins-newvirtualkeyboard
@@ -14079,15 +14079,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-newvirtualkeyboard
-Version: 13.9-git82+654bdca0+654bdca78a-r0
+Version: 13.9-git83+b357d360+b357d36a43-r0
 Depends: bash, python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED - fairbird
-MD5Sum: 1458421b8aa651bdec1bf80eb47ced0f
-SHA256sum: 2e9dd2f4d89cf2b31858cacb4d28a9d1ebb00f2848eb9beb503145e2541785cb
-Size: 679606
-Filename: enigma2-plugin-systemplugins-newvirtualkeyboard_13.9-git82+654bdca0+654bdca78a-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 01eda5b049254d28c3feb743b8a98a9b
+SHA256sum: 1d02822ffc5077db0d0f5646c9001915c8882ef659c0153b82203f57ca02c9e4
+Size: 679658
+Filename: enigma2-plugin-systemplugins-newvirtualkeyboard_13.9-git83+b357d360+b357d36a43-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-systemplugins-newvirtualkeyboard.bb
 Description: NewVirtualKeyBoard plugin by mfaraj57 & RAED
 OE: enigma2-plugin-systemplugins-newvirtualkeyboard
@@ -132593,16 +132593,16 @@ License: GPL-2.0-or-later AND LGPL-2.1-or-later
 Priority: optional
 
 Package: streamlink
-Version: 8.6.3-git6171+f16b2f3_0.0-git2+4b3acfa0+f16b2f3c06_4b3acfa49f-r0
+Version: 8.6.3-git6174+993f9f1_0.0-git2+4b3acfa0+993f9f1b63_4b3acfa49f-r0
 Depends: python3-certifi, python3-core, python3-ctypes, python3-isodate, python3-lxml, python3-pkgutil, python3-pycountry, python3-pycryptodome, python3-pysocks, python3-requests, python3-shell, python3-trio, python3-trio-websocket, python3-urllib3, python3-websocket-client
 Recommends: ffmpeg
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aa32fca18fa81318d045c62eeb26cc8b
-SHA256sum: 9e2bf3814a145a00e548a263fd312624e1050d3485d6ffb36c47733d081f9115
-Size: 1180326
-Filename: streamlink_8.6.3-git6171+f16b2f3_0.0-git2+4b3acfa0+f16b2f3c06_4b3acfa49f-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 7a1e73e9418fed8ff023bd224017d287
+SHA256sum: 97ee4fda4e30a5a886936e25077d09030103dc029f10a232d63adb9474dcd2fd
+Size: 1180260
+Filename: streamlink_8.6.3-git6174+993f9f1_0.0-git2+4b3acfa0+993f9f1b63_4b3acfa49f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: streamlink_git.bb
 Description: CLI for extracting streams from various websites to a video player of your choosing
 OE: streamlink
