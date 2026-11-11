@@ -813,14 +813,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-ciefpplugins-dbg
-Version: git72+9de81710+9de8171d26-r0
+Version: git74+e94b3d60+e94b3d6110-r0
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 59fc00fd433a512d10e93bc768528aac
-SHA256sum: 5b347c5acfdb301d35bf84ea81f375a3569abcd2424dce665cc8609e46bcbeaa
+MD5Sum: 38942bd5b84304128a18c1672cc88797
+SHA256sum: f9f1e9fac20753dcbc23af31618cd92b225914ff133d4e51be237fae1fc0a44d
 Size: 572
-Filename: enigma2-plugin-extensions-ciefpplugins-dbg_git72+9de81710+9de8171d26-r0_all.ipk
+Filename: enigma2-plugin-extensions-ciefpplugins-dbg_git74+e94b3d60+e94b3d6110-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpplugins.bb
 Description: CiefpPlugins Enigma2 Panel - Debugging files
 OE: enigma2-plugin-extensions-ciefpplugins
@@ -828,15 +828,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpplugins-dev
-Version: git72+9de81710+9de8171d26-r0
-Recommends: curl-dev, enigma2-dev, enigma2-plugin-extensions-ciefpplugins (= git72+9de81710+9de8171d26-r0), python3-json-dev, python3-requests-dev, wget-dev
+Version: git74+e94b3d60+e94b3d6110-r0
+Recommends: curl-dev, enigma2-dev, enigma2-plugin-extensions-ciefpplugins (= git74+e94b3d60+e94b3d6110-r0), python3-json-dev, python3-requests-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: fed88c1fd874089dddb5b79185a0a8c0
-SHA256sum: 2ca3fb3e9fb5aef1a54e879d6dbc24921616c73382796408cf0e1165be05e749
+MD5Sum: cf4cc4c8f0677b83e1587c25606878b4
+SHA256sum: 90211b04bf684dac68249d8e675d0dbb1e03479ec2433f1390f8aa6f7d5afc51
 Size: 648
-Filename: enigma2-plugin-extensions-ciefpplugins-dev_git72+9de81710+9de8171d26-r0_all.ipk
+Filename: enigma2-plugin-extensions-ciefpplugins-dev_git74+e94b3d60+e94b3d6110-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpplugins.bb
 Description: CiefpPlugins Enigma2 Panel - Development files
 OE: enigma2-plugin-extensions-ciefpplugins
@@ -844,15 +844,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpplugins
-Version: git72+9de81710+9de8171d26-r0
+Version: git74+e94b3d60+e94b3d6110-r0
 Depends: curl, enigma2, python3-json, python3-requests, wget
 Section: base
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 63f31662b591de71b5185f2fc180d882
-SHA256sum: 29ef0595ce80085959e66c6adb1854140372ad89f8e01bf29cefeab75b4babab
-Size: 3116240
-Filename: enigma2-plugin-extensions-ciefpplugins_git72+9de81710+9de8171d26-r0_all.ipk
+MD5Sum: c2fa1749dd025f16e9442dde8e9e069f
+SHA256sum: 8cb0bf354c18d91495520eaa986cd4b167c27f0a75dfb67bd2046995181c999d
+Size: 3158550
+Filename: enigma2-plugin-extensions-ciefpplugins_git74+e94b3d60+e94b3d6110-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpplugins.bb
 Description: CiefpPlugins Enigma2 Panel
 OE: enigma2-plugin-extensions-ciefpplugins
@@ -860,14 +860,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpsettingspanel-dbg
-Version: git99+9ab3b630+9ab3b632ff-r0
+Version: git100+0e820ab0+0e820abf55-r0
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 32cd40b4fba176264a43596893fa16e3
-SHA256sum: 0b67f777f4474d83dc960a2cc1ff7cabb784ba6b982b0c3559f60f3cfe160f37
+MD5Sum: b780496d4d2a1ab7213ec077bac77222
+SHA256sum: 2fca787a9e62df12ff5a48efeb1caf34a482eb814d496c2b7c7f1e4432e4db3d
 Size: 586
-Filename: enigma2-plugin-extensions-ciefpsettingspanel-dbg_git99+9ab3b630+9ab3b632ff-r0_all.ipk
+Filename: enigma2-plugin-extensions-ciefpsettingspanel-dbg_git100+0e820ab0+0e820abf55-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpsettingspanel.bb
 Description: CiefpsettingsPanel Enigma2 Plugin Manager - Debugging files
 OE: enigma2-plugin-extensions-ciefpsettingspanel
@@ -875,15 +875,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpsettingspanel-dev
-Version: git99+9ab3b630+9ab3b632ff-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpsettingspanel (= git99+9ab3b630+9ab3b632ff-r0), opkg-dev, python3-json-dev, python3-requests-dev, python3-shell-dev, tar-dev, wget-dev
+Version: git100+0e820ab0+0e820abf55-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpsettingspanel (= git100+0e820ab0+0e820abf55-r0), opkg-dev, python3-json-dev, python3-requests-dev, python3-shell-dev, tar-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 1a2849d2116ab539906f7cca3457212b
-SHA256sum: d68c3588ee49d89cc891b7a873cab5201052556cc3f72e592f4b1f110aea4165
+MD5Sum: 1e797ca9dac89b9f9b6ae25de0c72dfb
+SHA256sum: 3a55de2d9571373e111e1d27697489c47a21282c5374304aa893d28ae4d71206
 Size: 668
-Filename: enigma2-plugin-extensions-ciefpsettingspanel-dev_git99+9ab3b630+9ab3b632ff-r0_all.ipk
+Filename: enigma2-plugin-extensions-ciefpsettingspanel-dev_git100+0e820ab0+0e820abf55-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpsettingspanel.bb
 Description: CiefpsettingsPanel Enigma2 Plugin Manager - Development files
 OE: enigma2-plugin-extensions-ciefpsettingspanel
@@ -891,15 +891,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpsettingspanel
-Version: git99+9ab3b630+9ab3b632ff-r0
+Version: git100+0e820ab0+0e820abf55-r0
 Depends: enigma2, opkg, python3-json, python3-requests, python3-shell, tar, wget
 Section: base
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 064c5c35548d87d5c7bd381be06658a5
-SHA256sum: 83542c413c02a023227dc36ec0f29bc837b7fbc218352453e24d9c6caa8c8b80
-Size: 3750626
-Filename: enigma2-plugin-extensions-ciefpsettingspanel_git99+9ab3b630+9ab3b632ff-r0_all.ipk
+MD5Sum: 1ff425dbf0701398e49b7336d974bb66
+SHA256sum: 6f9d08db5547684c554af7a063543fe863e9454fbc3d2e34e3ca6d9092bae3f5
+Size: 3750642
+Filename: enigma2-plugin-extensions-ciefpsettingspanel_git100+0e820ab0+0e820abf55-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpsettingspanel.bb
 Description: CiefpsettingsPanel Enigma2 Plugin Manager
 OE: enigma2-plugin-extensions-ciefpsettingspanel
@@ -1226,14 +1226,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2tvplayer-dbg
-Version: 0.0-git24+bab3b2b0+bab3b2b9f5-r0
+Version: 0.0-git28+fb471110+fb47111229-r0
 Section: devel
 Architecture: all
 Maintainer: onni-k
-MD5Sum: 7f56afe9b5e25ee493aa4d62e0738003
-SHA256sum: 8a402380f12ae3fa1570c9f291153bb325bbe96af226cae1948789d5c988f043
+MD5Sum: 219827c96d2cfa100427e059205358ac
+SHA256sum: 860b3bfb36be298c80b73e5e44672ad253b50a16843df448f69b4409b3ccabb9
 Size: 594
-Filename: enigma2-plugin-extensions-e2tvplayer-dbg_0.0-git24+bab3b2b0+bab3b2b9f5-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2tvplayer-dbg_0.0-git28+fb471110+fb47111229-r0_all.ipk
 Source: enigma2-plugin-extensions-e2tvplayer.bb
 Description: E2TVPlayer - OpenWebif extension for TV playback - Debugging files
 OE: enigma2-plugin-extensions-e2tvplayer
@@ -1241,15 +1241,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2tvplayer-dev
-Version: 0.0-git24+bab3b2b0+bab3b2b9f5-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-e2tvplayer (= 0.0-git24+bab3b2b0+bab3b2b9f5-r0), enigma2-plugin-extensions-openwebif-dev, python3-core-dev
+Version: 0.0-git28+fb471110+fb47111229-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-e2tvplayer (= 0.0-git28+fb471110+fb47111229-r0), enigma2-plugin-extensions-openwebif-dev, python3-core-dev
 Section: devel
 Architecture: all
 Maintainer: onni-k
-MD5Sum: 1ff69cc2a72c1aa7c9a60fc7dff76ae0
-SHA256sum: 634837d2f955be9212151828541246a139356fa3d692290c47a86b80024248e5
+MD5Sum: cb290597cbc57287ebeee7cce542b1f3
+SHA256sum: e91672dd9778a79fbb4e5f762a15d0ea21bbd190c26fbc53dbe4c4c56459d792
 Size: 658
-Filename: enigma2-plugin-extensions-e2tvplayer-dev_0.0-git24+bab3b2b0+bab3b2b9f5-r0_all.ipk
+Filename: enigma2-plugin-extensions-e2tvplayer-dev_0.0-git28+fb471110+fb47111229-r0_all.ipk
 Source: enigma2-plugin-extensions-e2tvplayer.bb
 Description: E2TVPlayer - OpenWebif extension for TV playback - Development files
 OE: enigma2-plugin-extensions-e2tvplayer
@@ -1257,15 +1257,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2tvplayer
-Version: 0.0-git24+bab3b2b0+bab3b2b9f5-r0
+Version: 0.0-git28+fb471110+fb47111229-r0
 Depends: enigma2, enigma2-plugin-extensions-openwebif, python3-core
 Section: base
 Architecture: all
 Maintainer: onni-k
-MD5Sum: 2da40435598702c6cc0a8a3b624e6e36
-SHA256sum: f075649548648a1d5e63de0b4d94a8177dd0c492af2d1f55ef6411be8a898b0d
-Size: 137664
-Filename: enigma2-plugin-extensions-e2tvplayer_0.0-git24+bab3b2b0+bab3b2b9f5-r0_all.ipk
+MD5Sum: 3512af393211af1222a87774bb7c0467
+SHA256sum: 9a88e524fb810ee3f46462551f14a9a1a59202b8b9130faf6a86d6750e351574
+Size: 141244
+Filename: enigma2-plugin-extensions-e2tvplayer_0.0-git28+fb471110+fb47111229-r0_all.ipk
 Source: enigma2-plugin-extensions-e2tvplayer.bb
 Description: E2TVPlayer - OpenWebif extension for TV playback
 OE: enigma2-plugin-extensions-e2tvplayer
@@ -6236,8 +6236,8 @@ Version: 0.3.11-git5+51b290a0+51b290a465-r0
 Section: devel
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 872fbf7ba69a6e8dc5ebc6ca4a29071e
-SHA256sum: 5db92595d5d91fe884dfa83fd920c46b1ac72afd7e0db8ced10abee22161b7e0
+MD5Sum: 86080437a2fcd38901e11ff01d559f27
+SHA256sum: 225360aab39ce06db05df6fe44cb3e4343933b0befecf0f3e78e3fb6e4cf2ec1
 Size: 592
 Filename: enigma2-plugin-systemplugins-streamproxycockpit-dbg_0.3.11-git5+51b290a0+51b290a465-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
@@ -6252,8 +6252,8 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-streamproxycockpit (= 0.3.
 Section: devel
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 78de149ce18f391070b842ca8230b448
-SHA256sum: 6c793d31e1cb9b11bf8c698c355f3f387b58404f649a1cad2d5afb6bc9c2171c
+MD5Sum: cf2a4e503089fd7643ba4e9d93ebdee9
+SHA256sum: bf49c734c3d3ecb726c698571930abe23aeb02300e94ca8982afbdc85c899c28
 Size: 646
 Filename: enigma2-plugin-systemplugins-streamproxycockpit-dev_0.3.11-git5+51b290a0+51b290a465-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
@@ -6268,9 +6268,9 @@ Depends: enigma2, python3-requests
 Section: base
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 5ec0863ec523e3b97189259b6d17204c
-SHA256sum: c5c90865e0268ffc91fb707b4baa2d283d92b5acdea515dd16255e9f6527adf8
-Size: 127106
+MD5Sum: e9f1d9d2090b702114c19c76dd33c832
+SHA256sum: 1bfed897c6696b5fde1b455b9777e41dc9cde7920b194267bde6b2f6ae5f67cc
+Size: 127108
 Filename: enigma2-plugin-systemplugins-streamproxycockpit_0.3.11-git5+51b290a0+51b290a465-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin
@@ -10878,14 +10878,14 @@ License: Bitstream-Vera
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1582+d66803a0+d66803ab41-3
+Version: 2+git1583+bb891cb0+bb891cbb41-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 3ce0b2ec0520139c0abc2b83985189f9
-SHA256sum: 107a0ea180eb822715d14a3e8d3f6ffc9a1c0a16514c8300cc686d0580bf98a7
+MD5Sum: 5b09d22b956d36b67e70ee5d42244ba9
+SHA256sum: a81ffb780d69e818bc0a8ac2d11203362432205c68f90328f0a0e7d14a07f1e9
 Size: 568
-Filename: tuxbox-common-dbg_2+git1582+d66803a0+d66803ab41-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1583+bb891cb0+bb891cbb41-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -10893,15 +10893,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1582+d66803a0+d66803ab41-3
-Recommends: tuxbox-common (>= 2+git1582+d66803a0+d66803ab41-3), tuxbox-common (<< 2+git1582+d66803a0+d66803ab41-3.0), xz-dev
+Version: 2+git1583+bb891cb0+bb891cbb41-3
+Recommends: tuxbox-common (>= 2+git1583+bb891cb0+bb891cbb41-3), tuxbox-common (<< 2+git1583+bb891cb0+bb891cbb41-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 5b0906cf6f8cc7518bef1590c563b5d2
-SHA256sum: ce03b3788c47cd5df2f4fa55f8f25596510c4267d0bc368df17c7d3f208b3b69
+MD5Sum: 303ac09a0dc385f779a0fc480f96ca89
+SHA256sum: 96ce7322de491c86601d4a357aa7bd2d4873055ec891311448f968bbad7e393d
 Size: 622
-Filename: tuxbox-common-dev_2+git1582+d66803a0+d66803ab41-3_all.ipk
+Filename: tuxbox-common-dev_2+git1583+bb891cb0+bb891cbb41-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -10909,15 +10909,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1582+d66803a0+d66803ab41-3
+Version: 2+git1583+bb891cb0+bb891cbb41-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 6683a36538717d81e9a5a1051fab3c05
-SHA256sum: d18d4e971a598a4eb803082968a0ced56ec071514832293f12cf2dc868aafc01
-Size: 69336
-Filename: tuxbox-common_2+git1582+d66803a0+d66803ab41-3_all.ipk
+MD5Sum: 45338fd8cb36459df9f9ce7c4c739b56
+SHA256sum: 8c44ff49fbb9c91ccd78ee481a1a5b2a4ad682cafdb20799762de6440db20ab4
+Size: 69350
+Filename: tuxbox-common_2+git1583+bb891cb0+bb891cbb41-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common

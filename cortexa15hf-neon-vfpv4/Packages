@@ -9697,8 +9697,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 053301e7125eca91c96293e2ba8bc192
-SHA256sum: 3e644fa11789e1edae65468172f061665c3e87cdd6dcfb1863b8523faae09bfd
+MD5Sum: ae8a7c2ff22b4f36638d1abe0b2cc5bc
+SHA256sum: 98d70a0cf18a8f0e5b2e6acf11860fbce8835a5cf2fca19b9f340f994bd3f402
 Size: 628
 Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -9713,9 +9713,9 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.0-git92+0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: cde97ea22c967f38c075fbc4466211f5
-SHA256sum: 6b142b7968a6e1bd4b65b8cd1e9c11b4f5a7fdd49d2671cff8c2b80a348124a4
-Size: 660
+MD5Sum: ad92366ce16c53d3f2d562f14aea9f27
+SHA256sum: 465f3cbf00d42248913c218c92e4eeafac687865b2384a88e7db056ab6097a20
+Size: 658
 Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2 - Development files
@@ -9729,9 +9729,9 @@ Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc+
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 37a0ac631ef621787d9428dd866eb82e
-SHA256sum: 266202580cb3478af42d4fb72c2f294a88bcb83c2b19575d3cfc3745a8dab4e5
-Size: 2194218
+MD5Sum: ca7eacedfbb44f0acbb619545a943033
+SHA256sum: af86c85cc108617c31b8ecaed71c08e799fb5db35887456b5e14b720f99d0cdf
+Size: 2194216
 Filename: enigma2-plugin-extensions-ciplus-helper_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2
@@ -9820,14 +9820,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0
+Version: 2026.11.09.02-git6320+e4f42da0+e4f42dab66-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 80c90bd6e7fac8aa62ecf3828456eeb2
-SHA256sum: 2cbdab825de755fca88c23c7ae0df6a8b088644c8036610960553d06aef80aa0
-Size: 672
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 62547a0685df7cd93d8591d58556b810
+SHA256sum: f81b832b9f309530f0dd35bf0397aeaee134323d69e8e67d2c02c9be7aaa4674
+Size: 670
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.09.02-git6320+e4f42da0+e4f42dab66-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9888,15 +9888,15 @@ License: GPL-3.0-only AND LGPL-2.1-or-later AND MIT AND Zlib
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0), python3-core-dev, python3-dev
+Version: 2026.11.09.02-git6320+e4f42da0+e4f42dab66-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.09.02-git6320+e4f42da0+e4f42dab66-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 00c36b3a280e0b78d7d421247cea1afd
-SHA256sum: aac60418f64e4c585ecb86367e0a2bb324f2428d32d543591c74c3aabb828a6c
-Size: 724
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 1f5d5c7bf47edeed6271b5e89a453a5c
+SHA256sum: 792ac7e7fa827343c772a45bfed2d2ebd8f05e43b9464dcf96b0a267e717f29b
+Size: 722
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.09.02-git6320+e4f42da0+e4f42dab66-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9905,15 +9905,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0
+Version: 2026.11.09.02-git6320+e4f42da0+e4f42dab66-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 6c8bdd5e9b98b61621e7cb33254c238f
-SHA256sum: 16e94f6f17500bbfd5545a4ac5c9d37b3e10499f0de586a7d368ee7298eca99e
-Size: 3002544
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: e26087adfef917955d68bec4098a5d5c
+SHA256sum: f934cc1e09601f77b2b8705051856520d845918574e3e60554df990060f90432
+Size: 3002420
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.09.02-git6320+e4f42da0+e4f42dab66-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9922,16 +9922,16 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0
+Version: 2026.11.09.02-git6320+e4f42da0+e4f42dab66-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 125b628dba35eff1bd8dd6e3ab4bcd75
-SHA256sum: b3b711692a56ea0a236fc7c6e9201dd5080116e410f1f7bc126514b42f6514e2
-Size: 27131416
-Filename: enigma2-plugin-extensions-e2iplayer_2026.11.09.02-git6319+4d777bb0+4d777bbf00-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d8de8bcb2b90ac610838039fd85ad103
+SHA256sum: 6c5b24539ff536e496e913e8b6d2a66cab3cdf728c4c95bb358512aff6f25510
+Size: 27119888
+Filename: enigma2-plugin-extensions-e2iplayer_2026.11.09.02-git6320+e4f42da0+e4f42dab66-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -95464,13 +95464,13 @@ Priority: optional
 
 Package: openpli-enigma2-feed-dev
 Version: 1.0-r0
-Recommends: astra-sm-dev, autofs-dev, autossh-dev, bitstream-dev, brotli-dev, ccid-dev, channelsettings-enigma2-meta-dev, chrony-dev, cloudflare-dns-dev, cmdwrapper-dev, ctorrent-dev, cups-dev, curl-dev, curl-impersonate-dev, dav1d-dev, davfs2-dev, dhrystone-dev, diffutils-dev, djmount-dev, dosfstools-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, edid-decode-dev, enigma2-binary-plugins-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-abertis-dev, enigma2-plugin-extensions-acherone-dev, enigma2-plugin-extensions-arabicsavior-dev, enigma2-plugin-extensions-archimede-m3uconverter-dev, enigma2-plugin-extensions-archivczsk-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-automatic-fullbackup-dev, enigma2-plugin-extensions-backupflash-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-bmediacenter-dev, enigma2-plugin-extensions-bouquetmakerxtream-dev, enigma2-plugin-extensions-calendar-dev, enigma2-plugin-extensions-chefkoch-dev, enigma2-plugin-extensions-ciefpplugins-dev, enigma2-plugin-extensions-ciefpsettingspanel-dev, enigma2-plugin-extensions-ciefpxfiles-dev, enigma2-plugin-extensions-ciefpyoutube-dev, enigma2-plugin-extensions-ciplus-helper-dev, enigma2-plugin-extensions-commandcenter-dev, enigma2-plugin-extensions-crashlogviewer-dev, enigma2-plugin-extensions-dabstreamer-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-extensions-e2embyclient-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-e2piconizer-dev, enigma2-plugin-extensions-e2tvplayer-dev, enigma2-plugin-extensions-enhancedmoviecenter-dev, enigma2-plugin-extensions-enigmalight-dev, enigma2-plugin-extensions-enigmawelt-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-epgtranslator-dev, enigma2-plugin-extensions-esame-dev, enigma2-plugin-extensions-estalker-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-footonsat-dev, enigma2-plugin-extensions-freechannels-dev, enigma2-plugin-extensions-fritzcall-dev, enigma2-plugin-extensions-gtiptvplayerpro-dev, enigma2-plugin-extensions-hdmitest-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-infobarweather-dev, enigma2-plugin-extensions-iptv-org-playlists-dev, enigma2-plugin-extensions-jediepgxtream-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-levi45addons-dev, enigma2-plugin-extensions-linuxsatpanel-dev, enigma2-plugin-extensions-lottoextended-dev, enigma2-plugin-extensions-mediaplayer3-dev, enigma2-plugin-extensions-mediathekcockpit-dev, enigma2-plugin-extensions-movemanager-dev, enigma2-plugin-extensions-neoradio-dev, enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-extensions-oemediathek-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-planerfs-dev, enigma2-plugin-extensions-plutotv-dev, enigma2-plugin-extensions-plutotvcockpit-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-raedquicksignal-dev, enigma2-plugin-extensions-raiplay-dev, enigma2-plugin-extensions-rakutentvcockpit-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-samsungtvcockpit-dev, enigma2-plugin-extensions-schiffe-dev, enigma2-plugin-extensions-sdgradio-dev, enigma2-plugin-extensions-serienrecorder-dev, enigma2-plugin-extensions-simplezoom-panel-dev, enigma2-plugin-extensions-skyline-webcams-dev, enigma2-plugin-extensions-stalkerportalconverter-dev, enigma2-plugin-extensions-stbkodilauncher-dev, enigma2-plugin-extensions-streamlinksrv-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-subssupportpro-dev, enigma2-plugin-extensions-sudoku-dev, enigma2-plugin-extensions-sundtekcontrolcenter-dev, enigma2-plugin-extensions-tetris-dev, enigma2-plugin-extensions-transmission-stremio-dev, enigma2-plugin-extensions-ts-sateditor-dev, enigma2-plugin-extensions-tvgarden-dev, enigma2-plugin-extensions-tvmanager-dev, enigma2-plugin-extensions-vavoo-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vhannibal-autosettings-dev, enigma2-plugin-extensions-vierg-dev, enigma2-plugin-extensions-visualweather-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-webradiofs-dev, enigma2-plugin-extensions-wifi-manager-dev, enigma2-plugin-extensions-worldcam-dev, enigma2-plugin-extensions-xcforever-dev, enigma2-plugin-extensions-xklass-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-yampmusicplayer-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skincomponents-obsidian-fhd-cast-dev, enigma2-plugin-skincomponents-obsidian-fhd-edge-dev, enigma2-plugin-skincomponents-obsidian-fhd-k7-dev, enigma2-plugin-skincomponents-obsidian-fhd-matchday-dev, enigma2-plugin-skincomponents-obsidian-fhd-mawaqit-dev, enigma2-plugin-skincomponents-obsidian-fhd-nova-dev, enigma2-plugin-skincomponents-obsidian-fhd-posters-dev, enigma2-plugin-skincomponents-obsidian-fhd-synthwave-dev, enigma2-plugin-skins-army-moodblue-hd-dev, enigma2-plugin-skins-e2darkos-dev, enigma2-plugin-skins-glamouraurafhd-dev, enigma2-plugin-skins-kiddac-1080-onyx-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-pd1loi-hd-night-dev, enigma2-plugin-skins-pli-fullnight-fhd-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd-fullnight-dev, enigma2-plugin-skins-proteusfhd-dev, enigma2-plugin-skins-ruinfinityhd-dev, enigma2-plugin-skins-satdreamgr-hd-transpba-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-extrafancontrol-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-m3uiptv-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-satipserver-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev, enigma2-plugin-systemplugins-terrestrialbouquet-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, evtest-dev, exfatprogs-dev, exteplayer3-dev, fdk-aac-dev, firmware-mt7601u-dev, firmware-rtl8188eu-dev, firmware-rtl8188fu-dev, firmware-rtl8192eu-dev, firmware-rtl8723bu-dev, flip-dev, fstrcmp-dev, fuse-dev, gdb-dev, gerbera-dev, google-dns-dev, grep-dev, gstplayer-dev, hddtemp-dev, hdparm-dev, htop-dev, icu-dev, iflatbitrate-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, ipkg-tools-dev, iproute2-dev, iputils-dev, joe-dev, kernel-module-mt7601usta-dev, kernel-module-mt7610u-dev, kernel-module-rt3573sta-dev, kernel-module-rt5572sta-dev, kernel-module-rt8188eu-dev, kernel-module-rt8188fu-dev, kernel-module-rt8189es-dev, kernel-module-rt8192eu-dev, kernel-module-rt8192fu-dev, kernel-module-rt8723a-dev, kernel-module-rt8723bs-dev, kernel-module-rt8723bu-dev, kernel-module-rt8812au-dev, kernel-module-rt8814au-dev, kernel-module-rt8821cu-dev, kernel-module-rt8852cu-dev, kernel-module-rt88x2bu-dev, kernel-module-rt88x2cu-dev, less-dev, libbluray-dev, libdcadec-dev, libnfs-dev, libpar2-dev, libudfread-dev, libvpx-dev, mc-dev, mediainfo-dev, meta-enigma2-dvdburn-dev, minisatip-dev, mpd-dev, mpg123-dev, mtd-utils-dev, mtools-dev, mtr-dev, nano-dev, net-tools-dev, nss-dev, ntfs-3g-dev, openldap-dev, openmultiboot-dev, openpli-enigma2-feed (= 1.0-r0), openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, os-release-dev, package-index-feed-dev, packagegroup-hbbtv2-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, picons-enigma2-meta-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python3-apprise-dev, python3-babelfish-dev, python3-backports-lzma-dev, python3-beautifulsoup4-dev, python3-biplist-dev, python3-bluetool-dev, python3-cattrs-dev, python3-cfscrape-dev, python3-chardet-dev, python3-cheroot-dev, python3-cherrypy-dev, python3-circuits-bricks-dev, python3-circuits-dev, python3-cocy-dev, python3-compat2-dev, python3-cssselect-dev, python3-ct3-dev, python3-curl-cffi-dev, python3-daap-dev, python3-exceptiongroup-dev, python3-feedparser-dev, python3-flickrapi-dev, python3-flit-scm-dev, python3-future-dev, python3-futures3-dev, python3-fuzzywuzzy-dev, python3-gdata-python3-dev, python3-guessit-dev, python3-h11-dev, python3-icalendar-dev, python3-iniparse-dev, python3-iso-639-dev, python3-isodate-dev, python3-itemadapter-dev, python3-itemloaders-dev, python3-jaraco.classes-dev, python3-jaraco.collections-dev, python3-jaraco.context-dev, python3-jaraco.functools-dev, python3-jaraco.text-dev, python3-js2py-dev, python3-levenshtein-dev, python3-lxml-dev, python3-lzallright-dev, python3-mechanize-dev, python3-more-itertools-dev, python3-multipart-dev, python3-mutagen-dev, python3-notify2-dev, python3-ntplib-dev, python3-numpy-dev, python3-outcome-dev, python3-packaging-dev, python3-parsel-dev, python3-pbkdf2-dev, python3-pip-dev, python3-platformdirs-dev, python3-portend-dev, python3-process-dev, python3-protego-dev, python3-puremagic-dev, python3-py3amf-dev, python3-pycountry-dev, python3-pycryptodome-dev, python3-pyexecjs-dev, python3-pysmb-dev, python3-pysnmp-dev, python3-pyte-dev, python3-pytz-dev, python3-queuelib-dev, python3-rapidjson-dev, python3-rarfile-dev, python3-rbtranslations-dev, python3-rebulk-dev, python3-requests-cache-dev, python3-requests-dev, python3-sabctools-dev, python3-sabyenc3-dev, python3-scrapy-dev, python3-setuptools-dev, python3-sgmllib3k-dev, python3-simple-justwatch-python-api-dev, python3-simple-websocket-dev, python3-singledispatch-dev, python3-six-dev, python3-soco-dev, python3-tcpbridge-dev, python3-tempora-dev, python3-tenjin-dev, python3-thefuzz-dev, python3-timeout-decorator-dev, python3-tinytag-dev, python3-tldextract-dev, python3-tmdbsimple-dev, python3-tmdbv3api-dev, python3-transmission-rpc-dev, python3-treq-dev, python3-trio-websocket-dev, python3-tvdbsimple-dev, python3-types-setuptools-dev, python3-typing-extensions-dev, python3-tzlocal-dev, python3-ubi-reader-dev, python3-url-normalize-dev, python3-uv-build-dev, python3-versioningit-dev, python3-w3lib-dev, python3-websocket-client-dev, python3-websockets-dev, python3-wifi-dev, python3-yarl-dev, python3-yenc-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-yt-dlp-ejs-dev, python3-zc.lockfile-dev, quickjs-dev, rclone-dev, redsea-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, satpi-dev, screen-dev, sed-dev, shairplay-dev, shellinabox-dev, smartmontools-dev, smbnetfs-dev, softcams-enigma2-meta-dev, srt-dev, sshpass-dev, strace-dev, streamlink-dev, streamlinksrv-dev, streamripper-dev, tcpdump-dev, tmux-dev, transmission-dev, tsanalyze-dev, tsduck-dev, tslib-dev, tsniv2ni-dev, ttyrun-dev, ubuntu-font-family-dev, udpxy-dev, unzip-dev, upx-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, valgrind-dev, vim-dev, wget-dev, wireguard-module-dev, wireguard-tools-dev, wireless-tools-dev, wscan-dev, wsdd-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zerotier-dev, zip-dev, zsh-dev
+Recommends: astra-sm-dev, autofs-dev, autossh-dev, bitstream-dev, brotli-dev, ccid-dev, channelsettings-enigma2-meta-dev, chrony-dev, cloudflare-dns-dev, cmdwrapper-dev, ctorrent-dev, cups-dev, curl-dev, curl-impersonate-dev, dav1d-dev, davfs2-dev, dhrystone-dev, diffutils-dev, djmount-dev, dosfstools-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, edid-decode-dev, enigma2-binary-plugins-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-abertis-dev, enigma2-plugin-extensions-acherone-dev, enigma2-plugin-extensions-arabicsavior-dev, enigma2-plugin-extensions-archimede-m3uconverter-dev, enigma2-plugin-extensions-archivczsk-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-automatic-fullbackup-dev, enigma2-plugin-extensions-backupflash-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-bmediacenter-dev, enigma2-plugin-extensions-bouquetmakerxtream-dev, enigma2-plugin-extensions-calendar-dev, enigma2-plugin-extensions-chefkoch-dev, enigma2-plugin-extensions-ciefpplugins-dev, enigma2-plugin-extensions-ciefpsettingspanel-dev, enigma2-plugin-extensions-ciefpxfiles-dev, enigma2-plugin-extensions-ciefpyoutube-dev, enigma2-plugin-extensions-ciplus-helper-dev, enigma2-plugin-extensions-commandcenter-dev, enigma2-plugin-extensions-crashlogviewer-dev, enigma2-plugin-extensions-dabstreamer-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-extensions-e2embyclient-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-e2piconizer-dev, enigma2-plugin-extensions-e2tvplayer-dev, enigma2-plugin-extensions-enhancedmoviecenter-dev, enigma2-plugin-extensions-enigmalight-dev, enigma2-plugin-extensions-enigmawelt-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-epgtranslator-dev, enigma2-plugin-extensions-esame-dev, enigma2-plugin-extensions-estalker-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-footonsat-dev, enigma2-plugin-extensions-freechannels-dev, enigma2-plugin-extensions-fritzcall-dev, enigma2-plugin-extensions-gtiptvplayerpro-dev, enigma2-plugin-extensions-hdmitest-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-infobarweather-dev, enigma2-plugin-extensions-iptv-org-playlists-dev, enigma2-plugin-extensions-jediepgxtream-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-levi45addons-dev, enigma2-plugin-extensions-linuxsatpanel-dev, enigma2-plugin-extensions-lottoextended-dev, enigma2-plugin-extensions-mediaplayer3-dev, enigma2-plugin-extensions-mediathekcockpit-dev, enigma2-plugin-extensions-movemanager-dev, enigma2-plugin-extensions-neoradio-dev, enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-extensions-oemediathek-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-planerfs-dev, enigma2-plugin-extensions-plutotv-dev, enigma2-plugin-extensions-plutotvcockpit-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-raedquicksignal-dev, enigma2-plugin-extensions-raiplay-dev, enigma2-plugin-extensions-rakutentvcockpit-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-samsungtvcockpit-dev, enigma2-plugin-extensions-schiffe-dev, enigma2-plugin-extensions-sdgradio-dev, enigma2-plugin-extensions-serienrecorder-dev, enigma2-plugin-extensions-simplezoom-panel-dev, enigma2-plugin-extensions-skyline-webcams-dev, enigma2-plugin-extensions-stalkerportalconverter-dev, enigma2-plugin-extensions-stbkodilauncher-dev, enigma2-plugin-extensions-streamlinksrv-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-subssupportpro-dev, enigma2-plugin-extensions-sudoku-dev, enigma2-plugin-extensions-sundtekcontrolcenter-dev, enigma2-plugin-extensions-tetris-dev, enigma2-plugin-extensions-transmission-stremio-dev, enigma2-plugin-extensions-ts-sateditor-dev, enigma2-plugin-extensions-tvgarden-dev, enigma2-plugin-extensions-tvmanager-dev, enigma2-plugin-extensions-vavoo-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vhannibal-autosettings-dev, enigma2-plugin-extensions-vierg-dev, enigma2-plugin-extensions-visualweather-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-webradiofs-dev, enigma2-plugin-extensions-wifi-manager-dev, enigma2-plugin-extensions-worldcam-dev, enigma2-plugin-extensions-xcforever-dev, enigma2-plugin-extensions-xklass-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-yampmusicplayer-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skincomponents-obsidian-fhd-cast-dev, enigma2-plugin-skincomponents-obsidian-fhd-edge-dev, enigma2-plugin-skincomponents-obsidian-fhd-k7-dev, enigma2-plugin-skincomponents-obsidian-fhd-matchday-dev, enigma2-plugin-skincomponents-obsidian-fhd-mawaqit-dev, enigma2-plugin-skincomponents-obsidian-fhd-nova-dev, enigma2-plugin-skincomponents-obsidian-fhd-posters-dev, enigma2-plugin-skincomponents-obsidian-fhd-synthwave-dev, enigma2-plugin-skins-army-moodblue-hd-dev, enigma2-plugin-skins-e2darkos-dev, enigma2-plugin-skins-glamouraurafhd-dev, enigma2-plugin-skins-kiddac-1080-onyx-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-pd1loi-hd-night-dev, enigma2-plugin-skins-pli-fullnight-fhd-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd-fullnight-dev, enigma2-plugin-skins-proteusfhd-dev, enigma2-plugin-skins-ruinfinityhd-dev, enigma2-plugin-skins-satdreamgr-hd-transpba-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-extrafancontrol-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-m3uiptv-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-satipserver-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev, enigma2-plugin-systemplugins-terrestrialbouquet-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, evtest-dev, exfatprogs-dev, exteplayer3-dev, fdk-aac-dev, firmware-mt7601u-dev, firmware-rtl8188eu-dev, firmware-rtl8188fu-dev, firmware-rtl8192eu-dev, firmware-rtl8723bu-dev, flip-dev, fstrcmp-dev, fuse-dev, gdb-dev, gerbera-dev, google-dns-dev, grep-dev, gstplayer-dev, hddtemp-dev, hdparm-dev, htop-dev, icu-dev, iflatbitrate-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, ipkg-tools-dev, iproute2-dev, iputils-dev, joe-dev, kernel-module-mt7601usta-dev, kernel-module-mt7610u-dev, kernel-module-rt3573sta-dev, kernel-module-rt5572sta-dev, kernel-module-rt8188eu-dev, kernel-module-rt8188fu-dev, kernel-module-rt8189es-dev, kernel-module-rt8192eu-dev, kernel-module-rt8192fu-dev, kernel-module-rt8723a-dev, kernel-module-rt8723bs-dev, kernel-module-rt8723bu-dev, kernel-module-rt8812au-dev, kernel-module-rt8814au-dev, kernel-module-rt8821cu-dev, kernel-module-rt8852cu-dev, kernel-module-rt88x2bu-dev, kernel-module-rt88x2cu-dev, less-dev, libbluray-dev, libdcadec-dev, libnfs-dev, libpar2-dev, libudfread-dev, libvpx-dev, mc-dev, mediainfo-dev, meta-enigma2-dvdburn-dev, minisatip-dev, mpd-dev, mpg123-dev, mtd-utils-dev, mtools-dev, mtr-dev, nano-dev, net-tools-dev, nss-dev, ntfs-3g-dev, openldap-dev, openmultiboot-dev, openpli-enigma2-feed (= 1.0-r0), openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, os-release-dev, package-index-feed-dev, packagegroup-hbbtv2-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, picons-enigma2-meta-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python3-apprise-dev, python3-babelfish-dev, python3-backports-lzma-dev, python3-beautifulsoup4-dev, python3-biplist-dev, python3-bluetool-dev, python3-cachetools-dev, python3-cattrs-dev, python3-cfscrape-dev, python3-chardet-dev, python3-cheroot-dev, python3-cherrypy-dev, python3-circuits-bricks-dev, python3-circuits-dev, python3-cocy-dev, python3-compat2-dev, python3-coverage-dev, python3-cssselect-dev, python3-ct3-dev, python3-curl-cffi-dev, python3-daap-dev, python3-exceptiongroup-dev, python3-feedparser-dev, python3-flickrapi-dev, python3-flit-scm-dev, python3-future-dev, python3-futures3-dev, python3-fuzzywuzzy-dev, python3-gdata-python3-dev, python3-guessit-dev, python3-h11-dev, python3-icalendar-dev, python3-iniparse-dev, python3-iso-639-dev, python3-isodate-dev, python3-itemadapter-dev, python3-itemloaders-dev, python3-jaraco.classes-dev, python3-jaraco.collections-dev, python3-jaraco.context-dev, python3-jaraco.functools-dev, python3-jaraco.text-dev, python3-js2py-dev, python3-levenshtein-dev, python3-lxml-dev, python3-lzallright-dev, python3-mechanize-dev, python3-more-itertools-dev, python3-multipart-dev, python3-mutagen-dev, python3-notify2-dev, python3-ntplib-dev, python3-numpy-dev, python3-outcome-dev, python3-packaging-dev, python3-parsel-dev, python3-pbkdf2-dev, python3-pip-dev, python3-platformdirs-dev, python3-portend-dev, python3-process-dev, python3-propcache-dev, python3-protego-dev, python3-puremagic-dev, python3-py3amf-dev, python3-pycountry-dev, python3-pycryptodome-dev, python3-pycryptodomex-dev, python3-pyexecjs-dev, python3-pysmb-dev, python3-pysnmp-dev, python3-pyte-dev, python3-pytz-dev, python3-queuelib-dev, python3-rapidjson-dev, python3-rarfile-dev, python3-rbtranslations-dev, python3-rebulk-dev, python3-regex-dev, python3-requests-cache-dev, python3-requests-dev, python3-sabctools-dev, python3-sabyenc3-dev, python3-scrapy-dev, python3-setuptools-dev, python3-sgmllib3k-dev, python3-simple-justwatch-python-api-dev, python3-simple-websocket-dev, python3-singledispatch-dev, python3-six-dev, python3-soco-dev, python3-soupsieve-dev, python3-svglib-dev, python3-tcpbridge-dev, python3-telnetlib3-dev, python3-tempora-dev, python3-tenjin-dev, python3-thefuzz-dev, python3-timeout-decorator-dev, python3-tinytag-dev, python3-tldextract-dev, python3-tmdbsimple-dev, python3-tmdbv3api-dev, python3-transmission-rpc-dev, python3-treq-dev, python3-trio-websocket-dev, python3-tvdbsimple-dev, python3-typer-dev, python3-types-setuptools-dev, python3-typing-extensions-dev, python3-tzlocal-dev, python3-ubi-reader-dev, python3-url-normalize-dev, python3-uv-build-dev, python3-versioningit-dev, python3-w3lib-dev, python3-websocket-client-dev, python3-websockets-dev, python3-wifi-dev, python3-yarl-dev, python3-yenc-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-yt-dlp-ejs-dev, python3-zc.lockfile-dev, python3-zeroconf-dev, quickjs-dev, rclone-dev, redsea-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, satpi-dev, screen-dev, sed-dev, shairplay-dev, shellinabox-dev, smartmontools-dev, smbnetfs-dev, softcams-enigma2-meta-dev, srt-dev, sshpass-dev, strace-dev, streamlink-dev, streamlinksrv-dev, streamripper-dev, tcpdump-dev, tmux-dev, transmission-dev, tsanalyze-dev, tsduck-dev, tslib-dev, tsniv2ni-dev, ttyrun-dev, ubuntu-font-family-dev, udpxy-dev, unzip-dev, upx-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, valgrind-dev, vim-dev, wget-dev, wireguard-module-dev, wireguard-tools-dev, wireless-tools-dev, wscan-dev, wsdd-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zerotier-dev, zip-dev, zsh-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3bf36e7f170fde47840450e86538a182
-SHA256sum: 8b8fa50f1f6b34ef57180633513a327e3e294e5ca17a8cc87cd59b3a50d0b1cb
-Size: 3370
+MD5Sum: 8a3bdac19a743aaa0b3e3f5bedd7f7f0
+SHA256sum: df0ce62b211970a41b658455cc2188b3e59dfbfda326f66e255fd58e54b38d91
+Size: 3418
 Filename: openpli-enigma2-feed-dev_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: openpli-enigma2-feed.bb
 Description: openpli-enigma2-feed version 1.0-r0 - Development files
@@ -114841,6 +114841,56 @@ HomePage: http://xcb.freedesktop.org
 License: MIT
 Priority: optional
 
+Package: python3-annotated-doc-dbg
+Version: 0.0.5-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f302176bc8cf05260903b8e70025ce2a
+SHA256sum: b44240631c2fb4c48b51c1251d6e96cb6e8f9c8660365eed721bcc87685e61d8
+Size: 674
+Filename: python3-annotated-doc-dbg_0.0.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-annotated-doc_0.0.5.bb
+Description: Document parameters, class attributes, return types, and variables inline, with Annotated. - Debugging files
+OE: python3-annotated-doc
+HomePage: https://github.com/fastapi/annotated-doc
+License: MIT
+Priority: optional
+
+Package: python3-annotated-doc-dev
+Version: 0.0.5-r0
+Recommends: python3-annotated-doc (= 0.0.5-r0), python3-compression-dev, python3-core-dev, python3-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f1c79c00a7c2990d58183dd6a1eca0cf
+SHA256sum: 1ce8971da587e39705814e640b0cd6b2c45b9b3e1962fbacb017b51e831c8ec7
+Size: 720
+Filename: python3-annotated-doc-dev_0.0.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-annotated-doc_0.0.5.bb
+Description: Document parameters, class attributes, return types, and variables inline, with Annotated. - Development files
+OE: python3-annotated-doc
+HomePage: https://github.com/fastapi/annotated-doc
+License: MIT
+Priority: optional
+
+Package: python3-annotated-doc
+Version: 0.0.5-r0
+Depends: python3-compression, python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 84d172b6f0b797c863979677ddd7a2da
+SHA256sum: 408cd5e2f888d3d55d85b26d8fe32e182c09131f836a30941e485df5403047a5
+Size: 6018
+Filename: python3-annotated-doc_0.0.5-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-annotated-doc_0.0.5.bb
+Description: Document parameters, class attributes, return types, and variables inline, with Annotated.
+OE: python3-annotated-doc
+HomePage: https://github.com/fastapi/annotated-doc
+License: MIT
+Priority: optional
+
 Package: python3-anyio-dbg
 Version: 4.16.0-r0
 Section: devel
@@ -115033,6 +115083,72 @@ Description: Push Notifications that work with just about every platform!
 OE: python3-apprise
 HomePage: https://github.com/caronc/apprise
 License: MIT
+Priority: optional
+
+Package: python3-async-timeout-dbg
+Version: 4.0.3-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b615243a0aff4dfb366eaf92d00a380
+SHA256sum: b911e69ce778a4b0545bf8d45dac0746ed72933e7e93c8b740c84b7bd18b4a38
+Size: 762
+Filename: python3-async-timeout-dbg_4.0.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-async-timeout_4.0.3.bb
+Description: asyncio-compatible timeout context manager - Debugging files
+OE: python3-async-timeout
+HomePage: https://github.com/aio-libs/async-timeout
+License: Apache-2.0
+Priority: optional
+
+Package: python3-async-timeout-dev
+Version: 4.0.3-r0
+Recommends: python3-async-timeout (= 4.0.3-r0), python3-asyncio-dev, python3-core-dev, python3-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 60ce4307d3fbd5678be761f98ae07644
+SHA256sum: d4ef829dd021c15b4d46de26ff695598bc196b4e416c2315fce9fa383bdc7df2
+Size: 808
+Filename: python3-async-timeout-dev_4.0.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-async-timeout_4.0.3.bb
+Description: asyncio-compatible timeout context manager - Development files
+OE: python3-async-timeout
+HomePage: https://github.com/aio-libs/async-timeout
+License: Apache-2.0
+Priority: optional
+
+Package: python3-async-timeout-doc
+Version: 4.0.3-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de11867c083191814448e4591304c1eb
+SHA256sum: 37c15b717f7abd4382bb3283b986fd0ef2a1fafbf53f94615235520eafdfe760
+Size: 3156
+Filename: python3-async-timeout-doc_4.0.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-async-timeout_4.0.3.bb
+Description: asyncio-compatible timeout context manager - Documentation files
+OE: python3-async-timeout
+HomePage: https://github.com/aio-libs/async-timeout
+License: Apache-2.0
+Priority: optional
+
+Package: python3-async-timeout
+Version: 4.0.3-r0
+Depends: python3-asyncio, python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 10ca3617e708f86b61fef55b40282e80
+SHA256sum: e986d878a42781fe9ad5e0b0c769a2cf6b397d21400fd0d21559bafb8815bdc6
+Size: 7890
+Filename: python3-async-timeout_4.0.3-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-async-timeout_4.0.3.bb
+Description: asyncio-compatible timeout context manager
+OE: python3-async-timeout
+HomePage: https://github.com/aio-libs/async-timeout
+License: Apache-2.0
 Priority: optional
 
 Package: python3-asyncio
@@ -115663,6 +115779,56 @@ Description: A simple Python API for Bluetooth D-Bus calls
 OE: python3-bluetool
 HomePage: https://github.com/emlid/bluetool
 License: GPL-3.0-only
+Priority: optional
+
+Package: python3-cachetools-dbg
+Version: 8.0.0-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0e33f4f1f3a56dee7a6872b757c1fd41
+SHA256sum: 3372b150c888e7923606e1a9aa4ca2f542c768d7922e6768b78d216403706639
+Size: 708
+Filename: python3-cachetools-dbg_8.0.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-cachetools_8.0.0.bb
+Description: Extensible memoizing collections and decorators - Debugging files
+OE: python3-cachetools
+HomePage: https://github.com/tkem/cachetools
+License: MIT
+Priority: optional
+
+Package: python3-cachetools-dev
+Version: 8.0.0-r0
+Recommends: python3-cachetools (= 8.0.0-r0), python3-core-dev, python3-dev, python3-math-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de1658963b8bbe6353045773ded3535a
+SHA256sum: 8d7089dfecdc99dc7f56c8e7bb11a546b32a7c4c24aef9608a4fe6fe980c9255
+Size: 754
+Filename: python3-cachetools-dev_8.0.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-cachetools_8.0.0.bb
+Description: Extensible memoizing collections and decorators - Development files
+OE: python3-cachetools
+HomePage: https://github.com/tkem/cachetools
+License: MIT
+Priority: optional
+
+Package: python3-cachetools
+Version: 8.0.0-r0
+Depends: python3-core, python3-math
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 268d8d1094ea1a9edb5b93d6d41205d8
+SHA256sum: 3660a68c28821993df29edd5b54aa9c212c5aea00d718102bc5ebd2f9c28e8ee
+Size: 43002
+Filename: python3-cachetools_8.0.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-cachetools_8.0.0.bb
+Description: Extensible memoizing collections and decorators
+OE: python3-cachetools
+HomePage: https://github.com/tkem/cachetools
+License: MIT
 Priority: optional
 
 Package: python3-cattrs-dbg
@@ -116752,6 +116918,57 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
+Package: python3-coverage-dbg
+Version: 7.17.2-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 987faebc2d4a81ec0ce9313490b68d1f
+SHA256sum: 48ab6345de98931e54463e333dd0354b7f7c2a0ce8ecebb1431d0b7fcdb3d6b8
+Size: 52646
+Filename: python3-coverage-dbg_7.17.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-coverage_7.17.2.bb
+Description: Code coverage measurement for Python - Debugging files
+OE: python3-coverage
+HomePage: https://coverage.readthedocs.io
+License: Apache-2.0
+Priority: optional
+
+Package: python3-coverage-dev
+Version: 7.17.2-r0
+Recommends: glibc-dev, python3-core-dev, python3-coverage (= 7.17.2-r0), python3-crypt-dev, python3-dev, python3-io-dev, python3-json-dev, python3-multiprocessing-dev, python3-pprint-dev, python3-shell-dev, python3-sqlite3-dev, python3-tomllib-dev, python3-xml-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cbe98293104da5b1a6a73c73b6c5844b
+SHA256sum: 4906016d4b4dd80445b98874b1fbd98ed20358ec537f9b28e7278a9d0ecc61cf
+Size: 730
+Filename: python3-coverage-dev_7.17.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-coverage_7.17.2.bb
+Description: Code coverage measurement for Python - Development files
+OE: python3-coverage
+HomePage: https://coverage.readthedocs.io
+License: Apache-2.0
+Priority: optional
+
+Package: python3-coverage
+Version: 7.17.2-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core, python3-crypt, python3-io, python3-json, python3-multiprocessing, python3-pprint, python3-shell, python3-sqlite3, python3-tomllib, python3-xml
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e57c775e0b32e7a30f0b2ec460c522af
+SHA256sum: b1ea074d178de98e638f1a88c00341789e4fad2ed53f0cd5617cd553714c5bbc
+Size: 500310
+Filename: python3-coverage_7.17.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-coverage_7.17.2.bb
+Description: Code coverage measurement for Python
+OE: python3-coverage
+HomePage: https://coverage.readthedocs.io
+License: Apache-2.0
+Priority: optional
+
 Package: python3-crypt
 Version: 3.14.10-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), python3-core
@@ -116883,6 +117100,53 @@ Source: python3-cssselect_1.4.0.bb
 Description: cssselect parses CSS3 Selectors and translates them to XPath 1.0 - Documentation files
 OE: python3-cssselect
 HomePage: https://github.com/scrapy/cssselect
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-cssselect2-dbg
+Version: 0.10.1-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 209f4e8d4b37f7ca3bb95ce9efd733fe
+SHA256sum: 9a15107f5deb6a7f52a8d1752b605e1832d804ca5d5ddcc1f4f5571608c65e82
+Size: 720
+Filename: python3-cssselect2-dbg_0.10.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-cssselect2_0.10.1.bb
+Description: CSS selectors for Python ElementTree. - Debugging files
+OE: python3-cssselect2
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-cssselect2-dev
+Version: 0.10.1-r0
+Recommends: python3-core-dev, python3-cssselect2 (= 0.10.1-r0), python3-dev, python3-tinycss2-dev, python3-webencodings-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b4d6099dfc295ae32458509762e0b48f
+SHA256sum: 877ab13f2f45e261bd1610f46eeb3ed57c38e79f8bf5103e01782e76a09f931c
+Size: 778
+Filename: python3-cssselect2-dev_0.10.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-cssselect2_0.10.1.bb
+Description: CSS selectors for Python ElementTree. - Development files
+OE: python3-cssselect2
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-cssselect2
+Version: 0.10.1-r0
+Depends: python3-core, python3-tinycss2, python3-webencodings
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ffa3229d2943bdd505c2a83ee02bbd0f
+SHA256sum: 6081a2fb0ef42aec61a4a15227aec7484423ff04b908013b15b26b08a99596d8
+Size: 41358
+Filename: python3-cssselect2_0.10.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-cssselect2_0.10.1.bb
+Description: CSS selectors for Python ElementTree.
+OE: python3-cssselect2
 License: BSD-3-Clause
 Priority: optional
 
@@ -118864,6 +119128,56 @@ Description: Internationalised Domain Names in Applications
 OE: python3-idna
 HomePage: https://github.com/kjd/idna
 License: BSD-3-Clause AND Python-2.0 AND Unicode-TOU
+Priority: optional
+
+Package: python3-ifaddr-dbg
+Version: 0.2.0-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5e0a464e454c2f6fa55466425f5cb443
+SHA256sum: 9bf22dc2e12ff3a2a2656522dd9d8e4f495db0925900676abcd3b6a38f76fdb5
+Size: 654
+Filename: python3-ifaddr-dbg_0.2.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-ifaddr_0.2.0.bb
+Description: python3-ifaddr version 0.2.0-r0 - Debugging files
+OE: python3-ifaddr
+HomePage: https://pypi.org/project/ifaddr/
+License: MIT
+Priority: optional
+
+Package: python3-ifaddr-dev
+Version: 0.2.0-r0
+Recommends: python3-core-dev, python3-ctypes-dev, python3-dev, python3-ifaddr (= 0.2.0-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bacc838bae0b323c156960a46470627d
+SHA256sum: d988d1504931d44409acfd6dd4ba651403f1f49c9b0660e734ba3d10f3ff32c3
+Size: 702
+Filename: python3-ifaddr-dev_0.2.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-ifaddr_0.2.0.bb
+Description: python3-ifaddr version 0.2.0-r0 - Development files
+OE: python3-ifaddr
+HomePage: https://pypi.org/project/ifaddr/
+License: MIT
+Priority: optional
+
+Package: python3-ifaddr
+Version: 0.2.0-r0
+Depends: python3-core, python3-ctypes
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b7d6cd51f7f689a300004f0dcca2dfac
+SHA256sum: e4713d3ce5645019b016ae7573ec2e19e67d49cbfe2a2d06c709b18631d2c1e8
+Size: 18726
+Filename: python3-ifaddr_0.2.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-ifaddr_0.2.0.bb
+Description: python3-ifaddr version 0.2.0-r0
+OE: python3-ifaddr
+HomePage: https://pypi.org/project/ifaddr/
+License: MIT
 Priority: optional
 
 Package: python3-image
@@ -123800,16 +124114,16 @@ License: BSD-4-Clause
 Priority: optional
 
 Package: python3-regex-dbg
-Version: 2026.9.29-r0
+Version: 2026.11.9-r0
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1f3600a43c3cee394046845f19b08f5d
-SHA256sum: 3c7bf419f746edf4aad100375405293d85338292ed10602a192ee9dd0be5abb9
-Size: 793968
-Filename: python3-regex-dbg_2026.9.29-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-regex_2026.9.29.bb
+MD5Sum: aafffc32aa9737acef0679cc83577fe8
+SHA256sum: 53805c37b129051597e3e883e18d8dd34be6aa5e3e0f4106d3b9c1f5c2c3bf43
+Size: 791638
+Filename: python3-regex-dbg_2026.11.9-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-regex_2026.11.9.bb
 Description: Alternative regular expression module, to replace re. - Debugging files
 OE: python3-regex
 HomePage: https://bitbucket.org/mrabarnett/mrab-regex/src
@@ -123817,16 +124131,16 @@ License: Apache-2.0
 Priority: optional
 
 Package: python3-regex-dev
-Version: 2026.9.29-r0
-Recommends: glibc-dev, python3-core-dev, python3-dev, python3-regex (= 2026.9.29-r0), python3-stringold-dev
+Version: 2026.11.9-r0
+Recommends: glibc-dev, python3-core-dev, python3-dev, python3-regex (= 2026.11.9-r0), python3-stringold-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a2de2ae25f33fa42194e6dfbee2bd0c
-SHA256sum: 0eda11a675f63ad3fc231ce636d9b4ad82312af3fce2264757067202484b0819
+MD5Sum: 207fb2a9697d316a7bf706933fd43ee6
+SHA256sum: 277107a5d9fdcb15c4de3ecca042084147b73b8c61633a077cb6e94a49b5e4f0
 Size: 716
-Filename: python3-regex-dev_2026.9.29-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-regex_2026.9.29.bb
+Filename: python3-regex-dev_2026.11.9-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-regex_2026.11.9.bb
 Description: Alternative regular expression module, to replace re. - Development files
 OE: python3-regex
 HomePage: https://bitbucket.org/mrabarnett/mrab-regex/src
@@ -123834,20 +124148,67 @@ License: Apache-2.0
 Priority: optional
 
 Package: python3-regex
-Version: 2026.9.29-r0
+Version: 2026.11.9-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), python3-core, python3-stringold
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b765b43c17def0df732c85c4906c47ee
-SHA256sum: 513505ec1651a0e180afa46301c3dcfeb17398d8c7a23a1368aaac7f74047896
-Size: 489746
-Filename: python3-regex_2026.9.29-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-regex_2026.9.29.bb
+MD5Sum: 571c0ead69ef33ea8a28112753b1bdc6
+SHA256sum: 97fb361e6cbfb89a069764f5b1f9738093de2fa3ce8d7e6c0b00b86e95e9307d
+Size: 489758
+Filename: python3-regex_2026.11.9-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-regex_2026.11.9.bb
 Description: Alternative regular expression module, to replace re.
 OE: python3-regex
 HomePage: https://bitbucket.org/mrabarnett/mrab-regex/src
 License: Apache-2.0
+Priority: optional
+
+Package: python3-reportlab-dbg
+Version: 5.1.0-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8ce79550523b9a37fa64c2fa8a5f026c
+SHA256sum: 839167dfe7a65645e262a00376b2733a2fedf5f4773aa0dcb03875753ae3a321
+Size: 634
+Filename: python3-reportlab-dbg_5.1.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-reportlab_5.1.0.bb
+Description: The Reportlab Toolkit. - Debugging files
+OE: python3-reportlab
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-reportlab-dev
+Version: 5.1.0-r0
+Recommends: python3-core-dev, python3-dev, python3-reportlab (= 5.1.0-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cbb8a0cb474862bfecc54b1a09330dcb
+SHA256sum: a365e9ed5c18ef1b5c4778f0f73fb969b8edc76db76ef6c772e5afe1db17ba41
+Size: 678
+Filename: python3-reportlab-dev_5.1.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-reportlab_5.1.0.bb
+Description: The Reportlab Toolkit. - Development files
+OE: python3-reportlab
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-reportlab
+Version: 5.1.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0f45c663391c58fb89740dca2fc412e
+SHA256sum: 403c66ef569d695db8012275f801fd1b1a26ba5cd23f53c30448514f6324bdea
+Size: 3272068
+Filename: python3-reportlab_5.1.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-reportlab_5.1.0.bb
+Description: The Reportlab Toolkit.
+OE: python3-reportlab
+License: BSD-3-Clause
 Priority: optional
 
 Package: python3-requests-cache-dbg
@@ -124544,6 +124905,53 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
+Package: python3-shellingham-dbg
+Version: 1.5.4-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b7d14ff77693ef3c2f60ba7fbb1df2e
+SHA256sum: 3fc2c48a102b1e5ed5fa67b74a4beea7ab0c78c8724216bd951f48d051dbc591
+Size: 604
+Filename: python3-shellingham-dbg_1.5.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-shellingham_1.5.4.bb
+Description: Tool to Detect Surrounding Shell - Debugging files
+OE: python3-shellingham
+License: ISC
+Priority: optional
+
+Package: python3-shellingham-dev
+Version: 1.5.4-r0
+Recommends: python3-core-dev, python3-dev, python3-shellingham (= 1.5.4-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 07403691648cab9e71d8dbd48b4e1815
+SHA256sum: 3d5c68a53366b0e977a7163f75acd001b4633e22ad53422ecfe06c93d6d4263c
+Size: 648
+Filename: python3-shellingham-dev_1.5.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-shellingham_1.5.4.bb
+Description: Tool to Detect Surrounding Shell - Development files
+OE: python3-shellingham
+License: ISC
+Priority: optional
+
+Package: python3-shellingham
+Version: 1.5.4-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f5549fedc147145b51b0405af9fa0a71
+SHA256sum: bfc4d3af1ece76bb09e08d21cdb0b26dd9daaeeb960cee39514b4677f00ec8b0
+Size: 17322
+Filename: python3-shellingham_1.5.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-shellingham_1.5.4.bb
+Description: Tool to Detect Surrounding Shell
+OE: python3-shellingham
+License: ISC
+Priority: optional
+
 Package: python3-simple-justwatch-python-api-dbg
 Version: 0.19.0-r0
 Section: devel
@@ -125052,15 +125460,15 @@ License: Apache-2.0
 Priority: optional
 
 Package: python3-soupsieve-dbg
-Version: 4.0-r0
+Version: 4.0.1-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fbfe530c11620fec661c79f98ba84b57
-SHA256sum: 42acf8c4b20f372216875e2e808da6bd80e60769180fdfc3caf193ba259ebbc2
-Size: 638
-Filename: python3-soupsieve-dbg_4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-soupsieve_4.0.bb
+MD5Sum: de7bd3ff15484546c94bed422a60073e
+SHA256sum: 466ff9594fb87e65d0eee42c85ad5ec11122717afa1e034a8ba9f73f7e666339
+Size: 640
+Filename: python3-soupsieve-dbg_4.0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-soupsieve_4.0.1.bb
 Description: CSS selector library for python-beautifulsoup4 - Debugging files
 OE: python3-soupsieve
 HomePage: https://github.com/facelessuser/soupsieve
@@ -125068,16 +125476,16 @@ License: MIT
 Priority: optional
 
 Package: python3-soupsieve-dev
-Version: 4.0-r0
-Recommends: python3-beautifulsoup4-dev, python3-core-dev, python3-datetime-dev, python3-dev, python3-soupsieve (= 4.0-r0)
+Version: 4.0.1-r0
+Recommends: python3-beautifulsoup4-dev, python3-core-dev, python3-datetime-dev, python3-dev, python3-soupsieve (= 4.0.1-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3653fa89579ace84159f8e23e45744c4
-SHA256sum: 19fbaeb02887da696e793e4f196601316898bcadbc1edba01a1efd45e40a4e1b
-Size: 692
-Filename: python3-soupsieve-dev_4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-soupsieve_4.0.bb
+MD5Sum: 62ff415756fb6ac453463b904d611a8c
+SHA256sum: 805958c57a4528ba3bcc7963297e1749595ce90cb446f03156f82bd647d1d667
+Size: 694
+Filename: python3-soupsieve-dev_4.0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-soupsieve_4.0.1.bb
 Description: CSS selector library for python-beautifulsoup4 - Development files
 OE: python3-soupsieve
 HomePage: https://github.com/facelessuser/soupsieve
@@ -125085,15 +125493,15 @@ License: MIT
 Priority: optional
 
 Package: python3-soupsieve-doc
-Version: 4.0-r0
+Version: 4.0.1-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e266ddbcda41402c9a8c480339840506
-SHA256sum: 0fb464c551ffa0bc395e71e2ffd621989177734393118d1dbae4d2122290bec2
-Size: 3396
-Filename: python3-soupsieve-doc_4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-soupsieve_4.0.bb
+MD5Sum: b92762bb3ad7f03c45f87fc40530008b
+SHA256sum: d5f37f710cd6da1f2dbb79c26563b362c1497eec8f8e38f894a22b1cf14e6067
+Size: 3400
+Filename: python3-soupsieve-doc_4.0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-soupsieve_4.0.1.bb
 Description: CSS selector library for python-beautifulsoup4 - Documentation files
 OE: python3-soupsieve
 HomePage: https://github.com/facelessuser/soupsieve
@@ -125101,16 +125509,16 @@ License: MIT
 Priority: optional
 
 Package: python3-soupsieve
-Version: 4.0-r0
+Version: 4.0.1-r0
 Depends: python3-beautifulsoup4, python3-core, python3-datetime
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e5511f07fd05df6fe58e4ff96a2dafe8
-SHA256sum: b2056bdf366308ba075c30c99f73bdc0e726ef7c0d2291e79482b836d5ae5cd1
-Size: 134412
-Filename: python3-soupsieve_4.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-soupsieve_4.0.bb
+MD5Sum: dbd49287eb1860c79e86c4f08fbae75b
+SHA256sum: 392940f3af6e5963c4492f55c645386eb4525d418545e999e806f0f4d90a5d2e
+Size: 136108
+Filename: python3-soupsieve_4.0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-soupsieve_4.0.1.bb
 Description: CSS selector library for python-beautifulsoup4
 OE: python3-soupsieve
 HomePage: https://github.com/facelessuser/soupsieve
@@ -125166,6 +125574,53 @@ Description: Common string operations
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: python3-svglib-dbg
+Version: 2.4.0-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8c4b43fd9e1a32ea72824207932a91e8
+SHA256sum: f405fd871eaa1105db57e51cd3c319f51a86d9a84d94b1cd2bae5c524f01aeda
+Size: 690
+Filename: python3-svglib-dbg_2.4.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-svglib_2.4.0.bb
+Description: A pure-Python library for reading and converting SVG. - Debugging files
+OE: python3-svglib
+License: LGPL-3.0-or-later
+Priority: optional
+
+Package: python3-svglib-dev
+Version: 2.4.0-r0
+Recommends: python3-core-dev, python3-cssselect2-dev, python3-dev, python3-html-dev, python3-lxml-dev, python3-pillow-dev, python3-reportlab-dev, python3-svglib (= 2.4.0-r0), python3-webencodings-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 02af978f82432ecde023f900a9125779
+SHA256sum: eca488ba42c8939fb707392e5cb61d24ca5d80e1bd5da2a9bbfbdc8a89e4d390
+Size: 774
+Filename: python3-svglib-dev_2.4.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-svglib_2.4.0.bb
+Description: A pure-Python library for reading and converting SVG. - Development files
+OE: python3-svglib
+License: LGPL-3.0-or-later
+Priority: optional
+
+Package: python3-svglib
+Version: 2.4.0-r0
+Depends: python3-core, python3-cssselect2, python3-html, python3-lxml, python3-pillow, python3-reportlab, python3-webencodings
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ccdd8125b3f951e8802e5a11407da039
+SHA256sum: 8f755e0cf7d1cc2d13b49f20966b7748a3ba261d60b8fdf2555303c63ca8133d
+Size: 137250
+Filename: python3-svglib_2.4.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-svglib_2.4.0.bb
+Description: A pure-Python library for reading and converting SVG.
+OE: python3-svglib
+License: LGPL-3.0-or-later
 Priority: optional
 
 Package: python3-syslog
@@ -125266,6 +125721,56 @@ Description: The tdb library
 OE: libtdb
 HomePage: https://tdb.samba.org/
 License: GPL-3.0-or-later AND LGPL-3.0-or-later
+Priority: optional
+
+Package: python3-telnetlib3-dbg
+Version: 5.0.2-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2be3dac75535d6243a6dc342b8b07327
+SHA256sum: c983f0532ec4ca7d0fe0b1153aaa256f1196ab31eff1beb677d3408bd112f0eb
+Size: 640
+Filename: python3-telnetlib3-dbg_5.0.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-telnetlib3_5.0.2.bb
+Description: Telnet server and client library based on asyncio - Debugging files
+OE: python3-telnetlib3
+HomePage: https://github.com/jquast/telnetlib3
+License: ISC
+Priority: optional
+
+Package: python3-telnetlib3-dev
+Version: 5.0.2-r0
+Recommends: python3-asyncio-dev, python3-core-dev, python3-dev, python3-telnetlib3 (= 5.0.2-r0), python3-wcwidth-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 626e691de49160109a257355a7406eb4
+SHA256sum: 0ab3903e7d3bd5c44b89cb516605a143aa05b458eb90e8afaa1fcdd0b52f1390
+Size: 696
+Filename: python3-telnetlib3-dev_5.0.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-telnetlib3_5.0.2.bb
+Description: Telnet server and client library based on asyncio - Development files
+OE: python3-telnetlib3
+HomePage: https://github.com/jquast/telnetlib3
+License: ISC
+Priority: optional
+
+Package: python3-telnetlib3
+Version: 5.0.2-r0
+Depends: python3-asyncio, python3-core, python3-wcwidth
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9ded2099a405ccca225239e4417f7035
+SHA256sum: b6dd61b51904aa0edfa57bd2a9e443fdb7788118f00de415bb5e84b6301c37ee
+Size: 1066794
+Filename: python3-telnetlib3_5.0.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-telnetlib3_5.0.2.bb
+Description: Telnet server and client library based on asyncio
+OE: python3-telnetlib3
+HomePage: https://github.com/jquast/telnetlib3
+License: ISC
 Priority: optional
 
 Package: python3-tempora-dbg
@@ -125598,6 +126103,53 @@ Description: Timeout decorator
 OE: python3-timeout-decorator
 HomePage: https://github.com/pnpnpn/timeout-decorator
 License: LGPL-3.0-only
+Priority: optional
+
+Package: python3-tinycss2-dbg
+Version: 1.5.1-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7b15a2d88448cc5fe320fc86243ca57
+SHA256sum: ef0d5ffe27895405a8e041f0f02c77afa29acb2c70b68412cc80d283f50d0908
+Size: 698
+Filename: python3-tinycss2-dbg_1.5.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-tinycss2_1.5.1.bb
+Description: A tiny CSS parser - Debugging files
+OE: python3-tinycss2
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-tinycss2-dev
+Version: 1.5.1-r0
+Recommends: python3-core-dev, python3-dev, python3-tinycss2 (= 1.5.1-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a0ab38757f6b545fa5193eb4cda2c043
+SHA256sum: 57adc78ce10f677ec1f4ae9ba22c65854f088bcc5d067e7c9070fea11d29700a
+Size: 742
+Filename: python3-tinycss2-dev_1.5.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-tinycss2_1.5.1.bb
+Description: A tiny CSS parser - Development files
+OE: python3-tinycss2
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-tinycss2
+Version: 1.5.1-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 94a7689e583d8b131b39ea0b46640f44
+SHA256sum: 9b87d181da08200a78aeb5b711dc2a49f73b43d18a898583529bba9886ca00f0
+Size: 66264
+Filename: python3-tinycss2_1.5.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-tinycss2_1.5.1.bb
+Description: A tiny CSS parser
+OE: python3-tinycss2
+License: BSD-3-Clause
 Priority: optional
 
 Package: python3-tinytag-dbg
@@ -126519,6 +127071,56 @@ Source: python3-twisted_26.10.0.bb
 Description: python3-twisted version 26.10.0-r0
 OE: python3-twisted
 HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-typer-dbg
+Version: 0.28.0-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9ddb92e98947d27ed0efa8ea1e762e9
+SHA256sum: c5e0365338d5438c4477128dac9ef88c8afd854f3f70e66f507fe1a9bc507de9
+Size: 758
+Filename: python3-typer-dbg_0.28.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-typer_0.28.0.bb
+Description: Typer, build great CLIs. Easy to code. Based on Python type hints. - Debugging files
+OE: python3-typer
+HomePage: https://github.com/fastapi/typer
+License: MIT
+Priority: optional
+
+Package: python3-typer-dev
+Version: 0.28.0-r0
+Recommends: python3-annotated-doc-dev, python3-core-dev, python3-datetime-dev, python3-dev, python3-difflib-dev, python3-io-dev, python3-math-dev, python3-rich-dev, python3-shell-dev, python3-shellingham-dev, python3-threading-dev, python3-typer (= 0.28.0-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 641c4a5bfd705d6a556061d55bdda2f9
+SHA256sum: 325a85d87ebf5467349fc1005f7bb816bda2cecc417084246871c8279a180247
+Size: 852
+Filename: python3-typer-dev_0.28.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-typer_0.28.0.bb
+Description: Typer, build great CLIs. Easy to code. Based on Python type hints. - Development files
+OE: python3-typer
+HomePage: https://github.com/fastapi/typer
+License: MIT
+Priority: optional
+
+Package: python3-typer
+Version: 0.28.0-r0
+Depends: python3-annotated-doc, python3-core, python3-datetime, python3-difflib, python3-io, python3-math, python3-rich, python3-shell, python3-shellingham, python3-threading
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6351f54c9bd61c4ac07464c3586ab1fb
+SHA256sum: 2c7a44665b71f03e1eeaaac4e5685f77e225ae5b8e268da2f1fcad10e82bb396
+Size: 330532
+Filename: python3-typer_0.28.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-typer_0.28.0.bb
+Description: Typer, build great CLIs. Easy to code. Based on Python type hints.
+OE: python3-typer
+HomePage: https://github.com/fastapi/typer
 License: MIT
 Priority: optional
 
@@ -127827,6 +128429,57 @@ Description: Basic inter-process locks
 OE: python3-zc.lockfile
 HomePage: https://github.com/zopefoundation/zc.lockfile
 License: LGPL-3.0-only
+Priority: optional
+
+Package: python3-zeroconf-dbg
+Version: 0.154.0-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6208c926646274c531527eff3e02c5fb
+SHA256sum: 883683216b55859ade0680597cdcf857f7317c6e53ab83438849f71944815d8d
+Size: 105540
+Filename: python3-zeroconf-dbg_0.154.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-zeroconf_0.154.0.bb
+Description: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible) - Debugging files
+OE: python3-zeroconf
+HomePage: https://github.com/jstasiak/python-zeroconf
+License: LGPL-2.1-or-later
+Priority: optional
+
+Package: python3-zeroconf-dev
+Version: 0.154.0-r0
+Recommends: glibc-dev, python3-async-timeout-dev, python3-core-dev, python3-dev, python3-ifaddr-dev, python3-zeroconf (= 0.154.0-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6751f5afa22c9ffcbc2acc7f3078e3a8
+SHA256sum: 5fdd70f6b9620535aa6d437c68ea1d4bc73e9eb956e913a207692ccc5c414794
+Size: 750
+Filename: python3-zeroconf-dev_0.154.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-zeroconf_0.154.0.bb
+Description: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible) - Development files
+OE: python3-zeroconf
+HomePage: https://github.com/jstasiak/python-zeroconf
+License: LGPL-2.1-or-later
+Priority: optional
+
+Package: python3-zeroconf
+Version: 0.154.0-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-async-timeout, python3-core, python3-ifaddr (>= 0.1.7)
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 58d744b43b44c74a3fb94a41b6f46117
+SHA256sum: f791f72a6840f2e259f0ea22dab0a236b92f327797fbe1ea19b9dc2d1fab498e
+Size: 1228658
+Filename: python3-zeroconf_0.154.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-zeroconf_0.154.0.bb
+Description: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
+OE: python3-zeroconf
+HomePage: https://github.com/jstasiak/python-zeroconf
+License: LGPL-2.1-or-later
 Priority: optional
 
 Package: python3-zipapp
