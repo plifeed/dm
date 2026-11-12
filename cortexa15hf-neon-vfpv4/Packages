@@ -54111,15 +54111,15 @@ License: GPL-2.0-or-later AND LGPL-2.1-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers-dbg
-Version: 22.3.23+gitr0+e7418d4e84_a4a4172467-r1
+Version: 22.3.24+gitr0+4bbfbc67f9_a4a4172467-r1
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, pugixml-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 59a8a7ce1f5717173185389d79c26c29
-SHA256sum: a5f691a3e37a8ffe79e4cb69ae7866c13a9b12fd9d9356da86f6a588800648db
-Size: 17699400
-Filename: kodi-addon-inputstream-adaptive-piers-dbg_22.3.23+gitr0+e7418d4e84_a4a4172467-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8415a74b303a8a3da1526c1654a19419
+SHA256sum: a89868491b845e154631c04d1dd5d6373726df5065af972dd9466bc1ad25161b
+Size: 17704854
+Filename: kodi-addon-inputstream-adaptive-piers-dbg_22.3.24+gitr0+4bbfbc67f9_a4a4172467-r1_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: kodi inputstream addon for several manifest types - Debugging files
 OE: kodi-addon-inputstream-adaptive-piers
@@ -54127,15 +54127,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers-dev
-Version: 22.3.23+gitr0+e7418d4e84_a4a4172467-r1
-Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-adaptive-piers (= 22.3.23+gitr0+e7418d4e84_a4a4172467-r1), kodi-platform-dev, ldd-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, nlohmann-json-dev, nss-dev, p8platform-dev, pugixml-dev
+Version: 22.3.24+gitr0+4bbfbc67f9_a4a4172467-r1
+Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-adaptive-piers (= 22.3.24+gitr0+4bbfbc67f9_a4a4172467-r1), kodi-platform-dev, ldd-dev, libgcc-dev, libkodiplatform-dev, libstdc++-dev, nlohmann-json-dev, nss-dev, p8platform-dev, pugixml-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f84cc33c7c7d8a409a70da25ec0529d1
-SHA256sum: 0139841f76705b7aa8388d1783227f6b6f312c34ca97d5a23b3582ec757ca4b4
+MD5Sum: 1e3aaee1a0e140152bc00476c2091b20
+SHA256sum: 6f065ec4b6821b507000cd652e9f9c8a27b62004ccaa6f9a686521e06a009d83
 Size: 756
-Filename: kodi-addon-inputstream-adaptive-piers-dev_22.3.23+gitr0+e7418d4e84_a4a4172467-r1_cortexa15hf-neon-vfpv4.ipk
+Filename: kodi-addon-inputstream-adaptive-piers-dev_22.3.24+gitr0+4bbfbc67f9_a4a4172467-r1_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: kodi inputstream addon for several manifest types - Development files
 OE: kodi-addon-inputstream-adaptive-piers
@@ -54143,16 +54143,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: kodi-addon-inputstream-adaptive-piers
-Version: 22.3.23+gitr0+e7418d4e84_a4a4172467-r1
+Version: 22.3.24+gitr0+4bbfbc67f9_a4a4172467-r1
 Depends: ldd, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, libpugixml1 (>= 1.16), libstdc++6 (>= 16.2.0)
 Recommends: kernel-module-ext2
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a986b460dabfc367f37c1e419d523cf9
-SHA256sum: bd23a0753a07069809ecdb3c3944a83bb10c8b661e379872feab78021d08585c
-Size: 60122198
-Filename: kodi-addon-inputstream-adaptive-piers_22.3.23+gitr0+e7418d4e84_a4a4172467-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 4dc75822670ad6227c0abd0353759a89
+SHA256sum: 309797d47164da563def48d3369631e93503005ba6139aa7565bf48b7f1fa5d0
+Size: 60133008
+Filename: kodi-addon-inputstream-adaptive-piers_22.3.24+gitr0+4bbfbc67f9_a4a4172467-r1_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: kodi inputstream addon for several manifest types
 OE: kodi-addon-inputstream-adaptive-piers
@@ -54165,8 +54165,8 @@ Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, rtm
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c91305a49c95263fde7236f504e7b4b
-SHA256sum: 981f1f090d8a6ed1427fdb06c4bd5bde05c1f97e25121fc5335ac6441769c562
+MD5Sum: 294b53d1230e674ed690817c32d5c311
+SHA256sum: 2e9514eee503a796e48651a80d64bed69a8704587d6fd52bf31504f70b0018a3
 Size: 360142
 Filename: kodi-addon-inputstream-rtmp-piers-dbg_22.1.3+gitr0+de59f7862f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-inputstream-rtmp-piers_git.bb
@@ -54197,9 +54197,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libgcc1 (>= 16.
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b954b37e07a78e1c0468d24a6b19e16e
-SHA256sum: 24df6d6655ffc519ffc8a36ea50bab2ee392a3e02c9ec4573dce0cfdbeefc942
-Size: 578252
+MD5Sum: 388be8f0ec44576b30a51dcde784cbdc
+SHA256sum: 034eb1efb44f93166a48271c884f5854163b33b61a25ef2e534689c9c412991a
+Size: 578372
 Filename: kodi-addon-inputstream-rtmp-piers_22.1.3+gitr0+de59f7862f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-inputstream-rtmp-piers_git.bb
 Description: kodi inputstream addon for rtmp
@@ -54213,9 +54213,9 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, libvc5dream-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 764f8099b85255ed1db678e0a96c77bc
-SHA256sum: 9d1e036664562d7a66f7c035633ae6463e6560f7a672c33419c2433b2bf91b90
-Size: 572268
+MD5Sum: e61a49979062fb13d0dc97225b58f92c
+SHA256sum: 64f712fa8689f14dbbfb9975ba2579f77d9a411e4764ca2d118f60d0da1817b7
+Size: 572270
 Filename: kodi-addon-visualization-fishbmc-dbg_22.1.2+gitr0+ad159c5ad4-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-fishbmc_git.bb
 Description: Kodi visualization.fishbmc music visualization - Debugging files
@@ -54247,9 +54247,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f9365c317ce0cf6666aa12af3d20d585
-SHA256sum: f86195b53b9851a8199d60646fb2f4f9b78c1a4640a07d6e22c672c484fab7dd
-Size: 1402974
+MD5Sum: 6b9797e7dddc9ebbe45d5ab8aebb326a
+SHA256sum: 6f9b6f264278138b7ea9218d1e30a2c05ef2bf58769ddd230335a086a3ece4b6
+Size: 1402988
 Filename: kodi-addon-visualization-fishbmc_22.1.2+gitr0+ad159c5ad4-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-fishbmc_git.bb
 Description: Kodi visualization.fishbmc music visualization
@@ -54264,8 +54264,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, libvc5dream-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fbe178c8aa2eb2fba7c8445e8dedf071
-SHA256sum: 7d6513d3b7ac5d95d6584f3e9f1897c0d1e077b036953bee1494ced72df08aa6
+MD5Sum: c7e302479e9c4873c0aaf69ceccd6efb
+SHA256sum: b097f41f42d73ba6981d61121823fa26adbeb5df371ccfa46c55ba37560f782c
 Size: 537304
 Filename: kodi-addon-visualization-matrix-dbg_22.1.1+gitr0+8320deb099-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-matrix_git.bb
@@ -54298,9 +54298,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddf052ee1ba15d470247dec254ddf644
-SHA256sum: 13e9a159d3a116d8b9d4500757a513a559ba62b50e18457dafa26de2c8f20e47
-Size: 2119802
+MD5Sum: 0a9de54f9637d3d5fb554ad6b7d5f64a
+SHA256sum: c7c842b201f34cd23eea42183d28a178c7c6407998a4783276e2d4aebfdf9775
+Size: 2119732
 Filename: kodi-addon-visualization-matrix_22.1.1+gitr0+8320deb099-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-matrix_git.bb
 Description: Kodi visualization.matrix music visualization
@@ -54349,9 +54349,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ae6d6374e97aa2c97c854bd495fdbad0
-SHA256sum: 5f577760247e02d89c343e46e545763c059c2c4cced87489c9b60041deea07b9
-Size: 1344332
+MD5Sum: f688f4cf3b933f7a361912c85120d030
+SHA256sum: 053ce99befa5ffc223e46955ce9a0d0ac4290bb60991134ebf9c4359eb30ff9a
+Size: 1344316
 Filename: kodi-addon-visualization-pictureit_22.1.1+gitr0+407b20c1ea-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-pictureit_git.bb
 Description: Kodi visualization.pictureit music visualization
@@ -54366,8 +54366,8 @@ Recommends: glibc-dbg, jsoncpp-dbg, libgcc-dbg, libstdc++-dbg, libvc5dream-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 99ea6b0a63897c5df4f14cd338faf761
-SHA256sum: e82cc7f7784735e1214fe209535377210114d8bfd51898e231a2b836bc28c17c
+MD5Sum: 7c743ef38b528d0e0cb6d0c09007915f
+SHA256sum: e376f176ba90e7d186e99b52a09536e8f8f4572fc29e372228e401e44af6d427
 Size: 780102
 Filename: kodi-addon-visualization-shadertoy-dbg_22.1.1+gitr0+034413fa3c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-shadertoy_git.bb
@@ -54400,9 +54400,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c943f8c288620964b7a44750410c404
-SHA256sum: 20c2f7e0cc000e1cc57cc0db350b88659bd6ef0b973103b18fe89f9a56af59b3
-Size: 26622622
+MD5Sum: 30c9550204a82959a64bbb531a2aaaf0
+SHA256sum: 330a28117ee43ac1f071e096fc1feab3b28151e428e95e9ed9bf810909541cbf
+Size: 26620442
 Filename: kodi-addon-visualization-shadertoy_22.1.1+gitr0+034413fa3c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-shadertoy_git.bb
 Description: Kodi visualization.shadertoy music visualization
@@ -54451,9 +54451,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ad4c8281b983b6a20fd480144643cdb0
-SHA256sum: 71de1294480b122b18e7d6dfdea6482c0ff6b159e21716d76d4f50a890686202
-Size: 1421300
+MD5Sum: dae18076fafec2b4af83aa4c6655a0b5
+SHA256sum: f6e404e8454e4e44d6082ecbb8c578a9ba2b619a9bf13823f8b0f7790b4fc21f
+Size: 1421226
 Filename: kodi-addon-visualization-waveform_22.1.1+gitr0+8e62fef394-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-waveform_git.bb
 Description: Kodi visualization.waveform music visualization

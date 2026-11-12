@@ -1470,53 +1470,6 @@ HomePage: https://github.com/VicTuS59/GT-IPTV-Player-Pro
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-extensions-hbbtvplayer-dbg
-Version: 1.0-r0
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: af203bcc797287bb7cbf4611df6a83a8
-SHA256sum: fb2f6a20400a360b3fba4c1d6bdc6682699e041867de78ae53df79fc91077c53
-Size: 644
-Filename: enigma2-plugin-extensions-hbbtvplayer-dbg_1.0-r0_all.ipk
-Source: enigma2-plugin-extensions-hbbtvplayer.bb
-Description: HbbTV Player for Enigma2 - Debugging files
-OE: enigma2-plugin-extensions-hbbtvplayer
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-hbbtvplayer-dev
-Version: 1.0-r0
-Recommends: enigma2-plugin-extensions-hbbtvplayer (= 1.0-r0)
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 29b43fa34d2dddfbdee2745ff1ac066d
-SHA256sum: 76cd76c99e27fa2d8c488727836a3f0c58de48888c18120bc9cf81c8bb6bbc6c
-Size: 676
-Filename: enigma2-plugin-extensions-hbbtvplayer-dev_1.0-r0_all.ipk
-Source: enigma2-plugin-extensions-hbbtvplayer.bb
-Description: HbbTV Player for Enigma2 - Development files
-OE: enigma2-plugin-extensions-hbbtvplayer
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-hbbtvplayer
-Version: 1.0-r0
-Recommends: enigma2, enigma2-plugin-systemplugins-hbbtv2
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4ecbcc169ec756d4a6b44d785a952489
-SHA256sum: d7d51469b87f7cafade16457ea674fe987f161566ba2d9d687dbafc9c226da4f
-Size: 36276
-Filename: enigma2-plugin-extensions-hbbtvplayer_1.0-r0_all.ipk
-Source: enigma2-plugin-extensions-hbbtvplayer.bb
-Description: HbbTV Player for Enigma2
-OE: enigma2-plugin-extensions-hbbtvplayer
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: enigma2-plugin-extensions-iptv-org-playlists-dbg
 Version: 1.0+git10+4d0456a0+4d0456a218-r0
 Section: devel
@@ -2236,9 +2189,9 @@ Version: 1.7-git146+b7a1e1c0+b7a1e1c8df-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: f1d0a41a23aa25f09b264f24582b3f88
-SHA256sum: fd64bb23590d715ac256f9ed3a53e913ab9ecc6bffb8318a047f47c8ee16a440
-Size: 596
+MD5Sum: a1c412db1e674283e5dfe6ad04e7ef43
+SHA256sum: fb0a948410555b97e3b5c1674601a296a93c0d76139882920965ca234cf04e0f
+Size: 594
 Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.7-git146+b7a1e1c0+b7a1e1c8df-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: StalkerPortalConverter Enigma2 Plugin - Debugging files
@@ -2252,8 +2205,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-stalkerportalconverter (= 1.7
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: aa6a84426b6823a603a788e222a4a1f0
-SHA256sum: f516b3ac1f2c2e412730fb60eeac5e561fb08861010642becfa542585fb1984a
+MD5Sum: 056f8740a0472196b05204a72abd0ddc
+SHA256sum: f837a5d08315e65b4de2ce772e8d0b57ecf63ed55f06f7cdb2ed37693c50e4e7
 Size: 650
 Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.7-git146+b7a1e1c0+b7a1e1c8df-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
@@ -2268,9 +2221,9 @@ Depends: enigma2, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 3451d2d121b5c25a9d3a72c25e83feac
-SHA256sum: 519824fa8c2a8362ad1a74ff16667dcaee937a44baa170efb6cee7a4007a409f
-Size: 770238
+MD5Sum: cca4eecb24e2b9d49ae7906b7df7f8b3
+SHA256sum: f8c00a4a0b53f84ebb9683d9adb3b4593290849534bd7de5161f0018c8a94f61
+Size: 770206
 Filename: enigma2-plugin-extensions-stalkerportalconverter_1.7-git146+b7a1e1c0+b7a1e1c8df-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: StalkerPortalConverter Enigma2 Plugin
