@@ -90,6 +90,22 @@ OE: enigma2-plugin-extensions-fysinema
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-hbbtvplayer
+Version: 1.0
+Recommends: enigma2, enigma2-plugin-systemplugins-hbbtv2
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d89e21e8aa896b49c9ab52404adfdc2f
+SHA256sum: 8e4a10a96044cb6a2be99b665054c642a08c2d3c16e1aa6bc6a5bc5151818216
+Size: 37238
+Filename: enigma2-plugin-extensions-hbbtvplayer_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-hbbtvplayer.bb
+Description: HbbTV URL Player for Enigma2
+OE: enigma2-plugin-extensions-hbbtvplayer
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-hdfradio
 Version: 2.28.1
 Depends: gstplayer, libc6 (>= 2.44), python3-beautifulsoup4, python3-core, python3-json, python3-mutagen, python3-pillow, python3-requests, python3-sqlite3
