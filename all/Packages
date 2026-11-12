@@ -2231,53 +2231,6 @@ OE: enigma2-plugin-extensions-simplezoom-panel
 License: GPL-2.0-or-later
 Priority: required
 
-Package: enigma2-plugin-extensions-skyline-webcams-dbg
-Version: 1.0.3-git50+348d0880+348d0886ff-r0
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 9199b6a3ba532817ff44171aa9f12880
-SHA256sum: eababe55709c7de13a3c775dadd36e1ee62872104a15f03804e4134697588b8e
-Size: 592
-Filename: enigma2-plugin-extensions-skyline-webcams-dbg_1.0.3-git50+348d0880+348d0886ff-r0_all.ipk
-Source: enigma2-plugin-extensions-skyline-webcams.bb
-Description: SkyLine Webcams Enigma2 Plugin - Debugging files
-OE: enigma2-plugin-extensions-skyline-webcams
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-skyline-webcams-dev
-Version: 1.0.3-git50+348d0880+348d0886ff-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-skyline-webcams (= 1.0.3-git50+348d0880+348d0886ff-r0), ffmpeg-dev, python3-beautifulsoup4-dev, python3-requests-dev
-Section: devel
-Architecture: all
-Maintainer: Lululla
-MD5Sum: e1ea458c0acb76f64e6675943ea7bea7
-SHA256sum: a760c369d348767d6cdd6c6dce925a88881b318e31f0fe5d0194236a0ae00be1
-Size: 662
-Filename: enigma2-plugin-extensions-skyline-webcams-dev_1.0.3-git50+348d0880+348d0886ff-r0_all.ipk
-Source: enigma2-plugin-extensions-skyline-webcams.bb
-Description: SkyLine Webcams Enigma2 Plugin - Development files
-OE: enigma2-plugin-extensions-skyline-webcams
-License: GPL-2.0-or-later
-Priority: required
-
-Package: enigma2-plugin-extensions-skyline-webcams
-Version: 1.0.3-git50+348d0880+348d0886ff-r0
-Depends: enigma2, ffmpeg, python3-beautifulsoup4, python3-requests
-Section: base
-Architecture: all
-Maintainer: Lululla
-MD5Sum: 1c3eb61bfc625a7bb633eb14a39d5434
-SHA256sum: 506c622a80754f6e3303d274428849a0a738bda3447fdafd44ebba3c43c121b9
-Size: 179008
-Filename: enigma2-plugin-extensions-skyline-webcams_1.0.3-git50+348d0880+348d0886ff-r0_all.ipk
-Source: enigma2-plugin-extensions-skyline-webcams.bb
-Description: SkyLine Webcams Enigma2 Plugin
-OE: enigma2-plugin-extensions-skyline-webcams
-License: GPL-2.0-or-later
-Priority: required
-
 Package: enigma2-plugin-extensions-stalkerportalconverter-dbg
 Version: 1.7-git146+b7a1e1c0+b7a1e1c8df-r0
 Section: devel
