@@ -907,14 +907,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles-dbg
-Version: git18+5efc04f0+5efc04f290-r0
+Version: git19+e9812a20+e9812a2c71-r0
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: be57033727c62e0d7ce389051d75dc9e
-SHA256sum: 4596ddfa08473b0902663e75d4f6c7f9b76af446bf352aa6783b1c5daf00dfeb
+MD5Sum: 4422544eb71dd9b31f4f0adccc1a9449
+SHA256sum: 78079bab2ff122327ee78350a668fbc69aad1e620c1880e5b01d7e6a0e018793
 Size: 574
-Filename: enigma2-plugin-extensions-ciefpxfiles-dbg_git18+5efc04f0+5efc04f290-r0_all.ipk
+Filename: enigma2-plugin-extensions-ciefpxfiles-dbg_git19+e9812a20+e9812a2c71-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -922,15 +922,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles-dev
-Version: git18+5efc04f0+5efc04f290-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpxfiles (= git18+5efc04f0+5efc04f290-r0), python3-json-dev, python3-requests-dev, python3-shell-dev, python3-six-dev
+Version: git19+e9812a20+e9812a2c71-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpxfiles (= git19+e9812a20+e9812a2c71-r0), python3-json-dev, python3-requests-dev, python3-shell-dev, python3-six-dev
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 91f69857c8fdf66b49e2511f84eba991
-SHA256sum: 541a071da881949b7538ce7546d2110c992f2187ecdb722a228ee1a1229a3b30
+MD5Sum: 1f392502a0c04d36282ef8e2b3fd6c12
+SHA256sum: 5110107d469ab7e1507ecfde84f2fa666700d6a3f203d11e128b92558d4abf1c
 Size: 648
-Filename: enigma2-plugin-extensions-ciefpxfiles-dev_git18+5efc04f0+5efc04f290-r0_all.ipk
+Filename: enigma2-plugin-extensions-ciefpxfiles-dev_git19+e9812a20+e9812a2c71-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -938,15 +938,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles
-Version: git18+5efc04f0+5efc04f290-r0
+Version: git19+e9812a20+e9812a2c71-r0
 Depends: enigma2, python3-json, python3-requests, python3-shell, python3-six
 Section: base
 Architecture: all
 Maintainer: ciefp
-MD5Sum: c0e4f7819ad57f1ec0747e7cae1decc6
-SHA256sum: 6408971acaf164ac1230d05571c43ad34983a97fe39ccd09eb27d64cecb969c1
-Size: 1729578
-Filename: enigma2-plugin-extensions-ciefpxfiles_git18+5efc04f0+5efc04f290-r0_all.ipk
+MD5Sum: 9a7e6345cefc7fdff2e5cfcbca3e54ae
+SHA256sum: 1d30a8ec0d53575760ecaa1d47c3c6c8b9d0be7717e77e5cef89fe7ef6453a9d
+Size: 2560232
+Filename: enigma2-plugin-extensions-ciefpxfiles_git19+e9812a20+e9812a2c71-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -1680,14 +1680,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 3.0.7-git521+03cdc4e0+03cdc4e7a4-r0
+Version: 3.0.7-git533+ad9a6ef0+ad9a6ef878-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: bf16f0a4d31b4c5dd0444ab10786c2bc
-SHA256sum: b7ef5ceda3d973d6db8831f4d076827dbce6822342f30690d7c0acd765e2b27f
-Size: 582
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.7-git521+03cdc4e0+03cdc4e7a4-r0_all.ipk
+MD5Sum: 1bfa9488df37036eeab2b312d2eae9ec
+SHA256sum: 42ca0edf1c3a3f879d9c258448793027520748ba9f18382e0439c08b43ed9b0d
+Size: 584
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.7-git533+ad9a6ef0+ad9a6ef878-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1695,15 +1695,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 3.0.7-git521+03cdc4e0+03cdc4e7a4-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.7-git521+03cdc4e0+03cdc4e7a4-r0)
+Version: 3.0.7-git533+ad9a6ef0+ad9a6ef878-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.7-git533+ad9a6ef0+ad9a6ef878-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 885281f391f37bfa5c13f74d2a914ae8
-SHA256sum: 1fa1e17b7227e8840cb8c2faf5ba155afe21b7520b064669cb5abc6fa58a1e83
-Size: 618
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.7-git521+03cdc4e0+03cdc4e7a4-r0_all.ipk
+MD5Sum: c0d13453854d069893317b50e679e74f
+SHA256sum: b987f114fb5f9825c7cd6a67156b09cd777f3f1bf0db48594ce45054ea0ea4f4
+Size: 620
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.7-git533+ad9a6ef0+ad9a6ef878-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1711,14 +1711,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 3.0.7-git521+03cdc4e0+03cdc4e7a4-r0
+Version: 3.0.7-git533+ad9a6ef0+ad9a6ef878-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: eaffa9a8dea6a5627fcd5df116bbefba
-SHA256sum: c4d1442ebd48157279543e359156955d57a39e678ee47193b7a8f33116b93f0b
-Size: 14877706
-Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.7-git521+03cdc4e0+03cdc4e7a4-r0_all.ipk
+MD5Sum: 5ba6c65428ba92cb57d9d91ebbcb5930
+SHA256sum: a90d43c2024fc40de34de9daee09c54875f2020925d5350f8ad987175e8c02fc
+Size: 15031186
+Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.7-git533+ad9a6ef0+ad9a6ef878-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -6231,14 +6231,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit-dbg
-Version: 0.3.11-git5+51b290a0+51b290a465-r0
+Version: 0.3.12-git6+24ab7950+24ab79512e-r0
 Section: devel
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 872fbf7ba69a6e8dc5ebc6ca4a29071e
-SHA256sum: 5db92595d5d91fe884dfa83fd920c46b1ac72afd7e0db8ced10abee22161b7e0
+MD5Sum: 2531d50f72492a061a08a103ffdeb203
+SHA256sum: 2c806dc81de4696ed6719e77a7413eabc9749be39729388db8ad3e468f212486
 Size: 592
-Filename: enigma2-plugin-systemplugins-streamproxycockpit-dbg_0.3.11-git5+51b290a0+51b290a465-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-streamproxycockpit-dbg_0.3.12-git6+24ab7950+24ab79512e-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-systemplugins-streamproxycockpit
@@ -6246,15 +6246,15 @@ License: GPL-3.0-only
 Priority: required
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit-dev
-Version: 0.3.11-git5+51b290a0+51b290a465-r0
-Recommends: enigma2-dev, enigma2-plugin-systemplugins-streamproxycockpit (= 0.3.11-git5+51b290a0+51b290a465-r0), python3-requests-dev
+Version: 0.3.12-git6+24ab7950+24ab79512e-r0
+Recommends: enigma2-dev, enigma2-plugin-systemplugins-streamproxycockpit (= 0.3.12-git6+24ab7950+24ab79512e-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 78de149ce18f391070b842ca8230b448
-SHA256sum: 6c793d31e1cb9b11bf8c698c355f3f387b58404f649a1cad2d5afb6bc9c2171c
+MD5Sum: 30967643ff0a94729f156ed63ec31193
+SHA256sum: 77baf7295b46a223c43c930ae94d64a0bc052d7a2a2ac1d606b7cd58d784e54e
 Size: 646
-Filename: enigma2-plugin-systemplugins-streamproxycockpit-dev_0.3.11-git5+51b290a0+51b290a465-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-streamproxycockpit-dev_0.3.12-git6+24ab7950+24ab79512e-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin - Development files
 OE: enigma2-plugin-systemplugins-streamproxycockpit
@@ -6262,15 +6262,15 @@ License: GPL-3.0-only
 Priority: required
 
 Package: enigma2-plugin-systemplugins-streamproxycockpit
-Version: 0.3.11-git5+51b290a0+51b290a465-r0
+Version: 0.3.12-git6+24ab7950+24ab79512e-r0
 Depends: enigma2, python3-requests
 Section: base
 Architecture: all
 Maintainer: OpenCockpit
-MD5Sum: 5ec0863ec523e3b97189259b6d17204c
-SHA256sum: c5c90865e0268ffc91fb707b4baa2d283d92b5acdea515dd16255e9f6527adf8
-Size: 127106
-Filename: enigma2-plugin-systemplugins-streamproxycockpit_0.3.11-git5+51b290a0+51b290a465-r0_all.ipk
+MD5Sum: f6a224f7f0d450b87b56771907784d5d
+SHA256sum: 16a6c1a5a3bad3bfb8a66cb172b018b0ada52576d71ea548452854bce398c4f1
+Size: 127104
+Filename: enigma2-plugin-systemplugins-streamproxycockpit_0.3.12-git6+24ab7950+24ab79512e-r0_all.ipk
 Source: enigma2-plugin-systemplugins-streamproxycockpit.bb
 Description: StreamProxyCockpit Enigma2 Plugin
 OE: enigma2-plugin-systemplugins-streamproxycockpit
