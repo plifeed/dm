@@ -9834,8 +9834,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: ae8a7c2ff22b4f36638d1abe0b2cc5bc
-SHA256sum: 98d70a0cf18a8f0e5b2e6acf11860fbce8835a5cf2fca19b9f340f994bd3f402
+MD5Sum: 053301e7125eca91c96293e2ba8bc192
+SHA256sum: 3e644fa11789e1edae65468172f061665c3e87cdd6dcfb1863b8523faae09bfd
 Size: 628
 Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -9850,9 +9850,9 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.0-git92+0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: ad92366ce16c53d3f2d562f14aea9f27
-SHA256sum: 465f3cbf00d42248913c218c92e4eeafac687865b2384a88e7db056ab6097a20
-Size: 658
+MD5Sum: cde97ea22c967f38c075fbc4466211f5
+SHA256sum: 6b142b7968a6e1bd4b65b8cd1e9c11b4f5a7fdd49d2671cff8c2b80a348124a4
+Size: 660
 Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2 - Development files
@@ -9866,9 +9866,9 @@ Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc+
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: ca7eacedfbb44f0acbb619545a943033
-SHA256sum: af86c85cc108617c31b8ecaed71c08e799fb5db35887456b5e14b720f99d0cdf
-Size: 2194216
+MD5Sum: 37a0ac631ef621787d9428dd866eb82e
+SHA256sum: 266202580cb3478af42d4fb72c2f294a88bcb83c2b19575d3cfc3745a8dab4e5
+Size: 2194218
 Filename: enigma2-plugin-extensions-ciplus-helper_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2
@@ -13594,9 +13594,9 @@ Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f8208bfe5a46246f0f08dbfc4ddc5083
-SHA256sum: 1d5c323d884d6f16ba649a4efe02f19371ba873a4481336fc2401b89a287711c
-Size: 690980
+MD5Sum: 43c49731912bf889e1864d8f88b9a07f
+SHA256sum: ea4c5475df864cc02278b5b3216ff806d61603804f0fa6a4887cf4ed8a7f5e02
+Size: 691396
 Filename: enigma2-plugin-softcams-oscam_11977-git10897+703382b0+703382b84a-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
@@ -131106,9 +131106,9 @@ Version: 5.1.3-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: team@sabnzbd.org
-MD5Sum: 71aac9e5fb4f5f249d9f8a5997cb8fdc
-SHA256sum: 907743ee0024cbe73143e828770379af7dc881734f1877eb7d1aebcb5371d36a
-Size: 34482
+MD5Sum: 015c1e6f553194316c4a73cd28dfc797
+SHA256sum: d6dd8c89cf0cd6b0d9453dcf071d73ca4dbc2584ea9260abc42e4ef312723c22
+Size: 34486
 Filename: sabnzbd-doc_5.1.3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: sabnzbd_5.1.3.bb
 Description: SABnzbd - The automated Usenet download tool - Documentation files
@@ -131122,9 +131122,9 @@ Version: 5.1.3-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: team@sabnzbd.org
-MD5Sum: b7d4af6cd386358ed3b442859ae5abf7
-SHA256sum: a7ec31103bbfef5474b4f139d22829530b1b69a6c458042e0efbe9b640ad9316
-Size: 519444
+MD5Sum: 45ed7a2952edeb2f1ff1922ed0bd7e18
+SHA256sum: cf32d38baf114e4b331187646541281f5445669087d77c67c890ebc72ba64e28
+Size: 519452
 Filename: sabnzbd-src_5.1.3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: sabnzbd_5.1.3.bb
 Description: SABnzbd - The automated Usenet download tool - Source files
@@ -131140,9 +131140,9 @@ Recommends: par2cmdline, unrar, update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: team@sabnzbd.org
-MD5Sum: 50fce7e99331bdabd18e6e8d8ea33a55
-SHA256sum: 51979342f108a28d63c2d9fe8d53ab7a4740fc95d59d1464b5ee57230aca7d9b
-Size: 5315538
+MD5Sum: cadad300615e5e2e5228a73952e17162
+SHA256sum: 846b097424f92d98ec575fe4682ef0dbd692576e29a6635b7255575debb21858
+Size: 5315704
 Filename: sabnzbd_5.1.3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: sabnzbd_5.1.3.bb
 Description: SABnzbd - The automated Usenet download tool
