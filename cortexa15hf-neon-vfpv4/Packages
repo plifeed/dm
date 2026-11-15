@@ -9834,8 +9834,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 053301e7125eca91c96293e2ba8bc192
-SHA256sum: 3e644fa11789e1edae65468172f061665c3e87cdd6dcfb1863b8523faae09bfd
+MD5Sum: ae8a7c2ff22b4f36638d1abe0b2cc5bc
+SHA256sum: 98d70a0cf18a8f0e5b2e6acf11860fbce8835a5cf2fca19b9f340f994bd3f402
 Size: 628
 Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -9850,9 +9850,9 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.0-git92+0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: cde97ea22c967f38c075fbc4466211f5
-SHA256sum: 6b142b7968a6e1bd4b65b8cd1e9c11b4f5a7fdd49d2671cff8c2b80a348124a4
-Size: 660
+MD5Sum: ad92366ce16c53d3f2d562f14aea9f27
+SHA256sum: 465f3cbf00d42248913c218c92e4eeafac687865b2384a88e7db056ab6097a20
+Size: 658
 Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2 - Development files
@@ -9866,9 +9866,9 @@ Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc+
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 37a0ac631ef621787d9428dd866eb82e
-SHA256sum: 266202580cb3478af42d4fb72c2f294a88bcb83c2b19575d3cfc3745a8dab4e5
-Size: 2194218
+MD5Sum: ca7eacedfbb44f0acbb619545a943033
+SHA256sum: af86c85cc108617c31b8ecaed71c08e799fb5db35887456b5e14b720f99d0cdf
+Size: 2194216
 Filename: enigma2-plugin-extensions-ciplus-helper_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2
@@ -9957,14 +9957,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.11.14.01-git6332+5e245860+5e245862ea-r0
+Version: 2026.11.15.02-git6351+57a5be20+57a5be2ad5-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: a91923d4384d7a06d8f69db50abc4c2e
-SHA256sum: 51c35e41a5805786a7cac2c39db4aeeef53771f04339a808879151b883cf0de9
-Size: 672
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.14.01-git6332+5e245860+5e245862ea-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: cbf2ed57bcff133ee0f75fe407c37067
+SHA256sum: 3939e070c13fc8547afff47c0106ec065f4d21c8a83a6a69d7708073c9076f39
+Size: 670
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.15.02-git6351+57a5be20+57a5be2ad5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9973,15 +9973,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-deps-dbg
-Version: 1.0+git47+e8cd31f0+e8cd31feef-r8
+Version: 1.0+git51+c44de030+c44de03bad-r8
 Recommends: glibc-dbg, libavcodec-dbg, libavformat-dbg, libavutil-dbg, libcrypto-dbg, libcurl-dbg, libgcc-dbg, libpng-dbg, libpython3-dbg, libssl-dbg, libstdc++-dbg, zlib-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 94849712e790cf8390674eb3c39a385c
-SHA256sum: 86c0ae88ce2b58f941da4a4ab1e8671221d62d7ea1b450a4ae3fa73555bbd1c9
-Size: 59506
-Filename: enigma2-plugin-extensions-e2iplayer-deps-dbg_1.0+git47+e8cd31f0+e8cd31feef-r8_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c64f18b8f9f274970b5d6a5f0f0de52d
+SHA256sum: 3c23969565f7ded719498c0a0121ac7018d3b4f7936ff796d48b0e447b662879
+Size: 59430
+Filename: enigma2-plugin-extensions-e2iplayer-deps-dbg_1.0+git51+c44de030+c44de03bad-r8_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer-deps.bb
 Description: Native tools and the subtitle parser for E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer-deps
@@ -9990,15 +9990,15 @@ License: GPL-3.0-only AND LGPL-2.1-or-later AND MIT AND Zlib
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-deps-dev
-Version: 1.0+git47+e8cd31f0+e8cd31feef-r8
-Recommends: curl-dev, enigma2-plugin-extensions-e2iplayer-deps (= 1.0+git47+e8cd31f0+e8cd31feef-r8), ffmpeg-dev, glibc-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libcrypto-dev, libcurl-dev, libgcc-dev, libpng-dev, libpython3-dev, libssl-dev, libstdc++-dev, openssl-dev, python3-dev, zlib-dev
+Version: 1.0+git51+c44de030+c44de03bad-r8
+Recommends: curl-dev, enigma2-plugin-extensions-e2iplayer-deps (= 1.0+git51+c44de030+c44de03bad-r8), ffmpeg-dev, glibc-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libcrypto-dev, libcurl-dev, libgcc-dev, libpng-dev, libpython3-dev, libssl-dev, libstdc++-dev, openssl-dev, python3-dev, zlib-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 192eb39f73e965768c29ff93824d9f90
-SHA256sum: 5dcc71786ab9719123ec0b90b1da659ba53f8c1fcd5bb5f1fd2d731da0a01cca
-Size: 866
-Filename: enigma2-plugin-extensions-e2iplayer-deps-dev_1.0+git47+e8cd31f0+e8cd31feef-r8_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 2df329dc55df2eec438e96f7e4c86bc7
+SHA256sum: 0a9029fabb103a4c5cdb5f0f84db9bee07d6ea8782eeb66dc160628423d7f0e8
+Size: 868
+Filename: enigma2-plugin-extensions-e2iplayer-deps-dev_1.0+git51+c44de030+c44de03bad-r8_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer-deps.bb
 Description: Native tools and the subtitle parser for E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer-deps
@@ -10007,16 +10007,16 @@ License: GPL-3.0-only AND LGPL-2.1-or-later AND MIT AND Zlib
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-deps
-Version: 1.0+git47+e8cd31f0+e8cd31feef-r8
+Version: 1.0+git51+c44de030+c44de03bad-r8
 Depends: libavcodec63 (>= 9.0.2), libavformat63 (>= 9.0.2), libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libcurl4 (>= 8.23.0), libgcc1 (>= 16.2.0), libpng16-16 (>= 1.6.59), libpython3.14-1.0 (>= 3.14.10), libssl4 (>= 4.1.0), libstdc++6 (>= 16.2.0), libz1 (>= 1.4)
 Recommends: curl-impersonate, duktape, exteplayer3, ffmpeg, gst-ifdsrc, gstplayer, gstplayer2, python3-pycurl, quickjs, rtmpdump, uchardet, wget
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 92f760b8e36b2feb5419a241d04b66fa
-SHA256sum: 765d296d56d84c57e32db4882d3b035da131b7353978d0014e283178137f035a
-Size: 243530
-Filename: enigma2-plugin-extensions-e2iplayer-deps_1.0+git47+e8cd31f0+e8cd31feef-r8_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 94bafc38307508c9dd586cd35d7b0584
+SHA256sum: 572f92b81735bb6782afd5044f2329687337b721f6f9dc82d19fa0bf06bc8d74
+Size: 243542
+Filename: enigma2-plugin-extensions-e2iplayer-deps_1.0+git51+c44de030+c44de03bad-r8_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer-deps.bb
 Description: Native tools and the subtitle parser for E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer-deps
@@ -10025,15 +10025,15 @@ License: GPL-3.0-only AND LGPL-2.1-or-later AND MIT AND Zlib
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.11.14.01-git6332+5e245860+5e245862ea-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.14.01-git6332+5e245860+5e245862ea-r0), python3-core-dev, python3-dev
+Version: 2026.11.15.02-git6351+57a5be20+57a5be2ad5-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.15.02-git6351+57a5be20+57a5be2ad5-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: b8833e457d5c2938869b5d988abdace4
-SHA256sum: 461f2e4638238f2722b5a61701bfc56b46687d2cf47cf48ed4f5ae558c4fe165
-Size: 724
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.14.01-git6332+5e245860+5e245862ea-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 890c55ab6f080e4fca77302c6297a4f6
+SHA256sum: 48da389c4afaa74667cf85a194d2e08e1dab36751a5b974a864b6a192d42009b
+Size: 722
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.15.02-git6351+57a5be20+57a5be2ad5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10042,15 +10042,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.11.14.01-git6332+5e245860+5e245862ea-r0
+Version: 2026.11.15.02-git6351+57a5be20+57a5be2ad5-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 20609ce2ceb98606ba90535c15483580
-SHA256sum: f0b30e6ded403252468015c5f1b81f3c0c903638de6f15ea1c0c250ff6a4e857
-Size: 3044598
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.14.01-git6332+5e245860+5e245862ea-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5c4362928bab4aa8e26f8918556259e4
+SHA256sum: bf8e118671ccd8c234bb454fe6d2c751250e6727446005a64beb76c5a294aa2d
+Size: 3034028
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.15.02-git6351+57a5be20+57a5be2ad5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10059,16 +10059,16 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.11.14.01-git6332+5e245860+5e245862ea-r0
+Version: 2026.11.15.02-git6351+57a5be20+57a5be2ad5-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 39828110e8d019cf2807e24cc65e541b
-SHA256sum: b809419b6ad6b452bc2314fdf8ccbef5e1bf4e303b977dae8e8aa8c8d5f2742c
-Size: 27398628
-Filename: enigma2-plugin-extensions-e2iplayer_2026.11.14.01-git6332+5e245860+5e245862ea-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b4be3886a0e07a9b950cf22311c8f88f
+SHA256sum: 3a7477f54854300b00af1708c335dfdb4ac69b858d015808efd154f24f8149e7
+Size: 27305814
+Filename: enigma2-plugin-extensions-e2iplayer_2026.11.15.02-git6351+57a5be20+57a5be2ad5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -13589,15 +13589,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam
-Version: 11984-git10903+62cf9430+62cf943792-r0
+Version: 11986-git10905+d9137cf0+d9137cf063-r0
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 97d94324523f869eb8cda99df9b292f8
-SHA256sum: dffb43fbecaa7dcb3b5b4bd7e6f2eacb8f51987f95f0bfa08a547c37dc148428
-Size: 690986
-Filename: enigma2-plugin-softcams-oscam_11984-git10903+62cf9430+62cf943792-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8b5f1b64d8d93f9e7ec289243fc9618f
+SHA256sum: b2098c8e17c69934749b6a6b7c6df6a026b1dc258a566ef49c6ad75282e2afcd
+Size: 690762
+Filename: enigma2-plugin-softcams-oscam_11986-git10905+d9137cf0+d9137cf063-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
 OE: enigma2-plugin-softcams-oscam
