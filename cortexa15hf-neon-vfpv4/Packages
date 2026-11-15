@@ -13589,15 +13589,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam
-Version: 11982-git10901+7ce311c0+7ce311c835-r0
+Version: 11984-git10903+62cf9430+62cf943792-r0
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ace0ae9bd59d1c7d64cbbec8f2de5f77
-SHA256sum: 94aa4a932a0e32881452acce0a302c54628ac9b76bb399ca10d9bf1ffbe44b9c
-Size: 691204
-Filename: enigma2-plugin-softcams-oscam_11982-git10901+7ce311c0+7ce311c835-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 97d94324523f869eb8cda99df9b292f8
+SHA256sum: dffb43fbecaa7dcb3b5b4bd7e6f2eacb8f51987f95f0bfa08a547c37dc148428
+Size: 690986
+Filename: enigma2-plugin-softcams-oscam_11984-git10903+62cf9430+62cf943792-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
 OE: enigma2-plugin-softcams-oscam
@@ -93432,15 +93432,15 @@ License: GPL-2.0-only OR BSD-3-Clause
 Priority: optional
 
 Package: minisatip-dbg
-Version: 1.0d+git0+9f0dcdaf70-r0
+Version: 1.0d+git0+d21ed6459c-r0
 Recommends: glibc-dbg, libcrypto-dbg, libdvbcsa-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: eb52bcdd6453d180e19728178701bbe6
-SHA256sum: 16a7e6bfd4d604d59209284abc38ef12a65b180eb6c2da9d8d6c68dad4bac193
-Size: 3413682
-Filename: minisatip-dbg_1.0d+git0+9f0dcdaf70-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: aeb72dccf89a78364a839f4b77bb879b
+SHA256sum: 946ff2e614f2b2c1675b526bde2e993a4547049ec6f939684b74b5c06d8a04a0
+Size: 3413698
+Filename: minisatip-dbg_1.0d+git0+d21ed6459c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Debugging files
 OE: minisatip
@@ -93449,15 +93449,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip-dev
-Version: 1.0d+git0+9f0dcdaf70-r0
-Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+9f0dcdaf70-r0), openssl-dev, update-rc.d-dev
+Version: 1.0d+git0+d21ed6459c-r0
+Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 1.0d+git0+d21ed6459c-r0), openssl-dev, update-rc.d-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: a64a225da8a0a4b126876866f59a9fee
-SHA256sum: 4fbd6fc9cc944d2bbff4c385772f63eaa96a53ac388abc51773d6d6b044b8052
+MD5Sum: 7163aee2724ff5084f7d748641aa82c1
+SHA256sum: cd2919451d628a4108f72f3264c945ea180157a6f6fbf9454c95f5b1d0001fd1
 Size: 684
-Filename: minisatip-dev_1.0d+git0+9f0dcdaf70-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: minisatip-dev_1.0d+git0+d21ed6459c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server - Development files
 OE: minisatip
@@ -93466,16 +93466,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip
-Version: 1.0d+git0+9f0dcdaf70-r0
+Version: 1.0d+git0+d21ed6459c-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git76+79d8f4b0+79d8f4bd0c), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), openssl
 Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 6627681aa570c146d989e77bb7694f93
-SHA256sum: dda85a18a896adb15e1d3269957fce907af32a9fc9f5d38da1290132aefc2b61
-Size: 568782
-Filename: minisatip_1.0d+git0+9f0dcdaf70-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 276f7ea10c66777b0a3aceaa52ca0dcc
+SHA256sum: bcdaa7f1e3e2fe9621f0529436933a0da4663bf602e62691a50882946b127651
+Size: 568768
+Filename: minisatip_1.0d+git0+d21ed6459c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server
 OE: minisatip
@@ -97169,9 +97169,9 @@ Recommends: glib-2.0-dbg, glibc-dbg, libcurl-dbg, libgcc-dbg, libstdc++-dbg, lib
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8f982d2b376e5a53ab1dc4927098b167
-SHA256sum: 4088e15f999b3d5b37dea33add3a304ce7d94398860d9cd3bcd1359b279d4815
-Size: 5579712
+MD5Sum: d9e6af562398ebb91fa2df65dc1a0596
+SHA256sum: 6604d12606369c01e5f900821faa4314738306d6fa2dbc2a7fcf67c84c7e17b9
+Size: 5579440
 Filename: orb-dbg_1.0+git390+efbca8c0+efbca8c22f-r7_cortexa15hf-neon-vfpv4.ipk
 Source: orb_git.bb
 Description: Open Red Button (ORB) HbbTV 2.0 engine with a WPE WebKit host - Debugging files
@@ -97204,9 +97204,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libcurl4 (>= 8.23.0), libgcc1 (>= 16.2
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ae7b45f97d501a14af8afb868ff5511c
-SHA256sum: e623c9d20b96157e596de8fdd29936cd9278d0925f62f49ce5d792d53658908a
-Size: 537438
+MD5Sum: 6e1859c270cde83c767e9b123b9bec24
+SHA256sum: 3b29d4dddba7bafbac76ad88aeeaaa37013613e9c9dac231fb35c69d6a396ce4
+Size: 537638
 Filename: orb_1.0+git390+efbca8c0+efbca8c22f-r7_cortexa15hf-neon-vfpv4.ipk
 Source: orb_git.bb
 Description: Open Red Button (ORB) HbbTV 2.0 engine with a WPE WebKit host
