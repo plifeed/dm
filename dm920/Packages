@@ -1909,9 +1909,9 @@ Recommends: glibc-dbg, libcurl-dbg, libxml2-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a1e2ca4ee515cae7790962908f52335
-SHA256sum: c79ceffccf19d7a93eb9269efbcc659d2b57d63594f63b60b185b24ae220159f
-Size: 720
+MD5Sum: 3f2126b59662a06af913f6f21140031a
+SHA256sum: 713c948d94f3fa334af97dae4e9b0a7681a289d7161bcec4011af3cad573119e
+Size: 722
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.9.0+gitr563+bf4e3330+bf4e333af0-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: Handle your EPG on enigma2 from various sources - Debugging files
@@ -1926,8 +1926,8 @@ Recommends: curl-dev, enigma2-dev, enigma2-plugin-systemplugins-crossepg (= 0.9.
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b9186cbfd8b8ee8402ca5307439dec03
-SHA256sum: c351d5e7be0aaaeb2fb1475a7c6e9faadaa824a323908a571a867bc717b9da3b
+MD5Sum: d4a50f98eaa820e49a5fc14e297d9f13
+SHA256sum: adad83475ae1a4e502e2cd242a75eeac83114467a4fe35aeab86c054bb5a327f
 Size: 784
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.9.0+gitr563+bf4e3330+bf4e333af0-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -1942,8 +1942,8 @@ Version: 0.9.0+gitr563+bf4e3330+bf4e333af0-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab28724d2885c6b69443221593399b8d
-SHA256sum: a283d57be9a5f9c4571c35e443ac7feffcfca8d6493cc7bc406924dbd1552f7c
+MD5Sum: fb0c853ce569bbc5869e1372c28f5bfd
+SHA256sum: 656430ee1c84ba4c4db1e42872f080f620674c3c43b11804abdc0bfdffb82560
 Size: 3354
 Filename: enigma2-plugin-systemplugins-crossepg-src_0.9.0+gitr563+bf4e3330+bf4e333af0-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -1959,9 +1959,9 @@ Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libcurl4 (>= 8.23.0), libxml2
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 839c9b5a32510bef0e17236df70793cd
-SHA256sum: ab9dcd64fe0d6a902363db79a3cb57f0e11eaf244c90c2ac39df59d110c32eaa
-Size: 307330
+MD5Sum: 6b13a1b2460df2df825e5238ec363360
+SHA256sum: 9addd17e4c7a5b61295aeb9ed1efa9bef00f800d400851bd12898b2355894f4f
+Size: 307362
 Filename: enigma2-plugin-systemplugins-crossepg_0.9.0+gitr563+bf4e3330+bf4e333af0-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -2205,9 +2205,9 @@ Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, uch
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 542bb6ba773b0df3d5c4774da7eb0617
-SHA256sum: b8fdf21562624be303b5dd2d11ff7b6ff40c67fdbbf0721b289656c9d059b569
-Size: 1524350
+MD5Sum: f1b068a2e19cf55299b347313db56461
+SHA256sum: 181a191a90de988767222641fd0faed556775ff82ed32d14432dc0e48651bca0
+Size: 1524352
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: ServiceApp media playback system - Debugging files
@@ -2221,9 +2221,9 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-serviceapp (= git176+947f6
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 695a7300e06ef758d6a1e02ecfc9c3d3
-SHA256sum: d3461c8869516d68a77b3778136ee1e1c4d8c557dd6561afcde4e7100035a901
-Size: 714
+MD5Sum: dc934448684d2658e40d77843d92de7c
+SHA256sum: aef5f4c6577b2042d71f587893197ac21d02f72a262f02188731a7831484830b
+Size: 712
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: ServiceApp media playback system - Development files
@@ -2238,9 +2238,9 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3a80702433932f4b5d5a795d3d45004c
-SHA256sum: 631b5cbaa24e4ab1180bc19e89757d9a5eb6549460e63d095ca000a3e2f4e583
-Size: 119546
+MD5Sum: 4064b947ca0fac73d7dbfc215261c139
+SHA256sum: 09cabaef3bcc07b6938bb8a7414cc80f1ccd7c014849a1357d0c4652e4416aac
+Size: 119552
 Filename: enigma2-plugin-systemplugins-serviceapp_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: ServiceApp media playback system
