@@ -1421,14 +1421,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dbg
-Version: 1.9.4-r0-git45+91c7d4f0+91c7d4f13f-r0
+Version: 1.9.5-r0-git47+a7e2aa30+a7e2aa313a-r0
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 6730dbb26d1856182d2774c99baa3bb8
-SHA256sum: e0b529b76e0201742c1f86191b06bd8b7db8e944c7d61b4224d126ae594a7841
+MD5Sum: cd67784b4e599fe7eb9bff799d24f862
+SHA256sum: f711285358d09e21a801aaa5d4969112f920a90131e488f6174f1cea60825ede
 Size: 704
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.9.4-r0-git45+91c7d4f0+91c7d4f13f-r0_all.ipk
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.9.5-r0-git47+a7e2aa30+a7e2aa313a-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1437,15 +1437,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dev
-Version: 1.9.4-r0-git45+91c7d4f0+91c7d4f13f-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.9.4-r0-git45+91c7d4f0+91c7d4f13f-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
+Version: 1.9.5-r0-git47+a7e2aa30+a7e2aa313a-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.9.5-r0-git47+a7e2aa30+a7e2aa313a-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 2d39d3f63db0b8fe949f317053633f22
-SHA256sum: 4f07f6d27d35f87654f84fca2188cd749109064167309fa9f88e39b5255d805a
-Size: 842
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.9.4-r0-git45+91c7d4f0+91c7d4f13f-r0_all.ipk
+MD5Sum: 559afd9fa9418fa82e16d926336d9753
+SHA256sum: 510e343b182808a413397f418381289a35352a8ddb882662d2bf83ac85ea2932
+Size: 844
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.9.5-r0-git47+a7e2aa30+a7e2aa313a-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Development files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1454,15 +1454,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro
-Version: 1.9.4-r0-git45+91c7d4f0+91c7d4f13f-r0
+Version: 1.9.5-r0-git47+a7e2aa30+a7e2aa313a-r0
 Depends: enigma2, python3-asyncio, python3-compression, python3-core, python3-datetime, python3-difflib, python3-fcntl, python3-html, python3-io, python3-json, python3-math, python3-netclient, python3-netserver, python3-stringold, python3-threading, python3-xml
 Section: base
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: d892177b4be28ae5692648cb30e1a88a
-SHA256sum: b2272ac44f889c54e6c772bd2b46bbae93484928e0c0a73d21f79e47f8dab724
-Size: 10568290
-Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.9.4-r0-git45+91c7d4f0+91c7d4f13f-r0_all.ipk
+MD5Sum: 4d91bf89aaca963cbfb47ee51da6a328
+SHA256sum: f99eae8b4659a1b9fdd51732f451361e2552527d9269c68156d95fa7e3fafbe1
+Size: 10783138
+Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.9.5-r0-git47+a7e2aa30+a7e2aa313a-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2
 OE: enigma2-plugin-extensions-gtiptvplayerpro
