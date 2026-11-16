@@ -1072,13 +1072,13 @@ Priority: optional
 
 Package: astra-sm
 Version: 0.2-r0
-Depends: libaio1 (>= 0.3.113), libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git76+79d8f4b0+79d8f4bd0c), openssl
+Depends: libaio1 (>= 0.3.113), libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git77+6c459850+6c459854e7), openssl
 Recommends: update-rc.d
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 26f73d258b9f11d71e599599d5679a85
-SHA256sum: 92c9d3f2a9e35809a4d309791e9a1b09a6bc13eb57dbdaeb6088ce373f858fbe
+MD5Sum: 791b2409e5dc19d9833c9876d4e31ab3
+SHA256sum: 338c872b4ac5bf577f6ebd3a6cd53b31a44f4fddc3d0f2f97fea5f918edad6f5
 Size: 234644
 Filename: astra-sm_0.2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: astra-sm_0.2.bb
@@ -9007,9 +9007,9 @@ Depends: astra-sm, libc6 (>= 2.44+git0+34106fee69)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddc427c13903a02b2a180dfac3a38a35
-SHA256sum: c270b9bd89a8f84a73d81c0b4694eaf9fbec82295b56e51761e039579cda55c5
-Size: 12736
+MD5Sum: b6a17fd72af1255ca7949c368c995c63
+SHA256sum: 2af1fa9a6cff5fb2ea3edff75c36a8da7439bcaf810edf588c07859e27500232
+Size: 12936
 Filename: enigma2-plugin-extensions-abertis_2.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-abertis_2.0.bb
 Description: Abertis 30°W userbouquet + astra-sm Installer
@@ -9834,8 +9834,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 053301e7125eca91c96293e2ba8bc192
-SHA256sum: 3e644fa11789e1edae65468172f061665c3e87cdd6dcfb1863b8523faae09bfd
+MD5Sum: ae8a7c2ff22b4f36638d1abe0b2cc5bc
+SHA256sum: 98d70a0cf18a8f0e5b2e6acf11860fbce8835a5cf2fca19b9f340f994bd3f402
 Size: 628
 Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
@@ -9850,9 +9850,9 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.0-git92+0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: cde97ea22c967f38c075fbc4466211f5
-SHA256sum: 6b142b7968a6e1bd4b65b8cd1e9c11b4f5a7fdd49d2671cff8c2b80a348124a4
-Size: 660
+MD5Sum: ad92366ce16c53d3f2d562f14aea9f27
+SHA256sum: 465f3cbf00d42248913c218c92e4eeafac687865b2384a88e7db056ab6097a20
+Size: 658
 Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2 - Development files
@@ -9866,9 +9866,9 @@ Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc+
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 37a0ac631ef621787d9428dd866eb82e
-SHA256sum: 266202580cb3478af42d4fb72c2f294a88bcb83c2b19575d3cfc3745a8dab4e5
-Size: 2194218
+MD5Sum: ca7eacedfbb44f0acbb619545a943033
+SHA256sum: af86c85cc108617c31b8ecaed71c08e799fb5db35887456b5e14b720f99d0cdf
+Size: 2194216
 Filename: enigma2-plugin-extensions-ciplus-helper_V7.0-git92+098e5990+098e599bf3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2
@@ -9957,14 +9957,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.11.15.04-git6358+ba7fa150+ba7fa15381-r0
+Version: 2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 865c3a6579501ba3f897aa09b7945924
-SHA256sum: f1d00593d2f1975b1d926b60f4611a6cc3588185375ff6dc62f2638a486c3a64
-Size: 672
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.15.04-git6358+ba7fa150+ba7fa15381-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: e6340c71328fad2f4dc606084b65b9aa
+SHA256sum: 68f381001c56d303c167df93c10e6a6579fe391cd3986eb7d92979b535ea16c9
+Size: 670
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10025,15 +10025,15 @@ License: GPL-3.0-only AND LGPL-2.1-or-later AND MIT AND Zlib
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.11.15.04-git6358+ba7fa150+ba7fa15381-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.15.04-git6358+ba7fa150+ba7fa15381-r0), python3-core-dev, python3-dev
+Version: 2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 267afa680246729938ef382dee786e84
-SHA256sum: e738688491c95ec8dc010bdfad3ae709df5b8600e96e6d983a712099e5238c5b
+MD5Sum: b5e3fd93163e6e5c630446ee5f157ed2
+SHA256sum: e7ac3772bcbe2414702aae55cf1285c6c778c869e982d2c3d9dd5d5629b56c34
 Size: 724
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.15.04-git6358+ba7fa150+ba7fa15381-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10042,15 +10042,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.11.15.04-git6358+ba7fa150+ba7fa15381-r0
+Version: 2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: ab87b0117e9690615ac2c6214ff97a16
-SHA256sum: 4bbfb24611075c098fee73344f68160d8a0dfe09d9646c2d291670a2b2902f91
-Size: 3043808
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.15.04-git6358+ba7fa150+ba7fa15381-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ec737cb8250ac3828b0fe5abef3e8f1d
+SHA256sum: c3a63cd63400f60b2c5070e151413d72365576946e57300ce9201e57adfc4d56
+Size: 3043964
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10059,16 +10059,16 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.11.15.04-git6358+ba7fa150+ba7fa15381-r0
+Version: 2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: ee7178665c69cb374e8f2af90c917f46
-SHA256sum: d9f1bdb24106e6668d65bff2ec6352f9f6979064ce3ad8a522e680a2c683c06b
-Size: 27310154
-Filename: enigma2-plugin-extensions-e2iplayer_2026.11.15.04-git6358+ba7fa150+ba7fa15381-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 409e1ee9c71dcc7e843a2b094b8017fd
+SHA256sum: 44617d29d26208ccfdfef841142360c998572dbcdd5fa9d1f0bc89849ced3d97
+Size: 27310088
+Filename: enigma2-plugin-extensions-e2iplayer_2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -13558,12 +13558,12 @@ Priority: optional
 
 Package: enigma2-plugin-softcams-ncam
 Version: git10921+5f4ad470+5f4ad477bf-r0
-Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git76+79d8f4b0+79d8f4bd0c), libssl4 (>= 4.1.0), libudev1 (>= 3.3.0), libusb-1.0-0 (>= 1.0.30), softcam-support
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git77+6c459850+6c459854e7), libssl4 (>= 4.1.0), libudev1 (>= 3.3.0), libusb-1.0-0 (>= 1.0.30), softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED Developer
-MD5Sum: e3b5754b004b4013106b45b3988bd269
-SHA256sum: 762159b45f41677da4635bc5f853f67c41c5ccf2c0dbbfe2dca44b9cf8c11145
+MD5Sum: 6cf7567bb39dae26c316e81fb0328304
+SHA256sum: 11cb923fd31d5ebd28beaae282d128d0c63e5949d4d29bd59ef4c6a271d2a519
 Size: 890444
 Filename: enigma2-plugin-softcams-ncam_git10921+5f4ad470+5f4ad477bf-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-ncam.bb
@@ -13578,9 +13578,9 @@ Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 45c813412ae0ccd597dff77ca86580b2
-SHA256sum: 7f5a50624c1597e53a8595b3ad5f1d8216c44bceb087ceca0bba17bddb7f884f
-Size: 739738
+MD5Sum: 32505cb7c5fb4dad74aff43538e9b333
+SHA256sum: a0186f2b7da5fd5fce239b5e51b1abfc41f7e95c4d27926744f916ccec1c2efb
+Size: 739280
 Filename: enigma2-plugin-softcams-oscam-emu_11986-git11098+bfeb6450+bfeb64581b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam-emu.bb
 Description: enigma2-plugin-softcams-oscam-emu version git-r0
@@ -13594,9 +13594,9 @@ Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8b5f1b64d8d93f9e7ec289243fc9618f
-SHA256sum: b2098c8e17c69934749b6a6b7c6df6a026b1dc258a566ef49c6ad75282e2afcd
-Size: 690762
+MD5Sum: 95ec2e30951b8b774fa701985a2026eb
+SHA256sum: 31a4fa134322a2cf96f967f51fee338ac2d084c443f492d107c89bdd9491b054
+Size: 690742
 Filename: enigma2-plugin-softcams-oscam_11986-git10905+d9137cf0+d9137cf063-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
@@ -14727,16 +14727,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exfat-dump
-Version: 1.4.3-r0
+Version: 1.4.4-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
 Section: universe/otherosfs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 26f0d9b2571002dd0d604a5f6be7cb8f
-SHA256sum: 8c7b89624412f06b965c518e9bec769842e20e23990629cea3a79e9ec63234e7
-Size: 27422
-Filename: exfat-dump_1.4.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: exfatprogs_1.4.3.bb
+MD5Sum: ec19aa63278e7b66252ce7e92f4279f2
+SHA256sum: dde6c4507ad896113696218d57550a3a06e3acd6ecedf1cdaf5536f1deb70e12
+Size: 28566
+Filename: exfat-dump_1.4.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exfatprogs_1.4.4.bb
 Description: exFAT filesystem userspace utilities
 OE: exfatprogs
 HomePage: https://github.com/exfatprogs/exfatprogs
@@ -14744,16 +14744,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exfat-fsck
-Version: 1.4.3-r0
+Version: 1.4.4-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
 Section: universe/otherosfs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23c92749e3c913dba0e2a6b819c40fcf
-SHA256sum: daa056e5c800a9c818095ecf8df6c170c5cac9de2b6d7f263dc59afea1afe4b5
-Size: 41380
-Filename: exfat-fsck_1.4.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: exfatprogs_1.4.3.bb
+MD5Sum: 4b4c3949f8076ab692f9055b77ddc72b
+SHA256sum: d8976d6ea0b03fbf858ded9032ac1f04627a2a45c017fa98bc5db2de0ea20836
+Size: 42690
+Filename: exfat-fsck_1.4.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exfatprogs_1.4.4.bb
 Description: exFAT filesystem userspace utilities
 OE: exfatprogs
 HomePage: https://github.com/exfatprogs/exfatprogs
@@ -14761,16 +14761,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exfat-label
-Version: 1.4.3-r0
+Version: 1.4.4-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
 Section: universe/otherosfs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f4d9b080290ff93ebf4e831b8176e07e
-SHA256sum: a2f48daf5f49c414795441e27e82eb558b1c4132ebd9905af61f1f1cc5047d56
-Size: 22192
-Filename: exfat-label_1.4.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: exfatprogs_1.4.3.bb
+MD5Sum: c13f6a890a0a67d6e70d10d923fe0cdc
+SHA256sum: b5be5610de0fbcfdbb03c9c5865eacad8b981955cf9bef121aac5bf2879e8f0e
+Size: 23198
+Filename: exfat-label_1.4.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exfatprogs_1.4.4.bb
 Description: exFAT filesystem userspace utilities
 OE: exfatprogs
 HomePage: https://github.com/exfatprogs/exfatprogs
@@ -14778,16 +14778,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exfat-mkfs
-Version: 1.4.3-r0
+Version: 1.4.4-r0
 Depends: exfatprogs
 Section: universe/otherosfs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e217ecbb216a32343cda022d2d99c2fc
-SHA256sum: 4bcaa705bf5341019254c79a3f71cccb2da23177fa61a42ecb5bb3a9da114b1b
+MD5Sum: dc690306da053519d86f75aa80e86829
+SHA256sum: ce36af5166baf6bf3f4cf78de7ac229f64ccbef64d45b544875b87e1a7f9baa1
 Size: 904
-Filename: exfat-mkfs_1.4.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: exfatprogs_1.4.3.bb
+Filename: exfat-mkfs_1.4.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exfatprogs_1.4.4.bb
 Description: exFAT filesystem userspace utilities
 OE: exfatprogs
 HomePage: https://github.com/exfatprogs/exfatprogs
@@ -14795,16 +14795,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exfatprogs-dbg
-Version: 1.4.3-r0
+Version: 1.4.4-r0
 Recommends: glibc-dbg, util-linux-libblkid-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3eec1d9909af999d90daad9630c06984
-SHA256sum: 41ad1847a773d44a065540b9e11d22e38ccaaab1fa54579b0d74c797f64a197a
-Size: 422302
-Filename: exfatprogs-dbg_1.4.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: exfatprogs_1.4.3.bb
+MD5Sum: ab08eb026030e7a1c100af36f48980ca
+SHA256sum: ebe81d860c7be97ab4fd613a2b1c82183bffbbee85a5479cc4f5c3c6528c278d
+Size: 443120
+Filename: exfatprogs-dbg_1.4.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exfatprogs_1.4.4.bb
 Description: exFAT filesystem userspace utilities - Debugging files
 OE: exfatprogs
 HomePage: https://github.com/exfatprogs/exfatprogs
@@ -14812,16 +14812,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exfatprogs-dev
-Version: 1.4.3-r0
-Recommends: exfat-dump-dev, exfat-fsck-dev, exfat-label-dev, exfat-mkfs-dev, exfatprogs (= 1.4.3-r0), glibc-dev, util-linux-dev, util-linux-libblkid-dev
+Version: 1.4.4-r0
+Recommends: exfat-dump-dev, exfat-fsck-dev, exfat-label-dev, exfat-mkfs-dev, exfatprogs (= 1.4.4-r0), glibc-dev, util-linux-dev, util-linux-libblkid-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 93881a877444181621b08ccf1249da9f
-SHA256sum: 7b3c0d1bad074c09279f94c0d720735e0b1b6fcadd92311ed2b3671b0492a2d9
+MD5Sum: 965fed9a2850a415089dace3d2f159b0
+SHA256sum: 2d226ed5441cf15d015ae6cb82ac1eb1163c83cf9ca65218c5ed913ad9906741
 Size: 904
-Filename: exfatprogs-dev_1.4.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: exfatprogs_1.4.3.bb
+Filename: exfatprogs-dev_1.4.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exfatprogs_1.4.4.bb
 Description: exFAT filesystem userspace utilities - Development files
 OE: exfatprogs
 HomePage: https://github.com/exfatprogs/exfatprogs
@@ -14829,15 +14829,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exfatprogs-doc
-Version: 1.4.3-r0
+Version: 1.4.4-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c5bd3e8314bd32d97a08d866d286dac0
-SHA256sum: e6abd206e2372d5372d2d7744235a59b59f948d4afa56444b8ae34991efb13ea
-Size: 13386
-Filename: exfatprogs-doc_1.4.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: exfatprogs_1.4.3.bb
+MD5Sum: d0093969871937db9096845359a15618
+SHA256sum: df30800b424cabb24955f295b9b26659fc76f75d9b73e0647916a7b534541074
+Size: 13384
+Filename: exfatprogs-doc_1.4.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exfatprogs_1.4.4.bb
 Description: exFAT filesystem userspace utilities - Documentation files
 OE: exfatprogs
 HomePage: https://github.com/exfatprogs/exfatprogs
@@ -14845,7 +14845,7 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exfatprogs
-Version: 1.4.3-r0
+Version: 1.4.4-r0
 Depends: exfat-dump, exfat-fsck, exfat-label, exfat-mkfs, libblkid1 (>= 2.42.4), libc6 (>= 2.44+git0+34106fee69)
 Provides: exfat-utils
 Replaces: exfat-utils
@@ -14853,11 +14853,11 @@ Conflicts: exfat-utils
 Section: universe/otherosfs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b1b88952f4e74133b7ed15c8c166ff2
-SHA256sum: cea9cc827816712d6ba25c3ac4caaf47e4868f4e2de54e8dcb6ed46520469569
-Size: 64750
-Filename: exfatprogs_1.4.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: exfatprogs_1.4.3.bb
+MD5Sum: ad1afaf8a0102548d76d1f296bfb5b02
+SHA256sum: 9647abf5671adbc11b3302109d5b31a7cdf8814f7e9ee1b2b0c5e571dedf3d5b
+Size: 67044
+Filename: exfatprogs_1.4.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: exfatprogs_1.4.4.bb
 Description: exFAT filesystem userspace utilities
 OE: exfatprogs
 HomePage: https://github.com/exfatprogs/exfatprogs
@@ -14977,70 +14977,87 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: faac-dbg
-Version: 1.29.9.2-r0
+Version: 2.2-r0
 Recommends: glibc-dbg, libfaac-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 17a7366f16742fbbe7f7a08b2ab27ec6
-SHA256sum: 3d1b0c3bf0ce9ef1d463b33b8f2aff8f68e1157f49ff39099474da6c1daade67
-Size: 172802
-Filename: faac-dbg_1.29.9.2-r0_cortexa15hf-neon-vfpv4.ipk
-Source: faac_1.29.9.2.bb
+MD5Sum: 526214bf9c367a30ef9da3ea28f6cfbf
+SHA256sum: f5b9e999fd4ae186b05e60195fd97991c7d86177c7d256a2d1055970954c1137
+Size: 302390
+Filename: faac-dbg_2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: faac_2.2.bb
 Description: Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC) - Debugging files
 OE: faac
-HomePage: http://www.audiocoding.com/faac.html
-License: LGPL-2.0-or-later
+HomePage: https://github.com/knik0/faac
+License: LGPL-2.1-or-later
 Priority: optional
 
 Package: faac-dev
-Version: 1.29.9.2-r0
-Recommends: faac (= 1.29.9.2-r0), glibc-dev, libfaac-dev
+Version: 2.2-r0
+Recommends: faac (= 2.2-r0), glibc-dev, libfaac-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e956def60a017fcadb5e0d0da53cd278
-SHA256sum: 366b984c70dde0092a3c42d437289a8ee2163b839756852a7d73ed23e6255970
-Size: 696
-Filename: faac-dev_1.29.9.2-r0_cortexa15hf-neon-vfpv4.ipk
-Source: faac_1.29.9.2.bb
+MD5Sum: 98b855cd37f34f35fa3379e1faf60a30
+SHA256sum: c034fa7f9648b6f5dd86a9cc7563aeb3176be02780d25e233d2365cbe9d78c89
+Size: 688
+Filename: faac-dev_2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: faac_2.2.bb
 Description: Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC) - Development files
 OE: faac
-HomePage: http://www.audiocoding.com/faac.html
-License: LGPL-2.0-or-later
+HomePage: https://github.com/knik0/faac
+License: LGPL-2.1-or-later
 Priority: optional
 
 Package: faac-doc
-Version: 1.29.9.2-r0
+Version: 2.2-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0bf7c886ae2edaa5d427735d317b926c
-SHA256sum: 30c650f757b74c05a550dec60d835a3d9e1bef5dd8071f637e63dc04d2d0d433
-Size: 3106
-Filename: faac-doc_1.29.9.2-r0_cortexa15hf-neon-vfpv4.ipk
-Source: faac_1.29.9.2.bb
+MD5Sum: 46cb6c3000cac706732a3b98acb5be67
+SHA256sum: 1e7aa672f5e1b8a1e135db05f4bb9ea6ce2710686f6c15c245d02b6fe7e6e08b
+Size: 4290
+Filename: faac-doc_2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: faac_2.2.bb
 Description: Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC) - Documentation files
 OE: faac
-HomePage: http://www.audiocoding.com/faac.html
-License: LGPL-2.0-or-later
+HomePage: https://github.com/knik0/faac
+License: LGPL-2.1-or-later
+Priority: optional
+
+Package: faac-staticdev
+Version: 2.2-r0
+Depends: faac-dev (= 2.2-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c0d7cfd9051a184ec6bdafc67a8843e
+SHA256sum: 67e5d3ffb59703b39d9b70e75e1fbf7cc5107df6ae5a36abe466e45edb7cf2f2
+Size: 187388
+Filename: faac-staticdev_2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: faac_2.2.bb
+Description: Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC) - Development files (Static Libraries)
+OE: faac
+HomePage: https://github.com/knik0/faac
+License: LGPL-2.1-or-later
 Priority: optional
 
 Package: faac
-Version: 1.29.9.2-r0
-Depends: libc6 (>= 2.44+git0+34106fee69), libfaac0 (>= 1.29.9.2)
+Version: 2.2-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libfaac2 (>= 2.2)
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b9ce0a81ab98ec3d09fa5df54d26dd36
-SHA256sum: b0e8369577cc5f54d6b0a40144a4df7d6369f7f0f706587baac02c5be659983e
-Size: 18116
-Filename: faac_1.29.9.2-r0_cortexa15hf-neon-vfpv4.ipk
-Source: faac_1.29.9.2.bb
+MD5Sum: 4c5c680bfa5c9bec2ad6971dbed78281
+SHA256sum: 60a0dc1246d534f8afd42b7033751489e273c640124d2a1e67e5bdca07bba6a4
+Size: 26548
+Filename: faac_2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: faac_2.2.bb
 Description: Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC)
 OE: faac
-HomePage: http://www.audiocoding.com/faac.html
-License: LGPL-2.0-or-later
+HomePage: https://github.com/knik0/faac
+License: LGPL-2.1-or-later
 Priority: optional
 
 Package: faad2-dbg
@@ -16191,9 +16208,9 @@ Recommends: duktape-dbg, file-dbg, fmt-dbg, glibc-dbg, jsoncpp-dbg, libcurl-dbg,
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6a39e19a7ef64b77628f0a91d86651fe
-SHA256sum: a2001d62d06328152de7fd7b07ebdc55128286e1ba007ea6da86d244cf789573
-Size: 35785890
+MD5Sum: b37bc3b642930236948e195be05dfbef
+SHA256sum: fdf54050dcddb4f799942c2dfc1b2fcb506ce608390310809872e008fab41323
+Size: 35785612
 Filename: gerbera-dbg_3.3.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gerbera_3.3.0.bb
 Description: gerbera version 3.3.0-r0 - Debugging files
@@ -16234,14 +16251,14 @@ Priority: optional
 
 Package: gerbera
 Version: 3.3.0-r0
-Depends: file (>= 5.48), libc6 (>= 2.44+git0+34106fee69), libcurl4 (>= 8.23.0), libduktape207 (>= 2.7.0), libebml5 (>= 1.4.7), libexif12 (>= 0.6.26), libfmt12 (>= 12.2.1), libgcc1 (>= 16.2.0), libicui18n79 (>= 79.1), libicuio79 (>= 79.1), libicuuc79 (>= 79.1), libjsoncpp27 (>= 1.9.8), libpugixml1 (>= 1.16), libspdlog1.17 (>= 1.17.0), libsqlite3-0 (>= 3.54.1), libstdc++6 (>= 16.2.0), libtag2 (>= 2.3.2), libupnp (>= 1.14.31), libuuid1 (>= 2.42.4), libzip (>= 1.12.1), libzippp (>= 7.1)
+Depends: file (>= 5.48), libc6 (>= 2.44+git0+34106fee69), libcurl4 (>= 8.23.0), libduktape207 (>= 2.7.0), libebml5 (>= 1.4.7), libexif12 (>= 0.6.26), libfmt12 (>= 12.2.1), libgcc1 (>= 16.2.0), libicui18n79 (>= 79.1), libicuio79 (>= 79.1), libicuuc79 (>= 79.1), libjsoncpp27 (>= 1.9.8), libpugixml1 (>= 1.16), libspdlog1.17 (>= 1.17.0), libsqlite3-0 (>= 3.54.1), libstdc++6 (>= 16.2.0), libtag2 (>= 2.3.2), libupnp (>= 22.2.2), libuuid1 (>= 2.42.4), libzip (>= 1.12.1), libzippp (>= 7.1)
 Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 295f3cb239bd62a318dbded0429d4893
-SHA256sum: 36ca6d6cf9c111cfe28e51a7462871224a99838dece2d9e32253a9d383f649e1
-Size: 2509908
+MD5Sum: bba008a023624bd6860182c2a9fbdfac
+SHA256sum: 145455f62acb0ac920135812ab3ee75a2d9d322ca33827ad2f7e8a8905ccab19
+Size: 2509942
 Filename: gerbera_3.3.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gerbera_3.3.0.bb
 Description: gerbera version 3.3.0-r0
@@ -44143,9 +44160,9 @@ Recommends: cairo-dbg, faad2-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, gst
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fbdf4185b38853ae9cd4d59ce4c299d9
-SHA256sum: 4d0b05248666e97362d0dfb2a9a4d800279bf54afb75868fdd1d47b823d5e032
-Size: 12789410
+MD5Sum: 968a376b89d036c82f96675c0f8d84a1
+SHA256sum: bf2f8ca0a4b718e9b451cb08fd32ff0d2db987aeed71b3c2c7879c9f54e80aad
+Size: 12793182
 Filename: gstreamer1.0-plugins-bad-dbg_1.28.9-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gstreamer1.0-plugins-bad_1.28.9.bb
 Description: 'Bad' GStreamer plugins and helper libraries  - Debugging files
@@ -44293,13 +44310,13 @@ Priority: optional
 
 Package: gstreamer1.0-plugins-bad-faac
 Version: 1.28.9-r0
-Depends: gstreamer1.0 (>= 1.28.9), libc6 (>= 2.44+git0+34106fee69), libfaac0 (>= 1.29.9.2), libglib-2.0-0 (>= 2.90.0), libgstaudio-1.0-0 (>= 1.28.9), libgstpbutils-1.0-0 (>= 1.28.9)
+Depends: gstreamer1.0 (>= 1.28.9), libc6 (>= 2.44+git0+34106fee69), libfaac2 (>= 2.2), libglib-2.0-0 (>= 2.90.0), libgstaudio-1.0-0 (>= 1.28.9), libgstpbutils-1.0-0 (>= 1.28.9)
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: adde48a91244b518c69ca1e26d5c1e51
-SHA256sum: 159ef51e23dfe7f8f19bd766334f4b785dffebc3a1a039a7a15c54748d10f883
-Size: 10102
+MD5Sum: 89b88caeaf1a8b674305fd632c70f0ff
+SHA256sum: e9a08410e0f140245af844b4d4c5ef4854750dc1ac2fb08a9a84ca8b284401fc
+Size: 9994
 Filename: gstreamer1.0-plugins-bad-faac_1.28.9-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gstreamer1.0-plugins-bad_1.28.9.bb
 Description: GStreamer 1.0 plugin for faac
@@ -58984,15 +59001,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: libdvbcsa-dbg
-Version: 1.2.0+git76+79d8f4b0+79d8f4bd0c-r0
+Version: 1.2.0+git77+6c459850+6c459854e7-r0
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72573adf506b69573bb38e6db4b28e69
-SHA256sum: b1efb7f7fc658219b0f0e32003e16bd72e7b9ebe1ceca823ae135151da0135bc
-Size: 92006
-Filename: libdvbcsa-dbg_1.2.0+git76+79d8f4b0+79d8f4bd0c-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ffbd8df4e8c7fedd9d17abc870105301
+SHA256sum: 035bc167aa86615a03be28bc28f624d3d263483a9dec42f6a766aed797551542
+Size: 91720
+Filename: libdvbcsa-dbg_1.2.0+git77+6c459850+6c459854e7-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libdvbcsa_git.bb
 Description: Open implementation of the DVB Common Scrambling Algorithm, encrypt and decrypt  - Debugging files
 OE: libdvbcsa
@@ -59000,16 +59017,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libdvbcsa-dev
-Version: 1.2.0+git76+79d8f4b0+79d8f4bd0c-r0
+Version: 1.2.0+git77+6c459850+6c459854e7-r0
 Depends: libdvbcsa
-Recommends: glibc-dev, libdvbcsa1 (= 1.2.0+git76+79d8f4b0+79d8f4bd0c-r0)
+Recommends: glibc-dev, libdvbcsa1 (= 1.2.0+git77+6c459850+6c459854e7-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1d3e00e2651b40df33e181dc52c976e0
-SHA256sum: 166a2b8d0366afc8eb1e1dbed160e96d4cd9efdf3fc395cf52460c2e2a8c25d8
-Size: 2354
-Filename: libdvbcsa-dev_1.2.0+git76+79d8f4b0+79d8f4bd0c-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b5a11ea0ca7e1bd74a03f5ee531adbf1
+SHA256sum: 17364766c42c702791b3e68b8d53d8fdbe20cc15212a2ac38c9504b390a0d4a7
+Size: 2350
+Filename: libdvbcsa-dev_1.2.0+git77+6c459850+6c459854e7-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libdvbcsa_git.bb
 Description: Open implementation of the DVB Common Scrambling Algorithm, encrypt and decrypt  - Development files
 OE: libdvbcsa
@@ -59017,16 +59034,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libdvbcsa1
-Version: 1.2.0+git76+79d8f4b0+79d8f4bd0c-r0
+Version: 1.2.0+git77+6c459850+6c459854e7-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
 Provides: libdvbcsa
 Section: libs/multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 78d0618506d76da08a06ae9ce7911cf2
-SHA256sum: 604238079a3241e6641f84743f5edca892839df5658402fa87b4a3476308781e
-Size: 35622
-Filename: libdvbcsa1_1.2.0+git76+79d8f4b0+79d8f4bd0c-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: fd3bd3e94606b4fac68e429e66f708f8
+SHA256sum: 0283a5c63c54ae68d07f5177c0eff62596a24f5bd424729820d3752675a576c3
+Size: 35620
+Filename: libdvbcsa1_1.2.0+git77+6c459850+6c459854e7-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libdvbcsa_git.bb
 Description: Open implementation of the DVB Common Scrambling Algorithm, encrypt and decrypt
 OE: libdvbcsa
@@ -60102,39 +60119,39 @@ License: BSD-3-Clause AND GPL-2.0-only AND LGPL-2.0-only AND MIT
 Priority: optional
 
 Package: libfaac-dev
-Version: 1.29.9.2-r0
+Version: 2.2-r0
 Depends: libfaac
 Recommends: glibc-dev
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3cd081772fd1c7635a75fe04d3593b80
-SHA256sum: 27846eee777b736ade3d0b849773ba52e4e0661a08c9cce94c9da22a58eff303
-Size: 3004
-Filename: libfaac-dev_1.29.9.2-r0_cortexa15hf-neon-vfpv4.ipk
-Source: faac_1.29.9.2.bb
+MD5Sum: 961f8254b3b81a1005da9f069c4b317b
+SHA256sum: 81f05c2ea3e191ab115b0fda98ee0b7aebb125759cd86d41490af30b656235ba
+Size: 7290
+Filename: libfaac-dev_2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: faac_2.2.bb
 Description: Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC)
 OE: faac
-HomePage: http://www.audiocoding.com/faac.html
-License: LGPL-2.0-or-later
+HomePage: https://github.com/knik0/faac
+License: LGPL-2.1-or-later
 Priority: optional
 
-Package: libfaac0
-Version: 1.29.9.2-r0
+Package: libfaac2
+Version: 2.2-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
 Provides: libfaac
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e60dc54d11a463f853531bca8ba84a81
-SHA256sum: b0417cf3a69170084845ea32c135c3af5f7768048012924962d6a7bf3f2f17a5
-Size: 25484
-Filename: libfaac0_1.29.9.2-r0_cortexa15hf-neon-vfpv4.ipk
-Source: faac_1.29.9.2.bb
+MD5Sum: 0bc43f9d7158c56b3c1ce2ea106cde6f
+SHA256sum: 3d3cf6c536219f8096140d953faa4df962d31a1f77cfa649d331224dd1dd1d00
+Size: 38794
+Filename: libfaac2_2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: faac_2.2.bb
 Description: Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC)
 OE: faac
-HomePage: http://www.audiocoding.com/faac.html
-License: LGPL-2.0-or-later
+HomePage: https://github.com/knik0/faac
+License: LGPL-2.1-or-later
 Priority: optional
 
 Package: libfdisk1
@@ -60417,93 +60434,93 @@ License: Apache-2.0
 Priority: optional
 
 Package: libfluidsynth-bin
-Version: 2.5.7-r0
-Depends: libc6 (>= 2.44+git0+34106fee69), libfluidsynth3 (>= 2.5.7), libgcc1 (>= 16.2.0), libglib-2.0-0 (>= 2.90.0)
+Version: 2.6.2-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libfluidsynth3 (>= 2.6.2), libstdc++6 (>= 16.2.0)
 Provides: fluidsynth-bin
 Section: libs/multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5eea3914c982d182c0fc5d3762c00d8a
-SHA256sum: 5bf7d0b21d1493957b361d9d6f4dcf864765a0bcd079d1f991981e7588ee2f9b
-Size: 12334
-Filename: libfluidsynth-bin_2.5.7-r0_cortexa15hf-neon-vfpv4.ipk
-Source: fluidsynth_2.5.7.bb
+MD5Sum: 2dcbef7087a887c3ba04b02989f39968
+SHA256sum: 2cd4f25a92ebfb65681816eca5b9349b2dd9c1c754b147b03c12914745dbc922
+Size: 13790
+Filename: libfluidsynth-bin_2.6.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fluidsynth_2.6.2.bb
 Description: Fluidsynth is a software synthesizer
 OE: fluidsynth
 HomePage: http://www.fluidsynth.org/
-License: LGPL-2.1-only
+License: LGPL-2.1-only AND Apache-2.0 AND MIT AND 0BSD
 Priority: optional
 
 Package: libfluidsynth-dbg
-Version: 2.5.7-r0
+Version: 2.6.2-r0
 Provides: fluidsynth-dbg
-Recommends: alsa-lib-dbg, glib-2.0-dbg, glibc-dbg, libgcc-dbg, libgomp-dbg, libpulse-dbg, libpulse-simple-dbg, libstdc++-dbg, pulseaudio-dbg
+Recommends: alsa-lib-dbg, glibc-dbg, libgcc-dbg, libgomp-dbg, libpulse-dbg, libpulse-simple-dbg, libstdc++-dbg, pulseaudio-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: acd148a0626bc7a36e161a511a8622ab
-SHA256sum: 1eee9ba7571f278df9befa9e0778e882e1aa69e3d16d2a8e1f3bccc1e4a09170
-Size: 1394158
-Filename: libfluidsynth-dbg_2.5.7-r0_cortexa15hf-neon-vfpv4.ipk
-Source: fluidsynth_2.5.7.bb
+MD5Sum: 43f41984cb2e304b06cdad53066d277c
+SHA256sum: b94e9cb93ac1616132293d4df74ea4b216789d2b08f2a10054c79e1940845972
+Size: 2085192
+Filename: libfluidsynth-dbg_2.6.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fluidsynth_2.6.2.bb
 Description: Fluidsynth is a software synthesizer - Debugging files
 OE: fluidsynth
 HomePage: http://www.fluidsynth.org/
-License: LGPL-2.1-only
+License: LGPL-2.1-only AND Apache-2.0 AND MIT AND 0BSD
 Priority: optional
 
 Package: libfluidsynth-dev
-Version: 2.5.7-r0
-Depends: alsa-lib-dev, fluidsynth, glib-2.0-dev, pulseaudio-dev
+Version: 2.6.2-r0
+Depends: alsa-lib-dev, fluidsynth, pulseaudio-dev
 Provides: fluidsynth-dev
-Recommends: alsa-lib-dev, glib-2.0-dev, glibc-dev, libfluidsynth3 (= 2.5.7-r0), libgcc-dev, libgomp-dev, libpulse-dev, libpulse-simple-dev, libstdc++-dev, pulseaudio-dev
+Recommends: alsa-lib-dev, glib-2.0-dev, glibc-dev, libfluidsynth3 (= 2.6.2-r0), libgcc-dev, libgomp-dev, libpulse-dev, libpulse-simple-dev, libstdc++-dev, pulseaudio-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8189597f1d3c75433bb9533f41aae440
-SHA256sum: d87f39b39336b53691166a4be6bb9e3ca342b785a45fd43b3388a587e3320c1d
-Size: 30912
-Filename: libfluidsynth-dev_2.5.7-r0_cortexa15hf-neon-vfpv4.ipk
-Source: fluidsynth_2.5.7.bb
+MD5Sum: a8449ef8e18495bb10817bfcaee4b4b3
+SHA256sum: 0f4fd5240945c5b7850665385402f9c6f612ac45275f1cb6e2875f6a38a49454
+Size: 31696
+Filename: libfluidsynth-dev_2.6.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fluidsynth_2.6.2.bb
 Description: Fluidsynth is a software synthesizer - Development files
 OE: fluidsynth
 HomePage: http://www.fluidsynth.org/
-License: LGPL-2.1-only
+License: LGPL-2.1-only AND Apache-2.0 AND MIT AND 0BSD
 Priority: optional
 
 Package: libfluidsynth-doc
-Version: 2.5.7-r0
+Version: 2.6.2-r0
 Provides: fluidsynth-doc
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 84ec67e110494c1603d868bd4a7ead5a
-SHA256sum: 3227b5acb0c06bb72414195afabe124cd277eaaa9d16c81dff7d82798468fd81
-Size: 4548
-Filename: libfluidsynth-doc_2.5.7-r0_cortexa15hf-neon-vfpv4.ipk
-Source: fluidsynth_2.5.7.bb
+MD5Sum: fe9169f8478adb403d9d83065cdc0ab5
+SHA256sum: db5c9db8eab36de1530fadf16a06693066fc06839ef3b0386a819a385495ac5c
+Size: 4616
+Filename: libfluidsynth-doc_2.6.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fluidsynth_2.6.2.bb
 Description: Fluidsynth is a software synthesizer - Documentation files
 OE: fluidsynth
 HomePage: http://www.fluidsynth.org/
-License: LGPL-2.1-only
+License: LGPL-2.1-only AND Apache-2.0 AND MIT AND 0BSD
 Priority: optional
 
 Package: libfluidsynth3
-Version: 2.5.7-r0
-Depends: libasound2 (>= 1.2.16.1), libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libglib-2.0-0 (>= 2.90.0), libgomp1 (>= 16.2.0), libpulse-simple0 (>= 17.0), libpulse0 (>= 17.0), libstdc++6 (>= 16.2.0)
+Version: 2.6.2-r0
+Depends: libasound2 (>= 1.2.16.1), libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libgomp1 (>= 16.2.0), libpulse-simple0 (>= 17.0), libpulse0 (>= 17.0), libstdc++6 (>= 16.2.0)
 Provides: fluidsynth
 Section: libs/multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f3c7716463c7c2d0fc68511b7c77e6ae
-SHA256sum: f991ffdab638c4964774d34e9731e5660d73d0162abeab406e3ab02c47d35209
-Size: 229854
-Filename: libfluidsynth3_2.5.7-r0_cortexa15hf-neon-vfpv4.ipk
-Source: fluidsynth_2.5.7.bb
+MD5Sum: 3b778769cc3910838e1ae6d9aa6d9ec7
+SHA256sum: 130c7972aa5d6fb0f2be3047a1f50aeec031bd614b4601cb0f31b27f431f2ea9
+Size: 278098
+Filename: libfluidsynth3_2.6.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fluidsynth_2.6.2.bb
 Description: Fluidsynth is a software synthesizer
 OE: fluidsynth
 HomePage: http://www.fluidsynth.org/
-License: LGPL-2.1-only
+License: LGPL-2.1-only AND Apache-2.0 AND MIT AND 0BSD
 Priority: optional
 
 Package: libfmt-dbg
@@ -79258,16 +79275,16 @@ License: GPL-2.0-or-later OR LGPL-3.0-or-later
 Priority: optional
 
 Package: libupnp-dbg
-Version: 1.14.31-r0
+Version: 22.2.2-r0
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c2474b169a73763ef55f8d0712a00921
-SHA256sum: a9f36d183ca8efeae10453c036e0a5d39ef2d3a2194d9d99ed0752e10115314a
-Size: 652446
-Filename: libupnp-dbg_1.14.31-r0_cortexa15hf-neon-vfpv4.ipk
-Source: libupnp_1.14.31.bb
+MD5Sum: 5a71f509539fa7a48ec22e4684b8facf
+SHA256sum: 77923b736c67fc58060ce1cf102b12ee886615113a4ebe9ee158d27dc00e7f54
+Size: 682470
+Filename: libupnp-dbg_22.2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libupnp_22.2.2.bb
 Description: Portable SDK for UPnP* Devices - Debugging files
 OE: libupnp
 HomePage: http://pupnp.sourceforge.net/
@@ -79275,17 +79292,17 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: libupnp-dev
-Version: 1.14.31-r0
+Version: 22.2.2-r0
 Depends: libupnp
-Recommends: glibc-dev, libupnp (= 1.14.31-r0)
+Recommends: glibc-dev, libupnp (= 22.2.2-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f8c8968d09d22ac9508de5b48f8135f4
-SHA256sum: f0352baee46db135f596f4fb73c6092f3b79a7bb9ad00315c5103ae877201bff
-Size: 51046
-Filename: libupnp-dev_1.14.31-r0_cortexa15hf-neon-vfpv4.ipk
-Source: libupnp_1.14.31.bb
+MD5Sum: f715cee3ab07708ad49ea56faa533c75
+SHA256sum: 0c1b82f95e0cc8e13011857766726ac3ff4813a24ac468234b83f7ae18d39f5d
+Size: 49800
+Filename: libupnp-dev_22.2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libupnp_22.2.2.bb
 Description: Portable SDK for UPnP* Devices - Development files
 OE: libupnp
 HomePage: http://pupnp.sourceforge.net/
@@ -79293,16 +79310,16 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: libupnp
-Version: 1.14.31-r0
+Version: 22.2.2-r0
 Depends: libc6 (>= 2.44+git0+34106fee69)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e427395923a81988365f6def25de7dc8
-SHA256sum: a4440f27fc4d03583e8ca6d2df56160d5e1ccea6ea4c372cf3e1f3f96124785a
-Size: 106262
-Filename: libupnp_1.14.31-r0_cortexa15hf-neon-vfpv4.ipk
-Source: libupnp_1.14.31.bb
+MD5Sum: c8a3f185155b555b1c54d87da2af6599
+SHA256sum: 6c69742e2f35cdabc4d3a1516c8bcdf4a10cbd96c757098971ce02b5bdee3b86
+Size: 122052
+Filename: libupnp_22.2.2-r0_cortexa15hf-neon-vfpv4.ipk
+Source: libupnp_22.2.2.bb
 Description: Portable SDK for UPnP* Devices
 OE: libupnp
 HomePage: http://pupnp.sourceforge.net/
@@ -93467,14 +93484,14 @@ Priority: optional
 
 Package: minisatip
 Version: 1.0d+git0+d21ed6459c-r0
-Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git76+79d8f4b0+79d8f4bd0c), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), openssl
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git77+6c459850+6c459854e7), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0), openssl
 Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 276f7ea10c66777b0a3aceaa52ca0dcc
-SHA256sum: bcdaa7f1e3e2fe9621f0529436933a0da4663bf602e62691a50882946b127651
-Size: 568768
+MD5Sum: 29445fa55ea10650afd9a8ea515a7cbf
+SHA256sum: 4a235f133a60ebdfbd63892d65e0335d87838b1851fff20d2b697563f6a9d04c
+Size: 568766
 Filename: minisatip_1.0d+git0+d21ed6459c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: Minisatip SAT>IP server
@@ -93695,16 +93712,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: mpd-dbg
-Version: 0.24.18-r0
+Version: 0.24.19-r0
 Recommends: alsa-lib-dbg, dbus-lib-dbg, expat-dbg, faad2-dbg, fluidsynth-dbg, fmt-dbg, glibc-dbg, libao-dbg, libavahi-client-dbg, libavahi-common-dbg, libavcodec-dbg, libavfilter-dbg, libavformat-dbg, libavutil-dbg, libbz2-dbg, libcdio-dbg, libcurl-dbg, libflac-dbg, libgcc-dbg, libicui18n-dbg, libicuuc-dbg, libiso9660-dbg, libjack-dbg, libmms-dbg, libmodplug-dbg, libogg-dbg, libopus-dbg, libpcre2-dbg, libpulse-dbg, libsamplerate0-dbg, libsndfile1-dbg, libsqlite3-dbg, libstdc++-dbg, libupnp-dbg, libvorbis-dbg, mpg123-dbg, openal-soft-dbg, wavpack-dbg, zlib-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a6836dea459d83d8452b0ba33cfc6809
-SHA256sum: fc4f68b9d902ff000b09c637ae95b3fc62c2a24ad54b863ada6ba219b27f3bed
-Size: 18666038
-Filename: mpd-dbg_0.24.18-r0_cortexa15hf-neon-vfpv4.ipk
-Source: mpd_0.24.18.bb
+MD5Sum: 70c5dfe5134d82e2af485861340b9868
+SHA256sum: 5d8028aedaea808d7ad043b2326bc77858b35f2f3b0091f42a4b1f4c6a44d57d
+Size: 18685694
+Filename: mpd-dbg_0.24.19-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mpd_0.24.19.bb
 Description: Music Player Daemon - Debugging files
 OE: mpd
 HomePage: http://www.musicpd.org
@@ -93712,16 +93729,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: mpd-dev
-Version: 0.24.18-r0
-Recommends: alsa-lib-dev, base-files-dev, base-passwd-dev, bzip2-dev, curl-dev, dbus-dev, dbus-lib-dev, expat-dev, faad2-dev, ffmpeg-dev, flac-dev, fluidsynth-dev, fmt-dev, glibc-dev, icu-dev, jack-dev, libao-dev, libavahi-client-dev, libavahi-common-dev, libavcodec-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbz2-dev, libcdio-dev, libcurl-dev, libflac-dev, libgcc-dev, libicui18n-dev, libicuuc-dev, libiso9660-dev, libjack-dev, libmms-dev, libmodplug-dev, libogg-dev, libopus-dev, libpcre2-dev, libpulse-dev, libsamplerate0-dev, libsndfile1-dev, libsqlite3-dev, libstdc++-dev, libupnp-dev, libvorbis-dev, mpd (= 0.24.18-r0), mpg123-dev, openal-soft-dev, pulseaudio-dev, shadow-dev, shadow-sysroot-dev, sqlite3-dev, wavpack-dev, yajl-dev, zlib-dev
+Version: 0.24.19-r0
+Recommends: alsa-lib-dev, base-files-dev, base-passwd-dev, bzip2-dev, curl-dev, dbus-dev, dbus-lib-dev, expat-dev, faad2-dev, ffmpeg-dev, flac-dev, fluidsynth-dev, fmt-dev, glibc-dev, icu-dev, jack-dev, libao-dev, libavahi-client-dev, libavahi-common-dev, libavcodec-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbz2-dev, libcdio-dev, libcurl-dev, libflac-dev, libgcc-dev, libicui18n-dev, libicuuc-dev, libiso9660-dev, libjack-dev, libmms-dev, libmodplug-dev, libogg-dev, libopus-dev, libpcre2-dev, libpulse-dev, libsamplerate0-dev, libsndfile1-dev, libsqlite3-dev, libstdc++-dev, libupnp-dev, libvorbis-dev, mpd (= 0.24.19-r0), mpg123-dev, openal-soft-dev, pulseaudio-dev, shadow-dev, shadow-sysroot-dev, sqlite3-dev, wavpack-dev, yajl-dev, zlib-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d81927eff620e984925775706ceac9ab
-SHA256sum: 8fe350812d20a68eecbab92c60c7b778f00e8c02d29a9b6a87d065dc81dad461
+MD5Sum: 263b0f5f4a6abc2f4948e944c2557141
+SHA256sum: e6736a4fc681ff5aeaa7ebcc6c6ae93d3c90e2e3e20b9b603e1ae494e866e418
 Size: 920
-Filename: mpd-dev_0.24.18-r0_cortexa15hf-neon-vfpv4.ipk
-Source: mpd_0.24.18.bb
+Filename: mpd-dev_0.24.19-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mpd_0.24.19.bb
 Description: Music Player Daemon - Development files
 OE: mpd
 HomePage: http://www.musicpd.org
@@ -93729,15 +93746,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: mpd-doc
-Version: 0.24.18-r0
+Version: 0.24.19-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 70d0560ae3227c0a0b55bd6a03b4f54a
-SHA256sum: 3f5c6690979ddd8878f20200c694cb96b5007402e561eca52c9d280fa8afdd51
-Size: 45740
-Filename: mpd-doc_0.24.18-r0_cortexa15hf-neon-vfpv4.ipk
-Source: mpd_0.24.18.bb
+MD5Sum: fc4980c35b67266e7d41640d3062e53d
+SHA256sum: b5937719075b2fdcdc343786a798a69eebcaedf4f3d30179e9d5f3c4f8e2751a
+Size: 46122
+Filename: mpd-doc_0.24.19-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mpd_0.24.19.bb
 Description: Music Player Daemon - Documentation files
 OE: mpd
 HomePage: http://www.musicpd.org
@@ -93745,19 +93762,19 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: mpd
-Version: 0.24.18-r0
-Depends: base-files, base-passwd, faad2 (>= 2.11.4), libao2 (>= 0.8.8), libasound2 (>= 1.2.16.1), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libavcodec63 (>= 9.0.2), libavfilter12 (>= 9.0.2), libavformat63 (>= 9.0.2), libavutil61 (>= 9.0.2), libbz2-1 (>= 1.0.8), libc6 (>= 2.44+git0+34106fee69), libcdio21 (>= 2.4.0), libcurl4 (>= 8.23.0), libdbus-1-3 (>= 1.16.2), libexpat1 (>= 2.10.0), libflac14 (>= 1.5.0), libfluidsynth3 (>= 2.5.7), libfmt12 (>= 12.2.1), libgcc1 (>= 16.2.0), libicui18n79 (>= 79.1), libicuuc79 (>= 79.1), libiso9660-13 (>= 2.4.0), libjack (>= 1.9.22), libmms0 (>= 0.6.4), libmodplug1 (>= 0.8.9.0), libogg0 (>= 1.3.6), libopus0 (>= 1.6.1), libpcre2 (>= 10.49), libpulse0 (>= 17.0), libsamplerate0 (>= 0.2.2), libsndfile1 (>= 1.2.2), libsqlite3-0 (>= 3.54.1), libstdc++6 (>= 16.2.0), libupnp (>= 1.14.31), libvorbis (>= 1.3.7), libwavpack1 (>= 5.9.0), libz1 (>= 1.4), mpg123 (>= 1.33.7), openal-soft (>= 1.25.2), shadow
+Version: 0.24.19-r0
+Depends: base-files, base-passwd, faad2 (>= 2.11.4), libao2 (>= 0.8.8), libasound2 (>= 1.2.16.1), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libavcodec63 (>= 9.0.2), libavfilter12 (>= 9.0.2), libavformat63 (>= 9.0.2), libavutil61 (>= 9.0.2), libbz2-1 (>= 1.0.8), libc6 (>= 2.44+git0+34106fee69), libcdio21 (>= 2.4.0), libcurl4 (>= 8.23.0), libdbus-1-3 (>= 1.16.2), libexpat1 (>= 2.10.0), libflac14 (>= 1.5.0), libfluidsynth3 (>= 2.6.2), libfmt12 (>= 12.2.1), libgcc1 (>= 16.2.0), libicui18n79 (>= 79.1), libicuuc79 (>= 79.1), libiso9660-13 (>= 2.4.0), libjack (>= 1.9.22), libmms0 (>= 0.6.4), libmodplug1 (>= 0.8.9.0), libogg0 (>= 1.3.6), libopus0 (>= 1.6.1), libpcre2 (>= 10.49), libpulse0 (>= 17.0), libsamplerate0 (>= 0.2.2), libsndfile1 (>= 1.2.2), libsqlite3-0 (>= 3.54.1), libstdc++6 (>= 16.2.0), libupnp (>= 22.2.2), libvorbis (>= 1.3.7), libwavpack1 (>= 5.9.0), libz1 (>= 1.4), mpg123 (>= 1.33.7), openal-soft (>= 1.25.2), shadow
 Provides: mpd-systemd
 Replaces: mpd-systemd
 Conflicts: mpd-systemd
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 01a24fec2f7d1c4e22dcecd5b781524b
-SHA256sum: 007af63d5966219f07034ff2bf2020a5985de981250b5fea2822e9355bb87059
-Size: 608884
-Filename: mpd_0.24.18-r0_cortexa15hf-neon-vfpv4.ipk
-Source: mpd_0.24.18.bb
+MD5Sum: 4567c3721f7df49412470a60287393df
+SHA256sum: c1c196a05ec522a66ca98949288887d68b672ff477f654d069165fecdc0fc89d
+Size: 608830
+Filename: mpd_0.24.19-r0_cortexa15hf-neon-vfpv4.ipk
+Source: mpd_0.24.19.bb
 Description: Music Player Daemon
 OE: mpd
 HomePage: http://www.musicpd.org
@@ -129955,14 +129972,14 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dbg
-Version: 2026.10.26-git24038+ee255910+ee2559128c-r4
+Version: 2026.10.26-git24040+fcfd8140+fcfd814ffa-r4
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6eb65ac185eeaec60caafe1f0148ea32
-SHA256sum: 7660164bf9918f80c14b44b7877a0e57f686ece6078c4a6cd8f875adf7bdc6ca
-Size: 750
-Filename: python3-yt-dlp-dbg_2026.10.26-git24038+ee255910+ee2559128c-r4_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 06ff6b70cf6516c1661d386007c75e15
+SHA256sum: 640c317e95d852a4b8d8204e164a83543de98d1459d5cb7c804557c824c976f7
+Size: 748
+Filename: python3-yt-dlp-dbg_2026.10.26-git24040+fcfd8140+fcfd814ffa-r4_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Debugging files
 OE: python3-yt-dlp
@@ -129971,15 +129988,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dev
-Version: 2026.10.26-git24038+ee255910+ee2559128c-r4
-Recommends: bash-completion-dev, libxml2-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-gdata-python3-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2026.10.26-git24038+ee255910+ee2559128c-r4), python3-yt-dlp-ejs-dev, quickjs-dev
+Version: 2026.10.26-git24040+fcfd8140+fcfd814ffa-r4
+Recommends: bash-completion-dev, libxml2-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-gdata-python3-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2026.10.26-git24040+fcfd8140+fcfd814ffa-r4), python3-yt-dlp-ejs-dev, quickjs-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: edc75625614fbd9896f137574864a3c0
-SHA256sum: c43c5945404136f573d0a683069d3b08ff6b28e03dc82d2457e7afa08af27165
+MD5Sum: 60fab8e4531c80155d7765035591e364
+SHA256sum: 266e1d979f817dcc75ad4d2105edf49719d4589a3620c05a354d3301a2f67e59
 Size: 854
-Filename: python3-yt-dlp-dev_2026.10.26-git24038+ee255910+ee2559128c-r4_cortexa15hf-neon-vfpv4.ipk
+Filename: python3-yt-dlp-dev_2026.10.26-git24040+fcfd8140+fcfd814ffa-r4_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Development files
 OE: python3-yt-dlp
@@ -129988,15 +130005,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp
-Version: 2026.10.26-git24038+ee255910+ee2559128c-r4
+Version: 2026.10.26-git24040+fcfd8140+fcfd814ffa-r4
 Depends: python3-core, python3-ctypes, python3-email, python3-gdata-python3, python3-html, python3-unixadmin, python3-yt-dlp-ejs, quickjs
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 05c97046c95b02df8aa06fb22994f328
-SHA256sum: cee04f8bf3d2708023ca139f4b3e2c931edf579a50aa28582815dc32285382ea
-Size: 6987564
-Filename: python3-yt-dlp_2026.10.26-git24038+ee255910+ee2559128c-r4_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d16337ed7f135fd57b6a6c974dd3aaa2
+SHA256sum: c2713690e01353863f4fc1c5e95b660516392cca01e1cc3850b80542a36c6412
+Size: 6987530
+Filename: python3-yt-dlp_2026.10.26-git24040+fcfd8140+fcfd814ffa-r4_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes
 OE: python3-yt-dlp
