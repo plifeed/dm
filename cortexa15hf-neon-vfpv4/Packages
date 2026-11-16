@@ -9767,14 +9767,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-chefkoch-dbg
-Version: V2.6-git105+e8115c90+e8115c98bf-r0
+Version: V2.7-git106+9e16f1d0+9e16f1dabe-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6cbb685ddc6833acdee45d38385fd635
-SHA256sum: ebce994937fdb864a830f260f2d7b4465ee61b47403c47df4ce7c33d5ddea932
+MD5Sum: a5330454770981d18084e971a4aded1f
+SHA256sum: b4b3f858cc1ef299f58ee22d7671b9a7baf41903b82f193b4165c037a6eb6c44
 Size: 656
-Filename: enigma2-plugin-extensions-chefkoch-dbg_V2.6-git105+e8115c90+e8115c98bf-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-chefkoch-dbg_V2.7-git106+9e16f1d0+9e16f1dabe-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-chefkoch.bb
 Description: Chefkoch – Rezepte fürs Kochen & Backen - Debugging files
 OE: enigma2-plugin-extensions-chefkoch
@@ -9782,15 +9782,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-chefkoch-dev
-Version: V2.6-git105+e8115c90+e8115c98bf-r0
-Recommends: enigma2-plugin-extensions-chefkoch (= V2.6-git105+e8115c90+e8115c98bf-r0), python3-core-dev, python3-dev
+Version: V2.7-git106+9e16f1d0+9e16f1dabe-r0
+Recommends: enigma2-plugin-extensions-chefkoch (= V2.7-git106+9e16f1d0+9e16f1dabe-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b87b3497e6835ee741f204d4b2419222
-SHA256sum: 5240bdd2db2d370064eb007099b28b76941602234be5af2f331520b3cb5c3583
-Size: 702
-Filename: enigma2-plugin-extensions-chefkoch-dev_V2.6-git105+e8115c90+e8115c98bf-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: fb83a716ab7b0645092044f42eb49ec4
+SHA256sum: aae4ba6d8ff1fe88238bea8016b8515dbd2cd15ed6467e062b0994392539eb12
+Size: 704
+Filename: enigma2-plugin-extensions-chefkoch-dev_V2.7-git106+9e16f1d0+9e16f1dabe-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-chefkoch.bb
 Description: Chefkoch – Rezepte fürs Kochen & Backen - Development files
 OE: enigma2-plugin-extensions-chefkoch
@@ -9798,14 +9798,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-chefkoch-src
-Version: V2.6-git105+e8115c90+e8115c98bf-r0
+Version: V2.7-git106+9e16f1d0+9e16f1dabe-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8d71ea39e94ac645dbe1d7af651b9d24
-SHA256sum: 85fe06bc8cb7678209f63dd259c475e2de5be026ac917fec67667bc9b2483544
-Size: 19862
-Filename: enigma2-plugin-extensions-chefkoch-src_V2.6-git105+e8115c90+e8115c98bf-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f717367119451f5b94fcbd620e0ab35c
+SHA256sum: 0b74b3b6ac05fcbb52973d79b171ecb66653e1002fb1d2f03b7f2e7085c06985
+Size: 19882
+Filename: enigma2-plugin-extensions-chefkoch-src_V2.7-git106+9e16f1d0+9e16f1dabe-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-chefkoch.bb
 Description: Chefkoch – Rezepte fürs Kochen & Backen - Source files
 OE: enigma2-plugin-extensions-chefkoch
@@ -9813,15 +9813,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-chefkoch
-Version: V2.6-git105+e8115c90+e8115c98bf-r0
+Version: V2.7-git106+9e16f1d0+9e16f1dabe-r0
 Depends: python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 99310651bc95347e19b59d7046500966
-SHA256sum: 750c40c2026ef31050bff2d8e25ed8fcbb7099dadc6b40c332c60cc316fa968a
-Size: 111514
-Filename: enigma2-plugin-extensions-chefkoch_V2.6-git105+e8115c90+e8115c98bf-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 75402eff1225b9b67fa5c14528ac90a7
+SHA256sum: cf50409d62fc155345c4015c72143456ab8166e1c49ef97201b885b1b8c7caec
+Size: 111762
+Filename: enigma2-plugin-extensions-chefkoch_V2.7-git106+9e16f1d0+9e16f1dabe-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-chefkoch.bb
 Description: Chefkoch – Rezepte fürs Kochen & Backen
 OE: enigma2-plugin-extensions-chefkoch
@@ -9957,14 +9957,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: 2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0
+Version: 2026.11.16.01-git6362+e54df130+e54df137b1-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: e6340c71328fad2f4dc606084b65b9aa
-SHA256sum: 68f381001c56d303c167df93c10e6a6579fe391cd3986eb7d92979b535ea16c9
+MD5Sum: ff9333bd71a57b5dd2c44f0686cc93a7
+SHA256sum: 46d4ff148bc47dbe61a3148af3a2027612dd8d44ff52795737325274f8df089e
 Size: 670
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_2026.11.16.01-git6362+e54df130+e54df137b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10025,15 +10025,15 @@ License: GPL-3.0-only AND LGPL-2.1-or-later AND MIT AND Zlib
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: 2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0), python3-core-dev, python3-dev
+Version: 2026.11.16.01-git6362+e54df130+e54df137b1-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= 2026.11.16.01-git6362+e54df130+e54df137b1-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: b5e3fd93163e6e5c630446ee5f157ed2
-SHA256sum: e7ac3772bcbe2414702aae55cf1285c6c778c869e982d2c3d9dd5d5629b56c34
-Size: 724
-Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: a310416d09136c321ddb6e977c6360d1
+SHA256sum: 68b39426fef493412cc2cd87427410def44bdc87e742a5eadbe6e3dc073a79f0
+Size: 722
+Filename: enigma2-plugin-extensions-e2iplayer-dev_2026.11.16.01-git6362+e54df130+e54df137b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10042,15 +10042,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: 2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0
+Version: 2026.11.16.01-git6362+e54df130+e54df137b1-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: ec737cb8250ac3828b0fe5abef3e8f1d
-SHA256sum: c3a63cd63400f60b2c5070e151413d72365576946e57300ce9201e57adfc4d56
-Size: 3043964
-Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ff902fae332af79cc020fdf7c169a2dc
+SHA256sum: c3d4a42e46b9c9d3b23848dd9fca2afcaf5f06809cd740e5f545155899a8ecaf
+Size: 3047518
+Filename: enigma2-plugin-extensions-e2iplayer-src_2026.11.16.01-git6362+e54df130+e54df137b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10059,16 +10059,16 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: 2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0
+Version: 2026.11.16.01-git6362+e54df130+e54df137b1-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: openATV team
-MD5Sum: 409e1ee9c71dcc7e843a2b094b8017fd
-SHA256sum: 44617d29d26208ccfdfef841142360c998572dbcdd5fa9d1f0bc89849ced3d97
-Size: 27310088
-Filename: enigma2-plugin-extensions-e2iplayer_2026.11.15.04-git6359+83a6b2d0+83a6b2d3f6-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5e347e131021fc6a9cb27a61af35768c
+SHA256sum: a1d6b89de00fa8a6736ca4b0b781348b29847951eb59601041e8cca4918559df
+Size: 27324442
+Filename: enigma2-plugin-extensions-e2iplayer_2026.11.16.01-git6362+e54df130+e54df137b1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -13557,15 +13557,15 @@ License: LicenseRef-LICENSE-CLOSED
 Priority: optional
 
 Package: enigma2-plugin-softcams-ncam
-Version: git10921+5f4ad470+5f4ad477bf-r0
+Version: git10923+b5f72b50+b5f72b53b0-r0
 Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git77+6c459850+6c459854e7), libssl4 (>= 4.1.0), libudev1 (>= 3.3.0), libusb-1.0-0 (>= 1.0.30), softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: RAED Developer
-MD5Sum: 6cf7567bb39dae26c316e81fb0328304
-SHA256sum: 11cb923fd31d5ebd28beaae282d128d0c63e5949d4d29bd59ef4c6a271d2a519
-Size: 890444
-Filename: enigma2-plugin-softcams-ncam_git10921+5f4ad470+5f4ad477bf-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 03bc1180500b70dde90faf6deaabafce
+SHA256sum: 219e01acfb5ba8548019cd37d8d4559e0ccca1de65185878290702228f5d71ed
+Size: 891548
+Filename: enigma2-plugin-softcams-ncam_git10923+b5f72b50+b5f72b53b0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-ncam.bb
 Description: enigma2-plugin-softcams-ncam version git-r0
 OE: enigma2-plugin-softcams-ncam
@@ -13573,15 +13573,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-emu
-Version: 11986-git11098+bfeb6450+bfeb64581b-r0
+Version: 11987-git11100+5ffd2990+5ffd299b39-r0
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32505cb7c5fb4dad74aff43538e9b333
-SHA256sum: a0186f2b7da5fd5fce239b5e51b1abfc41f7e95c4d27926744f916ccec1c2efb
-Size: 739280
-Filename: enigma2-plugin-softcams-oscam-emu_11986-git11098+bfeb6450+bfeb64581b-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8b3aff5df90eb6d5c98a3f6c2df457d3
+SHA256sum: fe7a96b6c7db61d9ee98b09320ea08647cafc5e4df526d4a851137e046610c63
+Size: 739226
+Filename: enigma2-plugin-softcams-oscam-emu_11987-git11100+5ffd2990+5ffd299b39-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam-emu.bb
 Description: enigma2-plugin-softcams-oscam-emu version git-r0
 OE: enigma2-plugin-softcams-oscam-emu
@@ -13589,15 +13589,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam
-Version: 11986-git10905+d9137cf0+d9137cf063-r0
+Version: 11987-git10906+e29367c0+e29367c1f0-r0
 Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 95ec2e30951b8b774fa701985a2026eb
-SHA256sum: 31a4fa134322a2cf96f967f51fee338ac2d084c443f492d107c89bdd9491b054
-Size: 690742
-Filename: enigma2-plugin-softcams-oscam_11986-git10905+d9137cf0+d9137cf063-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 47875a8caa4e6ec40b7af967c5c895fd
+SHA256sum: d4535dd5ce286f8a34d583992229533a664a76ba6c980ba1d897a9134f39e773
+Size: 692824
+Filename: enigma2-plugin-softcams-oscam_11987-git10906+e29367c0+e29367c1f0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
 OE: enigma2-plugin-softcams-oscam
@@ -54318,8 +54318,8 @@ Recommends: kernel-module-ext2
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: de55b86b0afce8be2e41585db29ef5c8
-SHA256sum: e0180359880a8c980473779a38a0842e917a214fe23c50a35db3b3cb791bd836
+MD5Sum: 28a8227fccbb33a1a00db95a479875c8
+SHA256sum: 4645364132a665174259899eef870aa0b1a0b2f16eec97fcd66aa5084bfbc8b8
 Size: 60134828
 Filename: kodi-addon-inputstream-adaptive-piers_22.3.24+gitr0+4bbfbc67f9_a4a4172467-r1_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
@@ -54366,9 +54366,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libgcc1 (>= 16.
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 220d9f64cceb7145ec4370f6c694e030
-SHA256sum: f0ebe8d10ebc2139214b5113b93781cc7638d524dfc280b82abf31dcf562dbb2
-Size: 578342
+MD5Sum: 586299a75613f4291cdd1da93bc3c898
+SHA256sum: 0e6c7d88a05210f6c2217288630f637d6aa8bd9460c3354eb23fb9a24035846f
+Size: 578430
 Filename: kodi-addon-inputstream-rtmp-piers_22.1.3+gitr0+de59f7862f-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-inputstream-rtmp-piers_git.bb
 Description: kodi inputstream addon for rtmp
@@ -54416,9 +54416,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 96419e98b398c59550e64d2b460bcef2
-SHA256sum: 48e0a029c9303b201d63d9b660514c359409ce284ff62bcb73b5c45184e089f4
-Size: 1403068
+MD5Sum: 045bc561b7fe8db3b5244acf8eea4c51
+SHA256sum: ec0714900fafe9764193d66610370cf87f754248936ac4add003a4020eeec2f1
+Size: 1403128
 Filename: kodi-addon-visualization-fishbmc_22.1.2+gitr0+ad159c5ad4-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-fishbmc_git.bb
 Description: Kodi visualization.fishbmc music visualization
@@ -54467,9 +54467,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44187e8656d4582b5fb1e12d9e2e3041
-SHA256sum: c30c3776dff55df9c08070234ac35ec49d79bdacab9346cbdc3d39af6f3c070c
-Size: 2119748
+MD5Sum: 9e0ea8132ca10f87963fba978d5c80ae
+SHA256sum: 27246a3a6be8b3d767ded004fb7e8352509490de2fa662033c86117363a0da9a
+Size: 2119570
 Filename: kodi-addon-visualization-matrix_22.1.1+gitr0+8320deb099-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-matrix_git.bb
 Description: Kodi visualization.matrix music visualization
@@ -54518,9 +54518,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f9a90c64314d0a35d63b40812d51bbf2
-SHA256sum: 65fc2bf7a80e293beb95e2faaef564f8008548a6520833d5e44e32bc7a8d01ea
-Size: 1344282
+MD5Sum: 020594c5f95ef9fdfa0943433820691a
+SHA256sum: 596bf5ec029c4bf2841bb78a651b60a1eec2b4735533995ebe7ce9024495cba0
+Size: 1344156
 Filename: kodi-addon-visualization-pictureit_22.1.1+gitr0+407b20c1ea-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-pictureit_git.bb
 Description: Kodi visualization.pictureit music visualization
@@ -54569,9 +54569,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libjsoncpp27 (>= 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bc0807ddd3316b342bc18be1f6318e03
-SHA256sum: 469eff9bf00be53fc33611bc26ccf71ba0254f8f983ff9e1f24a4078cd6b1d40
-Size: 26620086
+MD5Sum: 1c55f5db47b298b1bde3066709508f95
+SHA256sum: 74600433cd5652813a38e0db2331add8d17be1497adc045ac32d5c3c588f04f7
+Size: 26620146
 Filename: kodi-addon-visualization-shadertoy_22.1.1+gitr0+034413fa3c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-shadertoy_git.bb
 Description: Kodi visualization.shadertoy music visualization
@@ -54620,9 +54620,9 @@ Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libkodiplatform, 
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1c014a4f50926d46c7216a7f51f1e2ff
-SHA256sum: a04fa203120716f8f9501e282e76bc9a703baaeac1968de0c00616adcdf944e3
-Size: 1421228
+MD5Sum: 0c47d50be81a9f02ee000b8931a71712
+SHA256sum: 785593bc0f73c5ea1e81338849104bc0cd396f8c4ad3c671d61ec48ef609c2d5
+Size: 1420974
 Filename: kodi-addon-visualization-waveform_22.1.1+gitr0+8e62fef394-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-visualization-waveform_git.bb
 Description: Kodi visualization.waveform music visualization
@@ -54633,14 +54633,14 @@ Priority: optional
 
 Package: krb5-admin-server
 Version: 1.22.3-r0
-Depends: libc6 (>= 2.44+git0+34106fee69), libcom-err2 (>= 1.47.4), libgssapi-krb5-2 (>= 1.22.3), libgssrpc4 (>= 1.22.3), libk5crypto3 (>= 1.22.3), libkadm5srv-mit12 (>= 1.22.3), libkdb5-10 (>= 1.22.3), libkrb5-3 (>= 1.22.3), libkrb5support0 (>= 1.22.3), libverto0 (>= 1.22.3)
+Depends: krb5-kdc, libc6 (>= 2.44+git0+34106fee69), libcom-err2 (>= 1.47.4), libgssapi-krb5-2 (>= 1.22.3), libgssrpc4 (>= 1.22.3), libk5crypto3 (>= 1.22.3), libkadm5srv-mit12 (>= 1.22.3), libkdb5-10 (>= 1.22.3), libkrb5-3 (>= 1.22.3), libkrb5support0 (>= 1.22.3), libverto0 (>= 1.22.3)
 Recommends: update-rc.d
 Section: console/network
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cd69ca7e495a3999e7d8757fa191c739
-SHA256sum: 700b771f7c1f05ea22649bf69b67e917637f2935563ad431d34fbe20acaae865
-Size: 84960
+MD5Sum: ce3552b79d701ae4b6da47cf693fe390
+SHA256sum: 16c6041a91994040702204706bbb046b682dae44c10bd7571f978e95b1d11e1f
+Size: 84964
 Filename: krb5-admin-server_1.22.3-r0_cortexa15hf-neon-vfpv4.ipk
 Source: krb5_1.22.3.bb
 Description: A network authentication protocol
