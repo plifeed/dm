@@ -907,14 +907,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles-dbg
-Version: git20+64f6d700+64f6d701e7-r0
+Version: git21+3f0798e0+3f0798e116-r0
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 3ee9dd9ebe02843209be4a38c664ea84
-SHA256sum: 62056ca80ff5c97e73e0918cbb1d98b5abd2c284e9990a2e369c9f391e12eec8
-Size: 574
-Filename: enigma2-plugin-extensions-ciefpxfiles-dbg_git20+64f6d700+64f6d701e7-r0_all.ipk
+MD5Sum: 379458e0273436b8da5271dd9f71f764
+SHA256sum: 147995fffd059c51cc2be5a62ca1b438372e4f84d2df543d5f1229ff8d5acac8
+Size: 576
+Filename: enigma2-plugin-extensions-ciefpxfiles-dbg_git21+3f0798e0+3f0798e116-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -922,15 +922,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles-dev
-Version: git20+64f6d700+64f6d701e7-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpxfiles (= git20+64f6d700+64f6d701e7-r0), python3-json-dev, python3-requests-dev, python3-shell-dev, python3-six-dev
+Version: git21+3f0798e0+3f0798e116-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpxfiles (= git21+3f0798e0+3f0798e116-r0), python3-json-dev, python3-requests-dev, python3-shell-dev, python3-six-dev
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 79b6d4fc537d9ad4b2a2de03800d422f
-SHA256sum: 122d30b2b8f0627383c4c76500f6224dc7447b192d2b9613cc87f0ba0a2daa83
-Size: 648
-Filename: enigma2-plugin-extensions-ciefpxfiles-dev_git20+64f6d700+64f6d701e7-r0_all.ipk
+MD5Sum: 56080e4d01f3bab3daa31a674069dbf6
+SHA256sum: 433fdcc0d3134a182fd8bfe502eb127b919491eb7ad9a87d7bc6aa62d9eb0471
+Size: 650
+Filename: enigma2-plugin-extensions-ciefpxfiles-dev_git21+3f0798e0+3f0798e116-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -938,15 +938,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciefpxfiles
-Version: git20+64f6d700+64f6d701e7-r0
+Version: git21+3f0798e0+3f0798e116-r0
 Depends: enigma2, python3-json, python3-requests, python3-shell, python3-six
 Section: base
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 67cc3d90a990fab0473ac278439a4cdc
-SHA256sum: c99d671abab0961e602db9d0fd1d0b6fa8fc5e2b864260b36cea8bc891dd6553
-Size: 2564898
-Filename: enigma2-plugin-extensions-ciefpxfiles_git20+64f6d700+64f6d701e7-r0_all.ipk
+MD5Sum: e5d9f2e3f3bb77d071695e4866cc01da
+SHA256sum: 4ed60a4683520360fafc18915386ed7277b85207fd9b975767c7ee8b936c5bcd
+Size: 2565114
+Filename: enigma2-plugin-extensions-ciefpxfiles_git21+3f0798e0+3f0798e116-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpxfiles.bb
 Description: CiefpXfiles Enigma2 Plugin
 OE: enigma2-plugin-extensions-ciefpxfiles
@@ -958,8 +958,8 @@ Version: git30+d1b74e30+d1b74e3ba7-r0
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 3ddb14f8f295a9c929cd070ac8c5bbfd
-SHA256sum: ffa966bbd6165fdb91ee0a5322ec472583cd5a98751d47b999fc9bfa15967445
+MD5Sum: f2a2453b8e93381e7c72830a5a779210
+SHA256sum: e37e04d3450ed24bad58beddc0d323db77ad0ca65c7830dda65653cebf3bee8c
 Size: 576
 Filename: enigma2-plugin-extensions-ciefpyoutube-dbg_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpyoutube.bb
@@ -974,8 +974,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpyoutube (= git30+d1b74e3
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 23dd981acd8dc1b9a066edac46d864c8
-SHA256sum: b62658bcf66bab6502bfefefcb59b6a3963d0c042aee11e3f2ce8868695e9fcc
+MD5Sum: 20e303c4794011e0303b178d0cf3a564
+SHA256sum: cd16f428b6e77b8141a9f9af7a4a624f9399ff2b0e9a4dfb67071a0a5713706c
 Size: 668
 Filename: enigma2-plugin-extensions-ciefpyoutube-dev_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpyoutube.bb
@@ -990,9 +990,9 @@ Depends: enigma2, enigma2-plugin-systemplugins-serviceapp, exteplayer3, python3-
 Section: base
 Architecture: all
 Maintainer: ciefp
-MD5Sum: d499b67b83a0ccf19c1322eaa578cc32
-SHA256sum: 154601e8cf480c9c082928f7e4cc61568f2db59b78492036f3fdfe866f63c4b3
-Size: 962786
+MD5Sum: b3c59d3c96f577ae6927058a3ea70dc9
+SHA256sum: 8b5a0ac2f49556897a4ec0b8c825415c8afc3c1d9ed6d9c6afceba5595324c1d
+Size: 962798
 Filename: enigma2-plugin-extensions-ciefpyoutube_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpyoutube.bb
 Description: CiefpYouTube Enigma2 Plugin
