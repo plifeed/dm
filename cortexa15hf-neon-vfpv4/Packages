@@ -9949,15 +9949,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciplus-helper-dbg
-Version: V7.2-git100+ce673440+ce67344be6-r0
+Version: V7.2-git102+c5689b20+c5689b2f75-r0
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: 20dcb0108604f1af45293d681ffc0c10
-SHA256sum: 7b7dfc5dbf8ea5ce59bbaf27af262ba1661cf7c1662a7b539a23139a5fe8621d
-Size: 626
-Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.2-git100+ce673440+ce67344be6-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: de7e782eed2f02f87408c89c9601915c
+SHA256sum: e29c9194d7c64e4502d4da73803ee2cb2f7304ed79ea46a1a7b79b413bdff681
+Size: 628
+Filename: enigma2-plugin-extensions-ciplus-helper-dbg_V7.2-git102+c5689b20+c5689b2f75-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-ciplus-helper
@@ -9965,15 +9965,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciplus-helper-dev
-Version: V7.2-git100+ce673440+ce67344be6-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.2-git100+ce673440+ce67344be6-r0), glibc-dev, libgcc-dev, libstdc++-dev
+Version: V7.2-git102+c5689b20+c5689b2f75-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-ciplus-helper (= V7.2-git102+c5689b20+c5689b2f75-r0), glibc-dev, libgcc-dev, libstdc++-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: eba0dc241fa9e8cae384dbaee7d2e8d4
-SHA256sum: 9e34c69bd4ff1d60db979cb935ed663dfeca2a4316ee6764d89272b780d308af
-Size: 658
-Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.2-git100+ce673440+ce67344be6-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f549727b39708aac1d154c4ed7bafc74
+SHA256sum: e333afce14005e549a248da725e825be66bded1d1ee7990a87d9e570da9bdb53
+Size: 660
+Filename: enigma2-plugin-extensions-ciplus-helper-dev_V7.2-git102+c5689b20+c5689b2f75-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2 - Development files
 OE: enigma2-plugin-extensions-ciplus-helper
@@ -9981,15 +9981,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-ciplus-helper
-Version: V7.2-git100+ce673440+ce67344be6-r0
+Version: V7.2-git102+c5689b20+c5689b2f75-r0
 Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), libstdc++6 (>= 16.2.0)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Lululla
-MD5Sum: ef1e21259f39a0ebe3bb643794ec44d8
-SHA256sum: 422e0919b66276510cfb802b3011f6a27a32c340c504712daa1aa27be1a0232b
-Size: 2204734
-Filename: enigma2-plugin-extensions-ciplus-helper_V7.2-git100+ce673440+ce67344be6-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 31c8c68cc5b1ca59d7e84393139d8956
+SHA256sum: fdce6565d7752b15c3aa1cf9f21fc944a5b13bb64aa730806677e4fb3cda08e0
+Size: 2209114
+Filename: enigma2-plugin-extensions-ciplus-helper_V7.2-git102+c5689b20+c5689b2f75-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-ciplus-helper.bb
 Description: CI+ Helper Plugin for Enigma2
 OE: enigma2-plugin-extensions-ciplus-helper
@@ -13225,14 +13225,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-webradiofs-dbg
-Version: V26.04-git13+d15cee00+d15cee0821-r0
+Version: V26.11-git15+7710e9a0+7710e9a8fd-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddcf1e6ddda5801ef46a485ac384a395
-SHA256sum: 5de24f9739122bcc76d650323621bd1d570a7e34d5aa17f6087483ab5d2f25ec
-Size: 624
-Filename: enigma2-plugin-extensions-webradiofs-dbg_V26.04-git13+d15cee00+d15cee0821-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 9c36b19786213d90f58362e5e3f1950a
+SHA256sum: d4bdf323dbf5456b353712f6b526f2dbac49650e413b8473eebc4799e3cfd014
+Size: 626
+Filename: enigma2-plugin-extensions-webradiofs-dbg_V26.11-git15+7710e9a0+7710e9a8fd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-webradiofs.bb
 Description: webradioFS for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-webradiofs
@@ -13240,15 +13240,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-webradiofs-dev
-Version: V26.04-git13+d15cee00+d15cee0821-r0
-Recommends: enigma2-plugin-extensions-webradiofs (= V26.04-git13+d15cee00+d15cee0821-r0), python3-core-dev, python3-dev, python3-sqlite3-dev, python3-twisted-web-dev
+Version: V26.11-git15+7710e9a0+7710e9a8fd-r0
+Recommends: enigma2-plugin-extensions-webradiofs (= V26.11-git15+7710e9a0+7710e9a8fd-r0), python3-core-dev, python3-dev, python3-sqlite3-dev, python3-twisted-web-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 014084fd7522277d8b101b027ecd1e8f
-SHA256sum: 9902690c604fb816229e33c21a6e47f16093e0edaaecaf0d87aba59b57a0f3d8
+MD5Sum: 63b9209d303c857e2b9fdc7e3aff6971
+SHA256sum: cede2d0178c05106f60e923a21cded0bfa57a3ebf6fcfcf61ffa2c8f44b11cd0
 Size: 690
-Filename: enigma2-plugin-extensions-webradiofs-dev_V26.04-git13+d15cee00+d15cee0821-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-webradiofs-dev_V26.11-git15+7710e9a0+7710e9a8fd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-webradiofs.bb
 Description: webradioFS for Enigma2 - Development files
 OE: enigma2-plugin-extensions-webradiofs
@@ -13256,14 +13256,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-webradiofs-src
-Version: V26.04-git13+d15cee00+d15cee0821-r0
+Version: V26.11-git15+7710e9a0+7710e9a8fd-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f1226d214c0a2dbf7c0eca0fad082a1c
-SHA256sum: 0dafc6d042d4443a02d65e24fe20006ee407641865f756031c3d4c46340f16ca
-Size: 116534
-Filename: enigma2-plugin-extensions-webradiofs-src_V26.04-git13+d15cee00+d15cee0821-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 09fe5f5bdb953d6e63f8fc87b95f1058
+SHA256sum: 8375e9c4b97e8bea2655e502c691fe661ba15d1cd5d667081af6873c2dad3614
+Size: 121930
+Filename: enigma2-plugin-extensions-webradiofs-src_V26.11-git15+7710e9a0+7710e9a8fd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-webradiofs.bb
 Description: webradioFS for Enigma2 - Source files
 OE: enigma2-plugin-extensions-webradiofs
@@ -13271,15 +13271,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-webradiofs
-Version: V26.04-git13+d15cee00+d15cee0821-r0
+Version: V26.11-git15+7710e9a0+7710e9a8fd-r0
 Depends: python3-core, python3-sqlite3, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 616cce2476d88303a400b4557e937d30
-SHA256sum: fffb37d0438e7a0cc9b59a7d8b4d0f831e7290c5cd1fa97494a310c297f72f7d
-Size: 584948
-Filename: enigma2-plugin-extensions-webradiofs_V26.04-git13+d15cee00+d15cee0821-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c2b1c865c632baa39d1ad7a3945aecf0
+SHA256sum: 0707aea982f7288f2e13d69ec79b6ae418450189786abc16783a79a766274d89
+Size: 601456
+Filename: enigma2-plugin-extensions-webradiofs_V26.11-git15+7710e9a0+7710e9a8fd-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-webradiofs.bb
 Description: webradioFS for Enigma2
 OE: enigma2-plugin-extensions-webradiofs
@@ -118297,15 +118297,15 @@ License: Apache-2.0
 Priority: optional
 
 Package: python3-annotated-doc-dbg
-Version: 0.0.6-r0
+Version: 0.0.7-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 02f8a62cad57ca8cf0b9aa0b498843cb
-SHA256sum: ff92fe54a4b430aca41d39549787eca60e3a1a44efdfe6cdf9c8cf7a0fee81f3
+MD5Sum: 4a78f689ebcdb6db9b8258da20277bfb
+SHA256sum: f675035c5974cf117a70fcccaa8a801e0e9a9ed93d65e02857ab82083eb21885
 Size: 674
-Filename: python3-annotated-doc-dbg_0.0.6-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-annotated-doc_0.0.6.bb
+Filename: python3-annotated-doc-dbg_0.0.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-annotated-doc_0.0.7.bb
 Description: Document parameters, class attributes, return types, and variables inline, with Annotated. - Debugging files
 OE: python3-annotated-doc
 HomePage: https://github.com/fastapi/annotated-doc
@@ -118313,16 +118313,16 @@ License: MIT
 Priority: optional
 
 Package: python3-annotated-doc-dev
-Version: 0.0.6-r0
-Recommends: python3-annotated-doc (= 0.0.6-r0), python3-compression-dev, python3-core-dev, python3-dev
+Version: 0.0.7-r0
+Recommends: python3-annotated-doc (= 0.0.7-r0), python3-compression-dev, python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f382baa45f41a9d4ea0b3f5e3655a3de
-SHA256sum: 9116cd19b6d9bb0e09de372593e79ee8ccccc03803a31353c475460fba4ad9bf
-Size: 720
-Filename: python3-annotated-doc-dev_0.0.6-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-annotated-doc_0.0.6.bb
+MD5Sum: 63326c7f044d9c39dfd129603af2839b
+SHA256sum: 18a19d49b59f16e56f5f061febbe49108c192e6e6051dc0e16e20c63a489997e
+Size: 722
+Filename: python3-annotated-doc-dev_0.0.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-annotated-doc_0.0.7.bb
 Description: Document parameters, class attributes, return types, and variables inline, with Annotated. - Development files
 OE: python3-annotated-doc
 HomePage: https://github.com/fastapi/annotated-doc
@@ -118330,16 +118330,16 @@ License: MIT
 Priority: optional
 
 Package: python3-annotated-doc
-Version: 0.0.6-r0
+Version: 0.0.7-r0
 Depends: python3-compression, python3-core
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 211a0ea397796273491a3d0ad54b8f16
-SHA256sum: d6758a891d27ef9c51be3d8fad21941668cee401b470d1e53daa29f564f159bb
-Size: 6024
-Filename: python3-annotated-doc_0.0.6-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-annotated-doc_0.0.6.bb
+MD5Sum: 9cf3181eae1faddfd06a7dab91b7b090
+SHA256sum: 21c55cb659506a006732647530410453867211d8702beceebccbeb1b0832ab50
+Size: 6018
+Filename: python3-annotated-doc_0.0.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-annotated-doc_0.0.7.bb
 Description: Document parameters, class attributes, return types, and variables inline, with Annotated.
 OE: python3-annotated-doc
 HomePage: https://github.com/fastapi/annotated-doc
@@ -119335,15 +119335,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: python3-cachetools-dbg
-Version: 8.0.0-r0
+Version: 8.0.1-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0e33f4f1f3a56dee7a6872b757c1fd41
-SHA256sum: 3372b150c888e7923606e1a9aa4ca2f542c768d7922e6768b78d216403706639
-Size: 708
-Filename: python3-cachetools-dbg_8.0.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-cachetools_8.0.0.bb
+MD5Sum: 498de1ac0040ce16ccc4f042e7e2e606
+SHA256sum: a5725c28a75b620f5066f14646239aa70fa515f4ee743def5f96d5cdb606f21c
+Size: 706
+Filename: python3-cachetools-dbg_8.0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-cachetools_8.0.1.bb
 Description: Extensible memoizing collections and decorators - Debugging files
 OE: python3-cachetools
 HomePage: https://github.com/tkem/cachetools
@@ -119351,16 +119351,16 @@ License: MIT
 Priority: optional
 
 Package: python3-cachetools-dev
-Version: 8.0.0-r0
-Recommends: python3-cachetools (= 8.0.0-r0), python3-core-dev, python3-dev, python3-math-dev
+Version: 8.0.1-r0
+Recommends: python3-cachetools (= 8.0.1-r0), python3-core-dev, python3-dev, python3-math-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: de1658963b8bbe6353045773ded3535a
-SHA256sum: 8d7089dfecdc99dc7f56c8e7bb11a546b32a7c4c24aef9608a4fe6fe980c9255
+MD5Sum: 20a0d745c31046265a532cde72539ea2
+SHA256sum: 4e8ab8abacf1b04204ec53c0f7ba02c8e6bec6a896f15dd3c468b2b4e011aebd
 Size: 754
-Filename: python3-cachetools-dev_8.0.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-cachetools_8.0.0.bb
+Filename: python3-cachetools-dev_8.0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-cachetools_8.0.1.bb
 Description: Extensible memoizing collections and decorators - Development files
 OE: python3-cachetools
 HomePage: https://github.com/tkem/cachetools
@@ -119368,16 +119368,16 @@ License: MIT
 Priority: optional
 
 Package: python3-cachetools
-Version: 8.0.0-r0
+Version: 8.0.1-r0
 Depends: python3-core, python3-math
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81796fa9e05010d7d2e29fd5edae9557
-SHA256sum: b2398bbfee87d54a6c237d1da7987167f79fc28b51b07796c96ba25e2e2f4a74
-Size: 43002
-Filename: python3-cachetools_8.0.0-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-cachetools_8.0.0.bb
+MD5Sum: 4937b957e1f49d9c132c02588e8ad8a8
+SHA256sum: d54c09864b2e7e9cca78e414c3ec3a2a062014c1218574255b964628a4c7ffb8
+Size: 45554
+Filename: python3-cachetools_8.0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-cachetools_8.0.1.bb
 Description: Extensible memoizing collections and decorators
 OE: python3-cachetools
 HomePage: https://github.com/tkem/cachetools
@@ -122071,15 +122071,15 @@ License: LGPL-3.0-only
 Priority: optional
 
 Package: python3-filelock-dbg
-Version: 4.2.11-r0
+Version: 4.2.12-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 822598c4ddff2ef204db3d265d2125c9
-SHA256sum: 19add2af97e221238d072032b3a304f46ba160afdf248df67b8d3850f240cbe7
+MD5Sum: a97f5652d4e56431610371a1fa602586
+SHA256sum: 97534521480ca82667c5eb1f5f120b0f707572c2b983db03738400407b2618d9
 Size: 694
-Filename: python3-filelock-dbg_4.2.11-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-filelock_4.2.11.bb
+Filename: python3-filelock-dbg_4.2.12-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-filelock_4.2.12.bb
 Description: A single module, which implements a platform independent file lock in Python, which provides a simple way of inter-process communication - Debugging files
 OE: python3-filelock
 HomePage: https://py-filelock.readthedocs.io/
@@ -122087,16 +122087,16 @@ License: MIT
 Priority: optional
 
 Package: python3-filelock-dev
-Version: 4.2.11-r0
-Recommends: python3-asyncio-dev, python3-core-dev, python3-crypt-dev, python3-dev, python3-filelock (= 4.2.11-r0), python3-logging-dev
+Version: 4.2.12-r0
+Recommends: python3-asyncio-dev, python3-core-dev, python3-crypt-dev, python3-dev, python3-filelock (= 4.2.12-r0), python3-logging-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4c91b8769a93a7c14ee8d5d9434b39f4
-SHA256sum: d0c0c4cd3bee1fd76ba5768edc9b4677b1d76b32c06f776f9ce0a0193ee59b21
+MD5Sum: c628d44c1b278e1fd0447262d0bf435e
+SHA256sum: d3a2f177e3b95d729dabe7e04a66f4894966a43784a8e47e5d86e6ca1e36db44
 Size: 758
-Filename: python3-filelock-dev_4.2.11-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-filelock_4.2.11.bb
+Filename: python3-filelock-dev_4.2.12-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-filelock_4.2.12.bb
 Description: A single module, which implements a platform independent file lock in Python, which provides a simple way of inter-process communication - Development files
 OE: python3-filelock
 HomePage: https://py-filelock.readthedocs.io/
@@ -122104,16 +122104,16 @@ License: MIT
 Priority: optional
 
 Package: python3-filelock
-Version: 4.2.11-r0
+Version: 4.2.12-r0
 Depends: python3-asyncio, python3-core, python3-crypt, python3-logging
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 95e1f942956cbf025b10b5c3e1b750ca
-SHA256sum: 76b17c24e8fe661e30e0d1d9ba2156827d743d4409fa908c64c0bb0ce622cf04
-Size: 411158
-Filename: python3-filelock_4.2.11-r0_cortexa15hf-neon-vfpv4.ipk
-Source: python3-filelock_4.2.11.bb
+MD5Sum: 25c7c234fbbf49b16b08e0651d65493a
+SHA256sum: cd792fa8263296bc9a9c5c9733b64ae45afa826954e361365795488d640766a3
+Size: 411400
+Filename: python3-filelock_4.2.12-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-filelock_4.2.12.bb
 Description: A single module, which implements a platform independent file lock in Python, which provides a simple way of inter-process communication
 OE: python3-filelock
 HomePage: https://py-filelock.readthedocs.io/
