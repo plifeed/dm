@@ -13291,9 +13291,9 @@ Version: V7.4-git563+58440890+5844089e9c-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 5c680699103f41121555eb70a40e409a
-SHA256sum: 97c413e095e9f80ad489572aa01ea905600873858b89e2673256d673d7cc7892
-Size: 650
+MD5Sum: d07dbdcacb878e6a2f21a940a373b51e
+SHA256sum: d4ea387e544b3a858c6aaad83e53eb937d5a0db2d58419153b7ea0d874b74a03
+Size: 652
 Filename: enigma2-plugin-extensions-worldcam-dbg_V7.4-git563+58440890+5844089e9c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Debugging files
@@ -13308,8 +13308,8 @@ Recommends: enigma2-plugin-extensions-worldcam (= V7.4-git563+58440890+5844089e9
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 4cda8c4587ea1ee835a4a98bfffb048b
-SHA256sum: c9680d210306c346d1956f5988fa58309320ce93abfec0606f096dfeb12a6ed7
+MD5Sum: 3e5122a0eb36cc61ff5af0d77d6cb484
+SHA256sum: 88c11db91b8e609fccc0dcf0072cc816b0106ce09bab0a9733442ecf62665a47
 Size: 784
 Filename: enigma2-plugin-extensions-worldcam-dev_V7.4-git563+58440890+5844089e9c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13324,9 +13324,9 @@ Version: V7.4-git563+58440890+5844089e9c-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: a88893f8235fbea3a32ef84f13eff9fa
-SHA256sum: c273a4a9204365c4c525d1466f6a3850a256ea445e5cfbf4219f1a581ef01093
-Size: 44374
+MD5Sum: b0d97ea290cd1c526a9a964d3cad1f8f
+SHA256sum: 79ba5652bc4b9705b72a7736beddecfec095bee0c05ca3ea2a23e00196019319
+Size: 44378
 Filename: enigma2-plugin-extensions-worldcam-src_V7.4-git563+58440890+5844089e9c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Source files
@@ -13342,9 +13342,9 @@ Recommends: enigma2-plugin-extensions-streamlinkwrapper, enigma2-plugin-extensio
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 14fdbafd61a672231c14fc9798829943
-SHA256sum: 73d582c34188dd0ac88d6ca9d379118139b4778b482c5e2cf74a16423273f1fc
-Size: 6570874
+MD5Sum: 8a275616569aaec22e4d08ab3a306d47
+SHA256sum: 36bff3afc261b1e8bedc12fc9542e34835002fd50b675a27fcdd648e9543d606
+Size: 6570784
 Filename: enigma2-plugin-extensions-worldcam_V7.4-git563+58440890+5844089e9c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists
@@ -134114,14 +134114,14 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dbg
-Version: 2026.10.26-git24048+2d596f40+2d596f4882-r4
+Version: 2026.10.26-git24049+01c58db0+01c58db00f-r4
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bb26017e66032b8ffc2114cfbfeb6025
-SHA256sum: 5110caee2380e7f39522dfe1e0c5004a0e7980a5a337e953665a094376b2f88a
-Size: 752
-Filename: python3-yt-dlp-dbg_2026.10.26-git24048+2d596f40+2d596f4882-r4_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 7ce0c3d8c9e52e1c0574bb94804c1dbb
+SHA256sum: 36da9e9e95e9cae5711034956e75a0e58d159733d9d75a0be6c3dfd365b45040
+Size: 750
+Filename: python3-yt-dlp-dbg_2026.10.26-git24049+01c58db0+01c58db00f-r4_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Debugging files
 OE: python3-yt-dlp
@@ -134130,15 +134130,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dev
-Version: 2026.10.26-git24048+2d596f40+2d596f4882-r4
-Recommends: bash-completion-dev, libxml2-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-gdata-python3-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2026.10.26-git24048+2d596f40+2d596f4882-r4), python3-yt-dlp-ejs-dev, quickjs-dev
+Version: 2026.10.26-git24049+01c58db0+01c58db00f-r4
+Recommends: bash-completion-dev, libxml2-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-gdata-python3-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2026.10.26-git24049+01c58db0+01c58db00f-r4), python3-yt-dlp-ejs-dev, quickjs-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 484c2bd21291c7db457d387cbaa969bc
-SHA256sum: ad971cd2beb6235bec2f1326d009b9a7ed8e161671be61fa559a9f0f287dfce9
-Size: 856
-Filename: python3-yt-dlp-dev_2026.10.26-git24048+2d596f40+2d596f4882-r4_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b4fb2e0762ba2350203f5a87cc4bf13d
+SHA256sum: 07549111f50d05a2d9c29321a5479a23741ee83e8a80ca058f98a94fbf452695
+Size: 854
+Filename: python3-yt-dlp-dev_2026.10.26-git24049+01c58db0+01c58db00f-r4_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Development files
 OE: python3-yt-dlp
@@ -134147,15 +134147,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp
-Version: 2026.10.26-git24048+2d596f40+2d596f4882-r4
+Version: 2026.10.26-git24049+01c58db0+01c58db00f-r4
 Depends: python3-core, python3-ctypes, python3-email, python3-gdata-python3, python3-html, python3-unixadmin, python3-yt-dlp-ejs, quickjs
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 957d023c368434aae7043057b4c49785
-SHA256sum: cee4938cbac05814147ad40f74b16691c1501460768a64d5ffba8134045258fb
-Size: 6987832
-Filename: python3-yt-dlp_2026.10.26-git24048+2d596f40+2d596f4882-r4_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 2b6bafdf2073afa135cc8d42ea70d1a0
+SHA256sum: d36d67b21d059442825b7bddfd932f27a65aabbbf55065ef6bf6833e50539547
+Size: 6988746
+Filename: python3-yt-dlp_2026.10.26-git24049+01c58db0+01c58db00f-r4_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes
 OE: python3-yt-dlp
