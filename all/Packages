@@ -1099,9 +1099,9 @@ Version: 1.0-git171+da691bc0+da691bcca3-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 2fdddc0b09c7d6de62241d006e8e5f7d
-SHA256sum: 26519fe4eab3f35e8d89d29089fe982608b181bb4566b7098674aa896bfcb7fc
-Size: 616
+MD5Sum: f3a136788d2e775090348c57b5e37563
+SHA256sum: 7d646a714171375b531fcb516e634b50dbaae56b791ea5e46696d64deebebc79
+Size: 620
 Filename: enigma2-plugin-extensions-e2embyclient-dbg_1.0-git171+da691bc0+da691bcca3-r0_all.ipk
 Source: enigma2-plugin-extensions-e2embyclient.bb
 Description: Enigma2 client for Emby servers - Debugging files
@@ -1116,8 +1116,8 @@ Recommends: enigma2-plugin-extensions-e2embyclient (= 1.0-git171+da691bc0+da691b
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 7707dfc9e24c6a8cf5cf8245490484b5
-SHA256sum: ef0619050c0d89360c054a02d9d10d3887600786d315fa7da37ad3c28efb058d
+MD5Sum: c8feb4dd57c9ea46b0f4638cd30e8bd1
+SHA256sum: b8a1153d0b6dacf3b88ad465ecb87260157440cf8a72b24c0670f7bcedd775ed
 Size: 690
 Filename: enigma2-plugin-extensions-e2embyclient-dev_1.0-git171+da691bc0+da691bcca3-r0_all.ipk
 Source: enigma2-plugin-extensions-e2embyclient.bb
@@ -1132,8 +1132,8 @@ Version: 1.0-git171+da691bc0+da691bcca3-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 155e6efbbf0a52378e8ebfff953ecd87
-SHA256sum: 33a5eb497bbb11aeb82f66fd78f16ac6c1336ac2a6da0cb757815fe613e52093
+MD5Sum: 7b62ebcc23bda36a2953363258c08902
+SHA256sum: 1a31f8a75ba44d378e2d61c7e496be6af587dc275a173eb6f8e2041e37c9db86
 Size: 75038
 Filename: enigma2-plugin-extensions-e2embyclient-src_1.0-git171+da691bc0+da691bcca3-r0_all.ipk
 Source: enigma2-plugin-extensions-e2embyclient.bb
@@ -1149,9 +1149,9 @@ Depends: python3-core, python3-pillow, python3-requests, python3-yt-dlp
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 391b2591824d4047291099867a218a2d
-SHA256sum: f666c352a2d6aeed66c22cc08fd2a7a05498d65af158b6c431148fccc4d69125
-Size: 287840
+MD5Sum: ab8a0cbef83dfc2ab24cd820abbb5f7e
+SHA256sum: 5d4b5a1e1616bcfe81c813b54c3654ee0e512ecba856c62a596b7938e64e8232
+Size: 287890
 Filename: enigma2-plugin-extensions-e2embyclient_1.0-git171+da691bc0+da691bcca3-r0_all.ipk
 Source: enigma2-plugin-extensions-e2embyclient.bb
 Description: Enigma2 client for Emby servers
@@ -1680,14 +1680,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 3.0.8-git541+131eda10+131eda1db9-r0
+Version: 3.0.8-git542+e43266c0+e43266c14c-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 91f420ec676f692ec9ce3e78d8243986
-SHA256sum: 578754e0e34569f012eaabeb69ee68e8fda3381096971d0b1bfb86604e850694
+MD5Sum: eb300686e093309200d517c8ed9fff62
+SHA256sum: 1edf616987986bcb22c3393ca5d233a904c291b62b3c93a7466c420c395500fa
 Size: 584
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.8-git541+131eda10+131eda1db9-r0_all.ipk
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.8-git542+e43266c0+e43266c14c-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1695,15 +1695,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 3.0.8-git541+131eda10+131eda1db9-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.8-git541+131eda10+131eda1db9-r0)
+Version: 3.0.8-git542+e43266c0+e43266c14c-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.8-git542+e43266c0+e43266c14c-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: b693aa61435df9115ea6b4656f102073
-SHA256sum: 56d63f9921b02cd299491a06c127eede2ec7c7871bda69b3d031e6fe432ebd25
+MD5Sum: 9a6f771ad8eb1bc3fce237eb680fc34c
+SHA256sum: f00b221d5577f0de7ab3326686d36bb9b4a0c10508235e824a36757f1d685cfb
 Size: 620
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.8-git541+131eda10+131eda1db9-r0_all.ipk
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.8-git542+e43266c0+e43266c14c-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1711,14 +1711,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 3.0.8-git541+131eda10+131eda1db9-r0
+Version: 3.0.8-git542+e43266c0+e43266c14c-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 7515e46a771c87a1a72d53d4fa27e4f1
-SHA256sum: f0e62bd28e7e78fb6f8ae8a073e4aec795f4454addd9d8a34ebbfd21ea338e85
-Size: 17388294
-Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.8-git541+131eda10+131eda1db9-r0_all.ipk
+MD5Sum: 091f1f05e421760ed4b972b8d4ab4913
+SHA256sum: 3224b974a38bbfd27c161004664f7b2e13dface155f35fbb60133ce900530006
+Size: 14906300
+Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.8-git542+e43266c0+e43266c14c-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -2377,8 +2377,8 @@ Version: 3.0-git235+3c72c3f0+3c72c3fdc5-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 051050716d8d1868dca8aadede07811b
-SHA256sum: 0d04a5095d7f65400b9f5ecb0eedaccf132329acf32d949299fe917f215c83c2
+MD5Sum: 4cd766a48d21813a327188e2b935e192
+SHA256sum: 49aab7775498b856aecc132250c5475793223c93424a578d0a32617b142a7d95
 Size: 582
 Filename: enigma2-plugin-extensions-tvgarden-dbg_3.0-git235+3c72c3f0+3c72c3fdc5-r0_all.ipk
 Source: enigma2-plugin-extensions-tvgarden.bb
@@ -2393,8 +2393,8 @@ Recommends: enigma2-plugin-extensions-tvgarden (= 3.0-git235+3c72c3f0+3c72c3fdc5
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 5cae83267c119bc804b1fa0020c675ef
-SHA256sum: 959ba369099969a11998a93240b2208d323f6d1281b16b6747c431f082694b98
+MD5Sum: f2d9c8d89e39c5417a1b7cbb9fd7dd95
+SHA256sum: fda19c74ca84a8cb8eff2bc2177ea9bf7da17cd50d1d53b927e3ba0049fb8729
 Size: 630
 Filename: enigma2-plugin-extensions-tvgarden-dev_3.0-git235+3c72c3f0+3c72c3fdc5-r0_all.ipk
 Source: enigma2-plugin-extensions-tvgarden.bb
@@ -2411,9 +2411,9 @@ Recommends: python3-yt-dlp
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: c92a762d9fe3b49cb93d2f4f0f0f034b
-SHA256sum: f0add84a9bb12f7d62ecc5e3ecf94d4aa23fc471835c425e0184a19d127c066a
-Size: 1153404
+MD5Sum: a11ecb78fb7202569eb9ef04ac068a34
+SHA256sum: f212816afa9daf204da27785372c136738a3a9c989c2027b0ec5c0d485da8cb1
+Size: 1153400
 Filename: enigma2-plugin-extensions-tvgarden_3.0-git235+3c72c3f0+3c72c3fdc5-r0_all.ipk
 Source: enigma2-plugin-extensions-tvgarden.bb
 Description: TV Garden Plugin for Enigma2
@@ -10856,8 +10856,8 @@ Version: 8.6.3+git2+2a296d40+2a296d463b-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: d00622edde0df1a4dedbaf96c367eba6
-SHA256sum: 61a1a09b6cf2613d555af6e69d4c6f5dcb32cb0ef653ae7a5599cfe0abebc9c0
+MD5Sum: 87198dcedb7ef2208f84c2e2f2f6a757
+SHA256sum: 2d91001dfd99b1a6d64faf44c0ed5f125a47e0e4210c568b285451a2910832cf
 Size: 606
 Filename: streamlinksrv-dbg_8.6.3+git2+2a296d40+2a296d463b-r0_all.ipk
 Source: streamlinksrv.bb
@@ -10873,9 +10873,9 @@ Recommends: python3-core-dev, python3-yt-dlp-dev, streamlink-dev, streamlinksrv 
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 9b04d1cbe8cae6d2f2706618dd445b23
-SHA256sum: e8d0ddb9f0d495aa4ade7fc9d0115e179fb0accc009f36990fcb8ce17c2296bc
-Size: 666
+MD5Sum: c11bf77933d0579385f483140b2a8303
+SHA256sum: 72b6306abb7fab53e9cae9d846e80bcddc2eb9157b0c38db187f916343d3769c
+Size: 664
 Filename: streamlinksrv-dev_8.6.3+git2+2a296d40+2a296d463b-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 8.6.3+git-r0 - Development files
@@ -10890,9 +10890,9 @@ Depends: python3-core, python3-yt-dlp, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 53e2b0b3f33e08f7ad0f33a3347cb69e
-SHA256sum: 2932eb6e93f30149824dd568b007731ba70e955b7a440daca6cf72172a04232e
-Size: 90054
+MD5Sum: c50e1fca013f13b73d6768c8fe9935aa
+SHA256sum: b4a095323743f0ecf52a1c33ffc3c3172a0428ba8dc038e802ef66a7e82fa0e5
+Size: 90056
 Filename: streamlinksrv_8.6.3+git2+2a296d40+2a296d463b-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 8.6.3+git-r0
