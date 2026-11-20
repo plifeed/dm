@@ -2469,14 +2469,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dbg
-Version: 1.89-git1267+64c44d50+64c44d5c41-r0
+Version: 1.89-git1268+09e26c30+09e26c3b9e-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 31f7d721e26a4fdf07d7072c0eaf53d2
-SHA256sum: 343ec4c15891b11429539a714d9a13e25a4303e76d1373cf67b39e0327c8ae18
+MD5Sum: 968fd8f2e51a1a590aabef65276d4e56
+SHA256sum: f06eb47242ffdc36f438008e4f15613d093a979083234cf96661a1b5130f9319
 Size: 586
-Filename: enigma2-plugin-extensions-vavoo-dbg_1.89-git1267+64c44d50+64c44d5c41-r0_all.ipk
+Filename: enigma2-plugin-extensions-vavoo-dbg_1.89-git1268+09e26c30+09e26c3b9e-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-vavoo
@@ -2484,15 +2484,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dev
-Version: 1.89-git1267+64c44d50+64c44d5c41-r0
-Recommends: enigma2-plugin-extensions-vavoo (= 1.89-git1267+64c44d50+64c44d5c41-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
+Version: 1.89-git1268+09e26c30+09e26c3b9e-r0
+Recommends: enigma2-plugin-extensions-vavoo (= 1.89-git1268+09e26c30+09e26c3b9e-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: cce411250a04ef4ae7c83b5550d9dd47
-SHA256sum: fb82a453f741f95a06055784d3057539ecb2fa1f7114f80fe92fd1ff5749b13a
-Size: 662
-Filename: enigma2-plugin-extensions-vavoo-dev_1.89-git1267+64c44d50+64c44d5c41-r0_all.ipk
+MD5Sum: b3b499297996661337a2618f11b8876e
+SHA256sum: 889b59b539faf49495cf5430be6690c071b5f7970de6951e6cebcdc592d08595
+Size: 664
+Filename: enigma2-plugin-extensions-vavoo-dev_1.89-git1268+09e26c30+09e26c3b9e-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-vavoo
@@ -2500,15 +2500,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.89-git1267+64c44d50+64c44d5c41-r0
+Version: 1.89-git1268+09e26c30+09e26c3b9e-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 78dc210a1707403a775cdeb71b18178e
-SHA256sum: 604c0f1929c829ef4c5bc2faafedb3d2a460434deb842ea681a27e92ae6b02d9
-Size: 9856998
-Filename: enigma2-plugin-extensions-vavoo_1.89-git1267+64c44d50+64c44d5c41-r0_all.ipk
+MD5Sum: 458031298820b945c3138c6ff0925ae2
+SHA256sum: 72ef330101e1349958f12d2aa125e6abb7f74e4d07946e72cda37e3558220f7c
+Size: 9901018
+Filename: enigma2-plugin-extensions-vavoo_1.89-git1268+09e26c30+09e26c3b9e-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin
 OE: enigma2-plugin-extensions-vavoo
