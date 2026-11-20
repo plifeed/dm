@@ -571,6 +571,23 @@ OE: enigma2-plugin-skins-madmax-impossible
 License: open
 Priority: optional
 
+Package: enigma2-plugin-skins-luka-fhd-pli
+Version: 1.0
+Depends: enigma2-plugin-extensions-bitrate, python3-pillow, gettext
+Recommends: enigma2-plugin-extensions-oaweather
+Section: base
+Architecture: all
+Maintainer: mnasr
+MD5Sum: 552cf02bf591d401ec266a52d638c9e9
+SHA256sum: eb49b2f3584934a7ba52a0fe470c1c390e2700d075818e3b476b00ca23cc9552
+Size: 15462518
+Filename: lukapli.ipk
+Source: enigma2-plugin-skins-luka-fhd-pli.bb
+Description: Skin - Luka FHD
+OE: enigma2-plugin-skins-luka-fhd-pli
+License: GPLv2+
+Priority: required
+
 Package: enigma2-plugin-skins-maxi-fhd-pli
 Version: 1.0
 Depends: enigma2-plugin-extensions-bitrate, python3-pillow, gettext
