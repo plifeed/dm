@@ -571,6 +571,23 @@ OE: enigma2-plugin-skins-madmax-impossible
 License: open
 Priority: optional
 
+Package: enigma2-plugin-skins-maxi-fhd-pli
+Version: 1.0
+Depends: enigma2-plugin-extensions-bitrate, python3-pillow, gettext
+Recommends: enigma2-plugin-extensions-oaweather
+Section: base
+Architecture: all
+Maintainer: mnasr
+MD5Sum: 59af4f24a428216459204144ac77f40c
+SHA256sum: 8c8cd0b8ba020a550cf63c9d6724e283b72d3ed22f9b9e6f9fc7c2097ead5dc5
+Size: 5625892
+Filename: maxypli.ipk
+Source: enigma2-plugin-skins-maxi-fhd-pli.bb
+Description: Skin - Maxi FHD
+OE: enigma2-plugin-skins-maxi-fhd-pli
+License: GPLv2+
+Priority: required
+
 Package: enigma2-plugin-skins-moderonfhd
 Version: 1.03
 Section: skin
