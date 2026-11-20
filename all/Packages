@@ -1421,14 +1421,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dbg
-Version: 1.9.6-r0-git49+57516050+5751605bda-r0
+Version: 1.9.7-r0-git51+06ef52e0+06ef52eb75-r0
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 868764e4e9f83d581a4c58e2f7be9c96
-SHA256sum: e26f0a545bb99fdf6e657447c8558307ff3cc36500260813ed3818d99629c70e
+MD5Sum: 2402769b2fe0f10e3f0a9361e45e5509
+SHA256sum: b2c52e7c602a915aea99c7cb4dcc8a0d46d05e72e639073ac1ed08e2f1417251
 Size: 704
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.9.6-r0-git49+57516050+5751605bda-r0_all.ipk
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dbg_1.9.7-r0-git51+06ef52e0+06ef52eb75-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1437,15 +1437,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro-dev
-Version: 1.9.6-r0-git49+57516050+5751605bda-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.9.6-r0-git49+57516050+5751605bda-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
+Version: 1.9.7-r0-git51+06ef52e0+06ef52eb75-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-gtiptvplayerpro (= 1.9.7-r0-git51+06ef52e0+06ef52eb75-r0), python3-asyncio-dev, python3-compression-dev, python3-core-dev, python3-datetime-dev, python3-difflib-dev, python3-fcntl-dev, python3-html-dev, python3-io-dev, python3-json-dev, python3-math-dev, python3-netclient-dev, python3-netserver-dev, python3-stringold-dev, python3-threading-dev, python3-xml-dev
 Section: devel
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: b9888933e5922a5a87b46ae8205b51af
-SHA256sum: 0c9b0b2720a856e1cd2d34e25664713e0dc4cab9329819628411465852461aac
-Size: 844
-Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.9.6-r0-git49+57516050+5751605bda-r0_all.ipk
+MD5Sum: ff0ed380af9a5b654739aa9a47256b5e
+SHA256sum: 1fe680e36ed2b4efe35df206af18bf4b096603ef69deb94d86a342f7efa60f23
+Size: 842
+Filename: enigma2-plugin-extensions-gtiptvplayerpro-dev_1.9.7-r0-git51+06ef52e0+06ef52eb75-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2 - Development files
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -1454,15 +1454,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-gtiptvplayerpro
-Version: 1.9.6-r0-git49+57516050+5751605bda-r0
+Version: 1.9.7-r0-git51+06ef52e0+06ef52eb75-r0
 Depends: enigma2, python3-asyncio, python3-compression, python3-core, python3-datetime, python3-difflib, python3-fcntl, python3-html, python3-io, python3-json, python3-math, python3-netclient, python3-netserver, python3-stringold, python3-threading, python3-xml
 Section: base
 Architecture: all
 Maintainer: VicTuS59
-MD5Sum: 88bd715c6d3cad4fffb1fa534ee465b8
-SHA256sum: 1e39a97a2b088a1b84a8e61a7f56b26cd7dfa1965da90b57ddca3ae6d2550708
-Size: 10827092
-Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.9.6-r0-git49+57516050+5751605bda-r0_all.ipk
+MD5Sum: 8351bb1c0ef2d8df4af8b7ec1f0ecd76
+SHA256sum: aff24d386d35ec68a96c87b064ad3fcd53975a951fbafd558e3b34836106fe9a
+Size: 10838484
+Filename: enigma2-plugin-extensions-gtiptvplayerpro_1.9.7-r0-git51+06ef52e0+06ef52eb75-r0_all.ipk
 Source: enigma2-plugin-extensions-gtiptvplayerpro.bb
 Description: GT IPTV Player Pro for Enigma2
 OE: enigma2-plugin-extensions-gtiptvplayerpro
@@ -11020,14 +11020,14 @@ License: Bitstream-Vera
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1591+9553ae90+9553ae92c2-3
+Version: 2+git1592+45d97d90+45d97d94ae-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: df95ed51044090c0cda9ff7ab11cd3a0
-SHA256sum: ba178f08d944078459473b7d156b66d2983b2f141eafbc33ecefaa404965c24e
+MD5Sum: 673f0628417c99db219ab579a4aab13d
+SHA256sum: 6e5cae443df193e0533700e7eb03099642b458229c680f1296c2f27fcd6ac9ba
 Size: 568
-Filename: tuxbox-common-dbg_2+git1591+9553ae90+9553ae92c2-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1592+45d97d90+45d97d94ae-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -11035,15 +11035,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1591+9553ae90+9553ae92c2-3
-Recommends: tuxbox-common (>= 2+git1591+9553ae90+9553ae92c2-3), tuxbox-common (<< 2+git1591+9553ae90+9553ae92c2-3.0), xz-dev
+Version: 2+git1592+45d97d90+45d97d94ae-3
+Recommends: tuxbox-common (>= 2+git1592+45d97d90+45d97d94ae-3), tuxbox-common (<< 2+git1592+45d97d90+45d97d94ae-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 1d061cd42ac2cc4389965d7a50ddfcb8
-SHA256sum: c6691376253be983a81d51148197626ff2d2813764886b82507499e9fb9a8409
+MD5Sum: 49791f73211916c853a3f45c25f9535b
+SHA256sum: c754192b809f4485fa45e2e49d60a57faff4af4271952071ccf0f926fc99cdb2
 Size: 620
-Filename: tuxbox-common-dev_2+git1591+9553ae90+9553ae92c2-3_all.ipk
+Filename: tuxbox-common-dev_2+git1592+45d97d90+45d97d94ae-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -11051,15 +11051,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1591+9553ae90+9553ae92c2-3
+Version: 2+git1592+45d97d90+45d97d94ae-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: fd782a982dc60866cc7d80d3050451e2
-SHA256sum: c987112a7b4e8edbd84d852f3e4e4ae56778dc6f6ca085bccb8d93072b562562
-Size: 69312
-Filename: tuxbox-common_2+git1591+9553ae90+9553ae92c2-3_all.ipk
+MD5Sum: 4ff07197ea5d898f75dc2f9d1f3767a2
+SHA256sum: a12e8c6f4b6a08ab4d246beae3ff8dd705b9fd85315f2cacbd243eed9f99e85b
+Size: 69322
+Filename: tuxbox-common_2+git1592+45d97d90+45d97d94ae-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
