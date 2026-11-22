@@ -9942,6 +9942,68 @@ HomePage: https://github.com/oe-mirrors/enigmalight
 License: GPL-3.0-only
 Priority: optional
 
+Package: enigma2-plugin-extensions-eparted-dbg
+Version: 0.13+git7879+25c0dd80+25c0dd854b-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a856e6ce6a8f6c274df5472753f2732a
+SHA256sum: 5da1eed9f3d489646bd1182ac7751a3850fe9c40dc4b9ace163dcdb2c6e582c4
+Size: 642
+Filename: enigma2-plugin-extensions-eparted-dbg_0.13+git7879+25c0dd80+25c0dd854b-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-eparted.bb
+Description: eParted Enigma2 Plugin - Debugging files
+OE: enigma2-plugin-extensions-eparted
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-eparted-dev
+Version: 0.13+git7879+25c0dd80+25c0dd854b-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-eparted (= 0.13+git7879+25c0dd80+25c0dd854b-r0), parted-dev, util-linux-blkid-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e1c0008730a33d42d5b8ecf371be4b14
+SHA256sum: 7120f49c2103d4783012abe7cbfe3830f955bed4852af44b87157f03b4176e8a
+Size: 696
+Filename: enigma2-plugin-extensions-eparted-dev_0.13+git7879+25c0dd80+25c0dd854b-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-eparted.bb
+Description: eParted Enigma2 Plugin - Development files
+OE: enigma2-plugin-extensions-eparted
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-eparted-src
+Version: 0.13+git7879+25c0dd80+25c0dd854b-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0508b2a10ab3eb658f5ca2d689b3f7c9
+SHA256sum: eb8d930ebdb1c6c473c5583a839abc26dabcb9fb270d0d90db7946df301fdd84
+Size: 7374
+Filename: enigma2-plugin-extensions-eparted-src_0.13+git7879+25c0dd80+25c0dd854b-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-eparted.bb
+Description: eParted Enigma2 Plugin - Source files
+OE: enigma2-plugin-extensions-eparted
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-eparted
+Version: 0.13+git7879+25c0dd80+25c0dd854b-r0
+Depends: enigma2, parted, util-linux-blkid
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 187d6e931a1a48600f1afb562524a779
+SHA256sum: 2b51b85c3b6c497644e1480121fc83a080737af2934c2414a8f6c11d5d798cf4
+Size: 21966
+Filename: enigma2-plugin-extensions-eparted_0.13+git7879+25c0dd80+25c0dd854b-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-eparted.bb
+Description: eParted Enigma2 Plugin
+OE: enigma2-plugin-extensions-eparted
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-epgimport-dbg
 Version: 1.0+git278+570360d0+570360d96b-r0
 Recommends: glibc-dbg
@@ -14650,15 +14712,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3-dbg
-Version: 187+gitr450+7a381e60+7a381e6012-r0
+Version: 187+gitr518+41079cb0+41079cb84c-r0
 Recommends: glibc-dbg, libavcodec-dbg, libavformat-dbg, libavutil-dbg, libswresample-dbg, libswscale-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b0e28f9a5ffdc00348b42dd0bf94b812
-SHA256sum: c8153706530a4d694a9b0058c3ed5315f31d590bbad3525f4a96108ed82dde26
-Size: 27322
-Filename: exteplayer3-dbg_187+gitr450+7a381e60+7a381e6012-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: fab06c05ce2463daa117ab27f777a87d
+SHA256sum: 24c07481e92284671dfb455280c426c7e19b57053de48e2b8fa8e9ebf4fbc612
+Size: 29368
+Filename: exteplayer3-dbg_187+gitr518+41079cb0+41079cb84c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3_git.bb
 Description: exteplayer3 - media player for E2 - Debugging files
 OE: exteplayer3
@@ -14666,15 +14728,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3-dev
-Version: 187+gitr450+7a381e60+7a381e6012-r0
-Recommends: exteplayer3 (= 187+gitr450+7a381e60+7a381e6012-r0), ffmpeg-dev, glibc-dev, libatomic-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libswresample-dev, libswscale-dev
+Version: 187+gitr518+41079cb0+41079cb84c-r0
+Recommends: exteplayer3 (= 187+gitr518+41079cb0+41079cb84c-r0), ffmpeg-dev, glibc-dev, libatomic-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libswresample-dev, libswscale-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 270b1e4ab1c430dc5907ef8b8594a845
-SHA256sum: f81ffe58b06a9ba9ff511bd0fc257b5d9032fdb60bcb97e590a0f67f00f2abd1
-Size: 730
-Filename: exteplayer3-dev_187+gitr450+7a381e60+7a381e6012-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f82ce4ae71ecac142762f0fc887c1725
+SHA256sum: 4db76094af858954eb142816d2a95870ed962a0b78ec3afc2bf0cc38903ddaa3
+Size: 732
+Filename: exteplayer3-dev_187+gitr518+41079cb0+41079cb84c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3_git.bb
 Description: exteplayer3 - media player for E2 - Development files
 OE: exteplayer3
@@ -14682,15 +14744,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3
-Version: 187+gitr450+7a381e60+7a381e6012-r0
+Version: 187+gitr518+41079cb0+41079cb84c-r0
 Depends: ffmpeg, libatomic, libavcodec63 (>= 9.0.2), libavformat63 (>= 9.0.2), libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+f715e9491c), libswresample7 (>= 9.0.2), libswscale10 (>= 9.0.2)
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24706b8725bee17c29bc07a3a116bc23
-SHA256sum: 520e1ee64e8c00a76e8c4f6e938127d1c5c053a28be3de73bb58c6997bfc5a3a
-Size: 175566
-Filename: exteplayer3_187+gitr450+7a381e60+7a381e6012-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8b45626f41b0dde76a295c523d24e7aa
+SHA256sum: 214db0001523194517801ef1e1854f896bf3ee9b568de6af0d053d198c1c72d9
+Size: 189788
+Filename: exteplayer3_187+gitr518+41079cb0+41079cb84c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3_git.bb
 Description: exteplayer3 - media player for E2
 OE: exteplayer3
@@ -98234,13 +98296,13 @@ Priority: optional
 
 Package: openpli-enigma2-feed-dev
 Version: 1.0-r0
-Recommends: 7zip-dev, astra-sm-dev, autofs-dev, autossh-dev, bitstream-dev, brotli-dev, ccid-dev, channelsettings-enigma2-meta-dev, chrony-dev, cloudflare-dns-dev, cmdwrapper-dev, ctorrent-dev, cups-dev, curl-dev, curl-impersonate-dev, dav1d-dev, davfs2-dev, dhrystone-dev, diffutils-dev, directfb-dev, djmount-dev, dosfstools-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, edid-decode-dev, enigma2-binary-plugins-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-abertis-dev, enigma2-plugin-extensions-acherone-dev, enigma2-plugin-extensions-arabicsavior-dev, enigma2-plugin-extensions-archimede-m3uconverter-dev, enigma2-plugin-extensions-archivczsk-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-automatic-fullbackup-dev, enigma2-plugin-extensions-backupflash-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-bmediacenter-dev, enigma2-plugin-extensions-bouquetmakerxtream-dev, enigma2-plugin-extensions-calendar-dev, enigma2-plugin-extensions-chefkoch-dev, enigma2-plugin-extensions-ciefpplugins-dev, enigma2-plugin-extensions-ciefpsettingspanel-dev, enigma2-plugin-extensions-ciefpxfiles-dev, enigma2-plugin-extensions-ciefpyoutube-dev, enigma2-plugin-extensions-ciplus-helper-dev, enigma2-plugin-extensions-commandcenter-dev, enigma2-plugin-extensions-crashlogviewer-dev, enigma2-plugin-extensions-dabstreamer-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-extensions-e2embyclient-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-e2piconizer-dev, enigma2-plugin-extensions-e2tvplayer-dev, enigma2-plugin-extensions-enhancedmoviecenter-dev, enigma2-plugin-extensions-enigmalight-dev, enigma2-plugin-extensions-enigmawelt-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-esame-dev, enigma2-plugin-extensions-estalker-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-footonsat-dev, enigma2-plugin-extensions-freechannels-dev, enigma2-plugin-extensions-fritzcall-dev, enigma2-plugin-extensions-gtiptvplayerpro-dev, enigma2-plugin-extensions-hbbtvplayer-dev, enigma2-plugin-extensions-hdmitest-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-infobarweather-dev, enigma2-plugin-extensions-iptv-org-playlists-dev, enigma2-plugin-extensions-jediepgxtream-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-levi45addons-dev, enigma2-plugin-extensions-linuxsatpanel-dev, enigma2-plugin-extensions-lottoextended-dev, enigma2-plugin-extensions-mediaplayer3-dev, enigma2-plugin-extensions-mediathekcockpit-dev, enigma2-plugin-extensions-movemanager-dev, enigma2-plugin-extensions-neoradio-dev, enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-extensions-oemediathek-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-planerfs-dev, enigma2-plugin-extensions-plutotv-dev, enigma2-plugin-extensions-plutotvcockpit-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-raedquicksignal-dev, enigma2-plugin-extensions-raiplay-dev, enigma2-plugin-extensions-rakutentvcockpit-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-samsungtvcockpit-dev, enigma2-plugin-extensions-schiffe-dev, enigma2-plugin-extensions-sdgradio-dev, enigma2-plugin-extensions-serienrecorder-dev, enigma2-plugin-extensions-simplezoom-panel-dev, enigma2-plugin-extensions-stalkerportalconverter-dev, enigma2-plugin-extensions-stbkodilauncher-dev, enigma2-plugin-extensions-streamlinksrv-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-subssupportpro-dev, enigma2-plugin-extensions-sudoku-dev, enigma2-plugin-extensions-sundtekcontrolcenter-dev, enigma2-plugin-extensions-tetris-dev, enigma2-plugin-extensions-transmission-stremio-dev, enigma2-plugin-extensions-ts-sateditor-dev, enigma2-plugin-extensions-tvgarden-dev, enigma2-plugin-extensions-tvmanager-dev, enigma2-plugin-extensions-vavoo-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vhannibal-autosettings-dev, enigma2-plugin-extensions-vierg-dev, enigma2-plugin-extensions-visualweather-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-webradiofs-dev, enigma2-plugin-extensions-wifi-manager-dev, enigma2-plugin-extensions-worldcam-dev, enigma2-plugin-extensions-xcforever-dev, enigma2-plugin-extensions-xklass-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-extensions-yampmusicplayer-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skincomponents-obsidian-fhd-cast-dev, enigma2-plugin-skincomponents-obsidian-fhd-dock-dev, enigma2-plugin-skincomponents-obsidian-fhd-edge-dev, enigma2-plugin-skincomponents-obsidian-fhd-k7-dev, enigma2-plugin-skincomponents-obsidian-fhd-matchday-dev, enigma2-plugin-skincomponents-obsidian-fhd-mawaqit-dev, enigma2-plugin-skincomponents-obsidian-fhd-nova-dev, enigma2-plugin-skincomponents-obsidian-fhd-posters-dev, enigma2-plugin-skincomponents-obsidian-fhd-stream-dev, enigma2-plugin-skincomponents-obsidian-fhd-subtitles-dev, enigma2-plugin-skincomponents-obsidian-fhd-synthwave-dev, enigma2-plugin-skins-army-moodblue-hd-dev, enigma2-plugin-skins-e2darkos-dev, enigma2-plugin-skins-glamouraurafhd-dev, enigma2-plugin-skins-kiddac-1080-onyx-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-pd1loi-hd-night-dev, enigma2-plugin-skins-pli-fullnight-fhd-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd-fullnight-dev, enigma2-plugin-skins-proteusfhd-dev, enigma2-plugin-skins-ruinfinityhd-dev, enigma2-plugin-skins-satdreamgr-hd-transpba-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-extrafancontrol-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-m3uiptv-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-satipserver-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev, enigma2-plugin-systemplugins-terrestrialbouquet-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, evtest-dev, exfatprogs-dev, exteplayer3-dev, fbgrab-dev, fdk-aac-dev, firmware-mt7601u-dev, firmware-rtl8188eu-dev, firmware-rtl8188fu-dev, firmware-rtl8192eu-dev, firmware-rtl8723bu-dev, flip-dev, fstrcmp-dev, fuse-dev, gdb-dev, gerbera-dev, google-dns-dev, grep-dev, gstplayer-dev, hddtemp-dev, hdparm-dev, htop-dev, icu-dev, iflatbitrate-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, ipkg-tools-dev, iproute2-dev, iputils-dev, joe-dev, kernel-module-mt7601usta-dev, kernel-module-mt7610u-dev, kernel-module-rt3573sta-dev, kernel-module-rt5572sta-dev, kernel-module-rt8188eu-dev, kernel-module-rt8188fu-dev, kernel-module-rt8189es-dev, kernel-module-rt8192eu-dev, kernel-module-rt8192fu-dev, kernel-module-rt8723a-dev, kernel-module-rt8723bs-dev, kernel-module-rt8723bu-dev, kernel-module-rt8812au-dev, kernel-module-rt8814au-dev, kernel-module-rt8821cu-dev, kernel-module-rt8852cu-dev, kernel-module-rt88x2bu-dev, kernel-module-rt88x2cu-dev, less-dev, libbluray-dev, libdcadec-dev, libnfs-dev, libpar2-dev, libudfread-dev, libvpx-dev, mc-dev, mediainfo-dev, meta-enigma2-dvdburn-dev, minisatip-dev, mpd-dev, mpg123-dev, mpv-dev, mtd-utils-dev, mtools-dev, mtr-dev, nano-dev, net-tools-dev, nss-dev, ntfs-3g-dev, openldap-dev, openmultiboot-dev, openpli-enigma2-feed (= 1.0-r0), openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, os-release-dev, package-index-feed-dev, packagegroup-hbbtv2-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, picons-enigma2-meta-dev, poppler-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python3-annotated-doc-dev, python3-apprise-dev, python3-babelfish-dev, python3-backports-lzma-dev, python3-beautifulsoup4-dev, python3-biplist-dev, python3-bluetool-dev, python3-cachecontrol-dev, python3-cachetools-dev, python3-cattrs-dev, python3-cfscrape-dev, python3-chardet-dev, python3-cheroot-dev, python3-cherrypy-dev, python3-circuits-bricks-dev, python3-circuits-dev, python3-cmd2-dev, python3-cocy-dev, python3-compat2-dev, python3-coverage-dev, python3-cssselect-dev, python3-ct3-dev, python3-curl-cffi-dev, python3-daap-dev, python3-dateparser-dev, python3-dnspython-dev, python3-exceptiongroup-dev, python3-faker-dev, python3-feedparser-dev, python3-filelock-dev, python3-flickrapi-dev, python3-flit-scm-dev, python3-future-dev, python3-futures3-dev, python3-fuzzywuzzy-dev, python3-gdata-python3-dev, python3-google-auth-dev, python3-guessit-dev, python3-h11-dev, python3-httpcore2-dev, python3-httpx2-dev, python3-icalendar-dev, python3-imageio-dev, python3-iniparse-dev, python3-iso-639-dev, python3-isodate-dev, python3-itemadapter-dev, python3-itemloaders-dev, python3-jaraco.classes-dev, python3-jaraco.collections-dev, python3-jaraco.context-dev, python3-jaraco.functools-dev, python3-jaraco.text-dev, python3-js2py-dev, python3-levenshtein-dev, python3-lxml-dev, python3-lzallright-dev, python3-mechanize-dev, python3-more-itertools-dev, python3-multipart-dev, python3-mutagen-dev, python3-notify2-dev, python3-ntplib-dev, python3-numpy-dev, python3-outcome-dev, python3-packaging-dev, python3-parsel-dev, python3-pbkdf2-dev, python3-pip-dev, python3-platformdirs-dev, python3-portend-dev, python3-process-dev, python3-propcache-dev, python3-protego-dev, python3-puremagic-dev, python3-py3amf-dev, python3-pycountry-dev, python3-pycryptodome-dev, python3-pycryptodomex-dev, python3-pycurl-dev, python3-pyexecjs-dev, python3-pysmb-dev, python3-pysnmp-dev, python3-pyte-dev, python3-pytz-dev, python3-queuelib-dev, python3-rapidjson-dev, python3-rarfile-dev, python3-rbtranslations-dev, python3-rebulk-dev, python3-regex-dev, python3-requests-cache-dev, python3-requests-dev, python3-sabctools-dev, python3-sabyenc3-dev, python3-scrapy-dev, python3-setuptools-dev, python3-sgmllib3k-dev, python3-simple-justwatch-python-api-dev, python3-simple-websocket-dev, python3-singledispatch-dev, python3-six-dev, python3-soco-dev, python3-soupsieve-dev, python3-svglib-dev, python3-tcpbridge-dev, python3-telnetlib3-dev, python3-tempora-dev, python3-tenjin-dev, python3-thefuzz-dev, python3-timeout-decorator-dev, python3-tinytag-dev, python3-tldextract-dev, python3-tmdbsimple-dev, python3-tmdbv3api-dev, python3-transmission-rpc-dev, python3-treq-dev, python3-trio-websocket-dev, python3-tvdbsimple-dev, python3-typeguard-dev, python3-typer-dev, python3-types-python-dateutil-dev, python3-types-setuptools-dev, python3-typing-extensions-dev, python3-tzlocal-dev, python3-ubi-reader-dev, python3-url-normalize-dev, python3-uv-build-dev, python3-versioningit-dev, python3-w3lib-dev, python3-watchdog-dev, python3-web3-dev, python3-websocket-client-dev, python3-websockets-dev, python3-wifi-dev, python3-xlsxwriter-dev, python3-yarl-dev, python3-yenc-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-yt-dlp-ejs-dev, python3-zc.lockfile-dev, python3-zeroconf-dev, quickjs-dev, rclone-dev, redsea-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, satpi-dev, screen-dev, sed-dev, shairplay-dev, shellinabox-dev, smartmontools-dev, smbnetfs-dev, softcams-enigma2-meta-dev, srt-dev, sshpass-dev, strace-dev, streamlink-dev, streamlinksrv-dev, streamripper-dev, tcpdump-dev, tinyproxy-dev, tmux-dev, transmission-dev, tsanalyze-dev, tsduck-dev, tslib-dev, tsniv2ni-dev, ttyrun-dev, ubuntu-font-family-dev, udpxy-dev, unzip-dev, upx-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, valgrind-dev, vim-dev, wget-dev, wireguard-module-dev, wireguard-tools-dev, wireless-tools-dev, wscan-dev, wsdd-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zerotier-dev, zip-dev, zsh-dev
+Recommends: 7zip-dev, astra-sm-dev, autofs-dev, autossh-dev, bitstream-dev, brotli-dev, ccid-dev, channelsettings-enigma2-meta-dev, chrony-dev, cloudflare-dns-dev, cmdwrapper-dev, ctorrent-dev, cups-dev, curl-dev, curl-impersonate-dev, dav1d-dev, davfs2-dev, dhrystone-dev, diffutils-dev, directfb-dev, djmount-dev, dosfstools-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, edid-decode-dev, enigma2-binary-plugins-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-abertis-dev, enigma2-plugin-extensions-acherone-dev, enigma2-plugin-extensions-arabicsavior-dev, enigma2-plugin-extensions-archimede-m3uconverter-dev, enigma2-plugin-extensions-archivczsk-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-automatic-fullbackup-dev, enigma2-plugin-extensions-backupflash-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-bmediacenter-dev, enigma2-plugin-extensions-bouquetmakerxtream-dev, enigma2-plugin-extensions-calendar-dev, enigma2-plugin-extensions-chefkoch-dev, enigma2-plugin-extensions-ciefpplugins-dev, enigma2-plugin-extensions-ciefpsettingspanel-dev, enigma2-plugin-extensions-ciefpxfiles-dev, enigma2-plugin-extensions-ciefpyoutube-dev, enigma2-plugin-extensions-ciplus-helper-dev, enigma2-plugin-extensions-commandcenter-dev, enigma2-plugin-extensions-crashlogviewer-dev, enigma2-plugin-extensions-dabstreamer-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-extensions-e2embyclient-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-e2piconizer-dev, enigma2-plugin-extensions-e2tvplayer-dev, enigma2-plugin-extensions-enhancedmoviecenter-dev, enigma2-plugin-extensions-enigmalight-dev, enigma2-plugin-extensions-enigmawelt-dev, enigma2-plugin-extensions-eparted-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-esame-dev, enigma2-plugin-extensions-estalker-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-footonsat-dev, enigma2-plugin-extensions-freechannels-dev, enigma2-plugin-extensions-fritzcall-dev, enigma2-plugin-extensions-gtiptvplayerpro-dev, enigma2-plugin-extensions-hbbtvplayer-dev, enigma2-plugin-extensions-hdmitest-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-infobarweather-dev, enigma2-plugin-extensions-iptv-org-playlists-dev, enigma2-plugin-extensions-jediepgxtream-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-levi45addons-dev, enigma2-plugin-extensions-linuxsatpanel-dev, enigma2-plugin-extensions-lottoextended-dev, enigma2-plugin-extensions-mediaplayer3-dev, enigma2-plugin-extensions-mediathekcockpit-dev, enigma2-plugin-extensions-movemanager-dev, enigma2-plugin-extensions-neoradio-dev, enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-extensions-oemediathek-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-planerfs-dev, enigma2-plugin-extensions-plutotv-dev, enigma2-plugin-extensions-plutotvcockpit-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-raedquicksignal-dev, enigma2-plugin-extensions-raiplay-dev, enigma2-plugin-extensions-rakutentvcockpit-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-samsungtvcockpit-dev, enigma2-plugin-extensions-schiffe-dev, enigma2-plugin-extensions-sdgradio-dev, enigma2-plugin-extensions-serienrecorder-dev, enigma2-plugin-extensions-simplezoom-panel-dev, enigma2-plugin-extensions-stalkerportalconverter-dev, enigma2-plugin-extensions-stbkodilauncher-dev, enigma2-plugin-extensions-streamlinksrv-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-subssupportpro-dev, enigma2-plugin-extensions-sudoku-dev, enigma2-plugin-extensions-sundtekcontrolcenter-dev, enigma2-plugin-extensions-tetris-dev, enigma2-plugin-extensions-transmission-stremio-dev, enigma2-plugin-extensions-ts-sateditor-dev, enigma2-plugin-extensions-tvgarden-dev, enigma2-plugin-extensions-tvmanager-dev, enigma2-plugin-extensions-vavoo-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vhannibal-autosettings-dev, enigma2-plugin-extensions-vierg-dev, enigma2-plugin-extensions-visualweather-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-webradiofs-dev, enigma2-plugin-extensions-wifi-manager-dev, enigma2-plugin-extensions-worldcam-dev, enigma2-plugin-extensions-xcforever-dev, enigma2-plugin-extensions-xklass-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-extensions-yampmusicplayer-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skincomponents-obsidian-fhd-cast-dev, enigma2-plugin-skincomponents-obsidian-fhd-dock-dev, enigma2-plugin-skincomponents-obsidian-fhd-edge-dev, enigma2-plugin-skincomponents-obsidian-fhd-k7-dev, enigma2-plugin-skincomponents-obsidian-fhd-matchday-dev, enigma2-plugin-skincomponents-obsidian-fhd-mawaqit-dev, enigma2-plugin-skincomponents-obsidian-fhd-nova-dev, enigma2-plugin-skincomponents-obsidian-fhd-posters-dev, enigma2-plugin-skincomponents-obsidian-fhd-stream-dev, enigma2-plugin-skincomponents-obsidian-fhd-subtitles-dev, enigma2-plugin-skincomponents-obsidian-fhd-synthwave-dev, enigma2-plugin-skins-army-moodblue-hd-dev, enigma2-plugin-skins-e2darkos-dev, enigma2-plugin-skins-glamouraurafhd-dev, enigma2-plugin-skins-kiddac-1080-onyx-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-pd1loi-hd-night-dev, enigma2-plugin-skins-pli-fullnight-fhd-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd-fullnight-dev, enigma2-plugin-skins-proteusfhd-dev, enigma2-plugin-skins-ruinfinityhd-dev, enigma2-plugin-skins-satdreamgr-hd-transpba-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-extrafancontrol-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-m3uiptv-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-satipserver-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev, enigma2-plugin-systemplugins-terrestrialbouquet-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, evtest-dev, exfatprogs-dev, exteplayer3-dev, fbgrab-dev, fdk-aac-dev, firmware-mt7601u-dev, firmware-rtl8188eu-dev, firmware-rtl8188fu-dev, firmware-rtl8192eu-dev, firmware-rtl8723bu-dev, flip-dev, fstrcmp-dev, fuse-dev, gdb-dev, gerbera-dev, google-dns-dev, grep-dev, gstplayer-dev, hddtemp-dev, hdparm-dev, htop-dev, icu-dev, iflatbitrate-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, ipkg-tools-dev, iproute2-dev, iputils-dev, joe-dev, kernel-module-mt7601usta-dev, kernel-module-mt7610u-dev, kernel-module-rt3573sta-dev, kernel-module-rt5572sta-dev, kernel-module-rt8188eu-dev, kernel-module-rt8188fu-dev, kernel-module-rt8189es-dev, kernel-module-rt8192eu-dev, kernel-module-rt8192fu-dev, kernel-module-rt8723a-dev, kernel-module-rt8723bs-dev, kernel-module-rt8723bu-dev, kernel-module-rt8812au-dev, kernel-module-rt8814au-dev, kernel-module-rt8821cu-dev, kernel-module-rt8852cu-dev, kernel-module-rt88x2bu-dev, kernel-module-rt88x2cu-dev, less-dev, libbluray-dev, libdcadec-dev, libnfs-dev, libpar2-dev, libudfread-dev, libvpx-dev, mc-dev, mediainfo-dev, meta-enigma2-dvdburn-dev, minisatip-dev, mpd-dev, mpg123-dev, mpv-dev, mtd-utils-dev, mtools-dev, mtr-dev, nano-dev, net-tools-dev, nss-dev, ntfs-3g-dev, openldap-dev, openmultiboot-dev, openpli-enigma2-feed (= 1.0-r0), openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, os-release-dev, package-index-feed-dev, packagegroup-hbbtv2-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, picons-enigma2-meta-dev, poppler-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python3-annotated-doc-dev, python3-apprise-dev, python3-babelfish-dev, python3-backports-lzma-dev, python3-beautifulsoup4-dev, python3-biplist-dev, python3-bluetool-dev, python3-cachecontrol-dev, python3-cachetools-dev, python3-cattrs-dev, python3-cfscrape-dev, python3-chardet-dev, python3-cheroot-dev, python3-cherrypy-dev, python3-circuits-bricks-dev, python3-circuits-dev, python3-cmd2-dev, python3-cocy-dev, python3-compat2-dev, python3-coverage-dev, python3-cssselect-dev, python3-ct3-dev, python3-curl-cffi-dev, python3-daap-dev, python3-dateparser-dev, python3-dnspython-dev, python3-exceptiongroup-dev, python3-faker-dev, python3-feedparser-dev, python3-filelock-dev, python3-flickrapi-dev, python3-flit-scm-dev, python3-future-dev, python3-futures3-dev, python3-fuzzywuzzy-dev, python3-gdata-python3-dev, python3-google-auth-dev, python3-guessit-dev, python3-h11-dev, python3-httpcore2-dev, python3-httpx2-dev, python3-icalendar-dev, python3-imageio-dev, python3-iniparse-dev, python3-iso-639-dev, python3-isodate-dev, python3-itemadapter-dev, python3-itemloaders-dev, python3-jaraco.classes-dev, python3-jaraco.collections-dev, python3-jaraco.context-dev, python3-jaraco.functools-dev, python3-jaraco.text-dev, python3-js2py-dev, python3-levenshtein-dev, python3-lxml-dev, python3-lzallright-dev, python3-mechanize-dev, python3-more-itertools-dev, python3-multipart-dev, python3-mutagen-dev, python3-notify2-dev, python3-ntplib-dev, python3-numpy-dev, python3-outcome-dev, python3-packaging-dev, python3-parsel-dev, python3-pbkdf2-dev, python3-pip-dev, python3-platformdirs-dev, python3-portend-dev, python3-process-dev, python3-propcache-dev, python3-protego-dev, python3-puremagic-dev, python3-py3amf-dev, python3-pycountry-dev, python3-pycryptodome-dev, python3-pycryptodomex-dev, python3-pycurl-dev, python3-pyexecjs-dev, python3-pysmb-dev, python3-pysnmp-dev, python3-pyte-dev, python3-pytz-dev, python3-queuelib-dev, python3-rapidjson-dev, python3-rarfile-dev, python3-rbtranslations-dev, python3-rebulk-dev, python3-regex-dev, python3-requests-cache-dev, python3-requests-dev, python3-sabctools-dev, python3-sabyenc3-dev, python3-scrapy-dev, python3-setuptools-dev, python3-sgmllib3k-dev, python3-simple-justwatch-python-api-dev, python3-simple-websocket-dev, python3-singledispatch-dev, python3-six-dev, python3-soco-dev, python3-soupsieve-dev, python3-svglib-dev, python3-tcpbridge-dev, python3-telnetlib3-dev, python3-tempora-dev, python3-tenjin-dev, python3-thefuzz-dev, python3-timeout-decorator-dev, python3-tinytag-dev, python3-tldextract-dev, python3-tmdbsimple-dev, python3-tmdbv3api-dev, python3-transmission-rpc-dev, python3-treq-dev, python3-trio-websocket-dev, python3-tvdbsimple-dev, python3-typeguard-dev, python3-typer-dev, python3-types-python-dateutil-dev, python3-types-setuptools-dev, python3-typing-extensions-dev, python3-tzlocal-dev, python3-ubi-reader-dev, python3-url-normalize-dev, python3-uv-build-dev, python3-versioningit-dev, python3-w3lib-dev, python3-watchdog-dev, python3-web3-dev, python3-websocket-client-dev, python3-websockets-dev, python3-wifi-dev, python3-xlsxwriter-dev, python3-yarl-dev, python3-yenc-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-yt-dlp-ejs-dev, python3-zc.lockfile-dev, python3-zeroconf-dev, quickjs-dev, rclone-dev, redsea-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, satpi-dev, screen-dev, sed-dev, shairplay-dev, shellinabox-dev, smartmontools-dev, smbnetfs-dev, softcams-enigma2-meta-dev, srt-dev, sshpass-dev, strace-dev, streamlink-dev, streamlinksrv-dev, streamripper-dev, tcpdump-dev, tinyproxy-dev, tmux-dev, transmission-dev, tsanalyze-dev, tsduck-dev, tslib-dev, tsniv2ni-dev, ttyrun-dev, ubuntu-font-family-dev, udpxy-dev, unzip-dev, upx-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, valgrind-dev, vim-dev, wget-dev, wireguard-module-dev, wireguard-tools-dev, wireless-tools-dev, wscan-dev, wsdd-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zerotier-dev, zip-dev, zsh-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf68a0cd2b0b8dd3e504505c3779edb9
-SHA256sum: ce574393e7f7d0aa70407c161904a2d588b2d7ff63327cb94788eda2aff38155
-Size: 3554
+MD5Sum: ee90a6eb7302e6f31e0a915be20c7fd1
+SHA256sum: 5d3ce2b6fa52b1a16578b78cad82edba51e488c2b748a517e932d8dea288a053
+Size: 3558
 Filename: openpli-enigma2-feed-dev_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: openpli-enigma2-feed.bb
 Description: openpli-enigma2-feed version 1.0-r0 - Development files
@@ -134028,14 +134090,14 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dbg
-Version: 2026.10.26-git24055+91361cc0+91361cca6e-r4
+Version: 2026.10.26-git24056+38a5fb10+38a5fb16d1-r4
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8e4215b04eb3c4e1ff4b68be6fd65d52
-SHA256sum: 96f36c3c27b2a1c90896542fbb2db248458aaf8c56d5ea15910480abde9ef903
+MD5Sum: 79c29768c29e20748b4df573ac6cd951
+SHA256sum: 99240f6bdd26a52797fc167634f290177f58369aaf2b916d313b9a4c341a4390
 Size: 750
-Filename: python3-yt-dlp-dbg_2026.10.26-git24055+91361cc0+91361cca6e-r4_cortexa15hf-neon-vfpv4.ipk
+Filename: python3-yt-dlp-dbg_2026.10.26-git24056+38a5fb10+38a5fb16d1-r4_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Debugging files
 OE: python3-yt-dlp
@@ -134044,15 +134106,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dev
-Version: 2026.10.26-git24055+91361cc0+91361cca6e-r4
-Recommends: bash-completion-dev, libxml2-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-gdata-python3-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2026.10.26-git24055+91361cc0+91361cca6e-r4), python3-yt-dlp-ejs-dev, quickjs-dev
+Version: 2026.10.26-git24056+38a5fb10+38a5fb16d1-r4
+Recommends: bash-completion-dev, libxml2-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-gdata-python3-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2026.10.26-git24056+38a5fb10+38a5fb16d1-r4), python3-yt-dlp-ejs-dev, quickjs-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f336a73d78a89d766fa1bb2d0b7452de
-SHA256sum: a182c2003206c35cf2ae9fd16ea4e9881d725380bac23a4f94069b748ef74565
-Size: 854
-Filename: python3-yt-dlp-dev_2026.10.26-git24055+91361cc0+91361cca6e-r4_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ede23d1e4a19ca3debbb3aba36a644f5
+SHA256sum: 27106055f00ee566d49cf1b39b171a59bf9aaab5ed60d002bae96c9315a3caf7
+Size: 856
+Filename: python3-yt-dlp-dev_2026.10.26-git24056+38a5fb10+38a5fb16d1-r4_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Development files
 OE: python3-yt-dlp
@@ -134061,15 +134123,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp
-Version: 2026.10.26-git24055+91361cc0+91361cca6e-r4
+Version: 2026.10.26-git24056+38a5fb10+38a5fb16d1-r4
 Depends: python3-core, python3-ctypes, python3-email, python3-gdata-python3, python3-html, python3-unixadmin, python3-yt-dlp-ejs, quickjs
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eed1f368667f2dfe1bca2bef656c42fa
-SHA256sum: 68034a47db6159338bd69f1a6a34958737a9442927290f717c46592c20a40533
-Size: 6991368
-Filename: python3-yt-dlp_2026.10.26-git24055+91361cc0+91361cca6e-r4_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5720dd60a1315422f34539f273e2c6a2
+SHA256sum: c4ef60552ebb0fa0620537e4880e1bc6a89bbb57bfaee279840bc12d074d3dac
+Size: 6990192
+Filename: python3-yt-dlp_2026.10.26-git24056+38a5fb10+38a5fb16d1-r4_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes
 OE: python3-yt-dlp

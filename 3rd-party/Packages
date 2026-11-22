@@ -760,22 +760,6 @@ OE: enigma2-plugin-softcams-wicardd-1.19
 License: LicenseRef-Proprietary
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-jobcockpit
-Version: 0.17.1
-Depends: enigma2-plugin-systemplugins-fontscockpit
-Section: extra
-Architecture: all
-Maintainer: xcentaurix
-MD5Sum: be22cdc52dffe0749403fd22b5e41d5b
-SHA256sum: 7657c7fe681901372342e1c2d088c68ffe0e8dfabd3a8f234e03460f28843ce4
-Size: 49300
-Filename: enigma2-plugin-systemplugins-jobcockpit_0.17.1_all.ipk
-Source: https://github.com/OpenCockpit
-Description: JobCockpit
-OE: enigma2-plugin-systemplugins-jobcockpit
-License: free
-Priority: optional
-
 Package: libavcodec62
 Version: 8.1.2-r0
 Depends: libavutil60 (>= 8.1.2), libc6 (>= 2.44), liblzma5 (>= 5.8.3), libswresample6 (>= 8.1.2), libx264-165 (>= r3039+git0+0480cb05fa), libz1 (>= 1.3.2)
