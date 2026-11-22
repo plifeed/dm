@@ -13377,9 +13377,9 @@ Depends: libdvbcsa, libusb1, pcsc-lite, pcsc-tools, softcam-support
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9982890c096afc57aa9d4ed911e4d5c0
-SHA256sum: 8583d9f1706be93e0f5f0caeeb009b7d3d381ee6b4c7c12c00aabe27a63f8dfb
-Size: 691592
+MD5Sum: 367bd70fbf0e440fe5398b9e63975983
+SHA256sum: b04f9b375b9ff44633ae8c0e6f94b5ec46942d98098d57d1106f394a79d21938
+Size: 691948
 Filename: enigma2-plugin-softcams-oscam_11991-git10910+efe064e0+efe064ec62-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam.bb
 Description: enigma2-plugin-softcams-oscam version git-r0
@@ -14712,15 +14712,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3-dbg
-Version: 187+gitr518+41079cb0+41079cb84c-r0
+Version: 187+gitr519+1eee4190+1eee419049-r0
 Recommends: glibc-dbg, libavcodec-dbg, libavformat-dbg, libavutil-dbg, libswresample-dbg, libswscale-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fab06c05ce2463daa117ab27f777a87d
-SHA256sum: 24c07481e92284671dfb455280c426c7e19b57053de48e2b8fa8e9ebf4fbc612
-Size: 29368
-Filename: exteplayer3-dbg_187+gitr518+41079cb0+41079cb84c-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ad19ff4d3194c9851e7ca5271d3ac89c
+SHA256sum: f25571d7f95698eebe261a319496428e77e10db1b9896d9e6f6c0b49b5564aa8
+Size: 29366
+Filename: exteplayer3-dbg_187+gitr519+1eee4190+1eee419049-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3_git.bb
 Description: exteplayer3 - media player for E2 - Debugging files
 OE: exteplayer3
@@ -14728,15 +14728,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3-dev
-Version: 187+gitr518+41079cb0+41079cb84c-r0
-Recommends: exteplayer3 (= 187+gitr518+41079cb0+41079cb84c-r0), ffmpeg-dev, glibc-dev, libatomic-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libswresample-dev, libswscale-dev
+Version: 187+gitr519+1eee4190+1eee419049-r0
+Recommends: exteplayer3 (= 187+gitr519+1eee4190+1eee419049-r0), ffmpeg-dev, glibc-dev, libatomic-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libswresample-dev, libswscale-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f82ce4ae71ecac142762f0fc887c1725
-SHA256sum: 4db76094af858954eb142816d2a95870ed962a0b78ec3afc2bf0cc38903ddaa3
-Size: 732
-Filename: exteplayer3-dev_187+gitr518+41079cb0+41079cb84c-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 39be5a6645f4e992bcf49f2cf713bd74
+SHA256sum: 94de574debc38cfd1c99fa3eac0c75d64a54ef1815624909250399e46af0475a
+Size: 730
+Filename: exteplayer3-dev_187+gitr519+1eee4190+1eee419049-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3_git.bb
 Description: exteplayer3 - media player for E2 - Development files
 OE: exteplayer3
@@ -14744,15 +14744,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3
-Version: 187+gitr518+41079cb0+41079cb84c-r0
+Version: 187+gitr519+1eee4190+1eee419049-r0
 Depends: ffmpeg, libatomic, libavcodec63 (>= 9.0.2), libavformat63 (>= 9.0.2), libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+f715e9491c), libswresample7 (>= 9.0.2), libswscale10 (>= 9.0.2)
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8b45626f41b0dde76a295c523d24e7aa
-SHA256sum: 214db0001523194517801ef1e1854f896bf3ee9b568de6af0d053d198c1c72d9
-Size: 189788
-Filename: exteplayer3_187+gitr518+41079cb0+41079cb84c-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b5b28262618fc72c315c530e8e873632
+SHA256sum: 80ec7953e07952f5a1911433f90be95cf282927593975ea04dc77f10bff51be5
+Size: 189786
+Filename: exteplayer3_187+gitr519+1eee4190+1eee419049-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3_git.bb
 Description: exteplayer3 - media player for E2
 OE: exteplayer3
