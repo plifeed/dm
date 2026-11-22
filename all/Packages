@@ -1838,6 +1838,53 @@ OE: enigma2-plugin-extensions-mediathekcockpit
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-moviebrowser-dbg
+Version: 1.0+git229+bf75a3d0+bf75a3d02f-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: ebb2d1b9b0dc182ac8044b4f4f135f41
+SHA256sum: 1d72557b1faa35fd089ee98b6f14e04122987268b8aa1aef9cfc8d7594efc7e5
+Size: 582
+Filename: enigma2-plugin-extensions-moviebrowser-dbg_1.0+git229+bf75a3d0+bf75a3d02f-r0_all.ipk
+Source: enigma2-plugin-extensions-moviebrowser.bb
+Description: MovieBrowser Enigma2 Plugin - Debugging files
+OE: enigma2-plugin-extensions-moviebrowser
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-moviebrowser-dev
+Version: 1.0+git229+bf75a3d0+bf75a3d02f-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-moviebrowser (= 1.0+git229+bf75a3d0+bf75a3d02f-r0), python3-requests-dev, python3-sqlite3-dev
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: fdd57bbdeeb71656fd03ad6993206311
+SHA256sum: ae4c6c2073cff34cefc06c3b604e8affa22578ad0c4b1e73d0d8a6e9f62b2095
+Size: 648
+Filename: enigma2-plugin-extensions-moviebrowser-dev_1.0+git229+bf75a3d0+bf75a3d02f-r0_all.ipk
+Source: enigma2-plugin-extensions-moviebrowser.bb
+Description: MovieBrowser Enigma2 Plugin - Development files
+OE: enigma2-plugin-extensions-moviebrowser
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-moviebrowser
+Version: 1.0+git229+bf75a3d0+bf75a3d02f-r0
+Depends: enigma2, python3-requests, python3-sqlite3
+Section: base
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 914ededeb596a12774abe35010c27ccb
+SHA256sum: 5704dfafe9cd7f3e9a04317cd979b6855f3d2ea075e5bc53c9ef89d0bda962b5
+Size: 2808608
+Filename: enigma2-plugin-extensions-moviebrowser_1.0+git229+bf75a3d0+bf75a3d02f-r0_all.ipk
+Source: enigma2-plugin-extensions-moviebrowser.bb
+Description: MovieBrowser Enigma2 Plugin
+OE: enigma2-plugin-extensions-moviebrowser
+License: GPL-2.0-or-later
+Priority: required
+
 Package: enigma2-plugin-extensions-neoradio-dbg
 Version: 3.2.1-git64+1291c5a0+1291c5a969-r0
 Section: devel
@@ -2465,14 +2512,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dbg
-Version: 1.90-git1332+016c9c70+016c9c7440-r0
+Version: 1.91-git1335+670f1b30+670f1b3c08-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: ebb13db8e5f0369bdaaed42be99a41ea
-SHA256sum: e117c06b58767b760a1b0fff157291f13d5f5fc2a4f714905125f9a882050b46
+MD5Sum: 47ea0859aecc8eb0c607505056db78f7
+SHA256sum: 0b818f38042005fe5751ee7eb3e15bdff67c491dfb3932f8512aa6f6a2088806
 Size: 586
-Filename: enigma2-plugin-extensions-vavoo-dbg_1.90-git1332+016c9c70+016c9c7440-r0_all.ipk
+Filename: enigma2-plugin-extensions-vavoo-dbg_1.91-git1335+670f1b30+670f1b3c08-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-vavoo
@@ -2480,15 +2527,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dev
-Version: 1.90-git1332+016c9c70+016c9c7440-r0
-Recommends: enigma2-plugin-extensions-vavoo (= 1.90-git1332+016c9c70+016c9c7440-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
+Version: 1.91-git1335+670f1b30+670f1b3c08-r0
+Recommends: enigma2-plugin-extensions-vavoo (= 1.91-git1335+670f1b30+670f1b3c08-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: c0224e72a869cb2d650b262ef8add1b8
-SHA256sum: bb5275ae33887bf8ed66398057c09266b8b591f107f595a1ea525097b552afa1
+MD5Sum: 6653f84292632640cb9dee6705850c53
+SHA256sum: db0887a9ee40988ab958a8e3cdc222cb5d0547d00965ff77cdd281e3f7b3b895
 Size: 662
-Filename: enigma2-plugin-extensions-vavoo-dev_1.90-git1332+016c9c70+016c9c7440-r0_all.ipk
+Filename: enigma2-plugin-extensions-vavoo-dev_1.91-git1335+670f1b30+670f1b3c08-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-vavoo
@@ -2496,15 +2543,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.90-git1332+016c9c70+016c9c7440-r0
+Version: 1.91-git1335+670f1b30+670f1b3c08-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 92ea50eb2e6b6777d8da63dc072b72f1
-SHA256sum: 29d8b46395e4b577c47243d42a7e58f5109a5a706c62a33931ab2d043057c6a7
-Size: 10772010
-Filename: enigma2-plugin-extensions-vavoo_1.90-git1332+016c9c70+016c9c7440-r0_all.ipk
+MD5Sum: a7ca00a7fbbb600ba51b6bfee5e9f1d3
+SHA256sum: 4f8ac44eaba0eeb2a7efe3aaecd3c9db12c74536e823f2015f643963d94d94d6
+Size: 10870028
+Filename: enigma2-plugin-extensions-vavoo_1.91-git1335+670f1b30+670f1b3c08-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin
 OE: enigma2-plugin-extensions-vavoo
