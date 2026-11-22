@@ -611,8 +611,8 @@ Version: 2.5.0-git604+db9c1930+db9c193304-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2d8a72cbd99cb07f85c0445163c7db70
-SHA256sum: ce1623ed9bc4bbb757a969da8046a15c7474ad4bdcef52ed58babe71b64e0f38
+MD5Sum: aff2346501bd8043f3502c4d27f54f2b
+SHA256sum: a0b40e7a4e1a7db0d2c0c43c77edfb4a35a84a5c9466065308cfd8247988964c
 Size: 692
 Filename: enigma2-plugin-extensions-archivczsk-dbg_2.5.0-git604+db9c1930+db9c193304-r0_all.ipk
 Source: enigma2-plugin-extensions-archivczsk.bb
@@ -627,9 +627,9 @@ Recommends: bash-dev, enigma2-plugin-extensions-archivczsk (= 2.5.0-git604+db9c1
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23ba73009233c87cf0ca9519dc69bc1a
-SHA256sum: 24a3c45d3b36fd497ca6c2c9bbf92c53e46f5521a1ac21ab5c3fa144bb7bcd7a
-Size: 808
+MD5Sum: 4a13cfdf22200d616ecf730b276a312e
+SHA256sum: d7e54424da4e6586fef256ac17dfa6f84824c6f76ffac49c353a50f8132f1061
+Size: 806
 Filename: enigma2-plugin-extensions-archivczsk-dev_2.5.0-git604+db9c1930+db9c193304-r0_all.ipk
 Source: enigma2-plugin-extensions-archivczsk.bb
 Description: ArchivCZSK stream Czech and Slovak video archives, TV and internet media - Development files
@@ -643,9 +643,9 @@ Depends: bash, enigma2-plugin-systemplugins-serviceapp, exteplayer3, python3-bea
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c71850e2a035a38880b60efac975eaf7
-SHA256sum: f8ed4d5f6b33b20246653c201740010b85b7fe209b1744c8330b0cf0da1398ab
-Size: 375148
+MD5Sum: d1762507e28eefa9908b246f9e040805
+SHA256sum: 0f8a304a0b06ccbeff77c0e36e730c4aa3d2dc6d75f231f647c892a87994987b
+Size: 375110
 Filename: enigma2-plugin-extensions-archivczsk_2.5.0-git604+db9c1930+db9c193304-r0_all.ipk
 Source: enigma2-plugin-extensions-archivczsk.bb
 Description: ArchivCZSK stream Czech and Slovak video archives, TV and internet media
@@ -958,8 +958,8 @@ Version: git30+d1b74e30+d1b74e3ba7-r0
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: f2a2453b8e93381e7c72830a5a779210
-SHA256sum: e37e04d3450ed24bad58beddc0d323db77ad0ca65c7830dda65653cebf3bee8c
+MD5Sum: 3ddb14f8f295a9c929cd070ac8c5bbfd
+SHA256sum: ffa966bbd6165fdb91ee0a5322ec472583cd5a98751d47b999fc9bfa15967445
 Size: 576
 Filename: enigma2-plugin-extensions-ciefpyoutube-dbg_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpyoutube.bb
@@ -974,8 +974,8 @@ Recommends: enigma2-dev, enigma2-plugin-extensions-ciefpyoutube (= git30+d1b74e3
 Section: devel
 Architecture: all
 Maintainer: ciefp
-MD5Sum: 20e303c4794011e0303b178d0cf3a564
-SHA256sum: cd16f428b6e77b8141a9f9af7a4a624f9399ff2b0e9a4dfb67071a0a5713706c
+MD5Sum: 23dd981acd8dc1b9a066edac46d864c8
+SHA256sum: b62658bcf66bab6502bfefefcb59b6a3963d0c042aee11e3f2ce8868695e9fcc
 Size: 668
 Filename: enigma2-plugin-extensions-ciefpyoutube-dev_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpyoutube.bb
@@ -990,9 +990,9 @@ Depends: enigma2, enigma2-plugin-systemplugins-serviceapp, exteplayer3, python3-
 Section: base
 Architecture: all
 Maintainer: ciefp
-MD5Sum: b3c59d3c96f577ae6927058a3ea70dc9
-SHA256sum: 8b5a0ac2f49556897a4ec0b8c825415c8afc3c1d9ed6d9c6afceba5595324c1d
-Size: 962798
+MD5Sum: d499b67b83a0ccf19c1322eaa578cc32
+SHA256sum: 154601e8cf480c9c082928f7e4cc61568f2db59b78492036f3fdfe866f63c4b3
+Size: 962786
 Filename: enigma2-plugin-extensions-ciefpyoutube_git30+d1b74e30+d1b74e3ba7-r0_all.ipk
 Source: enigma2-plugin-extensions-ciefpyoutube.bb
 Description: CiefpYouTube Enigma2 Plugin
@@ -1680,14 +1680,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 3.0.9-git552+6f0b49e0+6f0b49e60f-r0
+Version: 3.0.9-git553+7f2c8a10+7f2c8a1acf-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: f7749d2fdc0937070cab21499c139845
-SHA256sum: 7ea73671135f16e880c4aaf1a11a87f8dde2fce8d69f6367d8c2760b78edb5ce
+MD5Sum: 6e0746bf633fe5c9b5584b81022f1926
+SHA256sum: 7e1886f065f7c6a63e968735d6ee76ca01a1f5292ae02b9d32978e568f36a5b0
 Size: 584
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.9-git552+6f0b49e0+6f0b49e60f-r0_all.ipk
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.9-git553+7f2c8a10+7f2c8a1acf-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1695,15 +1695,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 3.0.9-git552+6f0b49e0+6f0b49e60f-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.9-git552+6f0b49e0+6f0b49e60f-r0)
+Version: 3.0.9-git553+7f2c8a10+7f2c8a1acf-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.9-git553+7f2c8a10+7f2c8a1acf-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 39f3ea42ae7a2c9332b7f735eb1de417
-SHA256sum: 4e0b2e41ad13169b0e63b807aa0d96e5e33e1d674c3b29b31249d8e729666462
-Size: 620
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.9-git552+6f0b49e0+6f0b49e60f-r0_all.ipk
+MD5Sum: 9250080b8468bc608b878236c96da161
+SHA256sum: 7aaa85b2c9d75827f5bb78373460ad7b444408c814fab0e0cd70300124a1dd4f
+Size: 618
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.9-git553+7f2c8a10+7f2c8a1acf-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1711,14 +1711,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 3.0.9-git552+6f0b49e0+6f0b49e60f-r0
+Version: 3.0.9-git553+7f2c8a10+7f2c8a1acf-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 21af4fe78322a860921d6e4c5d873232
-SHA256sum: 125d5fd417e5ecdb008017936f15a9ee58ccefe5ceb14f9f4e8d3f5e7a9739ba
-Size: 15221852
-Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.9-git552+6f0b49e0+6f0b49e60f-r0_all.ipk
+MD5Sum: 6d18ab94b9eed293f1fe77641833a23b
+SHA256sum: 74837c2be55f2f24f1496240edddf42684de110f300aeed9bf1cf1599e0deb53
+Size: 15251922
+Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.9-git553+7f2c8a10+7f2c8a1acf-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -2014,8 +2014,8 @@ Version: 1.9-git358+d68125f0+d68125f0f2-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: ee3a91d2c5266a7a508f8fcd9765d101
-SHA256sum: 93101063781a46085a2ec8611e788ab6cdfa45af00c8cf4ebb0cdda0f30f40c1
+MD5Sum: 51cc12b989afe0ac7b59729a0073fab4
+SHA256sum: 77cf823505222c3db5c02df68c2c209f69a31c393df9db02c3ce119a863b4113
 Size: 580
 Filename: enigma2-plugin-extensions-raiplay-dbg_1.9-git358+d68125f0+d68125f0f2-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
@@ -2030,8 +2030,8 @@ Recommends: enigma2-plugin-extensions-raiplay (= 1.9-git358+d68125f0+d68125f0f2-
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 225d958a6aa9f61330052bd238b43220
-SHA256sum: 2f9a69e5d2d1ef945b87b94923651f113f2df9019319386bcf51d17d588603e5
+MD5Sum: 4b0e9da3ff139967fcf75e4e87c47940
+SHA256sum: fdecc2ab9b5aa8d594c688a9db0729edf9cd9aff49e186ab32cfd633419b18a0
 Size: 656
 Filename: enigma2-plugin-extensions-raiplay-dev_1.9-git358+d68125f0+d68125f0f2-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
@@ -2046,9 +2046,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 11255ac2aa5f5ee54dee56c0be76fa28
-SHA256sum: 3e837faa5a4c9d1a614fe1daa954d6c09150ba025255261af9656ecd18ed6332
-Size: 6501836
+MD5Sum: 4f1db0f4f858bc18b327ac2354be6e89
+SHA256sum: 323827f2c1de41909dcc928fd94d16331157ebe1d150e77581b5eb905b708655
+Size: 6501666
 Filename: enigma2-plugin-extensions-raiplay_1.9-git358+d68125f0+d68125f0f2-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: RaiPlay Enigma2 Plugin
@@ -2469,8 +2469,8 @@ Version: 1.90-git1332+016c9c70+016c9c7440-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 346e5950a8b0f33b1ab75ca90172c3d2
-SHA256sum: 7bd80663ad0ddf96e171eaac62d533c21f1af90b42737c9aa0cd4dc50d64493c
+MD5Sum: ebb13db8e5f0369bdaaed42be99a41ea
+SHA256sum: e117c06b58767b760a1b0fff157291f13d5f5fc2a4f714905125f9a882050b46
 Size: 586
 Filename: enigma2-plugin-extensions-vavoo-dbg_1.90-git1332+016c9c70+016c9c7440-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
@@ -2485,9 +2485,9 @@ Recommends: enigma2-plugin-extensions-vavoo (= 1.90-git1332+016c9c70+016c9c7440-
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: c6b5b73f7a32905ddb250d29f6487e3a
-SHA256sum: 57dc66224a212d8638658c17b49f7dbb1961591fb4eb77f9944eb9f921bba8a7
-Size: 664
+MD5Sum: c0224e72a869cb2d650b262ef8add1b8
+SHA256sum: bb5275ae33887bf8ed66398057c09266b8b591f107f595a1ea525097b552afa1
+Size: 662
 Filename: enigma2-plugin-extensions-vavoo-dev_1.90-git1332+016c9c70+016c9c7440-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin - Development files
@@ -2501,9 +2501,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 462cd8a253382cc44b2fa686937867ed
-SHA256sum: 71bc0271722684ca4c89cdde68dcd4527ad3ba0d5b889464633674dedb372609
-Size: 10771922
+MD5Sum: 92ea50eb2e6b6777d8da63dc072b72f1
+SHA256sum: 29d8b46395e4b577c47243d42a7e58f5109a5a706c62a33931ab2d043057c6a7
+Size: 10772010
 Filename: enigma2-plugin-extensions-vavoo_1.90-git1332+016c9c70+016c9c7440-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin
