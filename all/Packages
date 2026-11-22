@@ -1839,14 +1839,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-moviebrowser-dbg
-Version: 1.0+git229+bf75a3d0+bf75a3d02f-r0
+Version: 4.2-git229+bf75a3d0+bf75a3d02f-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: ebb2d1b9b0dc182ac8044b4f4f135f41
-SHA256sum: 1d72557b1faa35fd089ee98b6f14e04122987268b8aa1aef9cfc8d7594efc7e5
+MD5Sum: 4036316a464d790747f5bcb907703a5a
+SHA256sum: d42ab0416e7e4d68cda010771ade8f68e06ec3692b7ede0375e72ece4ea0ffd6
 Size: 582
-Filename: enigma2-plugin-extensions-moviebrowser-dbg_1.0+git229+bf75a3d0+bf75a3d02f-r0_all.ipk
+Filename: enigma2-plugin-extensions-moviebrowser-dbg_4.2-git229+bf75a3d0+bf75a3d02f-r0_all.ipk
 Source: enigma2-plugin-extensions-moviebrowser.bb
 Description: MovieBrowser Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-moviebrowser
@@ -1854,15 +1854,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-moviebrowser-dev
-Version: 1.0+git229+bf75a3d0+bf75a3d02f-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-moviebrowser (= 1.0+git229+bf75a3d0+bf75a3d02f-r0), python3-requests-dev, python3-sqlite3-dev
+Version: 4.2-git229+bf75a3d0+bf75a3d02f-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-moviebrowser (= 4.2-git229+bf75a3d0+bf75a3d02f-r0), python3-requests-dev, python3-six-dev, python3-twisted-web-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: fdd57bbdeeb71656fd03ad6993206311
-SHA256sum: ae4c6c2073cff34cefc06c3b604e8affa22578ad0c4b1e73d0d8a6e9f62b2095
-Size: 648
-Filename: enigma2-plugin-extensions-moviebrowser-dev_1.0+git229+bf75a3d0+bf75a3d02f-r0_all.ipk
+MD5Sum: 34aa5dc70f412ab91cdf1a8ac61a2176
+SHA256sum: d0801c82be3d13f0ceb0732e031ac8c32f231f57c2f6cfa7884d1e33ef829cc1
+Size: 654
+Filename: enigma2-plugin-extensions-moviebrowser-dev_4.2-git229+bf75a3d0+bf75a3d02f-r0_all.ipk
 Source: enigma2-plugin-extensions-moviebrowser.bb
 Description: MovieBrowser Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-moviebrowser
@@ -1870,15 +1870,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-moviebrowser
-Version: 1.0+git229+bf75a3d0+bf75a3d02f-r0
-Depends: enigma2, python3-requests, python3-sqlite3
+Version: 4.2-git229+bf75a3d0+bf75a3d02f-r0
+Depends: enigma2, python3-requests, python3-six, python3-twisted-web
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 914ededeb596a12774abe35010c27ccb
-SHA256sum: 5704dfafe9cd7f3e9a04317cd979b6855f3d2ea075e5bc53c9ef89d0bda962b5
-Size: 2808608
-Filename: enigma2-plugin-extensions-moviebrowser_1.0+git229+bf75a3d0+bf75a3d02f-r0_all.ipk
+MD5Sum: 842322c2f4c0fb496b81e5607ea73556
+SHA256sum: c550bb2e05bce93c5b9d35d4927214ed7616bf1691e06c25f77ef87545ddbaa8
+Size: 2808614
+Filename: enigma2-plugin-extensions-moviebrowser_4.2-git229+bf75a3d0+bf75a3d02f-r0_all.ipk
 Source: enigma2-plugin-extensions-moviebrowser.bb
 Description: MovieBrowser Enigma2 Plugin
 OE: enigma2-plugin-extensions-moviebrowser
