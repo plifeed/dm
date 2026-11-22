@@ -6319,53 +6319,6 @@ OE: enigma2-plugin-systemplugins-fontscockpit
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-systemplugins-jobcockpit-dbg
-Version: 0.17.8-r0
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1ed0d78cbbdd4d4b4e39dc67b61b7bf8
-SHA256sum: 57999829733750ef3d918268775bcdc634086a06be688246b5517e3287aeccbc
-Size: 600
-Filename: enigma2-plugin-systemplugins-jobcockpit-dbg_0.17.8-r0_all.ipk
-Source: enigma2-plugin-systemplugins-jobcockpit.bb
-Description: JobCockpit prebuilt package - Debugging files
-OE: enigma2-plugin-systemplugins-jobcockpit
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-systemplugins-jobcockpit-dev
-Version: 0.17.8-r0
-Recommends: bash-dev, enigma2-plugin-systemplugins-jobcockpit (= 0.17.8-r0), python3-core-dev
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65e3b6ee8d3ce95932cbeba759daf9ce
-SHA256sum: 479f0d3fca38b84230ffdae9ea7056d9f6c2286c829ff2f05ad4476ca41c3876
-Size: 650
-Filename: enigma2-plugin-systemplugins-jobcockpit-dev_0.17.8-r0_all.ipk
-Source: enigma2-plugin-systemplugins-jobcockpit.bb
-Description: JobCockpit prebuilt package - Development files
-OE: enigma2-plugin-systemplugins-jobcockpit
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-systemplugins-jobcockpit
-Version: 0.17.8-r0
-Depends: bash, python3-core
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c02a2d864e92e1d8f9b836855956742b
-SHA256sum: 9c3222b99d4216f256142f2b239161bad907cb39e337dd66133c04420d4b5836
-Size: 49574
-Filename: enigma2-plugin-systemplugins-jobcockpit_0.17.8-r0_all.ipk
-Source: enigma2-plugin-systemplugins-jobcockpit.bb
-Description: JobCockpit prebuilt package
-OE: enigma2-plugin-systemplugins-jobcockpit
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: enigma2-plugin-systemplugins-m3uiptv-dbg
 Version: 1.0+git528+4f19f260+4f19f265bd-r0
 Section: devel
