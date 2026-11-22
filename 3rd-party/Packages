@@ -330,6 +330,22 @@ OE: enigma2-plugin-extensions-purevpn
 License: free
 Priority: optional
 
+Package: enigma2-plugin-extensions-quarterpounder
+Version: 6.2.0v
+Recommends: exteplayer3
+Section: extra
+Architecture: all
+Maintainer: @oottppxx
+MD5Sum: 196115968432cf5a45989556685137ef
+SHA256sum: e9074d5bb2f5d37935357ce01dd2305a42a86673ccd181628ca14d96f98e87a1
+Size: 11904
+Filename: enigma2-plugin-extensions-quarterpounder_6.2.0v_all.ipk
+Source: enigma2-plugin-extensions-quarterpounder.bb
+Description: Attempts to detect a stuck stream and to restart it
+OE: enigma2-plugin-extensions-quarterpounder
+License: open
+Priority: optional
+
 Package: enigma2-plugin-extensions-rakutentv
 Version: 20260606
 Depends: streamlinksrv
