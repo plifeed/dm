@@ -1793,13 +1793,13 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit-dev
 Version: 0.19.8-git8+663002a0+663002a2e5-r0
-Recommends: enigma2-plugin-extensions-mediathekcockpit (= 0.19.8-git8+663002a0+663002a2e5-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-cachecockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-jobcockpit-dev, enigma2-plugin-systemplugins-mountcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
+Recommends: enigma2-plugin-extensions-mediathekcockpit (= 0.19.8-git8+663002a0+663002a2e5-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-cachecockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-mountcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a2a7da43a84eaa495b142702c827ee70
-SHA256sum: e57e93e3d033dd625e2f4bfb0a7292c126f04f5c12b2f76059d1cb67140c0e96
-Size: 738
+MD5Sum: 5a6ab5828913b5d790abf05c42bc0f0d
+SHA256sum: 044f3b8a7e37e6fbd33841487f1c108a095898113a639faeff9386a5a70d0ba0
+Size: 734
 Filename: enigma2-plugin-extensions-mediathekcockpit-dev_0.19.8-git8+663002a0+663002a2e5-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2 - Development files
@@ -1824,13 +1824,14 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit
 Version: 0.19.8-git8+663002a0+663002a2e5-r0
-Depends: enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-jobcockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-streamproxycockpit
+Depends: enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-streamproxycockpit
+Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e4a044d19b1be914dc5eb7641d91e425
-SHA256sum: d7f8eb11aae99cf4ad3899cba442bb74059282c54c89e389bade2374486dc754
-Size: 322842
+MD5Sum: 71583049966489b713a2901ba6046437
+SHA256sum: 7ac8d0351ac920192b12e1b37673948529b154bf627673b0fddc2e463b3d6ea2
+Size: 322852
 Filename: enigma2-plugin-extensions-mediathekcockpit_0.19.8-git8+663002a0+663002a2e5-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2
@@ -2011,13 +2012,13 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-plutotvcockpit-dev
 Version: 0.36.8-git14+c209e7e0+c209e7eb4b-r0
-Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-plutotvcockpit (= 0.36.8-git14+c209e7e0+c209e7eb4b-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-jobcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
+Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-plutotvcockpit (= 0.36.8-git14+c209e7e0+c209e7eb4b-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c125b948851577aced142ceba06493c4
-SHA256sum: 5da8b0aacf87f487dd882b51c3fbbacc05c12d43abccfffbd19adb68761bb647
-Size: 732
+MD5Sum: 26fc65baab77aa922260be7f9b93c9d7
+SHA256sum: 8b484d860598be424364a081c7b5be1288b86b7d96acfeca5c7c9c5ea4c9aed7
+Size: 726
 Filename: enigma2-plugin-extensions-plutotvcockpit-dev_0.36.8-git14+c209e7e0+c209e7eb4b-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotvcockpit.bb
 Description: PlutoTVCockpit plugin for enigma2 - Development files
@@ -2042,13 +2043,14 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-plutotvcockpit
 Version: 0.36.8-git14+c209e7e0+c209e7eb4b-r0
-Depends: enigma2-plugin-extensions-epgimport, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-jobcockpit, enigma2-plugin-systemplugins-streamproxycockpit
+Depends: enigma2-plugin-extensions-epgimport, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-streamproxycockpit
+Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65066d08dafc6f4098a26ccede29b35b
-SHA256sum: 4e33cae343c5df29d92ff727f7d82cd5ddd098e02f48f2db2592fcb4fadc8867
-Size: 505704
+MD5Sum: 5f4f93f7d3531ac47e7986b5620833b4
+SHA256sum: 3efcd768a3a0fa9c6e8391ea8426d66890ac47009401712bd763f08ebef2d7b5
+Size: 505712
 Filename: enigma2-plugin-extensions-plutotvcockpit_0.36.8-git14+c209e7e0+c209e7eb4b-r0_all.ipk
 Source: enigma2-plugin-extensions-plutotvcockpit.bb
 Description: PlutoTVCockpit plugin for enigma2
@@ -2120,13 +2122,13 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-rakutentvcockpit-dev
 Version: 0.27.14-git12+6495eb90+6495eb90d8-r0
-Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-rakutentvcockpit (= 0.27.14-git12+6495eb90+6495eb90d8-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-jobcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
+Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-rakutentvcockpit (= 0.27.14-git12+6495eb90+6495eb90d8-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dabf5f6f9d76f240bc3124ac64c3921c
-SHA256sum: 08a0d182e8d8123041497dda5d87da89804ec2a6df31e3481715d1ade7ed0aab
-Size: 736
+MD5Sum: 4217171698ba57954dfc3f5978e13fe6
+SHA256sum: 4109b5e59828fc87cc5fa3755d2fd4dad6846f1443c21bf4ea45e4b3ef0c4142
+Size: 730
 Filename: enigma2-plugin-extensions-rakutentvcockpit-dev_0.27.14-git12+6495eb90+6495eb90d8-r0_all.ipk
 Source: enigma2-plugin-extensions-rakutentvcockpit.bb
 Description: RakutenTVCockpit plugin for enigma2 - Development files
@@ -2151,13 +2153,14 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-rakutentvcockpit
 Version: 0.27.14-git12+6495eb90+6495eb90d8-r0
-Depends: enigma2-plugin-extensions-epgimport, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-jobcockpit, enigma2-plugin-systemplugins-streamproxycockpit
+Depends: enigma2-plugin-extensions-epgimport, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-streamproxycockpit
+Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5ca183543e0bbbf4185fe47a8709dec9
-SHA256sum: e05133d2ee18173b3de2eb86b6673b2756925029cc202ce97ce1eb959803c123
-Size: 370140
+MD5Sum: 4a580411619d95759b3c0579b2600a8c
+SHA256sum: d9995f0bb3b53525049d6f3335f32945dc58de36526501025252c3b02154221b
+Size: 370148
 Filename: enigma2-plugin-extensions-rakutentvcockpit_0.27.14-git12+6495eb90+6495eb90d8-r0_all.ipk
 Source: enigma2-plugin-extensions-rakutentvcockpit.bb
 Description: RakutenTVCockpit plugin for enigma2
@@ -2182,13 +2185,13 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-samsungtvcockpit-dev
 Version: 1.26.14-git12+0f765820+0f76582881-r0
-Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-samsungtvcockpit (= 1.26.14-git12+0f765820+0f76582881-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-jobcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
+Recommends: enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-samsungtvcockpit (= 1.26.14-git12+0f765820+0f76582881-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 40b7ceb8beeb04262405f09856236229
-SHA256sum: 2311398cce993218cc1ab15fb964329f9e3f614f686fc7f7360978c9e6236f67
-Size: 740
+MD5Sum: cba9c83c3c177bb61ade5218fef3fafb
+SHA256sum: 3a0d21978c90069bdec06fb198d27113c36ca419fef72d6a47ba4002f8e21416
+Size: 736
 Filename: enigma2-plugin-extensions-samsungtvcockpit-dev_1.26.14-git12+0f765820+0f76582881-r0_all.ipk
 Source: enigma2-plugin-extensions-samsungtvcockpit.bb
 Description: SamsungTVCockpit plugin for enigma2 - Development files
@@ -2213,13 +2216,14 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-samsungtvcockpit
 Version: 1.26.14-git12+0f765820+0f76582881-r0
-Depends: enigma2-plugin-extensions-epgimport, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-jobcockpit, enigma2-plugin-systemplugins-streamproxycockpit
+Depends: enigma2-plugin-extensions-epgimport, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-streamproxycockpit
+Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5fe75a0e19f1f1e8683bee8c5fb187f8
-SHA256sum: 211b9ec945ec4db5367a5e3d49ff0cc52faa9a66a752754439cf4c7ccbd1b711
-Size: 462072
+MD5Sum: 926709455e004de31a2e71797caa9744
+SHA256sum: dfb3c0db62fbdbab6f50b6c480e52384a40545fb4cf6ce8d12ff034a0fdeaad8
+Size: 462080
 Filename: enigma2-plugin-extensions-samsungtvcockpit_1.26.14-git12+0f765820+0f76582881-r0_all.ipk
 Source: enigma2-plugin-extensions-samsungtvcockpit.bb
 Description: SamsungTVCockpit plugin for enigma2
