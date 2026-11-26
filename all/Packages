@@ -513,14 +513,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-acherone-dbg
-Version: 1.4-git132+002e1010+002e101fa5-r0
+Version: 1.4-git133+797d93c0+797d93cecc-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: fe338dbbc27c842fc43ebca05c2b1615
-SHA256sum: 076a2ebaf62cf198d70ef070617e56c056837bc70f56f90451d48f971bec8ed0
-Size: 578
-Filename: enigma2-plugin-extensions-acherone-dbg_1.4-git132+002e1010+002e101fa5-r0_all.ipk
+MD5Sum: bef9b6277575e03731c88f14aa698223
+SHA256sum: 985ec7600795bc2a1d21bceacd3672e37f6b1f2e7d835f201582433760a1ab04
+Size: 580
+Filename: enigma2-plugin-extensions-acherone-dbg_1.4-git133+797d93c0+797d93cecc-r0_all.ipk
 Source: enigma2-plugin-extensions-acherone.bb
 Description: OpenScript for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-acherone
@@ -528,15 +528,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-acherone-dev
-Version: 1.4-git132+002e1010+002e101fa5-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-acherone (= 1.4-git132+002e1010+002e101fa5-r0), python3-core-dev
+Version: 1.4-git133+797d93c0+797d93cecc-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-acherone (= 1.4-git133+797d93c0+797d93cecc-r0), python3-core-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 15cbd45061e4544531b526da00a5b431
-SHA256sum: ebfeaaa5a5aec6b6a7c12020eaf91fdddebfa716ca3708ad8a97a0d9fe78c0e5
+MD5Sum: 987258c0ad4dfaa41ac891fc3fb189be
+SHA256sum: b4d6fc981e792159e8ef9d29cbe0768622bf07a0c3b4726de5eef300766bffcb
 Size: 630
-Filename: enigma2-plugin-extensions-acherone-dev_1.4-git132+002e1010+002e101fa5-r0_all.ipk
+Filename: enigma2-plugin-extensions-acherone-dev_1.4-git133+797d93c0+797d93cecc-r0_all.ipk
 Source: enigma2-plugin-extensions-acherone.bb
 Description: OpenScript for Enigma2 - Development files
 OE: enigma2-plugin-extensions-acherone
@@ -544,15 +544,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-acherone
-Version: 1.4-git132+002e1010+002e101fa5-r0
+Version: 1.4-git133+797d93c0+797d93cecc-r0
 Depends: enigma2, python3-core
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: b37b0d4cd7dd55445fe6efc3267339d9
-SHA256sum: ab73a56b1e31892709f90f26d580769cf2f372e5c1508779096e6311aa89c287
-Size: 222072
-Filename: enigma2-plugin-extensions-acherone_1.4-git132+002e1010+002e101fa5-r0_all.ipk
+MD5Sum: e0c5dd62eaafcd80f420c3d7897ca861
+SHA256sum: 64fc46381fc2ec5e97f4c497d078d0faa3132397eb637859fafdc30b6be5ace6
+Size: 222502
+Filename: enigma2-plugin-extensions-acherone_1.4-git133+797d93c0+797d93cecc-r0_all.ipk
 Source: enigma2-plugin-extensions-acherone.bb
 Description: OpenScript for Enigma2
 OE: enigma2-plugin-extensions-acherone
@@ -560,14 +560,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-archimede-m3uconverter-dbg
-Version: 3.3-git211+a7493ad0+a7493ad956-r0
+Version: 3.3-git212+6ca5d280+6ca5d28aea-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 8c8e5b95cd711b6c7791740665f633e8
-SHA256sum: 5b0055916cdc43d5d6d5569a43d8b877a4aacf41c2977756d8e8b59b06e5fb99
-Size: 594
-Filename: enigma2-plugin-extensions-archimede-m3uconverter-dbg_3.3-git211+a7493ad0+a7493ad956-r0_all.ipk
+MD5Sum: 27589b7b35e58f0178b9e67f20aef6f9
+SHA256sum: 819deffc32fbb54ec364be38671c8f8339543191f7944826826e6e9a46f38a16
+Size: 590
+Filename: enigma2-plugin-extensions-archimede-m3uconverter-dbg_3.3-git212+6ca5d280+6ca5d28aea-r0_all.ipk
 Source: enigma2-plugin-extensions-archimede-m3uconverter.bb
 Description: Archimede-M3UConverter Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-archimede-m3uconverter
@@ -575,15 +575,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-archimede-m3uconverter-dev
-Version: 3.3-git211+a7493ad0+a7493ad956-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-archimede-m3uconverter (= 3.3-git211+a7493ad0+a7493ad956-r0), python3-requests-dev
+Version: 3.3-git212+6ca5d280+6ca5d28aea-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-archimede-m3uconverter (= 3.3-git212+6ca5d280+6ca5d28aea-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 45eca76c58d4373efdeb2179be062e6f
-SHA256sum: bdbd279958d4083763b14908a6d15ad50249c2a4f9f955e2d44975b076b45a0f
+MD5Sum: f62fed9f43de36bda6a5bf1c6573b42b
+SHA256sum: 22bc290f78648023493138368dc133b84b503553a8e4be9ec105209dfc34da35
 Size: 650
-Filename: enigma2-plugin-extensions-archimede-m3uconverter-dev_3.3-git211+a7493ad0+a7493ad956-r0_all.ipk
+Filename: enigma2-plugin-extensions-archimede-m3uconverter-dev_3.3-git212+6ca5d280+6ca5d28aea-r0_all.ipk
 Source: enigma2-plugin-extensions-archimede-m3uconverter.bb
 Description: Archimede-M3UConverter Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-archimede-m3uconverter
@@ -591,15 +591,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-archimede-m3uconverter
-Version: 3.3-git211+a7493ad0+a7493ad956-r0
+Version: 3.3-git212+6ca5d280+6ca5d28aea-r0
 Depends: enigma2, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 613dc1996bcae502b5313196b157b763
-SHA256sum: f3c08c12a5a624b13af3ebe95535d51d6840bea1b1989082ded435fc61c0f403
-Size: 350432
-Filename: enigma2-plugin-extensions-archimede-m3uconverter_3.3-git211+a7493ad0+a7493ad956-r0_all.ipk
+MD5Sum: 25752f7773a9eba05bee76c3dd895f8b
+SHA256sum: abc8c33cdd00221b13b7a454eae25b985d77de0ae15370b56c49efda1bbcad45
+Size: 350942
+Filename: enigma2-plugin-extensions-archimede-m3uconverter_3.3-git212+6ca5d280+6ca5d28aea-r0_all.ipk
 Source: enigma2-plugin-extensions-archimede-m3uconverter.bb
 Description: Archimede-M3UConverter Enigma2 Plugin
 OE: enigma2-plugin-extensions-archimede-m3uconverter
@@ -766,14 +766,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-calendar-dbg
-Version: 2.1-git175+09f66480+09f6648f07-r0
+Version: 2.1-git176+1a176f80+1a176f8f90-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 952db55c7f65404b38dd2814cddfa3bb
-SHA256sum: d4946e87a09f3dcfc05896f040ba9b78bb7c1ea12db025330d388c99263584af
-Size: 580
-Filename: enigma2-plugin-extensions-calendar-dbg_2.1-git175+09f66480+09f6648f07-r0_all.ipk
+MD5Sum: 36d40d7e747dbc7021f411cc3e63d22a
+SHA256sum: 164bd9460b8eb398641063659eb6dcf03661247cd17b6f1837240034d09d577f
+Size: 578
+Filename: enigma2-plugin-extensions-calendar-dbg_2.1-git176+1a176f80+1a176f8f90-r0_all.ipk
 Source: enigma2-plugin-extensions-calendar.bb
 Description: Calendar Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-calendar
@@ -781,15 +781,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-calendar-dev
-Version: 2.1-git175+09f66480+09f6648f07-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-calendar (= 2.1-git175+09f66480+09f6648f07-r0)
+Version: 2.1-git176+1a176f80+1a176f8f90-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-calendar (= 2.1-git176+1a176f80+1a176f8f90-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 2ba34a1a1f6663d171a619c46c7a73e9
-SHA256sum: 60e56477138b7d6b51064f52562f76ec6f27e84c750a614fc574de48ea851d4d
+MD5Sum: 0e63025fac920cc42f3780bc86cb2ddd
+SHA256sum: d5b40e3d0a5259b21e24f7310401d1ca93d51dcccf9d320f2a7ed63db20c54dc
 Size: 620
-Filename: enigma2-plugin-extensions-calendar-dev_2.1-git175+09f66480+09f6648f07-r0_all.ipk
+Filename: enigma2-plugin-extensions-calendar-dev_2.1-git176+1a176f80+1a176f8f90-r0_all.ipk
 Source: enigma2-plugin-extensions-calendar.bb
 Description: Calendar Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-calendar
@@ -797,15 +797,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-calendar
-Version: 2.1-git175+09f66480+09f6648f07-r0
+Version: 2.1-git176+1a176f80+1a176f8f90-r0
 Depends: enigma2
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 21fbc93ff077148b779b3f70fed1485a
-SHA256sum: 9184b12ac90fa3f6ad36ab8a1be4981461277cd62c0913fb2c57b9f3e41b7315
-Size: 2190992
-Filename: enigma2-plugin-extensions-calendar_2.1-git175+09f66480+09f6648f07-r0_all.ipk
+MD5Sum: 472b1a3a3eac2931d7c045e8a63629c8
+SHA256sum: 160c577aeb7a240911f6cff365ec63cffbd6675207d363588e4e81d2fe2c1a57
+Size: 2191438
+Filename: enigma2-plugin-extensions-calendar_2.1-git176+1a176f80+1a176f8f90-r0_all.ipk
 Source: enigma2-plugin-extensions-calendar.bb
 Description: Calendar Enigma2 Plugin
 OE: enigma2-plugin-extensions-calendar
@@ -1001,14 +1001,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-commandcenter-dbg
-Version: 1.4-git119+e93ee540+e93ee542ac-r0
+Version: 1.4-git120+c5e1f1e0+c5e1f1e79f-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: cf8c43fe2e99f747c66ab34069715612
-SHA256sum: 81b8c0c14156f1ea1958aa02a59e41bc2132adca81b827a2655132b83e470ca6
-Size: 586
-Filename: enigma2-plugin-extensions-commandcenter-dbg_1.4-git119+e93ee540+e93ee542ac-r0_all.ipk
+MD5Sum: fea73e03b9f24980d588f6c052fb4215
+SHA256sum: e60eafd6e1841703568b99b38366ccdb2bc5e58caf3ce80ce8a489ab3b3f02e0
+Size: 584
+Filename: enigma2-plugin-extensions-commandcenter-dbg_1.4-git120+c5e1f1e0+c5e1f1e79f-r0_all.ipk
 Source: enigma2-plugin-extensions-commandcenter.bb
 Description: Command Center Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-commandcenter
@@ -1016,15 +1016,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-commandcenter-dev
-Version: 1.4-git119+e93ee540+e93ee542ac-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-commandcenter (= 1.4-git119+e93ee540+e93ee542ac-r0), python3-core-dev
+Version: 1.4-git120+c5e1f1e0+c5e1f1e79f-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-commandcenter (= 1.4-git120+c5e1f1e0+c5e1f1e79f-r0), python3-core-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 2de11d59b7e586fcd3efde1932e770c7
-SHA256sum: 51540d11fd5826daf6cc2dc1eafbe58335b8f69d9910a0e07a1d0766ce2b7c09
-Size: 636
-Filename: enigma2-plugin-extensions-commandcenter-dev_1.4-git119+e93ee540+e93ee542ac-r0_all.ipk
+MD5Sum: 7533ebaf817b2755aa59b995469de634
+SHA256sum: 9466437ff888d6c977a0323006988884dc916f1d22b592707a7659bc7f64fd37
+Size: 634
+Filename: enigma2-plugin-extensions-commandcenter-dev_1.4-git120+c5e1f1e0+c5e1f1e79f-r0_all.ipk
 Source: enigma2-plugin-extensions-commandcenter.bb
 Description: Command Center Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-commandcenter
@@ -1032,15 +1032,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-commandcenter
-Version: 1.4-git119+e93ee540+e93ee542ac-r0
+Version: 1.4-git120+c5e1f1e0+c5e1f1e79f-r0
 Depends: enigma2, python3-core
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: ea8316b1ba5f08eceeb98299fd02db9d
-SHA256sum: 73be3469067c18606bf15262d995108993cc93bad586640bcec0fee8efd67b9d
-Size: 244020
-Filename: enigma2-plugin-extensions-commandcenter_1.4-git119+e93ee540+e93ee542ac-r0_all.ipk
+MD5Sum: 4270256fea4a8255dd9102bade93d31a
+SHA256sum: 94e03b8e1844c51f13c9a71ea994f0cdf0cfcdc45219c371e69d24009dafa5ec
+Size: 244408
+Filename: enigma2-plugin-extensions-commandcenter_1.4-git120+c5e1f1e0+c5e1f1e79f-r0_all.ipk
 Source: enigma2-plugin-extensions-commandcenter.bb
 Description: Command Center Enigma2 Plugin
 OE: enigma2-plugin-extensions-commandcenter
@@ -1048,14 +1048,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-crashlogviewer-dbg
-Version: 2.0-git89+24feeca0+24feeca78b-r0
+Version: 2.0-git90+dfd4af80+dfd4af8c82-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: ff5ebbd05d0da213b8e8986f8d5b0ffa
-SHA256sum: e61c449c084d1e1b537a00ac1b6a3d7f7841c07eddf73b8342d521ae019f2cf1
-Size: 586
-Filename: enigma2-plugin-extensions-crashlogviewer-dbg_2.0-git89+24feeca0+24feeca78b-r0_all.ipk
+MD5Sum: b0de5ad90cb0240e78d91612347575c3
+SHA256sum: 08240f17b8d7de4b2ee924718dfacfd8227645566f8979ec7d627c8b2b60df61
+Size: 584
+Filename: enigma2-plugin-extensions-crashlogviewer-dbg_2.0-git90+dfd4af80+dfd4af8c82-r0_all.ipk
 Source: enigma2-plugin-extensions-crashlogviewer.bb
 Description: Crashlog Viewer Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-crashlogviewer
@@ -1063,15 +1063,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-crashlogviewer-dev
-Version: 2.0-git89+24feeca0+24feeca78b-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-crashlogviewer (= 2.0-git89+24feeca0+24feeca78b-r0), python3-core-dev
+Version: 2.0-git90+dfd4af80+dfd4af8c82-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-crashlogviewer (= 2.0-git90+dfd4af80+dfd4af8c82-r0), python3-core-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: c4ac39472a92fa71562a9bb60e16ba91
-SHA256sum: ecae0eb5c1cf97032d588696fdeeefdb32c94c38dd2d5371bf9c49068f6ec33b
-Size: 640
-Filename: enigma2-plugin-extensions-crashlogviewer-dev_2.0-git89+24feeca0+24feeca78b-r0_all.ipk
+MD5Sum: 72a52be95e0f5e99c4636a0ece046c0f
+SHA256sum: 027e6b22de75343dfbe868c07279b4dd8b3eab89c2f553bd95e538792b68090a
+Size: 638
+Filename: enigma2-plugin-extensions-crashlogviewer-dev_2.0-git90+dfd4af80+dfd4af8c82-r0_all.ipk
 Source: enigma2-plugin-extensions-crashlogviewer.bb
 Description: Crashlog Viewer Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-crashlogviewer
@@ -1079,15 +1079,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-crashlogviewer
-Version: 2.0-git89+24feeca0+24feeca78b-r0
+Version: 2.0-git90+dfd4af80+dfd4af8c82-r0
 Depends: enigma2, python3-core
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 3e53c02aeb0fbb70a08cf825c7a8341d
-SHA256sum: 19a846e4a8f1a3549f2caee5c1d49fdbf1595579b92e73c767bf6197df6bd561
-Size: 91538
-Filename: enigma2-plugin-extensions-crashlogviewer_2.0-git89+24feeca0+24feeca78b-r0_all.ipk
+MD5Sum: c89ede1146b2d23deb1a12f3d7cff5f3
+SHA256sum: ab8c652e9f50d1da8a807692c6ccd0f4862eb270514a54f663fc14912ee4c1df
+Size: 91898
+Filename: enigma2-plugin-extensions-crashlogviewer_2.0-git90+dfd4af80+dfd4af8c82-r0_all.ipk
 Source: enigma2-plugin-extensions-crashlogviewer.bb
 Description: Crashlog Viewer Enigma2 Plugin
 OE: enigma2-plugin-extensions-crashlogviewer
@@ -1518,14 +1518,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptv-org-playlists-dbg
-Version: 1.0+git11+85491e60+85491e61e1-r0
+Version: 1.0+git13+87e5d690+87e5d699b9-r0
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 025d002da1f55f4f554b0235bf848dec
-SHA256sum: 134466ed5ba0f71f5e39bbf389df3323685d9e2832d1abf4fbaaa6344ad38c7e
-Size: 638
-Filename: enigma2-plugin-extensions-iptv-org-playlists-dbg_1.0+git11+85491e60+85491e61e1-r0_all.ipk
+MD5Sum: 1bb5042c46b346cba14c83607ee91872
+SHA256sum: f0f8748c84e431619900a498b5a8f1f3f06eb61be9f3bf4c02a15e0fe2bc25c6
+Size: 640
+Filename: enigma2-plugin-extensions-iptv-org-playlists-dbg_1.0+git13+87e5d690+87e5d699b9-r0_all.ipk
 Source: enigma2-plugin-extensions-iptv-org-playlists.bb
 Description: Tool to create bouquets based on playlists from github.com/iptv-org - Debugging files
 OE: enigma2-plugin-extensions-iptv-org-playlists
@@ -1534,15 +1534,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptv-org-playlists-dev
-Version: 1.0+git11+85491e60+85491e61e1-r0
-Recommends: enigma2-plugin-extensions-iptv-org-playlists (= 1.0+git11+85491e60+85491e61e1-r0), python3-requests-dev
+Version: 1.0+git13+87e5d690+87e5d699b9-r0
+Recommends: enigma2-plugin-extensions-iptv-org-playlists (= 1.0+git13+87e5d690+87e5d699b9-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Huevos
-MD5Sum: 2c4b8b5394ade238e2d8270b4dd02e32
-SHA256sum: 5722be90dff1999b636c6f6bb6bcaf6b8ea89d1bd705838e105b7fc309418203
-Size: 688
-Filename: enigma2-plugin-extensions-iptv-org-playlists-dev_1.0+git11+85491e60+85491e61e1-r0_all.ipk
+MD5Sum: f27b658d4c285750519468364b89cf65
+SHA256sum: ff9f57157651f3cb4cd604308d60e70d605c3a0d19b46a799cadefc1220abc9d
+Size: 690
+Filename: enigma2-plugin-extensions-iptv-org-playlists-dev_1.0+git13+87e5d690+87e5d699b9-r0_all.ipk
 Source: enigma2-plugin-extensions-iptv-org-playlists.bb
 Description: Tool to create bouquets based on playlists from github.com/iptv-org - Development files
 OE: enigma2-plugin-extensions-iptv-org-playlists
@@ -1551,15 +1551,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptv-org-playlists
-Version: 1.0+git11+85491e60+85491e61e1-r0
+Version: 1.0+git13+87e5d690+87e5d699b9-r0
 Depends: python3-requests
 Section: base
 Architecture: all
 Maintainer: Huevos
-MD5Sum: c7f4d2ca3702ecc7e0c1057fa646c51a
-SHA256sum: 10c4dcf026028e3d4be574924e8fa34444fc2525cf113f1fe2a51930ee078ad8
-Size: 23520
-Filename: enigma2-plugin-extensions-iptv-org-playlists_1.0+git11+85491e60+85491e61e1-r0_all.ipk
+MD5Sum: adf002d9df2e306148725270868bed5d
+SHA256sum: 3735289e91ef83d8fdb9dc5bc3721637f010ceab399045278b347c82f0489e2e
+Size: 23654
+Filename: enigma2-plugin-extensions-iptv-org-playlists_1.0+git13+87e5d690+87e5d699b9-r0_all.ipk
 Source: enigma2-plugin-extensions-iptv-org-playlists.bb
 Description: Tool to create bouquets based on playlists from github.com/iptv-org
 OE: enigma2-plugin-extensions-iptv-org-playlists
@@ -1680,14 +1680,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 3.0.9-git554+d1ea3560+d1ea3568ae-r0
+Version: 3.0.9-git555+5b8fc730+5b8fc73a30-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 37a430be6556bc58231991d697401037
-SHA256sum: 1cd850ab75e60d4271245dfab19f86eeadb9cdbef1f88f80916d6d90a3160abf
-Size: 582
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.9-git554+d1ea3560+d1ea3568ae-r0_all.ipk
+MD5Sum: 4cbe54b5be41df3754678f38648db8d3
+SHA256sum: c1cb58de96e074ed68441767d61a4b6f22e5e3022c4dea95d0b0c4781e840606
+Size: 584
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_3.0.9-git555+5b8fc730+5b8fc73a30-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1695,15 +1695,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 3.0.9-git554+d1ea3560+d1ea3568ae-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.9-git554+d1ea3560+d1ea3568ae-r0)
+Version: 3.0.9-git555+5b8fc730+5b8fc73a30-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 3.0.9-git555+5b8fc730+5b8fc73a30-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 12905ffd43fc4dbbd546e7a54a3f8365
-SHA256sum: 68dd63f792905784d356c3aed48be4713c6b2639b201f2cc5cb1e1d805b3e1c8
-Size: 618
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.9-git554+d1ea3560+d1ea3568ae-r0_all.ipk
+MD5Sum: dc6db18f1d8095dc71afa35888ddbcf7
+SHA256sum: afacfc0d98b521c6b370a65b915f4a33fef0114e09d17f6a9c31e0f4ef2daa68
+Size: 620
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_3.0.9-git555+5b8fc730+5b8fc73a30-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1711,14 +1711,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 3.0.9-git554+d1ea3560+d1ea3568ae-r0
+Version: 3.0.9-git555+5b8fc730+5b8fc73a30-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 308d4f591a2d4478c409932f919c34e4
-SHA256sum: fb979c174ccf06d1d291a5ad3c8e2ce185579688d51a2183c351b74116e29217
-Size: 15336562
-Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.9-git554+d1ea3560+d1ea3568ae-r0_all.ipk
+MD5Sum: c6481f61f14c99da028c2cc2f58b950d
+SHA256sum: 6dddb79a363d2c2c13747e2f05032a82fa1c91e608972e8d59b893e4bb5b9b93
+Size: 15336946
+Filename: enigma2-plugin-extensions-linuxsatpanel_3.0.9-git555+5b8fc730+5b8fc73a30-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat Panel Addon
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1777,14 +1777,14 @@ License: GPL-3.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit-dbg
-Version: 0.19.11-git11+8e273560+8e273560cb-r0
+Version: 0.21.0-git13+03319ab0+03319abaf7-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 51fd638b6fc5440d1a8a4292b904a13f
-SHA256sum: 4e8c9676e6e91d09a3c9c4a4c709ce6d66b3eb968c84e8ea4baec3bb98e663ea
-Size: 646
-Filename: enigma2-plugin-extensions-mediathekcockpit-dbg_0.19.11-git11+8e273560+8e273560cb-r0_all.ipk
+MD5Sum: 2a4cdfef7eee971f8eb17d475daeb28b
+SHA256sum: f685f7ab178093cc17ebdf59b1f014e865f7212580780291992d109f09fac76a
+Size: 648
+Filename: enigma2-plugin-extensions-mediathekcockpit-dbg_0.21.0-git13+03319ab0+03319abaf7-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2 - Debugging files
 OE: enigma2-plugin-extensions-mediathekcockpit
@@ -1792,15 +1792,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit-dev
-Version: 0.19.11-git11+8e273560+8e273560cb-r0
-Recommends: enigma2-plugin-extensions-mediathekcockpit (= 0.19.11-git11+8e273560+8e273560cb-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-cachecockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-mountcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
+Version: 0.21.0-git13+03319ab0+03319abaf7-r0
+Recommends: enigma2-plugin-extensions-mediathekcockpit (= 0.21.0-git13+03319ab0+03319abaf7-r0), enigma2-plugin-skincomponents-componentscockpit-dev, enigma2-plugin-systemplugins-cachecockpit-dev, enigma2-plugin-systemplugins-fontscockpit-dev, enigma2-plugin-systemplugins-mountcockpit-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6692dbb64dbdd68db34e58b1da356a2a
-SHA256sum: 1ac83720723303b9c66a0d7d64c22cc21132be5df2730c49973f2bba8aafdb6f
-Size: 732
-Filename: enigma2-plugin-extensions-mediathekcockpit-dev_0.19.11-git11+8e273560+8e273560cb-r0_all.ipk
+MD5Sum: d797002e2695bc98407d50e3fdf7699c
+SHA256sum: e5b40e44d0acd56d7722f1f5d314d4310bf16648d71ee37b97013e8718a18ed2
+Size: 734
+Filename: enigma2-plugin-extensions-mediathekcockpit-dev_0.21.0-git13+03319ab0+03319abaf7-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2 - Development files
 OE: enigma2-plugin-extensions-mediathekcockpit
@@ -1808,14 +1808,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit-src
-Version: 0.19.11-git11+8e273560+8e273560cb-r0
+Version: 0.21.0-git13+03319ab0+03319abaf7-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5f1c886756f39b5c0db5a00fbd1a77e3
-SHA256sum: c141a82bec6fed77ed17fa20f604ccabdc3d1aa1c51408ad2a797a4b3dc8495e
-Size: 35008
-Filename: enigma2-plugin-extensions-mediathekcockpit-src_0.19.11-git11+8e273560+8e273560cb-r0_all.ipk
+MD5Sum: d713234f58dd37a648a5fd5be99ee445
+SHA256sum: 5d654f87784ecfcbff11b40d4f7ea77f1b6c7a1ff756e62fe0a30f3f21e2fd48
+Size: 38450
+Filename: enigma2-plugin-extensions-mediathekcockpit-src_0.21.0-git13+03319ab0+03319abaf7-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2 - Source files
 OE: enigma2-plugin-extensions-mediathekcockpit
@@ -1823,16 +1823,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediathekcockpit
-Version: 0.19.11-git11+8e273560+8e273560cb-r0
+Version: 0.21.0-git13+03319ab0+03319abaf7-r0
 Depends: enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-fontscockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-streamproxycockpit
 Recommends: enigma2-plugin-systemplugins-jobcockpit
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c47b84eaf7cf5f91b6509b00e3381192
-SHA256sum: f835c93d60939bfed6c0b7dab9ddab6a69d3df2f9f303367037608dd02bd1fc7
-Size: 316820
-Filename: enigma2-plugin-extensions-mediathekcockpit_0.19.11-git11+8e273560+8e273560cb-r0_all.ipk
+MD5Sum: 43b02c0803446ec720aa0c262c061d99
+SHA256sum: 0a7bd8dd38324f2f2be290c52f41f961e8ff0a605d41761febc030d00c532d89
+Size: 322798
+Filename: enigma2-plugin-extensions-mediathekcockpit_0.21.0-git13+03319ab0+03319abaf7-r0_all.ipk
 Source: enigma2-plugin-extensions-mediathekcockpit.bb
 Description: MediathekCockpit plugin for enigma2
 OE: enigma2-plugin-extensions-mediathekcockpit
@@ -1840,14 +1840,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-moviebrowser-dbg
-Version: 4.2-git243+c1de1760+c1de176469-r0
+Version: 4.4-git254+ace95d90+ace95d9f0e-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 2a1cf1329cce3cc962f31fb00c793d34
-SHA256sum: bb148429c461748df38850ee12bf03d7b856253c4009df15e5afd1bceeb2bb3d
+MD5Sum: c0e0965ca4a11256f2e0ff0cb62f2377
+SHA256sum: ccf46fe8ba865ab9dc1a51a45a97c57b5238aa16000952c3b8d5385bbe59f091
 Size: 584
-Filename: enigma2-plugin-extensions-moviebrowser-dbg_4.2-git243+c1de1760+c1de176469-r0_all.ipk
+Filename: enigma2-plugin-extensions-moviebrowser-dbg_4.4-git254+ace95d90+ace95d9f0e-r0_all.ipk
 Source: enigma2-plugin-extensions-moviebrowser.bb
 Description: MovieBrowser Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-moviebrowser
@@ -1855,15 +1855,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-moviebrowser-dev
-Version: 4.2-git243+c1de1760+c1de176469-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-moviebrowser (= 4.2-git243+c1de1760+c1de176469-r0), python3-requests-dev, python3-six-dev, python3-twisted-web-dev
+Version: 4.4-git254+ace95d90+ace95d9f0e-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-moviebrowser (= 4.4-git254+ace95d90+ace95d9f0e-r0), python3-requests-dev, python3-six-dev, python3-twisted-web-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: b84a519e298a96a1a3621d28695bbf91
-SHA256sum: 0164aaecce9c170cd79efd4ebca3db33e999eec224b40de8939ef44f9559a178
+MD5Sum: f2b936412facbe838871f61dd1418a76
+SHA256sum: 14bc268338ed731e0f4bf384c9228d3ed102450435f71aeebdfc961c5e1af251
 Size: 656
-Filename: enigma2-plugin-extensions-moviebrowser-dev_4.2-git243+c1de1760+c1de176469-r0_all.ipk
+Filename: enigma2-plugin-extensions-moviebrowser-dev_4.4-git254+ace95d90+ace95d9f0e-r0_all.ipk
 Source: enigma2-plugin-extensions-moviebrowser.bb
 Description: MovieBrowser Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-moviebrowser
@@ -1871,15 +1871,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-moviebrowser
-Version: 4.2-git243+c1de1760+c1de176469-r0
+Version: 4.4-git254+ace95d90+ace95d9f0e-r0
 Depends: enigma2, python3-requests, python3-six, python3-twisted-web
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: ec7cd1c59a909a1e2bba94586e0a77a9
-SHA256sum: 3e28ce0b32e650e9549993885afc32d99439aa0954c59b938ef82ea56086a471
-Size: 2980334
-Filename: enigma2-plugin-extensions-moviebrowser_4.2-git243+c1de1760+c1de176469-r0_all.ipk
+MD5Sum: 84ab620c4d862b4d93c67bb34761a863
+SHA256sum: 6cedf25338ef1c3fca95a8fccd377ba2f5d18d5aa3f7b1a1280f06ac576d4e3c
+Size: 2608984
+Filename: enigma2-plugin-extensions-moviebrowser_4.4-git254+ace95d90+ace95d9f0e-r0_all.ipk
 Source: enigma2-plugin-extensions-moviebrowser.bb
 Description: MovieBrowser Enigma2 Plugin
 OE: enigma2-plugin-extensions-moviebrowser
@@ -2059,14 +2059,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-raiplay-dbg
-Version: 1.9-git358+d68125f0+d68125f0f2-r0
+Version: 1.9-git359+6938b7a0+6938b7a943-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 51cc12b989afe0ac7b59729a0073fab4
-SHA256sum: 77cf823505222c3db5c02df68c2c209f69a31c393df9db02c3ce119a863b4113
-Size: 580
-Filename: enigma2-plugin-extensions-raiplay-dbg_1.9-git358+d68125f0+d68125f0f2-r0_all.ipk
+MD5Sum: 00cc386a5457ff155de43487b62ae233
+SHA256sum: 1afc8d8be53111c2fea158364772d0d0b22b7219f44d18ab1fe5ca9633738310
+Size: 582
+Filename: enigma2-plugin-extensions-raiplay-dbg_1.9-git359+6938b7a0+6938b7a943-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: RaiPlay Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-raiplay
@@ -2074,15 +2074,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-raiplay-dev
-Version: 1.9-git358+d68125f0+d68125f0f2-r0
-Recommends: enigma2-plugin-extensions-raiplay (= 1.9-git358+d68125f0+d68125f0f2-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
+Version: 1.9-git359+6938b7a0+6938b7a943-r0
+Recommends: enigma2-plugin-extensions-raiplay (= 1.9-git359+6938b7a0+6938b7a943-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 4b0e9da3ff139967fcf75e4e87c47940
-SHA256sum: fdecc2ab9b5aa8d594c688a9db0729edf9cd9aff49e186ab32cfd633419b18a0
-Size: 656
-Filename: enigma2-plugin-extensions-raiplay-dev_1.9-git358+d68125f0+d68125f0f2-r0_all.ipk
+MD5Sum: 79575b5994da012ebfa122c1707afebb
+SHA256sum: 0273e8b62b093c649e73d06a74a6632a93a252d74be5f184446bbd8bc7f15f05
+Size: 658
+Filename: enigma2-plugin-extensions-raiplay-dev_1.9-git359+6938b7a0+6938b7a943-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: RaiPlay Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-raiplay
@@ -2090,15 +2090,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-raiplay
-Version: 1.9-git358+d68125f0+d68125f0f2-r0
+Version: 1.9-git359+6938b7a0+6938b7a943-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 4f1db0f4f858bc18b327ac2354be6e89
-SHA256sum: 323827f2c1de41909dcc928fd94d16331157ebe1d150e77581b5eb905b708655
-Size: 6501666
-Filename: enigma2-plugin-extensions-raiplay_1.9-git358+d68125f0+d68125f0f2-r0_all.ipk
+MD5Sum: fbbf3d2ffdcacce67b09339bd0b8f93f
+SHA256sum: 4b458d8be6d0a2f434afaf9fdf341e61ac4f6cc65543d869fd5db4bb1b3361a6
+Size: 6502180
+Filename: enigma2-plugin-extensions-raiplay_1.9-git359+6938b7a0+6938b7a943-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: RaiPlay Enigma2 Plugin
 OE: enigma2-plugin-extensions-raiplay
@@ -2232,14 +2232,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-simplezoom-panel-dbg
-Version: 2.3.4-git116+3e708dc0+3e708dcfb4-r0
+Version: 2.3.4-git117+25f859b0+25f859b039-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 21e877f93779c5d1e35acd53ffb117b3
-SHA256sum: a06f7da6447b81c279b29b924caa95a38be7f76ca51788e8ae392ff2787de1f6
+MD5Sum: 155145ae80798361ae028cce579c2323
+SHA256sum: 18dac82fa0cfe6ca1d37e9e9690d6ddcfa25aa3bbce1fb78efb943c241098671
 Size: 594
-Filename: enigma2-plugin-extensions-simplezoom-panel-dbg_2.3.4-git116+3e708dc0+3e708dcfb4-r0_all.ipk
+Filename: enigma2-plugin-extensions-simplezoom-panel-dbg_2.3.4-git117+25f859b0+25f859b039-r0_all.ipk
 Source: enigma2-plugin-extensions-simplezoom-panel.bb
 Description: SimpleZooomPanel Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-simplezoom-panel
@@ -2247,15 +2247,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-simplezoom-panel-dev
-Version: 2.3.4-git116+3e708dc0+3e708dcfb4-r0
-Recommends: curl-dev, enigma2-dev, enigma2-plugin-extensions-simplezoom-panel (= 2.3.4-git116+3e708dc0+3e708dcfb4-r0), wget-dev
+Version: 2.3.4-git117+25f859b0+25f859b039-r0
+Recommends: curl-dev, enigma2-dev, enigma2-plugin-extensions-simplezoom-panel (= 2.3.4-git117+25f859b0+25f859b039-r0), wget-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: e6a58b38f285a3e6b5642c2a46577fa4
-SHA256sum: d4949c9ae66610be21649c712d3648bfb4365db483eb4881110cb64183cc62f2
-Size: 646
-Filename: enigma2-plugin-extensions-simplezoom-panel-dev_2.3.4-git116+3e708dc0+3e708dcfb4-r0_all.ipk
+MD5Sum: 291fb6efc25f7593a52afc670e7aa07e
+SHA256sum: c28d6fe2c4995c515d700fe19743ecbadf31df4c90e1f7cf1a070353a2d25fdb
+Size: 648
+Filename: enigma2-plugin-extensions-simplezoom-panel-dev_2.3.4-git117+25f859b0+25f859b039-r0_all.ipk
 Source: enigma2-plugin-extensions-simplezoom-panel.bb
 Description: SimpleZooomPanel Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-simplezoom-panel
@@ -2263,15 +2263,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-simplezoom-panel
-Version: 2.3.4-git116+3e708dc0+3e708dcfb4-r0
+Version: 2.3.4-git117+25f859b0+25f859b039-r0
 Depends: curl, enigma2, wget
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: c6b945aef969b9b1decb9399eb72e6dd
-SHA256sum: d42a713c0a1056e71d6f403918305a753d067adadf7bd35455275af063c55a45
-Size: 233420
-Filename: enigma2-plugin-extensions-simplezoom-panel_2.3.4-git116+3e708dc0+3e708dcfb4-r0_all.ipk
+MD5Sum: 4811c69efc224040a28ef5d5d6ed01c5
+SHA256sum: 469ddae8c0a20a293545183ce654a98f8b2818f9f1e3ab6e9fcbc08d1042b65f
+Size: 233950
+Filename: enigma2-plugin-extensions-simplezoom-panel_2.3.4-git117+25f859b0+25f859b039-r0_all.ipk
 Source: enigma2-plugin-extensions-simplezoom-panel.bb
 Description: SimpleZooomPanel Enigma2 Plugin
 OE: enigma2-plugin-extensions-simplezoom-panel
@@ -2279,14 +2279,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter-dbg
-Version: 1.7-git155+f2e7ee70+f2e7ee733e-r0
+Version: 1.7-git156+9825ca90+9825ca9b36-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: a77f7e1bd466336c61fdcb9a9a1b9c80
-SHA256sum: 309fe6092dccdcfc311003b7fc310ed48a308c653db26d6a0f65f28aca644fdc
-Size: 594
-Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.7-git155+f2e7ee70+f2e7ee733e-r0_all.ipk
+MD5Sum: c1576a1f79e035158faeed05c4701863
+SHA256sum: 0b745ef36c2290626dc0352a90ac83c65f5d7505e6dd78e0d5efb87063069bfa
+Size: 596
+Filename: enigma2-plugin-extensions-stalkerportalconverter-dbg_1.7-git156+9825ca90+9825ca9b36-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: StalkerPortalConverter Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -2294,15 +2294,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter-dev
-Version: 1.7-git155+f2e7ee70+f2e7ee733e-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-stalkerportalconverter (= 1.7-git155+f2e7ee70+f2e7ee733e-r0), python3-requests-dev
+Version: 1.7-git156+9825ca90+9825ca9b36-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-stalkerportalconverter (= 1.7-git156+9825ca90+9825ca9b36-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 9a516cfaf91c4ad4a4f199d60c4fc9f4
-SHA256sum: 075d481ad6b06dd43c3e84b9374f79051354d72e4986f6b2a273f78a28a7d73c
-Size: 648
-Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.7-git155+f2e7ee70+f2e7ee733e-r0_all.ipk
+MD5Sum: f14a4c1bf069ac1e5e407d7405a7795a
+SHA256sum: a75ece0ebd26374e9786243a2c9f9d367f29965a826d095ebabde1a627773aae
+Size: 652
+Filename: enigma2-plugin-extensions-stalkerportalconverter-dev_1.7-git156+9825ca90+9825ca9b36-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: StalkerPortalConverter Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -2310,15 +2310,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-stalkerportalconverter
-Version: 1.7-git155+f2e7ee70+f2e7ee733e-r0
+Version: 1.7-git156+9825ca90+9825ca9b36-r0
 Depends: enigma2, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: e3b5b33a180cb34be3b4f898e90b1f8a
-SHA256sum: b56cc5b3cc4f9eed9b164792b0e23c54b88053030723e3f346fe8a6a3d8c7593
-Size: 842708
-Filename: enigma2-plugin-extensions-stalkerportalconverter_1.7-git155+f2e7ee70+f2e7ee733e-r0_all.ipk
+MD5Sum: 78ee6d1a6797fc9126af8cdbc0727452
+SHA256sum: 88d6a484e7d2e2d3b822c967ebcb5b3f0bb9a51cc7027db3972a6370e0a4f37d
+Size: 842924
+Filename: enigma2-plugin-extensions-stalkerportalconverter_1.7-git156+9825ca90+9825ca9b36-r0_all.ipk
 Source: enigma2-plugin-extensions-stalkerportalconverter.bb
 Description: StalkerPortalConverter Enigma2 Plugin
 OE: enigma2-plugin-extensions-stalkerportalconverter
@@ -2420,14 +2420,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-tvgarden-dbg
-Version: 3.0-git240+fc7cac30+fc7cac3f34-r0
+Version: 3.0-git241+7b3b9dd0+7b3b9dd985-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: fa349e37c462991fa2424e0f1ba45d29
-SHA256sum: 49509824a02e55ce57369bf8fc33b3626c9f1d6f9c5bdc7d9e42c1aa8dfcbd36
-Size: 582
-Filename: enigma2-plugin-extensions-tvgarden-dbg_3.0-git240+fc7cac30+fc7cac3f34-r0_all.ipk
+MD5Sum: 08bcaa8b9a5c0f7548fc926783a064fc
+SHA256sum: 36476a64ee026af7a638ca8314dd2602503be55cbd3982b87f68aa8c282ef7e9
+Size: 584
+Filename: enigma2-plugin-extensions-tvgarden-dbg_3.0-git241+7b3b9dd0+7b3b9dd985-r0_all.ipk
 Source: enigma2-plugin-extensions-tvgarden.bb
 Description: TV Garden Plugin for Enigma2 - Debugging files
 OE: enigma2-plugin-extensions-tvgarden
@@ -2435,15 +2435,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-tvgarden-dev
-Version: 3.0-git240+fc7cac30+fc7cac3f34-r0
-Recommends: enigma2-plugin-extensions-tvgarden (= 3.0-git240+fc7cac30+fc7cac3f34-r0), python3-core-dev
+Version: 3.0-git241+7b3b9dd0+7b3b9dd985-r0
+Recommends: enigma2-plugin-extensions-tvgarden (= 3.0-git241+7b3b9dd0+7b3b9dd985-r0), python3-core-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 29827d6c481e6abfae03a002fc377fcd
-SHA256sum: 049649e4c1eefc8875668d9a9ecdb45f6d029d3ff13517c238f8a2b47ff2a451
-Size: 628
-Filename: enigma2-plugin-extensions-tvgarden-dev_3.0-git240+fc7cac30+fc7cac3f34-r0_all.ipk
+MD5Sum: 2bbb0fbe79ce13ab6cbd709b44a506bc
+SHA256sum: fa00c9107bccc60899e9b7ff2a490cda58f667fbfab0ff714392f375f80994c4
+Size: 630
+Filename: enigma2-plugin-extensions-tvgarden-dev_3.0-git241+7b3b9dd0+7b3b9dd985-r0_all.ipk
 Source: enigma2-plugin-extensions-tvgarden.bb
 Description: TV Garden Plugin for Enigma2 - Development files
 OE: enigma2-plugin-extensions-tvgarden
@@ -2451,17 +2451,17 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-tvgarden
-Version: 3.0-git240+fc7cac30+fc7cac3f34-r0
+Version: 3.0-git241+7b3b9dd0+7b3b9dd985-r0
 Depends: python3-core
 Suggests: ca-certificates, enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Recommends: python3-yt-dlp
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 55fc1e3d29a357ac8acde99ac4a25032
-SHA256sum: 14e552a5a4f63dc9f94352109123ca122cc50581b5d22aebb89daca1fc52a431
-Size: 1163028
-Filename: enigma2-plugin-extensions-tvgarden_3.0-git240+fc7cac30+fc7cac3f34-r0_all.ipk
+MD5Sum: 3d20e91f370eedcc0d40b33d5c55ad50
+SHA256sum: 96353cd978e90f2891338d0a6f1a756788ba79b466fc68d408f12ae57688ae48
+Size: 1163518
+Filename: enigma2-plugin-extensions-tvgarden_3.0-git241+7b3b9dd0+7b3b9dd985-r0_all.ipk
 Source: enigma2-plugin-extensions-tvgarden.bb
 Description: TV Garden Plugin for Enigma2
 OE: enigma2-plugin-extensions-tvgarden
@@ -2469,14 +2469,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-tvmanager-dbg
-Version: 3.7-git462+95e10370+95e1037405-r0
+Version: 3.7-git463+12b95d90+12b95d903a-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: ae7fabc6c02dbfd148a3532e2c2ff62e
-SHA256sum: 0d9e379eec48358495c71e6abf471630507ad0254d25d4ffb73dccba261770ca
+MD5Sum: 3c2687fee01b2ffb14195cd975113a79
+SHA256sum: 2c226dc279d270c3eb6354407c635bba91109adb9f27333f9a7abcfead05acc1
 Size: 594
-Filename: enigma2-plugin-extensions-tvmanager-dbg_3.7-git462+95e10370+95e1037405-r0_all.ipk
+Filename: enigma2-plugin-extensions-tvmanager-dbg_3.7-git463+12b95d90+12b95d903a-r0_all.ipk
 Source: enigma2-plugin-extensions-tvmanager.bb
 Description: tvManager (Softcam Manager) Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-tvmanager
@@ -2484,15 +2484,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-tvmanager-dev
-Version: 3.7-git462+95e10370+95e1037405-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-tvmanager (= 3.7-git462+95e10370+95e1037405-r0), python3-core-dev
+Version: 3.7-git463+12b95d90+12b95d903a-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-tvmanager (= 3.7-git463+12b95d90+12b95d903a-r0), python3-core-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 84883308c88908db9c308404bdf61e6b
-SHA256sum: 2ff2e3b9dc33e4d70e5204fac09cbea3592617122d8e942bae206285f33b05e4
+MD5Sum: 8bb5c08237c24f7d95f6353062839c48
+SHA256sum: b2ebb706b5f116fe5a504590cbe6672d7e81a362bf1b7b743f84ead2c6ce7f97
 Size: 646
-Filename: enigma2-plugin-extensions-tvmanager-dev_3.7-git462+95e10370+95e1037405-r0_all.ipk
+Filename: enigma2-plugin-extensions-tvmanager-dev_3.7-git463+12b95d90+12b95d903a-r0_all.ipk
 Source: enigma2-plugin-extensions-tvmanager.bb
 Description: tvManager (Softcam Manager) Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-tvmanager
@@ -2500,15 +2500,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-tvmanager
-Version: 3.7-git462+95e10370+95e1037405-r0
+Version: 3.7-git463+12b95d90+12b95d903a-r0
 Depends: enigma2, python3-core
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: e1b0e3cc2315e26c98690195651cdd2c
-SHA256sum: c06a77990e641cf0759ce546e714b6acbf40caa25e3d010ac09f065dd347bf34
-Size: 1291070
-Filename: enigma2-plugin-extensions-tvmanager_3.7-git462+95e10370+95e1037405-r0_all.ipk
+MD5Sum: 57ed1cb97858bcaa74a2bafbafeac7e0
+SHA256sum: e618d702a1be4979f905c4c1e9d79b2ad3e0005adeebdb55e916f0f46b18d02a
+Size: 1291470
+Filename: enigma2-plugin-extensions-tvmanager_3.7-git463+12b95d90+12b95d903a-r0_all.ipk
 Source: enigma2-plugin-extensions-tvmanager.bb
 Description: tvManager (Softcam Manager) Enigma2 Plugin
 OE: enigma2-plugin-extensions-tvmanager
@@ -2516,14 +2516,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dbg
-Version: 1.92-git1352+d7074420+d707442122-r0
+Version: 1.92-git1353+78cade00+78cade0101-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 763353cf0935098f69d03809ee65f93e
-SHA256sum: f27c6673ace613a8971c790493dd0db1ff27c6b51609f2a275aba44f01ac8a1b
+MD5Sum: ef523cdde5e057af790f08254d061bda
+SHA256sum: 1d3cbc32e92203d132c783c8e3368a633c5bdb8e9fd320cebd1cf583c0238b08
 Size: 586
-Filename: enigma2-plugin-extensions-vavoo-dbg_1.92-git1352+d7074420+d707442122-r0_all.ipk
+Filename: enigma2-plugin-extensions-vavoo-dbg_1.92-git1353+78cade00+78cade0101-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-vavoo
@@ -2531,15 +2531,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo-dev
-Version: 1.92-git1352+d7074420+d707442122-r0
-Recommends: enigma2-plugin-extensions-vavoo (= 1.92-git1352+d7074420+d707442122-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
+Version: 1.92-git1353+78cade00+78cade0101-r0
+Recommends: enigma2-plugin-extensions-vavoo (= 1.92-git1353+78cade00+78cade0101-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 1a0721201f374bf5d4c96886aff24956
-SHA256sum: c9b00e4b98d425eb70e65e97cfc34e2b9f77f2f86c450801bb80956d449d056a
-Size: 664
-Filename: enigma2-plugin-extensions-vavoo-dev_1.92-git1352+d7074420+d707442122-r0_all.ipk
+MD5Sum: b546cf4f7ff13a00942cc799b6fd21b0
+SHA256sum: d0141e1dcf6034864ccd36d955376ab8e460425a80cbe7c1f8a9ba926f4835c6
+Size: 662
+Filename: enigma2-plugin-extensions-vavoo-dev_1.92-git1353+78cade00+78cade0101-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-vavoo
@@ -2547,15 +2547,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.92-git1352+d7074420+d707442122-r0
+Version: 1.92-git1353+78cade00+78cade0101-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 6ee8c968412c5218a8b94248e51277d5
-SHA256sum: aaf3160e9419a5d1ae1a88ded0fcf2f455b87d38b0d7b7d026ad3a76c3a291f1
-Size: 10937790
-Filename: enigma2-plugin-extensions-vavoo_1.92-git1352+d7074420+d707442122-r0_all.ipk
+MD5Sum: 3a8dee253f424ef046b7ad568e997947
+SHA256sum: d5898f1f27637e0cf0a80ca6d0624c7a90d60d9bd463354717569a9de2ee95e2
+Size: 10937788
+Filename: enigma2-plugin-extensions-vavoo_1.92-git1353+78cade00+78cade0101-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin
 OE: enigma2-plugin-extensions-vavoo
@@ -2659,14 +2659,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-wifi-manager-dbg
-Version: 1.5-git100+b513c630+b513c63e9f-r0
+Version: 1.5-git101+b64bcbb0+b64bcbb891-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 68d7e1290b27d6a04dddc88a0e307a4c
-SHA256sum: a9280de01cfee6dd61ffa7ad77b61dee4e2133bd31dfd9b69d71647ed36f7083
-Size: 586
-Filename: enigma2-plugin-extensions-wifi-manager-dbg_1.5-git100+b513c630+b513c63e9f-r0_all.ipk
+MD5Sum: cd6709ee5da8d691bfbff98de3908dc2
+SHA256sum: 300feb728186b37213fc020566dbc7fe75f262c63601af3d6064f1b3f7857465
+Size: 584
+Filename: enigma2-plugin-extensions-wifi-manager-dbg_1.5-git101+b64bcbb0+b64bcbb891-r0_all.ipk
 Source: enigma2-plugin-extensions-wifi-manager.bb
 Description: WiFi-Manager Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-wifi-manager
@@ -2674,15 +2674,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-wifi-manager-dev
-Version: 1.5-git100+b513c630+b513c63e9f-r0
-Recommends: enigma2-dev, enigma2-plugin-extensions-wifi-manager (= 1.5-git100+b513c630+b513c63e9f-r0), python3-requests-dev
+Version: 1.5-git101+b64bcbb0+b64bcbb891-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-wifi-manager (= 1.5-git101+b64bcbb0+b64bcbb891-r0), python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 2a50b4d5bab4a6f184032f9b2427f620
-SHA256sum: 2e0888b6d978713a7261119c042776d6e58b5a34ab23ad897ce386c3b5d35d1e
-Size: 640
-Filename: enigma2-plugin-extensions-wifi-manager-dev_1.5-git100+b513c630+b513c63e9f-r0_all.ipk
+MD5Sum: 68ad83bde6d07d3cb0e1fe9b72be042d
+SHA256sum: 3cf0643094880f08f5c687d13136c30098010b7c41097702641c3021753f1240
+Size: 642
+Filename: enigma2-plugin-extensions-wifi-manager-dev_1.5-git101+b64bcbb0+b64bcbb891-r0_all.ipk
 Source: enigma2-plugin-extensions-wifi-manager.bb
 Description: WiFi-Manager Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-wifi-manager
@@ -2690,15 +2690,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-wifi-manager
-Version: 1.5-git100+b513c630+b513c63e9f-r0
+Version: 1.5-git101+b64bcbb0+b64bcbb891-r0
 Depends: enigma2, python3-requests
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: f574ab46cab2a39aebe4b58d9baa0aa3
-SHA256sum: 27ecf955ea97a01b8bd4169156d7dada447adacb4e80e9156f7e28375fb715f4
-Size: 1068988
-Filename: enigma2-plugin-extensions-wifi-manager_1.5-git100+b513c630+b513c63e9f-r0_all.ipk
+MD5Sum: 52449d8e46e207d920bb52a856a1830f
+SHA256sum: beff3bb6ca6f8f764cffa9c9229abeb5f1c444e4f0b8e28f68d4125891bd4d8d
+Size: 1069076
+Filename: enigma2-plugin-extensions-wifi-manager_1.5-git101+b64bcbb0+b64bcbb891-r0_all.ipk
 Source: enigma2-plugin-extensions-wifi-manager.bb
 Description: WiFi-Manager Enigma2 Plugin
 OE: enigma2-plugin-extensions-wifi-manager
@@ -2706,14 +2706,14 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-xcforever-dbg
-Version: 0.0-git607+ac250250+ac25025ed4-r0
+Version: 0.0-git608+ff127a50+ff127a5350-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: f06cf0bef318003a3c6c3a0d5386d4be
-SHA256sum: d61c0f28e8e9f18cbb27104d88b104cc90f5f1856833319331be5b85cedab0b1
+MD5Sum: bf43f4f6886a366800f0320c8cdf35dd
+SHA256sum: ea18cbdf5979eb829100978d0c33273ee17715e7739d88c01349eb5bd2622124
 Size: 584
-Filename: enigma2-plugin-extensions-xcforever-dbg_0.0-git607+ac250250+ac25025ed4-r0_all.ipk
+Filename: enigma2-plugin-extensions-xcforever-dbg_0.0-git608+ff127a50+ff127a5350-r0_all.ipk
 Source: enigma2-plugin-extensions-xcforever.bb
 Description: XCplugin Forever Enigma2 Plugin - Debugging files
 OE: enigma2-plugin-extensions-xcforever
@@ -2721,15 +2721,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-xcforever-dev
-Version: 0.0-git607+ac250250+ac25025ed4-r0
-Recommends: curl-dev, enigma2-dev, enigma2-plugin-extensions-xcforever (= 0.0-git607+ac250250+ac25025ed4-r0), python3-core-dev, wget-dev
+Version: 0.0-git608+ff127a50+ff127a5350-r0
+Recommends: curl-dev, enigma2-dev, enigma2-plugin-extensions-xcforever (= 0.0-git608+ff127a50+ff127a5350-r0), python3-core-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: eda68a21cb2a181881f48a07a799374c
-SHA256sum: a52205d0dad45807baeedc99152bd5fb26d38395f1f132f4e3727eeac9d311f9
-Size: 646
-Filename: enigma2-plugin-extensions-xcforever-dev_0.0-git607+ac250250+ac25025ed4-r0_all.ipk
+MD5Sum: 8293e4495790211ab456284581e84d23
+SHA256sum: 6ed6e7d239a4c09dee4598b4b3b1a7bb06120e436681e34a5a0600b04d2455dd
+Size: 648
+Filename: enigma2-plugin-extensions-xcforever-dev_0.0-git608+ff127a50+ff127a5350-r0_all.ipk
 Source: enigma2-plugin-extensions-xcforever.bb
 Description: XCplugin Forever Enigma2 Plugin - Development files
 OE: enigma2-plugin-extensions-xcforever
@@ -2737,15 +2737,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: enigma2-plugin-extensions-xcforever
-Version: 0.0-git607+ac250250+ac25025ed4-r0
+Version: 0.0-git608+ff127a50+ff127a5350-r0
 Depends: curl, enigma2, python3-core, wget
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 535a5f0f80e4d5cdeeb951bea184961f
-SHA256sum: 86f9bdf4e4b50a3c3d16462277ea54c45132b42b7d307bfc7969c2827d19290e
-Size: 2280026
-Filename: enigma2-plugin-extensions-xcforever_0.0-git607+ac250250+ac25025ed4-r0_all.ipk
+MD5Sum: 4cb26310e4b73d139bd6cdbb65d2151b
+SHA256sum: c0b49a4f76c6b6c76a356188033a115ff24ebf64137a038bcf61297c677aea7f
+Size: 2280408
+Filename: enigma2-plugin-extensions-xcforever_0.0-git608+ff127a50+ff127a5350-r0_all.ipk
 Source: enigma2-plugin-extensions-xcforever.bb
 Description: XCplugin Forever Enigma2 Plugin
 OE: enigma2-plugin-extensions-xcforever
