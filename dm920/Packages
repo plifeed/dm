@@ -105,6 +105,56 @@ OE: base-files
 License: GPL-2.0-only
 Priority: optional
 
+Package: cdfs-dbg
+Version: 2.6.27-.7
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 07c0f82ae69ee63f6813ab0d254a1abd
+SHA256sum: 8360b7cca3efa627a78cbd95ce08a716068e1c06b758a04c61f89f474db8d72f
+Size: 46870
+Filename: cdfs-dbg_2.6.27-.7_dm920.ipk
+Source: cdfs_2.6.27.bb
+Description: CDfs filesystem - Debugging files
+OE: cdfs
+HomePage: http://users.elis.ugent.be/~mronsse/cdfs/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: cdfs-dev
+Version: 2.6.27-.7
+Recommends: cdfs (>= 2.6.27-.7), cdfs (<< 2.6.27-.7.0), kernel-3.14-1.17-dm920-dev, kernel-module-cdfs-3.14-1.17-dm920-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 42fc595e41cb4f762d500f7f123a6eee
+SHA256sum: 7d72d7c21f0ef37cfbd805df7e1ea228b2980134ca8b8682dd0261c92b755269
+Size: 682
+Filename: cdfs-dev_2.6.27-.7_dm920.ipk
+Source: cdfs_2.6.27.bb
+Description: CDfs filesystem - Development files
+OE: cdfs
+HomePage: http://users.elis.ugent.be/~mronsse/cdfs/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: cdfs
+Version: 2.6.27-.7
+Depends: kernel-module-cdfs-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 19a4d1bd24198e6861900831c945cd87
+SHA256sum: 23df875e9b305ef4fde6152eb60b8a4f46171fcbc05d220edd01dabda3fc1b35
+Size: 578
+Filename: cdfs_2.6.27-.7_dm920.ipk
+Source: cdfs_2.6.27.bb
+Description: CDfs filesystem
+OE: cdfs
+HomePage: http://users.elis.ugent.be/~mronsse/cdfs/
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: distro-feed-configs-dbg
 Version: 1.0-r0
 Section: devel
@@ -283,8 +333,8 @@ Version: blacksail-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: d1239348770be50aff393afab74c5ba0
-SHA256sum: c02f9c62845b80d8ef98e724d333df24205d5a0df4b4b8a1a6b5b5e8b1954685
+MD5Sum: 488ff58c699a42509c80516a62c58021
+SHA256sum: 51f4b0916b465d410edb108829b7a1251690a0e0a80db7a0922c2ba1c80ede85
 Size: 1306
 Filename: enigma-info_blacksail-r0_dm920.ipk
 Source: enigma-info.bb
@@ -4810,6 +4860,24 @@ Source: linux-dreambox_3.14.bb
 Description: cdc-wdm kernel module
 OE: linux-dreambox
 License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-cdfs-3.14-1.17-dm920
+Version: 2.6.27-.7
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-cdfs
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b6f95b78b94e4e81452070952cbe9e47
+SHA256sum: 7f75c34b228655bcc414da4154a997e76cff3659a08c849cf28b1414e841f29d
+Size: 16216
+Filename: kernel-module-cdfs-3.14-1.17-dm920_2.6.27-.7_dm920.ipk
+Source: cdfs_2.6.27.bb
+Description: cdfs kernel module
+OE: cdfs
+HomePage: http://users.elis.ugent.be/~mronsse/cdfs/
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: kernel-module-cdrom-3.14-1.17-dm920

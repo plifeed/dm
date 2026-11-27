@@ -6257,6 +6257,73 @@ HomePage: https://curl.se/
 License: curl
 Priority: optional
 
+Package: curlftpfs-ng-dbg
+Version: 0.9.3-git100+f316c580+f316c58583-r0
+Recommends: fuse-dbg, glib-2.0-dbg, glibc-dbg, libcurl-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 67f0c57f96eae9cead27fed00fb7c392
+SHA256sum: a44ec33f1e5220ae2b2a1ca1429a8fc22af687fa69b825bb5056453bc7f525c4
+Size: 100690
+Filename: curlftpfs-ng-dbg_0.9.3-git100+f316c580+f316c58583-r0_cortexa15hf-neon-vfpv4.ipk
+Source: curlftpfs-ng_0.9.3.bb
+Description: This is a filesystem client based on the FTP File Transfer Protocol using FUSE. - Debugging files
+OE: curlftpfs-ng
+HomePage: https://ikn.org.uk/tool/curlftpfs-ng/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: curlftpfs-ng-dev
+Version: 0.9.3-git100+f316c580+f316c58583-r0
+Recommends: curl-dev, curlftpfs-ng (= 0.9.3-git100+f316c580+f316c58583-r0), fuse-dev, glib-2.0-dev, glibc-dev, libcurl-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6e9fbd0e06ce7086c751780104920c46
+SHA256sum: 8186f00d8ce626810e13dd0b6a0569153b5abe14ee38bcc1ac702279b3d8430f
+Size: 746
+Filename: curlftpfs-ng-dev_0.9.3-git100+f316c580+f316c58583-r0_cortexa15hf-neon-vfpv4.ipk
+Source: curlftpfs-ng_0.9.3.bb
+Description: This is a filesystem client based on the FTP File Transfer Protocol using FUSE. - Development files
+OE: curlftpfs-ng
+HomePage: https://ikn.org.uk/tool/curlftpfs-ng/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: curlftpfs-ng-doc
+Version: 0.9.3-git100+f316c580+f316c58583-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7678bc90aa65768965923f69c0592101
+SHA256sum: 153c2c12ad280a66a87965733cd8bb2a48705f04311e99e857e8c47e3bda13a8
+Size: 5470
+Filename: curlftpfs-ng-doc_0.9.3-git100+f316c580+f316c58583-r0_cortexa15hf-neon-vfpv4.ipk
+Source: curlftpfs-ng_0.9.3.bb
+Description: This is a filesystem client based on the FTP File Transfer Protocol using FUSE. - Documentation files
+OE: curlftpfs-ng
+HomePage: https://ikn.org.uk/tool/curlftpfs-ng/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: curlftpfs-ng
+Version: 0.9.3-git100+f316c580+f316c58583-r0
+Depends: libc6 (>= 2.44+git0+f715e9491c), libcurl4 (>= 8.23.0), libfuse2 (>= 2.9.9), libglib-2.0-0 (>= 2.90.0)
+Section: console/network
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 28163f1fbf7cdaa58175cc1099119815
+SHA256sum: 74bcfb08a408b2a3d5594e4172c9a5d29b1efd533806069b8bbb8e052c603964
+Size: 23446
+Filename: curlftpfs-ng_0.9.3-git100+f316c580+f316c58583-r0_cortexa15hf-neon-vfpv4.ipk
+Source: curlftpfs-ng_0.9.3.bb
+Description: This is a filesystem client based on the FTP File Transfer Protocol using FUSE.
+OE: curlftpfs-ng
+HomePage: https://ikn.org.uk/tool/curlftpfs-ng/
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: cxxopts-dbg
 Version: 3.3.1-r0
 Section: devel
@@ -10339,14 +10406,14 @@ License: LicenseRef-Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dbg
-Version: V0.0-git588+d5203200+d5203209a4-r0
+Version: V0.0-git589+cab24d90+cab24d9480-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: f8d44d12e6dc88fd3336eb53aa02ede4
-SHA256sum: 11ccd10d2bb5d914ae121d4eda06221b5e945746bcb3e2358be994b62af290d3
-Size: 688
-Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git588+d5203200+d5203209a4-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 1bcc19693b944eae73d465b2e3745461
+SHA256sum: 459105348e86c5c640c3cceef920bdfee5cc8585ebddc16acd7797c5ccbc76a9
+Size: 690
+Filename: enigma2-plugin-extensions-footonsat-dbg_V0.0-git589+cab24d90+cab24d9480-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Debugging files
 OE: enigma2-plugin-extensions-footonsat
@@ -10355,15 +10422,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat-dev
-Version: V0.0-git588+d5203200+d5203209a4-r0
-Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git588+d5203200+d5203209a4-r0), python3-sqlite3-dev
+Version: V0.0-git589+cab24d90+cab24d9480-r0
+Recommends: enigma2-plugin-extensions-footonsat (= V0.0-git589+cab24d90+cab24d9480-r0), python3-sqlite3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 507cd29632cfa22136e6758d582c9b46
-SHA256sum: a4dce3a0dd7d44ea5fb3ccfac7b49758d84e77c8bf0afc76fc1539bd86873af8
+MD5Sum: 2160ea6b3b2fea88702692d14e95f41a
+SHA256sum: 5767cb36d8259a14f49691bf439e97069b573ce5d0fd301613998fcd9e17d287
 Size: 738
-Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git588+d5203200+d5203209a4-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-footonsat-dev_V0.0-git589+cab24d90+cab24d9480-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules - Development files
 OE: enigma2-plugin-extensions-footonsat
@@ -10372,15 +10439,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-footonsat
-Version: V0.0-git588+d5203200+d5203209a4-r0
+Version: V0.0-git589+cab24d90+cab24d9480-r0
 Depends: python3-sqlite3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: fairbird
-MD5Sum: 2f45a4a5b41a5de61728adfae61f1dc0
-SHA256sum: 9ed1e759469b86ab374fb0096aad2f3660a4e0b68b58f5b2046f3d0a33acd2e5
-Size: 42829740
-Filename: enigma2-plugin-extensions-footonsat_V0.0-git588+d5203200+d5203209a4-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: a2179a38ee1d3f26b1a513f62ea59dcb
+SHA256sum: 3c5b12f4433cdf228bf907dbefcdda3d2fbd6ca3d94e5ee0fca16dcc37d2ccbe
+Size: 42830816
+Filename: enigma2-plugin-extensions-footonsat_V0.0-git589+cab24d90+cab24d9480-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-footonsat.bb
 Description: FootOnsat plugin for football match schedules
 OE: enigma2-plugin-extensions-footonsat
@@ -12988,8 +13055,8 @@ Version: V7.6-git575+0afa20c0+0afa20c4a5-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 22a5deba19ffa5f29a3c11bec70c2fbe
-SHA256sum: 06d158204df6a99d8de82444bca8ca4fe8cb229d8405d9c7d2fca163e858950f
+MD5Sum: b670e7a182da5226c2f774acb8a9f3a1
+SHA256sum: 4fc6a86c786bf1959ee8cccd3e8cc07064aeffc528af2673dd4d5456087a831b
 Size: 650
 Filename: enigma2-plugin-extensions-worldcam-dbg_V7.6-git575+0afa20c0+0afa20c4a5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13005,8 +13072,8 @@ Recommends: enigma2-plugin-extensions-worldcam (= V7.6-git575+0afa20c0+0afa20c4a
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 34bc4699a3b3aab049db98464a3d8ca3
-SHA256sum: 76fcde2292699d02b377f6871f410cc5887b772c3d857c22bca45f08a30ec3d7
+MD5Sum: c4c2b5cb9e141ee33a84a09990bc9e1a
+SHA256sum: cb8712558d8376f650e4183609d50652e1b4a5618b7d70a098c31c68f152139e
 Size: 782
 Filename: enigma2-plugin-extensions-worldcam-dev_V7.6-git575+0afa20c0+0afa20c4a5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13021,8 +13088,8 @@ Version: V7.6-git575+0afa20c0+0afa20c4a5-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 65548a364729f399570da7fb6f5e7fde
-SHA256sum: 1791f6c618b3d687bea445b6cc887cf1ac43cf80b41090348c648fee4d521b19
+MD5Sum: e350741d5a3f4480dc8af3b1e3e40ed8
+SHA256sum: 3e9ae98902da36e5d616a5a4bca464f4a519e52b34079ba2b0c2de4943a37a54
 Size: 45824
 Filename: enigma2-plugin-extensions-worldcam-src_V7.6-git575+0afa20c0+0afa20c4a5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
@@ -13039,9 +13106,9 @@ Recommends: enigma2-plugin-extensions-streamlinkwrapper, enigma2-plugin-extensio
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 117b4f92e17df6335671428e39dafa4e
-SHA256sum: 8870256ea48f296ae562a5a87e8a443ff451916f14e185da598b5dfe47de2960
-Size: 6581806
+MD5Sum: 7e9473b4ce46d98f3902bb0f79dd8f30
+SHA256sum: 0dff7ed61e55acc84ef25f8bd225739ea808db8f37a3a5da38cc1c4576a43616
+Size: 6581770
 Filename: enigma2-plugin-extensions-worldcam_V7.6-git575+0afa20c0+0afa20c4a5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists
@@ -14794,15 +14861,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3-dbg
-Version: 188+gitr554+5cd80c80+5cd80c8442-r0
+Version: 188+gitr567+31f3edb0+31f3edb76b-r0
 Recommends: glibc-dbg, libavcodec-dbg, libavformat-dbg, libavutil-dbg, libswresample-dbg, libswscale-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fb7666247f48e75a0c6b78e78a994a3f
-SHA256sum: 2bc4369b239ffcead66620eee97b361f45fddfcd51a2eb2f027b5e2fd0e13cf8
-Size: 29738
-Filename: exteplayer3-dbg_188+gitr554+5cd80c80+5cd80c8442-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 7be282ca438dc1c6eeaf2a76900ed429
+SHA256sum: d5ad9ce5d7ffb46c52b6a7d8c2e797a91e3a54ac071efcda0c0c826a70c3d01f
+Size: 30066
+Filename: exteplayer3-dbg_188+gitr567+31f3edb0+31f3edb76b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3_git.bb
 Description: exteplayer3 - media player for E2 - Debugging files
 OE: exteplayer3
@@ -14810,15 +14877,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3-dev
-Version: 188+gitr554+5cd80c80+5cd80c8442-r0
-Recommends: exteplayer3 (= 188+gitr554+5cd80c80+5cd80c8442-r0), ffmpeg-dev, glibc-dev, libatomic-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libswresample-dev, libswscale-dev
+Version: 188+gitr567+31f3edb0+31f3edb76b-r0
+Recommends: exteplayer3 (= 188+gitr567+31f3edb0+31f3edb76b-r0), ffmpeg-dev, glibc-dev, libatomic-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libswresample-dev, libswscale-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a31bee3a5f1e229562f6840022b5492c
-SHA256sum: b57132cdb2ad88ba357da1c661719dc0c83f0901dd75827f180cf7b9e1f32f8c
+MD5Sum: 3c2d287cdda4e3307face7ddbc399987
+SHA256sum: a286cd822bfb0c511dbb71ccbfe714d418c79f353d29105fd70cbad6412b03fa
 Size: 730
-Filename: exteplayer3-dev_188+gitr554+5cd80c80+5cd80c8442-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: exteplayer3-dev_188+gitr567+31f3edb0+31f3edb76b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3_git.bb
 Description: exteplayer3 - media player for E2 - Development files
 OE: exteplayer3
@@ -14826,15 +14893,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3
-Version: 188+gitr554+5cd80c80+5cd80c8442-r0
+Version: 188+gitr567+31f3edb0+31f3edb76b-r0
 Depends: ffmpeg, libatomic, libavcodec63 (>= 9.1), libavformat63 (>= 9.1), libavutil61 (>= 9.1), libc6 (>= 2.44+git0+f715e9491c), libswresample7 (>= 9.1), libswscale10 (>= 9.1)
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 80f586786f3d2ad293461d994f9aa2a5
-SHA256sum: f862baec41fa519d45e31c1aad1e291a49ecc196715f1bb48fe8aa6b5a29597d
-Size: 192248
-Filename: exteplayer3_188+gitr554+5cd80c80+5cd80c8442-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d646a74599f218f5d083938e57f6ac4f
+SHA256sum: 5dc3754c61b9b436919e2f524f6951754fe5045e591f2a20e324732e910c8bd3
+Size: 196938
+Filename: exteplayer3_188+gitr567+31f3edb0+31f3edb76b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3_git.bb
 Description: exteplayer3 - media player for E2
 OE: exteplayer3
@@ -15656,6 +15723,58 @@ Description: Generic font configuration library
 OE: fontconfig
 HomePage: http://www.fontconfig.org
 License: MIT AND LicenseRef-PD
+Priority: optional
+
+Package: fpclock-dbg
+Version: 1.0+git4+edff8500+edff850bc9-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ec633ce950f7c3a7e5972fc90be1964f
+SHA256sum: 3c474b0bc66acc90878a9b6dcfe8eb25ac86b0b012e7ddc895dccd9b1a7af2fe
+Size: 26232
+Filename: fpclock-dbg_1.0+git4+edff8500+edff850bc9-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fpclock_git.bb
+Description: Frontpanel Real Time Clock Daemon - Debugging files
+OE: fpclock
+HomePage: https://github.com/jbleyel/fpclock
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: fpclock-dev
+Version: 1.0+git4+edff8500+edff850bc9-r0
+Recommends: bash-dev, fpclock (= 1.0+git4+edff8500+edff850bc9-r0), glibc-dev, initscripts-dev, update-rc.d-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b72c9066cdfd8a97a25eae6cc2c83b66
+SHA256sum: 726609aec6c964b25bd6c4375fabac2755a25dbcf0e357202a4b4f4bc0ca7281
+Size: 712
+Filename: fpclock-dev_1.0+git4+edff8500+edff850bc9-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fpclock_git.bb
+Description: Frontpanel Real Time Clock Daemon - Development files
+OE: fpclock
+HomePage: https://github.com/jbleyel/fpclock
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: fpclock
+Version: 1.0+git4+edff8500+edff850bc9-r0
+Depends: bash, libc6 (>= 2.44+git0+f715e9491c)
+Recommends: update-rc.d
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 25d1d58885d08e3b5d72e0b3f21aa3eb
+SHA256sum: 4062b52964ac42d6706e433bdb0bceaa546bd19e7920835377723bc9f24c6c35
+Size: 8714
+Filename: fpclock_1.0+git4+edff8500+edff850bc9-r0_cortexa15hf-neon-vfpv4.ipk
+Source: fpclock_git.bb
+Description: Frontpanel Real Time Clock Daemon
+OE: fpclock
+HomePage: https://github.com/jbleyel/fpclock
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: fstrcmp-dbg
@@ -42959,16 +43078,16 @@ License: GPL-3.0-only AND LGPL-3.0-only
 Priority: optional
 
 Package: go-runtime-dbg
-Version: 1.27.3-r0
+Version: 1.27.4-r0
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 09e4b192179f653ba9c667bac7f91e8b
-SHA256sum: 50e07a171ea8b11315e3eee4eb29401d87501e761442fa7b63b915082d5bffb3
+MD5Sum: 15c53aec9e2b21c6173553fdc04955e5
+SHA256sum: 90b2a01ff2f8bd0b9aefcec4131371a69518be76a42f02a4ed8159598fe8af6f
 Size: 934
-Filename: go-runtime-dbg_1.27.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: go-runtime_1.27.3.bb
+Filename: go-runtime-dbg_1.27.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: go-runtime_1.27.4.bb
 Description: Go programming language compiler - Debugging files
 OE: go-runtime
 HomePage: http://golang.org/
@@ -42976,16 +43095,16 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: go-runtime-dev
-Version: 1.27.3-r0
-Recommends: glibc-dev, go-runtime (= 1.27.3-r0)
+Version: 1.27.4-r0
+Recommends: glibc-dev, go-runtime (= 1.27.4-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cd6af522393257a8d6cde9b49871baf4
-SHA256sum: 75ceb8277190ca93e183769fe9bf79b3c2d73b25ef67a35ae512b7a09569228e
-Size: 64272466
-Filename: go-runtime-dev_1.27.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: go-runtime_1.27.3.bb
+MD5Sum: 047b559b09e6ab9abfdb62a6bcc86ffe
+SHA256sum: 79eba81700beaefee2ddc7d6fb258baf93a155b82af705e6e89628cccf280383
+Size: 64327710
+Filename: go-runtime-dev_1.27.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: go-runtime_1.27.4.bb
 Description: Go programming language compiler - Development files
 OE: go-runtime
 HomePage: http://golang.org/
@@ -42993,16 +43112,16 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: go-runtime-staticdev
-Version: 1.27.3-r0
-Depends: go-runtime-dev (= 1.27.3-r0)
+Version: 1.27.4-r0
+Depends: go-runtime-dev (= 1.27.4-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e8965f3e3bb8bdbfffd8ba5939cb7839
-SHA256sum: 719344cf79bb714de83973dc3013333f462638c6449be72301696139daa02044
-Size: 1062
-Filename: go-runtime-staticdev_1.27.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: go-runtime_1.27.3.bb
+MD5Sum: 0e260caea45e6d7cec0d7de0b42c3d2e
+SHA256sum: e78db53353bba130e27002d2b5d3ccdf9a6a6bf4c79ad36435aa2e5ad0bfb329
+Size: 1058
+Filename: go-runtime-staticdev_1.27.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: go-runtime_1.27.4.bb
 Description: Go programming language compiler - Development files (Static Libraries)
 OE: go-runtime
 HomePage: http://golang.org/
@@ -43010,16 +43129,16 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: go-runtime
-Version: 1.27.3-r0
+Version: 1.27.4-r0
 Depends: libc6 (>= 2.44+git0+f715e9491c)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b089adf62929e2c5c07643b44b9329a6
-SHA256sum: 44dc4099fc6201592cd292482020c5b09748766e9d6fa1f481460c8146c02583
-Size: 16198638
-Filename: go-runtime_1.27.3-r0_cortexa15hf-neon-vfpv4.ipk
-Source: go-runtime_1.27.3.bb
+MD5Sum: 4c102187c99c174fb4e9bcdad9afe7e9
+SHA256sum: aab0bbec4f41ce95baf3b6afdcdd2720c62a409d847ebd8c4c02aec994ad92ca
+Size: 16193660
+Filename: go-runtime_1.27.4-r0_cortexa15hf-neon-vfpv4.ipk
+Source: go-runtime_1.27.4.bb
 Description: Go programming language compiler
 OE: go-runtime
 HomePage: http://golang.org/
@@ -43256,15 +43375,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: gstplayer2-dbg
-Version: 0.2+git60+dcc9c980+dcc9c98c57-r0
+Version: 0.2+git61+469d0070+469d0078aa-r0
 Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgstvideo-1.0-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4e4100bbe28eb9c77d8ac4893782b563
-SHA256sum: fff5398da3e394bee5bdd872e707c4a20950753f422bbea25df63e13859c2479
-Size: 13232
-Filename: gstplayer2-dbg_0.2+git60+dcc9c980+dcc9c98c57-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 9fa706cdc2bf1745ee2e7d9a9583c2b9
+SHA256sum: 11cb4fad6d76d20dfca2d65c0776b157167c99fff94b5581a17759d77f8e0908
+Size: 13240
+Filename: gstplayer2-dbg_0.2+git61+469d0070+469d0078aa-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gstplayer2_0.2.bb
 Description: gstplayer2 version 0.2+git-r0 - Debugging files
 OE: gstplayer2
@@ -43272,15 +43391,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: gstplayer2-dev
-Version: 0.2+git60+dcc9c980+dcc9c98c57-r0
-Recommends: glib-2.0-dev, glibc-dev, gstplayer2 (= 0.2+git60+dcc9c980+dcc9c98c57-r0), gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgstvideo-1.0-dev
+Version: 0.2+git61+469d0070+469d0078aa-r0
+Recommends: glib-2.0-dev, glibc-dev, gstplayer2 (= 0.2+git61+469d0070+469d0078aa-r0), gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgstvideo-1.0-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5db4ba06e6848838c1161e459cc67d1f
-SHA256sum: f100703565a428418c0d95509a911f15c34cedcf1d395b7d2e47bf69b344fa6d
+MD5Sum: 3060d6bc1813aebe6b7cd4320c6df396
+SHA256sum: ed3e17d10412df29506414e86af96f7fc613429cd7eae3520887582ff4db8aea
 Size: 702
-Filename: gstplayer2-dev_0.2+git60+dcc9c980+dcc9c98c57-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: gstplayer2-dev_0.2+git61+469d0070+469d0078aa-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gstplayer2_0.2.bb
 Description: gstplayer2 version 0.2+git-r0 - Development files
 OE: gstplayer2
@@ -43288,15 +43407,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: gstplayer2
-Version: 0.2+git60+dcc9c980+dcc9c98c57-r0
+Version: 0.2+git61+469d0070+469d0078aa-r0
 Depends: gstreamer1.0 (>= 1.28.9), libc6 (>= 2.44+git0+f715e9491c), libglib-2.0-0 (>= 2.90.0), libgstaudio-1.0-0 (>= 1.28.9), libgstpbutils-1.0-0 (>= 1.28.9), libgstvideo-1.0-0 (>= 1.28.9)
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 912841e31cb40b88f756f52456430bb8
-SHA256sum: afc2c053a22e8d508bdcaafe353746ae5b1a6b21aff1a3f72da2af4811b4c75c
-Size: 23664
-Filename: gstplayer2_0.2+git60+dcc9c980+dcc9c98c57-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f169aa783ba93ea0add75dff589707a6
+SHA256sum: 5ec4bca02844a9633a1781c86e08458e5824170a6482bcd2094c090d2ea7e38d
+Size: 23820
+Filename: gstplayer2_0.2+git61+469d0070+469d0078aa-r0_cortexa15hf-neon-vfpv4.ipk
 Source: gstplayer2_0.2.bb
 Description: gstplayer2 version 0.2+git-r0
 OE: gstplayer2
@@ -94555,6 +94674,613 @@ HomePage: https://github.com/lz4/lz4
 License: BSD-2-Clause OR GPL-2.0-or-later
 Priority: optional
 
+Package: make-dbg
+Version: 4.4.1-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b3ab1779af09bc8e083146e9d87a2c37
+SHA256sum: 16244e2cc6a638720d1116cf2da84ee8fe934845157b93417bf0d59a65fff803
+Size: 560482
+Filename: make-dbg_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - Debugging files
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-dev
+Version: 4.4.1-r0
+Recommends: glibc-dev, make (= 4.4.1-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2080c05e99539bf8d240b6bf2c3c539b
+SHA256sum: b27dc8e8ca171fc3e0eb8d0a6096c233cf21bf6fd31d8f5b8de43c6aa47689d4
+Size: 2336
+Filename: make-dev_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - Development files
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-doc
+Version: 4.4.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b17d0ad20b9ea3a1a568839659d39bc
+SHA256sum: 7f7d958b9e72e82c21299aa078e4491bed62c3ea1a2fe4af7c5669c58f693eaa
+Size: 181064
+Filename: make-doc_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - Documentation files
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-be
+Version: 4.4.1-r0
+Provides: be-translation, make-locale
+Recommends: virtual-locale-be
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c77bb3825fb22a4cd792806ab14093de
+SHA256sum: 30b7ca4953558feffd9a6e38c8978b24e7397ba6b20a0b58336ca8a795bd1ae6
+Size: 4160
+Filename: make-locale-be_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - be translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-bg
+Version: 4.4.1-r0
+Provides: bg-translation, make-locale
+Recommends: virtual-locale-bg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7888d1961ecbfdf8824ffb915213833
+SHA256sum: 0a0fa3671b0f08571658b39cb18e3359f46a1e560d22268916291e07bc6ed6bc
+Size: 23440
+Filename: make-locale-bg_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - bg translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-cs
+Version: 4.4.1-r0
+Provides: cs-translation, make-locale
+Recommends: virtual-locale-cs
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d6749ad33ff70d743090674f10c27614
+SHA256sum: 09d599612cddb70c6ee109e7ac0561ef6ce82970ec57b68caeee2b13bffd5589
+Size: 21678
+Filename: make-locale-cs_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - cs translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-da
+Version: 4.4.1-r0
+Provides: da-translation, make-locale
+Recommends: virtual-locale-da
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d0be7133c2025abde90694d33dbeb1a7
+SHA256sum: a600f32b826e6b66bd4a1e13ef5b2bea8276129155696ac057abfad391139671
+Size: 19278
+Filename: make-locale-da_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - da translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-de
+Version: 4.4.1-r0
+Provides: de-translation, make-locale
+Recommends: virtual-locale-de
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9d6cfef11d04d14fbe97e7c0e2daa07b
+SHA256sum: 4e6a2ff39b629595e533f4fa656cdff61a52acff2a88ecedbd9d7e8b7e3f3845
+Size: 21318
+Filename: make-locale-de_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - de translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-es
+Version: 4.4.1-r0
+Provides: es-translation, make-locale
+Recommends: virtual-locale-es
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1d8c11f7eaa6f756fb52cef4c453116b
+SHA256sum: 45749b094f2dca58443d0f7b1fc1a14308c2ba47114451887d3e797265454721
+Size: 17092
+Filename: make-locale-es_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - es translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-fi
+Version: 4.4.1-r0
+Provides: fi-translation, make-locale
+Recommends: virtual-locale-fi
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38919539af14e07e31393038a85ef456
+SHA256sum: 68070d3017336f90224f452a70edaf93473ff781625480571d4033fcda964616
+Size: 13628
+Filename: make-locale-fi_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - fi translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-fr
+Version: 4.4.1-r0
+Provides: fr-translation, make-locale
+Recommends: virtual-locale-fr
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4c9d0b516578c3f4effaad35a7341c40
+SHA256sum: 452a8889bc50ed3eef99ab2291f2e0b201260a8af9e95c963a11d8bc826d7d46
+Size: 17150
+Filename: make-locale-fr_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - fr translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-ga
+Version: 4.4.1-r0
+Provides: ga-translation, make-locale
+Recommends: virtual-locale-ga
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 566da22e599f19fd345c08c89702b92a
+SHA256sum: 5b03d474e9fad97c69ebddb5fb8091ac0737e5f1a6eb667d394f6c20ceb82c26
+Size: 16550
+Filename: make-locale-ga_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - ga translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-gl
+Version: 4.4.1-r0
+Provides: gl-translation, make-locale
+Recommends: virtual-locale-gl
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7ca54ac2ac5849adfd0172ab4e2016b0
+SHA256sum: 41f49a9f1ddf90d2184ecd5994941fdd15f46857b0d6e0629e4370724e191edd
+Size: 9358
+Filename: make-locale-gl_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - gl translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-he
+Version: 4.4.1-r0
+Provides: he-translation, make-locale
+Recommends: virtual-locale-he
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1592ec164c6951dfce19c32ad6fa1507
+SHA256sum: 757d5c940507d484333777aa6aef912d0c1ea0923f3a5fd939fdd4eb763e8ff0
+Size: 5244
+Filename: make-locale-he_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - he translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-hr
+Version: 4.4.1-r0
+Provides: hr-translation, make-locale
+Recommends: virtual-locale-hr
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de9ed4d5216d712188f42ee49e96f3b6
+SHA256sum: f1005a017dcab1356f46c9c33629f1013cb4e8eb5249b0707595f7ec1768e48d
+Size: 21374
+Filename: make-locale-hr_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - hr translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-id
+Version: 4.4.1-r0
+Provides: id-translation, make-locale
+Recommends: virtual-locale-id
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 77dd2f0890d2d8b78c9cb2748d0080c4
+SHA256sum: b733d202e5e2d05395d36495cd7eeb8fceefb57c4cbb518db194c599771a9a14
+Size: 15884
+Filename: make-locale-id_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - id translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-it
+Version: 4.4.1-r0
+Provides: it-translation, make-locale
+Recommends: virtual-locale-it
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 148307200ad6420cdcc647055a29832c
+SHA256sum: 8433efbdcdbed797cf6b2d05a409487029142da84d51e3d5b9fbf661b260111e
+Size: 16626
+Filename: make-locale-it_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - it translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-ja
+Version: 4.4.1-r0
+Provides: ja-translation, make-locale
+Recommends: virtual-locale-ja
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3bf970ba185243f627aae51eea9dd4e8
+SHA256sum: 8f21e6239fde27d60993197fdce996960df8995df68fd879b9629b0315283691
+Size: 22006
+Filename: make-locale-ja_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - ja translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-ko
+Version: 4.4.1-r0
+Provides: ko-translation, make-locale
+Recommends: virtual-locale-ko
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fbdd42d2dd32f2a0ad56e4aec07869fe
+SHA256sum: 398116249ab268f6fb335b267a7fa4af9a58859f0dadab01a89bd61997bb3f51
+Size: 21542
+Filename: make-locale-ko_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - ko translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-lt
+Version: 4.4.1-r0
+Provides: lt-translation, make-locale
+Recommends: virtual-locale-lt
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7a4aa0fe7188fa9743187972153111fa
+SHA256sum: 6c77d0a22b6281964cd8895de9180849481c108a6ffa5944f8ac2c6bdf0d7837
+Size: 4422
+Filename: make-locale-lt_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - lt translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-nl
+Version: 4.4.1-r0
+Provides: make-locale, nl-translation
+Recommends: virtual-locale-nl
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f04e7202a9bd07114b9456c356d25f7f
+SHA256sum: 64b0d64f1ae8006490e211b63e58d3170e4ea00d907fcce034bcc588889feed5
+Size: 19610
+Filename: make-locale-nl_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - nl translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-pl
+Version: 4.4.1-r0
+Provides: make-locale, pl-translation
+Recommends: virtual-locale-pl
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9ca50f08ccb5d5d99adb9e4f1371249
+SHA256sum: ff966d46f96de95802ae0e4a41a0d9b98e827c8ad1a79d63cddc264d0adf269c
+Size: 20784
+Filename: make-locale-pl_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - pl translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-pt-br
+Version: 4.4.1-r0
+Provides: make-locale, pt-br-translation
+Recommends: virtual-locale-pt-br
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 81e22aeb5afdf50962da77e5167062ff
+SHA256sum: ffd4ef05b57bfa27cb882cb7023ab789075b0eb9428673466c9c975cf53646a3
+Size: 16638
+Filename: make-locale-pt-br_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - pt_BR translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-pt
+Version: 4.4.1-r0
+Provides: make-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 89f6e0150d00e1abf1c85a456082feb2
+SHA256sum: a9819855d325e7b325fdbd5e10847863c32d1b39ba54cf9d0937f1b685ac2c6f
+Size: 16458
+Filename: make-locale-pt_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - pt translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-ro
+Version: 4.4.1-r0
+Provides: make-locale, ro-translation
+Recommends: virtual-locale-ro
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1981fa500dab9211867e4c2c86274d5c
+SHA256sum: e5b7e13da82af5247ba8456af28f552b51e412709874300486c3e14d8bc33063
+Size: 21216
+Filename: make-locale-ro_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - ro translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-ru
+Version: 4.4.1-r0
+Provides: make-locale, ru-translation
+Recommends: virtual-locale-ru
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 927cad9542e876cd1549a5c7c97e87fb
+SHA256sum: 8348a53a132523d65700a86f750c7fc95263c3f3372eca5ec9df31230ddf7bc9
+Size: 23284
+Filename: make-locale-ru_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - ru translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-sr
+Version: 4.4.1-r0
+Provides: make-locale, sr-translation
+Recommends: virtual-locale-sr
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 06120f854c7f14ffb882e3aa8d15a149
+SHA256sum: a01f16b918b650d0f158e462c211b9072022dc0b31185cea62b003db1b92704b
+Size: 22916
+Filename: make-locale-sr_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - sr translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-sv
+Version: 4.4.1-r0
+Provides: make-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 597531e43092d27d1161324b2d9d2bfd
+SHA256sum: 406b23c6d1d0f4129a14ffcbcc2416e73a01e4a74302514acf6ae13703bf8732
+Size: 20112
+Filename: make-locale-sv_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - sv translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-tr
+Version: 4.4.1-r0
+Provides: make-locale, tr-translation
+Recommends: virtual-locale-tr
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1aac77a585839f61cb60bcb45d66d818
+SHA256sum: fb7066ddae05226a51508cbd9431f3ab9ce2222217fa6f88e50746426cbbdf57
+Size: 8972
+Filename: make-locale-tr_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - tr translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-uk
+Version: 4.4.1-r0
+Provides: make-locale, uk-translation
+Recommends: virtual-locale-uk
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a8a3ee00511aea7c30ab727f8e6e3600
+SHA256sum: 7845628920a4d024919bac710d37f804308b9f210cffe40a01695ead8b84c490
+Size: 23452
+Filename: make-locale-uk_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - uk translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-vi
+Version: 4.4.1-r0
+Provides: make-locale, vi-translation
+Recommends: virtual-locale-vi
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8717a061f21a8ec33ac07d402ddb0a69
+SHA256sum: f1a83dd600715285d84b3a677caf0a069b923ca8b07de272b0eb69884d2c47a9
+Size: 17560
+Filename: make-locale-vi_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - vi translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-zh-cn
+Version: 4.4.1-r0
+Provides: make-locale, zh-cn-translation
+Recommends: virtual-locale-zh-cn
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e54fbf82d792a771f13e2000a47d23fe
+SHA256sum: 49dbc75e1878272e4351f5df4c8ccc9f101df24b9c6e0082e595e8b5958f05b2
+Size: 18666
+Filename: make-locale-zh-cn_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - zh_CN translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make-locale-zh-tw
+Version: 4.4.1-r0
+Provides: make-locale, zh-tw-translation
+Recommends: virtual-locale-zh-tw
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: addee507d53d75c8d520f482008bfcf2
+SHA256sum: ed50c26b333c72928eb73b46a839444a44c36e755ecbf2bf5a72427edd979a58
+Size: 21338
+Filename: make-locale-zh-tw_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process - zh_TW translations
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
+Package: make
+Version: 4.4.1-r0
+Depends: libc6 (>= 2.44+git0+f715e9491c)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e7323dc420fac599b0f0f894b78562f5
+SHA256sum: e1ae10c71f83691bfe990a4ab66a780c2ff2aa2e4bbc3ff898a3cf5257b4aa30
+Size: 109926
+Filename: make_4.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: make_4.4.1.bb
+Description: GNU tool that controls the build process
+OE: make
+HomePage: http://www.gnu.org/software/make/
+License: GPL-3.0-only
+Priority: optional
+
 Package: mc-dbg
 Version: 4.8.33-r0
 Recommends: glib-2.0-dbg, glibc-dbg, ncurses-libncursesw-dbg, ncurses-libtinfo-dbg
@@ -97509,6 +98235,69 @@ HomePage: http://www.nano-editor.org/
 License: GPL-3.0-only
 Priority: optional
 
+Package: ncdu-dbg
+Version: 1.8-r1
+Recommends: glibc-dbg, ncurses-libncursesw-dbg, ncurses-libtinfo-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e4e38bcb44fea1f212f8a4ed60ee21ea
+SHA256sum: 243ee4b4fa577ad0beaef2f0316c882e1451ec02a7e8788c7e632bbbf093ec85
+Size: 72294
+Filename: ncdu-dbg_1.8-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ncdu_1.8.bb
+Description: NCurses Disk Usage - Debugging files
+OE: ncdu
+License: MIT
+Priority: optional
+
+Package: ncdu-dev
+Version: 1.8-r1
+Recommends: glibc-dev, ncdu (= 1.8-r1), ncurses-dev, ncurses-libncursesw-dev, ncurses-libtinfo-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4fd396760e17f8077656fea7cc6eb3d7
+SHA256sum: e7b4085180fa4356dcc5ceaa9f1e398a29f171a2eadfef39aba8f6b6a982d3a9
+Size: 644
+Filename: ncdu-dev_1.8-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ncdu_1.8.bb
+Description: NCurses Disk Usage - Development files
+OE: ncdu
+License: MIT
+Priority: optional
+
+Package: ncdu-doc
+Version: 1.8-r1
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e7e271c8e0478df6f58f077a0cfbb4c
+SHA256sum: e5dd14ee7b6ae4b64ad1732e8cb7fe45237473817896391c31a8b20e6ecdf2ed
+Size: 2816
+Filename: ncdu-doc_1.8-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ncdu_1.8.bb
+Description: NCurses Disk Usage - Documentation files
+OE: ncdu
+License: MIT
+Priority: optional
+
+Package: ncdu
+Version: 1.8-r1
+Depends: libc6 (>= 2.44+git0+f715e9491c), libncursesw5 (>= 6.6), libtinfo5 (>= 6.6)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0962bbca39ffba7ead0628c03ef62751
+SHA256sum: 56e31712a2626b8be7f610e64b0caa641366c8ec234846c2abb8c0e19c0ca066
+Size: 20156
+Filename: ncdu_1.8-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ncdu_1.8.bb
+Description: NCurses Disk Usage
+OE: ncdu
+License: MIT
+Priority: optional
+
 Package: ncurses-dbg
 Version: 6.6-r0
 Recommends: glibc-dbg, ncurses-libncurses-dbg, ncurses-libncursesw-dbg, ncurses-libtic-dbg, ncurses-libtinfo-dbg
@@ -98530,14 +99319,14 @@ License: GPL-2.0-only AND LGPL-2.0-only
 Priority: optional
 
 Package: ofgwrite-dbg
-Version: 5.x+git252+2d32dc50+2d32dc5bb9-r0
+Version: 5.x+git253+20c10610+20c1061836-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Betacentauri
-MD5Sum: 64550fc281c187572741139a46b7cba5
-SHA256sum: 2a88029e38f8f81dd1f88f331eca83eabe7eeb356ed13a0837619485ac92b958
-Size: 7792964
-Filename: ofgwrite-dbg_5.x+git252+2d32dc50+2d32dc5bb9-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: aa95e8ba61f9410aa8d9cb0101f3eee0
+SHA256sum: 62d92002bed7564bef1cb5e1c93b6010e14a949b8fcc7a908c87c191f79417c1
+Size: 7794988
+Filename: ofgwrite-dbg_5.x+git253+20c10610+20c1061836-r0_cortexa15hf-neon-vfpv4.ipk
 Source: ofgwrite.bb
 Description: Betacentauris couch flashing - Debugging files
 OE: ofgwrite
@@ -98545,15 +99334,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: ofgwrite-dev
-Version: 5.x+git252+2d32dc50+2d32dc5bb9-r0
-Recommends: ofgwrite (= 5.x+git252+2d32dc50+2d32dc5bb9-r0), openssl-dev
+Version: 5.x+git253+20c10610+20c1061836-r0
+Recommends: ofgwrite (= 5.x+git253+20c10610+20c1061836-r0), openssl-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Betacentauri
-MD5Sum: 3553eadeaaa6b73fd9a2a6535f89265e
-SHA256sum: 6e179101c8cbb2bb07e1d9dfdd85671a43c61d121710f32cbbae8308d1e94330
+MD5Sum: e74d56c592b8b8fa547e3c08b71763fe
+SHA256sum: 8158fd577a4052674fa588e43aecf75fb257e681e269ad6db45e0a8e09b95c36
 Size: 622
-Filename: ofgwrite-dev_5.x+git252+2d32dc50+2d32dc5bb9-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: ofgwrite-dev_5.x+git253+20c10610+20c1061836-r0_cortexa15hf-neon-vfpv4.ipk
 Source: ofgwrite.bb
 Description: Betacentauris couch flashing - Development files
 OE: ofgwrite
@@ -98561,14 +99350,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: ofgwrite
-Version: 5.x+git252+2d32dc50+2d32dc5bb9-r0
+Version: 5.x+git253+20c10610+20c1061836-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Betacentauri
-MD5Sum: 11e1ce8e840f76cbf122f2807295c1b4
-SHA256sum: 9ea3614b321a61e003da798d1d96238bcf8417b8d06e6e601c7299a4586b49c0
-Size: 1933336
-Filename: ofgwrite_5.x+git252+2d32dc50+2d32dc5bb9-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f1f08dce74bef1be0871be07effe90f1
+SHA256sum: 2377ec626747dd593bc3c8cb737ed7bc489eb57504584c5c0df7c627ab4bc2d5
+Size: 1933276
+Filename: ofgwrite_5.x+git253+20c10610+20c1061836-r0_cortexa15hf-neon-vfpv4.ipk
 Source: ofgwrite.bb
 Description: Betacentauris couch flashing
 OE: ofgwrite
@@ -99102,13 +99891,13 @@ Priority: optional
 
 Package: openpli-enigma2-feed-dev
 Version: 1.0-r0
-Recommends: 7zip-dev, astra-sm-dev, autofs-dev, autossh-dev, bitstream-dev, bluez5-dev, brotli-dev, ccid-dev, channelsettings-enigma2-meta-dev, chrony-dev, cloudflare-dns-dev, cmdwrapper-dev, ctorrent-dev, cups-dev, curl-dev, curl-impersonate-dev, dav1d-dev, davfs2-dev, dhrystone-dev, diffutils-dev, directfb-dev, djmount-dev, dmxcsa-dev, dosfstools-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, edid-decode-dev, enigma2-binary-plugins-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-abertis-dev, enigma2-plugin-extensions-acherone-dev, enigma2-plugin-extensions-arabicsavior-dev, enigma2-plugin-extensions-archimede-m3uconverter-dev, enigma2-plugin-extensions-archivczsk-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-automatic-fullbackup-dev, enigma2-plugin-extensions-backupflash-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-bmediacenter-dev, enigma2-plugin-extensions-bouquetmakerxtream-dev, enigma2-plugin-extensions-calendar-dev, enigma2-plugin-extensions-chefkoch-dev, enigma2-plugin-extensions-ciefpplugins-dev, enigma2-plugin-extensions-ciefpsettingspanel-dev, enigma2-plugin-extensions-ciefpxfiles-dev, enigma2-plugin-extensions-ciefpyoutube-dev, enigma2-plugin-extensions-ciplus-helper-dev, enigma2-plugin-extensions-commandcenter-dev, enigma2-plugin-extensions-crashlogviewer-dev, enigma2-plugin-extensions-dabstreamer-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-extensions-e2embyclient-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-e2piconizer-dev, enigma2-plugin-extensions-e2tvplayer-dev, enigma2-plugin-extensions-enhancedmoviecenter-dev, enigma2-plugin-extensions-enigmalight-dev, enigma2-plugin-extensions-enigmawelt-dev, enigma2-plugin-extensions-eparted-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-esame-dev, enigma2-plugin-extensions-estalker-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-footonsat-dev, enigma2-plugin-extensions-freechannels-dev, enigma2-plugin-extensions-fritzcall-dev, enigma2-plugin-extensions-gtiptvplayerpro-dev, enigma2-plugin-extensions-hbbtvplayer-dev, enigma2-plugin-extensions-hdmitest-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-infobarweather-dev, enigma2-plugin-extensions-iptv-org-playlists-dev, enigma2-plugin-extensions-jediepgxtream-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-levi45addons-dev, enigma2-plugin-extensions-linuxsatpanel-dev, enigma2-plugin-extensions-lottoextended-dev, enigma2-plugin-extensions-mediaplayer3-dev, enigma2-plugin-extensions-mediathekcockpit-dev, enigma2-plugin-extensions-movemanager-dev, enigma2-plugin-extensions-moviebrowser-dev, enigma2-plugin-extensions-neoradio-dev, enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-extensions-oemediathek-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-planerfs-dev, enigma2-plugin-extensions-plutotv-dev, enigma2-plugin-extensions-plutotvcockpit-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-raedquicksignal-dev, enigma2-plugin-extensions-raiplay-dev, enigma2-plugin-extensions-rakutentvcockpit-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-samsungtvcockpit-dev, enigma2-plugin-extensions-schiffe-dev, enigma2-plugin-extensions-sdgradio-dev, enigma2-plugin-extensions-serienrecorder-dev, enigma2-plugin-extensions-simplezoom-panel-dev, enigma2-plugin-extensions-stalkerportalconverter-dev, enigma2-plugin-extensions-stbkodilauncher-dev, enigma2-plugin-extensions-streamlinksrv-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-subssupportpro-dev, enigma2-plugin-extensions-sudoku-dev, enigma2-plugin-extensions-sundtekcontrolcenter-dev, enigma2-plugin-extensions-tetris-dev, enigma2-plugin-extensions-transmission-stremio-dev, enigma2-plugin-extensions-ts-sateditor-dev, enigma2-plugin-extensions-tvgarden-dev, enigma2-plugin-extensions-tvmanager-dev, enigma2-plugin-extensions-vavoo-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vhannibal-autosettings-dev, enigma2-plugin-extensions-vierg-dev, enigma2-plugin-extensions-visualweather-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-webradiofs-dev, enigma2-plugin-extensions-wifi-manager-dev, enigma2-plugin-extensions-worldcam-dev, enigma2-plugin-extensions-xcforever-dev, enigma2-plugin-extensions-xklass-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-extensions-yampmusicplayer-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skincomponents-obsidian-fhd-cast-dev, enigma2-plugin-skincomponents-obsidian-fhd-dock-dev, enigma2-plugin-skincomponents-obsidian-fhd-edge-dev, enigma2-plugin-skincomponents-obsidian-fhd-k7-dev, enigma2-plugin-skincomponents-obsidian-fhd-matchday-dev, enigma2-plugin-skincomponents-obsidian-fhd-mawaqit-dev, enigma2-plugin-skincomponents-obsidian-fhd-nova-dev, enigma2-plugin-skincomponents-obsidian-fhd-posters-dev, enigma2-plugin-skincomponents-obsidian-fhd-stream-dev, enigma2-plugin-skincomponents-obsidian-fhd-subtitles-dev, enigma2-plugin-skincomponents-obsidian-fhd-synthwave-dev, enigma2-plugin-skins-army-moodblue-hd-dev, enigma2-plugin-skins-e2darkos-dev, enigma2-plugin-skins-glamouraurafhd-dev, enigma2-plugin-skins-kiddac-1080-onyx-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-pd1loi-hd-night-dev, enigma2-plugin-skins-pli-fullnight-fhd-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd-fullnight-dev, enigma2-plugin-skins-proteusfhd-dev, enigma2-plugin-skins-ruinfinityhd-dev, enigma2-plugin-skins-satdreamgr-hd-transpba-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-extrafancontrol-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-m3uiptv-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-satipserver-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev, enigma2-plugin-systemplugins-terrestrialbouquet-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, eplayer5-dev, evtest-dev, exfatprogs-dev, exteplayer3-dev, fbgrab-dev, fdk-aac-dev, firmware-mt7601u-dev, firmware-rtl8188eu-dev, firmware-rtl8188fu-dev, firmware-rtl8192eu-dev, firmware-rtl8723bu-dev, flip-dev, fstrcmp-dev, fuse-dev, gdb-dev, gerbera-dev, google-dns-dev, grep-dev, gstplayer-dev, hddtemp-dev, hdparm-dev, htop-dev, icu-dev, iflatbitrate-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, ipkg-tools-dev, iproute2-dev, iputils-dev, joe-dev, kernel-module-mt7601usta-dev, kernel-module-mt7610u-dev, kernel-module-rt3573sta-dev, kernel-module-rt5572sta-dev, kernel-module-rt8188eu-dev, kernel-module-rt8188fu-dev, kernel-module-rt8189es-dev, kernel-module-rt8192eu-dev, kernel-module-rt8192fu-dev, kernel-module-rt8723a-dev, kernel-module-rt8723bs-dev, kernel-module-rt8723bu-dev, kernel-module-rt8812au-dev, kernel-module-rt8814au-dev, kernel-module-rt8821cu-dev, kernel-module-rt8852cu-dev, kernel-module-rt88x2bu-dev, kernel-module-rt88x2cu-dev, less-dev, libbluray-dev, libdcadec-dev, libnfs-dev, libpar2-dev, libudfread-dev, libvpx-dev, mc-dev, mediainfo-dev, meta-enigma2-dvdburn-dev, minisatip-dev, mpd-dev, mpg123-dev, mpv-dev, mtd-utils-dev, mtools-dev, mtr-dev, nano-dev, net-tools-dev, nss-dev, ntfs-3g-dev, openldap-dev, openmultiboot-dev, openpli-enigma2-feed (= 1.0-r0), openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, os-release-dev, package-index-feed-dev, packagegroup-hbbtv2-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, picons-enigma2-meta-dev, poppler-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python3-aiohttp-dev, python3-annotated-doc-dev, python3-apprise-dev, python3-attr-dev, python3-attrs-dev, python3-autobahn-dev, python3-aws-iot-device-sdk-python-dev, python3-babelfish-dev, python3-backports-lzma-dev, python3-beautifulsoup4-dev, python3-biplist-dev, python3-bluetool-dev, python3-cachecontrol-dev, python3-cachetools-dev, python3-cattrs-dev, python3-cfscrape-dev, python3-chardet-dev, python3-charset-normalizer-dev, python3-cheroot-dev, python3-cherrypy-dev, python3-circuits-bricks-dev, python3-circuits-dev, python3-cmd2-dev, python3-cocy-dev, python3-compat2-dev, python3-coverage-dev, python3-cssselect-dev, python3-ct3-dev, python3-curl-cffi-dev, python3-daap-dev, python3-dateparser-dev, python3-dnspython-dev, python3-evdev-dev, python3-exceptiongroup-dev, python3-faker-dev, python3-feedparser-dev, python3-filelock-dev, python3-flickrapi-dev, python3-flit-scm-dev, python3-fonttools-dev, python3-future-dev, python3-futures3-dev, python3-fuzzywuzzy-dev, python3-gdata-python3-dev, python3-google-auth-dev, python3-google-auth-oauthlib-dev, python3-guessit-dev, python3-h11-dev, python3-httpcore2-dev, python3-httpx2-dev, python3-icalendar-dev, python3-imageio-dev, python3-iniparse-dev, python3-ipaddress-dev, python3-iso-639-dev, python3-isodate-dev, python3-itemadapter-dev, python3-itemloaders-dev, python3-jaraco.classes-dev, python3-jaraco.collections-dev, python3-jaraco.context-dev, python3-jaraco.functools-dev, python3-jaraco.text-dev, python3-js2py-dev, python3-levenshtein-dev, python3-lxml-dev, python3-lzallright-dev, python3-mechanize-dev, python3-more-itertools-dev, python3-multipart-dev, python3-mutagen-dev, python3-netifaces-dev, python3-notify2-dev, python3-ntplib-dev, python3-numpy-dev, python3-outcome-dev, python3-packaging-dev, python3-parsel-dev, python3-pbkdf2-dev, python3-pexpect-dev, python3-pip-dev, python3-platformdirs-dev, python3-portend-dev, python3-process-dev, python3-propcache-dev, python3-protego-dev, python3-psutil-dev, python3-puremagic-dev, python3-py3amf-dev, python3-pyasn1-modules-dev, python3-pycountry-dev, python3-pycryptodome-dev, python3-pycryptodomex-dev, python3-pycurl-dev, python3-pyexecjs-dev, python3-pysmb-dev, python3-pysnmp-dev, python3-pyte-dev, python3-pytz-dev, python3-qrcode-dev, python3-queuelib-dev, python3-rapidjson-dev, python3-rarfile-dev, python3-rbtranslations-dev, python3-rebulk-dev, python3-regex-dev, python3-requests-cache-dev, python3-requests-dev, python3-sabctools-dev, python3-sabyenc3-dev, python3-scrapy-dev, python3-service-identity-dev, python3-setuptools-dev, python3-sgmllib3k-dev, python3-simple-justwatch-python-api-dev, python3-simple-websocket-dev, python3-singledispatch-dev, python3-six-dev, python3-soco-dev, python3-soupsieve-dev, python3-svglib-dev, python3-tcpbridge-dev, python3-telnetlib3-dev, python3-tempora-dev, python3-tenjin-dev, python3-thefuzz-dev, python3-timeout-decorator-dev, python3-tinytag-dev, python3-tldextract-dev, python3-tmdbsimple-dev, python3-tmdbv3api-dev, python3-tqdm-dev, python3-transmission-rpc-dev, python3-treq-dev, python3-trio-dev, python3-trio-websocket-dev, python3-tvdbsimple-dev, python3-typeguard-dev, python3-typer-dev, python3-types-python-dateutil-dev, python3-types-setuptools-dev, python3-typing-extensions-dev, python3-tzlocal-dev, python3-ubi-reader-dev, python3-ujson-dev, python3-url-normalize-dev, python3-uv-build-dev, python3-versioningit-dev, python3-w3lib-dev, python3-watchdog-dev, python3-web3-dev, python3-websocket-client-dev, python3-websockets-dev, python3-wheezy-template-dev, python3-wifi-dev, python3-xlsxwriter-dev, python3-yarl-dev, python3-yenc-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-yt-dlp-ejs-dev, python3-zc.lockfile-dev, python3-zeroconf-dev, quickjs-dev, rclone-dev, redsea-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, satpi-dev, screen-dev, sed-dev, shairplay-dev, shellinabox-dev, smartmontools-dev, smbnetfs-dev, softcams-enigma2-meta-dev, srt-dev, sshpass-dev, strace-dev, streamlink-dev, streamlinksrv-dev, streamripper-dev, tcpdump-dev, tinyproxy-dev, tmux-dev, transmission-dev, tsanalyze-dev, tsduck-dev, tslib-dev, tsniv2ni-dev, ttyrun-dev, ubuntu-font-family-dev, udpxy-dev, unzip-dev, upx-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, valgrind-dev, vim-dev, wget-dev, wireguard-module-dev, wireguard-tools-dev, wireless-tools-dev, wscan-dev, wsdd-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zerotier-dev, zip-dev, zsh-dev
+Recommends: 7zip-dev, astra-sm-dev, autofs-dev, autossh-dev, bitstream-dev, bluez5-dev, brotli-dev, ccid-dev, cdfs-dev, channelsettings-enigma2-meta-dev, chrony-dev, cloudflare-dns-dev, cmdwrapper-dev, ctorrent-dev, cups-dev, curl-dev, curl-impersonate-dev, curlftpfs-ng-dev, dav1d-dev, davfs2-dev, dhrystone-dev, diffutils-dev, directfb-dev, djmount-dev, dmxcsa-dev, dosfstools-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, edid-decode-dev, enigma2-binary-plugins-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-abertis-dev, enigma2-plugin-extensions-acherone-dev, enigma2-plugin-extensions-arabicsavior-dev, enigma2-plugin-extensions-archimede-m3uconverter-dev, enigma2-plugin-extensions-archivczsk-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-automatic-fullbackup-dev, enigma2-plugin-extensions-backupflash-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-bmediacenter-dev, enigma2-plugin-extensions-bouquetmakerxtream-dev, enigma2-plugin-extensions-calendar-dev, enigma2-plugin-extensions-chefkoch-dev, enigma2-plugin-extensions-ciefpplugins-dev, enigma2-plugin-extensions-ciefpsettingspanel-dev, enigma2-plugin-extensions-ciefpxfiles-dev, enigma2-plugin-extensions-ciefpyoutube-dev, enigma2-plugin-extensions-ciplus-helper-dev, enigma2-plugin-extensions-commandcenter-dev, enigma2-plugin-extensions-crashlogviewer-dev, enigma2-plugin-extensions-dabstreamer-dev, enigma2-plugin-extensions-dlnabrowser-dev, enigma2-plugin-extensions-dlnaserver-dev, enigma2-plugin-extensions-e2embyclient-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-e2piconizer-dev, enigma2-plugin-extensions-e2tvplayer-dev, enigma2-plugin-extensions-enhancedmoviecenter-dev, enigma2-plugin-extensions-enigmalight-dev, enigma2-plugin-extensions-enigmawelt-dev, enigma2-plugin-extensions-eparted-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-esame-dev, enigma2-plugin-extensions-estalker-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-footonsat-dev, enigma2-plugin-extensions-freechannels-dev, enigma2-plugin-extensions-fritzcall-dev, enigma2-plugin-extensions-gtiptvplayerpro-dev, enigma2-plugin-extensions-hbbtvplayer-dev, enigma2-plugin-extensions-hdmitest-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-infobarweather-dev, enigma2-plugin-extensions-iptv-org-playlists-dev, enigma2-plugin-extensions-jediepgxtream-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-levi45addons-dev, enigma2-plugin-extensions-linuxsatpanel-dev, enigma2-plugin-extensions-lottoextended-dev, enigma2-plugin-extensions-mediaplayer3-dev, enigma2-plugin-extensions-mediathekcockpit-dev, enigma2-plugin-extensions-movemanager-dev, enigma2-plugin-extensions-moviebrowser-dev, enigma2-plugin-extensions-neoradio-dev, enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-extensions-oemediathek-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-planerfs-dev, enigma2-plugin-extensions-plutotv-dev, enigma2-plugin-extensions-plutotvcockpit-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-raedquicksignal-dev, enigma2-plugin-extensions-raiplay-dev, enigma2-plugin-extensions-rakutentvcockpit-dev, enigma2-plugin-extensions-remotechannelstreamconverter-dev, enigma2-plugin-extensions-samsungtvcockpit-dev, enigma2-plugin-extensions-schiffe-dev, enigma2-plugin-extensions-sdgradio-dev, enigma2-plugin-extensions-serienrecorder-dev, enigma2-plugin-extensions-simplezoom-panel-dev, enigma2-plugin-extensions-stalkerportalconverter-dev, enigma2-plugin-extensions-stbkodilauncher-dev, enigma2-plugin-extensions-streamlinksrv-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-subssupportpro-dev, enigma2-plugin-extensions-sudoku-dev, enigma2-plugin-extensions-sundtekcontrolcenter-dev, enigma2-plugin-extensions-televideorai-dev, enigma2-plugin-extensions-tetris-dev, enigma2-plugin-extensions-transmission-stremio-dev, enigma2-plugin-extensions-ts-sateditor-dev, enigma2-plugin-extensions-tvgarden-dev, enigma2-plugin-extensions-tvmanager-dev, enigma2-plugin-extensions-vavoo-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vhannibal-autosettings-dev, enigma2-plugin-extensions-vierg-dev, enigma2-plugin-extensions-visualweather-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-webradiofs-dev, enigma2-plugin-extensions-wifi-manager-dev, enigma2-plugin-extensions-worldcam-dev, enigma2-plugin-extensions-xcforever-dev, enigma2-plugin-extensions-xklass-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-extensions-yampmusicplayer-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skincomponents-obsidian-fhd-cast-dev, enigma2-plugin-skincomponents-obsidian-fhd-dock-dev, enigma2-plugin-skincomponents-obsidian-fhd-edge-dev, enigma2-plugin-skincomponents-obsidian-fhd-k7-dev, enigma2-plugin-skincomponents-obsidian-fhd-matchday-dev, enigma2-plugin-skincomponents-obsidian-fhd-mawaqit-dev, enigma2-plugin-skincomponents-obsidian-fhd-nova-dev, enigma2-plugin-skincomponents-obsidian-fhd-posters-dev, enigma2-plugin-skincomponents-obsidian-fhd-stream-dev, enigma2-plugin-skincomponents-obsidian-fhd-subtitles-dev, enigma2-plugin-skincomponents-obsidian-fhd-synthwave-dev, enigma2-plugin-skins-army-moodblue-hd-dev, enigma2-plugin-skins-e2darkos-dev, enigma2-plugin-skins-glamouraurafhd-dev, enigma2-plugin-skins-kiddac-1080-onyx-dev, enigma2-plugin-skins-kiddac-1080-slyk-q-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19-dev, enigma2-plugin-skins-pd1loi-hd-night-dev, enigma2-plugin-skins-pli-fullnight-fhd-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd-fullnight-dev, enigma2-plugin-skins-proteusfhd-dev, enigma2-plugin-skins-ruinfinityhd-dev, enigma2-plugin-skins-satdreamgr-hd-transpba-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-systemplugins-devicemanager-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-extrafancontrol-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-m3uiptv-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-satipserver-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-streamproxycockpit-dev, enigma2-plugin-systemplugins-terrestrialbouquet-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, eplayer5-dev, evtest-dev, exfatprogs-dev, exteplayer3-dev, fbgrab-dev, fdk-aac-dev, firmware-mt7601u-dev, firmware-rtl8188eu-dev, firmware-rtl8188fu-dev, firmware-rtl8192eu-dev, firmware-rtl8723bu-dev, flip-dev, fpclock-dev, fstrcmp-dev, fuse-dev, gdb-dev, gerbera-dev, google-dns-dev, grep-dev, gstplayer-dev, hddtemp-dev, hdparm-dev, htop-dev, icu-dev, iflatbitrate-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, ipkg-tools-dev, iproute2-dev, iputils-dev, joe-dev, kernel-module-mt7601usta-dev, kernel-module-mt7610u-dev, kernel-module-rt3573sta-dev, kernel-module-rt5572sta-dev, kernel-module-rt8188eu-dev, kernel-module-rt8188fu-dev, kernel-module-rt8189es-dev, kernel-module-rt8192eu-dev, kernel-module-rt8192fu-dev, kernel-module-rt8723a-dev, kernel-module-rt8723bs-dev, kernel-module-rt8723bu-dev, kernel-module-rt8812au-dev, kernel-module-rt8814au-dev, kernel-module-rt8821cu-dev, kernel-module-rt8852cu-dev, kernel-module-rt88x2bu-dev, kernel-module-rt88x2cu-dev, less-dev, libbluray-dev, libdcadec-dev, libnfs-dev, libpar2-dev, libudfread-dev, libvpx-dev, make-dev, mc-dev, mediainfo-dev, meta-enigma2-dvdburn-dev, minisatip-dev, mpd-dev, mpg123-dev, mpv-dev, mtd-utils-dev, mtools-dev, mtr-dev, nano-dev, ncdu-dev, net-tools-dev, nss-dev, ntfs-3g-dev, openldap-dev, openmultiboot-dev, openpli-enigma2-feed (= 1.0-r0), openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, os-release-dev, package-index-feed-dev, packagegroup-hbbtv2-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, picons-enigma2-meta-dev, poppler-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python3-aiohttp-dev, python3-annotated-doc-dev, python3-apprise-dev, python3-attr-dev, python3-attrs-dev, python3-autobahn-dev, python3-aws-iot-device-sdk-python-dev, python3-babelfish-dev, python3-backports-lzma-dev, python3-beautifulsoup4-dev, python3-biplist-dev, python3-bluetool-dev, python3-cachecontrol-dev, python3-cachetools-dev, python3-cattrs-dev, python3-cfscrape-dev, python3-chardet-dev, python3-charset-normalizer-dev, python3-cheroot-dev, python3-cherrypy-dev, python3-circuits-bricks-dev, python3-circuits-dev, python3-cmd2-dev, python3-cocy-dev, python3-compat2-dev, python3-coverage-dev, python3-cssselect-dev, python3-ct3-dev, python3-curl-cffi-dev, python3-daap-dev, python3-dateparser-dev, python3-dnspython-dev, python3-evdev-dev, python3-exceptiongroup-dev, python3-faker-dev, python3-feedparser-dev, python3-filelock-dev, python3-flickrapi-dev, python3-flit-scm-dev, python3-fonttools-dev, python3-future-dev, python3-futures3-dev, python3-fuzzywuzzy-dev, python3-gdata-python3-dev, python3-google-auth-dev, python3-google-auth-oauthlib-dev, python3-guessit-dev, python3-h11-dev, python3-httpcore2-dev, python3-httpx2-dev, python3-icalendar-dev, python3-imageio-dev, python3-iniparse-dev, python3-ipaddress-dev, python3-iso-639-dev, python3-isodate-dev, python3-itemadapter-dev, python3-itemloaders-dev, python3-jaraco.classes-dev, python3-jaraco.collections-dev, python3-jaraco.context-dev, python3-jaraco.functools-dev, python3-jaraco.text-dev, python3-js2py-dev, python3-levenshtein-dev, python3-lxml-dev, python3-lzallright-dev, python3-mechanize-dev, python3-more-itertools-dev, python3-multipart-dev, python3-mutagen-dev, python3-netifaces-dev, python3-notify2-dev, python3-ntplib-dev, python3-numpy-dev, python3-outcome-dev, python3-packaging-dev, python3-parsel-dev, python3-pbkdf2-dev, python3-pexpect-dev, python3-pip-dev, python3-platformdirs-dev, python3-portend-dev, python3-process-dev, python3-propcache-dev, python3-protego-dev, python3-psutil-dev, python3-puremagic-dev, python3-py3amf-dev, python3-pyasn1-modules-dev, python3-pycountry-dev, python3-pycryptodome-dev, python3-pycryptodomex-dev, python3-pycurl-dev, python3-pyexecjs-dev, python3-pysmb-dev, python3-pysnmp-dev, python3-pyte-dev, python3-pytz-dev, python3-qrcode-dev, python3-queuelib-dev, python3-rapidjson-dev, python3-rarfile-dev, python3-rbtranslations-dev, python3-rebulk-dev, python3-regex-dev, python3-requests-cache-dev, python3-requests-dev, python3-sabctools-dev, python3-sabyenc3-dev, python3-scrapy-dev, python3-service-identity-dev, python3-setuptools-dev, python3-sgmllib3k-dev, python3-simple-justwatch-python-api-dev, python3-simple-websocket-dev, python3-singledispatch-dev, python3-six-dev, python3-soco-dev, python3-soupsieve-dev, python3-svglib-dev, python3-tcpbridge-dev, python3-telnetlib3-dev, python3-tempora-dev, python3-tenjin-dev, python3-thefuzz-dev, python3-timeout-decorator-dev, python3-tinytag-dev, python3-tldextract-dev, python3-tmdbsimple-dev, python3-tmdbv3api-dev, python3-tqdm-dev, python3-transmission-rpc-dev, python3-treq-dev, python3-trio-dev, python3-trio-websocket-dev, python3-tvdbsimple-dev, python3-typeguard-dev, python3-typer-dev, python3-types-python-dateutil-dev, python3-types-setuptools-dev, python3-typing-extensions-dev, python3-tzlocal-dev, python3-ubi-reader-dev, python3-ujson-dev, python3-url-normalize-dev, python3-uv-build-dev, python3-versioningit-dev, python3-w3lib-dev, python3-watchdog-dev, python3-web3-dev, python3-websocket-client-dev, python3-websockets-dev, python3-wheezy-template-dev, python3-wifi-dev, python3-xlsxwriter-dev, python3-yarl-dev, python3-yenc-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, python3-yt-dlp-ejs-dev, python3-zc.lockfile-dev, python3-zeroconf-dev, quickjs-dev, rclone-dev, redsea-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, satpi-dev, screen-dev, sed-dev, shairplay-dev, shellinabox-dev, smartmontools-dev, smbnetfs-dev, softcams-enigma2-meta-dev, srt-dev, sshpass-dev, strace-dev, streamlink-dev, streamlinksrv-dev, streamripper-dev, tailscale-dev, tcpdump-dev, tinyproxy-dev, tmux-dev, transmission-dev, tsanalyze-dev, tsduck-dev, tslib-dev, tsniv2ni-dev, ttyrun-dev, ubuntu-font-family-dev, udpxy-dev, unzip-dev, upx-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, valgrind-dev, vim-dev, wget-dev, wireguard-module-dev, wireguard-tools-dev, wireless-tools-dev, wscan-dev, wsdd-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zerotier-dev, zip-dev, zsh-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5e54748bd9291e1108c2c4275893b425
-SHA256sum: 4668ec59f7018f7ab5833e343cbc3f5f5b644231db2537906863692912e1dec3
-Size: 3700
+MD5Sum: a4950940a519f5e6fe77c99e392934af
+SHA256sum: fb0fb059eaa5511c886af4169a62138bc0202bfb24fedbd51cf8e29e32fce30b
+Size: 3736
 Filename: openpli-enigma2-feed-dev_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: openpli-enigma2-feed.bb
 Description: openpli-enigma2-feed version 1.0-r0 - Development files
@@ -123009,9 +123798,9 @@ Depends: python3-asyncio, python3-core, python3-crypt, python3-logging
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 386d4abd76144e65b430db9265e96f58
-SHA256sum: 250282126b46b8bb18ab9644d4a3f2579319a9097bddd0e468cd9d93101a403a
-Size: 481124
+MD5Sum: 2162e077a7793eb30c0ca85c1157d369
+SHA256sum: fa27bda5af2aa06ad28d495666d2bdf214b76d5faf3dab7ad4915516a4c4b4e0
+Size: 491204
 Filename: python3-filelock_4.3.1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-filelock_4.3.1.bb
 Description: A single module, which implements a platform independent file lock in Python, which provides a simple way of inter-process communication
@@ -136627,9 +137416,9 @@ Recommends: glibc-dbg, go-runtime-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d448e3b6ab9cb9363744749cb75faa1a
-SHA256sum: f2d0b55015496c5f9a25e7eedf6041da7064718bc2c30bf2355986514d271972
-Size: 4416148
+MD5Sum: 84d061b12b3fed19409efd38e583f27a
+SHA256sum: 3747b98daf6f10b40977f49f1b632d06ffea1548119accfe186f1ead98c866ce
+Size: 4416150
 Filename: rclone-dbg_1.76.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rclone_1.76.0.bb
 Description: Sync files and directories to and from cloud storage providers - Debugging files
@@ -136675,14 +137464,14 @@ Priority: optional
 
 Package: rclone
 Version: 1.76.0-r0
-Depends: go-runtime (>= 1.27.3), libc6 (>= 2.44+git0+f715e9491c)
+Depends: go-runtime (>= 1.27.4), libc6 (>= 2.44+git0+f715e9491c)
 Recommends: fuse3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: caf251c031ffb24df9dcdd9cd3556d22
-SHA256sum: 2af9a48b3dda211a07a2e2e7be310d7c4dd41848c02e5dda0fe4b80236403b30
-Size: 30947476
+MD5Sum: 9e649b775af3951157a1f65b5a72ece7
+SHA256sum: 9e37b38341fc3efc2c9b9d0dcfccdb14200dbd06786affe0e890753e9c93caa3
+Size: 30947480
 Filename: rclone_1.76.0-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rclone_1.76.0.bb
 Description: Sync files and directories to and from cloud storage providers
@@ -140655,6 +141444,75 @@ Description: System-V like init
 OE: sysvinit
 HomePage: http://savannah.nongnu.org/projects/sysvinit/
 License: GPL-2.0-or-later
+Priority: optional
+
+Package: tailscale-dbg
+Version: 1.104.7-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 85625e3a2e2734b36ae259651e2b8189
+SHA256sum: b20a12c40c4030f5e6bc979a09f0b26a881e5bd35180659ea08b3c5af9e336e8
+Size: 12685256
+Filename: tailscale-dbg_1.104.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: tailscale_1.104.7.bb
+Description: Tailscale client and daemon - Debugging files
+OE: tailscale
+HomePage: https://github.com/tailscale/tailscale
+License: BSD-3-Clause AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
+Priority: optional
+
+Package: tailscale-dev
+Version: 1.104.7-r0
+Recommends: glibc-dev, initscripts-dev, iptables-dev, tailscale (= 1.104.7-r0), update-rc.d-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d06aa9f58ffb7a35133e904053fe3a4e
+SHA256sum: 5ce3a1afeac824934d87d74ff9b3bc9ebf63b9a7c0f7e26a4f07213ebe7a5444
+Size: 748
+Filename: tailscale-dev_1.104.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: tailscale_1.104.7.bb
+Description: Tailscale client and daemon - Development files
+OE: tailscale
+HomePage: https://github.com/tailscale/tailscale
+License: BSD-3-Clause AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
+Priority: optional
+
+Package: tailscale
+Version: 1.104.7-r0
+Depends: libc6 (>= 2.44+git0+f715e9491c)
+Section: networking
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b33f4c769b701267e6d2de1e0f7d1d42
+SHA256sum: 6c9613d9f90175880eefcc6d822736c2d4ff9a819ca426a86a5c789488ff92a8
+Size: 10639270
+Filename: tailscale_1.104.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: tailscale_1.104.7.bb
+Description: Tailscale client and daemon
+OE: tailscale
+HomePage: https://github.com/tailscale/tailscale
+License: BSD-3-Clause AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
+Priority: optional
+
+Package: tailscaled
+Version: 1.104.7-r0
+Depends: iptables
+Recommends: kernel-module-tun, kernel-module-wireguard, kernel-module-xt-mark, kernel-module-xt-masquerade, kernel-module-xt-tcpudp, update-rc.d
+Section: networking
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 560eec8d9b32d068b722bb5ebd34521c
+SHA256sum: 74a318ad7c1687526b8b1ea4b1c17ef09b65271f679294238cd76caaaef4aa44
+Size: 1796
+Filename: tailscaled_1.104.7-r0_cortexa15hf-neon-vfpv4.ipk
+Source: tailscale_1.104.7.bb
+Description: Tailscale client and daemon
+OE: tailscale
+HomePage: https://github.com/tailscale/tailscale
+License: BSD-3-Clause AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
 Priority: optional
 
 Package: tar-dbg

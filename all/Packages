@@ -2063,9 +2063,9 @@ Version: 1.9-git359+6938b7a0+6938b7a943-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 00cc386a5457ff155de43487b62ae233
-SHA256sum: 1afc8d8be53111c2fea158364772d0d0b22b7219f44d18ab1fe5ca9633738310
-Size: 582
+MD5Sum: 4250053a6b276269061b49a42ca30464
+SHA256sum: d4d7d5efb0c3cf33a16a67bd4235a519a2e86c9dd77c210af9c4e3e0bc74c7ce
+Size: 580
 Filename: enigma2-plugin-extensions-raiplay-dbg_1.9-git359+6938b7a0+6938b7a943-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: RaiPlay Enigma2 Plugin - Debugging files
@@ -2079,8 +2079,8 @@ Recommends: enigma2-plugin-extensions-raiplay (= 1.9-git359+6938b7a0+6938b7a943-
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 79575b5994da012ebfa122c1707afebb
-SHA256sum: 0273e8b62b093c649e73d06a74a6632a93a252d74be5f184446bbd8bc7f15f05
+MD5Sum: 8614cb609754999fd1937ae3466594c0
+SHA256sum: 5efbc93f9e59eadb7001d3e5d43a4b2a269d6594ef0249e839a750e6e2e4a27f
 Size: 658
 Filename: enigma2-plugin-extensions-raiplay-dev_1.9-git359+6938b7a0+6938b7a943-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
@@ -2095,9 +2095,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: fbbf3d2ffdcacce67b09339bd0b8f93f
-SHA256sum: 4b458d8be6d0a2f434afaf9fdf341e61ac4f6cc65543d869fd5db4bb1b3361a6
-Size: 6502180
+MD5Sum: b102d882038d5ef86d6b35eae459b9e7
+SHA256sum: fcecc40fab50ea79015dc0a384f2159db570346bae48bdc69254d451c0b1bc23
+Size: 6501852
 Filename: enigma2-plugin-extensions-raiplay_1.9-git359+6938b7a0+6938b7a943-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: RaiPlay Enigma2 Plugin
@@ -2372,6 +2372,53 @@ OE: enigma2-plugin-extensions-subssupportpro
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-extensions-televideorai-dbg
+Version: 1.0-git11+d9024860+d9024862d6-r0
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: ddab159619d46034ab44243641041d0d
+SHA256sum: 8a1c8d91476391cacb7bdd78356da3c7fb505dbe9278bf3f5457130f04021887
+Size: 600
+Filename: enigma2-plugin-extensions-televideorai-dbg_1.0-git11+d9024860+d9024862d6-r0_all.ipk
+Source: enigma2-plugin-extensions-televideorai.bb
+Description: TelevideoRAI — Plugin Televideo per Enigma2 - Debugging files
+OE: enigma2-plugin-extensions-televideorai
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-televideorai-dev
+Version: 1.0-git11+d9024860+d9024862d6-r0
+Recommends: enigma2-dev, enigma2-plugin-extensions-televideorai (= 1.0-git11+d9024860+d9024862d6-r0)
+Section: devel
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 5bb0c9029f7778cc618c20d51c847351
+SHA256sum: 34846680cdf11f314a1aedc44bbf7bdb2afae1e33cced4f9549ff9e9b2c79588
+Size: 640
+Filename: enigma2-plugin-extensions-televideorai-dev_1.0-git11+d9024860+d9024862d6-r0_all.ipk
+Source: enigma2-plugin-extensions-televideorai.bb
+Description: TelevideoRAI — Plugin Televideo per Enigma2 - Development files
+OE: enigma2-plugin-extensions-televideorai
+License: GPL-2.0-or-later
+Priority: required
+
+Package: enigma2-plugin-extensions-televideorai
+Version: 1.0-git11+d9024860+d9024862d6-r0
+Depends: enigma2
+Section: base
+Architecture: all
+Maintainer: Lululla
+MD5Sum: 6a141f720f22e949c6196f3e370faa9d
+SHA256sum: 0236aef1c9cfab4a139459e2d7ed8c61895c584b1daaf691fd229b3508f3056b
+Size: 10864
+Filename: enigma2-plugin-extensions-televideorai_1.0-git11+d9024860+d9024862d6-r0_all.ipk
+Source: enigma2-plugin-extensions-televideorai.bb
+Description: TelevideoRAI — Plugin Televideo per Enigma2
+OE: enigma2-plugin-extensions-televideorai
+License: GPL-2.0-or-later
+Priority: required
+
 Package: enigma2-plugin-extensions-transmission-stremio-dbg
 Version: 5.4.2-r1
 Section: devel
@@ -2520,8 +2567,8 @@ Version: 1.92-git1353+78cade00+78cade0101-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: ef523cdde5e057af790f08254d061bda
-SHA256sum: 1d3cbc32e92203d132c783c8e3368a633c5bdb8e9fd320cebd1cf583c0238b08
+MD5Sum: 9de2096f8d39361773158a3a6ae6967c
+SHA256sum: 7c505a8134bb3bf325910b8607ae32284a6cf881351e91a3bddd9b931ed6c4fb
 Size: 586
 Filename: enigma2-plugin-extensions-vavoo-dbg_1.92-git1353+78cade00+78cade0101-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
@@ -2536,9 +2583,9 @@ Recommends: enigma2-plugin-extensions-vavoo (= 1.92-git1353+78cade00+78cade0101-
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: b546cf4f7ff13a00942cc799b6fd21b0
-SHA256sum: d0141e1dcf6034864ccd36d955376ab8e460425a80cbe7c1f8a9ba926f4835c6
-Size: 662
+MD5Sum: 4d313b99b706098e2a18768a5dfa298e
+SHA256sum: 672554db24dd4d5c85bfcf8e0b525a66d24657f717e8861c8c81236f7a5fd2bd
+Size: 664
 Filename: enigma2-plugin-extensions-vavoo-dev_1.92-git1353+78cade00+78cade0101-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin - Development files
@@ -2552,9 +2599,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 3a8dee253f424ef046b7ad568e997947
-SHA256sum: d5898f1f27637e0cf0a80ca6d0624c7a90d60d9bd463354717569a9de2ee95e2
-Size: 10937788
+MD5Sum: 990cb323ddb24ea980211fa2629be75f
+SHA256sum: f15d82777597638de6235f08c2edf38eb8b2734cdf9f384911820b0b80805a40
+Size: 10937836
 Filename: enigma2-plugin-extensions-vavoo_1.92-git1353+78cade00+78cade0101-r0_all.ipk
 Source: enigma2-plugin-extensions-vavoo.bb
 Description: Vavoo Stream Live Enigma2 Plugin
@@ -11116,14 +11163,14 @@ License: Bitstream-Vera
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1598+e5772fa0+e5772fae72-3
+Version: 2+git1599+6715dc70+6715dc7f3a-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: f6db188338f576ac69285a017f166676
-SHA256sum: 777235475526557fd7f503c33755b380d12afc6cdb4cb1b5b6f056064944115a
-Size: 570
-Filename: tuxbox-common-dbg_2+git1598+e5772fa0+e5772fae72-3_all.ipk
+MD5Sum: 2d5c50da474acfc6b585d876cb10d27f
+SHA256sum: 04c2510375b2972242ae9ce198df143019253348c5ec2f35e1c6f81108c25b97
+Size: 568
+Filename: tuxbox-common-dbg_2+git1599+6715dc70+6715dc7f3a-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -11131,15 +11178,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1598+e5772fa0+e5772fae72-3
-Recommends: tuxbox-common (>= 2+git1598+e5772fa0+e5772fae72-3), tuxbox-common (<< 2+git1598+e5772fa0+e5772fae72-3.0), xz-dev
+Version: 2+git1599+6715dc70+6715dc7f3a-3
+Recommends: tuxbox-common (>= 2+git1599+6715dc70+6715dc7f3a-3), tuxbox-common (<< 2+git1599+6715dc70+6715dc7f3a-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 6850bdc7ee43e3898d9b74fd2200f639
-SHA256sum: 276ce8c1704fc5d44aedfa091cc52dce94fd0ba34c460ecc682ef56e91061188
-Size: 622
-Filename: tuxbox-common-dev_2+git1598+e5772fa0+e5772fae72-3_all.ipk
+MD5Sum: 6ac37c9db5e860dc76d2e79810f1161e
+SHA256sum: 608ae3303bb5a63b63ad8b9722dbccea654cfd63bd83a476a15bfd0ecd1fbe8f
+Size: 620
+Filename: tuxbox-common-dev_2+git1599+6715dc70+6715dc7f3a-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -11147,15 +11194,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1598+e5772fa0+e5772fae72-3
+Version: 2+git1599+6715dc70+6715dc7f3a-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 9ca36f706b411f7ead56f9fcbbb6fce9
-SHA256sum: 2b3a64b763b7801f844c16638b0041a1f948525abec699b7faeb5673f96d974f
-Size: 69282
-Filename: tuxbox-common_2+git1598+e5772fa0+e5772fae72-3_all.ipk
+MD5Sum: 1f31ff5c52db11d23db8cb248579700e
+SHA256sum: 8a5367c7be0ff696da50ffa61335d4559531017dbb7c3c1c549955d741bc6aed
+Size: 69290
+Filename: tuxbox-common_2+git1599+6715dc70+6715dc7f3a-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
