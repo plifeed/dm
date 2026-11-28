@@ -202,48 +202,48 @@ License: MIT
 Priority: optional
 
 Package: dmxcsa-dbg
-Version: 2.0-preview1-r0
+Version: 2.0-preview2-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ca622e2972aafc1239f163c40c82bdf7
-SHA256sum: 8fa340a2019f1216c81f2c374e2e414c5c8d81e9ed122343837a1e749828364c
+MD5Sum: 55268ec06f6d471855306f3c8687df1e
+SHA256sum: 70c3d21aac477b2d7c44106b5da6eb8cc5d8697135c951e552b60fc23d9d4cc0
 Size: 664
-Filename: dmxcsa-dbg_2.0-preview1-r0_dm920.ipk
-Source: dmxcsa_2.0-preview1.bb
+Filename: dmxcsa-dbg_2.0-preview2-r0_dm920.ipk
+Source: dmxcsa_2.0-preview2.bb
 Description: dmxcsa - in-kernel CSA-ALT descrambler - Debugging files
 OE: dmxcsa
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: dmxcsa-dev
-Version: 2.0-preview1-r0
-Recommends: dmxcsa (= 2.0-preview1-r0), initscripts-dev, kernel-3.14-1.17-dm920-dev, kernel-module-dmxcsa-3.14-1.17-dm920-dev, update-rc.d-dev
+Version: 2.0-preview2-r0
+Recommends: dmxcsa (= 2.0-preview2-r0), initscripts-dev, kernel-3.14-1.17-dm920-dev, kernel-module-dmxcsa-3.14-1.17-dm920-dev, update-rc.d-dev
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d6834eecd90516527f2b7484c11d152c
-SHA256sum: ba3e5c2129f5720b567cbc9335b8a1ea42f0ee765528f6968a78dbbeb214ba32
+MD5Sum: 70aa55be661d22b12661325df9a01576
+SHA256sum: 2b552fca2262e65d8437326dca1e3221b8d43fa5cf7bfda575e8e0df9595ed00
 Size: 734
-Filename: dmxcsa-dev_2.0-preview1-r0_dm920.ipk
-Source: dmxcsa_2.0-preview1.bb
+Filename: dmxcsa-dev_2.0-preview2-r0_dm920.ipk
+Source: dmxcsa_2.0-preview2.bb
 Description: dmxcsa - in-kernel CSA-ALT descrambler - Development files
 OE: dmxcsa
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: dmxcsa
-Version: 2.0-preview1-r0
+Version: 2.0-preview2-r0
 Depends: kernel-module-dmxcsa-3.14-1.17-dm920
 Recommends: update-rc.d
 Section: kernel/modules
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c78476c20596b764bf9f3c2d6b0ffe92
-SHA256sum: 3c4689b216b6b5b5e7cfbb43f31aef10894b2d9192e23f7930395b4d57cc2602
-Size: 1200
-Filename: dmxcsa_2.0-preview1-r0_dm920.ipk
-Source: dmxcsa_2.0-preview1.bb
+MD5Sum: e9298c5308cc6417b4068befb5cc2072
+SHA256sum: b043d6dd13dd4172197a35047dcd2e773e1656e8722dea8703d6ec3b550fc7f3
+Size: 1220
+Filename: dmxcsa_2.0-preview2-r0_dm920.ipk
+Source: dmxcsa_2.0-preview2.bb
 Description: dmxcsa - in-kernel CSA-ALT descrambler
 OE: dmxcsa
 License: GPL-2.0-or-later
@@ -2804,9 +2804,9 @@ Version: 3.14-4
 Section: kernel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 535a946a0889270e74296051991ef463
-SHA256sum: 48599c03ac08125bf61da7838e40ad451ef26a50e894f34b8aecd836799e7798
-Size: 36390516
+MD5Sum: 6028d248df6cbcf3f6c63e94b779bd5e
+SHA256sum: 99e54d87dfc0860abbf726a92ef8a68ab185b39f0678883c27a2cc675af331f4
+Size: 36390518
 Filename: kernel-dbg_3.14-4_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: linux-dreambox version 3.14-4
@@ -3258,9 +3258,9 @@ Provides: kernel-image-zimage
 Section: kernel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 456c0f8f7988fef083d3dad954f70406
-SHA256sum: dd4e1bb2bd6fcd14ecf525d7cfce267bbc273f06fc85bdeaaca83f12d9b0df8b
-Size: 4355984
+MD5Sum: 1124930db11c9d4399517728e5a0f06f
+SHA256sum: ed882033bd52fff7ab3ef608237c1d6c318516c799c816d480543678f6316158
+Size: 4356084
 Filename: kernel-image-zimage-3.14-1.17-dm920_3.14-4_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: linux-dreambox version 3.14-4
@@ -5833,7 +5833,7 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: kernel-module-dmxcsa-3.14-1.17-dm920
-Version: 2.0-preview1-r0
+Version: 2.0-preview2-r0
 Depends: kernel-3.14-1.17-dm920
 Provides: kernel-module-dmxcsa
 Replaces: kernel-module-dmxcsa
@@ -5841,11 +5841,11 @@ Conflicts: kernel-module-dmxcsa
 Section: kernel/modules
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b9c7877e9db9be1efdb86b59d7caad0
-SHA256sum: edb09119f24b43af842358efdf7c033d224029c6a05dcf157b1c589c940b42f3
-Size: 48308
-Filename: kernel-module-dmxcsa-3.14-1.17-dm920_2.0-preview1-r0_dm920.ipk
-Source: dmxcsa_2.0-preview1.bb
+MD5Sum: 827524d8f74677b1588aba55b679d1e8
+SHA256sum: 5e8fc0a22de16ce3769f26b5fec0a87f56b5cb6f323d90bb5faccea227e72d3b
+Size: 55596
+Filename: kernel-module-dmxcsa-3.14-1.17-dm920_2.0-preview2-r0_dm920.ipk
+Source: dmxcsa_2.0-preview2.bb
 Description: dmxcsa kernel module
 OE: dmxcsa
 License: GPL-2.0-or-later
@@ -22012,9 +22012,9 @@ Version: 3.14-4
 Section: kernel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dc5b8a8f3d8b1d2069379a32971dc87e
-SHA256sum: cd7e626de962e7bd3ddc59b78ba8ab225bb31bf87d9f0dbe146ca96e7695cbd0
-Size: 4585040
+MD5Sum: 86a2578ef9dad0baa554a5b799dd86de
+SHA256sum: 8d2fa1e99ecec46b898c2bcdd341c29ff0d9c8aa3e464d4e92cf6c596df09396
+Size: 4585038
 Filename: kernel-vmlinux_3.14-4_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: linux-dreambox version 3.14-4
