@@ -108,7 +108,7 @@ Priority: required
 
 Package: enigma2-plugin-extensions-internet-speedtest
 Version: 1.8
-Section: enigma2
+Section: extensions
 Architecture: all
 Maintainer: madhouse
 MD5Sum: de14ef828f74028940353128c38eadb0
@@ -171,7 +171,7 @@ Priority: optional
 Package: enigma2-plugin-extensions-iptvplayer-pro
 Version: 1.0
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer
-Section: multimedia
+Section: extensions
 Architecture: all
 Maintainer: azroukarim
 MD5Sum: b516768fb98beb4931c6f92938816d24
@@ -202,7 +202,7 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-jedimakerxtream
 Version: 6.37
-Section: misc
+Section: extensions
 Architecture: all
 Maintainer: kiddac
 MD5Sum: ef891d24ce0e9cf72670d0b74de091cb
@@ -285,7 +285,7 @@ Priority: optional
 Package: enigma2-plugin-extensions-myhybridiptv
 Version: 3.0-r1
 Depends: libc6 (>= 2.44), python3-core
-Section: base
+Section: extensions
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: open
 MD5Sum: fca3a975112c9a06a7fbcd7c29b96e8c
@@ -415,7 +415,7 @@ Priority: optional
 Package: enigma2-plugin-extensions-starplay
 Version: 2.2
 Depends: libc6 (>= 2.44), python3-core
-Section: base
+Section: extensions
 Architecture: all
 Maintainer: open
 MD5Sum: 0cfb56ee67b9bdbdc7d6c18c49508037
@@ -495,7 +495,7 @@ Priority: optional
 Package: enigma2-plugin-extensions-xportal
 Version: 4.1
 Depends: python3-requests, python3-twisted, enigma2-plugin-systemplugins-serviceapp, exteplayer3
-Section: base
+Section: extensions
 Architecture: all
 Maintainer: open
 MD5Sum: ed15dc48bf25a2a1e53e05e1a344f3f7
@@ -559,7 +559,7 @@ Package: enigma2-plugin-skins-fullhdglass
 Version: 1.0.93
 Section: skins
 Architecture: all
-Maintainer: Warder
+Maintainer: shamann, Warder
 MD5Sum: 193e244c1c224189f1656ba7f5aee073
 SHA256sum: f41fce41cd6ffe12cac2d2c499a0fbcd443f5e2978cb1b5390bec89b567321da
 Size: 18844132
