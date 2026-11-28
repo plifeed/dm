@@ -512,7 +512,7 @@ Package: enigma2-plugin-skins-aglare-fhd-pli
 Version: 7.3-r1
 Depends: enigma2-plugin-extensions-bitrate, python3-pillow, gettext
 Recommends: enigma2-plugin-extensions-oaweather
-Section: base
+Section: skins
 Architecture: all
 Maintainer: mnasr
 MD5Sum: 749efa2444fca2ad876a94a084b4c193
@@ -527,7 +527,7 @@ Priority: required
 
 Package: enigma2-plugin-skins-cobaltfhd
 Version: V3-16.11.2025
-Section: base
+Section: skins
 Architecture: all
 Maintainer: fhroma
 MD5Sum: 2bd84f9acf3de9477ba1ee3ff126ca30
@@ -542,7 +542,7 @@ Priority: optional
 
 Package: enigma2-plugin-skins-freesat-fhd
 Version: 1.0
-Section: base
+Section: skins
 Architecture: all
 Maintainer: freesat
 MD5Sum: 52e805ef7e19e6ae31a4ea954dea9511
@@ -555,10 +555,25 @@ OE: enigma2-plugin-skins-freesat-fhd
 License: open
 Priority: optional
 
+Package: enigma2-plugin-skins-fullhdglass
+Version: 1.0.93
+Section: skins
+Architecture: all
+Maintainer: Warder
+MD5Sum: 193e244c1c224189f1656ba7f5aee073
+SHA256sum: f41fce41cd6ffe12cac2d2c499a0fbcd443f5e2978cb1b5390bec89b567321da
+Size: 18844132
+Filename: enigma2-plugin-skins-fullhdglass_1.0.93_all.ipk
+Source: enigma2-plugin-skins-fullhdglass.bb
+Description: Skin - Full HD Glass17
+OE: enigma2-plugin-skins-fullhdglass
+License: open
+Priority: optional
+
 Package: enigma2-plugin-skins-madmax-impossible
 Version: 3.4
 Depends: enigma2-plugin-extensions-oaweather
-Section: base
+Section: skins
 Architecture: all
 Maintainer: madhouse
 MD5Sum: 213a313d1e104c70e99c84bf52286621
@@ -575,7 +590,7 @@ Package: enigma2-plugin-skins-luka-fhd-pli
 Version: 1.1
 Depends: enigma2-plugin-extensions-bitrate, python3-pillow, gettext
 Recommends: enigma2-plugin-extensions-oaweather
-Section: base
+Section: skins
 Architecture: all
 Maintainer: mnasr
 MD5Sum: 552cf02bf591d401ec266a52d638c9e9
@@ -592,7 +607,7 @@ Package: enigma2-plugin-skins-maxi-fhd-pli
 Version: 1.0
 Depends: enigma2-plugin-extensions-bitrate, python3-pillow, gettext
 Recommends: enigma2-plugin-extensions-oaweather
-Section: base
+Section: skins
 Architecture: all
 Maintainer: mnasr
 MD5Sum: 59af4f24a428216459204144ac77f40c
@@ -607,7 +622,7 @@ Priority: required
 
 Package: enigma2-plugin-skins-moderonfhd
 Version: 1.03
-Section: skin
+Section: skins
 Architecture: all
 Maintainer: Sharp987
 MD5Sum: 48ae4037bed24ba5f229c3ee0d116bf7
@@ -623,7 +638,7 @@ Priority: optional
 Package: enigma2-plugin-skins-obsidian-fhd
 Version: 1.8.1
 Recommends: enigma2-plugin-extensions-oaweather, enigma2-plugin-skincomponents-obsidian-fhd-cast, enigma2-plugin-skincomponents-obsidian-fhd-dock, enigma2-plugin-skincomponents-obsidian-fhd-edge, enigma2-plugin-skincomponents-obsidian-fhd-k7, enigma2-plugin-skincomponents-obsidian-fhd-matchday, enigma2-plugin-skincomponents-obsidian-fhd-mawaqit, enigma2-plugin-skincomponents-obsidian-fhd-nova, enigma2-plugin-skincomponents-obsidian-fhd-posters, enigma2-plugin-skincomponents-obsidian-fhd-slate, enigma2-plugin-skincomponents-obsidian-fhd-stream, enigma2-plugin-skincomponents-obsidian-fhd-subtitles, enigma2-plugin-skincomponents-obsidian-fhd-synthwave
-Section: skin
+Section: skins
 Architecture: all
 Maintainer: obsidian
 MD5Sum: 5ed9cdfcd2b3f626f5e0dda66e383680
@@ -639,7 +654,7 @@ Priority: optional
 Package: enigma2-plugin-skins-vskin-1080
 Version: 2.27.20260928
 Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
-Section: base
+Section: skins
 Architecture: all
 Maintainer: Kiddac
 MD5Sum: 962047549ac4aae68ccff3a837b6f81e
@@ -656,7 +671,7 @@ Package: enigma2-plugin-skins-xdreamy
 Version: 7.6.0
 Depends: python3-pycairo
 Recommends: enigma2-plugin-extensions-oaweather
-Section: skin
+Section: skins
 Architecture: all
 Maintainer: xDreamy
 MD5Sum: 46af6bfef3c00d9d7ba519a615018e1d
