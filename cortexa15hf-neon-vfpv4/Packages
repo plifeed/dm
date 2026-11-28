@@ -13068,13 +13068,13 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam-dev
 Version: V7.8-git581+1f24d3b0+1f24d3bcce-r0
-Recommends: enigma2-plugin-extensions-worldcam (= V7.8-git581+1f24d3b0+1f24d3bcce-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev, gstreamer1.0-libav-dev, gstreamer1.0-plugins-bad-dev, gstreamer1.0-plugins-ugly-dev, python3-requests-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, streamlink-dev
+Recommends: enigma2-plugin-extensions-worldcam (= V7.8-git581+1f24d3b0+1f24d3bcce-r0), enigma2-plugin-systemplugins-serviceapp-dev, exteplayer3-dev, ffmpeg-dev, gstplayer-dev, gstreamer1.0-libav-dev, gstreamer1.0-plugins-bad-dev, gstreamer1.0-plugins-ugly-dev, python3-requests-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, streamlink-dev, streamlinksrv-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 5ae7c5b7fb1a5999a2f73d62e231d78b
-SHA256sum: 2d9c9e9cb5e76248aa85720d91d3f2b9887b4fa8d7feda8a9ea66f4a04f16800
-Size: 784
+MD5Sum: 9cd752485cf5679e133aeb1b49aec656
+SHA256sum: b6ee993bc213d3c93e135fa6ccefe39c7596983742c9a5f4270ce37f991f5cb2
+Size: 786
 Filename: enigma2-plugin-extensions-worldcam-dev_V7.8-git581+1f24d3b0+1f24d3bcce-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Development files
@@ -13088,9 +13088,9 @@ Version: V7.8-git581+1f24d3b0+1f24d3bcce-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 009771b2974569d82db11ff92fcaa515
-SHA256sum: 0dd591e60b3909165037cf533dad4ab83f59b87220cf542705f96ff07e5cbde7
-Size: 46812
+MD5Sum: e6b24a0adb0326f8315d489ebeaae07b
+SHA256sum: 2deccdedd92d882ff3b45f32b5c8f9f23f8138ffcc5ead0803801ba6ca8734c5
+Size: 46814
 Filename: enigma2-plugin-extensions-worldcam-src_V7.8-git581+1f24d3b0+1f24d3bcce-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists - Source files
@@ -13101,14 +13101,13 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-worldcam
 Version: V7.8-git581+1f24d3b0+1f24d3bcce-r0
-Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer, gstreamer1.0-libav, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, python3-requests, python3-youtube-dl, python3-yt-dlp, streamlink
-Recommends: enigma2-plugin-extensions-streamlinkwrapper, enigma2-plugin-extensions-ytdlpwrapper, enigma2-plugin-extensions-ytdlwrapper
+Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, ffmpeg, gstplayer, gstreamer1.0-libav, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, python3-requests, python3-youtube-dl, python3-yt-dlp, streamlink, streamlinksrv
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: lululla
-MD5Sum: 33826efc795e6dd97a63da869c813184
-SHA256sum: 59c655333616de759e75e41ae1a8958364bde6d6489da4e3e9449eaa90f5adcc
-Size: 6574128
+MD5Sum: 96850c8d6f268cd38d6aaaa7acd3801a
+SHA256sum: 1cd70220917ee45455742eef1f0848609549319dd0428acce77715369d6eedbe
+Size: 6574110
 Filename: enigma2-plugin-extensions-worldcam_V7.8-git581+1f24d3b0+1f24d3bcce-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-worldcam.bb
 Description: Enigma2 Plugin You WorldCam from site and youtube playlists
